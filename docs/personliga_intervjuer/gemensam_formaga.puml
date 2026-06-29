@@ -1,0 +1,89 @@
+@startuml
+title Personliga intervjuer som gemensam förmåga
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam packageStyle rectangle
+skinparam componentStyle rectangle
+skinparam rectangle {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+}
+skinparam database {
+  BackgroundColor #EEF6FF
+  BorderColor #315A7D
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+rectangle "Processer som använder intervjuer" as Processes {
+  rectangle "Tillåtlighetsprövning" as Admissibility
+  rectangle "Sakprövning" as Merits
+  rectangle "Efterföljande ansökningar" as Subsequent
+  rectangle "Omfördelning /\nsäkerhetskontroll" as Relocation
+  rectangle "Överklagande /\nåterförvisning" as Appeal
+}
+
+rectangle "Gemensam intervjuförmåga" as Capability {
+  rectangle "1. Klassificera \nintervjutyp och\nrättslig grund" as Classify
+  rectangle "2. Bedöm om intervju\nkrävs, kan kombineras\neller kan avstås" as Decide
+  rectangle "3. Planera och boka\nintervju, tolk, språk,\nformat och stödbehov" as Plan
+  rectangle "4. Informera sökanden\nom syfte och\nljudinspelning" as Inform
+  rectangle "5. Genomför intervju\nunder sekretess" as Conduct
+  rectangle "6. Spela in ljud,\npauser och avbrott" as Record
+  rectangle "7. Skapa rapport\neller transkript" as Text
+  rectangle "8. Kommentar och\nbekräftelse" as Comment
+  rectangle "9. Tillgängliggör\nunderlag före beslut\noch vid överklagande" as Share
+}
+
+database "Akt / dokument" as CaseFile
+database "Ljudinspelning" as Audio
+database "Rapport / transkript" as Transcript
+database "Auditlogg" as Audit
+
+rectangle "Tvärgående kravområden" as CrossCutting {
+  rectangle "Behörighet och sekretess" as Access
+  rectangle "Kryptering och säker delning" as SecureShare
+  rectangle "Bevarande och gallring" as Retention
+  rectangle "Incident- och avvikelsehantering" as Incident
+  rectangle "Statistik och uppföljning" as Reporting
+}
+
+Processes -down-> Capability : använder
+
+Admissibility -[hidden]-> Merits
+Merits -[hidden]-> Subsequent
+Subsequent -[hidden]-> Relocation
+Relocation -[hidden]-> Appeal
+
+Classify --> Decide
+Decide --> Plan
+Plan --> Inform
+Inform --> Conduct
+Conduct --> Record
+Record --> Text
+Text --> Comment
+Comment --> Share
+
+Record -down-> Audio : sparas i
+Text -down-> Transcript : skapas som
+Audio -down-> CaseFile : ingår i
+Transcript -down-> CaseFile : ingår i
+Share -down-> CaseFile : lämnas ut från
+
+Capability -down-> Audit : loggar händelser
+CrossCutting -up-> Capability : styr och kontrollerar
+
+note right of Capability
+  Bilden visar intervjun som en återanvändbar
+  förmåga, inte som ett krav som bara hör till
+  en enda process.
+
+  Samma intervjumotor behöver därför kunna
+  bära olika rättsliga grunder, intervjutyper,
+  dokumentationskrav och åtkomstregler.
+end note
+
+@enduml
