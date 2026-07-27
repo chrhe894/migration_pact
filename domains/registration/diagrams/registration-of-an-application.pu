@@ -1,0 +1,25 @@
+@startuml
+
+title Registration of an application
+
+start
+
+:Receive request for international protection;
+
+:[[../../../shared/identity/activities/verify-identity.md Verify identity]];
+
+if (Interpreter needed?) then (Yes)
+
+    :[[../../../shared/interpreters/README.md Determine interpreter needs]];
+
+endif
+
+:Register application;
+
+:Issue registration certificate;
+
+:Transfer case to next procedure;
+
+stop
+
+@enduml
