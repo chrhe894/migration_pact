@@ -1,17 +1,140 @@
-# Dokumentation om EU:s migrationspakt
+# Knowledge Base for the EU Migration and Asylum Pact
 
-Det här repo:t används för dokumentationsanalys av EU:s migrations- och asylpakt. Arbetet ska hållas till Markdown- och PlantUML-filer.
+## Om projektet
 
-Börja här:
+Detta repository innehåller en kunskapsbas för EU:s migrations- och asylpakt.
 
-- [Källinventering](docs/source_inventory.md)
-- [Analysramverk](docs/analysis_framework.md)
-- [Översikt över pakten](docs/pact_overview.md)
+Syftet är att strukturera och dokumentera innehållet i EU:s rättsakter på ett sätt som är spårbart, konsekvent och lätt att underhålla.
 
-Arbetsströmmar:
+Projektet bygger på principen att varje uppgift ska kunna härledas till sin rättsliga källa eller tydligt identifieras som en tolkning eller en öppen fråga.
 
-- [Efterföljande ansökningar](docs/efterfoljande_ansokningar/README.md)
-- [Statistik](docs/statistik/README.md)
-- [Personliga intervjuer](docs/personliga_intervjuer/README.md)
+Projektet är under aktiv utveckling och byggs stegvis.
 
-Lokala käll-PDF:er finns i `ref_material/`.
+---
+
+## Syfte
+
+Projektet har följande mål:
+
+- beskriva EU:s migrations- och asylpakt på ett strukturerat sätt,
+- säkerställa att varje regel kan spåras till sin rättsliga källa,
+- skilja mellan lagtext, tolkningar och öppna frågor,
+- dokumentera processer och samband mellan regler,
+- skapa en långsiktigt hållbar kunskapsbas.
+
+---
+
+## Omfattning
+
+Projektet omfattar främst:
+
+- EU-förordningar,
+- EU-direktiv när de är relevanta,
+- bilagor,
+- skäl (recitals),
+- officiell vägledning från EU:s institutioner när den kompletterar lagstiftningen.
+
+Projektet omfattar inte:
+
+- nationell lagstiftning,
+- nationell tillämpning,
+- myndigheters interna rutiner,
+- juridisk rådgivning.
+
+---
+
+## Grundprinciper
+
+### EU-rätten är den primära källan
+
+Alla påståenden ska kunna härledas till en rättslig källa eller tydligt anges som en tolkning.
+
+### Spårbarhet
+
+Varje regel ska kunna följas tillbaka till relevant artikel, skäl, bilaga eller annan rättskälla.
+
+### En regel dokumenteras en gång
+
+En rättsregel dokumenteras endast en gång och återanvänds därefter genom referenser.
+
+### Diagram beskriver struktur
+
+PlantUML används för att visualisera processer, flöden och relationer.
+
+Diagram innehåller inte den rättsliga innebörden utan fungerar som ett komplement till dokumentationen.
+
+### Modulär dokumentation
+
+Repositoryt består av många mindre dokument istället för ett fåtal stora dokument. Det gör innehållet enklare att underhålla, granska och återanvända.
+
+---
+
+## Repositorystruktur
+
+| Mapp | Innehåll |
+|------|----------|
+| `concepts/` | Begrepp och definitioner |
+| `rules/` | Regler och rättsliga krav |
+| `processes/` | Processbeskrivningar |
+| `diagrams/` | PlantUML-diagram |
+| `interpretations/` | Tolkningar och analyser |
+| `open_questions/` | Öppna frågor |
+| `references/` | Referenser och översikter över rättsakter |
+| `templates/` | Mallar för projektets dokument |
+
+---
+
+## Språk
+
+Repositoryts tekniska struktur använder engelska.
+
+Det gäller exempelvis:
+
+- katalognamn,
+- filnamn,
+- mallar.
+
+Projektets innehåll skrivs på svenska.
+
+Det gäller bland annat:
+
+- dokumentation,
+- analyser,
+- kommentarer,
+- diagram.
+
+---
+
+## Arbetssätt
+
+Projektet utvecklas stegvis.
+
+Varje område färdigställs innan nästa påbörjas.
+
+För varje område eftersträvas:
+
+- identifierade begrepp,
+- dokumenterade regler,
+- processbeskrivningar,
+- diagram,
+- tolkningar,
+- öppna frågor,
+- full spårbarhet till rättskällorna.
+
+---
+
+## Status
+
+Projektet är under aktiv utveckling.
+
+Repositoryts struktur och innehåll kommer att utvecklas över tid, men de grundläggande principerna om spårbarhet, modularitet och tydliga källhänvisningar ska bestå.
+
+---
+
+## Ansvarsfriskrivning
+
+Detta är ett fristående kunskapsprojekt.
+
+Projektet är inte en officiell publikation från Europeiska unionen eller någon nationell myndighet och ska inte betraktas som juridisk rådgivning eller ett rättsligt bindande dokument.
+
+Den officiella lagstiftningen finns alltid i Europeiska unionens officiella tidning (EUT).
