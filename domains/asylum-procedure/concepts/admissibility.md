@@ -1,0 +1,33 @@
+<div align="right">← <a href="../README.md">Asylum Procedure</a></div>
+
+# CON-ASY-002
+
+## Begrepp
+
+Admissibility
+
+---
+
+## Definition
+
+Den preliminära bedömning varigenom den beslutande myndigheten avgör om en ansökan kan tas upp till prövning i sak, eller om den ska avvisas på någon av de grunder som anges i APR artikel 38.
+
+---
+
+## Rättslig grund
+
+[APR artikel 38](../articles/apr-038.md)
+
+---
+
+## Relaterade begrepp
+
+- [CON-ASY-003 Examination on the merits](examination-on-the-merits.md)
+- [CON-ASY-005 Subsequent application](subsequent-application.md)
+
+---
+
+## Används i
+
+- [ART-APR-038](../articles/apr-038.md)
+- [PROC-ASY-001 Examine an application](../processes/examine-an-application.md)

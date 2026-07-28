@@ -1,0 +1,75 @@
+' ============================================================================
+' Diagram: Examine an application
+'
+' Syfte: Visualiserar prövningsförfarandet från inlämnad ansökan till beslut.
+'
+' Källa: APR artiklarna 34–42
+'
+' Relaterade regler:
+'   RULE-APR-034-001, RULE-APR-034-002, RULE-APR-035-001
+'   RULE-APR-038-001, RULE-APR-042-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml examine-an-application
+
+title Examine an application
+
+start
+
+:Ansökan inlämnad — ärendet till beslutande myndigheten;
+
+note right
+  Tidsfrist: 6 månader
+  Påskyndat: 3 månader
+  Komplext: upp till 15 månader
+end note
+
+:[[../rules/rule-apr-038-001.md Upptagandeprövning (admissibility)]];
+
+if (Ansökan tillåtlig?) then (Nej)
+
+    :Ansökan avvisas;
+
+    :Återvändandebeslut utfärdas;
+
+    stop
+
+endif
+
+if (Grunder för påskyndat förfarande? (art. 42)) then (Ja)
+
+    :[[../rules/rule-apr-042-001.md Påskyndat förfarande inleds]];
+
+endif
+
+:Personlig intervju genomförs;
+
+:[[../rules/rule-apr-034-001.md Prövning i sak — individuell, objektiv, opartisk]];
+
+:[[../rules/rule-apr-034-002.md Pröva mot flyktingstatus och subsidiärt skydd]];
+
+if (Flyktingstatus?) then (Ja)
+
+    :Flyktingstatus beviljas;
+
+else (Nej)
+
+    if (Subsidiärt skydd?) then (Ja)
+
+        :Status som subsidiärt skyddsbehövande beviljas;
+
+    else (Nej)
+
+        :Ansökan avslås;
+
+        :Återvändandebeslut utfärdas (art. 37);
+
+    endif
+
+endif
+
+stop
+
+@enduml
