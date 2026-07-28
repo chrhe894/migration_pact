@@ -32,7 +32,8 @@
 - [x] APR artikel 40 — Uttryckligt återkallande
 - [x] APR artikel 41 — Implicit återkallande
 - [x] APR artikel 42 — Påskyndat förfarande
-- [ ] APR artikel 55 — Efterföljande ansökningar (nämns men ej fullständigt dokumenterad)
+- [x] APR artikel 55 — Efterföljande ansökningar
+- [x] APR artikel 56 — Undantag från rätt att stanna vid efterföljande ansökningar
 
 ---
 
@@ -45,12 +46,16 @@
 - [x] RULE-APR-038-001 — Grunder för avvisning
 - [x] RULE-APR-042-001 — Grunder för påskyndat förfarande
 - [x] RULE-APR-042-002 — Tidsfrist tre månader (påskyndat)
+- [x] RULE-APR-055-001 — Förhandsprövning av nya omständigheter
+- [x] RULE-APR-055-002 — Avvisning vid avsaknad av nya omständigheter
+- [x] RULE-APR-056-001 — Undantag från rätt att stanna
 
 ---
 
 ## Processer
 
 - [x] PROC-ASY-001 — Examine an application
+- [x] PROC-ASY-002 — Subsequent application
 
 ---
 

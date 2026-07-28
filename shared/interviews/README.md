@@ -8,10 +8,12 @@ Denna shared-modul dokumenterar den personliga intervjun som en central aktivite
 
 ## Primära rättskällor
 
-- [APR artikel 11](../../domains/asylum-procedure/articles/apr-034.md) — Intervju för att underlätta ansvarsbestämning
+- APR artikel 11 — Intervju för att underlätta ansvarsbestämning
 - APR artikel 12 — Intervju om grunderna för ansökan
 - APR artikel 13 — Krav på de personliga intervjuerna
 - APR artikel 14 — Rapportering och inspelning av intervjun
+
+*Artiklarna 11–14 är ännu inte dokumenterade som egna artikelfiler. De tillhör APR kapitel II avsnitt II och är relevanta för domänerna asylum-procedure och responsibility.*
 
 ---
 

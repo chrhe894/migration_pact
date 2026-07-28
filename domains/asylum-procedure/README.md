@@ -29,6 +29,7 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 | Process | Beskrivning |
 |---------|-------------|
 | [PROC-ASY-001 Examine an application](processes/examine-an-application.md) | Från inlämnad ansökan till beslut |
+| [PROC-ASY-002 Subsequent application](processes/subsequent-application.md) | Hantering av efterföljande ansökan |
 
 ---
 
