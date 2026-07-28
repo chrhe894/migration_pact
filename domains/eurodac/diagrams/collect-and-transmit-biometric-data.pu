@@ -1,0 +1,25 @@
+@startuml
+title PROC-EUR-001 Collect and transmit biometric data
+
+start
+:Konstatera Eurodac-kategori;
+:Informera personen;
+:[[../rules/rule-eur-013-001.md Ta biometriska uppgifter]];
+:[[../rules/rule-eur-013-002.md Respektera värdighet och integritet]];
+
+if (Underårig?) then (ja)
+  :[[../rules/rule-eur-014-001.md Tillämpa särskilda garantier]];
+endif
+
+:Sammanställ dataset;
+
+if (Asylsökande?) then (ja)
+  :[[../rules/rule-eur-015-001.md Överför dataset för asylsökande]];
+  :[[../rules/rule-eur-029-001.md Lagra i tio år]];
+else (person som vistas olagligt)
+  :[[../rules/rule-eur-023-001.md Överför dataset för olaglig vistelse]];
+  :[[../rules/rule-eur-029-002.md Lagra i fem år]];
+endif
+
+stop
+@enduml

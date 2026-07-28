@@ -23,7 +23,7 @@ Personen har genomgått screening och hänvisats till rätt förfarande med scre
 3. Preliminär hälsokontroll genomförs av medicinsk personal.
 4. Preliminär sårbarhetskontroll genomförs av specialiserad personal.
 5. Identitet fastställs eller verifieras ([RULE-SCR-014-001](../rules/rule-scr-014-001.md)).
-6. Biometriska uppgifter registreras i Eurodac om ej redan skett.
+6. Biometriska uppgifter registreras i Eurodac om ej redan skett ([PROC-EUR-001](../../eurodac/processes/collect-and-transmit-biometric-data.md)).
 7. Säkerhetskontroll genomförs mot EU-databaser ([RULE-SCR-015-001](../rules/rule-scr-015-001.md)).
 8. Screeningformulär fylls i ([RULE-SCR-017-001](../rules/rule-scr-017-001.md)).
 9. Screening avslutas och personen hänvisas till rätt förfarande ([RULE-SCR-018-001](../rules/rule-scr-018-001.md)).
@@ -73,6 +73,7 @@ Om det under screeningen framkommer att personen uppfyller inresevillkoren ska s
 
 - [Verify identity](../../../shared/identity/activities/verify-identity.md)
 - [Determine interpreter needs](../../../shared/interpreters/activities/determine-interpreter-needs.md)
+- [Collect and transmit biometric data](../../eurodac/processes/collect-and-transmit-biometric-data.md)
 
 ---
 

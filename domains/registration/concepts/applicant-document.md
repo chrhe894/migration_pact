@@ -38,5 +38,7 @@ Handlingen är inte ett identitetsbevis men ska anses vara tillräckligt för at
 
 ## Används i
 
+- [ART-APR-028](../articles/apr-028.md)
 - [ART-APR-029](../articles/apr-029.md)
+- [PROC-REG-002 Lodging an application](../processes/lodging-an-application.md)
 - [PROC-REG-003 Issue applicant documents](../processes/issue-applicant-documents.md)

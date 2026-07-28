@@ -43,7 +43,7 @@ Dokumentera processen för registrering av en ansökan om internationellt skydd.
 - Tolkningar
 - Öppna frågor
 
-**Status:** Planerad
+**Status:** Pågår
 
 ---
 
@@ -53,7 +53,7 @@ Dokumentera processen för registrering av en ansökan om internationellt skydd.
 
 Dokumentera screeningförfarandet.
 
-**Status:** Planerad
+**Status:** Pågår
 
 ---
 
@@ -63,7 +63,7 @@ Dokumentera screeningförfarandet.
 
 Dokumentera registrering och behandling enligt Eurodacförordningen.
 
-**Status:** Planerad
+**Status:** Pågår
 
 ---
 

@@ -25,8 +25,9 @@ Registreringen är den juridiska milstolpe som inleder det formella förfarandet
 ## Relaterade begrepp
 
 - [CON-REG-001 Application for international protection](application-for-international-protection.md)
-- [CON-REG-005 Lodging](lodging.md)
+- [CON-REG-002 Applicant](applicant.md)
 - [CON-REG-004 Registration authority](registration-authority.md)
+- [CON-REG-005 Lodging](lodging.md)
 
 ---
 

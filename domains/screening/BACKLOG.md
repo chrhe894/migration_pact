@@ -24,14 +24,14 @@
 ## Artiklar
 
 - [x] Screeningförordningen artikel 5 — Tillämpningsområde vid yttre gräns
-- [ ] Screeningförordningen artikel 6 — Tillstånd att resa in
+- [x] Screeningförordningen artikel 6 — Tillstånd att resa in
 - [x] Screeningförordningen artikel 7 — Screening inom territoriet
 - [x] Screeningförordningen artikel 8 — Krav rörande screening
 - [ ] Screeningförordningen artikel 9 — Skyldigheter för tredjelandsmedborgare
 - [ ] Screeningförordningen artikel 10 — Övervakning av grundläggande rättigheter
-- [ ] Screeningförordningen artikel 11 — Rätten till information
+- [x] Screeningförordningen artikel 11 — Rätten till information
 - [x] Screeningförordningen artikel 12 — Preliminära hälsokontroller och sårbarhet
-- [ ] Screeningförordningen artikel 13 — Garantier för underåriga
+- [x] Screeningförordningen artikel 13 — Garantier för underåriga
 - [x] Screeningförordningen artikel 14 — Identifiering eller verifiering av identitet
 - [x] Screeningförordningen artikel 15 — Säkerhetskontroll
 - [ ] Screeningförordningen artikel 16 — Åtgärder för identifiering och säkerhetskontroller
@@ -51,9 +51,11 @@
 - [x] RULE-SCR-015-001 — Säkerhetskontroll mot EU-databaser
 - [x] RULE-SCR-017-001 — Screeningformulär
 - [x] RULE-SCR-018-001 — Hänvisning till rätt förfarande
+- [x] RULE-SCR-006-001 — Inresa nekas under screening
+- [x] RULE-SCR-011-001 — Rätt till information
+- [x] RULE-SCR-013-001 — Barnets bästa i främsta rummet
+- [x] RULE-SCR-013-002 — Företrädare för ensamkommande barn
 - [ ] Regler från artikel 9 (samarbetsskyldigheter)
-- [ ] Regler från artikel 11 (rätt till information)
-- [ ] Regler från artikel 13 (garantier för underåriga)
 
 ---
 
@@ -75,10 +77,10 @@
 
 - [x] identity — verify-identity
 - [x] interpreters
-- [ ] biometrics — behöver dokumenteras
-- [ ] security-checks — behöver dokumenteras
-- [ ] children — delvis dokumenterat
-- [ ] vulnerable-persons — behöver dokumenteras
+- [x] biometrics — README skapad
+- [x] security-checks — README skapad
+- [x] children — README skapad
+- [x] vulnerable-persons — README skapad
 - [x] time-limits
 
 ---

@@ -88,8 +88,8 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 | [Asylum procedure](domains/asylum-procedure/) | APR | Planerad |
 | [Border procedure](domains/border-procedure/) | APR | Planerad |
 | [Screening](domains/screening/README.md) | Screeningförordningen | Pågår |
-| [Eurodac](domains/eurodac/) | Eurodacförordningen | Planerad |
-| [Responsibility](domains/responsibility/) | AMMR | Planerad |
+| [Eurodac](domains/eurodac/README.md) | Eurodacförordningen | Pågår |
+| [Responsibility](domains/responsibility/README.md) | AMMR | Pågår |
 | [Solidarity](domains/solidarity/) | AMMR | Planerad |
 | [Crisis](domains/crisis/) | Krishanteringsförordningen | Planerad |
 | [Return border procedure](domains/return-border-procedure/) | Return Border Procedure | Planerad |

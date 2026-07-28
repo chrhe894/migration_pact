@@ -32,4 +32,7 @@ En ansökan genom vilken en tredjelandsmedborgare eller statslös person begär 
 
 - [ART-APR-027](../articles/apr-027.md)
 - [ART-APR-028](../articles/apr-028.md)
+- [ART-APR-029](../articles/apr-029.md)
 - [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+- [PROC-REG-002 Lodging an application](../processes/lodging-an-application.md)
+- [PROC-REG-003 Issue applicant documents](../processes/issue-applicant-documents.md)

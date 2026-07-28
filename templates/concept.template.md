@@ -1,6 +1,12 @@
 <div align="right">← <a href="../README.md">Registration</a></div>
 
-# Begrepp
+# CON-[DOM]-[NNN]
+
+## Begrepp
+
+[Begreppets namn]
+
+---
 
 ## Definition
 
@@ -10,25 +16,8 @@
 
 ## Rättslig grund
 
-<!-- Länka till relevant artikel-fil när den finns. Exempel:
-[APR artikel 27](../articles/apr-027.md), punkt 1
--->
-
----
-
-## Relaterade begrepp
-
-<!-- Länka till närliggande begrepp. Exempel:
-- [CON-REG-003 Registration](registration.md)
--->
-
----
-
-## Används i
-
-<!-- Länka till relevanta artiklar, processer eller shared activities. Exempel:
-- [ART-APR-027](../articles/apr-027.md)
-- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+<!-- Länka till relevant artikel. Exempel:
+[APR artikel 27](../articles/apr-027.md)
 -->
 
 ---
@@ -36,3 +25,20 @@
 ## Kommentar
 
 <!-- Valfritt. -->
+
+---
+
+## Relaterade begrepp
+
+<!-- Länka till relaterade begrepp. Exempel:
+- [CON-REG-001 Application for international protection](application-for-international-protection.md)
+-->
+
+---
+
+## Används i
+
+<!-- Länka till artiklar och processer som använder begreppet. Exempel:
+- [ART-APR-027](../articles/apr-027.md)
+- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+-->

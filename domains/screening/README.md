@@ -13,9 +13,12 @@ Screening är ett förfarande som genomförs vid de yttre gränserna eller inom 
 ## Primära rättskällor
 
 - [Screening artikel 5](articles/scr-005.md) — Screening vid den yttre gränsen
+- [Screening artikel 6](articles/scr-006.md) — Tillstånd att resa in
 - [Screening artikel 7](articles/scr-007.md) — Screening inom territoriet
 - [Screening artikel 8](articles/scr-008.md) — Krav rörande screening
+- [Screening artikel 11](articles/scr-011.md) — Rätten till information
 - [Screening artikel 12](articles/scr-012.md) — Preliminär hälsokontroll och sårbarhet
+- [Screening artikel 13](articles/scr-013.md) — Garantier för underåriga
 - [Screening artikel 14](articles/scr-014.md) — Identifiering eller verifiering av identitet
 - [Screening artikel 15](articles/scr-015.md) — Säkerhetskontroll
 - [Screening artikel 16](articles/scr-016.md) — Åtgärder för identifiering och säkerhetskontroller
@@ -79,6 +82,12 @@ Screening avslutas
 | [RULE-SCR-005-001](rules/rule-scr-005-001.md) | Screening obligatorisk vid otillåten gränspassage och landsättning |
 | [RULE-SCR-005-002](rules/rule-scr-005-002.md) | Screening av asylsökande vid gränsövergångsställen |
 
+### Screening artikel 6 — Inresa
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-SCR-006-001](rules/rule-scr-006-001.md) | Inresa nekas under pågående screening |
+
 ### Screening artikel 7 — Screening inom territoriet
 
 | Regel | Beskrivning |
@@ -92,6 +101,19 @@ Screening avslutas
 | [RULE-SCR-008-001](rules/rule-scr-008-001.md) | Tidsfrist — sju dagar vid yttre gräns |
 | [RULE-SCR-008-002](rules/rule-scr-008-002.md) | Tidsfrist — tre dagar inom territoriet |
 | [RULE-SCR-008-003](rules/rule-scr-008-003.md) | Screening ska omfatta obligatoriska delar |
+
+### Screening artikel 11 — Information
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-SCR-011-001](rules/rule-scr-011-001.md) | Skyldighet att informera under screening |
+
+### Screening artikel 13 — Underåriga
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-SCR-013-001](rules/rule-scr-013-001.md) | Barnets bästa i främsta rummet |
+| [RULE-SCR-013-002](rules/rule-scr-013-002.md) | Företrädare för ensamkommande barn |
 
 ### Screening artikel 14 — Identitet
 
