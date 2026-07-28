@@ -1,0 +1,106 @@
+' ============================================================================
+' Diagram: End-to-end — hela förfarandekedjan
+'
+' Syfte: Övergripande bild som visar en persons väg genom hela systemet,
+'        från ankomst till slutligt utfall. Visar vilka domäner som
+'        aktiveras i vilken ordning.
+'
+' Status: Draft
+' ============================================================================
+
+@startuml end-to-end-overview
+
+title EU:s migrations- och asylpakt — end-to-end
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+skinparam partition {
+  BackgroundColor #FAFAFA
+  BorderColor #999999
+}
+
+start
+
+partition "**SCREENING** (7 dagar)" {
+  :Person omhändertas vid yttre gräns
+  eller landsätts efter sök-och-räddning;
+  :Identifiering, hälsokontroll,
+  sårbarhet, säkerhetskontroll;
+  :Screeningformulär fylls i;
+  :Biometriska uppgifter tas → Eurodac;
+}
+
+if (Asylansökan gjord?) then (Nej)
+  :Återvändandeförfarande;
+  stop
+else (Ja)
+endif
+
+partition "**REGISTRATION** (5 dagar)" {
+  :Ansökan registreras;
+  :Registreringshandling utfärdas;
+  :Eurodac-dataset överförs (72h);
+}
+
+partition "**INLÄMNANDE** (21 dagar / 5 vid gräns)" {
+  :Sökanden lämnar in ansökan;
+  :Sökandehandling utfärdas;
+}
+
+partition "**ANSVARSBEDÖMNING**" {
+  :Tillämpa kriterierna (art. 24–33);
+  if (Ansvarig stat = denna stat?) then (Nej)
+    :Framställan om övertagande (2 mån);
+    :Överföring (6 mån);
+    note right
+      Om ej i tid →
+      ansvaret övergår
+    end note
+  else (Ja)
+  endif
+}
+
+if (Gränsförfarande? (art. 43/45)) then (Ja)
+
+  partition "**GRÄNSFÖRFARANDE** (12 veckor)" {
+    :Prövning vid gränsen;
+    if (Beviljat?) then (Ja)
+      :Inresa tillåts;
+      stop
+    else (Nej)
+      partition "**RETURN BORDER** (12 veckor)" {
+        :Återvändandebeslut;
+        :Avlägsnande eller frivillig avresa;
+      }
+      stop
+    endif
+  }
+
+else (Nej)
+
+  partition "**PRÖVNING** (6 mån / 3 mån påskyndat)" {
+    :Admissibility;
+    :Personlig intervju;
+    :Prövning i sak;
+    if (Beviljat?) then (Ja)
+      :Internationellt skydd;
+      stop
+    else (Nej)
+      :Återvändandedirektivet;
+      stop
+    endif
+  }
+
+endif
+
+@enduml

@@ -1,0 +1,75 @@
+' ============================================================================
+' Diagram: Made vs Registered vs Lodged
+'
+' Syfte: Förklarar de tre juridiska milstolparna visuellt —
+'        vad som händer, vem som gör det och vad det utlöser.
+'
+' Källa: APR artiklarna 26, 27, 28, 29
+'
+' Status: Draft
+' ============================================================================
+
+@startuml made-vs-registered-vs-lodged
+
+title Ansökans tre milstolpar
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "**APPLICATION MADE** (Ansökan görs)" {
+  :Person uttrycker önskan
+  om internationellt skydd;
+  note right
+    == Vem ==
+    Sökanden (inför valfri myndighet)
+    == Vad utlöses ==
+    - Registreringsfrist börjar löpa (5 dagar)
+    - Non-refoulement gäller
+    - Rätt till information
+    == Tidpunkt ==
+    Kan ske muntligt, vid gräns,
+    i förvar, var som helst
+  end note
+}
+
+partition "**APPLICATION REGISTERED** (Ansökan registreras)" {
+  :Behörig myndighet registrerar
+  ansökan formellt;
+  note right
+    == Vem ==
+    Registreringsmyndigheten
+    == Vad utlöses ==
+    - Registreringshandling utfärdas (art. 29.1)
+    - Inlämningsfrist börjar löpa (21 dagar)
+    - Eurodac-dataset överförs (72h)
+    - Ansvarsbestämningens "fryspunkt" (AMMR art. 24.2)
+    == Frist ==
+    5 dagar (15 vid massinflöde, 4 veckor vid kris)
+  end note
+}
+
+partition "**APPLICATION LODGED** (Ansökan lämnas in)" {
+  :Sökanden lämnar in ansökan
+  personligen;
+  note right
+    == Vem ==
+    Sökanden (till behörig myndighet)
+    == Vad utlöses ==
+    - Sökandehandling utfärdas (art. 29.4)
+    - Prövningstidsfrist börjar löpa (6 mån)
+    - Registreringshandlingen återkallas
+    == Frist ==
+    21 dagar (5 dagar i gränsförfarande,
+    2 månader vid massinflöde)
+  end note
+}
+
+stop
+
+@enduml

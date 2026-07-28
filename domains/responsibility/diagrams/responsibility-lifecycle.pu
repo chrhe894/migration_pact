@@ -1,0 +1,83 @@
+' ============================================================================
+' Diagram: Ansvarets livscykel
+'
+' Syfte: Visar hela livscykeln för en stats ansvar — från fastställande
+'        till upphörande — med alla vägar som leder till att ansvar
+'        uppstår, övergår eller upphör.
+'
+' Källa: AMMR artiklarna 24, 33, 35, 36, 37, 46
+'
+' Status: Draft
+' ============================================================================
+
+@startuml responsibility-lifecycle
+
+title Ansvarets livscykel
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Ansvar uppstår" {
+  if (Hur?) then (Kriterierna)
+    :Kriterierna (art. 25–33)
+    ger en ansvarig stat;
+  elseif (Tidsfrist missad)
+    :Fastställande stat
+    skickade inte framställan
+    i tid (2 mån) →
+    blir själv ansvarig;
+  elseif (Tyst godkännande)
+    :Anmodad stat svarade inte
+    i tid (1 mån) →
+    anses ha godtagit;
+  elseif (Diskretionär)
+    :Stat väljer att överta
+    (art. 35);
+  else (Ej överförd i tid)
+    :Överförande stat missade
+    6-månadersfristen →
+    behåller ansvaret;
+  endif
+}
+
+:Stat är ansvarig;
+
+partition "Ansvar pågår" {
+  :Skyldig att pröva / slutföra
+  prövning av ansökan (art. 36);
+  :Skyldig att återta person
+  som dyker upp i annan stat;
+}
+
+partition "Ansvar upphör" {
+  if (Hur upphör det?) then (Uppehållshandling)
+    :Annan stat utfärdar
+    uppehållshandling →
+    ansvar övergår;
+  elseif (Lämnat EU 9 mån)
+    :Personen bevisligen utanför
+    EU i minst 9 månader;
+  elseif (Avlägsnande verkställt)
+    :Personen lämnat EU frivilligt
+    eller med tvång efter avslag;
+  elseif (15 mån efter gränsförfarande)
+    :15 månader efter slutligt
+    avslagsbeslut i gränsförfarande;
+  elseif (Ej överförd)
+    :Överförande stat missade frist →
+    **ansvaret övergick dit**;
+  else (Ny ansökan)
+    :Ny ansökan efter upphörandeperiod
+    → nytt förfarande inleds;
+  endif
+}
+
+stop
+
+@enduml

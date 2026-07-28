@@ -1,0 +1,94 @@
+' ============================================================================
+' Diagram: Reguljärt vs Påskyndat vs Gränsförfarande
+'
+' Syfte: Tre parallella spår via if/elseif/else för att visa
+'        de tre prövningsförfarandena sida vid sida.
+'
+' Källa: APR artiklarna 34–35, 42, 43, 51, 53
+'
+' Status: Draft
+' ============================================================================
+
+@startuml border-vs-regular-comparison
+
+title Prövningsförfaranden — jämförelse
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Ansökan registrerad;
+
+if (Vilken typ av förfarande?) then (Reguljärt)
+
+  :Inlämnande: **21 dagar**;
+  :Plats: på territoriet;
+  :Grunder: alla ansökningar;
+  :Admissibility → Intervju → Sak;
+  :Tidsfrist: **6 månader**
+  (15 vid komplexitet);
+  :Beslut;
+  if (Beviljat?) then (Ja)
+    :Uppehållstillstånd;
+  else (Nej)
+    :Återvändandedirektivet
+    (2008/115/EG);
+  endif
+
+elseif (Påskyndat)
+
+  :Inlämnande: **21 dagar**;
+  :Plats: på territoriet;
+  :Grunder (art. 42):
+  säkert land, vilseledning,
+  säkerhetshot, fördröjning,
+  vägrar fingeravtryck;
+  :Admissibility → Intervju → Sak;
+  :Tidsfrist: **3 månader**;
+  :Beslut;
+  if (Beviljat?) then (Ja)
+    :Uppehållstillstånd;
+  else (Nej)
+    :Återvändandedirektivet
+    (2008/115/EG);
+  endif
+
+else (Gränsförfarande)
+
+  :Inlämnande: **5 dagar**;
+  :Plats: vid gränsen
+  (ingen inresa);
+  :Grunder (art. 45):
+  <20% bifall, säkerhetshot,
+  vilseledning;
+  note right
+    Undantag (art. 53):
+    ensamkommande barn,
+    särskilda behov
+  end note
+  :Admissibility → Intervju → Sak;
+  :Tidsfrist: **12 veckor**
+  (18 vid kris);
+  :Beslut;
+  if (Beviljat?) then (Ja)
+    :Inresa tillåts;
+  else (Nej)
+    :Return border procedure
+    (12 veckor till);
+  endif
+  note right
+    Om 12v utan beslut →
+    inresa tillåts →
+    reguljärt tar vid
+  end note
+
+endif
+
+stop
+
+@enduml

@@ -1,0 +1,100 @@
+' ============================================================================
+' Diagram: Screening → Registration → Eurodac — handoff mellan myndigheter
+'
+' Syfte: Förklarande bild som visar hur ärendet överlämnas mellan
+'        screeningmyndighet, registreringsmyndighet och Eurodac-systemet,
+'        med tidsfrister och informationsflöden.
+'
+' Källa: Screeningförordningen art. 17–18, APR art. 27, Eurodac art. 15
+'
+' Status: Draft
+' ============================================================================
+
+@startuml screening-to-registration-handoff
+
+title Screening → Registration → Eurodac — överlämning
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Screeningmyndighet" {
+  :Screening genomförs;
+  note right
+    == Vad skapas ==
+    Screeningformulär (art. 17)
+    med: identitet, hälsa,
+    sårbarhet, säkerhetskontroll,
+    familjeuppgifter
+  end note
+
+  :Biometriska uppgifter tas
+  (fingeravtryck + ansiktsbild);
+  note right
+    Uppgifterna tas EN gång
+    och används för både
+    identifiering och Eurodac
+  end note
+
+  :Screening avslutas (art. 18);
+  :Hänvisning till registreringsmyndighet;
+  note right
+    == Vad överlämnas ==
+    Screeningformuläret
+    + biometriska uppgifter
+  end note
+}
+
+partition "Registreringsmyndighet" {
+  :Tar emot formuläret;
+  note right
+    == Uppgifter som inte
+    behöver samlas in igen ==
+    Namn, födelsedatum, kön,
+    medborgarskap, handlingar
+    (APR art. 27.1 — "kan komma
+    från screeningformuläret")
+  end note
+
+  :Registrerar ansökan (5 dagar);
+  :Utfärdar registreringshandling (art. 29.1);
+}
+
+partition "Eurodac" {
+  :Dataset överförs (72 timmar);
+  note right
+    == Vad registreras ==
+    Biometriska uppgifter
+    + personuppgifter
+    + ansvarig stat
+    ---
+    Eurodac-träff kan utlösa
+    ansvarsförfarande (AMMR)
+  end note
+
+  :Dataset lagras;
+}
+
+partition "Ansvarsbedömning" {
+  :Fastställande stat inleder
+  förfarandet (AMMR art. 38);
+  note right
+    Startar parallellt med
+    eller efter registrering
+  end note
+}
+
+stop
+
+@enduml

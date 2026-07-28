@@ -109,6 +109,7 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 | [Biometrics](shared/biometrics/) | Biometriska uppgifter |
 | [Security checks](shared/security-checks/) | Säkerhetskontroller |
 | [Interviews](shared/interviews/README.md) | Personliga intervjuer |
+| [Statistics](shared/statistics/README.md) | Datapunkter och beräkningar |
 
 ---
 
