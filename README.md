@@ -86,7 +86,7 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 |-------|------------|--------|
 | [Registration](domains/registration/README.md) | APR | Pågår |
 | [Asylum procedure](domains/asylum-procedure/README.md) | APR | Pågår |
-| [Border procedure](domains/border-procedure/) | APR | Planerad |
+| [Border procedure](domains/border-procedure/README.md) | APR | Pågår |
 | [Screening](domains/screening/README.md) | Screeningförordningen | Pågår |
 | [Eurodac](domains/eurodac/README.md) | Eurodacförordningen | Pågår |
 | [Responsibility](domains/responsibility/README.md) | AMMR | Pågår |
