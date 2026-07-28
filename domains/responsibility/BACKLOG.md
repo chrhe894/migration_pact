@@ -39,15 +39,18 @@
 
 ## Artiklar — Övrigt
 
-- [ ] AMMR artikel 34 — Personer i beroendeställning
+- [x] AMMR artikel 34 — Personer i beroendeställning
 - [x] AMMR artikel 35 — Diskretionär bedömning
-- [ ] AMMR artikel 36 — Den ansvariga statens skyldigheter
-- [ ] AMMR artikel 37 — Ansvarets upphörande
-- [ ] AMMR artikel 38 — Inledande av förfarandet
-- [ ] AMMR artikel 39 — Framställan om övertagande
-- [ ] AMMR artikel 40 — Svar på framställan om övertagande
-- [ ] AMMR artikel 41 — Avisering om återtagande
-- [ ] AMMR artikel 42–46 — Överföringsförfarande
+- [x] AMMR artikel 36 — Den ansvariga statens skyldigheter
+- [x] AMMR artikel 37 — Ansvarets upphörande
+- [x] AMMR artikel 38 — Inledande av förfarandet
+- [x] AMMR artikel 39 — Framställan om övertagande
+- [x] AMMR artikel 40 — Svar på framställan om övertagande
+- [x] AMMR artikel 41 — Avisering om återtagande
+- [x] AMMR artikel 42 — Överföringsbeslut
+- [x] AMMR artikel 43 — Rättsmedel
+- [x] AMMR artikel 46 — Överföring
+- [ ] AMMR artiklarna 44–45 — Suspensiv verkan och garantier
 
 ---
 
@@ -66,8 +69,16 @@
 - [x] RULE-AMMR-033-001 — Irreguljär inresa
 - [x] RULE-AMMR-033-002 — Tidsbegränsning av ansvar
 - [x] RULE-AMMR-035-001 — Diskretionär bedömning
-- [ ] Regler för artikel 34 (beroendeställning)
-- [ ] Regler för artiklarna 36–46 (skyldigheter, upphörande, övertagande)
+- [x] RULE-AMMR-034-001 — Sammanförande av beroendesökande
+- [x] RULE-AMMR-036-001 — Skyldighet att överta och återta
+- [x] RULE-AMMR-037-001 — Ansvarets upphörande
+- [x] RULE-AMMR-038-001 — Inleda förfarandet utan dröjsmål
+- [x] RULE-AMMR-039-001 — Tidsfrist för framställan om övertagande
+- [x] RULE-AMMR-040-001 — Tidsfrist för svar och tyst godkännande
+- [x] RULE-AMMR-041-001 — Avisering om återtagande
+- [x] RULE-AMMR-042-001 — Överföringsbeslut
+- [x] RULE-AMMR-043-001 — Rätt till rättsmedel
+- [x] RULE-AMMR-046-001 — Tidsfrist för överföring
 
 ---
 

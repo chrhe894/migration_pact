@@ -135,6 +135,66 @@ Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först re
 |-------|-------------|
 | [RULE-AMMR-035-001](rules/rule-ammr-035-001.md) | Medlemsstat får överta prövningsansvaret (suveränitetsklausul) |
 
+### AMMR artikel 34 — Personer i beroendeställning
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-034-001](rules/rule-ammr-034-001.md) | Sammanförande av beroendesökande |
+
+### AMMR artikel 36 — Ansvarig stats skyldigheter
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-036-001](rules/rule-ammr-036-001.md) | Skyldighet att överta och återta |
+
+### AMMR artikel 37 — Ansvarets upphörande
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-037-001](rules/rule-ammr-037-001.md) | Ansvarets upphörande |
+
+### AMMR artikel 38 — Inledande av förfarandet
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-038-001](rules/rule-ammr-038-001.md) | Skyldighet att inleda förfarandet utan dröjsmål |
+
+### AMMR artikel 39 — Framställan om övertagande
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-039-001](rules/rule-ammr-039-001.md) | Tidsfrist för framställan (2 månader / 1 månad vid Eurodac-träff) |
+
+### AMMR artikel 40 — Svar på framställan
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-040-001](rules/rule-ammr-040-001.md) | Tidsfrist för svar och tyst godkännande |
+
+### AMMR artikel 41 — Avisering om återtagande
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-041-001](rules/rule-ammr-041-001.md) | Avisering inom 2 veckor |
+
+### AMMR artikel 42 — Överföringsbeslut
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-042-001](rules/rule-ammr-042-001.md) | Överföringsbeslut och information till personen |
+
+### AMMR artikel 43 — Rättsmedel
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-043-001](rules/rule-ammr-043-001.md) | Rätt till rättsmedel mot överföringsbeslut |
+
+### AMMR artikel 46 — Överföring
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-046-001](rules/rule-ammr-046-001.md) | Tidsfrist för överföring (6 mån / 18 mån / 4 veckor) |
+
 ---
 
 ## Tolkningar
