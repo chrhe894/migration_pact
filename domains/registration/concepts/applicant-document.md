@@ -18,7 +18,7 @@ Handlingen ska innehålla sökandens personuppgifter, status som sökande, uppgi
 
 ## Rättslig grund
 
-APR artikel 29.4
+[APR artikel 29](../articles/apr-029.md), punkt 4
 
 ---
 
@@ -30,13 +30,13 @@ Handlingen är inte ett identitetsbevis men ska anses vara tillräckligt för at
 
 ## Relaterade begrepp
 
-- CON-REG-002 Applicant
-- CON-REG-006 Registration certificate
-- CON-REG-005 Lodging
+- [CON-REG-002 Applicant](applicant.md)
+- [CON-REG-006 Registration certificate](registration-certificate.md)
+- [CON-REG-005 Lodging](lodging.md)
 
 ---
 
 ## Används i
 
-- ART-APR-029
-- PROC-REG-003
+- [ART-APR-029](../articles/apr-029.md)
+- [PROC-REG-003 Issue applicant documents](../processes/issue-applicant-documents.md)

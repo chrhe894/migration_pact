@@ -4,7 +4,7 @@
 
 ## Fråga
 
-I vilken utsträckning finns det nationellt handlingsutrymme för hur registreringsförfarandet organiseras? för hur registreringsförfarandet organiseras?
+I vilken utsträckning finns det nationellt handlingsutrymme för hur registreringsförfarandet organiseras?
 
 ---
 

@@ -87,7 +87,7 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 | [Registration](domains/registration/README.md) | APR | Pågår |
 | [Asylum procedure](domains/asylum-procedure/) | APR | Planerad |
 | [Border procedure](domains/border-procedure/) | APR | Planerad |
-| [Screening](domains/screening/) | Screeningförordningen | Planerad |
+| [Screening](domains/screening/README.md) | Screeningförordningen | Pågår |
 | [Eurodac](domains/eurodac/) | Eurodacförordningen | Planerad |
 | [Responsibility](domains/responsibility/) | AMMR | Planerad |
 | [Solidarity](domains/solidarity/) | AMMR | Planerad |
@@ -105,7 +105,7 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 | [Documents](shared/documents/README.md) | Handlingar till sökanden |
 | [Time limits](shared/time-limits/README.md) | Tidsfrister |
 | [Children](shared/children/) | Särskilda garantier för barn |
-| [Vulnerable persons](shared/vulnerary-persons/) | Sårbara personer |
+| [Vulnerable persons](shared/vulnerable-persons/) | Sårbara personer |
 | [Biometrics](shared/biometrics/) | Biometriska uppgifter |
 | [Security checks](shared/security-checks/) | Säkerhetskontroller |
 | [Interviews](shared/interviews/) | Personliga intervjuer |

@@ -15,11 +15,10 @@ Denna shared-modul samlar tidsfrister som regleras i APR och som är relevanta f
 
 ## Regler
 
-- RULE-TL-REG-001 — Registrering inom fem dagar
-- RULE-TL-REG-002 — Registrering inom 15 dagar vid massinflöde
-- RULE-TL-REG-003 — Underrättelse inom tre arbetsdagar vid fel myndighet
-- RULE-TL-LOD-001 — Inlämnande inom 21 dagar från registrering
-- RULE-TL-LOD-002 — Inlämnande inom två månader vid massinflöde
+- [RULE-TL-REG-001](rules/rule-tl-reg-001.md) — Registrering inom fem dagar
+- [RULE-TL-REG-002](rules/rule-tl-reg-002.md) — Registrering inom 15 dagar vid massinflöde
+- [RULE-TL-LOD-001](rules/rule-tl-lod-001.md) — Inlämnande inom 21 dagar från registrering
+- [RULE-TL-LOD-002](rules/rule-tl-lod-002.md) — Inlämnande inom två månader vid massinflöde
 
 ---
 

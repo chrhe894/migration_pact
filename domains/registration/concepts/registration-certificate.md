@@ -18,7 +18,7 @@ Handlingen anger att en ansökan har gjorts och registrerats och gäller till de
 
 ## Rättslig grund
 
-APR artikel 29.1
+[APR artikel 29](../articles/apr-029.md), punkt 1
 
 ---
 
@@ -30,12 +30,13 @@ Handlingen ska återkallas när sökandehandlingen utfärdas. Den behöver inte 
 
 ## Relaterade begrepp
 
-- CON-REG-007 Applicant document
-- CON-REG-003 Registration
+- [CON-REG-007 Applicant document](applicant-document.md)
+- [CON-REG-003 Registration](registration.md)
 
 ---
 
 ## Används i
 
-- ART-APR-029
-- PROC-REG-001
+- [ART-APR-029](../articles/apr-029.md)
+- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+- [PROC-REG-003 Issue applicant documents](../processes/issue-applicant-documents.md)

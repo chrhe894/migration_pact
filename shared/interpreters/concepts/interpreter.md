@@ -26,12 +26,12 @@ Kostnaderna för tolkning ska täckas med offentliga medel. Tolktjänster ska ti
 
 ## Relaterade begrepp
 
-- CON-REG-002 Applicant
+- [CON-REG-002 Applicant](../../../domains/registration/concepts/applicant.md)
 
 ---
 
 ## Används i
 
-- ACT-INT-001
-- PROC-REG-001
-- PROC-REG-002
+- [ACT-INT-001 Determine interpreter needs](../activities/determine-interpreter-needs.md)
+- [PROC-REG-001 Registration of an application](../../../domains/registration/processes/registration-of-an-application.md)
+- [PROC-REG-002 Lodging an application](../../../domains/registration/processes/lodging-an-application.md)

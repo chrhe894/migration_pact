@@ -18,7 +18,7 @@ Inlämnandet är en separat juridisk milstolpe som inträffar efter registrering
 
 ## Rättslig grund
 
-APR artikel 28
+[APR artikel 28](../articles/apr-028.md)
 
 ---
 
@@ -30,12 +30,12 @@ Begreppet ska hållas isär från "making an application" (ansökan görs) och "
 
 ## Relaterade begrepp
 
-- CON-REG-001 Application for international protection
-- CON-REG-003 Registration
+- [CON-REG-001 Application for international protection](application-for-international-protection.md)
+- [CON-REG-003 Registration](registration.md)
 
 ---
 
 ## Används i
 
-- ART-APR-028
-- PROC-REG-002
+- [ART-APR-028](../articles/apr-028.md)
+- [PROC-REG-002 Lodging an application](../processes/lodging-an-application.md)

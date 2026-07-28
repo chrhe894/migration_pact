@@ -1,0 +1,70 @@
+' ============================================================================
+' Diagram: Screening inom territoriet
+'
+' Syfte: Visualiserar screeningprocessen för tredjelandsmedborgare
+'        som vistas olagligt inom territoriet.
+'
+' Källa: Screeningförordningen artiklarna 7, 8, 12, 14, 15, 17 och 18
+'
+' Relaterade regler:
+'   RULE-SCR-008-002, RULE-SCR-008-003, RULE-SCR-014-001
+'   RULE-SCR-015-001, RULE-SCR-017-001, RULE-SCR-018-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml screening-within-territory
+
+title Screening inom territoriet
+
+start
+
+:Tredjelandsmedborgare som vistas olagligt omhändertas;
+
+if (Screening redan genomförd i annan medlemsstat?) then (Ja)
+
+    :Screening genomförs inte;
+
+    stop
+
+endif
+
+if (Omedelbar överföring till annan medlemsstat enligt bilateralt avtal?) then (Ja)
+
+    :Mottagande medlemsstat genomför screening;
+
+    stop
+
+endif
+
+note right
+  Tidsfrist: 3 dagar
+end note
+
+:[[../rules/rule-scr-014-001.md Identifiering / verifiering av identitet]];
+
+:Registrera biometriska uppgifter om ej gjort;
+
+:[[../rules/rule-scr-015-001.md Säkerhetskontroll]];
+
+:Preliminär hälsokontroll (art. 12);
+
+:Preliminär sårbarhetskontroll (art. 12);
+
+:[[../rules/rule-scr-017-001.md Fyll i screeningformulär]];
+
+:[[../rules/rule-scr-018-001.md Hänvisa till rätt förfarande]];
+
+if (Asylansökan gjord?) then (Ja)
+
+    :Hänvisa till registreringsmyndighet (APR art. 27);
+
+else (Nej)
+
+    :Fortsätta återvändandeförfarande;
+
+endif
+
+stop
+
+@enduml

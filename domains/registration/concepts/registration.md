@@ -18,19 +18,19 @@ Registreringen är den juridiska milstolpe som inleder det formella förfarandet
 
 ## Rättslig grund
 
-APR artikel 27
+[APR artikel 27](../articles/apr-027.md)
 
 ---
 
 ## Relaterade begrepp
 
-- CON-REG-001 Application for international protection
-- CON-REG-005 Lodging
-- CON-REG-004 Registration authority
+- [CON-REG-001 Application for international protection](application-for-international-protection.md)
+- [CON-REG-005 Lodging](lodging.md)
+- [CON-REG-004 Registration authority](registration-authority.md)
 
 ---
 
 ## Används i
 
-- ART-APR-027
-- PROC-REG-001
+- [ART-APR-027](../articles/apr-027.md)
+- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)

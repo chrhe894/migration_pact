@@ -16,20 +16,20 @@ En ansökan genom vilken en tredjelandsmedborgare eller statslös person begär 
 
 ## Rättslig grund
 
-APR artikel 27
+[APR artikel 27](../articles/apr-027.md)
 
 ---
 
 ## Relaterade begrepp
 
-- CON-REG-002 Applicant
-- CON-REG-003 Registration
-- CON-REG-005 Lodging
+- [CON-REG-002 Applicant](applicant.md)
+- [CON-REG-003 Registration](registration.md)
+- [CON-REG-005 Lodging](lodging.md)
 
 ---
 
 ## Används i
 
-- ART-APR-027
-- ART-APR-028
-- PROC-REG-001
+- [ART-APR-027](../articles/apr-027.md)
+- [ART-APR-028](../articles/apr-028.md)
+- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)

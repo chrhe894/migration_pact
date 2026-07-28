@@ -79,6 +79,7 @@ Transfer to applicable procedure
 | [RULE-APR-028-002](rules/rule-apr-028-002.md) | Personligt inlämnande |
 | [RULE-APR-028-003](rules/rule-apr-028-003.md) | Undantag: inlämnande via formulär |
 | [RULE-APR-028-004](rules/rule-apr-028-004.md) | Tidsfrist vid massinflöde (2 månader) |
+| [RULE-APR-028-005](rules/rule-apr-028-005.md) | Framläggande av faktorer och handlingar |
 
 ### APR artikel 29 — Handlingar
 

@@ -10,13 +10,26 @@
 
 ## Rättslig grund
 
-<!-- Hänvisa till relevanta artiklar, skäl eller bilagor. -->
+<!-- Länka till relevant artikel-fil när den finns. Exempel:
+[APR artikel 27](../articles/apr-027.md), punkt 1
+-->
 
 ---
 
 ## Relaterade begrepp
 
-<!-- Lista närliggande begrepp. -->
+<!-- Länka till närliggande begrepp. Exempel:
+- [CON-REG-003 Registration](registration.md)
+-->
+
+---
+
+## Används i
+
+<!-- Länka till relevanta artiklar, processer eller shared activities. Exempel:
+- [ART-APR-027](../articles/apr-027.md)
+- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+-->
 
 ---
 

@@ -241,6 +241,28 @@ Exempel:
 - [Verify identity](../../../shared/identity/activities/verify-identity.md)
 ```
 
+## Begrepp länkar till begrepp, artiklar och processer
+
+Konceptfiler (`CON-*.md`) ska använda relativa Markdown-länkar i följande avsnitt:
+
+- `Rättslig grund` ska länka till relevant artikel-fil när artikeln finns i kunskapsbasen.
+- `Relaterade begrepp` ska länka till andra `CON-*.md`-filer.
+- `Används i` ska länka till relevanta `ART-*.md`, `PROC-*.md` eller shared activity-filer.
+
+Exempel:
+
+```markdown
+## Relaterade begrepp
+
+- [CON-REG-003 Registration](registration.md)
+- [CON-SCR-001 Screening](../../screening/concepts/screening.md)
+
+## Används i
+
+- [ART-APR-027](../articles/apr-027.md)
+- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+```
+
 ---
 
 # Back-länkar

@@ -32,7 +32,7 @@ Detta är praktiskt viktigt eftersom tidsfristen för registrering (fem eller 15
 
 - APR artikel 27.7
 - Screeningförordning artikel 5.1
-- Screeningförordning artikel 15 (tidsfrister)
+- Screeningförordning artikel 8 (tidsfrister)
 
 ---
 

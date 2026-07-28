@@ -16,7 +16,7 @@ Den myndighet i en medlemsstat som är behörig att registrera ansökningar om i
 
 ## Rättslig grund
 
-APR artikel 27.1, APR artikel 4
+[APR artikel 27](../articles/apr-027.md), punkt 1; APR artikel 4
 
 ---
 
@@ -28,12 +28,12 @@ Registreringsmyndigheten är inte nödvändigtvis samma myndighet som tar emot a
 
 ## Relaterade begrepp
 
-- CON-REG-003 Registration
-- CON-REG-001 Application for international protection
+- [CON-REG-003 Registration](registration.md)
+- [CON-REG-001 Application for international protection](application-for-international-protection.md)
 
 ---
 
 ## Används i
 
-- ART-APR-027
-- PROC-REG-001
+- [ART-APR-027](../articles/apr-027.md)
+- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
