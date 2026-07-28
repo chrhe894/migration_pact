@@ -1,8 +1,10 @@
+<div align="right">← <a href="../README.md">Registration</a></div>
+
 # RULE-APR-027-003
 
 ## Rättslig grund
 
-APR artikel 27.3
+[APR artikel 27](../articles/apr-027.md), punkt 3
 
 ---
 

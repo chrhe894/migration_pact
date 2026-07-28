@@ -1,8 +1,10 @@
+<div align="right">← <a href="../README.md">Registration</a></div>
+
 # Öppen fråga
 
 ## Fråga
 
-I vilken utsträckning finns det nationellt handlingsutrymme för hur registreringsförfarandet organiseras?
+I vilken utsträckning finns det nationellt handlingsutrymme för hur registreringsförfarandet organiseras? för hur registreringsförfarandet organiseras?
 
 ---
 

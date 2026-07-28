@@ -1,3 +1,5 @@
+<div align="right">← <a href="../../README.md">Kunskapsbasen</a></div>
+
 # Registration
 
 ## Syfte
@@ -8,56 +10,34 @@ Registreringen är den första formella delen av asylförfarandet och säkerstä
 
 ---
 
-# Mål
+## Primära rättskällor
 
-Efter registreringen ska:
-
-- ansökan vara registrerad,
-- sökanden kunna lämna in sin ansökan,
-- nödvändiga handlingar kunna utfärdas,
-- ärendet kunna överlämnas till rätt fortsatt förfarande.
+- [APR artikel 27](articles/apr-027.md) — Registrering av ansökan
+- [APR artikel 28](articles/apr-028.md) — Inlämnande av ansökan
+- [APR artikel 29](articles/apr-029.md) — Handlingar som tillhandahålls sökanden
 
 ---
 
-# Juridiska milstolpar
+## Processer
 
-Domänen omfattar följande juridiska milstolpar:
-
-1. Ansökan görs (Application made)
-2. Ansökan registreras (Application registered)
-3. Ansökan lämnas in (Application lodged)
-4. Sökanden får handlingar enligt APR
-5. Ärendet överlämnas till fortsatt handläggning
+| Process | Beskrivning |
+|---------|-------------|
+| [PROC-REG-001 Registration of an application](processes/registration-of-an-application.md) | Från att ansökan görs till att den är registrerad |
+| [PROC-REG-002 Lodging an application](processes/lodging-an-application.md) | Från registrering till att ansökan lämnas in |
+| [PROC-REG-003 Issue applicant documents](processes/issue-applicant-documents.md) | Utfärdande av handlingar vid registrering och inlämnande |
 
 ---
 
-# Primära rättskällor
-
-- APR artikel 27
-- APR artikel 28
-- APR artikel 29
-
----
-
-# Processöversikt
+## Juridiska milstolpar
 
 ```text
 Application made
         │
         ▼
-Registration
+Application registered  ──→  Registration certificate utfärdas
         │
         ▼
-Application registered
-        │
-        ▼
-Lodging
-        │
-        ▼
-Application lodged
-        │
-        ▼
-Issue applicant documents
+Application lodged  ──→  Applicant document utfärdas
         │
         ▼
 Transfer to applicable procedure
@@ -65,50 +45,74 @@ Transfer to applicable procedure
 
 ---
 
-# Processer
+## Begrepp
 
-Domänen innehåller följande processer:
-
-- Registration of an application
-- Lodging an application
-- Issue applicant documents
-
----
-
-# Begrepp
-
-Exempel på centrala begrepp:
-
-- Applicant
-- Application for international protection
-- Registration
-- Lodging
-- Registration certificate
-- Applicant document
+| ID | Begrepp |
+|----|---------|
+| [CON-REG-001](concepts/application-for-international-protection.md) | Application for international protection |
+| [CON-REG-002](concepts/applicant.md) | Applicant |
+| [CON-REG-003](concepts/registration.md) | Registration |
+| [CON-REG-004](concepts/registration-authority.md) | Registration authority |
+| [CON-REG-005](concepts/lodging.md) | Lodging |
+| [CON-REG-006](concepts/registration-certificate.md) | Registration certificate |
+| [CON-REG-007](concepts/applicant-document.md) | Applicant document |
 
 ---
 
-# Regler
+## Regler
 
-Regler härleds från APR artiklarna 27–29.
+### APR artikel 27 — Registrering
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-APR-027-001](rules/rule-apr-027-001.md) | Skyldighet att registrera |
+| [RULE-APR-027-002](rules/rule-apr-027-002.md) | Uppgifter som ska registreras |
+| [RULE-APR-027-003](rules/rule-apr-027-003.md) | Anmälan vid fel myndighet |
+| [RULE-APR-027-004](rules/rule-apr-027-004.md) | Tidsfrist vid massinflöde (15 dagar) |
+| [RULE-APR-027-005](rules/rule-apr-027-005.md) | Tillämpning efter screening |
+
+### APR artikel 28 — Inlämnande
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-APR-028-001](rules/rule-apr-028-001.md) | Tidsfrist för inlämnande (21 dagar) |
+| [RULE-APR-028-002](rules/rule-apr-028-002.md) | Personligt inlämnande |
+| [RULE-APR-028-003](rules/rule-apr-028-003.md) | Undantag: inlämnande via formulär |
+| [RULE-APR-028-004](rules/rule-apr-028-004.md) | Tidsfrist vid massinflöde (2 månader) |
+
+### APR artikel 29 — Handlingar
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-APR-029-001](rules/rule-apr-029-001.md) | Registreringshandling |
+| [RULE-APR-029-002](rules/rule-apr-029-002.md) | Sökandehandling efter inlämnande |
+| [RULE-APR-029-003](rules/rule-apr-029-003.md) | Giltighetstid för sökandehandling |
 
 ---
 
-# Shared Capabilities
+## Tolkningar
 
-Domänen använder bland annat:
-
-- Identity
-- Documents
-- Interpreters
-- Time limits
+| Fil | Frågeställning |
+|-----|----------------|
+| [made-vs-registered-vs-lodged](interpretations/made-vs-registered-vs-lodged.md) | Skillnaden mellan "made", "registered" och "lodged" |
+| [registering-authority](interpretations/registering-authority.md) | Vem är behörig myndighet för registrering? |
 
 ---
 
-# Nästa steg
+## Öppna frågor
 
-Efter registreringen fortsätter ärendet i ett av de förfaranden som regleras i APR, exempelvis:
+| Fil | Fråga |
+|-----|-------|
+| [impact-of-screening-regulation](open_questions/impact-of-screening-regulation.md) | Hur påverkar Screeningförordningen registreringen? |
+| [national-margin-of-appreciation](open_questions/national-margin-of-appreciation.md) | Finns nationellt handlingsutrymme? |
 
-- reguljärt asylförfarande
-- påskyndat asylförfarande
-- asylgränsförfarande
+---
+
+## Shared capabilities
+
+| Modul        | Länk                                                       |
+| --------------| ------------------------------------------------------------|
+| Identity     | [shared/identity](../../shared/identity/README.md)         |
+| Interpreters | [shared/interpreters](../../shared/interpreters/README.md) |
+| Documents    | [shared/documents](../../shared/documents/README.md)       |
+| Time limits  | [shared/time-limits](../../shared/time-limits/README.md)   |

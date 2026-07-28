@@ -15,7 +15,7 @@
 ' Status: Draft
 ' ============================================================================
 
-@startuml
+@startuml registration-of-an-application
 
 title Registration of an application
 
@@ -25,7 +25,7 @@ start
 
 if (Sökanden föremål för screening?) then (Ja)
 
-    :Invänta att screening avslutas;
+    :[[../rules/rule-apr-027-005.md Invänta att screening avslutas]];
 
 endif
 
@@ -33,26 +33,30 @@ endif
 
 if (Tolk behövs?) then (Ja)
 
-    :[[../../../shared/interpreters/README.md Ordna tolktjänster]];
+    :[[../../../shared/interpreters/activities/determine-interpreter-needs.md Ordna tolktjänster]];
 
 endif
 
-:Samla in uppgifter enligt art. 27.1;
+:[[../rules/rule-apr-027-002.md Samla in registreringsuppgifter]];
 
 if (Ansökan gjord till registreringsbehörig myndighet?) then (Nej)
 
-    :Underrätta registreringsmyndigheten (inom 3 arbetsdagar);
+    :[[../rules/rule-apr-027-003.md Underrätta registreringsmyndigheten]];
+
+    note right
+      Inom 3 arbetsdagar
+    end note
 
 endif
 
-:Registrera ansökan;
+:[[../rules/rule-apr-027-001.md Registrera ansökan]];
 
 note right
-  Tidsfrist: 5 dagar
-  Vid massinflöde: 15 dagar
+  Tidsfrist: 5 dagar (art. 27.1)
+  Vid massinflöde: 15 dagar (art. 27.5)
 end note
 
-:Tillhandahåll registreringshandling (art. 29.1);
+:[[../rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
 
 :Meddela sökanden datum och plats för inlämnande;
 

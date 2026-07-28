@@ -1,3 +1,5 @@
+<div align="right">← <a href="../README.md">Registration</a></div>
+
 # PROC-REG-002
 
 # Lodging an application
@@ -16,7 +18,7 @@ Ansökan är inlämnad och den beslutande myndigheten har underrättats.
 
 ## Huvudflöde
 
-1. Sökanden kallas till ett angivet datum och en angiven plats.
+1. Sökanden kallas till ett angivet datum och en angiven plats ([RULE-APR-028-002](../rules/rule-apr-028-002.md)).
 2. Sökanden inställer sig personligen.
 3. Sökanden lämnar in ansökan med tillhörande faktorer och handlingar.
 4. Den behöriga myndigheten tar emot ansökan.
@@ -27,13 +29,13 @@ Ansökan är inlämnad och den beslutande myndigheten har underrättats.
 
 ## Alternativt flöde — formulär
 
-Om sökanden inte kan inställa sig personligen på grund av fängelsestraff eller långvarig sjukhusvistelse, och om den berörda medlemsstaten har infört möjligheten i nationell rätt, får ansökan lämnas in via formulär.
+Om sökanden inte kan inställa sig personligen på grund av fängelsestraff eller långvarig sjukhusvistelse, och om den berörda medlemsstaten har infört möjligheten i nationell rätt, får ansökan lämnas in via formulär ([RULE-APR-028-003](../rules/rule-apr-028-003.md)).
 
 ---
 
 ## Alternativt flöde — massinflöde
 
-Om ett oproportionellt stort antal personer gör ansökan inom samma period ska sökanden ges en bokad tid senast två månader från registreringen.
+Om ett oproportionellt stort antal personer gör ansökan inom samma period ska sökanden ges en bokad tid senast två månader från registreringen ([RULE-APR-028-004](../rules/rule-apr-028-004.md)).
 
 ---
 
@@ -46,19 +48,19 @@ Om ett oproportionellt stort antal personer gör ansökan inom samma period ska 
 
 ## Regler
 
-- RULE-APR-028-001
-- RULE-APR-028-002
-- RULE-APR-028-003
-- RULE-APR-028-004
+- [RULE-APR-028-001](../rules/rule-apr-028-001.md) — Tidsfrist för inlämnande (21 dagar)
+- [RULE-APR-028-002](../rules/rule-apr-028-002.md) — Personligt inlämnande
+- [RULE-APR-028-003](../rules/rule-apr-028-003.md) — Undantag: inlämnande via formulär
+- [RULE-APR-028-004](../rules/rule-apr-028-004.md) — Tidsfrist vid massinflöde (2 månader)
 
 ---
 
 ## Shared Activities
 
-- Verify identity
+- [Verify identity](../../../shared/identity/activities/verify-identity.md)
 
 ---
 
 ## Diagram
 
-Se `../diagrams/registration-of-an-application.pu`
+Se `../diagrams/lodging-an-application.pu`

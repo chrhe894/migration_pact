@@ -181,3 +181,71 @@ Den rättsliga innebörden dokumenteras i Markdown.
 ## Motiv
 
 Det gör diagrammen enkla att förstå och minskar risken för att juridiska regler dupliceras.
+
+---
+
+# DEC-008
+
+## Titel
+
+Regelreferenser ska vara klickbara länkar
+
+## Status
+
+Accepted
+
+## Beslut
+
+Referenser till regler, processer och delade aktiviteter i processbeskrivningar och diagram ska uttryckas som relativa Markdown-länkar, inte som plain-text ID:n.
+
+Exempel i processbeskrivning:
+
+```markdown
+- [RULE-APR-027-001](../rules/rule-apr-027-001.md) — Skyldighet att registrera
+```
+
+Exempel i flödessteg:
+
+```markdown
+3. Uppgifter samlas in ([RULE-APR-027-002](../rules/rule-apr-027-002.md)).
+```
+
+Exempel i PlantUML-diagram:
+
+```plantuml
+:[[../rules/rule-apr-027-001.md Registrera ansökan]];
+```
+
+Exempel i regel:
+
+```markdown
+## Rättslig grund
+
+[APR artikel 27](../articles/apr-027.md), punkt 1
+```
+
+## Motiv
+
+Plain-text ID:n kräver att läsaren manuellt söker upp regeln. Klickbara länkar gör det möjligt att navigera direkt från process till regel till rättskälla, vilket är kärnan i kunskapsbasens spårbarhetsprincip.
+
+---
+
+# DEC-009
+
+## Titel
+
+Diagram länkar till regler, inte till artiklar
+
+## Status
+
+Accepted
+
+## Beslut
+
+När en aktivitet i ett PlantUML-diagram har en rättslig grund ska länken peka på den relevanta rule.md-filen, inte direkt på artikel-filen.
+
+## Motiv
+
+Regel-filerna sammanfattar vad som gäller på ett tillgängligt sätt. Artikel-filerna innehåller den fullständiga lagtexten och är bättre som ett andra steg i navigationskedjan regel → artikel.
+
+Navigationskedjan ska vara: diagram → process → regel → artikel.

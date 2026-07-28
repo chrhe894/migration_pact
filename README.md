@@ -73,14 +73,42 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 
 | Mapp | Innehåll |
 |------|----------|
-| `concepts/` | Begrepp och definitioner |
-| `rules/` | Regler och rättsliga krav |
-| `processes/` | Processbeskrivningar |
-| `diagrams/` | PlantUML-diagram |
-| `interpretations/` | Tolkningar och analyser |
-| `open_questions/` | Öppna frågor |
-| `references/` | Referenser och översikter över rättsakter |
+| `domains/` | Domäner per förordning och förfarande |
+| `shared/` | Delade begrepp, regler och aktiviteter |
+| `references/` | Lagstiftningsreferenser och källtexter |
 | `templates/` | Mallar för projektets dokument |
+
+---
+
+## Domäner
+
+| Domän | Förordning | Status |
+|-------|------------|--------|
+| [Registration](domains/registration/README.md) | APR | Pågår |
+| [Asylum procedure](domains/asylum-procedure/) | APR | Planerad |
+| [Border procedure](domains/border-procedure/) | APR | Planerad |
+| [Screening](domains/screening/) | Screeningförordningen | Planerad |
+| [Eurodac](domains/eurodac/) | Eurodacförordningen | Planerad |
+| [Responsibility](domains/responsibility/) | AMMR | Planerad |
+| [Solidarity](domains/solidarity/) | AMMR | Planerad |
+| [Crisis](domains/crisis/) | Krishanteringsförordningen | Planerad |
+| [Return border procedure](domains/return-border-procedure/) | Return Border Procedure | Planerad |
+
+---
+
+## Shared capabilities
+
+| Modul | Innehåll |
+|-------|----------|
+| [Identity](shared/identity/README.md) | Identitetsfastställande |
+| [Interpreters](shared/interpreters/README.md) | Tolktjänster |
+| [Documents](shared/documents/README.md) | Handlingar till sökanden |
+| [Time limits](shared/time-limits/README.md) | Tidsfrister |
+| [Children](shared/children/) | Särskilda garantier för barn |
+| [Vulnerable persons](shared/vulnerary-persons/) | Sårbara personer |
+| [Biometrics](shared/biometrics/) | Biometriska uppgifter |
+| [Security checks](shared/security-checks/) | Säkerhetskontroller |
+| [Interviews](shared/interviews/) | Personliga intervjuer |
 
 ---
 

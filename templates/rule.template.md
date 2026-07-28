@@ -1,3 +1,5 @@
+<div align="right">← <a href="../README.md">Registration</a></div>
+
 # Regel
 
 ## ID
@@ -20,7 +22,9 @@ Undantag
 
 ## Rättslig grund
 
-<!-- Artikel, skäl eller bilaga. -->
+<!-- Länka till artikel-filen och ange punktnummer. Exempel:
+[APR artikel 27](../articles/apr-027.md), punkt 1
+-->
 
 ---
 

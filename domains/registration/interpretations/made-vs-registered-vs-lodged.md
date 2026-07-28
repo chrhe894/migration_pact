@@ -1,3 +1,5 @@
+<div align="right">← <a href="../README.md">Registration</a></div>
+
 # Tolkning
 
 ## Frågeställning

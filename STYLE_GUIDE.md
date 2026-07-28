@@ -197,6 +197,86 @@ ska det framgå tydligt.
 
 ---
 
+# Länkar
+
+## Regelreferenser ska vara klickbara
+
+Referenser till regler i processbeskrivningar ska vara relativa Markdown-länkar.
+
+Exempel:
+
+```markdown
+- [RULE-APR-027-001](../rules/rule-apr-027-001.md) — Skyldighet att registrera
+```
+
+## Länka i flödessteg
+
+Om ett steg i ett processhuvudflöde eller alternativt flöde styrs av en regel ska regeln länkas i steget.
+
+Exempel:
+
+```markdown
+3. Uppgifter samlas in ([RULE-APR-027-002](../rules/rule-apr-027-002.md)).
+```
+
+## Diagram länkar till regler
+
+Aktiviteter i PlantUML-diagram länkas till rule.md, inte direkt till artikel-filer.
+
+Navigationskedjan är: **diagram → process → regel → artikel**.
+
+Exempel:
+
+```plantuml
+:[[../rules/rule-apr-027-001.md Registrera ansökan]];
+```
+
+## Delade aktiviteter länkas
+
+Shared Activities i processbeskrivningar ska länkas till aktivitetsfilen under `shared/`.
+
+Exempel:
+
+```markdown
+- [Verify identity](../../../shared/identity/activities/verify-identity.md)
+```
+
+---
+
+# Back-länkar
+
+Varje `.md`-fil i en domän ska ha en back-länk längst upp som pekar till domänens README.
+
+Exempel:
+
+```markdown
+← [Registration](../README.md)
+```
+
+Varje domäns README ska ha en back-länk till kunskapsbasens top-nivå README.
+
+Exempel:
+
+```markdown
+← [Kunskapsbasen](../../README.md)
+```
+
+Placering: första raden i filen, före dokumentets rubrik.
+
+Exempel:
+
+```html
+<div align="right">← <a href="../README.md">Registration</a></div>
+```
+
+För domän-README:
+
+```html
+<div align="right">← <a href="../../README.md">Kunskapsbasen</a></div>
+```
+
+---
+
 # Status
 
 Dokument kan använda följande status:

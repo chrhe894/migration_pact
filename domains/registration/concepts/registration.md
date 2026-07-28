@@ -1,3 +1,5 @@
+<div align="right">← <a href="../README.md">Registration</a></div>
+
 # CON-REG-003
 
 ## Begrepp

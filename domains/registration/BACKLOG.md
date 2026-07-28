@@ -40,6 +40,7 @@
 - [x] RULE-APR-028-002 — Personligt inlämnande
 - [x] RULE-APR-028-003 — Undantag: inlämnande via formulär
 - [x] RULE-APR-028-004 — Tidsfrist vid massinflöde (2 månader)
+- [x] RULE-APR-028-005 — Skyldighet att lägga fram faktorer och handlingar
 - [x] RULE-APR-029-001 — Skyldighet att tillhandahålla registreringshandling
 - [x] RULE-APR-029-002 — Skyldighet att utfärda sökandehandling
 - [x] RULE-APR-029-003 — Giltighetstid för sökandehandling
@@ -59,19 +60,19 @@
 ## Diagram
 
 - [x] Registration workflow (registration-of-an-application.pu)
-- [ ] Lodging workflow
-- [ ] Document issuance flow
+- [x] Lodging workflow (lodging-an-application.pu)
+- [x] Document issuance flow (issue-applicant-documents.pu)
 
 ---
 
 ## Shared dependencies
 
-- [x] identity — verify-identity
-- [ ] documents — behöver dokumenteras
-- [ ] interpreters — behöver dokumenteras
+- [x] identity — verify-identity, README, concepts (identity, identity-document)
+- [x] documents — README
+- [x] interpreters — README, activity, concept, regel
 - [ ] children — behöver dokumenteras
 - [ ] vulnerable-persons — behöver dokumenteras
-- [ ] time-limits — behöver dokumenteras
+- [x] time-limits — README, regler (4 st)
 
 ---
 

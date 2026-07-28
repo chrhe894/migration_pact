@@ -1,35 +1,57 @@
-# Process
+<div align="right">← <a href="../README.md">Registration</a></div>
 
-## Syfte
+# PROC-[DOM]-[NNN]
 
-<!-- Beskriv processen. -->
+# [Processens namn]
 
----
+## Trigger
 
-## Start
-
-<!-- När börjar processen? -->
+<!-- När inleds processen? Beskriv det händelse eller tillstånd som startar processen. -->
 
 ---
 
-## Slut
+## Resultat
 
-<!-- När avslutas processen? -->
+<!-- Vad ska vara uppnått när processen är klar? -->
 
 ---
 
-## Ingående regler
+## Huvudflöde
 
-<!-- Referera till Rule Cards. -->
+1. [Steg 1 ([RULE-XXX-YYY](../rules/rule-xxx-yyy.md)).]
+2. [Steg 2.]
+3. [Steg n.]
+
+---
+
+## Alternativt flöde — [namn]
+
+<!-- Beskriv undantag eller alternativa vägar. Länka till berörd regel. -->
+
+---
+
+## Juridiska milstolpar
+
+<!-- Lista de rättsliga tillstånd som uppnås under processen, t.ex. "Application registered". -->
+
+---
+
+## Regler
+
+<!-- Länka till samtliga regler som styr processen. -->
+
+- [RULE-XXX-YYY](../rules/rule-xxx-yyy.md) — Kort beskrivning
+
+---
+
+## Shared Activities
+
+<!-- Länka till delade aktiviteter som används i processen. -->
+
+- [Aktivitetsnamn](../../../shared/[modul]/activities/[aktivitet].md)
 
 ---
 
 ## Diagram
 
-<!-- Referens till PlantUML. -->
-
----
-
-## Kommentar
-
-<!-- Valfritt. -->
+Se `../diagrams/[processens-namn].pu`

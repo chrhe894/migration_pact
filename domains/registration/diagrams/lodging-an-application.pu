@@ -1,0 +1,61 @@
+' ============================================================================
+' Diagram: Lodging an application
+'
+' Syfte: Visualiserar processen från att en registrerad ansökan ska
+'        lämnas in till att inlämnandet är bekräftat och tidsfristen
+'        för prövning börjar löpa.
+'
+' Källa: APR artikel 28
+'
+' Relaterade regler:
+'   RULE-APR-028-001, RULE-APR-028-002, RULE-APR-028-003, RULE-APR-028-004
+'
+' Status: Draft
+' ============================================================================
+
+@startuml lodging-an-application
+
+title Lodging an application
+
+start
+
+:Sökanden kallas till angivet datum och plats;
+
+note right
+  Tidsfrist: 21 dagar från registrering
+  Vid massinflöde: senast 2 månader
+end note
+
+if (Sökanden kan inställa sig personligen?) then (Nej)
+
+    if (Formulärinlämning tillåten enligt nationell rätt?) then (Ja)
+
+        :Sökanden lämnar in ansökan via formulär;
+
+    else (Nej)
+
+        :Nytt datum och plats meddelas;
+
+    endif
+
+else (Ja)
+
+    :Sökanden inställer sig personligen;
+
+    :Sökanden lämnar in ansökan med faktorer och handlingar;
+
+endif
+
+:Behörig myndighet tar emot ansökan;
+
+if (Ansökan inlämnad till beslutande myndighet?) then (Nej)
+
+    :Beslutande myndigheten underrättas utan dröjsmål;
+
+endif
+
+:Tidsfristen för prövning börjar löpa;
+
+stop
+
+@enduml
