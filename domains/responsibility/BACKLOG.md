@@ -49,8 +49,9 @@
 - [x] AMMR artikel 41 — Avisering om återtagande
 - [x] AMMR artikel 42 — Överföringsbeslut
 - [x] AMMR artikel 43 — Rättsmedel
+- [x] AMMR artikel 44 — Förvar inför överföring
+- [x] AMMR artikel 45 — Tidsfrister för sökande i förvar (suspensiv verkan)
 - [x] AMMR artikel 46 — Överföring
-- [ ] AMMR artiklarna 44–45 — Suspensiv verkan och garantier
 
 ---
 
@@ -78,6 +79,9 @@
 - [x] RULE-AMMR-041-001 — Avisering om återtagande
 - [x] RULE-AMMR-042-001 — Överföringsbeslut
 - [x] RULE-AMMR-043-001 — Rätt till rättsmedel
+- [x] RULE-AMMR-044-001 — Villkor för förvar inför överföring
+- [x] RULE-AMMR-045-001 — Förkortade tidsfrister vid förvar
+- [x] RULE-AMMR-045-002 — Suspensiv verkan fryser överföringsfristen vid förvar
 - [x] RULE-AMMR-046-001 — Tidsfrist för överföring
 
 ---

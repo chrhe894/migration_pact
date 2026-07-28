@@ -189,6 +189,19 @@ Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först re
 |-------|-------------|
 | [RULE-AMMR-043-001](rules/rule-ammr-043-001.md) | Rätt till rättsmedel mot överföringsbeslut |
 
+### AMMR artikel 44 — Förvar inför överföring
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-044-001](rules/rule-ammr-044-001.md) | Villkor för förvar inför överföring |
+
+### AMMR artikel 45 — Tidsfrister vid förvar och suspensiv verkan
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-045-001](rules/rule-ammr-045-001.md) | Förkortade tidsfrister vid förvar |
+| [RULE-AMMR-045-002](rules/rule-ammr-045-002.md) | Suspensiv verkan fryser överföringsfristen vid förvar |
+
 ### AMMR artikel 46 — Överföring
 
 | Regel | Beskrivning |
