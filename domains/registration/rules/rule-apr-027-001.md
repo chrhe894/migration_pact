@@ -2,7 +2,7 @@
 
 ## Rättslig grund
 
-APR artikel 27
+APR artikel 27.1
 
 ---
 
@@ -14,16 +14,16 @@ Obligation
 
 ## Regel
 
-Den behöriga myndigheten ska registrera en ansökan om internationellt skydd inom den tidsfrist som anges i APR.
+Den behöriga myndigheten ska registrera en ansökan om internationellt skydd utan dröjsmål och senast fem dagar efter det att ansökan gjorts.
 
 ---
 
-## Används i
+## Kommentar
 
-- PROC-REG-001
+Skyldigheten gäller den myndighet som är behörig att registrera ansökningar, en annan medlemsstats myndigheter enligt artikel 5.1 b, eller experter utplacerade av asylbyrån som bistår med uppgiften.
 
 ---
 
-## Shared Capabilities
+## Status
 
-- time-limits
+Draft

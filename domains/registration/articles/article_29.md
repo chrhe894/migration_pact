@@ -1,0 +1,86 @@
+# ART-APR-029
+
+## Artikel
+
+APR artikel 29
+
+## Rubrik
+
+Handlingar som tillhandahålls sökanden
+
+---
+
+## Sammanfattning
+
+Artikeln reglerar vilka handlingar den behöriga myndigheten ska tillhandahålla sökanden i samband med registreringen och inlämnandet av ansökan, samt dessa handlingars innehåll, giltighetstid och syfte.
+
+---
+
+## Innehåll
+
+**Punkt 1** — I samband med registreringen ska de behöriga myndigheterna tillhandahålla sökanden en handling i hans eller hennes eget namn som anger att en ansökan har gjorts och registrerats. Handlingen ska vara giltig till dess att den handling som avses i punkt 4 har utfärdats.
+
+Efter en överföring enligt artikel 46 i AMMR ska den ansvariga medlemsstatens behöriga myndigheter, när sökanden identifierar sig för dem, tillhandahålla en handling som anger att ansökan gjorts, registrerats och att personen har överförts.
+
+**Punkt 2** — Den handling som avses i punkt 1 behöver inte tillhandahållas om det är möjligt att utfärda handlingen enligt punkt 4 redan vid registreringen.
+
+**Punkt 3** — Handlingen enligt punkt 1 ska återkallas när handlingen enligt punkt 4 utfärdas.
+
+**Punkt 4** — De behöriga myndigheterna i den medlemsstat där ansökan lämnas in ska så snart som möjligt efter inlämnandet utfärda en handling som ska omfatta åtminstone följande uppgifter:
+
+- a) Sökandens namn, födelsedatum och födelseort, kön och medborgarskap eller statslöshet, en ansiktsbild samt sökandens underskrift.
+- b) Utfärdande myndighet, dag och ort för utfärdandet samt handlingens giltighetstid.
+- c) Personens status som sökande.
+- d) Uppgift om att sökanden har rätt att stanna kvar på den medlemsstatens territorium och uppgift om huruvida sökanden har rätt att fritt förflytta sig inom hela eller en del av territoriet.
+- e) Uppgift om att handlingen inte är en resehandling och att sökanden inte utan tillstånd får resa in till andra medlemsstater.
+
+**Punkt 5** — Det ska inte vara nödvändigt att utfärda någon av handlingarna om sökanden är i förvar eller avtjänar ett fängelsestraff. När sökanden friges ska han eller hon tillhandahållas handlingen enligt punkt 1 eller 4.
+
+**Punkt 6** — För medföljande barn får handlingarna som utfärdas till en förälder eller ansvarig vuxen i tillämpliga fall även omfatta den underåriga.
+
+**Punkt 7** — Handlingarna behöver inte utgöra identitetsbevis men ska anses vara tillräckliga medel för att sökande ska kunna identifiera sig för nationella myndigheter och få tillgång till sina rättigheter under hela förfarandet.
+
+**Punkt 8** — I handlingarna enligt punkterna 1 och 4 ska anges det datum då sökandens ansökan registrerades.
+
+**Punkt 9** — Handlingen enligt punkt 4 ska vara giltig i upp till tolv månader eller till dess att sökanden överförs till en annan medlemsstat enligt AMMR. Handlingens giltighetstid utgör inte en rätt att stanna kvar om den rätten har upphört.
+
+---
+
+## Härledda begrepp
+
+- CON-REG-002 Applicant
+- CON-REG-005 Lodging
+- CON-REG-006 Registration certificate
+- CON-REG-007 Applicant document
+
+---
+
+## Härledda regler
+
+- RULE-APR-029-001 Skyldighet att tillhandahålla registreringshandling
+- RULE-APR-029-002 Skyldighet att utfärda sökandehandling efter inlämnande
+- RULE-APR-029-003 Innehåll i sökandehandlingen
+- RULE-APR-029-004 Undantag — förvar och fängelsestraff
+- RULE-APR-029-005 Giltighetstid — upp till tolv månader
+- RULE-APR-029-006 Handlingarnas rättsliga funktion
+
+---
+
+## Processer
+
+- PROC-REG-003 Issue applicant documents
+
+---
+
+## Shared Capabilities
+
+- documents
+- children
+
+---
+
+## Relaterade artiklar
+
+- APR artikel 27 — Registrering av ansökan
+- APR artikel 28 — Inlämnande av ansökan
+- AMMR artikel 46 — Överföring av sökande

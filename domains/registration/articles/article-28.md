@@ -1,0 +1,76 @@
+# ART-APR-028
+
+## Artikel
+
+APR artikel 28
+
+## Rubrik
+
+Inlämnande av en ansökan om internationellt skydd
+
+---
+
+## Sammanfattning
+
+Artikeln reglerar hur och när en sökande ska lämna in sin ansökan om internationellt skydd efter att den registrerats, samt de tidsfrister och förfaranderegler som gäller för inlämnandet.
+
+---
+
+## Innehåll
+
+**Punkt 1** — Sökanden ska lämna in ansökan till den behöriga myndigheten i den medlemsstat där ansökan görs, så snart som möjligt och senast 21 dagar från det att ansökan registreras, förutsatt att han eller hon ges en faktisk möjlighet att göra detta. Om ansökan inte lämnas in till den beslutande myndigheten ska den behöriga myndigheten utan dröjsmål underrätta den beslutande myndigheten.
+
+**Punkt 2** — Efter en överföring enligt artikel 46 i AMMR ska sökanden lämna in ansökan till de behöriga myndigheterna i den ansvariga medlemsstaten senast 21 dagar från det att sökanden identifierar sig för dem.
+
+**Punkt 3** — Ansökan ska lämnas in personligen på en angiven dag och plats. De behöriga myndigheterna ska meddela sökanden dagen och platsen. Medlemsstaterna får i nationell rätt föreskriva att en ansökan ska anses ha lämnats in personligen när den behöriga myndigheten kontrollerar att sökanden är fysiskt närvarande på medlemsstatens territorium vid tidpunkten för registreringen eller inlämnandet.
+
+**Punkt 4** — Genom undantag från punkt 3 får medlemsstaterna i nationell rätt föreskriva en möjlighet att lämna in ansökan med hjälp av ett formulär, t.ex. vid avtjänande av fängelsestraff eller långvarig sjukhusvistelse. Ansökan anses ha lämnats in under förutsättning att sökanden lämnar in formuläret inom tidsfristen i punkt 1 och att den behöriga myndigheten bedömer att villkoren är uppfyllda.
+
+**Punkt 5** — Om ett oproportionellt stort antal personer gör ansökan inom samma tidsperiod, med följden att det blir omöjligt att ge varje sökande en bokad tid inom tidsfristen i punkt 1, ska sökanden ges en bokad tid senast två månader från registreringen.
+
+**Punkt 6** — När sökande lämnar in en ansökan ska de lägga fram alla faktorer och handlingar de förfogar över enligt artikel 4.2 i skyddsgrundförordningen. Sökande ska tillåtas lägga fram ytterligare faktorer fram till dess att ett beslut fattas. Medlemsstaterna får fastställa en tidsfrist för framläggande av ytterligare faktorer.
+
+**Punkt 7** — Medlemsstaterna får organisera tillgången till förfarandet så att ansökan görs, registreras och lämnas in samtidigt. Sökandena ska i sådana fall åtnjuta garantierna i artikel 8.2–8.6 och tillåtas lägga fram faktorer under den personliga intervjun.
+
+---
+
+## Härledda begrepp
+
+- CON-REG-001 Application for international protection
+- CON-REG-002 Applicant
+- CON-REG-005 Lodging
+
+---
+
+## Härledda regler
+
+- RULE-APR-028-001 Tidsfrist för inlämnande — 21 dagar
+- RULE-APR-028-002 Personligt inlämnande
+- RULE-APR-028-003 Undantag — inlämnande via formulär
+- RULE-APR-028-004 Tidsfrist vid massinflöde — två månader
+- RULE-APR-028-005 Skyldighet att lägga fram faktorer och handlingar
+
+---
+
+## Processer
+
+- PROC-REG-002 Lodging an application
+
+---
+
+## Shared Capabilities
+
+- time-limits
+- documents
+- children
+- vulnerable-persons
+
+---
+
+## Relaterade artiklar
+
+- APR artikel 27 — Registrering av ansökan
+- APR artikel 29 — Handlingar som tillhandahålls sökanden
+- APR artikel 8.2–8.6 — Garantier för sökande
+- AMMR artikel 46 — Överföring av sökande
+- Skyddsgrundförordningen artikel 4.2 — Faktorer och handlingar

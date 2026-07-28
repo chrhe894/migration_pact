@@ -1,24 +1,62 @@
+' ============================================================================
+' Diagram: Registration of an application
+'
+' Syfte: Visualiserar processen från att en ansökan görs till att
+'        sökanden har tillhandahållits handlingar och ärendet överlämnas
+'        till inlämnande.
+'
+' Källa: APR artikel 27, 28 och 29
+'
+' Relaterade regler:
+'   RULE-APR-027-001, RULE-APR-027-002, RULE-APR-027-003
+'   RULE-APR-027-004, RULE-APR-027-005
+'   RULE-APR-029-001
+'
+' Status: Draft
+' ============================================================================
+
 @startuml
 
 title Registration of an application
 
 start
 
-:Receive request for international protection;
+:Person uttrycker önskan att ansöka om internationellt skydd;
 
-:[[../../../shared/identity/activities/verify-identity.md Verify identity]];
+if (Sökanden föremål för screening?) then (Ja)
 
-if (Interpreter needed?) then (Yes)
-
-    :[[../../../shared/interpreters/README.md Determine interpreter needs]];
+    :Invänta att screening avslutas;
 
 endif
 
-:Register application;
+:[[../../../shared/identity/activities/verify-identity.md Fastställ identitet]];
 
-:Issue registration certificate;
+if (Tolk behövs?) then (Ja)
 
-:Transfer case to next procedure;
+    :[[../../../shared/interpreters/README.md Ordna tolktjänster]];
+
+endif
+
+:Samla in uppgifter enligt art. 27.1;
+
+if (Ansökan gjord till registreringsbehörig myndighet?) then (Nej)
+
+    :Underrätta registreringsmyndigheten (inom 3 arbetsdagar);
+
+endif
+
+:Registrera ansökan;
+
+note right
+  Tidsfrist: 5 dagar
+  Vid massinflöde: 15 dagar
+end note
+
+:Tillhandahåll registreringshandling (art. 29.1);
+
+:Meddela sökanden datum och plats för inlämnande;
+
+:Överlämna ärende till inlämnande (PROC-REG-002);
 
 stop
 
