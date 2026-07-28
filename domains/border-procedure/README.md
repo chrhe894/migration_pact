@@ -113,5 +113,5 @@ Beslut (inom 12 veckor)
 |-------|------|
 | Time limits | [shared/time-limits](../../shared/time-limits/README.md) |
 | Children | [shared/children](../../shared/children/README.md) |
-| Vulnerable persons | [shared/vulnerary-persons](../../shared/vulnerary-persons/README.md) |
+| Vulnerable persons | [shared/vulnerable-persons](../../shared/vulnerable-persons/README.md) |
 | Interpreters | [shared/interpreters](../../shared/interpreters/README.md) |

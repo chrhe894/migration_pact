@@ -123,5 +123,5 @@ Decision on the merits (art. 39)
 | Identity | [shared/identity](../../shared/identity/README.md) |
 | Time limits | [shared/time-limits](../../shared/time-limits/README.md) |
 | Children | [shared/children](../../shared/children/README.md) |
-| Vulnerable persons | [shared/vulnerary-persons](../../shared/vulnerary-persons/README.md) |
+| Vulnerable persons | [shared/vulnerable-persons](../../shared/vulnerable-persons/README.md) |
 | Interviews | [shared/interviews](../../shared/interviews/) |

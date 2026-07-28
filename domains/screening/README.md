@@ -165,6 +165,6 @@ Screening avslutas
 | Biometrics | [shared/biometrics](../../shared/biometrics/) |
 | Security checks | [shared/security-checks](../../shared/security-checks/) |
 | Children | [shared/children](../../shared/children/README.md) |
-| Vulnerable persons | [shared/vulnerable-persons](../../shared/vulnerable-persons/) |
+| Vulnerable persons | [shared/vulnerable-persons](../../shared/vulnerable-persons/README.md) |
 | Interpreters | [shared/interpreters](../../shared/interpreters/README.md) |
 | Time limits | [shared/time-limits](../../shared/time-limits/README.md) |

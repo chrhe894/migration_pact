@@ -105,10 +105,10 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 | [Documents](shared/documents/README.md) | Handlingar till sökanden |
 | [Time limits](shared/time-limits/README.md) | Tidsfrister |
 | [Children](shared/children/) | Särskilda garantier för barn |
-| [Vulnerable persons](shared/vulnerable-persons/) | Sårbara personer |
+| [Vulnerable persons](shared/vulnerable-persons/README.md) | Sårbara personer |
 | [Biometrics](shared/biometrics/) | Biometriska uppgifter |
 | [Security checks](shared/security-checks/) | Säkerhetskontroller |
-| [Interviews](shared/interviews/) | Personliga intervjuer |
+| [Interviews](shared/interviews/README.md) | Personliga intervjuer |
 
 ---
 
