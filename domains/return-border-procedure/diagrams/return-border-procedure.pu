@@ -1,0 +1,55 @@
+' ============================================================================
+' Diagram: Return border procedure
+'
+' Syfte: Visualiserar återvändandegränsförfarandet.
+'
+' Källa: Förordning (EU) 2024/1349 artiklarna 4–6
+'
+' Status: Draft
+' ============================================================================
+
+@startuml return-border-procedure
+
+title Return border procedure
+
+start
+
+:Avslag i asylgränsförfarande;
+
+:[[../rules/rule-ret-004-001.md Return border procedure inleds]];
+
+:Återvändandebeslut utfärdas;
+
+:Tidsfrist för frivillig avresa (max 15 dagar);
+
+if (Personen återvänder frivilligt?) then (Ja)
+
+    :Frivillig avresa;
+
+    stop
+
+endif
+
+if (Överklagande med suspensiv verkan?) then (Ja)
+
+    :Tidsfristen fryser;
+
+    :Domstol beslutar;
+
+endif
+
+:Avlägsnande verkställs;
+
+if (Avlägsnande möjligt inom 12 veckor?) then (Nej)
+
+    :[[../rules/rule-ret-005-001.md Tidsfrist utgången — inresa tillåts]];
+
+else (Ja)
+
+    :Avlägsnande genomfört;
+
+endif
+
+stop
+
+@enduml

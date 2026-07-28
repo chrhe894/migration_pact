@@ -1,0 +1,43 @@
+' ============================================================================
+' Diagram: Relocation
+'
+' Syfte: Visualiserar omfördelningsförfarandet.
+'
+' Källa: AMMR artiklarna 57, 63, 66, 67, 68
+'
+' Status: Draft
+' ============================================================================
+
+@startuml relocation
+
+title Relocation
+
+start
+
+:Migrationstryck konstateras;
+
+:[[../rules/rule-ammr-057-001.md Solidaritetspoolen aktiveras]];
+
+:Förmånsstaten identifierar sökande för omfördelning;
+
+:Omfördelningsmedlemsstaten meddelas;
+
+if (Säkerhetsskäl att vägra?) then (Ja)
+
+    :Omfördelning avvisas;
+
+    :[[../rules/rule-ammr-063-001.md Ansvarskompensation aktiveras]];
+
+else (Nej)
+
+    :Omfördelningsmedlemsstaten bekräftar mottagande;
+
+    :Överföring inom 4 veckor;
+
+    :Omfördelningsmedlemsstaten blir ansvarig stat;
+
+endif
+
+stop
+
+@enduml

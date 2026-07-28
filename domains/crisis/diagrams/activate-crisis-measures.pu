@@ -1,0 +1,43 @@
+' ============================================================================
+' Diagram: Activate crisis measures
+'
+' Syfte: Visualiserar processen för att aktivera krisundantag.
+'
+' Källa: Krishanteringsförordningen artiklarna 1–4, 10–12
+'
+' Status: Draft
+' ============================================================================
+
+@startuml activate-crisis-measures
+
+title Activate crisis measures
+
+start
+
+:Medlemsstat begär krisförklaring (art. 2);
+
+:Kommissionen bedömer situationen;
+
+if (Kris/force majeure/instrumentalisering?) then (Ja)
+
+    :Kommissionen fastställer genom beslut (art. 3);
+
+    :Rådet godkänner undantag (art. 4);
+
+    :Undantag tillämpas:;
+
+    note right
+      Registrering: 4 veckor
+      Gränsförfarande: <50%, 18 veckor
+      Övertagande: 4 mån / 2 mån / 1 år
+    end note
+
+else (Nej)
+
+    :Ordinarie förfaranden gäller;
+
+endif
+
+stop
+
+@enduml

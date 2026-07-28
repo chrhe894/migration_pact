@@ -90,9 +90,9 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 | [Screening](domains/screening/README.md) | Screeningförordningen | Pågår |
 | [Eurodac](domains/eurodac/README.md) | Eurodacförordningen | Pågår |
 | [Responsibility](domains/responsibility/README.md) | AMMR | Pågår |
-| [Solidarity](domains/solidarity/) | AMMR | Planerad |
-| [Crisis](domains/crisis/) | Krishanteringsförordningen | Planerad |
-| [Return border procedure](domains/return-border-procedure/) | Return Border Procedure | Planerad |
+| [Solidarity](domains/solidarity/README.md) | AMMR | Pågår |
+| [Crisis](domains/crisis/README.md) | Krishanteringsförordningen | Pågår |
+| [Return border procedure](domains/return-border-procedure/README.md) | Return Border Procedure | Pågår |
 
 ---
 
