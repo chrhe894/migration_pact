@@ -8,8 +8,8 @@ Denna shared-modul dokumenterar den säkerhetskontroll som ska genomföras under
 
 ## Primära rättskällor
 
-- Screeningförordningen artikel 15 — Säkerhetskontroll
-- Screeningförordningen artikel 16 — Åtgärder för identifiering och säkerhetskontroller
+- [Screeningförordningen artikel 15](../../domains/screening/articles/scr-015.md) — Säkerhetskontroll
+- [Screeningförordningen artikel 16](../../domains/screening/articles/scr-016.md) — Åtgärder för identifiering och säkerhetskontroller
 
 ---
 
@@ -34,11 +34,11 @@ Denna shared-modul dokumenterar den säkerhetskontroll som ska genomföras under
 
 ## Regler
 
-- RULE-SCR-015-001 — Säkerhetskontroll mot EU-databaser (se [screening/rules](../../domains/screening/rules/rule-scr-015-001.md))
+- [RULE-SCR-015-001](../../domains/screening/rules/rule-scr-015-001.md) — Säkerhetskontroll mot EU-databaser
 
 ---
 
 ## Används av
 
-- PROC-SCR-001 Screening vid yttre gräns
-- PROC-SCR-002 Screening inom territoriet
+- [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
+- [PROC-SCR-002 Screening inom territoriet](../../domains/screening/processes/screening-within-territory.md)

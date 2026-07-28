@@ -8,21 +8,21 @@ Denna shared-modul dokumenterar identitetsfastställande som en delad aktivitet 
 
 ## Primära rättskällor
 
-- APR artikel 27.1 a–b — Uppgifter om identitet och identitetshandlingar som ska registreras
-- Screeningförordningen — Identifiering som del av screeningförfarandet
+- [APR artikel 27](../../domains/registration/articles/apr-027.md), punkt 1 a–b — Uppgifter om identitet och identitetshandlingar
+- [Screeningförordningen artikel 14](../../domains/screening/articles/scr-014.md) — Identifiering som del av screening
 
 ---
 
 ## Aktiviteter
 
-- verify-identity (ACT-ID-001)
+- [verify-identity (ACT-ID-001)](activities/verify-identity.md)
 
 ---
 
 ## Begrepp
 
-- Identity
-- Identity document
+- [Identity (CON-ID-001)](concepts/identity.md)
+- [Identity document (CON-ID-002)](concepts/identity-document.md)
 
 ---
 
@@ -34,6 +34,6 @@ Se `rules/` (under uppbyggnad).
 
 ## Används av
 
-- PROC-REG-001 Registration of an application
-- PROC-SCR-001 Screening
-- PROC-ASY-001 Asylum procedure
+- [PROC-REG-001 Registration of an application](../../domains/registration/processes/registration-of-an-application.md)
+- [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
+- [PROC-ASY-001 Examine an application](../../domains/asylum-procedure/processes/examine-an-application.md)

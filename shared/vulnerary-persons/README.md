@@ -8,7 +8,7 @@ Denna shared-modul dokumenterar regler och begrepp kring identifiering och hante
 
 ## Primära rättskällor
 
-- Screeningförordningen artikel 12.3 — Preliminär sårbarhetskontroll
+- [Screeningförordningen artikel 12](../../domains/screening/articles/scr-012.md), punkt 3 — Preliminär sårbarhetskontroll
 - APR artikel 20 — Bedömning av sårbarhet
 - APR artikel 21 — Sökande i behov av särskilda förfarandegarantier
 
@@ -17,7 +17,7 @@ Denna shared-modul dokumenterar regler och begrepp kring identifiering och hante
 ## Begrepp
 
 - Vulnerable person — en person med särskilda mottagnings- eller förfarandebehov
-- Vulnerability check (CON-SCR-005) — se [screening/concepts/vulnerability-check](../../domains/screening/concepts/vulnerability-check.md)
+- [Vulnerability check (CON-SCR-005)](../../domains/screening/concepts/vulnerability-check.md)
 
 ---
 
@@ -43,6 +43,6 @@ Under uppbyggnad.
 
 ## Används av
 
-- PROC-SCR-001 Screening vid yttre gräns
-- PROC-SCR-002 Screening inom territoriet
-- PROC-REG-002 Lodging an application
+- [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
+- [PROC-SCR-002 Screening inom territoriet](../../domains/screening/processes/screening-within-territory.md)
+- [PROC-REG-002 Lodging an application](../../domains/registration/processes/lodging-an-application.md)

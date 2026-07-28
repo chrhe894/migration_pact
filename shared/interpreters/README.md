@@ -17,25 +17,25 @@ Rätten till tolk är en grundläggande garanti som gäller i flera förfaranden
 
 ## Aktiviteter
 
-- determine-interpreter-needs
+- [determine-interpreter-needs (ACT-INT-001)](activities/determine-interpreter-needs.md)
 
 ---
 
 ## Begrepp
 
-- Interpreter
+- [Interpreter (CON-INT-001)](concepts/interpreter.md)
 
 ---
 
 ## Regler
 
-- RULE-INT-001 — Rätt till tolkning under det administrativa förfarandet
+- [RULE-INT-001](rules/rule-int-001.md) — Rätt till tolkning under det administrativa förfarandet
 
 ---
 
 ## Används av
 
-- PROC-REG-001 Registration of an application
-- PROC-REG-002 Lodging an application
-- PROC-SCR-001 Screening
-- PROC-ASY-001 Asylum procedure
+- [PROC-REG-001 Registration of an application](../../domains/registration/processes/registration-of-an-application.md)
+- [PROC-REG-002 Lodging an application](../../domains/registration/processes/lodging-an-application.md)
+- [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
+- [PROC-ASY-001 Examine an application](../../domains/asylum-procedure/processes/examine-an-application.md)
