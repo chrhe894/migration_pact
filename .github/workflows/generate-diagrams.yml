@@ -25,6 +25,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Install Graphviz
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y graphviz
+
       - name: Download PlantUML
         run: |
           wget -q https://github.com/plantuml/plantuml/releases/latest/download/plantuml.jar -O plantuml.jar
@@ -39,10 +44,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add '*.svg'
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: regenerate SVG diagrams"
+          if find . -name '*.svg' -newer plantuml.jar | grep -q .; then
+            git add '*.svg'
+            git diff --cached --quiet || git commit -m "chore: regenerate SVG diagrams"
             git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "No SVGs generated or changed"
           fi
