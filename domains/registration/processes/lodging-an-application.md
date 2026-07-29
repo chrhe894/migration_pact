@@ -18,12 +18,9 @@ Ansökan är inlämnad och den beslutande myndigheten har underrättats.
 
 ## Huvudflöde
 
-1. Sökanden kallas till ett angivet datum och en angiven plats ([RULE-APR-028-002](../rules/rule-apr-028-002.md)).
-2. Sökanden inställer sig personligen.
-3. Sökanden lämnar in ansökan med tillhörande faktorer och handlingar.
-4. Den behöriga myndigheten tar emot ansökan.
-5. Om ansökan inte lämnas in till den beslutande myndigheten underrättas den beslutande myndigheten utan dröjsmål.
-6. Tidsfristen för prövning börjar löpa.
+![Lodging an application](../diagrams/lodging-an-application.svg)
+
+Källa: [`lodging-an-application.pu`](../diagrams/lodging-an-application.pu)
 
 ---
 
@@ -63,6 +60,4 @@ Om ett oproportionellt stort antal personer gör ansökan inom samma period ska 
 
 ## Diagram
 
-![Lodging an application](../diagrams/lodging-an-application.svg)
-
-Källa: [`lodging-an-application.pu`](../diagrams/lodging-an-application.pu)
+Se huvudflöde ovan.

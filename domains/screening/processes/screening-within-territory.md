@@ -18,15 +18,9 @@ Personen har genomgått screening och hänvisats till rätt förfarande.
 
 ## Huvudflöde
 
-1. Tredjelandsmedborgare som vistas olagligt omhändertas ([RULE-SCR-007-001](../rules/rule-scr-007-001.md)).
-2. Kontroll om screening redan genomförts i annan medlemsstat — om ja, screening genomförs inte.
-3. Preliminär hälsokontroll genomförs.
-4. Preliminär sårbarhetskontroll genomförs.
-5. Identitet fastställs eller verifieras ([RULE-SCR-014-001](../rules/rule-scr-014-001.md)).
-6. Biometriska uppgifter registreras om ej redan skett ([PROC-EUR-001](../../eurodac/processes/collect-and-transmit-biometric-data.md)).
-7. Säkerhetskontroll genomförs ([RULE-SCR-015-001](../rules/rule-scr-015-001.md)).
-8. Screeningformulär fylls i ([RULE-SCR-017-001](../rules/rule-scr-017-001.md)).
-9. Screening avslutas och personen hänvisas till rätt förfarande ([RULE-SCR-018-001](../rules/rule-scr-018-001.md)).
+![Screening inom territoriet](../diagrams/screening-within-territory.svg)
+
+Källa: [`screening-within-territory.pu`](../diagrams/screening-within-territory.pu)
 
 ---
 
@@ -65,4 +59,4 @@ Om personen omedelbart skickas tillbaka till en annan medlemsstat enligt bilater
 
 ## Diagram
 
-Se `../diagrams/screening-within-territory.pu`
+Se huvudflöde ovan.

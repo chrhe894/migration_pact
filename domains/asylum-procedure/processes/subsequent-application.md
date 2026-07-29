@@ -18,18 +18,9 @@ Ansökan har antingen avvisats som otillåtlig eller tagits upp till prövning i
 
 ## Huvudflöde
 
-1. Person lämnar in ny ansökan (eller nya uppgifter).
-2. Ärendehistorik hämtas — tidigare ansökningar, beslut, ansvarig stat.
-3. Kontrollera att slutligt beslut finns om tidigare ansökan.
-4. Ansökan klassificeras som efterföljande ansökan.
-5. Ansvarig medlemsstat fastställs.
-6. Förhandsprövning genomförs ([RULE-APR-055-001](../rules/rule-apr-055-001.md)):
-   - Nya omständigheter och bevis registreras.
-   - Bedöm om uppgifterna kunde ha lagts fram tidigare.
-   - Avgör om prövningen ska ske skriftligt eller med intervju.
-7. Beslut:
-   - **Nya relevanta omständigheter finns** → ansökan tas upp till sakprövning.
-   - **Inga nya relevanta omständigheter** → avvisning som otillåtlig ([RULE-APR-055-002](../rules/rule-apr-055-002.md)).
+![Subsequent application](../diagrams/subsequent-application.svg)
+
+Källa: [`subsequent-application.pu`](../diagrams/subsequent-application.pu)
 
 ---
 
@@ -72,4 +63,4 @@ Om det inte finns ett slutligt beslut om den tidigare ansökan (ärendet pågår
 
 ## Diagram
 
-Se `../diagrams/subsequent-application.pu`
+Se huvudflöde ovan.

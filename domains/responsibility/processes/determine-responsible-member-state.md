@@ -18,21 +18,9 @@ Ansvarig medlemsstat har fastställts och sökanden kan hänvisas till rätt sta
 
 ## Huvudflöde
 
-1. Ansökan registreras ([RULE-APR-027-001](../../registration/rules/rule-apr-027-001.md)).
-2. Situationen vid registreringstidpunkten fastställs ([RULE-AMMR-024-002](../rules/rule-ammr-024-002.md)).
-3. Kriterierna tillämpas i angiven ordning ([RULE-AMMR-024-001](../rules/rule-ammr-024-001.md)):
-   - a) Ensamkommande barn? → [RULE-AMMR-025-001](../rules/rule-ammr-025-001.md)
-   - b) Familjemedlem lagligen bosatt? → AMMR art. 26
-   - c) Familjemedlem med pågående ansökan? → AMMR art. 27
-   - d) Familjeförfarande? → AMMR art. 28
-   - e) Uppehållshandling eller visering? → [RULE-AMMR-029-001](../rules/rule-ammr-029-001.md)
-   - f) Examensbevis? → AMMR art. 30
-   - g) Viseringsfri inresa? → AMMR art. 31
-   - h) Transitzon på flygplats? → AMMR art. 32
-   - i) Irreguljär inresa? → [RULE-AMMR-033-001](../rules/rule-ammr-033-001.md)
-4. Om inget kriterium ger en ansvarig stat: den stat där ansökan först registrerades.
-5. Ansvarig stat fastställs.
-6. Om ansvarsstaten är en annan stat: framställan om övertagande (take charge request) skickas.
+![Determine responsible Member State](../diagrams/determine-responsible-member-state.svg)
+
+Källa: [`determine-responsible-member-state.pu`](../diagrams/determine-responsible-member-state.pu)
 
 ---
 
@@ -77,4 +65,4 @@ Om tidsfristerna i artikel 33 har löpt ut (20 resp. 12 månader) kan inresestat
 
 ## Diagram
 
-Se `../diagrams/determine-responsible-member-state.pu`
+Se huvudflöde ovan.

@@ -21,17 +21,9 @@ Biometriska uppgifter och tillhörande dataset har tagits, överförts till Euro
 
 ## Huvudflöde
 
-1. Behörig myndighet konstaterar att personen omfattas av en Eurodac-kategori.
-2. Personen informeras om skyldigheten att lämna biometriska uppgifter ([RULE-EUR-013-001](../rules/rule-eur-013-001.md)).
-3. Biometriska uppgifter tas med respekt för personens värdighet och fysiska integritet ([RULE-EUR-013-002](../rules/rule-eur-013-002.md)).
-4. Om personen är underårig tillämpas särskilda garantier ([RULE-EUR-014-001](../rules/rule-eur-014-001.md)).
-5. Dataset sammanställs med biometriska och relevanta alfanumeriska uppgifter.
-6. Dataset överförs till Eurodac inom tillämplig tidsfrist:
-   - asylsökande: [RULE-EUR-015-001](../rules/rule-eur-015-001.md),
-   - person som vistas olagligt: [RULE-EUR-023-001](../rules/rule-eur-023-001.md).
-7. Dataset lagras enligt tillämplig lagringsregel:
-   - asylsökande: [RULE-EUR-029-001](../rules/rule-eur-029-001.md),
-   - person som vistas olagligt: [RULE-EUR-029-002](../rules/rule-eur-029-002.md).
+![Collect and transmit biometric data](../diagrams/collect-and-transmit-biometric-data.svg)
+
+Källa: [`collect-and-transmit-biometric-data.pu`](../diagrams/collect-and-transmit-biometric-data.pu)
 
 ---
 
@@ -76,4 +68,4 @@ Vid allvarliga tekniska problem får 72-timmarsfristen för asylsökande förlä
 
 ## Diagram
 
-Se `../diagrams/collect-and-transmit-biometric-data.pu`
+Se huvudflöde ovan.

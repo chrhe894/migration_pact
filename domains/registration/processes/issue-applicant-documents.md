@@ -18,10 +18,9 @@ Sökanden har tillhandahållits de handlingar som krävs enligt APR artikel 29.
 
 ## Huvudflöde
 
-1. I samband med registreringen tillhandahålls sökanden en registreringshandling ([RULE-APR-029-001](../rules/rule-apr-029-001.md)).
-2. När ansökan lämnas in utfärdas sökandehandlingen ([RULE-APR-029-002](../rules/rule-apr-029-002.md)).
-3. Registreringshandlingen återkallas.
-4. Sökandehandlingen tillhandahålls sökanden.
+![Issue applicant documents](../diagrams/issue-applicant-documents.svg)
+
+Källa: [`issue-applicant-documents.pu`](../diagrams/issue-applicant-documents.pu)
 
 ---
 
@@ -66,6 +65,4 @@ För medföljande barn kan handlingar som utfärdas till förälder eller ansvar
 
 ## Diagram
 
-![Issue applicant documents](../diagrams/issue-applicant-documents.svg)
-
-Källa: [`issue-applicant-documents.pu`](../diagrams/issue-applicant-documents.pu)
+Se huvudflöde ovan.

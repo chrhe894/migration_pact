@@ -18,13 +18,9 @@ Sökande har omfördelats till en bidragande stat som övertar prövningsansvare
 
 ## Huvudflöde
 
-1. Migrationstryck konstateras — solidaritetspoolen aktiveras ([RULE-AMMR-057-001](../rules/rule-ammr-057-001.md)).
-2. Förmånsstaten identifierar sökande som kan omfördelas.
-3. Omfördelningsmedlemsstaten meddelas ([RULE-AMMR-067-001](../rules/rule-ammr-067-001.md)).
-4. Omfördelningsmedlemsstaten bekräftar mottagande.
-5. Överföring sker inom fyra veckor.
-6. Omfördelningsmedlemsstaten blir ansvarig stat.
-7. Sökanden registreras/lämnar in ansökan i den nya staten.
+![Relocation](../diagrams/relocation.svg)
+
+Källa: [`relocation.pu`](../diagrams/relocation.pu)
 
 ---
 
@@ -61,4 +57,4 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 ## Diagram
 
-Se `../diagrams/relocation.pu`
+Se huvudflöde ovan.

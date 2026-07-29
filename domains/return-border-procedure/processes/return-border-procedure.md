@@ -18,11 +18,9 @@ Personen har återvänt (frivilligt eller genom avlägsnande) eller tidsfrist l�
 
 ## Huvudflöde
 
-1. Avslag i asylgränsförfarande meddelas ([RULE-RET-004-001](../rules/rule-ret-004-001.md)).
-2. Återvändandebeslut utfärdas.
-3. Tidsfrist för frivillig avresa beviljas (max 15 dagar).
-4. Om frivillig avresa inte sker: avlägsnande verkställs.
-5. Om avlägsnande inte verkställs inom 12 veckor: personen tillåts resa in ([RULE-RET-005-001](../rules/rule-ret-005-001.md)).
+![Return border procedure](../diagrams/return-border-procedure.svg)
+
+Källa: [`return-border-procedure.pu`](../diagrams/return-border-procedure.pu)
 
 ---
 
@@ -50,4 +48,4 @@ Personen överklagar och beviljas suspensiv verkan. Tidsfristerna fryser till de
 
 ## Diagram
 
-Se `../diagrams/return-border-procedure.pu`
+Se huvudflöde ovan.

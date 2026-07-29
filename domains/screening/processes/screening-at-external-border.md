@@ -18,15 +18,9 @@ Personen har genomgått screening och hänvisats till rätt förfarande med scre
 
 ## Huvudflöde
 
-1. Person omhändertas, landsätts eller ansöker om asyl vid yttre gräns ([RULE-SCR-005-001](../rules/rule-scr-005-001.md), [RULE-SCR-005-002](../rules/rule-scr-005-002.md)).
-2. Inresa nekas under pågående screening.
-3. Preliminär hälsokontroll genomförs av medicinsk personal.
-4. Preliminär sårbarhetskontroll genomförs av specialiserad personal.
-5. Identitet fastställs eller verifieras ([RULE-SCR-014-001](../rules/rule-scr-014-001.md)).
-6. Biometriska uppgifter registreras i Eurodac om ej redan skett ([PROC-EUR-001](../../eurodac/processes/collect-and-transmit-biometric-data.md)).
-7. Säkerhetskontroll genomförs mot EU-databaser ([RULE-SCR-015-001](../rules/rule-scr-015-001.md)).
-8. Screeningformulär fylls i ([RULE-SCR-017-001](../rules/rule-scr-017-001.md)).
-9. Screening avslutas och personen hänvisas till rätt förfarande ([RULE-SCR-018-001](../rules/rule-scr-018-001.md)).
+![Screening vid yttre gräns](../diagrams/screening-at-external-border.svg)
+
+Källa: [`screening-at-external-border.pu`](../diagrams/screening-at-external-border.pu)
 
 ---
 
@@ -79,4 +73,4 @@ Om det under screeningen framkommer att personen uppfyller inresevillkoren ska s
 
 ## Diagram
 
-Se `../diagrams/screening-at-external-border.pu`
+Se huvudflöde ovan.

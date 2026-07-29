@@ -18,15 +18,9 @@ Beslut fattat — beviljande, avslag eller undantag med inresa.
 
 ## Huvudflöde
 
-1. Screening avslutad — sökanden hänvisas till gränsförfarande.
-2. Villkoren kontrolleras ([RULE-APR-043-001](../rules/rule-apr-043-001.md)).
-3. Sökanden lämnar in ansökan inom 5 dagar ([RULE-APR-051-001](../rules/rule-apr-051-001.md)).
-4. Upptagandeprövning (admissibility) genomförs.
-5. Om tillåtlig: prövning i sak med tillämpning av påskyndade grunder.
-6. Personlig intervju genomförs.
-7. Beslut fattas inom 12 veckor ([RULE-APR-051-002](../rules/rule-apr-051-002.md)):
-   - Beviljat → sökanden tillåts resa in.
-   - Avslag → return border procedure (förordning 2024/1349).
+![Asylum border procedure](../diagrams/asylum-border-procedure.svg)
+
+Källa: [`asylum-border-procedure.pu`](../diagrams/asylum-border-procedure.pu)
 
 ---
 
@@ -78,4 +72,4 @@ Sökanden tillåts resa in. Ärendet övergår till reguljärt förfarande.
 
 ## Diagram
 
-Se `../diagrams/asylum-border-procedure.pu`
+Se huvudflöde ovan.

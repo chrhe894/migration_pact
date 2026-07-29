@@ -18,15 +18,9 @@ Undantagsbestämmelser och förstärkta solidaritetsåtgärder är aktiverade.
 
 ## Huvudflöde
 
-1. Medlemsstaten lämnar motiverad begäran till kommissionen (artikel 2).
-2. Kommissionen bedömer situationen och fastställer kris/force majeure genom genomförandebeslut (artikel 3).
-3. Kommissionen föreslår vilka undantag och solidaritetsåtgärder som behövs.
-4. Rådet godkänner undantag genom genomförandebeslut (artikel 4).
-5. Undantag börjar tillämpas:
-   - [RULE-CRI-010-001](../rules/rule-cri-010-001.md) — Förlängd registreringstidsfrist
-   - [RULE-CRI-011-001](../rules/rule-cri-011-001.md) — Utökat gränsförfarande
-   - [RULE-CRI-012-001](../rules/rule-cri-012-001.md) — Förlängda övertagandetidsfrister
-6. Förstärkta solidaritetsåtgärder aktiveras.
+![Activate crisis measures](../diagrams/activate-crisis-measures.svg)
+
+Källa: [`activate-crisis-measures.pu`](../diagrams/activate-crisis-measures.pu)
 
 ---
 
@@ -49,4 +43,4 @@ Undantagsbestämmelser och förstärkta solidaritetsåtgärder är aktiverade.
 
 ## Diagram
 
-Se `../diagrams/activate-crisis-measures.pu`
+Se huvudflöde ovan.

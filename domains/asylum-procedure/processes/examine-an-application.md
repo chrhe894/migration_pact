@@ -18,15 +18,9 @@ Ett beslut har fattats om ansökan — beviljande av skydd, avslag eller konstat
 
 ## Huvudflöde
 
-1. Ansökan registrerad och inlämnad — ärendet överlämnas till den beslutande myndigheten ([CON-ASY-001](../concepts/determining-authority.md)).
-2. Upptagandeprövning (admissibility) genomförs ([RULE-APR-038-001](../rules/rule-apr-038-001.md)).
-3. Om ansökan avvisas → beslut fattas, förfarandet avslutas.
-4. Om ansökan är tillåtlig → personlig intervju genomförs.
-5. Prövning i sak ([RULE-APR-034-001](../rules/rule-apr-034-001.md), [RULE-APR-034-002](../rules/rule-apr-034-002.md)).
-6. Beslut fattas:
-   - Flyktingstatus beviljas, eller
-   - Subsidiärt skydd beviljas, eller
-   - Ansökan avslås → återvändandebeslut.
+![Examine an application](../diagrams/examine-an-application.svg)
+
+Källa: [`examine-an-application.pu`](../diagrams/examine-an-application.pu)
 
 ---
 
@@ -78,4 +72,4 @@ Om sökanden avviker, inte samarbetar eller inte inställer sig till intervju ut
 
 ## Diagram
 
-Se `../diagrams/examine-an-application.pu`
+Se huvudflöde ovan.
