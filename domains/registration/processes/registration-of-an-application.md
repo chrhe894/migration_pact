@@ -18,15 +18,9 @@ Ansökan är registrerad, sökanden har tillhandahållits registreringshandling 
 
 ## Huvudflöde
 
-1. Person uttrycker önskan att ansöka om internationellt skydd.
-2. Behörig myndighet tar emot ansökan.
-3. Tolks behov identifieras och tolktjänster ordnas vid behov ([RULE-INT-001](../../../shared/interpreters/rules/rule-int-001.md)).
-4. Sökandens identitet fastställs i den utsträckning som krävs ([verify-identity](../../../shared/identity/activities/verify-identity.md)).
-5. Uppgifter samlas in ([RULE-APR-027-002](../rules/rule-apr-027-002.md)).
-6. Ansökan registreras ([RULE-APR-027-001](../rules/rule-apr-027-001.md)).
-7. Registreringshandling tillhandahålls sökanden ([RULE-APR-029-001](../rules/rule-apr-029-001.md)).
-8. Sökanden informeras om när och var ansökan ska lämnas in.
-9. Ärendet går vidare till inlämnande ([PROC-REG-002](lodging-an-application.md)).
+![Registration of an application](../diagrams/registration-of-an-application.svg)
+
+Källa: [`registration-of-an-application.pu`](../diagrams/registration-of-an-application.pu)
 
 ---
 
@@ -75,6 +69,4 @@ Om sökanden har genomgått screening enligt Screeningförordningen artikel 5.1 
 
 ## Diagram
 
-![Registration of an application](../diagrams/registration-of-an-application.svg)
-
-Källa: [`registration-of-an-application.pu`](../diagrams/registration-of-an-application.pu)
+Se huvudflöde ovan.
