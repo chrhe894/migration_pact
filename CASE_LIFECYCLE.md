@@ -91,3 +91,35 @@ Person söker skydd
 ## Diagram
 
 Se även: [`diagrams/end-to-end-overview.pu`](diagrams/end-to-end-overview.pu)
+
+@startuml
+title The Asylum Case Lifecycle
+
+skinparam Shadowing false
+skinparam BackgroundColor white
+skinparam Rectangle {
+    RoundCorner 15
+}
+
+rectangle "Person seeks\ninternational protection" as Start
+
+rectangle Screening
+rectangle Registration
+rectangle Eurodac
+rectangle "Responsibility\nDetermination" as Dublin
+rectangle "Regular\nProcedure" as Regular
+rectangle "Border\nProcedure" as Border
+rectangle Decision
+rectangle "Protection\nor Return" as End
+
+Start --> Screening
+Screening --> Registration
+Registration --> Eurodac
+Eurodac --> Dublin
+Dublin --> Regular
+Dublin --> Border
+Regular --> Decision
+Border --> Decision
+Decision --> End
+
+@enduml
