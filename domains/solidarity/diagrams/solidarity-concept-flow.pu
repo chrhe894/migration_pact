@@ -2,6 +2,8 @@
 title Begreppsflöde: asylärende, solidaritetsbidrag och ansvarskompensation
 
 skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
 skinparam defaultFontName Arial
 skinparam activity {
   BackgroundColor #F8F8F8

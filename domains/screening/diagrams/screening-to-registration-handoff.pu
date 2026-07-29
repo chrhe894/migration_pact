@@ -15,6 +15,8 @@
 title Screening → Registration → Eurodac — överlämning
 
 skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
 skinparam defaultFontName Arial
 skinparam activity {
   BackgroundColor #F8F8F8
@@ -33,7 +35,7 @@ partition "Screeningmyndighet" {
   :Screening genomförs;
   note right
     == Vad skapas ==
-    Screeningformulär (art. 17)
+    [[../articles/scr-017.md Screeningformulär (art. 17)]]
     med: identitet, hälsa,
     sårbarhet, säkerhetskontroll,
     familjeuppgifter
@@ -47,7 +49,7 @@ partition "Screeningmyndighet" {
     identifiering och Eurodac
   end note
 
-  :Screening avslutas (art. 18);
+  :[[../articles/scr-018.md Screening avslutas]];
   :Hänvisning till registreringsmyndighet;
   note right
     == Vad överlämnas ==
@@ -63,12 +65,12 @@ partition "Registreringsmyndighet" {
     behöver samlas in igen ==
     Namn, födelsedatum, kön,
     medborgarskap, handlingar
-    (APR art. 27.1 — "kan komma
+    ([[../../../domains/registration/articles/apr-027.md APR art. 27.1]] — "kan komma
     från screeningformuläret")
   end note
 
   :Registrerar ansökan (5 dagar);
-  :Utfärdar registreringshandling (art. 29.1);
+  :[[../../../domains/registration/articles/apr-029.md Utfärdar registreringshandling]];
 }
 
 partition "Eurodac" {
@@ -87,8 +89,7 @@ partition "Eurodac" {
 }
 
 partition "Ansvarsbedömning" {
-  :Fastställande stat inleder
-  förfarandet (AMMR art. 38);
+  :[[../../../domains/responsibility/articles/ammr-038.md Fastställande stat inleder förfarandet]];
   note right
     Startar parallellt med
     eller efter registrering

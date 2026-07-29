@@ -14,6 +14,8 @@
 title Ansökans tre milstolpar
 
 skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
 skinparam defaultFontName Arial
 skinparam note {
   BackgroundColor #FFF7D6

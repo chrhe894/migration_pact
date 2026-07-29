@@ -14,6 +14,8 @@
 title Återtagandeförfarandet (take back) — detaljerat aktivitetsflöde
 
 skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
 skinparam defaultFontName Arial
 skinparam activity {
   BackgroundColor #F8F8F8

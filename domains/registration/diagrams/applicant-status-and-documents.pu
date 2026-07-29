@@ -14,6 +14,8 @@
 title Sökandens status och handlingar
 
 skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
 skinparam defaultFontName Arial
 skinparam note {
   BackgroundColor #FFF7D6

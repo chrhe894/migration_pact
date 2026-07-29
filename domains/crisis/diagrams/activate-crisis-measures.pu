@@ -14,15 +14,15 @@ title Activate crisis measures
 
 start
 
-:Medlemsstat begär krisförklaring (art. 2);
+:[[../articles/crisis-002.md Medlemsstat begär krisförklaring]];
 
 :Kommissionen bedömer situationen;
 
 if (Kris/force majeure/instrumentalisering?) then (Ja)
 
-    :Kommissionen fastställer genom beslut (art. 3);
+    :[[../articles/crisis-003.md Kommissionen fastställer genom beslut]];
 
-    :Rådet godkänner undantag (art. 4);
+    :[[../articles/crisis-004.md Rådet godkänner undantag]];
 
     :Undantag tillämpas:;
 

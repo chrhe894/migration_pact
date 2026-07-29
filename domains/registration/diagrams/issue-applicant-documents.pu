@@ -22,7 +22,7 @@ start
 
 if (Sökandehandling kan utfärdas direkt?) then (Ja)
 
-    :Utfärda sökandehandling (art. 29.4);
+    :[[../articles/apr-029.md Utfärda sökandehandling]];
 
     stop
 
@@ -34,11 +34,11 @@ else (Nej)
 
         :Invänta frigivning;
 
-        :Tillhandahåll registreringshandling (art. 29.1);
+        :[[../rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
 
     else (Nej)
 
-        :Tillhandahåll registreringshandling (art. 29.1);
+        :[[../rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
 
     endif
 
@@ -46,7 +46,7 @@ endif
 
 :Ansökan lämnas in;
 
-:Utfärda sökandehandling (art. 29.4);
+:[[../articles/apr-029.md Utfärda sökandehandling]];
 
 note right
   Giltighetstid: upp till 12 månader
@@ -54,7 +54,7 @@ note right
   rätt att stanna, rörelsefrihet
 end note
 
-:Återkalla registreringshandlingen (art. 29.3);
+:Återkalla registreringshandlingen;
 
 :Sökandehandlingen tillhandahålls sökanden;
 

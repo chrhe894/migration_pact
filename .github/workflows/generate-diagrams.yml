@@ -16,7 +16,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          ref: ${{ github.ref }}
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -34,10 +35,14 @@ jobs:
             java -jar plantuml.jar -tsvg "$f"
           done
 
-      - name: Commit generated SVGs
+      - name: Commit and push generated SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add '*.svg'
-          git diff --cached --quiet || git commit -m "chore: regenerate SVG diagrams"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: regenerate SVG diagrams"
+            git push origin HEAD:${{ github.ref_name }}
+          fi

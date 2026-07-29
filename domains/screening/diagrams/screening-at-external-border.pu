@@ -41,9 +41,9 @@ endif
 
 :[[../rules/rule-scr-015-001.md Säkerhetskontroll mot EU-databaser]];
 
-:Preliminär hälsokontroll (art. 12);
+:[[../articles/scr-012.md Preliminär hälsokontroll]];
 
-:Preliminär sårbarhetskontroll (art. 12);
+:[[../articles/scr-012.md Preliminär sårbarhetskontroll]];
 
 :[[../rules/rule-scr-017-001.md Fyll i screeningformulär]];
 
@@ -56,7 +56,7 @@ end note
 
 if (Asylansökan gjord?) then (Ja)
 
-    :Hänvisa till registreringsmyndighet (APR art. 27);
+    :[[../../../domains/registration/articles/apr-027.md Hänvisa till registreringsmyndighet]];
 
 else (Nej)
 
