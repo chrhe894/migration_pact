@@ -9,8 +9,8 @@ Denna shared-modul dokumenterar särskilda regler och garantier som gäller för
 ## Primära rättskällor
 
 - [APR artikel 29.6](../../domains/registration/articles/apr-029.md) — Handlingar för medföljande barn
-- APR artikel 32 — Ansökningar på medföljande barns vägnar
-- APR artikel 33 — Ensamkommande barns ansökningar
+- [APR artikel 32](../../domains/registration/articles/apr-032.md) — Ansökningar på medföljande barns vägnar
+- [APR artikel 33](../../domains/registration/articles/apr-033.md) — Ensamkommande barns ansökningar
 - [Screeningförordningen artikel 13](../../domains/screening/articles/scr-013.md) — Garantier för underåriga
 - [AMMR artikel 25](../../domains/responsibility/articles/ammr-025.md) — Ansvarsbestämning för ensamkommande barn
 

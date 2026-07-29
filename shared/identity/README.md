@@ -28,7 +28,9 @@ Denna shared-modul dokumenterar identitetsfastställande som en delad aktivitet 
 
 ## Regler
 
-Se `rules/` (under uppbyggnad).
+Identitetsrelaterade regler finns i respektive domän:
+- [RULE-SCR-014-001](../../domains/screening/rules/rule-scr-014-001.md) — Identifiering eller verifiering under screening
+- [RULE-APR-027-002](../../domains/registration/rules/rule-apr-027-002.md) — Uppgifter som ska registreras (inkl. identitet)
 
 ---
 

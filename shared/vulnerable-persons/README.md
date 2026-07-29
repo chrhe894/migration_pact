@@ -37,7 +37,10 @@ Denna shared-modul dokumenterar regler och begrepp kring identifiering och hante
 
 ## Regler
 
-Under uppbyggnad.
+Sårbarhetsrelaterade regler finns i respektive domän:
+- [RULE-SCR-013-001](../../domains/screening/rules/rule-scr-013-001.md) — Barnets bästa i främsta rummet
+- [RULE-SCR-013-002](../../domains/screening/rules/rule-scr-013-002.md) — Företrädare för ensamkommande barn
+- [RULE-APR-053-001](../../domains/border-procedure/rules/rule-apr-053-001.md) — Undantag från gränsförfarande för sårbara
 
 ---
 

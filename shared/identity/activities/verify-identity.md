@@ -37,7 +37,9 @@ Fastställa eller bedöma sökandens identitet i den utsträckning som krävs en
 
 ## Shared Rules
 
-Se regler under `shared/identity/rules/` (under uppbyggnad).
+Identitetsrelaterade regler finns i respektive domän:
+- [RULE-SCR-014-001](../../../domains/screening/rules/rule-scr-014-001.md) — Identifiering under screening
+- [RULE-APR-027-002](../../../domains/registration/rules/rule-apr-027-002.md) — Uppgifter vid registrering
 
 ---
 
