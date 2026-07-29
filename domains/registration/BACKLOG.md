@@ -70,8 +70,8 @@
 - [x] identity — verify-identity, README, concepts (identity, identity-document)
 - [x] documents — README
 - [x] interpreters — README, activity, concept, regel
-- [ ] children — behöver dokumenteras
-- [ ] vulnerable-persons — behöver dokumenteras
+- [x] children — README skapad
+- [x] vulnerable-persons — README skapad
 - [x] time-limits — README, regler (4 st)
 
 ---
@@ -80,7 +80,7 @@
 
 - [x] Skillnaden mellan "made", "registered" och "lodged"
 - [x] Behörig myndighet för registrering
-- [ ] När anses en ansökan ha "gjorts"?
+- [x] När anses en ansökan ha "gjorts"?
 
 ---
 

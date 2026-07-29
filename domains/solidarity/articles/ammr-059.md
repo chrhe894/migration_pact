@@ -8,13 +8,13 @@ AMMR artikel 59
 
 ## Rubrik
 
-Meddelande om att en medlemsstat som anser sig vara utsatt för migrationstryck har behov av att aktivera solidaritetspoolen
+Meddelande om att en medlemsstat har behov av solidaritetsstöd
 
 ---
 
 ## Sammanfattning
 
-Artikeln reglerar det formella meddelandet om behov och vilken information som ska ingå.
+Detaljerat meddelande med specificerade behov.
 
 ---
 

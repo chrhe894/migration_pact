@@ -85,17 +85,17 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 
 ## Domäner
 
-| Domän | Förordning | Status |
-|-------|------------|--------|
-| [Registration](domains/registration/README.md) | APR | Pågår |
-| [Asylum procedure](domains/asylum-procedure/README.md) | APR | Pågår |
-| [Border procedure](domains/border-procedure/README.md) | APR | Pågår |
-| [Screening](domains/screening/README.md) | Screeningförordningen | Pågår |
-| [Eurodac](domains/eurodac/README.md) | Eurodacförordningen | Pågår |
-| [Responsibility](domains/responsibility/README.md) | AMMR | Pågår |
-| [Solidarity](domains/solidarity/README.md) | AMMR | Pågår |
-| [Crisis](domains/crisis/README.md) | Krishanteringsförordningen | Pågår |
-| [Return border procedure](domains/return-border-procedure/README.md) | Return Border Procedure | Pågår |
+| Domän                                                                | Förordning                 | Status |
+| ----------------------------------------------------------------------| ----------------------------| --------|
+| [Registration](domains/registration/README.md)                       | APR                        | Pågår  |
+| [Asylum procedure](domains/asylum-procedure/README.md)               | APR                        | Pågår  |
+| [Border procedure](domains/border-procedure/README.md)               | APR                        | Pågår  |
+| [Screening](domains/screening/README.md)                             | Screeningförordningen      | Pågår  |
+| [Eurodac](domains/eurodac/README.md)                                 | Eurodacförordningen        | Pågår  |
+| [Responsibility](domains/responsibility/README.md)                   | AMMR                       | Pågår  |
+| [Solidarity](domains/solidarity/README.md)                           | AMMR                       | Pågår  |
+| [Crisis](domains/crisis/README.md)                                   | Krishanteringsförordningen | Pågår  |
+| [Return border procedure](domains/return-border-procedure/README.md) | Return Border Procedure    | Pågår  |
 
 ---
 

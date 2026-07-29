@@ -8,13 +8,13 @@ AMMR artikel 58
 
 ## Rubrik
 
-Information om att en medlemsstat anser sig vara utsatt för migrationstryck
+Information om att en medlemsstat är utsatt för migrationstryck
 
 ---
 
 ## Sammanfattning
 
-Artikeln reglerar hur en medlemsstat meddelar kommissionen att den bedömer sig vara utsatt för migrationstryck och begär att solidaritetsmekanismen aktiveras.
+Medlemsstat meddelar kommissionen att den anser sig utsatt för migrationstryck.
 
 ---
 

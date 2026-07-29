@@ -27,14 +27,14 @@
 - [x] Screeningförordningen artikel 6 — Tillstånd att resa in
 - [x] Screeningförordningen artikel 7 — Screening inom territoriet
 - [x] Screeningförordningen artikel 8 — Krav rörande screening
-- [ ] Screeningförordningen artikel 9 — Skyldigheter för tredjelandsmedborgare
-- [ ] Screeningförordningen artikel 10 — Övervakning av grundläggande rättigheter
+- [x] Screeningförordningen artikel 9 — Skyldigheter för tredjelandsmedborgare
+- [x] Screeningförordningen artikel 10 — Övervakning av grundläggande rättigheter
 - [x] Screeningförordningen artikel 11 — Rätten till information
 - [x] Screeningförordningen artikel 12 — Preliminära hälsokontroller och sårbarhet
 - [x] Screeningförordningen artikel 13 — Garantier för underåriga
 - [x] Screeningförordningen artikel 14 — Identifiering eller verifiering av identitet
 - [x] Screeningförordningen artikel 15 — Säkerhetskontroll
-- [ ] Screeningförordningen artikel 16 — Åtgärder för identifiering och säkerhetskontroller
+- [x] Screeningförordningen artikel 16 — Åtgärder för identifiering och säkerhetskontroller
 - [x] Screeningförordningen artikel 17 — Screeningformulär
 - [x] Screeningförordningen artikel 18 — Slutförande av screeningen
 
@@ -94,4 +94,4 @@
 ## Öppna frågor
 
 - [x] När anses screeningen avslutad?
-- [ ] Hur hanteras screening vid massankomster (krishanteringsförordningen)?
+- [x] Hur hanteras screening vid massankomster (krishanteringsförordningen)?

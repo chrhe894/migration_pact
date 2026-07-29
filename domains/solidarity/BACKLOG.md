@@ -23,18 +23,18 @@
 ## Artiklar
 
 - [x] AMMR artikel 57 — Solidaritetspoolen
-- [ ] AMMR artikel 58 — Information om migrationstryck
-- [ ] AMMR artikel 59 — Meddelande om behov
-- [ ] AMMR artikel 60 — Operativt genomförande
-- [ ] AMMR artikel 61 — Nedsättning vid migrationstryck
-- [ ] AMMR artikel 62 — Nedsättning vid betydande migration
+- [x] AMMR artikel 58 — Information om migrationstryck
+- [x] AMMR artikel 59 — Meddelande om behov
+- [x] AMMR artikel 60 — Operativt genomförande
+- [x] AMMR artikel 61 — Nedsättning vid migrationstryck
+- [x] AMMR artikel 62 — Nedsättning vid betydande migration
 - [x] AMMR artikel 63 — Ansvarskompensationer
 - [x] AMMR artikel 64 — Ekonomiska bidrag
 - [x] AMMR artikel 65 — Alternativa solidaritetsåtgärder
 - [x] AMMR artikel 66 — Referensnyckel
 - [x] AMMR artikel 67 — Förfarande inför omfördelning
 - [x] AMMR artikel 68 — Förfarande efter omfördelning
-- [ ] AMMR artikel 69 — Förfarande för ansvarskompensationer
+- [x] AMMR artikel 69 — Förfarande för ansvarskompensationer
 
 ---
 

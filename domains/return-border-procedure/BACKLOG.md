@@ -14,12 +14,12 @@
 ## Artiklar
 
 - [x] Artikel 1 — Syfte
-- [ ] Artikel 2 — Tillämpningsområde
-- [ ] Artikel 3 — Definitioner
+- [x] Artikel 2 — Tillämpningsområde
+- [x] Artikel 3 — Definitioner
 - [x] Artikel 4 — Tillämpning
 - [x] Artikel 5 — Varaktighet
 - [x] Artikel 6 — Rättsmedel
-- [ ] Artikel 7 — Förvar
+- [x] Artikel 7 — Förvar
 - [ ] Artiklarna 8–12 — Garantier, barn, hälsa
 
 ---

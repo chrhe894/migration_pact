@@ -17,8 +17,8 @@
 - [x] Criteria hierarchy — CON-RES-002
 - [x] Take charge request — CON-RES-003
 - [x] Take back notification — CON-RES-004
-- [ ] Transfer — överföring av sökande till ansvarig stat
-- [ ] Determining Member State — den stat som genomför ansvarsbestämningen
+- [x] Transfer — CON-RES-005
+- [x] Determining Member State — CON-RES-006
 
 ---
 
@@ -116,4 +116,4 @@
 ## Öppna frågor
 
 - [x] Ansvarets upphörande
-- [ ] Hur hanteras situationer där inget kriterium ger en ansvarig stat?
+- [x] Hur hanteras situationer där inget kriterium ger en ansvarig stat?

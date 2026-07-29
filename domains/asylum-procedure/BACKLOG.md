@@ -72,7 +72,7 @@
 - [x] time-limits
 - [x] children
 - [x] vulnerable-persons
-- [ ] interviews — behöver dokumenteras
+- [x] interviews — README och artiklar 11–14 dokumenterade
 
 ---
 
@@ -85,4 +85,4 @@
 ## Öppna frågor
 
 - [x] Implicit withdrawal consequences
-- [ ] Förhållandet mellan beslut i sak och gränsförfarande
+- [x] Förhållandet mellan beslut i sak och gränsförfarande

@@ -14,7 +14,7 @@ Operativt genomförande och samordning av solidaritetsbidrag
 
 ## Sammanfattning
 
-Artikeln reglerar hur solidaritetsbidragen operativt genomförs och samordnas mellan gynnad stat, bidragande stater och EU-solidaritetssamordnaren.
+EU-solidaritetssamordnaren samordnar och följer upp genomförandet.
 
 ---
 

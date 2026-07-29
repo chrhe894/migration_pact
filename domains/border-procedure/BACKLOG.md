@@ -25,11 +25,11 @@
 - [x] APR artikel 45 — Obligatorisk tillämpning
 - [x] APR artikel 46 — Tillräcklig kapacitet unionsnivå
 - [x] APR artikel 47 — En medlemsstats kapacitet
-- [ ] APR artikel 48 — Åtgärd när kapacitet uppnåtts
-- [ ] APR artikel 49 — Underrättelse om kapacitet
-- [ ] APR artikel 50 — Underrättelse om högsta antal uppnåtts
+- [x] APR artikel 48 — Åtgärd när kapacitet uppnåtts
+- [x] APR artikel 49 — Underrättelse om kapacitet
+- [x] APR artikel 50 — Underrättelse om högsta antal uppnåtts
 - [x] APR artikel 51 — Tidsfrister
-- [ ] APR artikel 52 — Ansvarsbestämning och omfördelning
+- [x] APR artikel 52 — Ansvarsbestämning och omfördelning
 - [x] APR artikel 53 — Undantag
 - [x] APR artikel 54 — Platser
 
