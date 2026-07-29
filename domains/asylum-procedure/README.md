@@ -10,6 +10,17 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 
 ---
 
+## Plats i livscykeln
+
+| | |
+|---|---|
+| **Föregående** | [Responsibility](../responsibility/README.md) (ansvarig stat fastställd) |
+| **Nästa** | Beslut: uppehållstillstånd eller återvändande |
+| **Inträde** | Ansökan inlämnad i den ansvariga staten |
+| **Utträde** | Beslut fattat (beviljande, avslag eller återkallande) |
+
+---
+
 ## Primära rättskällor
 
 - [APR artikel 34](articles/apr-034.md) — Prövning av ansökningar

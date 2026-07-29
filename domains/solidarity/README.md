@@ -10,6 +10,17 @@ Solidaritetsmekanismen syftar till att fördela ansvaret rättvist mellan medlem
 
 ---
 
+## Plats i livscykeln
+
+| | |
+|---|---|
+| **Föregående** | [Responsibility](../responsibility/README.md) (migrationstryck konstateras) |
+| **Nästa** | [Registration](../registration/README.md) i mottagande stat (vid omfördelning) |
+| **Inträde** | Migrationstryck eller betydande migrationssituation konstaterad |
+| **Utträde** | Solidaritetsbidrag genomfört (omfördelning, kompensation eller bidrag) |
+
+---
+
 ## Primära rättskällor
 
 - [AMMR artikel 57](articles/ammr-057.md) — Rådets genomförandeakt om solidaritetspoolen

@@ -10,6 +10,17 @@ Ansvarsbestämningen är central i det gemensamma europeiska asylsystemet — de
 
 ---
 
+## Plats i livscykeln
+
+| | |
+|---|---|
+| **Föregående** | [Registration](../registration/README.md) / [Eurodac](../eurodac/README.md) |
+| **Nästa** | [Asylum Procedure](../asylum-procedure/README.md) eller [Border Procedure](../border-procedure/README.md) |
+| **Inträde** | Ansökan registrerad, kriterierna ska tillämpas |
+| **Utträde** | Ansvarig stat fastställd, ev. överföring genomförd |
+
+---
+
 ## Primära rättskällor
 
 - [AMMR artikel 24](articles/ammr-024.md) — Kriteriernas rangordning

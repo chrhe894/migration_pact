@@ -10,6 +10,17 @@ Gränsförfarandet är ett särskilt förfarande som genomförs vid eller nära 
 
 ---
 
+## Plats i livscykeln
+
+| | |
+|---|---|
+| **Föregående** | [Screening](../screening/README.md) → [Registration](../registration/README.md) |
+| **Nästa** | Beviljande (inresa tillåts) eller [Return Border Procedure](../return-border-procedure/README.md) |
+| **Inträde** | Ansökan registrerad, sökanden vid yttre gräns, gränsförfarandevillkor uppfyllda |
+| **Utträde** | Beslut fattat inom 12 veckor, eller tidsfrist löpt ut (inresa tillåts) |
+
+---
+
 ## Primära rättskällor
 
 - [APR artikel 43](articles/apr-043.md) — Villkor för att tillämpa gränsförfarandet

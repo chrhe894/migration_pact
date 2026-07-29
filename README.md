@@ -77,6 +77,9 @@ Repositoryt består av många mindre dokument istället för ett fåtal stora do
 | `shared/` | Delade begrepp, regler och aktiviteter |
 | `references/` | Lagstiftningsreferenser och källtexter |
 | `templates/` | Mallar för projektets dokument |
+| `diagrams/` | Övergripande diagram |
+
+**Nyläsare?** Börja med [CASE_LIFECYCLE.md](CASE_LIFECYCLE.md) för en överblick av hela förfarandekedjan.
 
 ---
 

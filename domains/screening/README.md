@@ -10,6 +10,17 @@ Screening är ett förfarande som genomförs vid de yttre gränserna eller inom 
 
 ---
 
+## Plats i livscykeln
+
+| | |
+|---|---|
+| **Föregående** | Ankomst / omhändertagande |
+| **Nästa** | [Registration](../registration/README.md) (om asylansökan) eller Återvändande |
+| **Inträde** | Person omhändertas vid gräns, landsätts eller ansöker vid gränsövergångsställe |
+| **Utträde** | Hänvisning till registreringsmyndighet eller återvändandemyndighet |
+
+---
+
 ## Primära rättskällor
 
 - [Screening artikel 5](articles/scr-005.md) — Screening vid den yttre gränsen

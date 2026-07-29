@@ -10,6 +10,17 @@ Domänen beskriver förordning (EU) 2024/1349 om återvändandegränsförfarande
 
 ---
 
+## Plats i livscykeln
+
+| | |
+|---|---|
+| **Föregående** | [Border Procedure](../border-procedure/README.md) (avslag i gränsförfarande) |
+| **Nästa** | Verkställt avlägsnande, eller inresa tillåts (om 12v utan verkställighet) |
+| **Inträde** | Avslag i asylgränsförfarande, person har inte rätt att stanna |
+| **Utträde** | Person har återvänt eller tidsfrist löpt ut |
+
+---
+
 ## Primära rättskällor
 
 - [Return artikel 1](articles/return-001.md) — Syfte

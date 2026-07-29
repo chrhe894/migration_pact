@@ -10,6 +10,17 @@ Förordningen medger undantag från ordinarie tidsfrister och förfaranden samt 
 
 ---
 
+## Plats i livscykeln
+
+| | |
+|---|---|
+| **Föregående** | Alla domäner (krishantering kan aktiveras parallellt) |
+| **Nästa** | Ordinarie förfaranden återupptas när kris upphör |
+| **Inträde** | Medlemsstat begär krisförklaring, kommissionen fastställer |
+| **Utträde** | Rådets beslut upphör, undantagsbestämmelser avaktiveras |
+
+---
+
 ## Primära rättskällor
 
 - [Crisis artikel 1](articles/crisis-001.md) — Innehåll och tillämpningsområde

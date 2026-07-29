@@ -10,6 +10,17 @@ Registreringen är den första formella delen av asylförfarandet och säkerstä
 
 ---
 
+## Plats i livscykeln
+
+| | |
+|---|---|
+| **Föregående** | [Screening](../screening/README.md) |
+| **Nästa** | [Responsibility](../responsibility/README.md) / [Asylum Procedure](../asylum-procedure/README.md) |
+| **Inträde** | Screening avslutad, person hänvisad till registreringsmyndighet |
+| **Utträde** | Ansökan registrerad och inlämnad, handlingar utfärdade |
+
+---
+
 ## Primära rättskällor
 
 - [APR artikel 27](articles/apr-027.md) — Registrering av ansökan
