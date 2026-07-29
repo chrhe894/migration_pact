@@ -63,4 +63,6 @@ Om ett oproportionellt stort antal personer gör ansökan inom samma period ska 
 
 ## Diagram
 
-Se `../diagrams/lodging-an-application.pu`
+![Lodging an application](../diagrams/lodging-an-application.svg)
+
+Källa: [`lodging-an-application.pu`](../diagrams/lodging-an-application.pu)

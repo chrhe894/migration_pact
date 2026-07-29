@@ -75,4 +75,6 @@ Om sökanden har genomgått screening enligt Screeningförordningen artikel 5.1 
 
 ## Diagram
 
-Se `../diagrams/registration-of-an-application.pu`
+![Registration of an application](../diagrams/registration-of-an-application.svg)
+
+Källa: [`registration-of-an-application.pu`](../diagrams/registration-of-an-application.pu)

@@ -66,4 +66,6 @@ För medföljande barn kan handlingar som utfärdas till förälder eller ansvar
 
 ## Diagram
 
-Se `../diagrams/issue-applicant-documents.pu`
+![Issue applicant documents](../diagrams/issue-applicant-documents.svg)
+
+Källa: [`issue-applicant-documents.pu`](../diagrams/issue-applicant-documents.pu)

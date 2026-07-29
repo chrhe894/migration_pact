@@ -1,0 +1,38 @@
+name: Generate PlantUML diagrams
+
+on:
+  push:
+    paths:
+      - '**/*.pu'
+      - '**/*.puml'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Download PlantUML
+        run: |
+          wget -q https://github.com/plantuml/plantuml/releases/latest/download/plantuml.jar -O plantuml.jar
+
+      - name: Generate SVG from all .pu and .puml files
+        run: |
+          find . -name '*.pu' -o -name '*.puml' | while read f; do
+            java -jar plantuml.jar -tsvg "$f"
+          done
+
+      - name: Commit generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add '*.svg'
+          git diff --cached --quiet || git commit -m "chore: regenerate SVG diagrams"
+          git push
