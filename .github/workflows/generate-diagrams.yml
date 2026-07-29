@@ -36,18 +36,51 @@ jobs:
 
       - name: Generate SVG from all .pu and .puml files
         run: |
-          find . -name '*.pu' -o -name '*.puml' | while read f; do
+          set -o pipefail
+          echo "PlantUML source files found:"
+          find . -type f \( -name '*.pu' -o -name '*.puml' \) -print || true
+
+          export GRAPHVIZ_DOT=/usr/bin/dot
+
+          generated_any=false
+          while IFS= read -r f; do
+            echo "Rendering: $f"
             java -jar plantuml.jar -tsvg "$f"
-          done
+            rc=$?
+            echo "PlantUML exit code: $rc for $f"
+            if [ $rc -eq 0 ]; then
+              generated_any=true
+            else
+              echo "Warning: PlantUML failed for $f (exit $rc)"
+            fi
+          done < <(find . -type f \( -name '*.pu' -o -name '*.puml' \))
+
+          echo "Generated SVG files (if any):"
+          find . -type f -name '*.svg' -print || true
+
+          if [ "$generated_any" = false ]; then
+            echo "No SVGs were generated."
+          fi
 
       - name: Commit and push generated SVGs
+        shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if find . -name '*.svg' -newer plantuml.jar | grep -q .; then
-            git add '*.svg'
-            git diff --cached --quiet || git commit -m "chore: regenerate SVG diagrams"
-            git push origin HEAD:${{ github.ref_name }}
+
+          # Exit early if no SVG files were generated
+          if ! find . -type f -name '*.svg' -print -quit | grep -q .; then
+            echo "No SVG files generated — nothing to commit"
+            exit 0
+          fi
+
+          # Safely collect filenames (handles spaces)
+          mapfile -t svgs < <(find . -type f -name '*.svg' -print)
+          git add "${svgs[@]}"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
           else
-            echo "No SVGs generated or changed"
+            git commit -m "chore: regenerate SVG diagrams"
+            git push origin HEAD:${{ github.ref_name }}
           fi
