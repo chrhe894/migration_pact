@@ -1,3 +1,5 @@
+<div align="right">← <a href="../README.md">Identity</a></div>
+
 # ACT-ID-001
 
 # Verify identity
@@ -8,21 +10,50 @@ Fastställa eller bedöma sökandens identitet i den utsträckning som krävs en
 
 ---
 
+## Rättslig grund
+
+- [APR artikel 27](../../../domains/registration/articles/apr-027.md), punkt 1 a–b — Uppgifter om identitet vid registrering
+- [Screeningförordningen artikel 14](../../../domains/screening/articles/scr-014.md) — Identifiering eller verifiering av identitet under screening
+
+---
+
 ## Används av
 
-- PROC-REG-001 Registration
-- PROC-SCR-001 Screening
-- PROC-ASY-001 Asylum procedure
+- [PROC-REG-001 Registration of an application](../../../domains/registration/processes/registration-of-an-application.md)
+- [PROC-SCR-001 Screening vid yttre gräns](../../../domains/screening/processes/screening-at-external-border.md)
+- [PROC-SCR-002 Screening inom territoriet](../../../domains/screening/processes/screening-within-territory.md)
+- [PROC-ASY-001 Examine an application](../../../domains/asylum-procedure/processes/examine-an-application.md)
+- [PROC-RES-001 Determine responsible Member State](../../../domains/responsibility/processes/determine-responsible-member-state.md)
+- [PROC-EUR-001 Collect and transmit biometric data](../../../domains/eurodac/processes/collect-and-transmit-biometric-data.md)
 
 ---
 
 ## Shared Concepts
 
-- Identity
-- Identity document
+- [Identity (CON-ID-001)](../concepts/identity.md)
+- [Identity document (CON-ID-002)](../concepts/identity-document.md)
 
 ---
 
 ## Shared Rules
 
-Se regler under `shared/identity/rules/`.
+Se regler under `shared/identity/rules/` (under uppbyggnad).
+
+---
+
+## Metoder
+
+Identitet kan fastställas eller verifieras med hjälp av:
+- identitetshandlingar, resehandlingar eller annan dokumentation,
+- uppgifter tillhandahållna av personen,
+- biometriska uppgifter (fingeravtryck, ansiktsbild),
+- sökningar i CIR, SIS, Eurodac och nationella databaser.
+
+---
+
+## Kommentar
+
+Kravet på identitetsfastställande varierar beroende på förfarande:
+- Vid **screening**: fullständig identifiering med databassökningar (art. 14).
+- Vid **registrering**: den utsträckning som krävs för att registrera ansökan.
+- Vid **prövning**: kan kräva ytterligare bedömning av trovärdighet.
