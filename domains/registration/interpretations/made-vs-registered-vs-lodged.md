@@ -31,9 +31,9 @@ Distinktionen är praktiskt viktig eftersom tidsfrister och rättsverkningar kop
 
 ## Rättslig grund
 
-- APR artikel 27.1 (registrering)
-- APR artikel 28.1 (inlämnande)
-- APR artikel 29.1 och 29.4 (handlingar)
+- [APR artikel 27](../articles/apr-027.md), punkt 1 (registrering)
+- [APR artikel 28](../articles/apr-028.md), punkt 1 (inlämnande)
+- [APR artikel 29](../articles/apr-029.md), punkt 1 och 4 (handlingar)
 
 ---
 

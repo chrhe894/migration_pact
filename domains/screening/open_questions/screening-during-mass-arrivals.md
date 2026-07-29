@@ -24,9 +24,9 @@ Frågor:
 
 ## Berörda rättskällor
 
-- Screeningförordningen artikel 8.3 (7 dagar)
-- Screeningförordningen artikel 18.5 (avslutande vid fristutgång)
-- Krishanteringsförordningen artikel 10 (registreringsundantag)
+- [Screeningförordningen artikel 8](../../screening/articles/scr-008.md), punkt 3 (7 dagar)
+- [Screeningförordningen artikel 18](../../screening/articles/scr-018.md), punkt 5 (avslutande vid fristutgång)
+- [Krishanteringsförordningen artikel 10](../../crisis/articles/crisis-010.md) (registreringsundantag)
 
 ---
 

@@ -24,10 +24,10 @@ I praktiken innebär "första registrering"-regeln att det alltid finns en ansva
 
 ## Berörda rättskällor
 
-- AMMR artikel 24.2
-- AMMR artikel 33 (tidsfrister)
-- AMMR artikel 38.1 (förfarande vid första registrering)
-- Eurodacförordningen artikel 16 (angivelse av ansvarig stat)
+- [AMMR artikel 24](../articles/ammr-024.md), punkt 2
+- [AMMR artikel 33](../articles/ammr-033.md) (tidsfrister)
+- [AMMR artikel 38](../articles/ammr-038.md), punkt 1 (förfarande vid första registrering)
+- Eurodacförordningen artikel 16 (angivelse av ansvarig stat — ej dokumenterad som egen fil)
 
 ---
 

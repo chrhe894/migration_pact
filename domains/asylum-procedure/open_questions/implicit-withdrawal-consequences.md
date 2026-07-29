@@ -22,9 +22,9 @@ APR artikel 41 tillåter den beslutande myndigheten att betrakta en ansökan som
 
 ## Berörda rättskällor
 
-- APR artikel 41 — Implicit återkallande
-- APR artikel 55 — Efterföljande ansökningar
-- AMMR artikel 37.2 — Ansvarets upphörande
+- [APR artikel 41](../articles/apr-041.md) — Implicit återkallande
+- [APR artikel 55](../articles/apr-055.md) — Efterföljande ansökningar
+- [AMMR artikel 37](../../responsibility/articles/ammr-037.md), punkt 2 — Ansvarets upphörande
 
 ---
 

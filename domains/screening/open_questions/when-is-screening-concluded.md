@@ -25,9 +25,9 @@ Följande frågor är öppna:
 
 ## Berörda rättskällor
 
-- Screeningförordningen artikel 8.3–8.4
-- Screeningförordningen artikel 18.5
-- APR artikel 27.7
+- [Screeningförordningen artikel 8](../../screening/articles/scr-008.md), punkt 3–4
+- [Screeningförordningen artikel 18](../../screening/articles/scr-018.md), punkt 5
+- [APR artikel 27](../../registration/articles/apr-027.md), punkt 7
 
 ---
 

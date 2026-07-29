@@ -23,8 +23,8 @@ Denna koppling mellan AMMR och APR gör registreringstidpunkten central för hel
 
 ## Rättslig grund
 
-- AMMR artikel 24.2
-- APR artikel 27
+- [AMMR artikel 24.2](../articles/ammr-024.md)
+- [APR artikel 27](../../registration/articles/apr-027.md)
 
 ---
 

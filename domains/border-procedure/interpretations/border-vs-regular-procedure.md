@@ -38,10 +38,10 @@ Gränsförfarandet och det reguljära förfarandet är inte två helt separata s
 
 ## Rättslig grund
 
-- APR artikel 43 (gränsförfarande)
-- APR artikel 34–35 (reguljärt förfarande)
-- APR artikel 51 (tidsfrister)
-- APR artikel 53 (undantag)
+- [APR artikel 43](../articles/apr-043.md) (gränsförfarande)
+- [APR artikel 34](../../asylum-procedure/articles/apr-034.md)–35 (reguljärt förfarande)
+- [APR artikel 51](../articles/apr-051.md) (tidsfrister)
+- [APR artikel 53](../articles/apr-053.md) (undantag)
 
 ---
 

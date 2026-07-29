@@ -34,8 +34,8 @@ AMMR:s solidaritetsmekanism är inte enbart omfördelning — den består av fle
 
 ## Rättslig grund
 
-- AMMR artiklarna 57, 63, 64, 65
-- AMMR artikel 66 (referensnyckel)
+- [AMMR artikel 57](../articles/ammr-057.md), [63](../articles/ammr-063.md), [64](../articles/ammr-064.md), [65](../articles/ammr-065.md)
+- [AMMR artikel 66](../articles/ammr-066.md) (referensnyckel)
 
 ---
 

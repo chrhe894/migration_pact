@@ -25,9 +25,9 @@ Frågor:
 
 ## Berörda rättskällor
 
-- APR artikel 34–39 (reguljärt)
-- APR artikel 43–44 (gränsförfarande)
-- APR artikel 51.2 (tidsfrist och konsekvens)
+- [APR artikel 34](../articles/apr-034.md)–[39](../articles/apr-039.md) (reguljärt)
+- [APR artikel 43](../../border-procedure/articles/apr-043.md)–[44](../../border-procedure/articles/apr-044.md) (gränsförfarande)
+- [APR artikel 51](../../border-procedure/articles/apr-051.md), punkt 2 (tidsfrist och konsekvens)
 
 ---
 

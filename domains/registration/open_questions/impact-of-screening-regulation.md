@@ -30,9 +30,9 @@ Detta är praktiskt viktigt eftersom tidsfristen för registrering (fem eller 15
 
 ## Berörda rättskällor
 
-- APR artikel 27.7
-- Screeningförordning artikel 5.1
-- Screeningförordning artikel 8 (tidsfrister)
+- [APR artikel 27](../articles/apr-027.md), punkt 7
+- [Screeningförordningen artikel 5](../../screening/articles/scr-005.md), punkt 1
+- [Screeningförordningen artikel 8](../../screening/articles/scr-008.md) (tidsfrister)
 
 ---
 

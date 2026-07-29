@@ -22,8 +22,8 @@ Frågor:
 
 ## Berörda rättskällor
 
-- Krishanteringsförordningen artiklarna 1–3
-- APR artikel 27.5 (massinflöde utan kris)
+- [Krishanteringsförordningen artiklarna 1–3](../articles/crisis-001.md)
+- [APR artikel 27](../../registration/articles/apr-027.md), punkt 5 (massinflöde utan kris)
 
 ---
 

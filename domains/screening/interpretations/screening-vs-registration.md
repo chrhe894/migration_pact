@@ -28,10 +28,10 @@ Kopplingen är även operativ: uppgifterna i screeningformuläret (artikel 17) k
 
 ## Rättslig grund
 
-- Screeningförordningen artikel 5
-- Screeningförordningen artikel 18.2
-- APR artikel 27.7
-- APR artikel 27.1
+- [Screeningförordningen artikel 5](../articles/scr-005.md)
+- [Screeningförordningen artikel 18](../articles/scr-018.md), punkt 2
+- [APR artikel 27](../../registration/articles/apr-027.md), punkt 7
+- [APR artikel 27](../../registration/articles/apr-027.md), punkt 1
 
 ---
 

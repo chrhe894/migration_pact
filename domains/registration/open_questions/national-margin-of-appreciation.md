@@ -25,9 +25,9 @@ APR artikel 28.7 tillåter uttryckligen att ansökan görs, registreras och läm
 
 ## Berörda rättskällor
 
-- APR artikel 27.1–27.7
-- APR artikel 28.7
-- APR artikel 4
+- [APR artikel 27](../articles/apr-027.md), punkt 1–7
+- [APR artikel 28](../articles/apr-028.md), punkt 7
+- APR artikel 4 (behöriga myndigheter — ej dokumenterad som egen fil)
 - Proportionalitetsprincipen
 
 ---

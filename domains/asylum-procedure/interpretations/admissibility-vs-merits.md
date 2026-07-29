@@ -34,9 +34,9 @@ Upptagandeprövningen kan ses som en "grindvakt" — den avgör om prövningsmas
 
 ## Rättslig grund
 
-- APR artikel 38 (admissibility)
-- APR artikel 39 (beslut i sak)
-- APR artikel 34 (prövningens grundkrav)
+- [APR artikel 38](../articles/apr-038.md) (admissibility)
+- [APR artikel 39](../articles/apr-039.md) (beslut i sak)
+- [APR artikel 34](../articles/apr-034.md) (prövningens grundkrav)
 
 ---
 

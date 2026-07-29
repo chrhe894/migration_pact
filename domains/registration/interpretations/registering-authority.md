@@ -27,9 +27,8 @@ Artikel 4 i APR fastställer vilka myndigheter som är behöriga i respektive ro
 
 ## Rättslig grund
 
-- APR artikel 4
-- APR artikel 27.1
-- APR artikel 27.3
+- [APR artikel 27](../articles/apr-027.md), punkt 1 och 3
+- APR artikel 4 (behöriga myndigheter — ej dokumenterad som egen fil)
 
 ---
 

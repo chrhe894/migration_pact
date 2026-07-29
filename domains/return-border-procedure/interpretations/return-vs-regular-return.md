@@ -32,7 +32,7 @@ Return border procedure (förordning 2024/1349) och återvändandedirektivet (20
 
 - Förordning (EU) 2024/1349
 - Direktiv 2008/115/EG
-- APR artikel 43.3
+- [APR artikel 43](../../border-procedure/articles/apr-043.md), punkt 3
 
 ---
 

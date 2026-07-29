@@ -23,9 +23,9 @@ Frågor:
 
 ## Berörda rättskällor
 
-- AMMR artikel 57 — Solidaritetspoolen
-- AMMR artikel 63 — Ansvarskompensationer
-- AMMR artikel 67 — Omfördelning
+- [AMMR artikel 57](../articles/ammr-057.md) — Solidaritetspoolen
+- [AMMR artikel 63](../articles/ammr-063.md) — Ansvarskompensationer
+- [AMMR artikel 67](../articles/ammr-067.md) — Omfördelning
 - Artikel 258 FEUF — Överträdelseförfarande
 
 ---

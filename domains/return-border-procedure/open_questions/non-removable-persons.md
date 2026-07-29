@@ -24,8 +24,8 @@ Return border procedure har en absolut tidsgräns på 12 veckor. Om avlägsnande
 
 - Förordning (EU) 2024/1349 artikel 5
 - Direktiv 2008/115/EG (ordinarie återvändande efter inresa)
-- APR artikel 55 (efterföljande ansökningar)
-- AMMR artikel 37 (ansvarets upphörande)
+- [APR artikel 55](../../asylum-procedure/articles/apr-055.md) (efterföljande ansökningar)
+- [AMMR artikel 37](../../responsibility/articles/ammr-037.md) (ansvarets upphörande)
 
 ---
 

@@ -22,10 +22,10 @@ AMMR artikel 37 reglerar ansvarets upphörande, men det finns flera situationer 
 
 ## Berörda rättskällor
 
-- AMMR artikel 33.1–33.2 (tidsfrister för inresa)
-- AMMR artikel 37 (ansvarets upphörande)
-- AMMR artikel 35 (diskretionär bedömning)
-- AMMR artikel 46 (överföring)
+- [AMMR artikel 33](../articles/ammr-033.md), punkt 1–2 (tidsfrister för inresa)
+- [AMMR artikel 37](../articles/ammr-037.md) (ansvarets upphörande)
+- [AMMR artikel 35](../articles/ammr-035.md) (diskretionär bedömning)
+- [AMMR artikel 46](../articles/ammr-046.md) (överföring)
 
 ---
 

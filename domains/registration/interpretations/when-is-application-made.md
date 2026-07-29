@@ -29,9 +29,9 @@ APR artikel 26 anger att det räcker med att personen "uttrycker" en önskan —
 
 ## Rättslig grund
 
-- APR artikel 26
-- APR artikel 27.1 (tidsfrist börjar löpa)
-- APR artikel 27.7 (screening före registrering)
+- APR artikel 26 (ej dokumenterad som egen fil)
+- [APR artikel 27](../articles/apr-027.md), punkt 1 (tidsfrist börjar löpa)
+- [APR artikel 27](../articles/apr-027.md), punkt 7 (screening före registrering)
 
 ---
 

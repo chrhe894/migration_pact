@@ -30,9 +30,9 @@ Undantagen kräver:
 
 ## Rättslig grund
 
-- Krishanteringsförordningen artiklarna 1–4, 10–12
-- APR artiklarna 27, 43, 51
-- AMMR artiklarna 39, 40, 46
+- [Krishanteringsförordningen artiklarna 1–4, 10–12](../articles/crisis-010.md)
+- [APR artikel 27](../../registration/articles/apr-027.md), [43](../../border-procedure/articles/apr-043.md), [51](../../border-procedure/articles/apr-051.md)
+- [AMMR artikel 39](../../responsibility/articles/ammr-039.md), [40](../../responsibility/articles/ammr-040.md), [46](../../responsibility/articles/ammr-046.md)
 
 ---
 
