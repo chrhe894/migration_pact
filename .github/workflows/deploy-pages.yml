@@ -32,6 +32,9 @@ jobs:
       - name: Install Graphviz
         run: sudo apt-get install -y graphviz
 
+      - name: Download PlantUML
+        run: curl -L -o plantuml.jar https://github.com/plantuml/plantuml/releases/latest/download/plantuml.jar
+
       - name: Install Python dependencies
         run: pip install mkdocs-material
 
