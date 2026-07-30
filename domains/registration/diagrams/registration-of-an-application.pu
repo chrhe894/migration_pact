@@ -39,9 +39,9 @@ end note
 
 if (Sökanden genomgått screening?) then (Ja)
 
-    :[[/domains/registration/rules/rule-apr-027-005.md Invänta att screening avslutas]];
+    :[[../rules/rule-apr-027-005.md Invänta att screening avslutas]];
     note right
-      [[/domains/registration/articles/apr-027.md Art. 27.7]] — registrering
+      [[../articles/apr-027.md Art. 27.7]] — registrering
       sker först **efter** avslutad
       screening
     end note
@@ -50,7 +50,7 @@ endif
 
 if (Rätt myndighet?) then (Nej)
 
-    :[[/domains/registration/rules/rule-apr-027-003.md Mottagande myndighet\nunderrättar registreringsmyndigheten]];
+    :[[../rules/rule-apr-027-003.md Mottagande myndighet\nunderrättar registreringsmyndigheten]];
     note right
       Inom **3 arbetsdagar**
       Registrering: 5 dagar
@@ -59,24 +59,24 @@ if (Rätt myndighet?) then (Nej)
 
 endif
 
-:[[/shared/interpreters/activities/determine-interpreter-needs.md Bedöm tolkbehov]];
+:[[../../../shared/interpreters/activities/determine-interpreter-needs.md Bedöm tolkbehov]];
 note right
-  [[/shared/interpreters/rules/rule-int-001.md RULE-INT-001]]
+  [[../../../shared/interpreters/rules/rule-int-001.md RULE-INT-001]]
   Tolk ska tillhandahållas om
   ändamålsenlig kommunikation
   inte kan säkerställas
 end note
 
-:[[/shared/identity/activities/verify-identity.md Fastställ identitet]];
+:[[../../../shared/identity/activities/verify-identity.md Fastställ identitet]];
 note right
   I den utsträckning som
   krävs — inte nödvändigtvis
   fullständig identifiering
 end note
 
-:[[/domains/registration/rules/rule-apr-027-002.md Samla in registreringsuppgifter]];
+:[[../rules/rule-apr-027-002.md Samla in registreringsuppgifter]];
 note right
-  == Uppgifter ([[/domains/registration/articles/apr-027.md art. 27.1]]) ==
+  == Uppgifter ([[../articles/apr-027.md art. 27.1]]) ==
   a) Namn, födelsedata, kön,
      medborgarskap, familj
   b) Identitets-/resehandlingar
@@ -87,13 +87,13 @@ note right
   screeningformuläret
 end note
 
-:[[/domains/registration/rules/rule-apr-027-001.md Registrera ansökan]];
+:[[../rules/rule-apr-027-001.md Registrera ansökan]];
 note right
   == Tidsfrist ==
   **5 dagar** från ansökan gjord
   ---
   Vid massinflöde: **15 dagar**
-  ([[/domains/registration/rules/rule-apr-027-004.md RULE-APR-027-004]])
+  ([[../rules/rule-apr-027-004.md RULE-APR-027-004]])
   ---
   Vid kris: **4 veckor**
 end note
@@ -107,7 +107,7 @@ note right
   - Ansvarsbestämningens fryspunkt
 end note
 
-:[[/domains/registration/rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
+:[[../rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
 note right
   Handling i sökandens namn
   som anger att ansökan
@@ -119,7 +119,7 @@ end note
 :Meddela sökanden datum och plats
 för inlämnande av ansökan;
 
-:[[/domains/registration/processes/lodging-an-application.md Överlämna ärende till PROC-REG-002 Lodging]];
+:[[../processes/lodging-an-application.md Överlämna ärende till PROC-REG-002 Lodging]];
 
 stop
 @enduml

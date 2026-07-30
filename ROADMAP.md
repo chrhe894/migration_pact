@@ -94,3 +94,24 @@ När kunskapsbasen är komplett bör den kunna användas för att:
 - visualisera processer och beslutsflöden,
 - identifiera beroenden mellan regler,
 - ge en samlad överblick över migrations- och asylpakten.
+
+---
+
+## Fas 6 – Statisk webbsajt (MkDocs)
+
+### Mål
+
+Generera en klickbar HTML-sajt från kunskapsbasen, där:
+- alla markdown-filer renderas som webbsidor,
+- SVG-diagram visas inline med fungerande klickbara länkar,
+- navigation och sökfunktion finns.
+
+### Motivering
+
+Relativa länkar i SVG-diagram fungerar korrekt i en statisk sajt men inte på GitHub. En genererad sajt gör kunskapsbasen tillgänglig för jurister och handläggare utan behov av kodeditor.
+
+### Verktyg
+
+MkDocs med Material-tema (eller liknande).
+
+**Status:** Planerad
