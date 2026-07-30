@@ -253,6 +253,51 @@ end note
 
 Länka inte i if-villkor eller partition-rubriker — det försämrar läsbarheten.
 
+## Undvik djup horisontell nesting
+
+PlantUML lägger nästlade `if/else`-grenar horisontellt. Djup nesting gör diagrammet extremt brett och oläsligt.
+
+**Gräns:** Bredd-höjd-förhållande ska inte överstiga 2:1.
+
+**Lösning vid djup nesting:** Använd separata `if ... stop endif`-block i sekvens istället för nästlade `if/else/if/else`:
+
+```plantuml
+' ❌ FEL — genererar brett diagram
+if (A?) then (Ja)
+  :...;
+else (Nej)
+  if (B?) then (Ja)
+    :...;
+  else (Nej)
+    if (C?) then (Ja)
+      :...;
+    else (Nej)
+      :...;
+    endif
+  endif
+endif
+
+' ✅ RÄTT — vertikalt vattenfallsmönster
+if (A?) then (Ja)
+  :...;
+  stop
+endif
+
+if (B?) then (Ja)
+  :...;
+  stop
+endif
+
+if (C?) then (Ja)
+  :...;
+  stop
+endif
+
+:Residualfall;
+```
+
+Alternativt: om varje gren representerar ett möjligt *utfall* snarare än ett *beslut*, samla dem i en note med numrerade vägar.
+
 ---
 
 # Dokumentstorlek

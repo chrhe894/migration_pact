@@ -39,7 +39,7 @@ jobs:
         run: pip install mkdocs-material
 
       - name: Generate SVGs from PlantUML
-        run: find docs -name '*.pu' -o -name '*.puml' | xargs java -jar plantuml.jar -tsvg
+        run: find docs \( -name '*.pu' -o -name '*.puml' \) | xargs java -jar plantuml.jar -tsvg
 
       - name: Build MkDocs site
         run: python -m mkdocs build

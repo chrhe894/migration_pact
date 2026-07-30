@@ -3,7 +3,7 @@
 set -e
 
 echo "Generating SVGs from PlantUML..."
-find docs -name '*.pu' -o -name '*.puml' | xargs java -jar plantuml.jar -tsvg
+find docs \( -name '*.pu' -o -name '*.puml' \) | xargs java -jar plantuml.jar -tsvg
 
 echo "Building MkDocs site..."
 python -m mkdocs build
