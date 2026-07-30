@@ -1,0 +1,158 @@
+' ============================================================================
+' Diagram: Efterföljande ansökningar — aktivitetsflöde
+'
+' Syfte: Visualiserar processen för hantering av efterföljande ansökningar,
+'        från klassificering till förhandsprövning och beslut.
+'
+' Källa: APR artiklarna 55–56
+'
+' Relaterade regler:
+'   RULE-APR-055-001, RULE-APR-055-002, RULE-APR-056-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml subsequent-application
+
+title Aktivitetsflöde: efterföljande ansökningar
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Person / ansökan" {
+  :Person lämnar in nya uppgifter
+  eller en ny ansökan;
+}
+
+partition "Ärendehistorik" {
+  :Hämta tidigare ansökningar,
+  beslut, överklaganden och
+  ansvarig medlemsstat;
+}
+
+if ("Finns tidigare ansökan?") then ("Nej")
+  partition "Ordinarie asylprocess" {
+    :Registrera som första ansökan;
+    :Pröva enligt ordinarie förfarande;
+  }
+  stop
+else ("Ja")
+endif
+
+if ("Finns slutligt beslut?") then ("Nej")
+  partition "Pågående ärende" {
+    :Hantera uppgifterna som
+    ytterligare framställning;
+    :Pröva inom pågående administrativt
+    förfarande eller överklagande;
+  }
+  stop
+else ("Ja")
+endif
+
+partition "Klassificering" {
+  :Markera som efterföljande ansökan;
+  note right
+    [[../articles/apr-055.md ART-APR-055]]
+    Ny ansökan efter slutligt
+    beslut om en tidigare ansökan
+  end note
+  :Fastställ ansvarig medlemsstat;
+}
+
+partition "Förhandsprövning" {
+  :[[../rules/rule-apr-055-001.md Registrera åberopade nya omständigheter och bevis]];
+  note right
+    [[../rules/rule-apr-055-001.md RULE-APR-055-001]]
+    Förhandsprövning av om nya
+    relevanta omständigheter finns
+  end note
+  :Bedöm om uppgifterna kunde
+  ha lagts fram tidigare;
+  :Avgör om prövningen ska ske
+  skriftligt eller med personlig intervju;
+}
+
+if ("Finns nya relevanta omständigheter?") then ("Ja")
+  partition "Prövningsspår" {
+    if ("Avser skyddsbehov eller tidigare avvisningsgrund?") then ("Skyddsbehov")
+      :Markera att uppgifterna väsentligt
+      kan öka sannolikheten för skydd;
+    else ("Tidigare avvisningsgrund")
+      :Markera att uppgifterna kan påverka
+      tidigare avvisningsbedömning;
+    endif
+  }
+
+  partition "Beslut / workflow" {
+    :För ärendet vidare
+    till sakprövning;
+  }
+
+else ("Nej")
+  partition "Beslut / workflow" {
+    :[[../rules/rule-apr-055-002.md Besluta om avvisning som otillåtlig]];
+    note right
+      [[../rules/rule-apr-055-002.md RULE-APR-055-002]]
+      Inga nya relevanta omständigheter
+      → ansökan avvisas
+    end note
+  }
+endif
+
+partition "Rätt att stanna" {
+  :Räkna om ansökan är första,
+  andra eller följande efterföljande ansökan;
+  :Kontrollera återvändandebeslut
+  och nära förestående verkställighet;
+  note right
+    [[../articles/apr-056.md ART-APR-056]]
+    Undantag från rätt att stanna
+    kan gälla vid andra eller
+    följande efterföljande ansökan
+  end note
+}
+
+if ("Undantag från rätt att stanna kan bli aktuellt?") then ("Ja")
+  partition "Rättssäkerhetskontroll" {
+    :Kontrollera suspensiv effekt
+    vid överklagande;
+    :Dokumentera non-refoulement-kontroll;
+    note right
+      [[../articles/apr-010.md ART-APR-010]]
+      Rätt att stanna kvar
+      ---
+      Non-refoulement ska alltid
+      kontrolleras innan undantag
+      tillämpas
+    end note
+  }
+else ("Nej")
+  partition "Rättssäkerhetskontroll" {
+    :Markera fortsatt rätt att stanna
+    enligt tillämpligt förfarande;
+  }
+endif
+
+partition "Uppföljning" {
+  :Uppdatera ärendehistorik,
+  statistik och auditlogg;
+}
+
+stop
+
+@enduml

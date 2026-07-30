@@ -1,0 +1,152 @@
+' ============================================================================
+' Diagram: Determine responsible Member State
+'
+' Syfte: Visualiserar processen för att fastställa vilken medlemsstat
+'        som ansvarar för att pröva en asylansökan.
+'
+' Källa: AMMR artiklarna 24–33 och 35
+'
+' Relaterade regler:
+'   RULE-AMMR-024-001, RULE-AMMR-024-002, RULE-AMMR-025-001,
+'   RULE-AMMR-029-001, RULE-AMMR-033-001, RULE-AMMR-033-002,
+'   RULE-AMMR-035-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml determine-responsible-member-state
+
+title Determine responsible Member State
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Ansökan registrerad — situationen vid registreringen fastställs;
+note right
+  [[../rules/rule-ammr-024-002.md RULE-AMMR-024-002]]
+  Fryspunkt — situationen vid
+  registrering avgör ansvar
+end note
+
+if (Ensamkommande barn?) then (Ja)
+
+    :[[../rules/rule-ammr-025-001.md Tillämpa kriterier för ensamkommande barn]];
+    note right
+      [[../rules/rule-ammr-025-001.md RULE-AMMR-025-001]]
+      Barnets bästa prioriteras
+      ([[../articles/ammr-025.md ART-AMMR-025]])
+    end note
+
+else (Nej)
+
+    if (Familjemedlem lagligen bosatt? (art. 26)) then (Ja)
+
+        :Familjestaten ansvarar;
+        note right
+          [[../articles/ammr-026.md ART-AMMR-026]]
+          ([[../rules/rule-ammr-026-001.md RULE-AMMR-026-001]])
+        end note
+
+    else (Nej)
+
+        if (Familjemedlem med pågående ansökan? (art. 27)) then (Ja)
+
+            :Den staten ansvarar;
+            note right
+              [[../articles/ammr-027.md ART-AMMR-027]]
+              ([[../rules/rule-ammr-027-001.md RULE-AMMR-027-001]])
+            end note
+
+        else (Nej)
+
+            if (Uppehållshandling eller visering? (art. 29)) then (Ja)
+
+                :[[../rules/rule-ammr-029-001.md Utfärdande stat ansvarar]];
+                note right
+                  [[../rules/rule-ammr-029-001.md RULE-AMMR-029-001]]
+                  ([[../articles/ammr-029.md ART-AMMR-029]])
+                end note
+
+            else (Nej)
+
+                if (Examensbevis? (art. 30)) then (Ja)
+
+                    :Utfärdande stat ansvarar;
+                    note right
+                      [[../articles/ammr-030.md ART-AMMR-030]]
+                      ([[../rules/rule-ammr-030-001.md RULE-AMMR-030-001]])
+                    end note
+
+                else (Nej)
+
+                    if (Viseringsfri inresa? (art. 31)) then (Ja)
+
+                        :Inresestaten ansvarar;
+                        note right
+                          [[../articles/ammr-031.md ART-AMMR-031]]
+                          ([[../rules/rule-ammr-031-001.md RULE-AMMR-031-001]])
+                        end note
+
+                    else (Nej)
+
+                        if (Irreguljär inresa / landsättning? (art. 33)) then (Ja)
+
+                            :[[../rules/rule-ammr-033-001.md Första inresestaten ansvarar]];
+                            note right
+                              [[../rules/rule-ammr-033-001.md RULE-AMMR-033-001]]
+                              Upphör efter 20 mån (passage)
+                              resp. 12 mån (landsättning)
+                              ([[../articles/ammr-033.md ART-AMMR-033]])
+                            end note
+
+                        else (Nej)
+
+                            :Stat där ansökan först registrerades ansvarar;
+                            note right
+                              [[../rules/rule-ammr-033-002.md RULE-AMMR-033-002]]
+                              Residualkriteriet
+                            end note
+
+                        endif
+
+                    endif
+
+                endif
+
+            endif
+
+        endif
+
+    endif
+
+endif
+
+:Ansvarig medlemsstat fastställd;
+
+if (Annan stat än den nuvarande?) then (Ja)
+
+    :Framställan om övertagande (take charge request);
+    note right
+      [[../rules/rule-ammr-038-001.md RULE-AMMR-038-001]]
+      Inom 2 månader
+    end note
+
+endif
+
+stop
+
+@enduml

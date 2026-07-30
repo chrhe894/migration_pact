@@ -1,0 +1,97 @@
+' ============================================================================
+' Diagram: Lodging an application
+'
+' Syfte: Visualiserar processen från att en registrerad ansökan ska
+'        lämnas in till att inlämnandet är bekräftat och tidsfristen
+'        för prövning börjar löpa.
+'
+' Källa: APR artikel 28
+'
+' Relaterade regler:
+'   RULE-APR-028-001, RULE-APR-028-002, RULE-APR-028-003,
+'   RULE-APR-028-004, RULE-APR-028-005
+'
+' Status: Draft
+' ============================================================================
+
+@startuml lodging-an-application
+
+title Lodging an application
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:[[../rules/rule-apr-028-002.md Sökanden kallas till angivet datum och plats]];
+note right
+  [[../rules/rule-apr-028-001.md RULE-APR-028-001]]
+  Tidsfrist: **21 dagar** från registrering
+  ---
+  [[../rules/rule-apr-028-004.md RULE-APR-028-004]]
+  Vid massinflöde: senast **2 månader**
+end note
+
+if (Sökanden kan inställa sig personligen?) then (Nej)
+
+    if (Formulärinlämning tillåten enligt nationell rätt?) then (Ja)
+
+        :[[../rules/rule-apr-028-003.md Sökanden lämnar in ansökan via formulär]];
+        note right
+          [[../rules/rule-apr-028-003.md RULE-APR-028-003]]
+          Formulärinlämning som
+          alternativ till personlig
+          inställelse
+        end note
+
+    else (Nej)
+
+        :Nytt datum och plats meddelas;
+
+    endif
+
+else (Ja)
+
+    :Sökanden inställer sig personligen;
+
+    :[[../rules/rule-apr-028-005.md Sökanden lämnar in ansökan med faktorer och handlingar]];
+    note right
+      [[../rules/rule-apr-028-005.md RULE-APR-028-005]]
+      Alla relevanta uppgifter
+      och handlingar lämnas
+    end note
+
+endif
+
+:Behörig myndighet tar emot ansökan;
+
+note right
+  == Juridisk milstolpe ==
+  **Application lodged**
+  Prövningstidsfrist börjar löpa
+  ([[../articles/apr-028.md ART-APR-028]])
+end note
+
+if (Ansökan inlämnad till beslutande myndighet?) then (Nej)
+
+    :Beslutande myndigheten underrättas utan dröjsmål;
+
+endif
+
+:Tidsfristen för prövning börjar löpa;
+
+stop
+
+@enduml

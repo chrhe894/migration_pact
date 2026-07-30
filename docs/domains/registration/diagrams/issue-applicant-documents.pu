@@ -1,0 +1,99 @@
+' ============================================================================
+' Diagram: Issue applicant documents
+'
+' Syfte: Visualiserar processen för utfärdande av handlingar till sökanden
+'        vid registrering och inlämnande av ansökan.
+'
+' Källa: APR artikel 29
+'
+' Relaterade regler:
+'   RULE-APR-029-001, RULE-APR-029-002, RULE-APR-029-003
+'
+' Status: Draft
+' ============================================================================
+
+@startuml issue-applicant-documents
+
+title Issue applicant documents
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Ansökan registreras;
+
+if (Sökandehandling kan utfärdas direkt?) then (Ja)
+
+    :[[../rules/rule-apr-029-002.md Utfärda sökandehandling]];
+    note right
+      [[../rules/rule-apr-029-002.md RULE-APR-029-002]]
+      Utfärdas vid inlämnande
+      ([[../articles/apr-029.md ART-APR-029]])
+    end note
+
+    stop
+
+else (Nej)
+
+    if (Sökanden i förvar eller avtjänar fängelsestraff?) then (Ja)
+
+        :Handlingar utfärdas inte;
+
+        :Invänta frigivning;
+
+        :[[../rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
+        note right
+          [[../rules/rule-apr-029-001.md RULE-APR-029-001]]
+          Handling i sökandens namn
+          som anger att ansökan
+          gjorts och registrerats
+        end note
+
+    else (Nej)
+
+        :[[../rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
+        note right
+          [[../rules/rule-apr-029-001.md RULE-APR-029-001]]
+          Handling i sökandens namn
+        end note
+
+    endif
+
+endif
+
+:Ansökan lämnas in;
+
+:[[../rules/rule-apr-029-002.md Utfärda sökandehandling]];
+note right
+  [[../rules/rule-apr-029-002.md RULE-APR-029-002]]
+  Giltighetstid: upp till **12 månader**
+  Innehåll: namn, foto, status,
+  rätt att stanna, rörelsefrihet
+  ([[../articles/apr-029.md ART-APR-029]])
+end note
+
+:[[../rules/rule-apr-029-003.md Återkalla registreringshandlingen]];
+note right
+  [[../rules/rule-apr-029-003.md RULE-APR-029-003]]
+  Registreringshandlingen ersätts
+  av sökandehandlingen
+end note
+
+:Sökandehandlingen tillhandahålls sökanden;
+
+stop
+
+@enduml

@@ -1,0 +1,173 @@
+' ============================================================================
+' Diagram: Solidaritetsmekanismens aktivering — detaljerat aktivitetsflöde
+'
+' Syfte: Visar hela flödet från konstaterat migrationstryck till
+'        slutförd omfördelning eller alternativt bidrag, inklusive
+'        roller, tidsfrister och konsekvenser.
+'
+' Källa: AMMR artiklarna 9–15, 57–69
+'
+' Relaterade regler:
+'   RULE-AMMR-057-001, RULE-AMMR-063-001, RULE-AMMR-066-001,
+'   RULE-AMMR-067-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml solidarity-activation-flow
+
+title Solidaritetsmekanismens aktivering — detaljerat aktivitetsflöde
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "EU-styrning — årlig cykel" {
+  :Kommissionen publicerar den årliga
+  asyl- och migrationsrapporten (art. 9);
+  :Kommissionen bedömer migrationssituationen
+  per medlemsstat (art. 10–11);
+  :Kommissionen föreslår årlig
+  solidaritetspool (art. 12);
+  note right
+    == Poolens innehåll ==
+    - Omfördelningsplatser
+    - Ansvarskompensationer
+    - Ekonomiska bidrag
+    - Alternativa åtgärder
+    ---
+    Fördelning baseras på
+    referensnyckeln
+    ([[../articles/ammr-066.md ART-AMMR-066]]):
+    50% BNP + 50% befolkning
+  end note
+  :[[../rules/rule-ammr-057-001.md Rådet antar genomförandeakt om solidaritetspoolen]];
+  note right
+    [[../rules/rule-ammr-057-001.md RULE-AMMR-057-001]]
+    ([[../articles/ammr-057.md ART-AMMR-057]])
+  end note
+}
+
+partition "Gynnad stat begär stöd" {
+  :Medlemsstat meddelar att den
+  är utsatt för migrationstryck (art. 58–59);
+  :EU-solidaritetssamordnaren
+  aktiverar processen (art. 15);
+}
+
+partition "Bidragande stater väljer" {
+  if (Vilken typ av bidrag?) then (Omfördelning)
+
+    partition "Omfördelning (art. 67)" {
+      :Gynnad stat identifierar
+      sökande som kan omfördelas;
+      :Uppgifter och screeningformulär
+      skickas till omfördelningsstat;
+      note right
+        == Vad skickas ==
+        Screeningformulär, personuppgifter,
+        ev. Eurodac-data, sårbarhetsbedömning
+      end note
+      :Omfördelningsstat granskar;
+
+      if (Säkerhetsskäl att vägra?) then (Ja)
+        :Motiverad vägran;
+        :Annan person föreslås;
+      else (Nej)
+        :Bekräftelse av mottagande;
+      endif
+
+      :Överföring inom 4 veckor;
+      :Person anländer till
+      omfördelningsstat;
+      :Ansvar övergår;
+      note right
+        [[../articles/ammr-068.md ART-AMMR-068]]
+        Ansvar övergår vid
+        faktisk överföring
+      end note
+      :Eurodac uppdateras;
+    }
+
+  elseif (Ansvarskompensation)
+
+    partition "Ansvarskompensation (art. 63)" {
+      :[[../rules/rule-ammr-063-001.md Bidragande stat övertar prövningsansvar]];
+      note right
+        [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
+        ([[../articles/ammr-063.md ART-AMMR-063]])
+        ---
+        == Obligatoriskt om ==
+        Omfördelningskvot inte uppfylls
+        ---
+        == Innebär ==
+        Ansvar övergår utan att
+        personen fysiskt flyttas
+        (ev. överföring separat)
+      end note
+      :Eurodac anger ny ansvarig stat;
+    }
+
+  elseif (Ekonomiskt bidrag)
+
+    partition "Ekonomiskt bidrag (art. 64)" {
+      :Bidragande stat betalar
+      minst 20 000 €/person;
+      :Medlen överförs till
+      EU-budgeten;
+      :Gynnad stat får stöd
+      för migrationshantering;
+      note right
+        Ingen person flyttas
+        Inget ansvar övergår
+      end note
+    }
+
+  else (Alternativ åtgärd)
+
+    partition "Alternativ åtgärd (art. 65)" {
+      :Kapacitetsuppbyggnad, tekniskt
+      bistånd, personalutplacering
+      eller andra åtgärder;
+      :Värderas och följs upp som
+      solidaritetsbidrag;
+    }
+
+  endif
+}
+
+partition "Uppföljning" {
+  :EU-solidaritetssamordnaren
+  följer upp genomförande;
+  :Rapportering till kommissionen;
+
+  if (Omfördelningskvot inte uppfylld?) then (Ja)
+    :[[../rules/rule-ammr-063-001.md Obligatorisk ansvarskompensation aktiveras]];
+    note right
+      [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
+      Ingen stat kan helt undvika
+      solidaritet — antingen
+      omfördelas personer eller
+      ansvar/pengar överförs
+    end note
+  else (Nej)
+    :Bidrag fullgjort;
+  endif
+}
+
+stop
+
+@enduml

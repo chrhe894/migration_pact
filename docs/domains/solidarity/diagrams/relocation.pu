@@ -1,0 +1,85 @@
+' ============================================================================
+' Diagram: Relocation
+'
+' Syfte: Visualiserar omfördelningsförfarandet.
+'
+' Källa: AMMR artiklarna 57, 63, 66, 67, 68
+'
+' Relaterade regler:
+'   RULE-AMMR-057-001, RULE-AMMR-063-001, RULE-AMMR-066-001,
+'   RULE-AMMR-067-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml relocation
+
+title Relocation
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Migrationstryck konstateras;
+
+:[[../rules/rule-ammr-057-001.md Solidaritetspoolen aktiveras]];
+note right
+  [[../rules/rule-ammr-057-001.md RULE-AMMR-057-001]]
+  ([[../articles/ammr-057.md ART-AMMR-057]])
+end note
+
+:Förmånsstaten identifierar sökande för omfördelning;
+
+:[[../rules/rule-ammr-067-001.md Omfördelningsmedlemsstaten meddelas]];
+note right
+  [[../rules/rule-ammr-067-001.md RULE-AMMR-067-001]]
+  Överföring inom **4 veckor**
+  efter bekräftelse
+  ([[../articles/ammr-067.md ART-AMMR-067]])
+end note
+
+if (Säkerhetsskäl att vägra?) then (Ja)
+
+    :Omfördelning avvisas;
+
+    :[[../rules/rule-ammr-063-001.md Ansvarskompensation aktiveras]];
+    note right
+      [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
+      ([[../articles/ammr-063.md ART-AMMR-063]])
+    end note
+
+else (Nej)
+
+    :[[../rules/rule-ammr-066-001.md Omfördelningsmedlemsstaten bekräftar mottagande]];
+    note right
+      [[../rules/rule-ammr-066-001.md RULE-AMMR-066-001]]
+      ([[../articles/ammr-066.md ART-AMMR-066]])
+    end note
+
+    :Överföring inom 4 veckor;
+
+    :Omfördelningsmedlemsstaten blir ansvarig stat;
+    note right
+      [[../articles/ammr-068.md ART-AMMR-068]]
+      Ansvar övergår vid
+      faktisk överföring
+    end note
+
+endif
+
+stop
+
+@enduml

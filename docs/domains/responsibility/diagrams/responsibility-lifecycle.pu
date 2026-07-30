@@ -1,0 +1,122 @@
+' ============================================================================
+' Diagram: Ansvarets livscykel
+'
+' Syfte: Visar hela livscykeln för en stats ansvar — från fastställande
+'        till upphörande — med alla vägar som leder till att ansvar
+'        uppstår, övergår eller upphör.
+'
+' Källa: AMMR artiklarna 24, 33, 35, 36, 37, 46
+'
+' Relaterade regler:
+'   RULE-AMMR-024-001, RULE-AMMR-035-001, RULE-AMMR-036-001,
+'   RULE-AMMR-046-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml responsibility-lifecycle
+
+title Ansvarets livscykel
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Ansvar uppstår" {
+  if (Hur?) then (Kriterierna)
+    :[[../rules/rule-ammr-024-001.md Kriterierna ger en ansvarig stat]];
+    note right
+      [[../rules/rule-ammr-024-001.md RULE-AMMR-024-001]]
+      Kriterierna tillämpas i rangordning
+    end note
+  elseif (Tidsfrist missad)
+    :Fastställande stat
+    skickade inte framställan
+    i tid (2 mån) →
+    blir själv ansvarig;
+    note right
+      [[../articles/ammr-038.md ART-AMMR-038]]
+      Framställan måste skickas
+      inom 2 månader
+    end note
+  elseif (Tyst godkännande)
+    :Anmodad stat svarade inte
+    i tid (1 mån) →
+    anses ha godtagit;
+    note right
+      [[../articles/ammr-040.md ART-AMMR-040]]
+      Inget svar inom 1 månad
+      = tyst godkännande
+    end note
+  elseif (Diskretionär)
+    :[[../rules/rule-ammr-035-001.md Stat väljer att överta ansvar]];
+    note right
+      [[../rules/rule-ammr-035-001.md RULE-AMMR-035-001]]
+      Diskretionär klausul
+      ([[../articles/ammr-035.md ART-AMMR-035]])
+    end note
+  else (Ej överförd i tid)
+    :Överförande stat missade
+    6-månadersfristen →
+    behåller ansvaret;
+    note right
+      [[../rules/rule-ammr-046-001.md RULE-AMMR-046-001]]
+      Missad överföringsfrist →
+      ansvaret kvarstår
+    end note
+  endif
+}
+
+:Stat är ansvarig;
+
+partition "Ansvar pågår" {
+  :[[../rules/rule-ammr-036-001.md Skyldig att pröva / slutföra prövning]];
+  note right
+    [[../rules/rule-ammr-036-001.md RULE-AMMR-036-001]]
+    Skyldig att återta person
+    som dyker upp i annan stat
+    ([[../articles/ammr-036.md ART-AMMR-036]])
+  end note
+}
+
+partition "Ansvar upphör" {
+  if (Hur upphör det?) then (Uppehållshandling)
+    :Annan stat utfärdar
+    uppehållshandling →
+    ansvar övergår;
+    note right
+      [[../articles/ammr-037.md ART-AMMR-037]]
+      Ansvaret upphör automatiskt
+    end note
+  elseif (Lämnat EU 9 mån)
+    :Personen bevisligen utanför
+    EU i minst 9 månader;
+  elseif (Avlägsnande verkställt)
+    :Personen lämnat EU frivilligt
+    eller med tvång efter avslag;
+  elseif (15 mån efter gränsförfarande)
+    :15 månader efter slutligt
+    avslagsbeslut i gränsförfarande;
+  elseif (Ej överförd)
+    :Överförande stat missade frist →
+    **ansvaret övergick dit**;
+    note right
+      [[../rules/rule-ammr-046-001.md RULE-AMMR-046-001]]
+      Systemets "sanktion"
+    end note
+  else (Ny ansökan)
+    :Ny ansökan efter upphörandeperiod
+    → nytt förfarande inleds;
+  endif
+}
+
+stop
+
+@enduml

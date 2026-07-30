@@ -1,0 +1,93 @@
+' ============================================================================
+' Diagram: Collect and transmit biometric data
+'
+' Syfte: Visualiserar processen för insamling och överföring av
+'        biometriska uppgifter till Eurodac.
+'
+' Källa: Eurodacförordningen artiklarna 13–15, 23, 29
+'
+' Relaterade regler:
+'   RULE-EUR-013-001, RULE-EUR-013-002, RULE-EUR-014-001,
+'   RULE-EUR-015-001, RULE-EUR-023-001, RULE-EUR-029-001,
+'   RULE-EUR-029-002
+'
+' Status: Draft
+' ============================================================================
+
+@startuml collect-and-transmit-biometric-data
+
+title PROC-EUR-001 Collect and transmit biometric data
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Konstatera Eurodac-kategori;
+
+:[[../rules/rule-eur-013-001.md Informera personen om skyldighet]];
+note right
+  [[../rules/rule-eur-013-001.md RULE-EUR-013-001]]
+  Information om Eurodac,
+  syftet och rättslig grund
+end note
+
+:[[../rules/rule-eur-013-001.md Ta biometriska uppgifter]];
+note right
+  [[../rules/rule-eur-013-002.md RULE-EUR-013-002]]
+  Respekt för värdighet
+  och fysisk integritet
+end note
+
+if (Underårig?) then (Ja)
+  :[[../rules/rule-eur-014-001.md Tillämpa särskilda garantier]];
+  note right
+    [[../rules/rule-eur-014-001.md RULE-EUR-014-001]]
+    Barnvänligt förfarande,
+    information anpassad
+    till barnets ålder
+  end note
+endif
+
+:Sammanställ dataset;
+
+if (Asylsökande?) then (Ja)
+  :[[../rules/rule-eur-015-001.md Överför dataset för asylsökande]];
+  note right
+    [[../rules/rule-eur-015-001.md RULE-EUR-015-001]]
+    **72 timmar** från registrering
+    48h vid hälsohinder
+  end note
+  :[[../rules/rule-eur-029-001.md Lagra i tio år]];
+  note right
+    [[../rules/rule-eur-029-001.md RULE-EUR-029-001]]
+    Lagringstid: **10 år**
+  end note
+else (Person som vistas olagligt)
+  :[[../rules/rule-eur-023-001.md Överför dataset för olaglig vistelse]];
+  note right
+    [[../rules/rule-eur-023-001.md RULE-EUR-023-001]]
+    Överföring vid påträffande
+  end note
+  :[[../rules/rule-eur-029-002.md Lagra i fem år]];
+  note right
+    [[../rules/rule-eur-029-002.md RULE-EUR-029-002]]
+    Lagringstid: **5 år**
+  end note
+endif
+
+stop
+
+@enduml

@@ -1,0 +1,115 @@
+' ============================================================================
+' Diagram: Examine an application
+'
+' Syfte: Visualiserar prövningsförfarandet från inlämnad ansökan till beslut.
+'
+' Källa: APR artiklarna 34–42
+'
+' Relaterade regler:
+'   RULE-APR-034-001, RULE-APR-034-002, RULE-APR-035-001,
+'   RULE-APR-038-001, RULE-APR-042-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml examine-an-application
+
+title Examine an application
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Ansökan inlämnad — ärendet till beslutande myndigheten;
+note right
+  [[../articles/apr-034.md ART-APR-034]]
+  Tidsfrist: **6 månader**
+  Påskyndat: **3 månader**
+  Komplext: upp till **15 månader**
+end note
+
+:[[../rules/rule-apr-038-001.md Upptagandeprövning (admissibility)]];
+note right
+  [[../rules/rule-apr-038-001.md RULE-APR-038-001]]
+  Kontrollera om ansökan är
+  tillåtlig före sakprövning
+end note
+
+if (Ansökan tillåtlig?) then (Nej)
+
+    :Ansökan avvisas;
+
+    :Återvändandebeslut utfärdas;
+
+    stop
+
+endif
+
+if (Grunder för påskyndat förfarande? (art. 42)) then (Ja)
+
+    :[[../rules/rule-apr-042-001.md Påskyndat förfarande inleds]];
+    note right
+      [[../rules/rule-apr-042-001.md RULE-APR-042-001]]
+      Tidsfrist: **3 månader**
+      ([[../articles/apr-042.md ART-APR-042]])
+    end note
+
+endif
+
+:Personlig intervju genomförs;
+
+:[[../rules/rule-apr-034-001.md Prövning i sak — individuell, objektiv, opartisk]];
+note right
+  [[../rules/rule-apr-034-001.md RULE-APR-034-001]]
+  Individuell, objektiv
+  och opartisk prövning
+end note
+
+:[[../rules/rule-apr-034-002.md Pröva mot flyktingstatus och subsidiärt skydd]];
+note right
+  [[../rules/rule-apr-034-002.md RULE-APR-034-002]]
+  Flyktingstatus prövas först,
+  subsidiärt skydd i andra hand
+end note
+
+if (Flyktingstatus?) then (Ja)
+
+    :Flyktingstatus beviljas;
+
+else (Nej)
+
+    if (Subsidiärt skydd?) then (Ja)
+
+        :Status som subsidiärt skyddsbehövande beviljas;
+
+    else (Nej)
+
+        :Ansökan avslås;
+
+        :Återvändandebeslut utfärdas;
+        note right
+          [[../articles/apr-037.md ART-APR-037]]
+          Återvändandebeslut utfärdas
+          samtidigt med avslag
+        end note
+
+    endif
+
+endif
+
+stop
+
+@enduml

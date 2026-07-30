@@ -1,0 +1,130 @@
+' ============================================================================
+' Diagram: Sökandens status och handlingar
+'
+' Syfte: Visar vilka handlingar sökanden har rätt till vid varje punkt
+'        och vilken status personen har i förhållande till systemet.
+'
+' Källa: APR artiklarna 27, 28, 29; Screeningförordningen art. 6, 8
+'
+' Relaterade regler:
+'   RULE-SCR-006-001, RULE-APR-027-001, RULE-APR-028-002,
+'   RULE-APR-029-001, RULE-APR-029-002
+'
+' Status: Draft
+' ============================================================================
+
+@startuml applicant-status-and-documents
+
+title Sökandens status och handlingar
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Före ansökan" {
+  :Tredjelandsmedborgare utan status;
+  note right
+    == Status ==
+    Ingen formell status
+    == Handlingar ==
+    Inga
+    == Rättigheter ==
+    Grundläggande mänskliga rättigheter,
+    non-refoulement
+  end note
+}
+
+partition "Under screening" {
+  :Person som genomgår screening;
+  note right
+    [[../../screening/rules/rule-scr-006-001.md RULE-SCR-006-001]]
+    Ingen inresa tillåts
+    ([[../../screening/articles/scr-006.md ART-SCR-006]])
+    == Handlingar ==
+    Inga
+    == Rättigheter ==
+    Information, tolk, hälsokontroll,
+    levnadsstandard
+    ([[../../screening/articles/scr-008.md ART-SCR-008]], punkt 8)
+  end note
+}
+
+partition "Ansökan gjord (made)" {
+  :[[../articles/apr-027.md Tredjelandsmedborgare uttrycker önskan om skydd]];
+  note right
+    [[../articles/apr-027.md ART-APR-027]]
+    == Status ==
+    Skyddad mot avlägsnande
+    == Handlingar ==
+    Inga ännu
+    == Rättigheter ==
+    Non-refoulement,
+    rätt till registrering inom 5 dagar
+    ([[../rules/rule-apr-027-001.md RULE-APR-027-001]])
+  end note
+}
+
+partition "Ansökan registrerad" {
+  :[[../rules/rule-apr-027-001.md Behörig myndighet registrerar ansökan]];
+  note right
+    == Juridisk milstolpe ==
+    **Application registered**
+    - Sökandens rättigheter aktiveras
+    - Eurodac-frist börjar (72h)
+    == Handlingar ==
+    Registreringshandling
+    ([[../rules/rule-apr-029-001.md RULE-APR-029-001]])
+    — namn, registreringsdatum
+    == Rättigheter ==
+    Rätt att stanna,
+    mottagningsvillkor, information
+  end note
+}
+
+partition "Ansökan inlämnad (lodged)" {
+  :[[../rules/rule-apr-028-002.md Sökanden lämnar in ansökan personligen]];
+  note right
+    [[../rules/rule-apr-028-002.md RULE-APR-028-002]]
+    == Handlingar ==
+    Sökandehandling
+    ([[../rules/rule-apr-029-002.md RULE-APR-029-002]])
+    — foto, status, rörelsefrihet,
+    giltig 12 månader
+    == Rättigheter ==
+    Alla rättigheter enligt APR
+    och mottagningsdirektivet,
+    prövning inleds
+  end note
+}
+
+partition "Beslut" {
+  if (Utfall?) then (Beviljat)
+    :Person med internationellt skydd;
+    note right
+      == Handlingar ==
+      Uppehållstillstånd
+      == Status ==
+      Flykting eller subsidiärt
+      skyddsbehövande
+    end note
+  else (Avslag)
+    :Person utan rätt att stanna;
+    note right
+      == Handlingar ==
+      Återvändandebeslut
+      == Status ==
+      Skyldighet att lämna
+    end note
+  endif
+}
+
+stop
+
+@enduml

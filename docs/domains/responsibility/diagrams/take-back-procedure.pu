@@ -1,0 +1,149 @@
+' ============================================================================
+' Diagram: Återtagandeförfarandet (take back) — detaljerat aktivitetsflöde
+'
+' Syfte: Visar hela flödet från Eurodac-träff till verkställd överföring
+'        tillbaka till den redan ansvariga staten.
+'
+' Källa: AMMR artiklarna 36, 41, 42, 43, 46
+'
+' Relaterade regler:
+'   RULE-AMMR-036-001, RULE-AMMR-041-001, RULE-AMMR-042-001,
+'   RULE-AMMR-043-001, RULE-AMMR-046-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml take-back-procedure
+
+title Återtagandeförfarandet (take back) — detaljerat aktivitetsflöde
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Upptäckt" {
+  :Person påträffas i en medlemsstat
+  utan uppehållshandling, ELLER
+  gör ny ansökan i annan stat;
+  :Eurodac-sökning genomförs;
+  :Träff — ansvarig stat redan
+  registrerad i Eurodac;
+  note right
+    == Skillnad mot take charge ==
+    Ansvaret är redan fastställt.
+    Ingen ny ansvarsbedömning behövs.
+    Det handlar om att **återföra**
+    personen till rätt stat.
+    ([[../rules/rule-ammr-036-001.md RULE-AMMR-036-001]])
+  end note
+}
+
+partition "Avisering om återtagande (art. 41)" {
+  :[[../rules/rule-ammr-041-001.md Staten skickar avisering om återtagande]];
+  note right
+    [[../rules/rule-ammr-041-001.md RULE-AMMR-041-001]]
+    Omedelbart, senast **2 veckor**
+    efter Eurodac-träff
+    ([[../articles/ammr-041.md ART-AMMR-041]])
+    ---
+    == Innehåll ==
+    Standardformulär med
+    bevis/indicier
+    ---
+    == OBS ==
+    Underlåtenhet påverkar inte
+    den ansvariga statens
+    skyldighet att återta
+  end note
+}
+
+partition "Ansvarig stat bekräftar (art. 41.3)" {
+  if (Svar inom 2 veckor?) then (Bekräftar)
+    :Bekräftar mottagande;
+  elseif (Invänder)
+    :Visar att den inte är ansvarig
+    (art. 37 — ansvar upphört);
+    note right
+      [[../articles/ammr-037.md ART-AMMR-037]]
+      == Möjliga skäl ==
+      - Personen lämnat EU >9 mån
+      - Avlägsnande verkställt
+      - 15 mån efter gränsbeslut
+      - Felaktig Eurodac-angivelse
+    end note
+    :Aviseringen avvisas;
+    :Den aviserande staten
+    genomför ny ansvarsbedömning;
+    stop
+  else (Inget svar)
+    :Tyst bekräftelse —
+    underlåtenhet = godtagande;
+  endif
+}
+
+partition "Överföringsbeslut (art. 42)" {
+  :Beslut fattas inom 2 veckor;
+  note right
+    [[../rules/rule-ammr-042-001.md RULE-AMMR-042-001]]
+    ([[../articles/ammr-042.md ART-AMMR-042]])
+  end note
+  :Personen underrättas;
+}
+
+partition "Rättsmedel (art. 43)" {
+  if (Personen överklagar?) then (Ja)
+    :Överklagande inlämnas;
+    note right
+      [[../rules/rule-ammr-043-001.md RULE-AMMR-043-001]]
+      Rätt till överklagande
+    end note
+    if (Suspensiv verkan?) then (Ja)
+      :Frist fryser;
+      :Domstol beslutar;
+    else (Nej)
+    endif
+  else (Nej)
+  endif
+}
+
+partition "Överföring (art. 46)" {
+  :[[../rules/rule-ammr-046-001.md Överföring verkställs]];
+  note right
+    [[../rules/rule-ammr-046-001.md RULE-AMMR-046-001]]
+    Normalt: **6 månader**
+    Vid förvar: **4 veckor**
+    Vid avvikande: **18 månader**
+    ([[../articles/ammr-046.md ART-AMMR-046]])
+    ---
+    == Konsekvens vid missad frist ==
+    Ansvaret övergår till
+    den stat som inte överförde
+  end note
+
+  if (Överföring i tid?) then (Ja)
+    :Person återförs till
+    ansvarig stat;
+    :Ansvarig stat prövar/
+    slutför prövningen;
+  else (Nej)
+    :Ansvaret övergår till
+    den stat där personen är;
+  endif
+}
+
+stop
+
+@enduml

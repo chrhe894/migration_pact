@@ -1,0 +1,134 @@
+' ============================================================================
+' Diagram: Screening vid yttre gräns
+'
+' Syfte: Visualiserar screeningprocessen från att en person omhändertas
+'        vid yttre gräns till hänvisning till rätt förfarande.
+'
+' Källa: Screeningförordningen artiklarna 5, 6, 8, 12, 14, 15, 17 och 18
+'
+' Relaterade regler:
+'   RULE-SCR-005-001, RULE-SCR-005-002, RULE-SCR-006-001,
+'   RULE-SCR-008-001, RULE-SCR-008-003, RULE-SCR-014-001,
+'   RULE-SCR-015-001, RULE-SCR-017-001, RULE-SCR-018-001,
+'   RULE-INT-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml screening-at-external-border
+
+title Screening vid yttre gräns
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Person omhändertas, landsätts eller ansöker om asyl vid yttre gräns;
+note right
+  [[../rules/rule-scr-006-001.md RULE-SCR-006-001]]
+  Inresa nekas under screening
+  ---
+  [[../rules/rule-scr-008-001.md RULE-SCR-008-001]]
+  Tidsfrist: **7 dagar**
+  (4 dagar om >72h vid gränsen)
+end note
+
+:[[../../../shared/identity/activities/verify-identity.md Fastställ identitet]];
+note right
+  I den utsträckning som
+  krävs — inte nödvändigtvis
+  fullständig identifiering
+end note
+
+if (Tolk behövs?) then (Ja)
+
+    :[[../../../shared/interpreters/activities/determine-interpreter-needs.md Ordna tolktjänster]];
+    note right
+      [[../../../shared/interpreters/rules/rule-int-001.md RULE-INT-001]]
+      Tolk ska tillhandahållas om
+      ändamålsenlig kommunikation
+      inte kan säkerställas
+    end note
+
+endif
+
+:[[../rules/rule-scr-014-001.md Identifiering / verifiering av identitet och databassökningar]];
+note right
+  [[../rules/rule-scr-014-001.md RULE-SCR-014-001]]
+  Kontroll mot SIS, VIS, Eurodac,
+  ECRIS-TCN
+end note
+
+:Registrera biometriska uppgifter i Eurodac (om ej gjort);
+
+:[[../rules/rule-scr-015-001.md Säkerhetskontroll mot EU-databaser]];
+note right
+  [[../rules/rule-scr-015-001.md RULE-SCR-015-001]]
+  Kontroll mot SIS, ETIAS,
+  Interpol-databaser
+end note
+
+:Preliminär hälsokontroll;
+note right
+  [[../articles/scr-012.md ART-SCR-012]]
+  Hälsokontroll och
+  sårbarhetskontroll
+end note
+
+:Preliminär sårbarhetskontroll;
+
+:[[../rules/rule-scr-017-001.md Fyll i screeningformulär]];
+note right
+  [[../rules/rule-scr-017-001.md RULE-SCR-017-001]]
+  Formuläret tillhandahålls personen
+  ([[../articles/scr-017.md ART-SCR-017]])
+  ---
+  Säkerhetskontrollträff maskeras
+end note
+
+:[[../rules/rule-scr-018-001.md Hänvisa till rätt förfarande]];
+note right
+  [[../rules/rule-scr-018-001.md RULE-SCR-018-001]]
+  Screeningformulär + biometriska
+  uppgifter överlämnas
+  ([[../articles/scr-018.md ART-SCR-018]])
+end note
+
+if (Asylansökan gjord?) then (Ja)
+
+    :Hänvisa till registreringsmyndighet;
+    note right
+      [[../../../domains/registration/articles/apr-027.md ART-APR-027]]
+      Registrering inom 5 dagar
+    end note
+
+else (Nej)
+
+    if (Omfördelning?) then (Ja)
+
+        :Hänvisa till relevant myndighet i annan medlemsstat;
+
+    else (Nej)
+
+        :Hänvisa till återvändandemyndighet;
+
+    endif
+
+endif
+
+stop
+
+@enduml

@@ -1,0 +1,90 @@
+' ============================================================================
+' Diagram: Return border procedure
+'
+' Syfte: Visualiserar återvändandegränsförfarandet.
+'
+' Källa: Förordning (EU) 2024/1349 artiklarna 4–6
+'
+' Relaterade regler:
+'   RULE-RET-004-001, RULE-RET-005-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml return-border-procedure
+
+title Return border procedure
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Avslag i asylgränsförfarande;
+
+:[[../rules/rule-ret-004-001.md Return border procedure inleds]];
+note right
+  [[../rules/rule-ret-004-001.md RULE-RET-004-001]]
+  Inleds efter avslag i
+  gränsförfarande
+  ([[../articles/return-004.md ART-RET-004]])
+end note
+
+:Återvändandebeslut utfärdas;
+
+:Tidsfrist för frivillig avresa (max 15 dagar);
+note right
+  [[../rules/rule-ret-005-001.md RULE-RET-005-001]]
+  Max **12 veckor** efter avslag
+  Frivillig avresa: max **15 dagar**
+  ([[../articles/return-005.md ART-RET-005]])
+end note
+
+if (Personen återvänder frivilligt?) then (Ja)
+
+    :Frivillig avresa;
+
+    stop
+
+endif
+
+if (Överklagande med suspensiv verkan?) then (Ja)
+
+    :Tidsfristen fryser;
+
+    :Domstol beslutar;
+
+endif
+
+:Avlägsnande verkställs;
+
+if (Avlägsnande möjligt inom 12 veckor?) then (Nej)
+
+    :[[../rules/rule-ret-005-001.md Tidsfrist utgången — inresa tillåts]];
+    note right
+      [[../rules/rule-ret-005-001.md RULE-RET-005-001]]
+      Om 12 veckor utan verkställt
+      avlägsnande → inresa tillåts
+    end note
+
+else (Ja)
+
+    :Avlägsnande genomfört;
+
+endif
+
+stop
+
+@enduml

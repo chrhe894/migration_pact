@@ -1,0 +1,87 @@
+' ============================================================================
+' Diagram: Made vs Registered vs Lodged
+'
+' Syfte: Förklarar de tre juridiska milstolparna visuellt —
+'        vad som händer, vem som gör det och vad det utlöser.
+'
+' Källa: APR artiklarna 26, 27, 28, 29
+'
+' Relaterade regler:
+'   RULE-APR-027-001, RULE-APR-027-004, RULE-APR-028-002,
+'   RULE-APR-029-001, RULE-APR-029-002
+'
+' Status: Draft
+' ============================================================================
+
+@startuml made-vs-registered-vs-lodged
+
+title Ansökans tre milstolpar
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "**APPLICATION MADE** (Ansökan görs)" {
+  :[[../articles/apr-027.md Person uttrycker önskan om internationellt skydd]];
+  note right
+    [[../articles/apr-027.md ART-APR-027]]
+    == Vem ==
+    Sökanden (inför valfri myndighet)
+    == Vad utlöses ==
+    - Registreringsfrist börjar löpa (5 dagar)
+      ([[../rules/rule-apr-027-001.md RULE-APR-027-001]])
+    - Non-refoulement gäller
+    - Rätt till information
+    == Tidpunkt ==
+    Kan ske muntligt, vid gräns,
+    i förvar, var som helst
+  end note
+}
+
+partition "**APPLICATION REGISTERED** (Ansökan registreras)" {
+  :[[../rules/rule-apr-027-001.md Behörig myndighet registrerar ansökan]];
+  note right
+    [[../rules/rule-apr-027-001.md RULE-APR-027-001]]
+    == Vem ==
+    Registreringsmyndigheten
+    == Vad utlöses ==
+    - Registreringshandling utfärdas
+      ([[../rules/rule-apr-029-001.md RULE-APR-029-001]])
+    - Inlämningsfrist börjar löpa (21 dagar)
+    - Eurodac-dataset överförs (72h)
+    - Ansvarsbestämningens "fryspunkt"
+      ([[../../responsibility/articles/ammr-024.md ART-AMMR-024]], punkt 2)
+    == Frist ==
+    **5 dagar** (15 vid massinflöde, 4 veckor vid kris)
+    ([[../rules/rule-apr-027-004.md RULE-APR-027-004]])
+  end note
+}
+
+partition "**APPLICATION LODGED** (Ansökan lämnas in)" {
+  :[[../rules/rule-apr-028-002.md Sökanden lämnar in ansökan personligen]];
+  note right
+    [[../rules/rule-apr-028-002.md RULE-APR-028-002]]
+    == Vem ==
+    Sökanden (till behörig myndighet)
+    == Vad utlöses ==
+    - Sökandehandling utfärdas
+      ([[../rules/rule-apr-029-002.md RULE-APR-029-002]])
+    - Prövningstidsfrist börjar löpa (6 mån)
+    - Registreringshandlingen återkallas
+    == Frist ==
+    **21 dagar** (5 dagar i gränsförfarande,
+    2 månader vid massinflöde)
+    ([[../articles/apr-028.md ART-APR-028]])
+  end note
+}
+
+stop
+
+@enduml

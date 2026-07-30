@@ -1,0 +1,91 @@
+' ============================================================================
+' Diagram: Beräkning av tidsfrister
+'
+' Syfte: Visar den generella logiken för hur tidsfrister beräknas —
+'        startdag, typ av frist och helgdagshantering.
+'
+' Källa: Shared — tidsfrister (generell logik)
+'
+' Relaterade regler:
+'   RULE-TL-REG-001, RULE-TL-REG-002, RULE-TL-LOD-001, RULE-TL-LOD-002
+'
+' Status: Draft
+' ============================================================================
+
+@startuml time_limits
+
+title Beräkning av tidsfrister
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:[[../rules/rule-tl-reg-001.md Fastställ starttidpunkt]];
+note right
+  [[../rules/rule-tl-reg-001.md RULE-TL-REG-001]]
+  Startdagen räknas inte
+end note
+
+:Startdagen räknas inte;
+
+if (Vilken typ av tidsfrist?) then (Dagar)
+
+    :Lägg till antal dagar;
+    note right
+      [[../rules/rule-tl-reg-002.md RULE-TL-REG-002]]
+      Registrering: **5 dagar**
+    end note
+
+elseif (Veckor)
+
+    :Lägg till antal veckor;
+
+    :Samma veckodag;
+
+elseif (Månader)
+
+    :Lägg till antal månader;
+
+    if (Datum finns?) then (Ja)
+
+        :Samma datum;
+
+    else (Nej)
+
+        :Månadens sista dag;
+
+    endif
+
+endif
+
+if (Sista dagen\när helgdag?) then (Ja)
+
+    :Flytta till\nnästa arbetsdag;
+
+endif
+
+:Fristen löper ut\n24:00;
+note right
+  [[../rules/rule-tl-lod-001.md RULE-TL-LOD-001]]
+  Inlämnande: **21 dagar**
+  ---
+  [[../rules/rule-tl-lod-002.md RULE-TL-LOD-002]]
+  Vid gränsförfarande: **5 dagar**
+end note
+
+stop
+
+@enduml

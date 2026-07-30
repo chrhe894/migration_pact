@@ -1,0 +1,113 @@
+' ============================================================================
+' Diagram: Screening inom territoriet
+'
+' Syfte: Visualiserar screeningprocessen för tredjelandsmedborgare
+'        som vistas olagligt inom territoriet.
+'
+' Källa: Screeningförordningen artiklarna 7, 8, 12, 14, 15, 17 och 18
+'
+' Relaterade regler:
+'   RULE-SCR-008-002, RULE-SCR-008-003, RULE-SCR-014-001,
+'   RULE-SCR-015-001, RULE-SCR-017-001, RULE-SCR-018-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml screening-within-territory
+
+title Screening inom territoriet
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Tredjelandsmedborgare som vistas olagligt omhändertas;
+
+if (Screening redan genomförd i annan medlemsstat?) then (Ja)
+
+    :Screening genomförs inte;
+
+    stop
+
+endif
+
+if (Omedelbar överföring till annan medlemsstat enligt bilateralt avtal?) then (Ja)
+
+    :Mottagande medlemsstat genomför screening;
+
+    stop
+
+endif
+
+note right
+  [[../rules/rule-scr-008-002.md RULE-SCR-008-002]]
+  Tidsfrist: **3 dagar**
+end note
+
+:[[../rules/rule-scr-014-001.md Identifiering / verifiering av identitet]];
+note right
+  [[../rules/rule-scr-014-001.md RULE-SCR-014-001]]
+  Kontroll mot SIS, VIS, Eurodac,
+  ECRIS-TCN
+end note
+
+:Registrera biometriska uppgifter om ej gjort;
+
+:[[../rules/rule-scr-015-001.md Säkerhetskontroll]];
+note right
+  [[../rules/rule-scr-015-001.md RULE-SCR-015-001]]
+  Kontroll mot SIS, ETIAS,
+  Interpol-databaser
+end note
+
+:Preliminär hälsokontroll;
+note right
+  [[../articles/scr-012.md ART-SCR-012]]
+  Hälsokontroll och
+  sårbarhetskontroll
+end note
+
+:Preliminär sårbarhetskontroll;
+
+:[[../rules/rule-scr-017-001.md Fyll i screeningformulär]];
+note right
+  [[../rules/rule-scr-017-001.md RULE-SCR-017-001]]
+  ([[../articles/scr-017.md ART-SCR-017]])
+end note
+
+:[[../rules/rule-scr-018-001.md Hänvisa till rätt förfarande]];
+note right
+  [[../rules/rule-scr-018-001.md RULE-SCR-018-001]]
+  ([[../articles/scr-018.md ART-SCR-018]])
+end note
+
+if (Asylansökan gjord?) then (Ja)
+
+    :Hänvisa till registreringsmyndighet;
+    note right
+      [[../../../domains/registration/articles/apr-027.md ART-APR-027]]
+      Registrering inom 5 dagar
+    end note
+
+else (Nej)
+
+    :Fortsätta återvändandeförfarande;
+
+endif
+
+stop
+
+@enduml

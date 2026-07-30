@@ -1,0 +1,188 @@
+' ============================================================================
+' Diagram: End-to-end — hela förfarandekedjan
+'
+' Syfte: Övergripande bild som visar en persons väg genom hela systemet,
+'        från ankomst till slutligt utfall. Visar vilka domäner som
+'        aktiveras i vilken ordning.
+'
+' Källa: Screeningförordningen, APR artiklarna 27–29, 34–42, 43–54,
+'        AMMR artiklarna 24–46
+'
+' Relaterade regler:
+'   RULE-SCR-008-001, RULE-SCR-017-001, RULE-APR-027-001,
+'   RULE-APR-027-004, RULE-APR-028-002, RULE-APR-029-001,
+'   RULE-APR-029-002, RULE-AMMR-024-001, RULE-AMMR-038-001,
+'   RULE-AMMR-046-001, RULE-APR-043-001, RULE-APR-051-001,
+'   RULE-APR-038-001, RULE-APR-034-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml end-to-end-overview
+
+title EU:s migrations- och asylpakt — end-to-end
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+skinparam partition {
+  BackgroundColor #FAFAFA
+  BorderColor #999999
+}
+
+start
+
+partition "**SCREENING** (7 dagar)" {
+  :Person omhändertas vid yttre gräns
+  eller landsätts efter sök-och-räddning;
+  :[[domains/screening/rules/rule-scr-008-001.md Identifiering, hälsokontroll, sårbarhet, säkerhetskontroll]];
+  note right
+    [[domains/screening/rules/rule-scr-008-001.md RULE-SCR-008-001]]
+    Screening ska genomföras inom
+    **7 dagar** från omhändertagande
+    ([[domains/screening/articles/scr-006.md ART-SCR-006]])
+  end note
+  :[[domains/screening/rules/rule-scr-017-001.md Screeningformulär fylls i]];
+  note right
+    [[domains/screening/rules/rule-scr-017-001.md RULE-SCR-017-001]]
+    Formuläret överlämnas till
+    registreringsmyndigheten
+  end note
+  :Biometriska uppgifter tas → Eurodac;
+}
+
+if (Asylansökan gjord?) then (Nej)
+  :Återvändandeförfarande;
+  stop
+else (Ja)
+endif
+
+partition "**REGISTRATION** (5 dagar)" {
+  :[[domains/registration/rules/rule-apr-027-001.md Registrera ansökan]];
+  note right
+    [[domains/registration/rules/rule-apr-027-001.md RULE-APR-027-001]]
+    **5 dagar** från ansökan gjord
+    ---
+    Vid massinflöde: **15 dagar**
+    Vid kris: **4 veckor**
+    ([[domains/registration/rules/rule-apr-027-004.md RULE-APR-027-004]])
+  end note
+  :[[domains/registration/rules/rule-apr-029-001.md Registreringshandling utfärdas]];
+  note right
+    [[domains/registration/rules/rule-apr-029-001.md RULE-APR-029-001]]
+    Handling i sökandens namn
+  end note
+  :Eurodac-dataset överförs (72h);
+}
+
+partition "**INLÄMNANDE** (21 dagar / 5 vid gräns)" {
+  :[[domains/registration/rules/rule-apr-028-002.md Sökanden lämnar in ansökan]];
+  note right
+    [[domains/registration/rules/rule-apr-028-002.md RULE-APR-028-002]]
+    **21 dagar** från registrering
+    ---
+    Vid gränsförfarande: **5 dagar**
+    ([[domains/registration/articles/apr-028.md ART-APR-028]])
+  end note
+  :[[domains/registration/rules/rule-apr-029-002.md Sökandehandling utfärdas]];
+  note right
+    [[domains/registration/rules/rule-apr-029-002.md RULE-APR-029-002]]
+    Giltig 12 månader
+  end note
+}
+
+partition "**ANSVARSBEDÖMNING**" {
+  :[[domains/responsibility/rules/rule-ammr-024-001.md Tillämpa ansvarskriterierna]];
+  note right
+    [[domains/responsibility/rules/rule-ammr-024-001.md RULE-AMMR-024-001]]
+    Kriterierna tillämpas i
+    rangordning
+  end note
+  if (Ansvarig stat = denna stat?) then (Nej)
+    :[[domains/responsibility/rules/rule-ammr-038-001.md Framställan om övertagande]];
+    note right
+      [[domains/responsibility/rules/rule-ammr-038-001.md RULE-AMMR-038-001]]
+      **2 månader** från registrering
+      ([[domains/responsibility/articles/ammr-038.md ART-AMMR-038]])
+      ---
+      1 månad vid Eurodac-träff
+    end note
+    :Överföring (6 mån);
+    note right
+      Om ej i tid →
+      ansvaret övergår till
+      överförande stat
+      ([[domains/responsibility/rules/rule-ammr-046-001.md RULE-AMMR-046-001]])
+    end note
+  else (Ja)
+  endif
+}
+
+if (Gränsförfarande? (art. 43/45)) then (Ja)
+
+  partition "**GRÄNSFÖRFARANDE** (12 veckor)" {
+    :[[domains/border-procedure/rules/rule-apr-043-001.md Prövning vid gränsen]];
+    note right
+      [[domains/border-procedure/rules/rule-apr-043-001.md RULE-APR-043-001]]
+      **12 veckor**
+      ([[domains/border-procedure/articles/apr-043.md ART-APR-043]])
+      ---
+      Vid kris: **18 veckor**
+    end note
+    if (Beviljat?) then (Ja)
+      :Inresa tillåts;
+      stop
+    else (Nej)
+      partition "**RETURN BORDER** (12 veckor)" {
+        :[[domains/border-procedure/rules/rule-apr-051-001.md Återvändandebeslut]];
+        note right
+          [[domains/border-procedure/rules/rule-apr-051-001.md RULE-APR-051-001]]
+          **12 veckor**
+          ([[domains/border-procedure/articles/apr-051.md ART-APR-051]])
+        end note
+        :Avlägsnande eller frivillig avresa;
+      }
+      stop
+    endif
+  }
+
+else (Nej)
+
+  partition "**PRÖVNING** (6 mån / 3 mån påskyndat)" {
+    :[[domains/asylum-procedure/rules/rule-apr-038-001.md Admissibility]];
+    note right
+      [[domains/asylum-procedure/rules/rule-apr-038-001.md RULE-APR-038-001]]
+      Upptagandeprövning
+    end note
+    :Personlig intervju;
+    :[[domains/asylum-procedure/rules/rule-apr-034-001.md Prövning i sak]];
+    note right
+      [[domains/asylum-procedure/rules/rule-apr-034-001.md RULE-APR-034-001]]
+      **6 månader** (reguljärt)
+      **3 månader** (påskyndat)
+      **15 månader** vid komplexitet
+      ([[domains/asylum-procedure/articles/apr-034.md ART-APR-034]])
+    end note
+    if (Beviljat?) then (Ja)
+      :Internationellt skydd;
+      stop
+    else (Nej)
+      :Återvändandedirektivet;
+      stop
+    endif
+  }
+
+endif
+
+@enduml

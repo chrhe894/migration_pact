@@ -1,0 +1,178 @@
+' ============================================================================
+' Diagram: Övertagandeförfarandet (take charge) — detaljerat aktivitetsflöde
+'
+' Syfte: Visar hela flödet från framställan till verkställd överföring,
+'        inklusive tidsfrister, tyst godkännande, överklagande och
+'        konsekvenser vid missade frister.
+'
+' Källa: AMMR artiklarna 38–46
+'
+' Relaterade regler:
+'   RULE-AMMR-038-001, RULE-AMMR-039-001, RULE-AMMR-040-001,
+'   RULE-AMMR-043-001, RULE-AMMR-046-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml take-charge-procedure
+
+title Övertagandeförfarandet — detaljerat aktivitetsflöde
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Fastställande stat (art. 38)" {
+  :[[../rules/rule-ammr-038-001.md Ansökan registreras — förfarandet inleds]];
+  note right
+    [[../rules/rule-ammr-038-001.md RULE-AMMR-038-001]]
+    Förfarandet inleds utan dröjsmål
+    ([[../articles/ammr-038.md ART-AMMR-038]])
+  end note
+  :Kriterier tillämpas → annan stat
+  bedöms vara ansvarig;
+}
+
+partition "Framställan om övertagande (art. 39)" {
+  :[[../rules/rule-ammr-039-001.md Framställan skickas till den anmodade staten]];
+  note right
+    [[../rules/rule-ammr-039-001.md RULE-AMMR-039-001]]
+    **2 månader** från registrering
+    **1 månad** vid Eurodac-/VIS-träff
+    ([[../articles/ammr-039.md ART-AMMR-039]])
+    ---
+    == Innehåll ==
+    Fullständiga skäl, bevis,
+    indicier, standardformulär
+    ---
+    == Vid missad frist ==
+    Fastställande stat blir
+    själv ansvarig
+  end note
+
+  if (Framställan skickad i tid?) then (Nej)
+    :Fastställande stat
+    blir ansvarig;
+    stop
+  else (Ja)
+  endif
+}
+
+partition "Anmodad stat svarar (art. 40)" {
+  :[[../rules/rule-ammr-040-001.md Kontrollerar bevis och indicier]];
+  note right
+    [[../rules/rule-ammr-040-001.md RULE-AMMR-040-001]]
+    **1 månad** (normalt)
+    **2 veckor** (vid Eurodac-/VIS-träff)
+    **1 vecka** (brådskande begäran)
+    ([[../articles/ammr-040.md ART-AMMR-040]])
+    ---
+    Familjebaserade framställningar
+    (art. 25–28, 34) prioriteras
+  end note
+
+  if (Svar inom tidsfristen?) then (Nej)
+    :Tyst godkännande —
+    skyldighet att överta;
+  elseif (Godtar med underbyggda skäl?) then (Invändning)
+    :Invändning med underbyggda skäl;
+    note right
+      Invändningen ska styrkas
+      med bevis och indicier.
+      Familjeframställningar kräver
+      motiverade skäl vid avslag.
+    end note
+    :Fastställande stat omprövar
+    eller godtar ansvaret själv;
+    stop
+  else (Godtar)
+    :Framställan godtagen;
+  endif
+}
+
+partition "Överföringsbeslut (art. 42)" {
+  :Beslut fattas inom 2 veckor
+  efter godtagande;
+  note right
+    [[../articles/ammr-042.md ART-AMMR-042]]
+    ([[../rules/rule-ammr-042-001.md RULE-AMMR-042-001]])
+  end note
+  :Sökanden underrättas skriftligen:
+  — ansvarig stat
+  — tidsfrister
+  — rätt till överklagande;
+}
+
+partition "Rättsmedel (art. 43)" {
+  if (Sökanden överklagar?) then (Ja)
+    :Överklagande inlämnas;
+    note right
+      [[../rules/rule-ammr-043-001.md RULE-AMMR-043-001]]
+      Rätt till överklagande
+    end note
+    if (Suspensiv verkan beviljas?) then (Ja)
+      :Överföringsfristen fryser;
+      :Domstol beslutar
+      (strävar efter 1 månad);
+      if (Överklagande bifalls?) then (Ja)
+        :Överföring inhiberas;
+        :Ansvar fastställs på nytt;
+        stop
+      else (Nej)
+        :Suspensiv verkan upphör;
+        :Överföringsfrist börjar löpa;
+      endif
+    else (Nej)
+      :Överföringsfrist löper
+      från godtagande;
+    endif
+  else (Nej)
+    :Ingen invändning;
+  endif
+}
+
+partition "Överföring (art. 46)" {
+  :[[../rules/rule-ammr-046-001.md Överföring ska verkställas]];
+  note right
+    [[../rules/rule-ammr-046-001.md RULE-AMMR-046-001]]
+    Normalt: **6 månader**
+    Vid förvar: **4 veckor**
+    Vid avvikande: **18 månader**
+    ([[../articles/ammr-046.md ART-AMMR-046]])
+    ---
+    Räknas från godtagande
+    ELLER från suspensiv
+    verkan upphör
+  end note
+
+  if (Överföring genomförd i tid?) then (Ja)
+    :Person överförs;
+    :Ansvarig stat prövar ansökan;
+  else (Nej)
+    :Ansvaret övergår till
+    den överförande staten;
+    note right
+      [[../rules/rule-ammr-046-001.md RULE-AMMR-046-001]]
+      Missad frist = "straff"
+      Staten som inte överförde
+      i tid får ansvaret själv
+    end note
+  endif
+}
+
+stop
+
+@enduml

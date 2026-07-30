@@ -1,0 +1,224 @@
+' ============================================================================
+' Diagram: Begreppsflöde — solidaritetsmekanism
+'
+' Syfte: Visar hur ett asylärende kan beröras av solidaritetsmekanismen,
+'        med de olika vägarna: omfördelning, finansiellt bidrag,
+'        frivillig och obligatorisk ansvarskompensation.
+'
+' Källa: AMMR artiklarna 57–69
+'
+' Relaterade regler:
+'   RULE-AMMR-057-001, RULE-AMMR-063-001, RULE-AMMR-066-001,
+'   RULE-AMMR-067-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml solidarity-concept-flow
+
+title Begreppsflöde: asylärende, solidaritetsbidrag och ansvarskompensation
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Person / ansökan" {
+  :Person lämnar in ansökan
+  om internationellt skydd;
+}
+
+partition "Ansvarslogik" {
+  :Fastställ ansvarig medlemsstat
+  enligt ordinarie ansvarskriterier;
+}
+
+if ("Är ärendet del av solidaritetsmekanismen?") then ("Nej")
+  partition "Vanligt asylärende" {
+    :Ansvarig medlemsstat
+    tar emot eller behåller personen;
+    :Ansökan prövas i ordinarie asylprocess;
+  }
+  stop
+else ("Ja")
+endif
+
+partition "EU-styrning" {
+  :[[../rules/rule-ammr-057-001.md Solidaritetsår och årlig solidaritetspool]];
+  note right
+    [[../rules/rule-ammr-057-001.md RULE-AMMR-057-001]]
+    ([[../articles/ammr-057.md ART-AMMR-057]])
+    == Roller ==
+    **Gynnad medlemsstat:**
+    får solidaritetsstöd
+    ---
+    **Bidragande medlemsstat:**
+    bidrar genom omfördelning,
+    ekonomiskt bidrag, alternativ åtgärd
+    eller ansvarskompensation
+    ---
+    **Omfördelningsmedlemsstat:**
+    tar emot personen vid
+    fysisk omfördelning
+  end note
+  :Medlemsstaternas bidrag och behov
+  följs upp;
+  note right
+    == Viktig skillnad ==
+    Omfördelning flyttar personen.
+    Ansvarskompensation flyttar ansvaret;
+    eventuell fysisk överföring hanteras
+    inte som omfördelning.
+  end note
+}
+
+if ("Vilken solidaritetsväg används?") then ("Omfördelning")
+  partition "Gynnad medlemsstat" {
+    :Identifierar person som kan omfördelas;
+    :Skickar uppgifter och handlingar
+    till omfördelningsmedlemsstat;
+  }
+
+  partition "Omfördelningsmedlemsstat" {
+    :Granskar uppgifter;
+    :[[../rules/rule-ammr-066-001.md Bekräftar eller motsätter sig enligt tidsfrist]];
+    note right
+      [[../rules/rule-ammr-066-001.md RULE-AMMR-066-001]]
+      ([[../articles/ammr-066.md ART-AMMR-066]])
+    end note
+    :Tar emot personen fysiskt;
+  }
+
+  partition "Person / ansökan" {
+    :Person flyttas till
+    omfördelningsmedlemsstaten;
+  }
+
+  partition "Ansvar och register" {
+    :Ansvar övergår när villkoren
+    för omfördelning är uppfyllda;
+    :Eurodac och ärendehistorik
+    uppdateras;
+  }
+  stop
+
+elseif ("Finansiellt eller alternativt solidaritetsbidrag")
+  partition "EU-styrning" {
+    :Sverige utfäster ekonomiskt bidrag
+    eller alternativ solidaritetsåtgärd;
+    :Bidraget räknas mot Sveriges
+    solidaritetsåtagande;
+  }
+
+  partition "Ekonomi / styrning" {
+    :Finansiellt bidrag hanteras som
+    överföring till EU-budgeten;
+    :Alternativ åtgärd värderas och
+    följs upp som finansiell solidaritet;
+  }
+
+  partition "Gynnad medlemsstat" {
+    :Får stöd genom finansierad åtgärd
+    eller annan överenskommen insats;
+  }
+
+  partition "Person / ansökan" {
+    :Ingen person flyttas;
+    :Inget prövningsansvar övergår
+    genom detta spår;
+  }
+  stop
+
+elseif ("Frivillig ansvarskompensation")
+  partition "Gynnad medlemsstat" {
+    :Begär att bidragande medlemsstat
+    tar över ansvar för ett antal ansökningar;
+  }
+
+  partition "Bidragande / kompenserande medlemsstat" {
+    :Svarar på begäran
+    normalt inom 30 dagar;
+    if ("Accepterar?") then ("Ja")
+      :Identifierar ansökningar
+      som omfattas;
+    else ("Nej eller delvis")
+      :Kvarstående behov hanteras
+      i solidaritetsuppföljningen;
+      stop
+    endif
+  }
+
+  partition "Ansvar och register" {
+    :Ansvar övergår för
+    identifierade ansökningar;
+    :Eurodac anger ny ansvarig
+    medlemsstat;
+  }
+
+  partition "Person / ansökan" {
+    :Ingen fysisk omfördelning
+    som solidaritetsåtgärd;
+    :Eventuell senare fysisk överföring
+    följer ansvarsförfarandet;
+  }
+  stop
+
+else ("Obligatorisk ansvarskompensation")
+  partition "EU-styrning" {
+    :Kontrollera om omfördelningslöften
+    understiger relevanta trösklar
+    eller inte genomförs;
+    :[[../rules/rule-ammr-063-001.md Beräkna ansvar upp till medlemsstatens rättvisa andel]];
+    note right
+      [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
+      ([[../articles/ammr-063.md ART-AMMR-063]])
+    end note
+  }
+
+  partition "Gynnad medlemsstat" {
+    :Begär eller aktiverar kompensation
+    för kvarstående ansvar;
+  }
+
+  partition "Bidragande / kompenserande medlemsstat" {
+    :[[../rules/rule-ammr-067-001.md Tar över ansvar för identifierade ansökningar]];
+    note right
+      [[../rules/rule-ammr-067-001.md RULE-AMMR-067-001]]
+      ([[../articles/ammr-067.md ART-AMMR-067]])
+      ---
+      Kontrollerar undantag, t.ex.
+      ensamkommande barn och skyddsstatus
+    end note
+  }
+
+  partition "Ansvar och register" {
+    :Ansvar övergår utan att personen
+    omfördelas som solidaritetsåtgärd;
+    :Eurodac och ärendehistorik
+    uppdateras;
+    :Genomförandet rapporteras till
+    kommissionen/EU-solidaritetssamordnaren;
+  }
+
+  partition "Person / ansökan" {
+    :Personens ansökan knyts till
+    ny ansvarig medlemsstat;
+    :Eventuell praktisk överföring
+    är separat från omfördelning;
+  }
+  stop
+endif
+
+@enduml

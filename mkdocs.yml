@@ -1,0 +1,269 @@
+site_name: EU Migration and Asylum Pact — Knowledge Base
+site_description: Strukturerad kunskapsbas för EU:s migrations- och asylpakt
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
+
+theme:
+  name: material
+  language: sv
+  palette:
+    scheme: default
+    primary: black
+    accent: amber
+  icon:
+    logo: material/book-open-page-variant
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/svg-resize.js
+
+nav:
+  - Start: README.md
+  - Livscykel: CASE_LIFECYCLE.md
+  - FAQ: FAQ.md
+  - Ordlista: GLOSSARY.md
+  - Dublin vs AMMR: DUBLIN_VS_AMMR.md
+  - Domäner:
+    - Registration:
+      - domains/registration/README.md
+      - Artiklar:
+        - APR artikel 27: domains/registration/articles/apr-027.md
+        - APR artikel 28: domains/registration/articles/apr-028.md
+        - APR artikel 29: domains/registration/articles/apr-029.md
+        - APR artikel 32: domains/registration/articles/apr-032.md
+        - APR artikel 33: domains/registration/articles/apr-033.md
+      - Processer:
+        - Registration: domains/registration/processes/registration-of-an-application.md
+        - Lodging: domains/registration/processes/lodging-an-application.md
+        - Issue documents: domains/registration/processes/issue-applicant-documents.md
+      - Begrepp:
+        - Application: domains/registration/concepts/application-for-international-protection.md
+        - Applicant: domains/registration/concepts/applicant.md
+        - Registration: domains/registration/concepts/registration.md
+        - Registration authority: domains/registration/concepts/registration-authority.md
+        - Lodging: domains/registration/concepts/lodging.md
+        - Registration certificate: domains/registration/concepts/registration-certificate.md
+        - Applicant document: domains/registration/concepts/applicant-document.md
+    - Screening:
+      - domains/screening/README.md
+      - Artiklar:
+        - Artikel 5: domains/screening/articles/scr-005.md
+        - Artikel 6: domains/screening/articles/scr-006.md
+        - Artikel 7: domains/screening/articles/scr-007.md
+        - Artikel 8: domains/screening/articles/scr-008.md
+        - Artikel 9: domains/screening/articles/scr-009.md
+        - Artikel 10: domains/screening/articles/scr-010.md
+        - Artikel 11: domains/screening/articles/scr-011.md
+        - Artikel 12: domains/screening/articles/scr-012.md
+        - Artikel 13: domains/screening/articles/scr-013.md
+        - Artikel 14: domains/screening/articles/scr-014.md
+        - Artikel 15: domains/screening/articles/scr-015.md
+        - Artikel 16: domains/screening/articles/scr-016.md
+        - Artikel 17: domains/screening/articles/scr-017.md
+        - Artikel 18: domains/screening/articles/scr-018.md
+      - Processer:
+        - Vid yttre gräns: domains/screening/processes/screening-at-external-border.md
+        - Inom territoriet: domains/screening/processes/screening-within-territory.md
+      - Begrepp:
+        - Screening: domains/screening/concepts/screening.md
+        - Screening authority: domains/screening/concepts/screening-authority.md
+        - Screening form: domains/screening/concepts/screening-form.md
+        - Preliminary health check: domains/screening/concepts/preliminary-health-check.md
+        - Vulnerability check: domains/screening/concepts/vulnerability-check.md
+    - Eurodac:
+      - domains/eurodac/README.md
+      - Artiklar:
+        - Artikel 13: domains/eurodac/articles/eur-013.md
+        - Artikel 14: domains/eurodac/articles/eur-014.md
+        - Artikel 15: domains/eurodac/articles/eur-015.md
+        - Artikel 17: domains/eurodac/articles/eur-017.md
+        - Artikel 23: domains/eurodac/articles/eur-023.md
+        - Artikel 29: domains/eurodac/articles/eur-029.md
+      - Processer:
+        - Biometric data: domains/eurodac/processes/collect-and-transmit-biometric-data.md
+      - Begrepp:
+        - Eurodac: domains/eurodac/concepts/eurodac.md
+        - Biometric data: domains/eurodac/concepts/biometric-data.md
+        - Fingerprint data: domains/eurodac/concepts/fingerprint-data.md
+        - Facial image data: domains/eurodac/concepts/facial-image-data.md
+        - Dataset: domains/eurodac/concepts/dataset.md
+        - Originating Member State: domains/eurodac/concepts/originating-member-state.md
+    - Responsibility:
+      - domains/responsibility/README.md
+      - Artiklar:
+        - AMMR artikel 2: domains/responsibility/articles/ammr-002.md
+        - AMMR artikel 24: domains/responsibility/articles/ammr-024.md
+        - AMMR artikel 25: domains/responsibility/articles/ammr-025.md
+        - AMMR artikel 26: domains/responsibility/articles/ammr-026.md
+        - AMMR artikel 27: domains/responsibility/articles/ammr-027.md
+        - AMMR artikel 28: domains/responsibility/articles/ammr-028.md
+        - AMMR artikel 29: domains/responsibility/articles/ammr-029.md
+        - AMMR artikel 30: domains/responsibility/articles/ammr-030.md
+        - AMMR artikel 31: domains/responsibility/articles/ammr-031.md
+        - AMMR artikel 32: domains/responsibility/articles/ammr-032.md
+        - AMMR artikel 33: domains/responsibility/articles/ammr-033.md
+        - AMMR artikel 34: domains/responsibility/articles/ammr-034.md
+        - AMMR artikel 35: domains/responsibility/articles/ammr-035.md
+        - AMMR artikel 36: domains/responsibility/articles/ammr-036.md
+        - AMMR artikel 37: domains/responsibility/articles/ammr-037.md
+        - AMMR artikel 38: domains/responsibility/articles/ammr-038.md
+        - AMMR artikel 39: domains/responsibility/articles/ammr-039.md
+        - AMMR artikel 40: domains/responsibility/articles/ammr-040.md
+        - AMMR artikel 41: domains/responsibility/articles/ammr-041.md
+        - AMMR artikel 42: domains/responsibility/articles/ammr-042.md
+        - AMMR artikel 43: domains/responsibility/articles/ammr-043.md
+        - AMMR artikel 44: domains/responsibility/articles/ammr-044.md
+        - AMMR artikel 45: domains/responsibility/articles/ammr-045.md
+        - AMMR artikel 46: domains/responsibility/articles/ammr-046.md
+      - Processer:
+        - Determine responsible MS: domains/responsibility/processes/determine-responsible-member-state.md
+      - Begrepp:
+        - Responsible Member State: domains/responsibility/concepts/responsible-member-state.md
+        - Criteria hierarchy: domains/responsibility/concepts/criteria-hierarchy.md
+        - Take charge request: domains/responsibility/concepts/take-charge-request.md
+        - Take back notification: domains/responsibility/concepts/take-back-notification.md
+        - Transfer: domains/responsibility/concepts/transfer.md
+        - Determining Member State: domains/responsibility/concepts/determining-member-state.md
+    - Asylum Procedure:
+      - domains/asylum-procedure/README.md
+      - Artiklar:
+        - APR artikel 11: domains/asylum-procedure/articles/apr-011.md
+        - APR artikel 12: domains/asylum-procedure/articles/apr-012.md
+        - APR artikel 13: domains/asylum-procedure/articles/apr-013.md
+        - APR artikel 14: domains/asylum-procedure/articles/apr-014.md
+        - APR artikel 34: domains/asylum-procedure/articles/apr-034.md
+        - APR artikel 35: domains/asylum-procedure/articles/apr-035.md
+        - APR artikel 36: domains/asylum-procedure/articles/apr-036.md
+        - APR artikel 37: domains/asylum-procedure/articles/apr-037.md
+        - APR artikel 38: domains/asylum-procedure/articles/apr-038.md
+        - APR artikel 39: domains/asylum-procedure/articles/apr-039.md
+        - APR artikel 40: domains/asylum-procedure/articles/apr-040.md
+        - APR artikel 41: domains/asylum-procedure/articles/apr-041.md
+        - APR artikel 42: domains/asylum-procedure/articles/apr-042.md
+        - APR artikel 55: domains/asylum-procedure/articles/apr-055.md
+        - APR artikel 56: domains/asylum-procedure/articles/apr-056.md
+      - Processer:
+        - Examine application: domains/asylum-procedure/processes/examine-an-application.md
+        - Subsequent application: domains/asylum-procedure/processes/subsequent-application.md
+      - Begrepp:
+        - Determining authority: domains/asylum-procedure/concepts/determining-authority.md
+        - Admissibility: domains/asylum-procedure/concepts/admissibility.md
+        - Examination on the merits: domains/asylum-procedure/concepts/examination-on-the-merits.md
+        - Accelerated procedure: domains/asylum-procedure/concepts/accelerated-procedure.md
+        - Subsequent application: domains/asylum-procedure/concepts/subsequent-application.md
+    - Border Procedure:
+      - domains/border-procedure/README.md
+      - Artiklar:
+        - APR artikel 43: domains/border-procedure/articles/apr-043.md
+        - APR artikel 44: domains/border-procedure/articles/apr-044.md
+        - APR artikel 45: domains/border-procedure/articles/apr-045.md
+        - APR artikel 46: domains/border-procedure/articles/apr-046.md
+        - APR artikel 47: domains/border-procedure/articles/apr-047.md
+        - APR artikel 48: domains/border-procedure/articles/apr-048.md
+        - APR artikel 49: domains/border-procedure/articles/apr-049.md
+        - APR artikel 50: domains/border-procedure/articles/apr-050.md
+        - APR artikel 51: domains/border-procedure/articles/apr-051.md
+        - APR artikel 52: domains/border-procedure/articles/apr-052.md
+        - APR artikel 53: domains/border-procedure/articles/apr-053.md
+        - APR artikel 54: domains/border-procedure/articles/apr-054.md
+      - Processer:
+        - Asylum border procedure: domains/border-procedure/processes/asylum-border-procedure.md
+      - Begrepp:
+        - Border procedure: domains/border-procedure/concepts/border-procedure.md
+        - Adequate capacity: domains/border-procedure/concepts/adequate-capacity.md
+    - Solidarity:
+      - domains/solidarity/README.md
+      - Artiklar:
+        - AMMR artikel 57: domains/solidarity/articles/ammr-057.md
+        - AMMR artikel 58: domains/solidarity/articles/ammr-058.md
+        - AMMR artikel 59: domains/solidarity/articles/ammr-059.md
+        - AMMR artikel 60: domains/solidarity/articles/ammr-060.md
+        - AMMR artikel 61: domains/solidarity/articles/ammr-061.md
+        - AMMR artikel 62: domains/solidarity/articles/ammr-062.md
+        - AMMR artikel 63: domains/solidarity/articles/ammr-063.md
+        - AMMR artikel 64: domains/solidarity/articles/ammr-064.md
+        - AMMR artikel 65: domains/solidarity/articles/ammr-065.md
+        - AMMR artikel 66: domains/solidarity/articles/ammr-066.md
+        - AMMR artikel 67: domains/solidarity/articles/ammr-067.md
+        - AMMR artikel 68: domains/solidarity/articles/ammr-068.md
+        - AMMR artikel 69: domains/solidarity/articles/ammr-069.md
+      - Processer:
+        - Relocation: domains/solidarity/processes/relocation.md
+      - Begrepp:
+        - Solidarity pool: domains/solidarity/concepts/solidarity-pool.md
+        - Relocation: domains/solidarity/concepts/relocation.md
+        - Responsibility offset: domains/solidarity/concepts/responsibility-offset.md
+        - Reference key: domains/solidarity/concepts/reference-key.md
+    - Crisis:
+      - domains/crisis/README.md
+      - Artiklar:
+        - Artikel 1: domains/crisis/articles/crisis-001.md
+        - Artikel 2: domains/crisis/articles/crisis-002.md
+        - Artikel 3: domains/crisis/articles/crisis-003.md
+        - Artikel 4: domains/crisis/articles/crisis-004.md
+        - Artikel 5: domains/crisis/articles/crisis-005.md
+        - Artikel 8: domains/crisis/articles/crisis-008.md
+        - Artikel 9: domains/crisis/articles/crisis-009.md
+        - Artikel 10: domains/crisis/articles/crisis-010.md
+        - Artikel 11: domains/crisis/articles/crisis-011.md
+        - Artikel 12: domains/crisis/articles/crisis-012.md
+        - Artikel 13: domains/crisis/articles/crisis-013.md
+        - Artikel 14: domains/crisis/articles/crisis-014.md
+      - Processer:
+        - Activate crisis measures: domains/crisis/processes/activate-crisis-measures.md
+      - Begrepp:
+        - Crisis situation: domains/crisis/concepts/crisis-situation.md
+        - Force majeure: domains/crisis/concepts/force-majeure.md
+        - Instrumentalisation: domains/crisis/concepts/instrumentalisation.md
+    - Return Border Procedure:
+      - domains/return-border-procedure/README.md
+      - Artiklar:
+        - Artikel 1: domains/return-border-procedure/articles/return-001.md
+        - Artikel 2: domains/return-border-procedure/articles/return-002.md
+        - Artikel 3: domains/return-border-procedure/articles/return-003.md
+        - Artikel 4: domains/return-border-procedure/articles/return-004.md
+        - Artikel 5: domains/return-border-procedure/articles/return-005.md
+        - Artikel 6: domains/return-border-procedure/articles/return-006.md
+        - Artikel 7: domains/return-border-procedure/articles/return-007.md
+      - Processer:
+        - Return border procedure: domains/return-border-procedure/processes/return-border-procedure.md
+      - Begrepp:
+        - Return border procedure: domains/return-border-procedure/concepts/return-border-procedure-concept.md
+        - Voluntary departure: domains/return-border-procedure/concepts/voluntary-departure.md
+  - Shared:
+    - Identity: shared/identity/README.md
+    - Interpreters: shared/interpreters/README.md
+    - Documents: shared/documents/README.md
+    - Time Limits: shared/time-limits/README.md
+    - Biometrics: shared/biometrics/README.md
+    - Security Checks: shared/security-checks/README.md
+    - Children: shared/children/README.md
+    - Vulnerable Persons: shared/vulnerable-persons/README.md
+    - Interviews: shared/interviews/README.md
+    - Statistics: shared/statistics/README.md
+  - Scenarios: scenarios/README.md
+  - Projekt:
+    - Roadmap: ROADMAP.md
+    - Decisions: DECISIONS.md
+    - Style Guide: STYLE_GUIDE.md
+    - Contributing: CONTRIBUTING.md
+    - Design Review: DESIGN_REVIEW.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - attr_list

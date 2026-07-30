@@ -1,0 +1,117 @@
+' ============================================================================
+' Diagram: Screening → Registration → Eurodac — handoff mellan myndigheter
+'
+' Syfte: Förklarande bild som visar hur ärendet överlämnas mellan
+'        screeningmyndighet, registreringsmyndighet och Eurodac-systemet,
+'        med tidsfrister och informationsflöden.
+'
+' Källa: Screeningförordningen art. 17–18, APR art. 27, Eurodac art. 15
+'
+' Relaterade regler:
+'   RULE-SCR-017-001, RULE-SCR-018-001, RULE-APR-027-001,
+'   RULE-APR-029-001, RULE-AMMR-038-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml screening-to-registration-handoff
+
+title Screening → Registration → Eurodac — överlämning
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Screeningmyndighet" {
+  :Screening genomförs;
+  note right
+    [[../rules/rule-scr-017-001.md RULE-SCR-017-001]]
+    Screeningformulär skapas
+    med: identitet, hälsa,
+    sårbarhet, säkerhetskontroll,
+    familjeuppgifter
+    ([[../articles/scr-017.md ART-SCR-017]])
+  end note
+
+  :Biometriska uppgifter tas
+  (fingeravtryck + ansiktsbild);
+  note right
+    Uppgifterna tas EN gång
+    och används för både
+    identifiering och Eurodac
+  end note
+
+  :[[../rules/rule-scr-018-001.md Screening avslutas]];
+  note right
+    [[../rules/rule-scr-018-001.md RULE-SCR-018-001]]
+    Screeningformuläret + biometriska
+    uppgifter överlämnas
+    ([[../articles/scr-018.md ART-SCR-018]])
+  end note
+
+  :Hänvisning till registreringsmyndighet;
+}
+
+partition "Registreringsmyndighet" {
+  :Tar emot formuläret;
+  note right
+    [[../../../domains/registration/articles/apr-027.md ART-APR-027]], punkt 1
+    Uppgifter som inte behöver
+    samlas in igen: namn,
+    födelsedatum, kön,
+    medborgarskap, handlingar
+  end note
+
+  :[[../../../domains/registration/rules/rule-apr-027-001.md Registrerar ansökan]];
+  note right
+    [[../../../domains/registration/rules/rule-apr-027-001.md RULE-APR-027-001]]
+    **5 dagar** från ansökan gjord
+  end note
+
+  :[[../../../domains/registration/rules/rule-apr-029-001.md Utfärdar registreringshandling]];
+  note right
+    [[../../../domains/registration/rules/rule-apr-029-001.md RULE-APR-029-001]]
+    Handling i sökandens namn
+  end note
+}
+
+partition "Eurodac" {
+  :Dataset överförs (72 timmar);
+  note right
+    Biometriska uppgifter
+    + personuppgifter
+    + ansvarig stat
+    ---
+    Eurodac-träff kan utlösa
+    ansvarsförfarande (AMMR)
+  end note
+
+  :Dataset lagras;
+}
+
+partition "Ansvarsbedömning" {
+  :[[../../../domains/responsibility/rules/rule-ammr-038-001.md Fastställande stat inleder förfarandet]];
+  note right
+    [[../../../domains/responsibility/rules/rule-ammr-038-001.md RULE-AMMR-038-001]]
+    Startar parallellt med
+    eller efter registrering
+    ([[../../../domains/responsibility/articles/ammr-038.md ART-AMMR-038]])
+  end note
+}
+
+stop
+
+@enduml

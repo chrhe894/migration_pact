@@ -1,0 +1,108 @@
+' ============================================================================
+' Diagram: Asylum border procedure
+'
+' Syfte: Visualiserar gränsförfarandet från screening till beslut.
+'
+' Källa: APR artiklarna 43–54
+'
+' Relaterade regler:
+'   RULE-APR-043-001, RULE-APR-043-002, RULE-APR-045-001,
+'   RULE-APR-051-001, RULE-APR-051-002, RULE-APR-053-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml asylum-border-procedure
+
+title Asylum border procedure
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Screening avslutad — sökanden hänvisas till gränsförfarande;
+
+:[[../rules/rule-apr-043-001.md Kontrollera villkor för gränsförfarande]];
+note right
+  [[../rules/rule-apr-043-001.md RULE-APR-043-001]]
+  Inresa nekas under hela förfarandet
+  Max **12 veckor**
+  ([[../articles/apr-043.md ART-APR-043]])
+end note
+
+if (Undantag? (art. 53)) then (Ja)
+
+    :[[../rules/rule-apr-053-001.md Undantag — inresa tillåts]];
+    note right
+      [[../rules/rule-apr-053-001.md RULE-APR-053-001]]
+      Ensamkommande barn,
+      särskilda behov
+    end note
+
+    :Reguljärt förfarande tar vid;
+
+    stop
+
+endif
+
+:Ansökan lämnas in inom 5 dagar;
+
+:Upptagandeprövning;
+
+if (Tillåtlig?) then (Nej)
+
+    :Ansökan avvisas;
+
+    :[[../rules/rule-apr-051-001.md Return border procedure]];
+    note right
+      [[../rules/rule-apr-051-001.md RULE-APR-051-001]]
+      **12 veckor** för avlägsnande
+      ([[../articles/apr-051.md ART-APR-051]])
+    end note
+
+    stop
+
+endif
+
+:Personlig intervju;
+
+:Prövning i sak (påskyndade grunder);
+note right
+  [[../rules/rule-apr-045-001.md RULE-APR-045-001]]
+  Grunder: <20% bifall,
+  säkerhetshot, vilseledning
+  ([[../articles/apr-045.md ART-APR-045]])
+end note
+
+if (Internationellt skydd beviljas?) then (Ja)
+
+    :Sökanden tillåts resa in;
+
+else (Nej)
+
+    :Avslag;
+
+    :[[../rules/rule-apr-051-001.md Return border procedure]];
+    note right
+      [[../rules/rule-apr-051-001.md RULE-APR-051-001]]
+      ([[../articles/apr-051.md ART-APR-051]])
+    end note
+
+endif
+
+stop
+
+@enduml

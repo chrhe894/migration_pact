@@ -1,0 +1,8 @@
+/* Custom styles for the knowledge base */
+
+/* SVG diagrams embedded via <object>: fill available width */
+object[type="image/svg+xml"] {
+  display: block;
+  width: 100%;
+  /* Height set dynamically by svg-resize.js based on viewBox aspect ratio */
+}

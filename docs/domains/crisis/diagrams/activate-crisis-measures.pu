@@ -1,0 +1,78 @@
+' ============================================================================
+' Diagram: Activate crisis measures
+'
+' Syfte: Visualiserar processen för att aktivera krisundantag.
+'
+' Källa: Krishanteringsförordningen artiklarna 1–4, 10–12
+'
+' Relaterade regler:
+'   RULE-CRI-010-001, RULE-CRI-011-001, RULE-CRI-012-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml activate-crisis-measures
+
+title Activate crisis measures
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:[[../articles/crisis-002.md Medlemsstat begär krisförklaring]];
+note right
+  [[../articles/crisis-002.md ART-CRI-002]]
+  Medlemsstat meddelar
+  kommissionen om kris
+end note
+
+:Kommissionen bedömer situationen;
+
+if (Kris/force majeure/instrumentalisering?) then (Ja)
+
+    :[[../articles/crisis-003.md Kommissionen fastställer genom beslut]];
+    note right
+      [[../articles/crisis-003.md ART-CRI-003]]
+      Kommissionens bedömning
+    end note
+
+    :[[../articles/crisis-004.md Rådet godkänner undantag]];
+    note right
+      [[../articles/crisis-004.md ART-CRI-004]]
+      Rådet antar genomförandeakt
+    end note
+
+    :Undantag tillämpas:;
+    note right
+      [[../rules/rule-cri-010-001.md RULE-CRI-010-001]]
+      Registrering: **4 veckor**
+      ---
+      [[../rules/rule-cri-011-001.md RULE-CRI-011-001]]
+      Gränsförfarande: <50%, **18 veckor**
+      ---
+      [[../rules/rule-cri-012-001.md RULE-CRI-012-001]]
+      Övertagande: 4 mån / 2 mån / 1 år
+    end note
+
+else (Nej)
+
+    :Ordinarie förfaranden gäller;
+
+endif
+
+stop
+
+@enduml

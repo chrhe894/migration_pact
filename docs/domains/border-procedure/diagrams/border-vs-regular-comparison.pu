@@ -1,0 +1,123 @@
+' ============================================================================
+' Diagram: Reguljärt vs Påskyndat vs Gränsförfarande
+'
+' Syfte: Tre parallella spår via if/elseif/else för att visa
+'        de tre prövningsförfarandena sida vid sida.
+'
+' Källa: APR artiklarna 34–35, 42, 43, 45, 51, 53
+'
+' Relaterade regler:
+'   RULE-APR-034-001, RULE-APR-042-001, RULE-APR-043-001,
+'   RULE-APR-045-001, RULE-APR-051-001, RULE-APR-053-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml border-vs-regular-comparison
+
+title Prövningsförfaranden — jämförelse
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Ansökan registrerad;
+
+if (Vilken typ av förfarande?) then (Reguljärt)
+
+  :Inlämnande: **21 dagar**;
+  :Plats: på territoriet;
+  :Grunder: alla ansökningar;
+  :[[../../asylum-procedure/rules/rule-apr-038-001.md Admissibility → Intervju → Sak]];
+  note right
+    [[../../asylum-procedure/rules/rule-apr-038-001.md RULE-APR-038-001]]
+    Upptagandeprövning som första steg
+  end note
+  :Tidsfrist: **6 månader**
+  (15 vid komplexitet);
+  note right
+    [[../../asylum-procedure/articles/apr-034.md ART-APR-034]]
+    Prövningstidsfrist
+  end note
+  :Beslut;
+  if (Beviljat?) then (Ja)
+    :Uppehållstillstånd;
+  else (Nej)
+    :Återvändandedirektivet
+    (2008/115/EG);
+  endif
+
+elseif (Påskyndat)
+
+  :Inlämnande: **21 dagar**;
+  :Plats: på territoriet;
+  :[[../../asylum-procedure/rules/rule-apr-042-001.md Grunder för påskyndat förfarande]];
+  note right
+    [[../../asylum-procedure/rules/rule-apr-042-001.md RULE-APR-042-001]]
+    Säkert land, vilseledning,
+    säkerhetshot, fördröjning,
+    vägrar fingeravtryck
+    ([[../../asylum-procedure/articles/apr-042.md ART-APR-042]])
+  end note
+  :Admissibility → Intervju → Sak;
+  :Tidsfrist: **3 månader**;
+  :Beslut;
+  if (Beviljat?) then (Ja)
+    :Uppehållstillstånd;
+  else (Nej)
+    :Återvändandedirektivet
+    (2008/115/EG);
+  endif
+
+else (Gränsförfarande)
+
+  :Inlämnande: **5 dagar**;
+  :Plats: vid gränsen
+  (ingen inresa);
+  :[[../rules/rule-apr-045-001.md Grunder för gränsförfarande]];
+  note right
+    [[../rules/rule-apr-045-001.md RULE-APR-045-001]]
+    <20% bifall, säkerhetshot,
+    vilseledning
+    ([[../articles/apr-045.md ART-APR-045]])
+  end note
+  note right
+    [[../rules/rule-apr-053-001.md RULE-APR-053-001]]
+    Undantag: ensamkommande barn,
+    särskilda behov
+  end note
+  :Admissibility → Intervju → Sak;
+  :[[../rules/rule-apr-043-001.md Tidsfrist: 12 veckor]];
+  note right
+    [[../rules/rule-apr-043-001.md RULE-APR-043-001]]
+    **12 veckor** (18 vid kris)
+    ([[../articles/apr-043.md ART-APR-043]])
+    ---
+    Om 12v utan beslut →
+    inresa tillåts →
+    reguljärt tar vid
+  end note
+  :Beslut;
+  if (Beviljat?) then (Ja)
+    :Inresa tillåts;
+  else (Nej)
+    :[[../rules/rule-apr-051-001.md Return border procedure]];
+    note right
+      [[../rules/rule-apr-051-001.md RULE-APR-051-001]]
+      **12 veckor** till
+      ([[../articles/apr-051.md ART-APR-051]])
+    end note
+  endif
+
+endif
+
+stop
+
+@enduml
