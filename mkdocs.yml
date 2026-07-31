@@ -155,6 +155,18 @@ nav:
       - Öppna frågor:
         - Screening during mass arrivals: domains/screening/open_questions/screening-during-mass-arrivals.md
         - When is screening concluded: domains/screening/open_questions/when-is-screening-concluded.md
+      - Capabilities:
+        - Översikt: domains/screening/capabilities/README.md
+        - CAP-SCR-001 External Border: domains/screening/capabilities/cap-scr-001.md
+        - CAP-SCR-002 Within Territory: domains/screening/capabilities/cap-scr-002.md
+        - CAP-SCR-003 Verify Identity: domains/screening/capabilities/cap-scr-003.md
+        - CAP-SCR-004 Security Check: domains/screening/capabilities/cap-scr-004.md
+        - CAP-SCR-005 Screening Form: domains/screening/capabilities/cap-scr-005.md
+        - CAP-SCR-006 Refer to Procedure: domains/screening/capabilities/cap-scr-006.md
+        - CAP-SCR-007 Provide Information: domains/screening/capabilities/cap-scr-007.md
+        - CAP-SCR-008 Safeguard Minors: domains/screening/capabilities/cap-scr-008.md
+      - Krav:
+        - Översikt: domains/screening/requirements/README.md
     - Eurodac:
       - domains/eurodac/README.md
       - Artiklar:
@@ -185,6 +197,15 @@ nav:
         - Eurodac in screening and registration: domains/eurodac/interpretations/eurodac-in-screening-and-registration.md
       - Öppna frågor:
         - Scope of next eurodac slice: domains/eurodac/open_questions/scope-of-next-eurodac-slice.md
+      - Capabilities:
+        - Översikt: domains/eurodac/capabilities/README.md
+        - CAP-EUR-001 Collect Biometric: domains/eurodac/capabilities/cap-eur-001.md
+        - CAP-EUR-002 Transmit Asylum: domains/eurodac/capabilities/cap-eur-002.md
+        - CAP-EUR-003 Transmit Irregular: domains/eurodac/capabilities/cap-eur-003.md
+        - CAP-EUR-004 Minors: domains/eurodac/capabilities/cap-eur-004.md
+        - CAP-EUR-005 Store and Delete: domains/eurodac/capabilities/cap-eur-005.md
+      - Krav:
+        - Översikt: domains/eurodac/requirements/README.md
     - Responsibility:
       - domains/responsibility/README.md
       - Artiklar:
@@ -253,6 +274,18 @@ nav:
       - Öppna frågor:
         - Cessation of responsibility: domains/responsibility/open_questions/cessation-of-responsibility.md
         - No criteria match: domains/responsibility/open_questions/no-criteria-match.md
+      - Capabilities:
+        - Översikt: domains/responsibility/capabilities/README.md
+        - CAP-RES-001 Determine Responsible MS: domains/responsibility/capabilities/cap-res-001.md
+        - CAP-RES-002 Send Take Charge Request: domains/responsibility/capabilities/cap-res-002.md
+        - CAP-RES-003 Respond to Request: domains/responsibility/capabilities/cap-res-003.md
+        - CAP-RES-004 Send Take Back: domains/responsibility/capabilities/cap-res-004.md
+        - CAP-RES-005 Issue Transfer Decision: domains/responsibility/capabilities/cap-res-005.md
+        - CAP-RES-006 Execute Transfer: domains/responsibility/capabilities/cap-res-006.md
+        - CAP-RES-007 Right to Remedy: domains/responsibility/capabilities/cap-res-007.md
+        - CAP-RES-008 Discretionary Clause: domains/responsibility/capabilities/cap-res-008.md
+      - Krav:
+        - Översikt: domains/responsibility/requirements/README.md
     - Asylum Procedure:
       - domains/asylum-procedure/README.md
       - Artiklar:
@@ -296,6 +329,16 @@ nav:
       - Öppna frågor:
         - Implicit withdrawal consequences: domains/asylum-procedure/open_questions/implicit-withdrawal-consequences.md
         - Merits vs border: domains/asylum-procedure/open_questions/merits-vs-border.md
+      - Capabilities:
+        - Översikt: domains/asylum-procedure/capabilities/README.md
+        - CAP-ASY-001 Examine on Merits: domains/asylum-procedure/capabilities/cap-asy-001.md
+        - CAP-ASY-002 Assess Admissibility: domains/asylum-procedure/capabilities/cap-asy-002.md
+        - CAP-ASY-003 Accelerate Procedure: domains/asylum-procedure/capabilities/cap-asy-003.md
+        - CAP-ASY-004 Subsequent Application: domains/asylum-procedure/capabilities/cap-asy-004.md
+        - CAP-ASY-005 Issue Decision: domains/asylum-procedure/capabilities/cap-asy-005.md
+        - CAP-ASY-006 Handle Withdrawal: domains/asylum-procedure/capabilities/cap-asy-006.md
+      - Krav:
+        - Översikt: domains/asylum-procedure/requirements/README.md
     - Border Procedure:
       - domains/border-procedure/README.md
       - Artiklar:
@@ -327,6 +370,13 @@ nav:
         - Border vs regular procedure: domains/border-procedure/interpretations/border-vs-regular-procedure.md
       - Öppna frågor:
         - Capacity mechanism: domains/border-procedure/open_questions/capacity-mechanism.md
+      - Capabilities:
+        - Översikt: domains/border-procedure/capabilities/README.md
+        - CAP-BRD-001 Apply Border Procedure: domains/border-procedure/capabilities/cap-brd-001.md
+        - CAP-BRD-002 Manage Capacity: domains/border-procedure/capabilities/cap-brd-002.md
+        - CAP-BRD-003 Exempt Vulnerable: domains/border-procedure/capabilities/cap-brd-003.md
+      - Krav:
+        - Översikt: domains/border-procedure/requirements/README.md
     - Solidarity:
       - domains/solidarity/README.md
       - Artiklar:
@@ -359,6 +409,13 @@ nav:
         - Solidarity types: domains/solidarity/interpretations/solidarity-types.md
       - Öppna frågor:
         - Refusal to relocate: domains/solidarity/open_questions/refusal-to-relocate.md
+      - Capabilities:
+        - Översikt: domains/solidarity/capabilities/README.md
+        - CAP-SOL-001 Solidarity Pool: domains/solidarity/capabilities/cap-sol-001.md
+        - CAP-SOL-002 Relocate: domains/solidarity/capabilities/cap-sol-002.md
+        - CAP-SOL-003 Responsibility Offset: domains/solidarity/capabilities/cap-sol-003.md
+      - Krav:
+        - Översikt: domains/solidarity/requirements/README.md
     - Crisis:
       - domains/crisis/README.md
       - Artiklar:
@@ -388,6 +445,11 @@ nav:
         - Crisis vs normal: domains/crisis/interpretations/crisis-vs-normal.md
       - Öppna frågor:
         - Threshold for crisis: domains/crisis/open_questions/threshold-for-crisis.md
+      - Capabilities:
+        - Översikt: domains/crisis/capabilities/README.md
+        - CAP-CRI-001 Activate Crisis: domains/crisis/capabilities/cap-cri-001.md
+      - Krav:
+        - Översikt: domains/crisis/requirements/README.md
     - Return Border Procedure:
       - domains/return-border-procedure/README.md
       - Artiklar:
@@ -410,6 +472,11 @@ nav:
         - Return vs regular return: domains/return-border-procedure/interpretations/return-vs-regular-return.md
       - Öppna frågor:
         - Non removable persons: domains/return-border-procedure/open_questions/non-removable-persons.md
+      - Capabilities:
+        - Översikt: domains/return-border-procedure/capabilities/README.md
+        - CAP-RET-001 Return Border: domains/return-border-procedure/capabilities/cap-ret-001.md
+      - Krav:
+        - Översikt: domains/return-border-procedure/requirements/README.md
   - Shared:
     - Identity: shared/identity/README.md
     - Interpreters:

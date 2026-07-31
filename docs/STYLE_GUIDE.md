@@ -343,6 +343,98 @@ Exempel:
 
 ---
 
+# Requirements
+
+## Mall för krav
+
+Varje kravfil ska innehålla följande sektioner i ordning:
+
+```text
+# REQ-XXX-YYY-NNN
+
+## Krav
+## Syfte
+## Härledd från
+## Relaterade begrepp
+## Stöds av
+## Kommentar         (valfri)
+## Status
+```
+
+## Krav
+
+En mening som uttrycker skyldigheten implementeringsneutralt.
+
+Exempel: "Registreringsdatum ska registreras."
+
+## Härledd från
+
+Länk till den regel som kravet härleds ur.
+
+## Stöds av
+
+Länk till den capability som uppfyller kravet.
+
+## Namnkonvention
+
+`REQ-{förordning}-{artikel}-{löpnummer}` — t.ex. `REQ-APR-027-003`.
+
+## Övergripande tabell
+
+Varje domäns `requirements/README.md` ska innehålla en komplett tabell med kolumner: ID, Krav, Härledd från, Capability.
+
+---
+
+# Capabilities
+
+## Mall för verksamhetsförmåga
+
+Varje capability-fil ska innehålla följande sektioner i ordning:
+
+```text
+# CAP-XXX-NNN
+
+## Verksamhetsförmåga
+## Syfte
+## Implementerar
+## Stöds av
+## Producerar
+## Konsumerar
+## Relaterade begrepp
+## Status
+```
+
+## Verksamhetsförmåga
+
+Engelskt namn — kort och handlingsorienterat.
+
+Exempel: "Register Application", "Lodge Application".
+
+## Implementerar
+
+Länkad lista med de regler som förmågan uppfyller.
+
+## Stöds av
+
+Länk till den process som utför förmågan.
+
+## Producerar / Konsumerar
+
+Beskriver informationsflödet — vad som skapas och vad som krävs som input.
+
+## Namnkonvention
+
+`CAP-{domänprefix}-{löpnummer}` — t.ex. `CAP-REG-001`.
+
+## Placering
+
+```text
+domains/{domän}/capabilities/
+domains/{domän}/requirements/
+```
+
+---
+
 # Dokumentstorlek
 
 Föredra många små dokument framför få stora.

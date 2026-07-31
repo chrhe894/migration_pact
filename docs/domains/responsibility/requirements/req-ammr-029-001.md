@@ -1,0 +1,31 @@
+← [Responsibility](../README.md)
+
+# REQ-AMMR-029-001
+
+## Krav
+
+Stat som utfärdat uppehållshandling eller visering ska ansvara.
+
+---
+
+## Syfte
+
+Koppla ansvar till den stat som möjliggjort personens lagliga närvaro genom utfärdande av handling.
+
+---
+
+## Härledd från
+
+- [RULE-AMMR-029-001](../rules/rule-ammr-029-001.md) — Stat som utfärdat uppehållshandling eller visering ansvarar
+
+---
+
+## Stöds av
+
+- [CAP-RES-001 Determine Responsible Member State](../capabilities/cap-res-001.md)
+
+---
+
+## Status
+
+Draft
