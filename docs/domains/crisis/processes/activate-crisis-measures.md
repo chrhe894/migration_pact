@@ -32,6 +32,14 @@ Källa: [`activate-crisis-measures.pu`](../diagrams/activate-crisis-measures.pu)
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Kris konstaterad, ordinarie regler gäller | Undantag godkänns | Förlängda tidsfrister och utökade gränsförfaranden tillämpas |
+
+---
+
 ## Regler
 
 - [RULE-CRI-010-001](../rules/rule-cri-010-001.md) — Registreringstidsfrist 4 veckor

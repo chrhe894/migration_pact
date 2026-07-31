@@ -44,6 +44,15 @@ Om tidsfristerna i artikel 33 har löpt ut (20 resp. 12 månader) kan inresestat
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Ansökan registrerad, ansvarig stat okänd | Kriterier tillämpas | Ansvarig stat fastställd |
+| Ansvarig stat ≠ nuvarande stat | Framställan om övertagande | Överföringsbeslut fattat |
+
+---
+
 ## Regler
 
 - [RULE-AMMR-024-001](../rules/rule-ammr-024-001.md) — Kriterierna i angiven ordning

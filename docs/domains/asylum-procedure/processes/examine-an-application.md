@@ -50,6 +50,15 @@ Om sökanden avviker, inte samarbetar eller inte inställer sig till intervju ut
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Ansökan inlämnad | Admissibility-prövning | Ansökan tillåtlig eller otillåtlig |
+| Ansökan tillåtlig | Prövning i sak | Beslut (beviljat/avslag) |
+
+---
+
 ## Regler
 
 - [RULE-APR-034-001](../rules/rule-apr-034-001.md) — Individuell, objektiv, opartisk prövning

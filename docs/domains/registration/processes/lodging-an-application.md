@@ -42,6 +42,14 @@ Om ett oproportionellt stort antal personer gör ansökan inom samma period ska 
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Ansökan registrerad | Inlämnande | Ansökan inlämnad, sökandehandling utfärdas, prövningsfrist börjar |
+
+---
+
 ## Regler
 
 - [RULE-APR-028-001](../rules/rule-apr-028-001.md) — Tidsfrist för inlämnande (21 dagar)

@@ -1,0 +1,105 @@
+' ============================================================================
+' Diagram: Informationsflöde — Asylum Procedure
+'
+' Syfte: Visar vilken information prövningsförfarandet konsumerar
+'        och producerar.
+'
+' Källa: APR artiklarna 34–42
+'
+' Status: Draft
+' ============================================================================
+
+@startuml information-flow
+
+title Asylum Procedure — informationsflöde
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Input" {
+  :[[../../../domains/registration/processes/lodging-an-application.md Ansökan (inlämnad)]];
+  note right
+    [[../../../domains/registration/rules/rule-apr-028-005.md RULE-APR-028-005]]
+    Grunder, handlingar,
+    faktorer som sökanden
+    åberopar
+  end note
+  :[[../../../domains/registration/rules/rule-apr-027-002.md Registreringsuppgifter]];
+  note right
+    [[../../../domains/registration/rules/rule-apr-027-002.md RULE-APR-027-002]]
+    Identitet, medborgarskap,
+    familj
+  end note
+  :Landinformation (COI);
+  note right
+    Rapporter om sökandens
+    ursprungsland
+  end note
+  :Personlig intervju;
+  note right
+    Sökandens berättelse,
+    trovärdighet, detaljer
+  end note
+}
+
+partition "Prövning skapar" {
+  :[[../rules/rule-apr-038-001.md Admissibility-beslut]];
+  note right
+    [[../rules/rule-apr-038-001.md RULE-APR-038-001]]
+    Tillåtlig / otillåtlig
+    (avvisningsgrund)
+  end note
+  :[[../rules/rule-apr-034-001.md Beslut i sak]];
+  note right
+    [[../rules/rule-apr-034-001.md RULE-APR-034-001]]
+    Flyktingstatus /
+    subsidiärt skydd /
+    avslag
+  end note
+  :Återvändandebeslut;
+  note right
+    [[../articles/apr-037.md ART-APR-037]]
+    Vid avslag — utfärdas
+    samtidigt med beslutet
+  end note
+}
+
+partition "Konsumeras av" {
+  :Uppehållstillstånd;
+  note right
+    Vid beviljat skydd
+  end note
+  :[[../../../domains/return-border-procedure/processes/return-border-procedure.md Återvändande]];
+  note right
+    [[../../../domains/return-border-procedure/rules/rule-ret-004-001.md RULE-RET-004-001]]
+    Vid avslag —
+    return border procedure
+  end note
+  :Eurodac;
+  note right
+    Beslutsstatus registreras
+  end note
+  :[[../processes/subsequent-application.md Efterföljande ansökan]];
+  note right
+    [[../rules/rule-apr-055-001.md RULE-APR-055-001]]
+    Tidigare beslut utgör
+    referenspunkt för
+    förhandsprövning
+  end note
+}
+
+stop
+
+@enduml

@@ -49,6 +49,14 @@ Om det under screeningen framkommer att personen uppfyller inresevillkoren ska s
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Person omhändertagen, ej identifierad | Screening genomförs | Identifierad, screenad, hänvisad till förfarande |
+
+---
+
 ## Regler
 
 - [RULE-SCR-005-001](../rules/rule-scr-005-001.md) — Screening obligatorisk vid gränspassage

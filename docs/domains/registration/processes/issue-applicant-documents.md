@@ -48,6 +48,15 @@ För medföljande barn kan handlingar som utfärdas till förälder eller ansvar
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Ansökan registrerad, inga handlingar | Registreringshandling utfärdas | Sökande med registreringshandling |
+| Ansökan inlämnad | Sökandehandling utfärdas | Sökande med sökandehandling |
+
+---
+
 ## Regler
 
 - [RULE-APR-029-001](../rules/rule-apr-029-001.md) — Registreringshandling

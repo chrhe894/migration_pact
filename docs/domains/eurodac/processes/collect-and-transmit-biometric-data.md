@@ -47,6 +47,14 @@ Vid allvarliga tekniska problem får 72-timmarsfristen för asylsökande förlä
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Person utan Eurodac-registrering | Biometriska uppgifter tas och överförs | Person registrerad i Eurodac |
+
+---
+
 ## Regler
 
 - [RULE-EUR-013-001](../rules/rule-eur-013-001.md) — Skyldighet att ta och lämna biometriska uppgifter

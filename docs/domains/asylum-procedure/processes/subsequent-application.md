@@ -46,6 +46,14 @@ Om det inte finns ett slutligt beslut om den tidigare ansökan (ärendet pågår
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Person med tidigare slutligt beslut | Förhandsprövning | Nya omständigheter: sakprövning / Inga: avvisas |
+
+---
+
 ## Regler
 
 - [RULE-APR-055-001](../rules/rule-apr-055-001.md) — Förhandsprövning

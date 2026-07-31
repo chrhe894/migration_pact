@@ -45,6 +45,14 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Sökande i utsatt stat | Omfördelning | Sökande i bidragande stat, ansvar övergått |
+
+---
+
 ## Regler
 
 - [RULE-AMMR-057-001](../rules/rule-ammr-057-001.md) — Skyldighet att bidra

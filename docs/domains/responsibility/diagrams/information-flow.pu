@@ -1,0 +1,100 @@
+' ============================================================================
+' Diagram: Informationsflöde — Responsibility
+'
+' Syfte: Visar vilken information ansvarsbedömningen konsumerar
+'        och producerar.
+'
+' Källa: AMMR artiklarna 24–46
+'
+' Status: Draft
+' ============================================================================
+
+@startuml information-flow
+
+title Responsibility — informationsflöde
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Input" {
+  :[[../../../domains/registration/processes/registration-of-an-application.md Registreringsuppgifter]];
+  note right
+    [[../../../domains/registration/rules/rule-apr-027-002.md RULE-APR-027-002]]
+    Datum, ort, medborgarskap,
+    familjemedlemmar
+  end note
+  :Eurodac-träffar;
+  note right
+    [[../../../domains/eurodac/rules/rule-eur-015-001.md RULE-EUR-015-001]]
+    Tidigare registreringar,
+    irreguljära gränspassager
+  end note
+  :VIS-uppgifter;
+  note right
+    Viseringar, utfärdande stat
+  end note
+  :[[../../../domains/screening/rules/rule-scr-017-001.md Screeningformulär]];
+  note right
+    [[../../../domains/screening/rules/rule-scr-017-001.md RULE-SCR-017-001]]
+    Resväg, inreseland,
+    familjeuppgifter
+  end note
+}
+
+partition "Ansvarsbedömning skapar" {
+  :[[../rules/rule-ammr-024-001.md Ansvarsbeslut]];
+  note right
+    [[../rules/rule-ammr-024-001.md RULE-AMMR-024-001]]
+    Vilken stat som är ansvarig
+    + vilket kriterium
+  end note
+  :[[../rules/rule-ammr-039-001.md Framställan om övertagande]];
+  note right
+    [[../rules/rule-ammr-039-001.md RULE-AMMR-039-001]]
+    Bevis, indicier,
+    standardformulär
+    ([[../articles/ammr-039.md ART-AMMR-039]])
+  end note
+  :[[../rules/rule-ammr-042-001.md Överföringsbeslut]];
+  note right
+    [[../rules/rule-ammr-042-001.md RULE-AMMR-042-001]]
+    Meddelande till sökanden,
+    rättsmedelsupplysning
+  end note
+}
+
+partition "Konsumeras av" {
+  :[[../../../domains/asylum-procedure/processes/examine-an-application.md Prövning]];
+  note right
+    Ansvarig stat prövar
+    ansökan
+  end note
+  :Eurodac;
+  note right
+    Ansvarig stat registreras
+    i dataset
+  end note
+  :[[../../../domains/solidarity/processes/relocation.md Solidaritet]];
+  note right
+    [[../../../domains/solidarity/rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
+    Omfördelning eller
+    ansvarskompensation
+    kan ändra ansvarig stat
+  end note
+}
+
+stop
+
+@enduml

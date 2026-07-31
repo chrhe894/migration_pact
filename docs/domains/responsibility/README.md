@@ -243,3 +243,11 @@ Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först re
 | Children | [shared/children](../../shared/children/README.md) |
 | Identity | [shared/identity](../../shared/identity/README.md) |
 | Time limits | [shared/time-limits](../../shared/time-limits/README.md) |
+
+---
+
+## Informationsflöde
+
+<object type="image/svg+xml" data="diagrams/information-flow.svg" width="100%"></object>
+
+Källa: [`information-flow.pu`](diagrams/information-flow.pu)

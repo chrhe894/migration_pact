@@ -136,3 +136,11 @@ Decision on the merits (art. 39)
 | Children | [shared/children](../../shared/children/README.md) |
 | Vulnerable persons | [shared/vulnerable-persons](../../shared/vulnerable-persons/README.md) |
 | Interviews | [shared/interviews](../../shared/interviews/) |
+
+---
+
+## Informationsflöde
+
+<object type="image/svg+xml" data="diagrams/information-flow.svg" width="100%"></object>
+
+Källa: [`information-flow.pu`](diagrams/information-flow.pu)

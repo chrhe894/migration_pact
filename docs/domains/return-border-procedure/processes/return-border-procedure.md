@@ -38,6 +38,14 @@ Personen överklagar och beviljas suspensiv verkan. Tidsfristerna fryser till de
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Person med avslag i gränsförfarande | Återvändandebeslut + 12 veckor | Person har lämnat EU / Tidsfrist löpt ut → inresa |
+
+---
+
 ## Regler
 
 - [RULE-RET-004-001](../rules/rule-ret-004-001.md) — Tillämpning efter avslag

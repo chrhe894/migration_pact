@@ -48,6 +48,14 @@ Om sökanden har genomgått screening enligt Screeningförordningen artikel 5.1 
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Person uttryckt önskan om skydd | Ansökan registreras | Registrerad ansökan, registreringshandling utfärdad |
+
+---
+
 ## Regler
 
 - [RULE-APR-027-001](../rules/rule-apr-027-001.md) — Skyldighet att registrera

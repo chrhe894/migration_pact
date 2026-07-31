@@ -37,6 +37,14 @@ Om personen omedelbart skickas tillbaka till en annan medlemsstat enligt bilater
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Person som vistas olagligt, ej screenad | Screening genomförs | Person screenad, hänvisad till förfarande |
+
+---
+
 ## Regler
 
 - [RULE-SCR-008-002](../rules/rule-scr-008-002.md) — Tidsfrist tre dagar

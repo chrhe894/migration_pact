@@ -127,3 +127,11 @@ Transfer to applicable procedure
 | Interpreters | [shared/interpreters](../../shared/interpreters/README.md) |
 | Documents    | [shared/documents](../../shared/documents/README.md)       |
 | Time limits  | [shared/time-limits](../../shared/time-limits/README.md)   |
+
+---
+
+## Informationsflöde
+
+<object type="image/svg+xml" data="diagrams/information-flow.svg" width="100%"></object>
+
+Källa: [`information-flow.pu`](diagrams/information-flow.pu)

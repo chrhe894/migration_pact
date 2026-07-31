@@ -1,0 +1,96 @@
+' ============================================================================
+' Diagram: Informationsflöde — Registration
+'
+' Syfte: Visar hur information skapas, transformeras och återanvänds
+'        inom registreringsdomänen.
+'
+' Källa: APR artiklarna 27–29
+'
+' Status: Draft
+' ============================================================================
+
+@startuml information-flow
+
+title Registration — informationsflöde
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Input" {
+  :Sökanden;
+  note right
+    [[../articles/apr-027.md ART-APR-027]], punkt 1
+    Namn, födelsedatum, kön,
+    medborgarskap, familj
+  end note
+  :[[../../../domains/screening/rules/rule-scr-017-001.md Screeningformulär]];
+  note right
+    [[../../../domains/screening/articles/scr-017.md ART-SCR-017]]
+    Identitet, hälsa, sårbarhet,
+    säkerhetskontrollresultat
+  end note
+  :Biometriska uppgifter;
+  note right
+    Fingeravtryck + ansiktsbild
+    (tagna under screening)
+  end note
+}
+
+partition "Registration skapar" {
+  :[[../rules/rule-apr-027-002.md Registreringspost]];
+  note right
+    [[../rules/rule-apr-027-002.md RULE-APR-027-002]]
+    Datum, ort, myndighet,
+    uppgifter a–d
+  end note
+  :[[../rules/rule-apr-029-001.md Registreringshandling]];
+  note right
+    [[../rules/rule-apr-029-001.md RULE-APR-029-001]]
+    Bekräftar registrering
+  end note
+}
+
+partition "Lodging skapar" {
+  :[[../rules/rule-apr-029-002.md Sökandehandling]];
+  note right
+    [[../rules/rule-apr-029-002.md RULE-APR-029-002]]
+    Foto, status, rörelsefrihet
+    Giltig 12 mån
+  end note
+}
+
+partition "Konsumeras av" {
+  :[[../../../domains/eurodac/processes/collect-and-transmit-biometric-data.md Eurodac]];
+  note right
+    [[../../../domains/eurodac/rules/rule-eur-015-001.md RULE-EUR-015-001]]
+    Dataset överförs (72h)
+  end note
+  :[[../../../domains/responsibility/processes/determine-responsible-member-state.md Ansvarsbedömning]];
+  note right
+    [[../../../domains/responsibility/rules/rule-ammr-024-002.md RULE-AMMR-024-002]]
+    Fryspunkt: situationen
+    vid registrering
+  end note
+  :[[../../../domains/asylum-procedure/processes/examine-an-application.md Prövning]];
+  note right
+    [[../../../domains/asylum-procedure/rules/rule-apr-035-001.md RULE-APR-035-001]]
+    Prövningsfrist börjar
+    vid inlämnande
+  end note
+}
+
+stop
+
+@enduml

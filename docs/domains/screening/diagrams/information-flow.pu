@@ -1,0 +1,116 @@
+' ============================================================================
+' Diagram: Informationsflöde — Screening
+'
+' Syfte: Visar hur information skapas under screening och konsumeras
+'        av efterföljande domäner.
+'
+' Källa: Screeningförordningen artiklarna 8, 12, 14, 15, 17
+'
+' Status: Draft
+' ============================================================================
+
+@startuml information-flow
+
+title Screening — informationsflöde
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+partition "Input" {
+  :Person;
+  note right
+    Fysisk närvaro,
+    uppgivna uppgifter,
+    handlingar (om tillgängliga)
+  end note
+  :EU-databaser;
+  note right
+    [[../rules/rule-scr-015-001.md RULE-SCR-015-001]]
+    SIS, VIS, Eurodac,
+    ECRIS-TCN, ETIAS, Interpol
+  end note
+}
+
+partition "Screening skapar" {
+  :[[../rules/rule-scr-014-001.md Identitetsuppgifter]];
+  note right
+    [[../rules/rule-scr-014-001.md RULE-SCR-014-001]]
+    Namn, födelsedatum, kön,
+    medborgarskap (verifierat
+    eller bedömt)
+  end note
+  :Biometriska uppgifter;
+  note right
+    Fingeravtryck + ansiktsbild
+    Tas EN gång, återanvänds
+  end note
+  :Hälsobedömning;
+  note right
+    [[../articles/scr-012.md ART-SCR-012]]
+    Preliminär hälsokontroll,
+    smittskyddsbedömning
+  end note
+  :Sårbarhetsbedömning;
+  note right
+    [[../articles/scr-012.md ART-SCR-012]], punkt 3
+    Barn, offer för handel,
+    tortyroffer, funktionshinder
+  end note
+  :[[../rules/rule-scr-015-001.md Säkerhetskontrollresultat]];
+  note right
+    [[../rules/rule-scr-015-001.md RULE-SCR-015-001]]
+    Träffar maskeras
+    i personens version
+  end note
+  :[[../rules/rule-scr-017-001.md Screeningformulär]];
+  note right
+    [[../rules/rule-scr-017-001.md RULE-SCR-017-001]]
+    Samlar all ovanstående
+    information
+    ([[../articles/scr-017.md ART-SCR-017]])
+  end note
+}
+
+partition "Konsumeras av" {
+  :[[../../../domains/registration/processes/registration-of-an-application.md Registration]];
+  note right
+    [[../../../domains/registration/rules/rule-apr-027-002.md RULE-APR-027-002]]
+    Identitetsuppgifter +
+    biometriska uppgifter
+    (behöver ej samlas in igen)
+  end note
+  :[[../../../domains/eurodac/processes/collect-and-transmit-biometric-data.md Eurodac]];
+  note right
+    [[../../../domains/eurodac/rules/rule-eur-015-001.md RULE-EUR-015-001]]
+    Biometriska uppgifter
+    för datasetöverföring
+  end note
+  :[[../../../domains/responsibility/processes/determine-responsible-member-state.md Ansvarsbedömning]];
+  note right
+    Familjeuppgifter,
+    resväg, inreseland
+  end note
+  :[[../../../domains/border-procedure/processes/asylum-border-procedure.md Gränsförfarande]];
+  note right
+    [[../../../domains/border-procedure/rules/rule-apr-045-001.md RULE-APR-045-001]]
+    Säkerhetsresultat avgör
+    om gränsförfarande
+    ska tillämpas
+  end note
+}
+
+stop
+
+@enduml

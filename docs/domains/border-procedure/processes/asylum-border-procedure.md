@@ -51,6 +51,14 @@ Sökanden tillåts resa in. Ärendet övergår till reguljärt förfarande.
 
 ---
 
+## Tillståndsförändringar
+
+| Före | Åtgärd | Efter |
+|------|--------|-------|
+| Sökande efter screening, vid gränsen | Gränsförfarande (12 veckor) | Beviljat: inresa / Avslag: return border procedure |
+
+---
+
 ## Regler
 
 - [RULE-APR-043-001](../rules/rule-apr-043-001.md) — Villkor för tillämpning
