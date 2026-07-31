@@ -21,6 +21,26 @@ Vid flera examensbevis: den stat som utfärdat examensbeviset efter den längsta
 
 ---
 
+## Syfte
+
+Kopplar ansvaret till den stat som genom utbildning har skapat en anknytning för sökanden, och underlättar integration i en stat med befintlig koppling.
+
+---
+
+## Utlösare
+
+Det konstateras att sökanden har ett examensbevis utfärdat av en utbildningsanstalt i en medlemsstat och ansökan registrerats inom sex år.
+
+---
+
+## Rättsverkan
+
+- Den stat som utfärdat examensbeviset blir ansvarig.
+- Kriteriet gäller enbart om ansökan registrerats inom sex år efter utfärdandet.
+- Vid flera examensbevis tillämpas rangordningsreglerna.
+
+---
+
 ## Status
 
 Draft

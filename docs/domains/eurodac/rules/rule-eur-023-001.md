@@ -19,6 +19,26 @@ Medlemsstaten ska genast ta biometriska uppgifter för varje tredjelandsmedborga
 
 ---
 
+## Syfte
+
+Möjliggör identifiering och ansvarsbestämning av olagligt vistande personer genom att kräva biometrisk registrering i Eurodac.
+
+---
+
+## Utlösare
+
+En tredjelandsmedborgare eller statslös person (sex år eller äldre) påträffas med olaglig vistelse inom en medlemsstats territorium.
+
+---
+
+## Rättsverkan
+
+- Biometriska uppgifter ska tas genast vid påträffandet.
+- Överföring till Eurodac ska ske senast 72 timmar efter konstaterandet.
+- Eurodac-sökning möjliggör identifiering av eventuellt ansvarig stat.
+
+---
+
 ## Relaterade regler
 
 - [RULE-SCR-007-001](../../screening/rules/rule-scr-007-001.md)

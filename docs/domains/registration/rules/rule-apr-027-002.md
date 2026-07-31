@@ -24,6 +24,26 @@ Vid registreringen ska följande uppgifter registreras:
 
 ---
 
+## Syfte
+
+Säkerställer att alla uppgifter som behövs för ansvarsbedömning, identifiering och fortsatt handläggning samlas in vid ett och samma tillfälle.
+
+---
+
+## Utlösare
+
+Registreringsmyndigheten påbörjar registrering av en ansökan.
+
+---
+
+## Rättsverkan
+
+- Ansökan får ett fullständigt dataunderlag.
+- Uppgifterna utgör grund för Eurodac-dataset och ansvarsbestämning.
+- Registreringshandling kan utfärdas (RULE-APR-029-001).
+
+---
+
 ## Kommentar
 
 Uppgifterna kan hämtas från screeningformuläret enligt artikel 17 i Screeningförordningen. Uppgifter under a och b ska inte begäras in på nytt om de redan mottagits av medlemsstaten.

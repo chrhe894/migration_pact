@@ -19,6 +19,26 @@ Prövningsförfarandet ska avslutas så snart som möjligt och senast sex månad
 
 ---
 
+## Syfte
+
+Skyddar sökandens rätt till ett avgörande inom rimlig tid och förhindrar utdragna förfaranden.
+
+---
+
+## Utlösare
+
+En ansökan om internationellt skydd lämnas in (lodging) enligt artikel 28.
+
+---
+
+## Rättsverkan
+
+- Beslut ska meddelas inom sex månader från inlämnande.
+- Tidsfristen kan förlängas vid komplexa ärenden (RULE-APR-035-002).
+- Vid påskyndat förfarande gäller tre månader.
+
+---
+
 ## Kommentar
 
 Tidsfristen räknas från inlämnande (lodging, artikel 28), inte från registrering. Vid komplexa ärenden kan fristen förlängas (RULE-APR-035-002). Vid påskyndat förfarande gäller tre månader (RULE-APR-042-002).

@@ -19,6 +19,26 @@ Om den beslutande myndigheten vid förhandsprövningen bedömer att inga nya rel
 
 ---
 
+## Syfte
+
+Förhindrar att upprepade ansökningar utan nytt underlag belastar prövningssystemet genom att ge myndigheten rätt att avvisa dem.
+
+---
+
+## Utlösare
+
+Förhandsprövningen av en efterföljande ansökan visar att inga nya relevanta omständigheter har framkommit.
+
+---
+
+## Rättsverkan
+
+- Ansökan avvisas som otillåtlig.
+- Ingen prövning i sak genomförs.
+- Beslut om avvisning kan överklagas.
+
+---
+
 ## Relaterade regler
 
 - [RULE-APR-038-001](rule-apr-038-001.md) — Grunder för avvisning

@@ -19,6 +19,25 @@ För tredjelandsmedborgare som är föremål för screening enligt artikel 5.1 i
 
 ---
 
+## Syfte
+
+Förhindrar att registreringsförfarandet inleds parallellt med screening och skapar en tydlig sekventiell ordning.
+
+---
+
+## Utlösare
+
+Person är föremål för screening enligt Screeningförordningen.
+
+---
+
+## Rättsverkan
+
+- Registreringsfristen börjar inte löpa förrän screening avslutats.
+- Screening och registrering sker sekventiellt, inte parallellt.
+
+---
+
 ## Kommentar
 
 Regeln innebär att registreringsprocessen enligt APR inte inleds parallellt med screening utan sekventiellt. Kopplingen till screeningförordningen är central för att förstå den tidsmässiga ordningen i förfarandet.

@@ -23,6 +23,25 @@ Ansökan anses ha lämnats in under förutsättning att:
 
 ---
 
+## Syfte
+
+Möjliggör inlämnande för sökande som av fysiska skäl inte kan inställa sig personligen.
+
+---
+
+## Utlösare
+
+Sökanden kan inte inställa sig personligen (t.ex. fängelse, sjukhusvistelse).
+
+---
+
+## Rättsverkan
+
+- Ansökan anses inlämnad utan personlig inställelse.
+- Prövningstidsfristen börjar löpa från den dag formuläret mottages.
+
+---
+
 ## Kommentar
 
 Undantaget är fakultativt för medlemsstaterna — det är inte obligatoriskt att införa denna möjlighet. Tidsfristen för prövning börjar löpa från och med den dag då den behöriga myndigheten mottar formuläret.

@@ -22,6 +22,26 @@ Om ansökningar från flera familjemedlemmar eller underåriga ogifta syskon reg
 
 ---
 
+## Syfte
+
+Skyddar familjeenheten genom att förhindra att normal kriterieanvändning leder till separation av familjemedlemmar.
+
+---
+
+## Utlösare
+
+Ansökningar från flera familjemedlemmar eller underåriga ogifta syskon registreras samtidigt eller nära i tid, och de allmänna kriterierna skulle leda till separation.
+
+---
+
+## Rättsverkan
+
+- Familjen hålls ihop genom att alla tilldelas samma ansvariga stat.
+- Flertalsregeln eller äldsta-principen avgör vilken stat.
+- Regeln åsidosätter normalresultatet av kriterieanvändningen.
+
+---
+
 ## Kommentar
 
 Regeln fungerar som en skyddsregel för familjeenhet. Den aktiveras enbart om den normala kriterieanvändningen *skulle* leda till separation.

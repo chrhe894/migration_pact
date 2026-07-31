@@ -21,6 +21,26 @@ För personer som fysiskt uppehållit sig vid den yttre gränsen i mer än 72 ti
 
 ---
 
+## Syfte
+
+Begränsar den tid en person kan hållas i screeningfasen vid yttre gräns och säkerställer snabb hänvisning till rätt förfarande.
+
+---
+
+## Utlösare
+
+En person omhändertas, landsätts eller infinner sig vid ett gränsövergångsställe vid yttre gräns.
+
+---
+
+## Rättsverkan
+
+- Screeningen ska slutföras inom sju dagar (eller fyra dagar vid längre uppehåll vid gränsen).
+- Vid fristens utgång ska personen hänvisas till lämpligt förfarande oavsett om alla kontroller slutförts.
+- Screeningformuläret ska överlämnas till mottagande myndighet.
+
+---
+
 ## Kommentar
 
 Om inte alla kontroller slutförts inom tidsfristen ska screeningen ändå avslutas och personen hänvisas till lämpligt förfarande (artikel 18.5).

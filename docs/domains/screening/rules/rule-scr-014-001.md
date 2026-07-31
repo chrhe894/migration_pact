@@ -21,6 +21,26 @@ Screeningmyndigheterna ska genomföra sökningar i CIR, SIS och i förekommande 
 
 ---
 
+## Syfte
+
+Fastställer personens identitet tidigt i processen för att möjliggöra korrekta säkerhetskontroller och ansvarsbestämning.
+
+---
+
+## Utlösare
+
+Screeningförfarandet når identifieringssteget för en person som omfattas av screening.
+
+---
+
+## Rättsverkan
+
+- Identitetsverifiering ska genomföras via handlingar, uppgifter och biometri.
+- Sökningar ska göras i EU-gemensamma databaser (CIR, SIS).
+- Biometriska uppgifter registreras i Eurodac.
+
+---
+
 ## Kommentar
 
 Sökningar ska göras via ESP om inte tekniska hinder föreligger. Om biometriska uppgifter inte kan användas ska sökning göras med identitetsuppgifter och dokumentation.

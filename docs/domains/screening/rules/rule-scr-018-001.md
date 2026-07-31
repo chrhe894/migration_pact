@@ -25,6 +25,26 @@ Om inte alla kontroller slutförts inom tidsfristerna ska screeningen ändå avs
 
 ---
 
+## Syfte
+
+Säkerställer att varje person efter screening kanaliseras till korrekt rättsligt förfarande utan orimligt dröjsmål.
+
+---
+
+## Utlösare
+
+Screeningen slutförs eller tidsfristerna i artikel 8 löper ut.
+
+---
+
+## Rättsverkan
+
+- Personen hänvisas till registreringsmyndighet, återvändandemyndighet eller omfördelning.
+- Screeningformuläret överlämnas till mottagande myndighet.
+- Tidsfristerna i det efterföljande förfarandet börjar löpa.
+
+---
+
 ## Kommentar
 
 Screeningformuläret ska överlämnas till den myndighet som personen hänvisas till.

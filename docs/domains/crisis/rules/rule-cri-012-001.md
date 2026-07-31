@@ -22,6 +22,26 @@ Vid kris får tidsfristerna i AMMR förlängas:
 
 ---
 
+## Syfte
+
+Ger krisdrabbade medlemsstater längre tid att hantera ansvarsförfaranden som annars inte kan genomföras inom ordinarie tidsfrister under exceptionell belastning.
+
+---
+
+## Utlösare
+
+Rådet fastställer att en krissituation föreligger och beslutar om tillämpning av förlängda tidsfrister i ansvarsförfarandet.
+
+---
+
+## Rättsverkan
+
+- Tidsfristerna för framställan, svar och överföring förlängs.
+- Tyst godkännande-mekanismen anpassas till de förlängda fristerna.
+- Ansvarsövergång vid fristöverskridande beräknas på de förlängda fristerna.
+
+---
+
 ## Relaterade regler
 
 - [RULE-AMMR-039-001](../../responsibility/rules/rule-ammr-039-001.md)

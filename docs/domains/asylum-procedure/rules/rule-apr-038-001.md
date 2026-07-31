@@ -26,6 +26,26 @@ En personlig intervju om upptagandeprövningen ska genomföras innan avvisningsb
 
 ---
 
+## Syfte
+
+Filtrerar bort ansökningar som inte behöver prövas i sak eftersom skydd redan finns tillgängligt på annat håll, och förhindrar missbruk genom upprepade ansökningar.
+
+---
+
+## Utlösare
+
+Den beslutande myndigheten prövar upptagbarheten av en ansökan om internationellt skydd.
+
+---
+
+## Rättsverkan
+
+- Ansökan avvisas utan prövning i sak.
+- Sökanden ska höras i en personlig intervju före avvisningsbeslut.
+- Beslut om avvisning kan överklagas.
+
+---
+
 ## Status
 
 Draft

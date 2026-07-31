@@ -19,6 +19,26 @@ Ansvarig medlemsstat ska fastställas på grundval av situationen vid den tidpun
 
 ---
 
+## Syfte
+
+Fastställer en entydig tidsmässig referenspunkt (registreringstidpunkten) som avgör vilka omständigheter som är relevanta för ansvarsbestämningen.
+
+---
+
+## Utlösare
+
+Ansvarsförfarandet inleds och registreringstidpunkten behöver fastställas som bedömningsgrund.
+
+---
+
+## Rättsverkan
+
+- Omständigheterna vid registreringstidpunkten är avgörande.
+- Förändringar efter registrering påverkar normalt inte ansvarsbestämningen.
+- Registreringsdatumet kopplas till APR artikel 27.
+
+---
+
 ## Kommentar
 
 Tidpunkten kopplas till registreringen enligt APR artikel 27 — inte till inresa, ansökan görs eller inlämnande. Detta innebär att förhållanden som ändras efter registreringen normalt inte påverkar ansvarsbestämningen.

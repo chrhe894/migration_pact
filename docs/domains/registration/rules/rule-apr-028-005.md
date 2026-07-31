@@ -21,6 +21,26 @@ Efter inlämnandet ska sökanden tillåtas lägga fram ytterligare faktorer som 
 
 ---
 
+## Syfte
+
+Säkerställer att prövningen kan påbörjas med tillräckligt underlag och att sökanden inte förhindras att komplettera.
+
+---
+
+## Utlösare
+
+Sökanden lämnar in ansökan personligen (RULE-APR-028-002).
+
+---
+
+## Rättsverkan
+
+- Sökanden har skyldighet att lämna allt tillgängligt underlag vid inlämnande.
+- Rätten att komplettera kvarstår fram till beslut.
+- Medlemsstaterna får ange en ordningsfrist men inte en preklusionstidpunkt.
+
+---
+
 ## Kommentar
 
 Medlemsstaterna får fastställa en tidsfrist inom prövningsperioden för framläggande av ytterligare faktorer, vilken sökanden ska sträva efter att följa — men det är en ordningsregel, inte ett absolut preklusionstillfälle.

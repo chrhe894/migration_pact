@@ -19,6 +19,26 @@ Kriterierna för att fastställa ansvarig medlemsstat ska tillämpas i den ordni
 
 ---
 
+## Syfte
+
+Skapar en tydlig och förutsägbar hierarki för ansvarsbestämning som förhindrar godtyckliga val mellan kriterier.
+
+---
+
+## Utlösare
+
+Förfarandet för att fastställa ansvarig medlemsstat inleds efter registrering av en ansökan.
+
+---
+
+## Rättsverkan
+
+- Kriterierna ska tillämpas i den rangordning som AMMR kapitel II anger.
+- Det första träffande kriteriet avgör ansvaret.
+- Efterföljande kriterier behöver inte prövas.
+
+---
+
 ## Status
 
 Draft

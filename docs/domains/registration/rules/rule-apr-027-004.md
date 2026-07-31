@@ -19,6 +19,25 @@ Om ett oproportionellt stort antal tredjelandsmedborgare eller statslösa person
 
 ---
 
+## Syfte
+
+Ger myndigheterna andrum vid oproportionellt inflöde utan att helt upphäva skyldigheten att registrera inom en bestämd frist.
+
+---
+
+## Utlösare
+
+Oproportionellt stort antal ansökningar gör det omöjligt att upprätthålla den ordinarie 5-dagarsfristen.
+
+---
+
+## Rättsverkan
+
+- Registreringsfristen förlängs från 5 till 15 dagar.
+- Skyldigheten att registrera kvarstår — den upphävs inte.
+
+---
+
 ## Kommentar
 
 Detta är ett undantag från den ordinarie tidsfristen på fem dagar. Förutsättningen är att det ordinarie systemet är omöjligt att upprätthålla på grund av ett oproportionellt inflöde — inte enbart att inflödet är högt.

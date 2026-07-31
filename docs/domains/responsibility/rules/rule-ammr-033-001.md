@@ -21,6 +21,26 @@ Om sökanden landsatts efter en sök- och räddningsinsats ska den staten ansvar
 
 ---
 
+## Syfte
+
+Tilldelar ansvaret till den första inresestaten vid irreguljär migration, vilket skapar incitament för gränskontroll och förhindrar sekundär förflyttning.
+
+---
+
+## Utlösare
+
+Det fastställs att sökanden irreguljärt har passerat gränsen till en medlemsstat eller landsatts efter sök- och räddningsinsats.
+
+---
+
+## Rättsverkan
+
+- Inresestaten eller landsättningsstaten blir ansvarig för prövningen.
+- Ansvaret är tidsbegränsat (RULE-AMMR-033-002).
+- Kriteriet tillämpas enbart om inget högre rankat kriterium ger ansvar.
+
+---
+
 ## Kommentar
 
 Detta är i praktiken det vanligaste kriteriet vid irreguljär migration — det gäller när inget av de högre rankade kriterierna (familj, uppehållstillstånd, examensbevis, viseringsfri inresa) ger en ansvarig stat.

@@ -21,6 +21,26 @@ Vid kris får gränsförfarandet:
 
 ---
 
+## Syfte
+
+Utvidgar gränsförfarandets tillämpningsområde och tidsfrist vid kris för att ge medlemsstaterna kapacitet att hantera exceptionell belastning vid gränsen.
+
+---
+
+## Utlösare
+
+Rådet fastställer att en krissituation föreligger och beslutar om tillämpning av krishanteringsförordningens undantag.
+
+---
+
+## Rättsverkan
+
+- Gränsförfarandets personkrets utökas (bifallsandel under 50%).
+- Maximal varaktighet förlängs till 18 veckor.
+- Sökandens rättigheter kvarstår men anpassas till den förlängda tidsramen.
+
+---
+
 ## Relaterade regler
 
 - [RULE-APR-045-001](../../border-procedure/rules/rule-apr-045-001.md)

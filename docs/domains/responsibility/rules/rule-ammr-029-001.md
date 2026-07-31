@@ -27,6 +27,26 @@ Handlingar utfärdade på falsk identitet grundar ändå ansvar, om inte bedräg
 
 ---
 
+## Syfte
+
+Kopplar ansvaret till den stat som genom att utfärda uppehållshandling eller visering har möjliggjort personens legala närvaro i EU.
+
+---
+
+## Utlösare
+
+Det konstateras att sökanden innehar eller har innehaft en giltig uppehållshandling eller visering utfärdad av en medlemsstat.
+
+---
+
+## Rättsverkan
+
+- Den utfärdande staten blir ansvarig för prövningen.
+- Utgångna handlingar grundar ansvar inom specificerade tidsfrister.
+- Handlingar utfärdade på falsk identitet grundar ändå ansvar.
+
+---
+
 ## Status
 
 Draft

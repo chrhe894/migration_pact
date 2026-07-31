@@ -19,6 +19,25 @@ Om ansökan görs till en myndighet som tar emot ansökningar men inte är ansva
 
 ---
 
+## Syfte
+
+Säkerställer att ansökan registreras oavsett vilken myndighet sökanden vänder sig till, utan att registreringsfristen äventyras.
+
+---
+
+## Utlösare
+
+En ansökan görs till en myndighet som inte är behörig att registrera.
+
+---
+
+## Rättsverkan
+
+- Mottagande myndighet får en aktiv skyldighet att vidarebefordra (3 arbetsdagar).
+- Registreringsfristen (5 dagar) börjar löpa från att registreringsmyndigheten tar emot informationen.
+
+---
+
 ## Kommentar
 
 Regeln hanterar det fall då sökanden vänder sig till fel myndighet. Den mottagande myndigheten har en aktiv skyldighet att vidarebefordra informationen, inte bara att informera sökanden.

@@ -1,79 +1,98 @@
-# Design Review
+# Repository Review – Increasing Detail and Sense-Making
 
-This document summarizes observations and recommendations after reviewing the current repository structure and domain model.
+Any text-diagram here should be represented by PlantUml-diagrams instead.
 
-The purpose is to identify areas for improvement while preserving the current architecture.
+## Overall Assessment
 
----
+The repository has reached a level of maturity where the architecture is no longer the primary area for improvement. The domain structure, traceability model, and navigation are coherent and scalable.
 
-# Overall Assessment
+Future improvements should therefore focus on **knowledge richness** rather than **architectural complexity**.
 
-The repository has reached a mature and consistent architecture.
+The next phase is about helping readers answer not only **what the law says**, but also:
 
-The current model based on:
-
-- Articles
-- Concepts
-- Rules
-- Processes
-- Interpretations
-- Open Questions
-
-is considered sufficiently stable to continue developing content.
-
-The focus should now shift from architectural design to expanding and refining the knowledge base.
+- Why does this rule exist?
+- What changes when this step is completed?
+- How is information reused?
+- How do concepts relate to each other?
+- How does this domain fit into the larger asylum system?
 
 ---
 
-# Strengths
+# Recommendation 1 – Enrich Rule Cards
 
-## Consistent domain structure
+Rule Cards are already the core knowledge objects of the repository.
 
-All domains follow the same layout, making navigation predictable and reducing cognitive load.
+They could become even more valuable by answering a consistent set of questions.
 
-## Strong traceability
+## Suggested template additions
 
-The relationship between legislation, rules and processes is clear.
+```text
+Purpose
 
+Trigger
+
+Legal Effect
+
+Used By
+
+Related Rules
 ```
-Article
-    ↓
-Rule
-    ↓
-Process
-    ↓
-Diagram
-```
-
-## Good separation of reusable capabilities
-
-The distinction between domain-specific knowledge and shared capabilities is well defined.
-
-## Rule Cards
-
-Rule Cards provide an excellent bridge between legal requirements and operational processes.
-
----
-
-# Recommendations
-
-## 1. Strengthen relationships between domains
-
-Domains currently describe themselves well but provide limited context about where they fit in the overall asylum procedure.
-
-Each domain README should describe:
-
-- Previous domain(s)
-- Next domain(s)
-- Entry criteria
-- Exit criteria
 
 Example:
 
-```
-Previous
+```text
+Purpose
 
-Screening
+Ensures that an application formally enters the asylum procedure.
+
+Trigger
+
+A third-country national expresses a wish to seek international protection.
+
+Legal Effect
+
+The Member State becomes obliged to register the application.
+
+Used By
+
+Registration Process
+
+Related Rules
+
+RULE-APR-027-002
+RULE-APR-027-003
+```
+
+This transforms Rule Cards from legal extracts into reusable knowledge objects.
+
+---
+
+# Recommendation 2 – Visualize State Changes
+
+Most domains are not primarily about activities.
+
+They are about **changing the legal state**.
+
+Each domain could explicitly describe:
+
+```text
+Before
+
+↓
+
+Action
+
+↓
+
+After
+```
+
+Example:
+
+```text
+Before
+
+Application not registered
 
 ↓
 
@@ -81,29 +100,29 @@ Registration
 
 ↓
 
-Responsibility determination
+After
+
+Application registered
 ```
+
+This helps readers immediately understand why the domain exists.
 
 ---
 
-## 2. Introduce an end-to-end case lifecycle
+# Recommendation 3 – Visualize Information Flow
 
-The repository lacks a simple overview of how an asylum case progresses through the Pact.
+Current diagrams primarily describe activities.
 
-Recommended new document:
+Another useful perspective is information movement.
 
-```
-CASE_LIFECYCLE.md
-```
+Example:
 
-Example lifecycle:
-
-```
-Person seeks protection
+```text
+Applicant
 
 ↓
 
-Screening
+Identity
 
 ↓
 
@@ -115,123 +134,346 @@ Eurodac
 
 ↓
 
-Responsibility determination
+Responsibility
 
 ↓
 
-Regular procedure
-or
-Border procedure
-
-↓
-
-Decision
-
-↓
-
-Appeal / Return / Protection
+Procedure
 ```
 
-This document should act as the primary navigation aid for new readers.
+This illustrates how information created in one domain is reused by later domains.
+
+This perspective is especially useful for architects and system designers.
 
 ---
 
-## 3. Continue consolidating shared concepts
+# Recommendation 4 – Expand Concepts
 
-Several concepts appear across multiple domains.
+Concept pages could become true knowledge hubs.
 
-Examples include:
+Suggested structure:
 
-- Applicant
-- Identity
-- Documents
-- Family member
-- Minor
-- Vulnerability
-- Security checks
+```text
+Definition
 
-Where appropriate, these should be maintained in `shared/` and referenced rather than duplicated.
+Purpose
 
----
+Legal Basis
 
-## 4. Expand cross-domain references
+Where Used
 
-As additional content is added, increase explicit references between:
+Created By
 
-- Articles
-- Rules
-- Processes
-- Shared capabilities
-- Related domains
+Used By
 
-The repository should gradually evolve into a connected knowledge graph.
+Related Concepts
+
+Related Rules
+```
+
+Rather than acting only as glossary entries, Concepts become navigation hubs throughout the repository.
 
 ---
 
-## 5. Explain the purpose of each domain
+# Recommendation 5 – Separate Legal and Operational Perspectives
 
-Several domains describe *what* they contain.
+Many legal requirements imply operational behaviour.
 
-Consider also describing *why* the domain exists within the legal framework.
+Example:
 
-This provides important context for readers unfamiliar with asylum law.
+```text
+Legal Requirement
 
----
+↓
 
-# Recommendations for future work
+Operational Consequence
 
-The following activities are recommended before introducing additional architectural concepts.
+↓
 
-## Complete the Registration pilot
+System Implication
+```
 
-Continue expanding:
+Example:
 
-- Articles
-- Rule Cards
-- Processes
-- Diagrams
+```text
+Register within five days
 
-Evaluate the architecture only after the Registration domain is considered complete.
+↓
 
----
+Authority records the application
 
-## Expand remaining domains
+↓
 
-Follow the same pattern established by Registration.
+Case management system requires registration date
+```
 
-Avoid introducing domain-specific structures unless a clear need emerges.
-
----
-
-## Review architecture after multiple domains are complete
-
-Architectural changes should be driven by practical experience rather than anticipated future complexity.
+This makes the repository valuable for solution architects as well as legal experts.
 
 ---
 
-# Avoid unnecessary complexity
+# Recommendation 6 – Show Domain Dependencies
 
-The current review does **not** recommend introducing additional object types such as:
+Dependencies currently exist but are mostly implicit.
 
-- Events
-- State objects
-- Decision objects
-- Milestone folders
+Simple dependency diagrams could make them much clearer.
 
-These concepts can currently be represented effectively within existing process and rule documentation.
+Example:
+
+```text
+Registration
+
+depends on
+
+Identity
+Documents
+Interpreter
+
+↓
+
+produces
+
+Registered Application
+
+↓
+
+used by
+
+Eurodac
+
+Responsibility
+
+Procedure
+```
+
+These diagrams explain how domains collaborate without describing process logic.
 
 ---
 
-# Guiding Principle
+# Recommendation 7 – Explain Why Articles Exist
 
-The repository should remain:
+Every article could begin with a short purpose statement.
 
-- understandable for non-lawyers,
-- traceable to legislation,
-- reusable by architects and developers,
-- easy for AI systems to navigate,
-- maintainable over time.
+Example:
 
-Whenever design decisions are considered, preference should be given to readability over abstraction.
+```text
+Purpose
 
-> Model second. Explain first.
+Ensures that every asylum application formally enters the asylum procedure.
+```
+
+Only one or two sentences are needed.
+
+Readers often understand legislation much faster when they understand its objective before reading its requirements.
+
+---
+
+# Recommendation 8 – Define Scope Explicitly
+
+Each domain could clearly state what it covers—and what it does not.
+
+Example:
+
+```text
+Scope
+
+Included
+
+✓ Registration
+
+✓ Deadlines
+
+✓ Documentation
+
+Not Included
+
+✗ Examination
+
+✗ Responsibility
+
+✗ Decision
+```
+
+Explicit scope definitions reduce ambiguity and improve navigation.
+
+---
+
+# Recommendation 9 – Add Key Questions
+
+Each domain could start with the questions it answers.
+
+Example:
+
+```text
+This domain answers:
+
+• When is an application registered?
+
+• Who performs the registration?
+
+• What information is recorded?
+
+• What deadlines apply?
+
+• What happens after registration?
+```
+
+Readers immediately know whether they are in the right place.
+
+---
+
+# Recommendation 10 – Present Three Complementary Views
+
+Every domain could be understood through three perspectives.
+
+## Legal View
+
+```text
+Articles
+
+↓
+
+Rules
+```
+
+Focus:
+
+What the legislation requires.
+
+---
+
+## Operational View
+
+```text
+Activities
+
+↓
+
+Process
+```
+
+Focus:
+
+How the work is performed.
+
+---
+
+## Information View
+
+```text
+Applicant
+
+↓
+
+Application
+
+↓
+
+Registration Record
+
+↓
+
+Documents
+```
+
+Focus:
+
+How information is created, transformed, and reused.
+
+These three perspectives complement each other without duplicating information.
+
+---
+
+# The Next Evolution
+
+The repository already documents legislation exceptionally well.
+
+The next step is not adding more folders or object types.
+
+Instead, it is about making **relationships** increasingly visible.
+
+Almost every page could answer questions such as:
+
+- Created By
+- Consumes
+- Produces
+- Used By
+- Related Concepts
+- Related Rules
+- Related Processes
+
+Over time, this naturally transforms the repository into a navigable knowledge graph without changing its underlying architecture.
+
+---
+
+# Prioritized Improvements
+
+## 1. Enrich Rule Cards
+
+Add:
+
+- Purpose
+- Trigger
+- Legal Effect
+- Used By
+- Related Rules
+
+---
+
+## 2. Expand Concepts
+
+Develop Concepts into reusable knowledge hubs by adding:
+
+- Where Used
+- Created By
+- Used By
+- Related Concepts
+
+---
+
+## 3. Introduce Additional Diagram Types
+
+Complement existing process diagrams with:
+
+- Legal Effects
+- Information Flow
+- Domain Dependencies
+- State Transitions
+
+These diagrams improve understanding without replacing existing PlantUML process diagrams.
+
+---
+
+## 4. Increase Relationship Visibility
+
+Explicitly document:
+
+- Created By
+- Produces
+- Consumes
+- Used By
+
+across Rules, Concepts, Processes, and Domains.
+
+---
+
+## 5. Improve Context
+
+Add concise introductory sections to domains and articles:
+
+- Purpose
+- Scope
+- Key Questions
+
+These additions help readers understand not only *what* the legislation requires, but also *why* it exists and *how* it fits into the larger Migration and Asylum Pact.
+
+---
+
+# Final Observation
+
+The architecture is now sufficiently mature that future improvements should focus on **depth rather than breadth**.
+
+Rather than introducing additional object types or structural changes, future work should enrich the existing knowledge objects and strengthen the relationships between them.
+
+The repository is evolving from structured documentation into a comprehensive legal knowledge base.
+
+The next milestone is to make that knowledge increasingly self-explanatory.

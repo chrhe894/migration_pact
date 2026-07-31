@@ -19,6 +19,26 @@ Om en sökande på grund av graviditet, nyfött barn, svår sjukdom, allvarlig f
 
 ---
 
+## Syfte
+
+Skyddar beroendeförhållanden genom att möjliggöra sammanföring med den person som sökanden är beroende av för sin dagliga omvårdnad.
+
+---
+
+## Utlösare
+
+Det konstateras att sökanden är beroende av en annan persons assistans på grund av specificerade skäl och att den personen lagligen vistas i en annan medlemsstat.
+
+---
+
+## Rättsverkan
+
+- Sökanden ska normalt sammanföras med den assisterande personen.
+- Familjebanden ska ha existerat i ursprungslandet.
+- Skriftligt samtycke från berörda krävs.
+
+---
+
 ## Status
 
 Draft

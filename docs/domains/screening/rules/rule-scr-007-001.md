@@ -19,6 +19,26 @@ Medlemsstaterna ska genomföra screening av tredjelandsmedborgare som vistas ola
 
 ---
 
+## Syfte
+
+Täpper till luckan för personer som undgått screening vid gränsen genom att kräva screening även vid påträffande inom territoriet.
+
+---
+
+## Utlösare
+
+En tredjelandsmedborgare påträffas med olaglig vistelse inom territoriet och har inte tidigare genomgått screening.
+
+---
+
+## Rättsverkan
+
+- Screening inom territoriet ska inledas utan dröjsmål.
+- Tredagarsfristen (artikel 8.4) börjar löpa.
+- Personen hänvisas till lämpligt förfarande efter avslutad screening.
+
+---
+
 ## Kommentar
 
 Screening inom territoriet är avgränsad till personer som inte redan har genomgått screening. Om personen omedelbart skickas tillbaka till en annan medlemsstat enligt bilaterala avtal ansvarar den mottagande medlemsstaten för screeningen.

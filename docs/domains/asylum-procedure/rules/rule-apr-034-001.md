@@ -19,6 +19,26 @@ Den beslutande myndigheten ska pröva ansökningar om internationellt skydd indi
 
 ---
 
+## Syfte
+
+Garanterar en rättssäker prövning genom att varje ansökan bedöms på sina egna meriter utan förutfattade meningar.
+
+---
+
+## Utlösare
+
+En ansökan om internationellt skydd har lämnats in och ska prövas av den beslutande myndigheten.
+
+---
+
+## Rättsverkan
+
+- Varje ansökan ska bedömas individuellt baserat på sökandens specifika omständigheter.
+- Myndigheten ska agera objektivt och opartiskt.
+- Beslut som brister i individualitet eller opartiskhet kan underkännas vid överklagande.
+
+---
+
 ## Status
 
 Draft

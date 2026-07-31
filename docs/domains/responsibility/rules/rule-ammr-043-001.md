@@ -23,6 +23,26 @@ Räckvidden begränsas till bedömning av:
 
 ---
 
+## Syfte
+
+Garanterar sökandens rätt till domstolsprövning av överföringsbeslut och skyddar mot kränkning av grundläggande rättigheter.
+
+---
+
+## Utlösare
+
+Ett överföringsbeslut meddelas sökanden.
+
+---
+
+## Rättsverkan
+
+- Sökanden har rätt att överklaga eller begära omprövning.
+- Domstolen kan pröva non-refoulement-risk och kriteriernas tillämpning.
+- Överklagande kan beviljas suspensiv verkan.
+
+---
+
 ## Status
 
 Draft

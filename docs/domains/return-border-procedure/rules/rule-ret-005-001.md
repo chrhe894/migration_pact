@@ -19,6 +19,26 @@ Obligation
 
 ---
 
+## Syfte
+
+Sätter en absolut tidsgräns för kvarhållande i återvändandegränsförfarandet som skyddar individen mot obestämd kvarhållning vid gränsen.
+
+---
+
+## Utlösare
+
+Tolv veckor har förflutit sedan asylgränsförfarandet avslutades utan att avlägsnande verkställts.
+
+---
+
+## Rättsverkan
+
+- Återvändandegränsförfarandet ska avslutas.
+- Personen ska tillåtas resa in på territoriet.
+- Fristens utgång gäller oberoende av om återvändande faktiskt är möjligt.
+
+---
+
 ## Kommentar
 
 12-veckorsfristen är absolut och gäller oberoende av om återvändande faktiskt är möjligt (t.ex. brist på samarbete med ursprungslandet). Det innebär att staten inte kan hålla kvar personen vid gränsen på obestämd tid.

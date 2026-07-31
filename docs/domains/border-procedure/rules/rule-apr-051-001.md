@@ -19,6 +19,26 @@ Ansökningar som är föremål för gränsförfarandet ska lämnas in senast fem
 
 ---
 
+## Syfte
+
+Påskyndar inlämningsprocessen i gränsförfarandet så att prövningen kan slutföras inom den begränsade 12-veckorsfristen.
+
+---
+
+## Utlösare
+
+En ansökan om internationellt skydd registreras inom ramen för gränsförfarandet.
+
+---
+
+## Rättsverkan
+
+- Sökanden ska lämna in ansökan inom fem dagar från registrering.
+- Underlåtenhet att iaktta fristen påverkar inte gränsförfarandets tillämpning.
+- Den ordinarie 21-dagarsfristen gäller inte.
+
+---
+
 ## Kommentar
 
 Underlåtenhet att iaktta femddagarsfristen påverkar inte den fortsatta tillämpningen av gränsförfarandet.

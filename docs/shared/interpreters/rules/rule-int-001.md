@@ -20,6 +20,26 @@ Kostnaderna för tolkning ska täckas med offentliga medel.
 
 ---
 
+## Syfte
+
+Garanterar att språkbarriärer inte hindrar en sökande från att effektivt delta i asylförfarandet och skyddar rätten till en rättvis process.
+
+---
+
+## Utlösare
+
+En sökande behöver tolkning för att kunna kommunicera ändamålsenligt vid registrering, inlämnande eller personlig intervju.
+
+---
+
+## Rättsverkan
+
+- Tolktjänster ska tillhandahållas när ändamålsenlig kommunikation inte kan säkerställas utan dem.
+- Kostnaderna bärs av offentliga medel.
+- Underlåtenhet att tillhandahålla tolk kan utgöra en rättssäkerhetsbrist.
+
+---
+
 ## Kommentar
 
 Rätten till tolk är villkorad av att ändamålsenlig kommunikation inte kan säkerställas utan tolktjänster — det finns alltså inget absolut krav på tolk i varje situation, men en skyldighet att tillhandahålla det när behovet föreligger.

@@ -21,6 +21,26 @@ Formuläret ska göras tillgängligt för personen. Personen ska ges möjlighet 
 
 ---
 
+## Syfte
+
+Skapar en enhetlig dokumentation av screeningens resultat som följer personen genom det fortsatta förfarandet och möjliggör rättslig prövning.
+
+---
+
+## Utlösare
+
+Screeningförfarandet avslutas och samtliga kontroller har genomförts (eller fristen har löpt ut).
+
+---
+
+## Rättsverkan
+
+- Screeningformuläret ska fyllas i med samtliga obligatoriska uppgifter.
+- Personen ska ges tillgång till formuläret och möjlighet att påtala felaktigheter.
+- Formuläret ska överlämnas till den myndighet personen hänvisas till.
+
+---
+
 ## Kommentar
 
 Uppgifter om säkerhetskontrollträff maskeras i den version som tillhandahålls personen. Formuläret ska registreras så att det kan bli föremål för administrativ och rättslig prövning.

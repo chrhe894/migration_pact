@@ -19,6 +19,26 @@ Den stat där ansökan först registreras ska utan dröjsmål inleda förfarande
 
 ---
 
+## Syfte
+
+Säkerställer att ansvarsbestämningen inleds omedelbart efter registrering och inte fördröjs till sökandens nackdel.
+
+---
+
+## Utlösare
+
+En ansökan om internationellt skydd registreras i en medlemsstat.
+
+---
+
+## Rättsverkan
+
+- Ansvarsförfarandet ska inledas utan dröjsmål.
+- Förfarandet ska fortgå även om sökanden avviker.
+- Ansvarsstatus ska anges i Eurodac.
+
+---
+
 ## Kommentar
 
 Om sökanden avviker ska förfarandet fortgå ändå (punkt 2). Den fastställande staten ska ange ansvarsstatus i Eurodac (punkt 3).

@@ -300,6 +300,49 @@ Alternativt: om varje gren representerar ett möjligt *utfall* snarare än ett *
 
 ---
 
+# Rule Cards
+
+## Mall för regelkort
+
+Varje rule-fil ska innehålla följande sektioner i ordning:
+
+```text
+# RULE-XXX-YYY-NNN
+
+## Rättslig grund
+## Regeltyp
+## Regel
+## Syfte
+## Utlösare
+## Rättsverkan
+## Kommentar        (valfri)
+## Relaterade regler (valfri)
+## Status
+```
+
+## Syfte
+
+En mening som förklarar **varför** regeln existerar.
+
+Exempel: "Säkerställer att varje ansökan formellt inträder i asylförfarandet inom en förutsägbar tidsfrist."
+
+## Utlösare
+
+Den händelse eller det villkor som aktiverar regeln.
+
+Exempel: "En tredjelandsmedborgare uttrycker en önskan om internationellt skydd."
+
+## Rättsverkan
+
+Punktlista med de rättsliga konsekvenser som inträder när regeln tillämpas.
+
+Exempel:
+- Ansökan blir formellt registrerad.
+- Registreringshandling ska utfärdas.
+- Eurodac-frist börjar löpa (72 timmar).
+
+---
+
 # Dokumentstorlek
 
 Föredra många små dokument framför få stora.

@@ -19,6 +19,26 @@ Medlemsstaterna ska respektera personens värdighet och fysiska integritet när 
 
 ---
 
+## Syfte
+
+Skyddar individens grundläggande rättigheter under den biometriska uppgiftsinsamlingen och sätter gränser för hur tvångsmedel får användas.
+
+---
+
+## Utlösare
+
+Biometriska uppgifter ska tas av en person inom ramen för Eurodacförordningen.
+
+---
+
+## Rättsverkan
+
+- Värdighet och fysisk integritet ska respekteras vid uppgiftsinsamling.
+- Oproportionerlig tvångsanvändning är förbjuden.
+- Kränkningar kan utgöra grund för klagomål och rättsliga åtgärder.
+
+---
+
 ## Status
 
 Draft

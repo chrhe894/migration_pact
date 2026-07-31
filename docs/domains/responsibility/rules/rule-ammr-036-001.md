@@ -22,6 +22,26 @@ Den ansvariga staten är skyldig att:
 
 ---
 
+## Syfte
+
+Definierar den ansvariga statens centrala skyldigheter att faktiskt överta eller återta personer som faller under dess ansvar.
+
+---
+
+## Utlösare
+
+Ansvaret har fastställts och en framställan om övertagande eller avisering om återtagande inkommer.
+
+---
+
+## Rättsverkan
+
+- Den ansvariga staten ska fysiskt överta eller återta personen.
+- Skyldigheten kvarstår tills ansvaret upphör enligt artikel 37.
+- Underlåtenhet att fullgöra skyldigheten kan leda till tvistelösning.
+
+---
+
 ## Status
 
 Draft

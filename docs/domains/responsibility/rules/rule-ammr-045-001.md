@@ -25,6 +25,26 @@ Om tidsfristerna inte iakttas, eller överföringen inte verkställs, ska person
 
 ---
 
+## Syfte
+
+Skyddar frihetsberövade personers rättigheter genom striktare tidskrav som tvingar systemet att agera skyndsamt eller frige personen.
+
+---
+
+## Utlösare
+
+En person som är föremål för ansvarsförfarandet hålls i förvar.
+
+---
+
+## Rättsverkan
+
+- Förkortade tidsfrister gäller för framställan, svar och överföring.
+- Fristöverskridande leder till obligatorisk frigivning.
+- Ansvaret upphör inte trots frigivning.
+
+---
+
 ## Kommentar
 
 Förkortade tidsfrister vid förvar reflekterar att frihetsberövande ställer högre krav på skyndsamhet. Om systemet inte klarar att verkställa inom tidsfristerna ska personen friges — men ansvaret upphör inte.

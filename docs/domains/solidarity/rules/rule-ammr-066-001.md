@@ -19,6 +19,26 @@ Varje medlemsstats bidragsandel beräknas med referensnyckeln: 50% baserat på B
 
 ---
 
+## Syfte
+
+Definierar en objektiv och transparent fördelningsnyckel som beaktar både ekonomisk kapacitet och befolkningsstorlek.
+
+---
+
+## Utlösare
+
+Solidaritetspoolen ska beräknas och fördelningen av bidrag bestämmas.
+
+---
+
+## Rättsverkan
+
+- Varje stats bidrag beräknas automatiskt enligt formeln.
+- Fördelningen baseras på 50% BNP och 50% befolkning.
+- Referensnyckeln är bindande och kan inte förhandlas individuellt.
+
+---
+
 ## Status
 
 Draft

@@ -19,6 +19,26 @@ Vid påskyndat prövningsförfarande ska beslut fattas senast tre månader från
 
 ---
 
+## Syfte
+
+Sätter en absolut tidsgräns för det påskyndade förfarandet som är väsentligt kortare än det ordinarie förfarandets sex månader.
+
+---
+
+## Utlösare
+
+Prövningsförfarandet har påskyndats enligt artikel 42.
+
+---
+
+## Rättsverkan
+
+- Beslut ska meddelas inom tre månader från inlämnande.
+- Sökandens rättigheter kvarstår under hela förfarandet.
+- Fristöverskridande innebär inte att ansökan automatiskt bifalls.
+
+---
+
 ## Relaterade regler
 
 - [RULE-APR-042-001](rule-apr-042-001.md)

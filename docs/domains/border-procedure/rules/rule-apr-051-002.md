@@ -19,6 +19,26 @@ Gränsförfarandet ska pågå i högst tolv veckor från registreringen. Efter d
 
 ---
 
+## Syfte
+
+Sätter en absolut tidsgräns för gränsförfarandet som skyddar sökanden mot obestämd kvarhållning vid gränsen.
+
+---
+
+## Utlösare
+
+Tolv veckor har förflutit sedan ansökan registrerades i gränsförfarandet.
+
+---
+
+## Rättsverkan
+
+- Gränsförfarandet avslutas efter tolv veckor oavsett prövningsresultat.
+- Sökanden ska tillåtas resa in på territoriet.
+- Undantag gäller enbart vid tillämpning av return border procedure.
+
+---
+
 ## Kommentar
 
 12-veckorsfristen är en absolut gräns — den inkluderar både det administrativa förfarandet och eventuella överklaganden. Fristen är väsentligt kortare än det reguljära förfarandets sex månader.

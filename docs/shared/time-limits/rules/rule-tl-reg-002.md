@@ -18,6 +18,26 @@ Om ett oproportionellt stort antal tredjelandsmedborgare eller statslösa person
 
 ---
 
+## Syfte
+
+Ger medlemsstaterna flexibilitet att hantera oproportionella inflöden utan att helt bryta mot registreringsskyldigheten.
+
+---
+
+## Utlösare
+
+Ett oproportionellt stort antal ansökningar görs inom samma tidsperiod och det blir omöjligt att registrera inom ordinarie frist.
+
+---
+
+## Rättsverkan
+
+- Registreringsfristen förlängs till 15 dagar.
+- Den ordinarie 5-dagarsfristen gäller inte under massinflödesperioden.
+- Sökandenas rättigheter kvarstår under den förlängda fristen.
+
+---
+
 ## Kommentar
 
 Undantag från RULE-TL-REG-001. Se RULE-APR-027-004 för fullständig regeltext.

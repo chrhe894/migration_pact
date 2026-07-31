@@ -26,6 +26,26 @@ Barnets bästa ska alltid beaktas. Om det påvisas att en placering inte är fö
 
 ---
 
+## Syfte
+
+Ger ensamkommande barn en särskild ansvarsbestämning som prioriterar familjeåterförening och barnets bästa framför de allmänna kriterierna.
+
+---
+
+## Utlösare
+
+En ansökan om internationellt skydd registreras av eller för ett ensamkommande barn.
+
+---
+
+## Rättsverkan
+
+- De allmänna ansvarskriterierna i kapitel II åsidosätts.
+- Ansvaret avgörs utifrån familjeband och barnets bästa.
+- Varje placering ska bedömas mot barnets bästa-principen.
+
+---
+
 ## Status
 
 Draft

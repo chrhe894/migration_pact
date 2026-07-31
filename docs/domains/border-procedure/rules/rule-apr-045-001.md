@@ -22,6 +22,26 @@ En medlemsstat ska tillämpa gränsförfarandet obligatoriskt om:
 
 ---
 
+## Syfte
+
+Säkerställer enhetlig tillämpning av gränsförfarandet i fall med låg sannolikhet för bifall eller säkerhetshot, utan utrymme för nationell skönsbedömning.
+
+---
+
+## Utlösare
+
+Sökanden uppfyller kriterierna i artikel 43.1 och dessutom föreligger någon av de obligatoriska grunderna i artikel 45.
+
+---
+
+## Rättsverkan
+
+- Gränsförfarandet ska tillämpas (ingen fakultativ bedömning).
+- Ansökan ska prövas vid gränsen inom 12 veckor.
+- Undantag gäller vid otillräcklig kapacitet eller enligt artikel 53.
+
+---
+
 ## Kommentar
 
 Obligatorisk tillämpning kan avbrytas om kapaciteten uppnåtts (art. 47–50) eller om undantag gäller (art. 53).

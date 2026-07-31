@@ -21,6 +21,26 @@ Om handlingen utfärdas av den ansvariga medlemsstaten ska handlingens giltighet
 
 ---
 
+## Syfte
+
+Definierar sökandehandlingens giltighetstid och kopplar den till sökandens rätt att stanna.
+
+---
+
+## Utlösare
+
+Sökandehandling utfärdas (RULE-APR-029-002).
+
+---
+
+## Rättsverkan
+
+- Handlingen är giltig max 12 månader.
+- Vid överföring enligt AMMR upphör handlingen.
+- Om ansvarig stat utfärdar handlingen förlängs den automatiskt.
+
+---
+
 ## Kommentar
 
 Handlingens giltighetstid utgör inte i sig en rätt att stanna kvar om den rätten har upphört att gälla eller tillfälligt upphävts enligt APR.

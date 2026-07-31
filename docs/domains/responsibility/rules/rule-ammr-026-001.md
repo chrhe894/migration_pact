@@ -26,6 +26,26 @@ Gäller även barn födda efter familjemedlemmens ankomst.
 
 ---
 
+## Syfte
+
+Främjar familjeåterförening genom att tilldela ansvaret till den stat där sökanden har en familjemedlem med skydd eller permanent uppehållsrätt.
+
+---
+
+## Utlösare
+
+Det konstateras att sökanden har en familjemedlem med internationellt skydd, varaktigt bosättningstillstånd eller medborgarskap i en annan medlemsstat, och berörda parter samtycker skriftligen.
+
+---
+
+## Rättsverkan
+
+- Ansvaret övergår till den stat där familjemedlemmen vistas.
+- Skriftligt samtycke från berörda parter krävs.
+- Kriteriet gäller oavsett var ansökan registrerades.
+
+---
+
 ## Kommentar
 
 Kravet på skriftligt önskemål innebär att kriteriet inte tillämpas automatiskt — det kräver samtycke från berörda parter.

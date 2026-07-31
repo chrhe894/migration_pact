@@ -24,6 +24,27 @@ Om överföringen inte sker inom tidsfristen övergår ansvaret till den överf�
 
 ---
 
+## Syfte
+
+Sätter absoluta tidsfrister för verkställighet av överföringen som kontrollmekanism — vid fristöverskridande "bestraffas" den överförande staten med ansvar.
+
+---
+
+## Utlösare
+
+Godtagande eller bekräftelse av övertagande/återtagande har lämnats (eller rättsmedel har förlorat suspensiv verkan).
+
+---
+
+## Rättsverkan
+
+- Överföringen ska ske inom sex månader (normalt).
+- Fristöverskridande innebär ansvarsövergång till den överförande staten.
+- Vid förvar gäller fyra veckors frist.
+- Vid avvikande förlängs fristen till 18 månader.
+
+---
+
 ## Kommentar
 
 Tidsfristerna är centrala — de fungerar som den yttersta kontrollmekanismen i systemet. Om en stat inte verkställer överföringen i tid "bestraffas" den med att bli ansvarig.

@@ -19,6 +19,26 @@ Om sökanden överklagar eller begär omprövning av överföringsbeslutet och b
 
 ---
 
+## Syfte
+
+Förhindrar att överföringsfristen löper ut under pågående domstolsprocess vid beviljad suspensiv verkan, och skyddar systemets funktionalitet.
+
+---
+
+## Utlösare
+
+En person i förvar överklagar överföringsbeslutet och beviljas suspensiv verkan.
+
+---
+
+## Rättsverkan
+
+- 5-veckorsfristen för överföring pausas under suspensiv verkan.
+- Fristen börjar löpa igen när den suspensiva verkan upphör.
+- Personen kan fortfarande hållas i förvar under den pausade perioden.
+
+---
+
 ## Kommentar
 
 Detta är mekanismen som förhindrar att överföringsfristen löper ut under pågående domstolsprocess. Utan denna regel skulle beviljad suspensiv verkan i praktiken kunna leda till att personen måste friges (punkt 4) och den förkortade fristen förloras.

@@ -19,6 +19,26 @@ I en fastställd kris- eller force majeure-situation får registreringstidsfrist
 
 ---
 
+## Syfte
+
+Ger medlemsstater i kris andrum genom att förlänga registreringsfristen, så att myndigheterna kan hantera ett exceptionellt antal ansökningar.
+
+---
+
+## Utlösare
+
+Rådet fastställer att en kris- eller force majeure-situation föreligger i en medlemsstat.
+
+---
+
+## Rättsverkan
+
+- Registreringsfristen förlängs till maximalt fyra veckor.
+- De ordinarie tidsfristerna (5/15 dagar) suspenderas tillfälligt.
+- Sökandenas rättigheter kvarstår under den förlängda fristen.
+
+---
+
 ## Relaterade regler
 
 - [RULE-APR-027-001](../../registration/rules/rule-apr-027-001.md)

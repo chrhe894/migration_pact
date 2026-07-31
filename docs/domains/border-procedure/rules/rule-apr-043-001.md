@@ -22,6 +22,26 @@ En medlemsstat får tillämpa gränsförfarandet om:
 
 ---
 
+## Syfte
+
+Ger medlemsstaterna möjlighet att pröva asylansökningar vid gränsen utan att ge sökanden tillträde till territoriet, för att effektivisera hanteringen av ogrundade ansökningar.
+
+---
+
+## Utlösare
+
+En sökande som inte uppfyller inresevillkoren gör en ansökan vid gränsen, efter irreguljär passage, efter landsättning eller efter omfördelning.
+
+---
+
+## Rättsverkan
+
+- Medlemsstaten kan besluta att pröva ansökan i gränsförfarande.
+- Sökanden tillåts inte resa in på territoriet.
+- Gränsförfarandets tidsfrister (12 veckor) börjar löpa.
+
+---
+
 ## Kommentar
 
 Artikel 43 ger en *befogenhet* (får) — artikel 45 anger när tillämpningen är *obligatorisk* (ska).

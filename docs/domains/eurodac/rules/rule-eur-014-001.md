@@ -19,6 +19,26 @@ Biometriska uppgifter för underåriga från sex års ålder ska tas av tjänste
 
 ---
 
+## Syfte
+
+Skyddar barn genom att kräva särskild kompetens och ett anpassat tillvägagångssätt vid insamling av biometriska uppgifter från underåriga.
+
+---
+
+## Utlösare
+
+Biometriska uppgifter ska tas av en underårig person som är sex år eller äldre.
+
+---
+
+## Rättsverkan
+
+- Uppgifterna ska tas av tjänstemän med särskild utbildning för underåriga.
+- Förfarandet ska vara barnvänligt och åldersanpassat.
+- Barnets bästa ska respekteras fullt ut.
+
+---
+
 ## Status
 
 Draft

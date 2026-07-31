@@ -26,6 +26,26 @@ Om personen inte har rättsligt biträde: de viktigaste delarna ska lämnas på 
 
 ---
 
+## Syfte
+
+Säkerställer att sökanden formellt underrättas om överföringsbeslutet och får information om sina rättigheter, inklusive överklagandemöjligheter.
+
+---
+
+## Utlösare
+
+Den anmodade staten har godtagit eller bekräftat övertagande/återtagande.
+
+---
+
+## Rättsverkan
+
+- Överföringsbeslutet ska meddelas skriftligen inom två veckor.
+- Beslutet ska innehålla information om rättsmedel och tidsfrister.
+- Sökandens rätt till överklagande aktiveras.
+
+---
+
 ## Status
 
 Draft

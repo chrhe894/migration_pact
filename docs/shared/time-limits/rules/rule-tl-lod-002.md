@@ -18,6 +18,26 @@ Om ett oproportionellt stort antal tredjelandsmedborgare eller statslösa person
 
 ---
 
+## Syfte
+
+Ger medlemsstaterna andrum vid oproportionella inflöden genom att förlänga inlämningsfristen, utan att helt suspenderna skyldigheten att ta emot ansökningar.
+
+---
+
+## Utlösare
+
+Ett oproportionellt stort antal ansökningar görs inom samma tidsperiod och det blir omöjligt att boka in varje sökande inom 21-dagarsfristen.
+
+---
+
+## Rättsverkan
+
+- Inlämningsfristen förlängs till maximalt två månader från registrering.
+- Sökanden ska ges en bokad tid inom denna period.
+- Sökandenas övriga rättigheter kvarstår under den förlängda fristen.
+
+---
+
 ## Kommentar
 
 Undantag från RULE-TL-LOD-001. Se RULE-APR-028-004 för fullständig regeltext.

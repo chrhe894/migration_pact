@@ -19,6 +19,26 @@ Om en medlemsstat inte uppfyller sin omfördelningskvot ska den istället övert
 
 ---
 
+## Syfte
+
+Skapar en tvingande reservmekanism som förhindrar att stater undviker solidaritetsbidrag — antingen omfördelas personer eller ansvaret övertas.
+
+---
+
+## Utlösare
+
+En medlemsstat har inte uppfyllt sin omfördelningskvot enligt solidaritetspoolen.
+
+---
+
+## Rättsverkan
+
+- Medlemsstaten övertar prövningsansvaret för motsvarande antal ansökningar.
+- Ansvarskompensationen är tvingande, inte frivillig.
+- Mekanismen aktiveras automatiskt vid kvotbrist.
+
+---
+
 ## Kommentar
 
 Ansvarskompensation är den mekanism som säkerställer att ingen stat kan undvika solidaritetsbidrag helt — antingen omfördelar man eller så tar man ansvar för prövningen av andras ansökningar.

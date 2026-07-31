@@ -27,6 +27,27 @@ Förvar ska vara så kort tid som möjligt. Beslutet ska fattas skriftligen med 
 
 ---
 
+## Syfte
+
+Begränsar användningen av förvar under ansvarsförfarandet till situationer där det är strikt nödvändigt och proportionellt, som skydd mot godtycklig frihetsberövning.
+
+---
+
+## Utlösare
+
+Det finns en identifierad risk för avvikande eller ett säkerhetshot kopplat till en person som är föremål för ansvarsförfarandet.
+
+---
+
+## Rättsverkan
+
+- Förvar kräver individuell bedömning och proportionalitetsprövning.
+- Beslut ska fattas skriftligen med motivering.
+- Beslutet ska kunna prövas rättsligt.
+- Förkortade tidsfrister aktiveras (artikel 45).
+
+---
+
 ## Status
 
 Draft

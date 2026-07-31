@@ -19,6 +19,26 @@ Rådet ska varje år anta en genomförandeakt som inrättar solidaritetspoolen. 
 
 ---
 
+## Syfte
+
+Säkerställer att solidaritetsbördorna fördelas rättvist mellan medlemsstaterna genom ett årligt beslut baserat på objektiva kriterier.
+
+---
+
+## Utlösare
+
+Rådets årliga beslutsprocess om solidaritetsåtgärder inleds.
+
+---
+
+## Rättsverkan
+
+- En genomförandeakt antas som inrättar solidaritetspoolen.
+- Varje medlemsstat tilldelas en bidragsandel enligt referensnyckeln.
+- Medlemsstaterna är bundna att leverera sitt bidrag.
+
+---
+
 ## Status
 
 Draft

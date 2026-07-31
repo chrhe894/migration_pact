@@ -19,6 +19,26 @@ Screening inom territoriet (artikel 7) ska genomföras utan dröjsmål och under
 
 ---
 
+## Syfte
+
+Säkerställer att screening inom territoriet genomförs skyndsamt och inte fördröjer personens hänvisning till rätt förfarande.
+
+---
+
+## Utlösare
+
+En tredjelandsmedborgare som vistas olagligt inom territoriet omhändertas och screening inleds enligt artikel 7.
+
+---
+
+## Rättsverkan
+
+- Screeningen ska slutföras inom tre dagar.
+- Vid fristens utgång hänvisas personen till lämpligt förfarande.
+- Screeningformuläret överlämnas till mottagande myndighet.
+
+---
+
 ## Relaterade regler
 
 - RULE-SCR-008-001

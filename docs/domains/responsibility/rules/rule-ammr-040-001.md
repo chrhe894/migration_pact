@@ -24,6 +24,26 @@ Om inget svar med underbyggda skäl lämnas inom tidsfristen anses framställan 
 
 ---
 
+## Syfte
+
+Förhindrar att ansvarsförfarandet blockeras av passivitet och skapar en automatisk godtagandemekanism vid uteblivet svar.
+
+---
+
+## Utlösare
+
+En framställan om övertagande inkommer till den anmodade staten.
+
+---
+
+## Rättsverkan
+
+- Svar ska lämnas inom angivna tidsfrister.
+- Uteblivet svar = tyst godkännande och skyldighet att överta.
+- Avslag kräver underbyggda skäl.
+
+---
+
 ## Kommentar
 
 Tyst godkännande är den mekanism som säkerställer att systemet inte blockeras av passivitet. Den anmodade staten måste aktivt invända med motiverade skäl för att undgå ansvar.

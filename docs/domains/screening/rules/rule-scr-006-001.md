@@ -21,6 +21,26 @@ Medlemsstaterna ska i nationell rätt fastställa bestämmelser för att hålla 
 
 ---
 
+## Syfte
+
+Förhindrar okontrollerad inresa under screeningfasen och säkerställer att personerna är tillgängliga för myndigheterna under hela förfarandet.
+
+---
+
+## Utlösare
+
+Screeningförfarandet pågår för en person som omfattas av artikel 5.1 eller 5.2.
+
+---
+
+## Rättsverkan
+
+- Inresa på territoriet nekas under hela screeningperioden.
+- Personen ska hållas tillgänglig för screeningmyndigheterna.
+- Nationell lagstiftning ska reglera de närmare villkoren för kvarhållande.
+
+---
+
 ## Kommentar
 
 Regeln innebär en de facto friktionsbegränsning utan formellt inresebeslut. Den skapar en juridisk gränszon där personen befinner sig under screeningens varaktighet.

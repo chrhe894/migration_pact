@@ -19,6 +19,26 @@ Dataset om en person som ansöker om internationellt skydd ska lagras i Eurodac 
 
 ---
 
+## Syfte
+
+Bestämmer lagringsperioden för asylsökandes biometriska data i Eurodac, balanserat mellan systemets behov av historisk information och dataskyddsintressen.
+
+---
+
+## Utlösare
+
+Biometriska uppgifter för en asylsökande överförs till Eurodac.
+
+---
+
+## Rättsverkan
+
+- Data lagras i tio år från överföringsdagen.
+- Efter tio år ska data raderas automatiskt.
+- Under lagringsperioden kan data användas för ansvarsbestämning och träffsökningar.
+
+---
+
 ## Status
 
 Draft

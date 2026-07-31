@@ -19,6 +19,26 @@ Vid prövning av en ansökan ska den beslutande myndigheten först pröva om sö
 
 ---
 
+## Syfte
+
+Fastställer en hierarkisk prövningsordning som prioriterar flyktingstatus framför subsidiärt skydd, i enlighet med konventionens företräde.
+
+---
+
+## Utlösare
+
+Den beslutande myndigheten inleder prövning i sak av en ansökan om internationellt skydd.
+
+---
+
+## Rättsverkan
+
+- Flyktingstatus ska prövas först.
+- Subsidiärt skydd prövas enbart om flyktingstatuskriterierna inte är uppfyllda.
+- Felaktig prövningsordning kan utgöra grund för överklagande.
+
+---
+
 ## Status
 
 Draft

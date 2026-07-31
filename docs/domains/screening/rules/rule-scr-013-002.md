@@ -23,6 +23,26 @@ Personen ska agera oberoende från screeningmyndigheterna och får inte ansvara 
 
 ---
 
+## Syfte
+
+Skyddar ensamkommande barns rättigheter och välbefinnande under screeningen genom att kräva en oberoende företrädare eller utbildad person.
+
+---
+
+## Utlösare
+
+Ett ensamkommande barn identifieras under screeningförfarandet.
+
+---
+
+## Rättsverkan
+
+- En företrädare eller utbildad person ska utses utan dröjsmål.
+- Företrädaren ska vara oberoende från screeningmyndigheterna.
+- Barnets rätt att ansöka om internationellt skydd får inte hindras av avsaknad av företrädare.
+
+---
+
 ## Kommentar
 
 Avsaknad av företrädare får inte hindra ett ensamkommande barn från att utöva rätten att ansöka om internationellt skydd (punkt 6).

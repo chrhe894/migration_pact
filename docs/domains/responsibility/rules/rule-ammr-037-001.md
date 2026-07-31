@@ -24,6 +24,26 @@ Ansvaret upphör om:
 
 ---
 
+## Syfte
+
+Definierar de omständigheter under vilka det befintliga ansvaret upphör, och skapar incitament för stater att verkställa överföringar i tid.
+
+---
+
+## Utlösare
+
+Någon av de uppräknade omständigheterna inträffar (fristöverskridande, uppehållshandling, utresa, gränsförfarandets avslut).
+
+---
+
+## Rättsverkan
+
+- Den ursprungligt ansvariga staten befrias från sitt ansvar.
+- Ansvaret kan övergå till en annan stat (den överförande staten vid fristöverskridande).
+- Eurodac ska uppdateras med ändrad ansvarsstatus.
+
+---
+
 ## Kommentar
 
 Den praktiskt viktigaste konsekvensen är att om den överförande staten inte verkställer överföringen i tid, blir den själv ansvarig. Det skapar ett starkt incitament att genomföra överföringar.

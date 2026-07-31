@@ -21,6 +21,26 @@ För ansökningar som registreras enligt APR artikel 27 ska överföringen ske s
 
 ---
 
+## Syfte
+
+Garanterar att varje asylsökandes biometriska uppgifter registreras i Eurodac inom en strikt tidsfrist, vilket möjliggör snabb ansvarsbestämning och förhindrar dubbelregistreringar.
+
+---
+
+## Utlösare
+
+En ansökan om internationellt skydd registreras för en person som är sex år eller äldre.
+
+---
+
+## Rättsverkan
+
+- Biometriska uppgifter ska tas och överföras till Eurodac.
+- Överföring ska ske senast 72 timmar från registreringen.
+- Uppgifterna lagras tillsammans med övrig data enligt artikel 17.1.
+
+---
+
 ## Kommentar
 
 För ansökningar vid yttre gräns eller transitzon av personer som inte uppfyller inresevillkoren räknas 72-timmarsfristen från det att de biometriska uppgifterna tagits.

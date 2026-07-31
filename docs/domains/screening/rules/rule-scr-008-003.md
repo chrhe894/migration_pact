@@ -27,6 +27,27 @@ Screening ska obligatoriskt innefatta följande delar:
 
 ---
 
+## Syfte
+
+Definierar screeningens obligatoriska innehåll för att garantera en enhetlig och fullständig inledande kontroll av varje person.
+
+---
+
+## Utlösare
+
+Screeningförfarandet inleds för en person som omfattas av artikel 5 eller 7.
+
+---
+
+## Rättsverkan
+
+- Alla sju delar (a–g) ska genomföras under screeningperioden.
+- Ofullständig screening ska ändå avslutas vid fristens utgång.
+- Biometriska uppgifter registreras i Eurodac.
+- Screeningformuläret med samtliga resultat ska upprättas.
+
+---
+
 ## Status
 
 Draft
