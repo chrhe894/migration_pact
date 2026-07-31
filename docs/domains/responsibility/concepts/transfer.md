@@ -13,6 +13,18 @@ Den fysiska överföringen av en sökande från en medlemsstat till den ansvarig
 
 ---
 
+## Syfte
+
+Verkställer resultatet av ansvarsbestämningen genom att fysiskt flytta sökanden till den stat som är skyldig att pröva ansökan.
+
+---
+
+## Skapas av
+
+Den bestämmande medlemsstaten efter att ansvarsfrågan slutligt avgjorts genom en godkänd take charge request eller en take back notification ([PROC-RES-001](../processes/determine-responsible-member-state.md)).
+
+---
+
 ## Rättslig grund
 
 [AMMR artikel 46](../articles/ammr-046.md)

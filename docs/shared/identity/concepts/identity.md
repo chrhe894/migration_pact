@@ -12,6 +12,18 @@ Sökandens personidentitet, inbegripet namn, födelsedatum, födelseort, kön, m
 
 ---
 
+## Syfte
+
+Utgör grundläggande information som krävs för att koppla personen till databaserade register, genomföra säkerhetskontroller och säkerställa korrekt handläggning genom hela förfarandet.
+
+---
+
+## Skapas av
+
+Fastställs eller bedöms av den behöriga myndigheten vid screening och registrering utifrån personens egna uppgifter och tillgängliga handlingar ([PROC-SCR-001](../../../domains/screening/processes/screening-at-external-border.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 27](../../../domains/registration/articles/apr-027.md), punkt 1 a

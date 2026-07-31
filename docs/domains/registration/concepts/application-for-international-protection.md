@@ -13,6 +13,18 @@ En ansökan genom vilken en tredjelandsmedborgare eller statslös person begär 
 
 ---
 
+## Syfte
+
+Utgör den rättsliga grund som aktiverar hela asylförfarandet och ger personen formell status som sökande.
+
+---
+
+## Skapas av
+
+Personen själv genom att uttrycka en önskan om skydd inför valfri myndighet ([PROC-REG-001](../processes/registration-of-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 27](../articles/apr-027.md)

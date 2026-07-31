@@ -417,6 +417,37 @@ Exempel:
 
 Refererade begrepp i CON-filer ska uttryckas som relativa Markdown-länkar.
 
+## Mall för konceptkort
+
+Varje konceptfil ska innehålla följande sektioner i ordning:
+
+```text
+# CON-XXX-NNN
+
+## Begrepp
+## Definition
+## Syfte
+## Skapas av
+## Rättslig grund
+## Kommentar         (valfri)
+## Relaterade begrepp
+## Används i
+```
+
+## Syfte
+
+En mening som förklarar **varför** begreppet är centralt i asylsystemet.
+
+Exempel: "Utgör startpunkten för det formella asylförfarandet och aktiverar sökandens rättigheter."
+
+## Skapas av
+
+Vilken process, aktör eller händelse som skapar eller etablerar begreppet. Länka till relevant process om möjligt.
+
+Exempel: "Registreringsmyndigheten genom att formellt dokumentera ansökan ([PROC-REG-001](../processes/registration-of-an-application.md))."
+
+## Relaterade begrepp
+
 Exempel:
 
 ```markdown

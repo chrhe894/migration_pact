@@ -13,6 +13,18 @@ Ett prövningsförfarande med förkortad tidsfrist (tre månader) som tillämpas
 
 ---
 
+## Syfte
+
+Möjliggör snabbare handläggning av ansökningar som sannolikt är ogrundade eller uppenbart grundade, vilket frigör resurser för mer komplexa ärenden.
+
+---
+
+## Skapas av
+
+Den beslutande myndigheten genom att konstatera att en ansökan uppfyller minst en av de grunder som anges i APR artikel 42 ([PROC-ASY-001](../processes/examine-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 42](../articles/apr-042.md)

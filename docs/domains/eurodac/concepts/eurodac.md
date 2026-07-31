@@ -13,6 +13,18 @@ EU:s informationssystem för jämförelse av biometriska uppgifter och andra per
 
 ---
 
+## Syfte
+
+Möjliggör identifiering av sökande och spårning av irreguljära gränspassager genom att jämföra biometriska uppgifter mellan medlemsstaterna.
+
+---
+
+## Skapas av
+
+Inrättat av unionslagstiftaren genom Eurodacförordningen och driftas av eu-LISA.
+
+---
+
 ## Rättslig grund
 
 [Eurodacförordningen](../../../references/legislation/eurodac.md)

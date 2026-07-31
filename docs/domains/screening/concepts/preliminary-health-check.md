@@ -13,6 +13,18 @@ En preliminär hälsokontroll som genomförs av kvalificerad medicinsk personal 
 
 ---
 
+## Syfte
+
+Identifierar akuta vårdbehov och folkhälsorisker i ett tidigt skede för att skydda både personen och den allmänna hälsan.
+
+---
+
+## Skapas av
+
+Kvalificerad medicinsk personal inom ramen för screeningförfarandet ([PROC-SCR-001](../processes/screening-at-external-border.md)).
+
+---
+
 ## Rättslig grund
 
 [Screeningförordningen artikel 12](../articles/scr-012.md), punkt 1

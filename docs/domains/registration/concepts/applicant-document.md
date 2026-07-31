@@ -15,6 +15,18 @@ Handlingen ska innehålla sökandens personuppgifter, status som sökande, uppgi
 
 ---
 
+## Syfte
+
+Ger sökanden ett bevis på sin status och rätt att stanna kvar på territoriet under hela prövningsförfarandet.
+
+---
+
+## Skapas av
+
+Den behöriga myndigheten efter inlämnandet av ansökan ([PROC-REG-003](../processes/issue-applicant-documents.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 29](../articles/apr-029.md), punkt 4

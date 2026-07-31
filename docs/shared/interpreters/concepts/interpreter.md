@@ -12,6 +12,18 @@ En person som tillhandahåller tolktjänster för att möjliggöra kommunikation
 
 ---
 
+## Syfte
+
+Säkerställer att sökanden kan kommunicera effektivt med myndigheterna, vilket är en förutsättning för ett rättssäkert förfarande.
+
+---
+
+## Skapas av
+
+Den behöriga myndigheten genom att bedöma behovet av tolktjänster och anlita en kvalificerad tolk ([ACT-INT-001](../activities/determine-interpreter-needs.md)).
+
+---
+
 ## Rättslig grund
 
 APR artikel 8.3

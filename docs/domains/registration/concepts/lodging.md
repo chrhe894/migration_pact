@@ -15,6 +15,18 @@ Inlämnandet är en separat juridisk milstolpe som inträffar efter registrering
 
 ---
 
+## Syfte
+
+Markerar den tidpunkt från vilken prövningsfristen börjar löpa och möjliggör att sökanden lämnar fullständig information till myndigheten.
+
+---
+
+## Skapas av
+
+Sökanden genom att personligen inställa sig och lämna in ansökan till den behöriga myndigheten ([PROC-REG-002](../processes/lodging-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 28](../articles/apr-028.md)

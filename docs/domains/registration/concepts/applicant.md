@@ -13,6 +13,18 @@ En tredjelandsmedborgare eller statslös person som har gjort en ansökan om int
 
 ---
 
+## Syfte
+
+Definierar den personkrets som omfattas av rättigheter och skyldigheter under asylförfarandet.
+
+---
+
+## Skapas av
+
+Statusen uppstår automatiskt när en person gör en ansökan om internationellt skydd och varar till dess att ett slutligt beslut fattas ([PROC-REG-001](../processes/registration-of-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR](../../../references/legislation/apr.md)

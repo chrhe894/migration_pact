@@ -13,6 +13,18 @@ Ett gränsförfarande för återvändande som tillämpas på tredjelandsmedborga
 
 ---
 
+## Syfte
+
+Säkerställer ett snabbt och effektivt verkställande av avslagsbeslut fattade i gränsförfarandet utan att personen tillåts resa in på territoriet.
+
+---
+
+## Skapas av
+
+Utlöses automatiskt av ett avslagsbeslut i asylgränsförfarandet ([PROC-RET-001](../processes/return-border-procedure.md)).
+
+---
+
 ## Rättslig grund
 
 [Return Border Procedure artikel 4](../articles/return-004.md)

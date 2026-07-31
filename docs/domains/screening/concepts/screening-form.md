@@ -13,6 +13,18 @@ Det formulär som screeningmyndigheten ska fylla i för varje person som genomg�
 
 ---
 
+## Syfte
+
+Dokumenterar resultaten av screeningen och säkerställer att information om personen överförs strukturerat till de myndigheter som ska hantera det fortsatta förfarandet.
+
+---
+
+## Skapas av
+
+Screeningmyndigheten som en del av screeningförfarandet ([PROC-SCR-001](../processes/screening-at-external-border.md)).
+
+---
+
 ## Rättslig grund
 
 [Screeningförordningen artikel 17](../articles/scr-017.md)

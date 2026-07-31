@@ -13,6 +13,18 @@ En mekanism där en stat som inte omfördelar sin kvot istället övertar prövn
 
 ---
 
+## Syfte
+
+Erbjuder ett alternativ till fysisk omfördelning genom att överföra prövningsansvaret, vilket ger medlemsstaterna flexibilitet i hur de bidrar till solidariteten.
+
+---
+
+## Skapas av
+
+En bidragande medlemsstat genom att välja ansvarskompensation som bidragsform ur solidaritetspoolen i stället för omfördelning.
+
+---
+
 ## Rättslig grund
 
 [AMMR artikel 63](../articles/ammr-063.md)

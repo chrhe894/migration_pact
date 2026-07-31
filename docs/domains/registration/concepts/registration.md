@@ -15,6 +15,18 @@ Registreringen är den juridiska milstolpe som inleder det formella förfarandet
 
 ---
 
+## Syfte
+
+Utgör startpunkten för det formella asylförfarandet och aktiverar sökandens rättigheter samt myndigheternas tidsfrister.
+
+---
+
+## Skapas av
+
+Registreringsmyndigheten genom att formellt dokumentera ansökan i enlighet med APR artikel 27 ([PROC-REG-001](../processes/registration-of-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 27](../articles/apr-027.md)

@@ -13,6 +13,18 @@ Den myndighet i en medlemsstat som är behörig att registrera ansökningar om i
 
 ---
 
+## Syfte
+
+Säkerställer att det finns en identifierad aktör med ansvar för att genomföra registreringen korrekt och inom föreskrivna tidsfrister.
+
+---
+
+## Skapas av
+
+Medlemsstaten genom nationell lagstiftning som utser den behöriga myndigheten i enlighet med APR artikel 4.
+
+---
+
 ## Rättslig grund
 
 [APR artikel 27](../articles/apr-027.md), punkt 1; APR artikel 4

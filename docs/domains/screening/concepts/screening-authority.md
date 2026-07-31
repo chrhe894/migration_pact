@@ -13,6 +13,18 @@ Den myndighet som en medlemsstat utsett att genomföra screening i enlighet med 
 
 ---
 
+## Syfte
+
+Säkerställer att det finns en ansvarig aktör med befogenhet och resurser att genomföra samtliga obligatoriska delar av screeningen.
+
+---
+
+## Skapas av
+
+Medlemsstaten genom nationell lagstiftning som utser den myndighet som ska ansvara för screening i enlighet med Screeningförordningen artikel 8.9.
+
+---
+
 ## Rättslig grund
 
 [Screeningförordningen artikel 8](../articles/scr-008.md), punkt 9

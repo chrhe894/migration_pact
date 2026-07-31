@@ -15,6 +15,18 @@ Handlingen anger att en ansökan har gjorts och registrerats och gäller till de
 
 ---
 
+## Syfte
+
+Ger sökanden omedelbar dokumentation om sin status så att denne kan styrka sin rätt att stanna kvar på territoriet under tiden sökandehandlingen utfärdas.
+
+---
+
+## Skapas av
+
+Den behöriga myndigheten i samband med registreringsförfarandet ([PROC-REG-001](../processes/registration-of-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 29](../articles/apr-029.md), punkt 1

@@ -15,6 +15,18 @@ Unionens totala kapacitet är 30 000 (artikel 46).
 
 ---
 
+## Syfte
+
+Begränsar och fördelar antalet samtidiga gränsförfaranden mellan medlemsstaterna för att säkerställa att systemet inte överbelastas och att mottagningsvillkoren upprätthålls.
+
+---
+
+## Skapas av
+
+Europeiska kommissionen genom beräkning enligt den formel som anges i APR artikel 47, baserat på statistiska uppgifter från de senaste tre åren.
+
+---
+
 ## Rättslig grund
 
 [APR artikel 46](../articles/apr-046.md); [APR artikel 47](../articles/apr-047.md)

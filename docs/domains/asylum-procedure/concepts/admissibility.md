@@ -13,6 +13,18 @@ Den preliminära bedömning varigenom den beslutande myndigheten avgör om en an
 
 ---
 
+## Syfte
+
+Fungerar som ett filter som avgör om en ansökan ska prövas i sak eller om den kan avvisas utan materiell prövning, vilket effektiviserar systemet.
+
+---
+
+## Skapas av
+
+Den beslutande myndigheten genom att bedöma ansökan mot avvisningsgrunderna i APR artikel 38 ([PROC-ASY-001](../processes/examine-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 38](../articles/apr-038.md)

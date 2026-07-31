@@ -13,6 +13,18 @@ En situation som uppstår vid massankomst av tredjelandsmedborgare eller statsl�
 
 ---
 
+## Syfte
+
+Definierar den tröskel som måste överskridas för att en medlemsstat ska kunna aktivera de särskilda undantagsåtgärderna i krishanteringsförordningen.
+
+---
+
+## Skapas av
+
+Uppstår som faktisk omständighet och erkänns formellt genom ett rådsbeslut baserat på kommissionens förslag ([PROC-CRI-001](../processes/activate-crisis-measures.md)).
+
+---
+
 ## Rättslig grund
 
 [Krishanteringsförordningen artikel 1](../articles/crisis-001.md)

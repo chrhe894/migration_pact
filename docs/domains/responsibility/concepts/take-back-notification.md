@@ -13,6 +13,18 @@ En avisering från en medlemsstat till den ansvariga medlemsstaten om att en per
 
 ---
 
+## Syfte
+
+Möjliggör att den ansvariga staten informeras och att personen kan överföras tillbaka utan ett formellt övertagandeförfarande.
+
+---
+
+## Skapas av
+
+Den medlemsstat där personen befinner sig, genom att skicka en formell avisering till den ansvariga staten via DubliNet.
+
+---
+
 ## Rättslig grund
 
 AMMR artikel 41

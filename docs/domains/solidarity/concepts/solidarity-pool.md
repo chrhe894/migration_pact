@@ -13,6 +13,18 @@ Den årliga pool av solidaritetsbidrag som inrättas genom en genomförandeakt a
 
 ---
 
+## Syfte
+
+Fördelas bördan av migrationstryck mellan medlemsstaterna genom en gemensam mekanism som kombinerar olika typer av bidrag.
+
+---
+
+## Skapas av
+
+Rådet genom antagande av en årlig genomförandeakt baserad på kommissionens förslag, i enlighet med AMMR artikel 57.
+
+---
+
 ## Rättslig grund
 
 [AMMR artikel 57](../articles/ammr-057.md)

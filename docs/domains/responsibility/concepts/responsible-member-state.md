@@ -13,6 +13,18 @@ Den medlemsstat som enligt kriterierna i AMMR kapitel II är ansvarig för att p
 
 ---
 
+## Syfte
+
+Fastställer en enda ansvarig stat för varje ansökan, vilket förhindrar att sökande hamnar i limbo eller att flera stater prövar samma ansökan parallellt.
+
+---
+
+## Skapas av
+
+Fastställs genom den bestämmande medlemsstatens tillämpning av kriteriehierarkin i AMMR kapitel II ([PROC-RES-001](../processes/determine-responsible-member-state.md)).
+
+---
+
 ## Rättslig grund
 
 [AMMR artikel 24](../articles/ammr-024.md)

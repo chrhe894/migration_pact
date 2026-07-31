@@ -13,6 +13,18 @@ En tidsfrist under vilken personen ges möjlighet att lämna territoriet frivill
 
 ---
 
+## Syfte
+
+Ger personen en sista möjlighet att återvända på eget initiativ, vilket är mindre ingripande och kostsamt än tvångsavlägsnande.
+
+---
+
+## Skapas av
+
+Den behöriga myndigheten genom att bevilja en tidsfrist för frivillig avresa i samband med återvändandebeslutet ([PROC-RET-001](../processes/return-border-procedure.md)).
+
+---
+
 ## Relaterade begrepp
 
 - [CON-RET-001 Return border procedure](return-border-procedure-concept.md)

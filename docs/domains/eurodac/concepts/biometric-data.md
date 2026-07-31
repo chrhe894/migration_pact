@@ -13,6 +13,18 @@ Biometriska uppgifter som tas och behandlas enligt Eurodacförordningen, särski
 
 ---
 
+## Syfte
+
+Utgör grunden för unik identifiering av personer i Eurodac och möjliggör jämförelse mot befintliga registreringar i systemet.
+
+---
+
+## Skapas av
+
+Samlas in av den behöriga myndigheten i ursprungsmedlemsstaten vid registrering eller screening ([PROC-EUR-001](../processes/collect-and-transmit-biometric-data.md)).
+
+---
+
 ## Rättslig grund
 
 [Eurodac artikel 13](../articles/eur-013.md)

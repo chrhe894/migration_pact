@@ -13,6 +13,18 @@ En samlad registrering av biometriska uppgifter och andra personuppgifter om en 
 
 ---
 
+## Syfte
+
+Strukturerar och samlar all relevant information om en person i en enda enhet, vilket möjliggör sökning och jämförelse i systemet.
+
+---
+
+## Skapas av
+
+Eurodacsystemet automatiskt när ursprungsmedlemsstaten överför personuppgifter och biometriska data ([PROC-EUR-001](../processes/collect-and-transmit-biometric-data.md)).
+
+---
+
 ## Rättslig grund
 
 [Eurodac artikel 15](../articles/eur-015.md), punkt 4; [Eurodac artikel 29](../articles/eur-029.md)

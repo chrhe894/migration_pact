@@ -13,6 +13,18 @@ Den rangordning i vilken kriterierna för att bestämma ansvarig medlemsstat ska
 
 ---
 
+## Syfte
+
+Ger en förutsebar och enhetlig metod för att avgöra vilken medlemsstat som ansvarar för en ansökan, genom att prioritera kriterier i en bestämd ordning.
+
+---
+
+## Skapas av
+
+Fastställd av unionslagstiftaren genom AMMR kapitel II och tillämpas av den bestämmande medlemsstaten ([PROC-RES-001](../processes/determine-responsible-member-state.md)).
+
+---
+
 ## Rättslig grund
 
 [AMMR artikel 24](../articles/ammr-024.md), punkt 1

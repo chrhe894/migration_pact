@@ -13,6 +13,18 @@ En ytterligare ansökan om internationellt skydd som görs efter det att ett slu
 
 ---
 
+## Syfte
+
+Ger en person möjlighet att åberopa nya omständigheter som framkommit efter ett slutligt avslagsbeslut, utan att undergräva principen om slutliga beslut.
+
+---
+
+## Skapas av
+
+Personen själv genom att lämna in en ny ansökan efter ett slutligt beslut ([PROC-ASY-002](../processes/subsequent-application.md)).
+
+---
+
 ## Rättslig grund
 
 APR artikel 55

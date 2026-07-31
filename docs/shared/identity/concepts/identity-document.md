@@ -12,6 +12,18 @@ Identitets- eller resehandling eller annan handling som sökanden har gett in oc
 
 ---
 
+## Syfte
+
+Utgör det huvudsakliga bevismaterialet för att fastställa personens identitet och medborgarskap inom asylförfarandet.
+
+---
+
+## Skapas av
+
+Tillhandahålls av sökanden och registreras av den behöriga myndigheten vid screening eller registrering ([PROC-REG-001](../../../domains/registration/processes/registration-of-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 27](../../../domains/registration/articles/apr-027.md), punkt 1 b

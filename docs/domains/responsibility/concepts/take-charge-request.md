@@ -13,6 +13,18 @@ En framställan från en medlemsstat till en annan om att överta ansvaret för 
 
 ---
 
+## Syfte
+
+Möjliggör att ansvarsfrågan formellt avgörs mellan medlemsstaterna när kriterierna pekar ut en annan stat som ansvarig.
+
+---
+
+## Skapas av
+
+Den bestämmande medlemsstaten genom att skicka en formell framställan till den stat som bedöms vara ansvarig enligt kriterierna ([PROC-RES-001](../processes/determine-responsible-member-state.md)).
+
+---
+
 ## Rättslig grund
 
 AMMR artikel 39

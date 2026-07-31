@@ -15,6 +15,18 @@ Screening är ett separat förfarande som föregår registrering av en asylansö
 
 ---
 
+## Syfte
+
+Möjliggör tidig identifiering och riskbedömning av tredjelandsmedborgare så att de kan hänvisas till rätt förfarande innan det formella asylförfarandet inleds.
+
+---
+
+## Skapas av
+
+Utlöses av att en tredjelandsmedborgare påträffas vid yttre gräns utan att uppfylla inresevillkoren, eller inom territoriet utan laglig vistelse ([PROC-SCR-001](../processes/screening-at-external-border.md)).
+
+---
+
 ## Rättslig grund
 
 [Screeningförordningen artikel 8](../articles/scr-008.md), punkt 5

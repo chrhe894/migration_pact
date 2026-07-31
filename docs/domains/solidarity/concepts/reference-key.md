@@ -13,6 +13,18 @@ Den formel som används för att beräkna varje medlemsstats andel av solidarite
 
 ---
 
+## Syfte
+
+Säkerställer en rättvis fördelning av solidaritetsbördan genom att koppla varje stats bidrag till dess ekonomiska kapacitet och befolkningsstorlek.
+
+---
+
+## Skapas av
+
+Fastställd av unionslagstiftaren i AMMR artikel 66 och tillämpas av kommissionen vid beräkning av varje stats bidragsandel.
+
+---
+
 ## Rättslig grund
 
 [AMMR artikel 66](../articles/ammr-066.md)

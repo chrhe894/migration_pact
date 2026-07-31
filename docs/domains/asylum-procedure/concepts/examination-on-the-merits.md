@@ -13,6 +13,18 @@ Den fullständiga prövningen av en ansökan där den beslutande myndigheten bed
 
 ---
 
+## Syfte
+
+Utgör kärnprövningen i asylförfarandet där det avgörs om sökanden har rätt till internationellt skydd.
+
+---
+
+## Skapas av
+
+Den beslutande myndigheten efter att ansökan bedömts vara upptagbar till prövning ([PROC-ASY-001](../processes/examine-an-application.md)).
+
+---
+
 ## Rättslig grund
 
 [APR artikel 39](../articles/apr-039.md)

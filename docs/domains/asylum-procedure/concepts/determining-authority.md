@@ -13,6 +13,18 @@ Den beslutande myndigheten som ansvarar för att pröva ansökningar om internat
 
 ---
 
+## Syfte
+
+Säkerställer att det finns en oberoende och specialiserad myndighet med ansvar för att fatta materiella beslut om internationellt skydd.
+
+---
+
+## Skapas av
+
+Medlemsstaten genom nationell lagstiftning som utser den myndighet som ska fatta beslut i enlighet med APR artikel 34.
+
+---
+
 ## Rättslig grund
 
 [APR artikel 34](../articles/apr-034.md)

@@ -13,6 +13,18 @@ Omfördelning av en sökande eller person med internationellt skydd från en med
 
 ---
 
+## Syfte
+
+Avlastar medlemsstater under särskilt migrationstryck genom att fördela sökande till andra stater som har kapacitet att ta emot dem.
+
+---
+
+## Skapas av
+
+Solidaritetsmekanismen genom att en bidragande medlemsstat accepterar omfördelningsplatser ur solidaritetspoolen ([PROC-SOL-001](../processes/relocation.md)).
+
+---
+
 ## Rättslig grund
 
 [AMMR artikel 67](../articles/ammr-067.md)
