@@ -75,6 +75,40 @@ nav:
       - Öppna frågor:
         - Impact of screening regulation: domains/registration/open_questions/impact-of-screening-regulation.md
         - National margin of appreciation: domains/registration/open_questions/national-margin-of-appreciation.md
+      - Capabilities:
+        - CAP-REG-001 Register Application: domains/registration/capabilities/cap-reg-001.md
+        - CAP-REG-002 Receive and Forward: domains/registration/capabilities/cap-reg-002.md
+        - CAP-REG-003 Lodge Application: domains/registration/capabilities/cap-reg-003.md
+        - CAP-REG-004 Issue Documents: domains/registration/capabilities/cap-reg-004.md
+        - CAP-REG-005 Mass Influx: domains/registration/capabilities/cap-reg-005.md
+        - CAP-REG-006 Transmit Eurodac: domains/registration/capabilities/cap-reg-006.md
+      - Krav:
+        - Översikt: domains/registration/requirements/README.md
+        - REQ-APR-027-001: domains/registration/requirements/req-apr-027-001.md
+        - REQ-APR-027-002: domains/registration/requirements/req-apr-027-002.md
+        - REQ-APR-027-003: domains/registration/requirements/req-apr-027-003.md
+        - REQ-APR-027-004: domains/registration/requirements/req-apr-027-004.md
+        - REQ-APR-027-005: domains/registration/requirements/req-apr-027-005.md
+        - REQ-APR-027-006: domains/registration/requirements/req-apr-027-006.md
+        - REQ-APR-027-007: domains/registration/requirements/req-apr-027-007.md
+        - REQ-APR-027-008: domains/registration/requirements/req-apr-027-008.md
+        - REQ-APR-027-009: domains/registration/requirements/req-apr-027-009.md
+        - REQ-APR-027-010: domains/registration/requirements/req-apr-027-010.md
+        - REQ-APR-027-011: domains/registration/requirements/req-apr-027-011.md
+        - REQ-APR-028-001: domains/registration/requirements/req-apr-028-001.md
+        - REQ-APR-028-002: domains/registration/requirements/req-apr-028-002.md
+        - REQ-APR-028-003: domains/registration/requirements/req-apr-028-003.md
+        - REQ-APR-028-004: domains/registration/requirements/req-apr-028-004.md
+        - REQ-APR-028-005: domains/registration/requirements/req-apr-028-005.md
+        - REQ-APR-028-006: domains/registration/requirements/req-apr-028-006.md
+        - REQ-APR-028-007: domains/registration/requirements/req-apr-028-007.md
+        - REQ-APR-029-001: domains/registration/requirements/req-apr-029-001.md
+        - REQ-APR-029-002: domains/registration/requirements/req-apr-029-002.md
+        - REQ-APR-029-003: domains/registration/requirements/req-apr-029-003.md
+        - REQ-APR-029-004: domains/registration/requirements/req-apr-029-004.md
+        - REQ-APR-029-005: domains/registration/requirements/req-apr-029-005.md
+        - REQ-APR-029-006: domains/registration/requirements/req-apr-029-006.md
+        - REQ-EUR-015-001: domains/registration/requirements/req-eur-015-001.md
     - Screening:
       - domains/screening/README.md
       - Artiklar:

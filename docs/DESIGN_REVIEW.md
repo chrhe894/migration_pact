@@ -1,479 +1,306 @@
-# Repository Review – Increasing Detail and Sense-Making
+# Requirements and Capabilities
 
-Any text-diagram here should be represented by PlantUml-diagrams instead.
+## Purpose
 
-## Overall Assessment
+The repository currently provides excellent traceability from legislation to rules, concepts, and processes.
 
-The repository has reached a level of maturity where the architecture is no longer the primary area for improvement. The domain structure, traceability model, and navigation are coherent and scalable.
+The next logical evolution is **not** to add more legal content, but to provide a bridge between legislation and implementation.
 
-Future improvements should therefore focus on **knowledge richness** rather than **architectural complexity**.
+Two complementary knowledge objects can provide this bridge:
 
-The next phase is about helping readers answer not only **what the law says**, but also:
+- **Requirements** – what must be fulfilled.
+- **Capabilities** – what an organisation must be able to do.
 
-- Why does this rule exist?
-- What changes when this step is completed?
-- How is information reused?
-- How do concepts relate to each other?
-- How does this domain fit into the larger asylum system?
+Neither replaces existing Rule Cards or Processes. Instead, they provide additional perspectives for architects, business analysts, project managers, and system developers.
 
 ---
 
-# Recommendation 1 – Enrich Rule Cards
+# Why?
 
-Rule Cards are already the core knowledge objects of the repository.
+Legislation rarely specifies how something should be implemented.
 
-They could become even more valuable by answering a consistent set of questions.
+Instead, legislation creates obligations.
 
-## Suggested template additions
+Those obligations eventually become:
+
+- business requirements
+- organisational capabilities
+- information requirements
+- system requirements
+
+Making these relationships explicit increases the value of the repository without changing its legal focus.
+
+---
+
+# Capability
+
+## Definition
+
+A **Capability** describes something that a competent authority must be able to perform in order to comply with the legislation.
+
+A capability describes **what** the organisation must be able to do.
+
+It intentionally does **not** describe:
+
+- how the work is performed
+- organisational responsibilities
+- IT solutions
+- implementation details
+
+Capabilities are stable over time, while processes and systems may change.
+
+---
+
+## Example
 
 ```text
+CAP-REG-001
+
+Register Application
+
 Purpose
 
-Trigger
+Create a legally valid registered application.
 
-Legal Effect
-
-Used By
-
-Related Rules
-```
-
-Example:
-
-```text
-Purpose
-
-Ensures that an application formally enters the asylum procedure.
-
-Trigger
-
-A third-country national expresses a wish to seek international protection.
-
-Legal Effect
-
-The Member State becomes obliged to register the application.
-
-Used By
+Supported by
 
 Registration Process
 
-Related Rules
+Implements
 
-RULE-APR-027-002
-RULE-APR-027-003
-```
+RULE-APR-027-001
 
-This transforms Rule Cards from legal extracts into reusable knowledge objects.
+Produces
 
----
+Registered Application
 
-# Recommendation 2 – Visualize State Changes
+Related Concepts
 
-Most domains are not primarily about activities.
-
-They are about **changing the legal state**.
-
-Each domain could explicitly describe:
-
-```text
-Before
-
-↓
-
-Action
-
-↓
-
-After
-```
-
-Example:
-
-```text
-Before
-
-Application not registered
-
-↓
-
+Application
 Registration
-
-↓
-
-After
-
-Application registered
-```
-
-This helps readers immediately understand why the domain exists.
-
----
-
-# Recommendation 3 – Visualize Information Flow
-
-Current diagrams primarily describe activities.
-
-Another useful perspective is information movement.
-
-Example:
-
-```text
 Applicant
-
-↓
-
-Identity
-
-↓
-
-Registration
-
-↓
-
-Eurodac
-
-↓
-
-Responsibility
-
-↓
-
-Procedure
 ```
-
-This illustrates how information created in one domain is reused by later domains.
-
-This perspective is especially useful for architects and system designers.
 
 ---
 
-# Recommendation 4 – Expand Concepts
-
-Concept pages could become true knowledge hubs.
-
-Suggested structure:
+## Suggested Structure
 
 ```text
-Definition
+ID
+
+Name
 
 Purpose
 
-Legal Basis
+Implements
 
-Where Used
+Supported By
 
-Created By
+Produces
 
-Used By
+Consumes
 
 Related Concepts
 
 Related Rules
 ```
 
-Rather than acting only as glossary entries, Concepts become navigation hubs throughout the repository.
+---
+
+## Repository Placement
+
+```
+shared/
+    capabilities/
+```
+
+or
+
+```
+capabilities/
+```
+
+depending on whether capabilities are considered reusable across domains.
 
 ---
 
-# Recommendation 5 – Separate Legal and Operational Perspectives
+# Requirement
 
-Many legal requirements imply operational behaviour.
+## Definition
 
-Example:
+A **Requirement** expresses an obligation derived from one or more legal rules.
 
-```text
-Legal Requirement
+Requirements translate legal obligations into implementation-neutral statements.
 
-↓
+They are **not** software requirements.
 
-Operational Consequence
-
-↓
-
-System Implication
-```
-
-Example:
-
-```text
-Register within five days
-
-↓
-
-Authority records the application
-
-↓
-
-Case management system requires registration date
-```
-
-This makes the repository valuable for solution architects as well as legal experts.
+They are implementation-independent requirements that any compliant organisation must satisfy.
 
 ---
 
-# Recommendation 6 – Show Domain Dependencies
-
-Dependencies currently exist but are mostly implicit.
-
-Simple dependency diagrams could make them much clearer.
-
-Example:
+## Example
 
 ```text
-Registration
+REQ-APR-027-001
 
-depends on
+The registration date shall be recorded.
 
-Identity
-Documents
-Interpreter
+Derived From
 
-↓
+RULE-APR-027-001
 
-produces
-
-Registered Application
-
-↓
-
-used by
-
-Eurodac
-
-Responsibility
-
-Procedure
-```
-
-These diagrams explain how domains collaborate without describing process logic.
-
----
-
-# Recommendation 7 – Explain Why Articles Exist
-
-Every article could begin with a short purpose statement.
-
-Example:
-
-```text
 Purpose
 
-Ensures that every asylum application formally enters the asylum procedure.
+Support legal time limits.
+
+Related Concepts
+
+Registration Date
+
+Supported By
+
+Register Application
 ```
-
-Only one or two sentences are needed.
-
-Readers often understand legislation much faster when they understand its objective before reading its requirements.
 
 ---
 
-# Recommendation 8 – Define Scope Explicitly
-
-Each domain could clearly state what it covers—and what it does not.
-
-Example:
+## Suggested Structure
 
 ```text
-Scope
+ID
 
-Included
+Statement
 
-✓ Registration
+Purpose
 
-✓ Deadlines
+Derived From
 
-✓ Documentation
+Related Concepts
 
-Not Included
+Supported By
 
-✗ Examination
-
-✗ Responsibility
-
-✗ Decision
+Notes
 ```
-
-Explicit scope definitions reduce ambiguity and improve navigation.
 
 ---
 
-# Recommendation 9 – Add Key Questions
+## Repository Placement
 
-Each domain could start with the questions it answers.
-
-Example:
-
-```text
-This domain answers:
-
-• When is an application registered?
-
-• Who performs the registration?
-
-• What information is recorded?
-
-• What deadlines apply?
-
-• What happens after registration?
 ```
-
-Readers immediately know whether they are in the right place.
+shared/
+    requirements/
+```
 
 ---
 
-# Recommendation 10 – Present Three Complementary Views
+# Relationship to Existing Knowledge Objects
 
-Every domain could be understood through three perspectives.
+Current traceability:
 
-## Legal View
-
-```text
-Articles
+```
+Article
 
 ↓
 
-Rules
-```
-
-Focus:
-
-What the legislation requires.
-
----
-
-## Operational View
-
-```text
-Activities
+Rule
 
 ↓
 
 Process
 ```
 
-Focus:
+Possible future traceability:
 
-How the work is performed.
-
----
-
-## Information View
-
-```text
-Applicant
+```
+Article
 
 ↓
 
-Application
+Rule
 
 ↓
 
-Registration Record
+Requirement
 
 ↓
 
-Documents
+Capability
+
+↓
+
+Process
 ```
 
-Focus:
-
-How information is created, transformed, and reused.
-
-These three perspectives complement each other without duplicating information.
+This creates a clear bridge between legislation and implementation while keeping each knowledge object focused on a single purpose.
 
 ---
 
-# The Next Evolution
+# Why Both?
 
-The repository already documents legislation exceptionally well.
+Requirements and Capabilities answer different questions.
 
-The next step is not adding more folders or object types.
+| Question | Knowledge Object |
+|-----------|------------------|
+| What does the law require? | Rule |
+| What obligation follows? | Requirement |
+| What must the organisation be able to do? | Capability |
+| How is it performed? | Process |
 
-Instead, it is about making **relationships** increasingly visible.
-
-Almost every page could answer questions such as:
-
-- Created By
-- Consumes
-- Produces
-- Used By
-- Related Concepts
-- Related Rules
-- Related Processes
-
-Over time, this naturally transforms the repository into a navigable knowledge graph without changing its underlying architecture.
+These perspectives complement rather than duplicate one another.
 
 ---
 
-# Prioritized Improvements
+# Naming
 
-## 1. Enrich Rule Cards
+The English term **Capability** is well established within Enterprise Architecture (TOGAF, ArchiMate, and similar frameworks).
 
-Add:
+Possible Swedish translations include:
 
-- Purpose
-- Trigger
-- Legal Effect
-- Used By
-- Related Rules
+- Förmåga
+- Verksamhetsförmåga
+- Kapabilitet
 
----
+Recommendation:
 
-## 2. Expand Concepts
+Use **Capability** as the repository object name.
 
-Develop Concepts into reusable knowledge hubs by adding:
+It is internationally recognised and aligns with common architecture terminology.
 
-- Where Used
-- Created By
-- Used By
-- Related Concepts
+When Swedish terminology is needed, **Verksamhetsförmåga** is probably the most accurate translation.
 
 ---
 
-## 3. Introduce Additional Diagram Types
+# Scope
 
-Complement existing process diagrams with:
+Requirements and Capabilities should remain intentionally lightweight.
 
-- Legal Effects
-- Information Flow
-- Domain Dependencies
-- State Transitions
+They should not become:
 
-These diagrams improve understanding without replacing existing PlantUML process diagrams.
+- business process documentation
+- software specifications
+- solution designs
+- user manuals
 
----
-
-## 4. Increase Relationship Visibility
-
-Explicitly document:
-
-- Created By
-- Produces
-- Consumes
-- Used By
-
-across Rules, Concepts, Processes, and Domains.
+Their purpose is to make the transition from legislation to implementation explicit while preserving the repository's legal focus.
 
 ---
 
-## 5. Improve Context
+# Recommendation
 
-Add concise introductory sections to domains and articles:
+The current architecture should remain unchanged.
 
-- Purpose
-- Scope
-- Key Questions
+Requirements and Capabilities should be introduced only if there is a clear implementation perspective that benefits from them.
 
-These additions help readers understand not only *what* the legislation requires, but also *why* it exists and *how* it fits into the larger Migration and Asylum Pact.
+If introduced, they should be treated as complementary knowledge objects alongside:
 
----
+- Articles
+- Rules
+- Concepts
+- Processes
+- Diagrams
+- Interpretations
+- Open Questions
 
-# Final Observation
+rather than replacing or restructuring any existing part of the repository.
 
-The architecture is now sufficiently mature that future improvements should focus on **depth rather than breadth**.
-
-Rather than introducing additional object types or structural changes, future work should enrich the existing knowledge objects and strengthen the relationships between them.
-
-The repository is evolving from structured documentation into a comprehensive legal knowledge base.
-
-The next milestone is to make that knowledge increasingly self-explanatory.
+This preserves the repository's simplicity while significantly increasing its usefulness for business analysts, enterprise architects, solution architects, and implementation teams.
