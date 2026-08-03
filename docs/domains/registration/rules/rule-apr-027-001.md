@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - regel
+  - tidsfrist
+  - registrering
+  - 5-dagar
+---
 
 # RULE-APR-027-001
 

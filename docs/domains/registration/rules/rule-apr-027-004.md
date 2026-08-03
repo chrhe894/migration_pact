@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - regel
+  - tidsfrist
+  - massinflöde
+  - 15-dagar
+---
 
 # RULE-APR-027-004
 

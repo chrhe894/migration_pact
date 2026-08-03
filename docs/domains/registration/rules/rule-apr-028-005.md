@@ -1,3 +1,10 @@
+---
+tags:
+  - registration
+  - regel
+  - inlämnande
+  - handlingar
+---
 
 # RULE-APR-028-005
 

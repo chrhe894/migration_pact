@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - regel
+  - tidsfrist
+  - registrering
+  - fel-myndighet
+---
 
 # RULE-APR-027-003
 

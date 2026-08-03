@@ -1,3 +1,10 @@
+---
+tags:
+  - registration
+  - regel
+  - inlämnande
+  - personligt
+---
 
 # RULE-APR-028-002
 

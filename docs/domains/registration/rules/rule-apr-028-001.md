@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - regel
+  - tidsfrist
+  - inlämnande
+  - 21-dagar
+---
 
 # RULE-APR-028-001
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - registration
+  - regel
+  - registrering
+  - screening
+---
 
 # RULE-APR-027-005
 

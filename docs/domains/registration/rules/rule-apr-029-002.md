@@ -1,3 +1,10 @@
+---
+tags:
+  - registration
+  - regel
+  - handlingar
+  - sökandehandling
+---
 
 # RULE-APR-029-002
 

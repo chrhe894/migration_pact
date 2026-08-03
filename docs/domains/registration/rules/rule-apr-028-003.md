@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - regel
+  - inlämnande
+  - formulär
+  - undantag
+---
 
 # RULE-APR-028-003
 

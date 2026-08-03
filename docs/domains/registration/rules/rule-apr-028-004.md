@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - regel
+  - tidsfrist
+  - massinflöde
+  - inlämnande
+---
 
 # RULE-APR-028-004
 

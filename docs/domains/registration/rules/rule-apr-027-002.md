@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - regel
+  - registrering
+  - uppgifter
+  - identitet
+---
 
 # RULE-APR-027-002
 

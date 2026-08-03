@@ -1,3 +1,10 @@
+---
+tags:
+  - registration
+  - capability
+  - massinflöde
+---
+
 ← [Registration](../README.md)
 
 # CAP-REG-005

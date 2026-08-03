@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - regel
+  - handlingar
+  - giltighetstid
+  - 12-månader
+---
 
 # RULE-APR-029-003
 

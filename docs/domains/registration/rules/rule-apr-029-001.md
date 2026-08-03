@@ -1,3 +1,10 @@
+---
+tags:
+  - registration
+  - regel
+  - handlingar
+  - registreringshandling
+---
 
 # RULE-APR-029-001
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - registration
+  - capability
+  - handlingar
+---
+
 ← [Registration](../README.md)
 
 # CAP-REG-004

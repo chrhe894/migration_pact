@@ -1,3 +1,11 @@
+---
+tags:
+  - registration
+  - capability
+  - eurodac
+  - 72-timmar
+---
+
 ← [Registration](../README.md)
 
 # CAP-REG-006
