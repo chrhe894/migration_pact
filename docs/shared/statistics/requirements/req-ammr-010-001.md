@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - statistics
+---
+
 ← [Statistics](../README.md)
 
 # REQ-AMMR-010-001
@@ -28,4 +34,4 @@ Ger en nyanserad bild av varje medlemsstats specifika situation som grund för r
 
 ## Status
 
-Draft
+Complete

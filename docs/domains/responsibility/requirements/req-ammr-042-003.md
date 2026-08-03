@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-042-003
@@ -28,4 +34,4 @@ Säkerställa att personen informeras om möjligheten att överklaga.
 
 ## Status
 
-Draft
+Complete

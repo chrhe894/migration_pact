@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - regel
+---
+
 
 # RULE-AMMR-063-001
 
@@ -47,4 +53,4 @@ Ansvarskompensation är den mekanism som säkerställer att ingen stat kan undvi
 
 ## Status
 
-Draft
+Complete

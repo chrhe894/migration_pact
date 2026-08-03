@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -29,4 +35,4 @@ Denna koppling mellan AMMR och APR gör registreringstidpunkten central för hel
 
 ## Status
 
-Draft
+Complete

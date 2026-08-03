@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-046-001
@@ -28,4 +34,4 @@ Sätta yttre tidsgräns för verkställande av överföring.
 
 ## Status
 
-Draft
+Complete

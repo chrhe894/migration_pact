@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - vulnerable-persons
+---
+
 ← [Vulnerable Persons](../README.md)
 
 # CAP-VUL-001
@@ -41,4 +47,4 @@ Bedöma och dokumentera sökandens särskilda förfarandebehov.
 
 ## Status
 
-Draft
+Complete

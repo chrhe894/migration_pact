@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-038-002
@@ -28,4 +34,4 @@ Säkerställa att ansvarsbestämningen inte avbryts av sökandens avvikande.
 
 ## Status
 
-Draft
+Complete

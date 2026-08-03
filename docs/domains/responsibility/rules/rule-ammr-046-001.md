@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-046-001
 
@@ -53,4 +59,4 @@ Tidsfristerna är centrala — de fungerar som den yttersta kontrollmekanismen i
 
 ## Status
 
-Draft
+Complete

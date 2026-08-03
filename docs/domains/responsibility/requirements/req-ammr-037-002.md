@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-037-002
@@ -28,4 +34,4 @@ Begränsa ansvarets varaktighet efter slutligt avslag inom gränsförfarandet.
 
 ## Status
 
-Draft
+Complete

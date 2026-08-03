@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - time-limits
+---
+
 # RULE-TL-LOD-001
 
 ## Rättslig grund
@@ -46,4 +52,4 @@ Se RULE-APR-028-001 för fullständig regeltext. Tidsfristen räknas från regis
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - capability
+---
+
 ← [Border Procedure](../README.md)
 
 # CAP-BRD-003
@@ -42,4 +48,4 @@ Identifiera och undanta sökande som inte kan genomgå gränsförfarandet.
 
 ## Status
 
-Draft
+Complete

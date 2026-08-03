@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - statistics
+---
+
 ← [Statistics](../README.md)
 
 # REQ-AMMR-010-002
@@ -28,4 +34,4 @@ Definierar de centrala faktorer som ska ligga till grund för en objektiv och m�
 
 ## Status
 
-Draft
+Complete

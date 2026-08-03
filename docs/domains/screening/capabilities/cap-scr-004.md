@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - capability
+---
+
 ← [Screening](../README.md)
 
 # CAP-SCR-004
@@ -49,4 +55,4 @@ Kontrollera om personen utgör ett hot mot den inre säkerheten.
 
 ## Status
 
-Draft
+Complete

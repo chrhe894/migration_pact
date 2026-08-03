@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-042-001
 
@@ -48,4 +54,4 @@ Den anmodade staten har godtagit eller bekräftat övertagande/återtagande.
 
 ## Status
 
-Draft
+Complete

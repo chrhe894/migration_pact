@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - regel
+---
+
 
 # RULE-AMMR-067-001
 
@@ -43,4 +49,4 @@ Förmånsstaten identifierar sökande som ska omfördelas till en annan medlemss
 
 ## Status
 
-Draft
+Complete

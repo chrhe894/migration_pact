@@ -63,4 +63,4 @@ Handlingens giltighetstid utgör inte i sig en rätt att stanna kvar om den rät
 
 ## Status
 
-Draft
+Complete

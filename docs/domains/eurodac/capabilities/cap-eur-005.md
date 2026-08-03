@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - capability
+---
+
 ← [Eurodac](../README.md)
 
 # CAP-EUR-005
@@ -48,4 +54,4 @@ Lagra dataset korrekt och radera automatiskt vid fristens utgång.
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-036-001
 
@@ -44,4 +50,4 @@ Ansvaret har fastställts och en framställan om övertagande eller avisering om
 
 ## Status
 
-Draft
+Complete

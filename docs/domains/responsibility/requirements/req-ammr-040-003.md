@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-040-003
@@ -28,4 +34,4 @@ Förhindra blockering av förfarandet genom att likställa passivitet med godtag
 
 ## Status
 
-Draft
+Complete

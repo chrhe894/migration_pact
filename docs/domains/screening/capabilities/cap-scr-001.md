@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - capability
+---
+
 ← [Screening](../README.md)
 
 # CAP-SCR-001
@@ -56,4 +62,4 @@ Genomföra alla obligatoriska screeningmoment vid yttre gräns inom 7 dagar.
 
 ## Status
 
-Draft
+Complete

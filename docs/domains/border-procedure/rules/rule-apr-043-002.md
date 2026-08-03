@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - regel
+---
+
 
 # RULE-APR-043-002
 
@@ -53,4 +59,4 @@ Kopplas till screening-domänens RULE-SCR-006-001 (inresa nekas under screening)
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-033-001
 
@@ -55,4 +61,4 @@ Detta är i praktiken det vanligaste kriteriet vid irreguljär migration — det
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - capability
+---
+
 ← [Asylum Procedure](../README.md)
 
 # CAP-ASY-001
@@ -44,4 +50,4 @@ Pröva ansökan individuellt, objektivt och opartiskt mot flyktingstatus och sub
 
 ## Status
 
-Draft
+Complete

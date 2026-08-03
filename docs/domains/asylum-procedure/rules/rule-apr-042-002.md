@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-042-002
 
@@ -48,4 +54,4 @@ Prövningsförfarandet har påskyndats enligt artikel 42.
 
 ## Status
 
-Draft
+Complete

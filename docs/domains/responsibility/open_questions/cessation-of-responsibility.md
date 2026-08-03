@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - öppen-fråga
+---
+
 
 # Öppen fråga
 

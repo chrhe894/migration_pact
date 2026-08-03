@@ -67,4 +67,4 @@ Handlingen utfärdas efter inlämnandet (artikel 28), inte vid registreringen. D
 
 ## Status
 
-Draft
+Complete

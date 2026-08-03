@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - krav
+---
+
 ← [Solidarity](../README.md)
 
 # REQ-AMMR-067-003
@@ -28,4 +34,4 @@ Fastställa tidpunkten för ansvarsövergång till den faktiska överföringen a
 
 ## Status
 
-Draft
+Complete

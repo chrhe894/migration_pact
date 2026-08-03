@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-014-001
 
@@ -49,4 +55,4 @@ Sökningar ska göras via ESP om inte tekniska hinder föreligger. Om biometrisk
 
 ## Status
 
-Draft
+Complete

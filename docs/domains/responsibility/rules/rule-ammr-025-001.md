@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-025-001
 
@@ -48,4 +54,4 @@ En ansökan om internationellt skydd registreras av eller för ett ensamkommande
 
 ## Status
 
-Draft
+Complete

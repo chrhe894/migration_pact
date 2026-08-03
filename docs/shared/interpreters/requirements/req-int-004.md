@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 ← [Interpreters](../README.md)
 
 # REQ-INT-004
@@ -28,4 +34,4 @@ Säkerställer att sökanden har möjlighet att muntligt redogöra för sina gru
 
 ## Status
 
-Draft
+Complete

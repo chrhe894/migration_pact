@@ -57,4 +57,4 @@ Upprätthålla registreringsskyldigheten även vid oproportionellt inflöde, med
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-036-001
@@ -28,4 +34,4 @@ Säkerställa att ansvarig stat faktiskt övertar prövningen av ansökan.
 
 ## Status
 
-Draft
+Complete

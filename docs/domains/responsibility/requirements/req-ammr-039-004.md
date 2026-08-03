@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-039-004
@@ -28,4 +34,4 @@ Säkerställa att framställan är tillräckligt underbyggd för att mottagande 
 
 ## Status
 
-Draft
+Complete

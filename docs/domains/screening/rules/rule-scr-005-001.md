@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-005-001
 
@@ -47,4 +53,4 @@ Undantag gäller för tredjelandsmedborgare för vilka den berörda medlemsstate
 
 ## Status
 
-Draft
+Complete

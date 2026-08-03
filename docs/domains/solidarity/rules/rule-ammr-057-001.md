@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - regel
+---
+
 
 # RULE-AMMR-057-001
 
@@ -41,4 +47,4 @@ Rådets årliga beslutsprocess om solidaritetsåtgärder inleds.
 
 ## Status
 
-Draft
+Complete

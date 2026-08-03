@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - vulnerable-persons
+---
+
 ← [Vulnerable Persons](../README.md)
 
 # CAP-VUL-002
@@ -43,4 +49,4 @@ Säkerställa barnets bästa, utse företrädare och genomföra åldersbedömnin
 
 ## Status
 
-Draft
+Complete

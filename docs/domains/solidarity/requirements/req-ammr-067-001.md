@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - krav
+---
+
 ← [Solidarity](../README.md)
 
 # REQ-AMMR-067-001
@@ -28,4 +34,4 @@ Säkerställa att omfördelningen sker snabbt efter att mottagande stat bekräft
 
 ## Status
 
-Draft
+Complete

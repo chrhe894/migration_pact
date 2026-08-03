@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - capability
+---
+
 ← [Responsibility](../README.md)
 
 # CAP-RES-008
@@ -42,4 +48,4 @@ Möjliggöra frivilligt övertagande av prövningsansvar av humanitära skäl.
 
 ## Status
 
-Draft
+Complete

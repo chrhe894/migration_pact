@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-043-001
 
@@ -45,4 +51,4 @@ Ett överföringsbeslut meddelas sökanden.
 
 ## Status
 
-Draft
+Complete

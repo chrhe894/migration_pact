@@ -1,3 +1,9 @@
+---
+tags:
+  - crisis
+  - regel
+---
+
 
 # RULE-CRI-010-001
 
@@ -48,4 +54,4 @@ Rådet fastställer att en kris- eller force majeure-situation föreligger i en 
 
 ## Status
 
-Draft
+Complete

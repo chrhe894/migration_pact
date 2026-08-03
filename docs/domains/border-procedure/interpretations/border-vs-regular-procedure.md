@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -46,4 +52,4 @@ Gränsförfarandet och det reguljära förfarandet är inte två helt separata s
 
 ## Status
 
-Draft
+Complete

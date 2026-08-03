@@ -1,3 +1,9 @@
+---
+tags:
+  - return-border-procedure
+  - regel
+---
+
 
 # RULE-RET-005-001
 
@@ -47,4 +53,4 @@ Tolv veckor har förflutit sedan asylgränsförfarandet avslutades utan att avl�
 
 ## Status
 
-Draft
+Complete

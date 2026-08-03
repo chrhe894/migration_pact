@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - statistics
+---
+
 ← [Statistics](../README.md)
 
 # CAP-STA-002
@@ -43,4 +49,4 @@ Bedöma varje stats situation individuellt som grund för solidaritetspool.
 
 ## Status
 
-Draft
+Complete

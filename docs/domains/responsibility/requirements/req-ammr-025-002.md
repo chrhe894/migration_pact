@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-025-002
@@ -28,4 +34,4 @@ Prioritera familjeåterförening för ensamkommande barn genom aktiv eftersökni
 
 ## Status
 
-Draft
+Complete

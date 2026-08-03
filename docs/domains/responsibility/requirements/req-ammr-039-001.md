@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-039-001
@@ -28,4 +34,4 @@ Sätta en yttre tidsgräns för att initiera övertagandeförfarandet.
 
 ## Status
 
-Draft
+Complete

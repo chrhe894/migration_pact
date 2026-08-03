@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-008-002
 
@@ -47,4 +53,4 @@ En tredjelandsmedborgare som vistas olagligt inom territoriet omhändertas och s
 
 ## Status
 
-Draft
+Complete

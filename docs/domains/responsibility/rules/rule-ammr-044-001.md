@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-044-001
 
@@ -50,4 +56,4 @@ Det finns en identifierad risk för avvikande eller ett säkerhetshot kopplat ti
 
 ## Status
 
-Draft
+Complete

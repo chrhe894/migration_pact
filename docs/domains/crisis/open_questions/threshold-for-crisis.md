@@ -1,3 +1,9 @@
+---
+tags:
+  - crisis
+  - öppen-fråga
+---
+
 
 # Öppen fråga
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-055-001
 
@@ -47,4 +53,4 @@ Förhandsprövningen kan ske skriftligt eller med personlig intervju. Syftet är
 
 ## Status
 
-Draft
+Complete

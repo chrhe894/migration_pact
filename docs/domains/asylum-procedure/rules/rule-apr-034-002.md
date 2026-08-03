@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-034-002
 
@@ -41,4 +47,4 @@ Den beslutande myndigheten inleder prövning i sak av en ansökan om internation
 
 ## Status
 
-Draft
+Complete

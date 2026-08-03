@@ -1,3 +1,9 @@
+---
+tags:
+  - return-border-procedure
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -37,4 +43,4 @@ Return border procedure (förordning 2024/1349) och återvändandedirektivet (20
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - regel
+---
+
 
 # RULE-EUR-013-002
 
@@ -41,4 +47,4 @@ Biometriska uppgifter ska tas av en person inom ramen för Eurodacförordningen.
 
 ## Status
 
-Draft
+Complete

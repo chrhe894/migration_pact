@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-026-001
 
@@ -54,4 +60,4 @@ Kravet på skriftligt önskemål innebär att kriteriet inte tillämpas automati
 
 ## Status
 
-Draft
+Complete

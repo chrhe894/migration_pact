@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - regel
+---
+
 
 # RULE-APR-043-001
 
@@ -56,4 +62,4 @@ Artikel 43 ger en *befogenhet* (får) — artikel 45 anger när tillämpningen �
 
 ## Status
 
-Draft
+Complete

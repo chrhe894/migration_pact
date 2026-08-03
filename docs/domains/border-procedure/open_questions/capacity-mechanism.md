@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - öppen-fråga
+---
+
 
 # Öppen fråga
 

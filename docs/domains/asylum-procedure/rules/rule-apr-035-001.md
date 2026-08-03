@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-035-001
 
@@ -55,4 +61,4 @@ Tidsfristen räknas från inlämnande (lodging, artikel 28), inte från registre
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - regel
+---
+
 
 # RULE-EUR-023-001
 
@@ -47,4 +53,4 @@ En tredjelandsmedborgare eller statslös person (sex år eller äldre) påträff
 
 ## Status
 
-Draft
+Complete

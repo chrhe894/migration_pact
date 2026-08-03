@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - regel
+---
+
 
 # RULE-EUR-014-001
 
@@ -41,4 +47,4 @@ Biometriska uppgifter ska tas av en underårig person som är sex år eller äld
 
 ## Status
 
-Draft
+Complete

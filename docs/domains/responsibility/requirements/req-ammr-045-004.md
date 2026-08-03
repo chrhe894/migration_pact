@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-045-004
@@ -28,4 +34,4 @@ Skydda individens frihet genom obligatorisk frigivning vid fristöverskridande.
 
 ## Status
 
-Draft
+Complete

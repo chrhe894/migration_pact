@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - capability
+---
+
 ← [Screening](../README.md)
 
 # CAP-SCR-003
@@ -43,10 +49,10 @@ Fastställa eller verifiera tredjelandsmedborgarens identitet med handlingar, up
 
 ## Relaterade begrepp
 
-- [CON-ID-001 Identity](../../shared/identity/concepts/identity.md)
+- [CON-ID-001 Identity](../../../shared/identity/concepts/identity.md)
 
 ---
 
 ## Status
 
-Draft
+Complete

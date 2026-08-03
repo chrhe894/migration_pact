@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - statistics
+---
+
 ← [Statistics](../README.md)
 
 # REQ-AMMR-009-002
@@ -28,4 +34,4 @@ Garanterar att rapporten vilar på ett brett och tillförlitligt informationsund
 
 ## Status
 
-Draft
+Complete

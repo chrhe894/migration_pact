@@ -1,3 +1,9 @@
+---
+tags:
+  - registration
+  - öppen-fråga
+---
+
 
 # Öppen fråga
 

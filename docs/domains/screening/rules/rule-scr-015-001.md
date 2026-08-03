@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-015-001
 
@@ -49,4 +55,4 @@ Uppgifter från EES, ETIAS och VIS begränsas till beslut om nekad inresa basera
 
 ## Status
 
-Draft
+Complete

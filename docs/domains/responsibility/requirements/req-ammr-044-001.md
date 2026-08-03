@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-044-001
@@ -28,4 +34,4 @@ Förbjuda frihetsberövande som enda grund för att genomföra ansvarsbestämnin
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - krav
+---
+
 ← [Solidarity](../README.md)
 
 # REQ-AMMR-066-002
@@ -28,4 +34,4 @@ Fastställa varje stats bidrag till solidaritetsmekanismen baserat på referensn
 
 ## Status
 
-Draft
+Complete

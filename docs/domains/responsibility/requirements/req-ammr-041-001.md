@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-041-001
@@ -28,4 +34,4 @@ Sätta tidsgräns för att initiera återtagandeförfarandet vid Eurodac-träff.
 
 ## Status
 
-Draft
+Complete

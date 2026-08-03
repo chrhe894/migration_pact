@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-043-001
@@ -28,4 +34,4 @@ Säkerställa rättsmedel mot överföringsbeslut.
 
 ## Status
 
-Draft
+Complete

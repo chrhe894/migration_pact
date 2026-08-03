@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-046-003
@@ -28,4 +34,4 @@ Förkorta överföringsfristen vid förvar för att minimera frihetsberövandets
 
 ## Status
 
-Draft
+Complete

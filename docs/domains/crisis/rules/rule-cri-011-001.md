@@ -1,3 +1,9 @@
+---
+tags:
+  - crisis
+  - regel
+---
+
 
 # RULE-CRI-011-001
 
@@ -50,4 +56,4 @@ Rådet fastställer att en krissituation föreligger och beslutar om tillämpnin
 
 ## Status
 
-Draft
+Complete

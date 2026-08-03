@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-029-002
@@ -28,4 +34,4 @@ Utvidga ansvarskopplingen till utgångna handlingar inom specificerade tidsperio
 
 ## Status
 
-Draft
+Complete

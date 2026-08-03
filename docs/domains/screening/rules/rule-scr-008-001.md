@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-008-001
 
@@ -55,4 +61,4 @@ Om inte alla kontroller slutförts inom tidsfristen ska screeningen ändå avslu
 
 ## Status
 
-Draft
+Complete

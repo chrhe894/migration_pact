@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-045-003
@@ -28,4 +34,4 @@ Sätta maximal tidsgräns för överföring vid förvar.
 
 ## Status
 
-Draft
+Complete

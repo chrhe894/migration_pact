@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-045-001
 
@@ -61,4 +67,4 @@ Förkortade tidsfrister vid förvar reflekterar att frihetsberövande ställer h
 
 ## Status
 
-Draft
+Complete

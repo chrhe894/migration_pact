@@ -59,4 +59,4 @@ Regeln innebär att registreringsprocessen enligt APR inte inleds parallellt med
 
 ## Status
 
-Draft
+Complete

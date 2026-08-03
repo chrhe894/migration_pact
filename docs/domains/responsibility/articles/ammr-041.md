@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - artikel
+---
+
 
 # ART-AMMR-041
 

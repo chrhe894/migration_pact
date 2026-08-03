@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - statistics
+---
+
 ← [Statistics](../README.md)
 
 # REQ-AMMR-010-003
@@ -28,4 +34,4 @@ Kopplar den individuella bedömningen till det konkreta fördelningsbeslut som s
 
 ## Status
 
-Draft
+Complete

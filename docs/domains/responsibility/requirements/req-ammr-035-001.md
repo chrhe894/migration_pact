@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-035-001
@@ -28,4 +34,4 @@ Möjliggöra humanitärt motiverad ansvarstilldelning utanför de ordinarie krit
 
 ## Status
 
-Draft
+Complete

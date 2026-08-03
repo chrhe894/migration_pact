@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - capability
+---
+
 ← [Responsibility](../README.md)
 
 # CAP-RES-001
@@ -45,4 +51,4 @@ Fastställa vilken stat som ansvarar genom att tillämpa kriterierna i rangordni
 
 ## Status
 
-Draft
+Complete

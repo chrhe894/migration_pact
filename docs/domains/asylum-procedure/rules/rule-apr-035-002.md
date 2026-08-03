@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-035-002
 
@@ -47,4 +53,4 @@ Den beslutande myndigheten bedömer att ärendet innefattar komplexa sak- eller 
 
 ## Status
 
-Draft
+Complete

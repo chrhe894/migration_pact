@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-011-001
 
@@ -53,4 +59,4 @@ För underåriga ska informationen lämnas på ett barnvänligt och åldersanpas
 
 ## Status
 
-Draft
+Complete

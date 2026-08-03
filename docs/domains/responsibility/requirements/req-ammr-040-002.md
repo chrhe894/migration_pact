@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-040-002
@@ -28,4 +34,4 @@ Förkorta svarstiden vid starkare bevisläge genom träff i EU-databas.
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-017-001
 
@@ -49,4 +55,4 @@ Uppgifter om säkerhetskontrollträff maskeras i den version som tillhandahålls
 
 ## Status
 
-Draft
+Complete

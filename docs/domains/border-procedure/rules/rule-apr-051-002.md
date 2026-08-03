@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - regel
+---
+
 
 # RULE-APR-051-002
 
@@ -53,4 +59,4 @@ Tolv veckor har förflutit sedan ansökan registrerades i gränsförfarandet.
 
 ## Status
 
-Draft
+Complete

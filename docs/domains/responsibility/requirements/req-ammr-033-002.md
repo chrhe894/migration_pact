@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-033-002
@@ -28,4 +34,4 @@ Begränsa ansvarets varaktighet vid irreguljär inresa till fastställda tidsper
 
 ## Status
 
-Draft
+Complete

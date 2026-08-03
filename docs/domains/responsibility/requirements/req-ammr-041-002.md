@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-041-002
@@ -28,4 +34,4 @@ Sätta tidsgräns för mottagande stats respons på avisering.
 
 ## Status
 
-Draft
+Complete

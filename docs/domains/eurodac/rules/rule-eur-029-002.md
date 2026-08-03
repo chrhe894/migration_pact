@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - regel
+---
+
 
 # RULE-EUR-029-002
 
@@ -41,4 +47,4 @@ Biometriska uppgifter för en olagligt vistande person överförs till Eurodac e
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-045-002
 
@@ -57,4 +63,4 @@ Kopplingen till artikel 46 (ordinarie överföring) är analog: även 6-månader
 
 ## Status
 
-Draft
+Complete

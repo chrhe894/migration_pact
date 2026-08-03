@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - capability
+---
+
 ← [Screening](../README.md)
 
 # CAP-SCR-006
@@ -49,4 +55,4 @@ Hänvisa personen till rätt förfarande efter avslutad screening.
 
 ## Status
 
-Draft
+Complete

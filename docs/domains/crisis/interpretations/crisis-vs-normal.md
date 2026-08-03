@@ -1,3 +1,9 @@
+---
+tags:
+  - crisis
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -37,4 +43,4 @@ Undantagen kräver:
 
 ## Status
 
-Draft
+Complete

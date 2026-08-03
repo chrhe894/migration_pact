@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-037-003
@@ -28,4 +34,4 @@ Nollställa ansvar om personen lämnat unionsområdet under tillräckligt lång 
 
 ## Status
 
-Draft
+Complete

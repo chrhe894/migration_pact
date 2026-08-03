@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - time-limits
+---
+
 # RULE-TL-REG-001
 
 ## Rättslig grund
@@ -46,4 +52,4 @@ Se RULE-APR-027-001 för fullständig regeltext med aktörsprecisering. Denna re
 
 ## Status
 
-Draft
+Complete

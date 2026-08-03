@@ -1,3 +1,9 @@
+---
+tags:
+  - return-border-procedure
+  - regel
+---
+
 
 # RULE-RET-004-001
 
@@ -47,4 +53,4 @@ En ansökan om internationellt skydd avslås eller avvisas i asylgränsförfaran
 
 ## Status
 
-Draft
+Complete

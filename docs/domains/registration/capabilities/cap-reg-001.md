@@ -60,4 +60,4 @@ Skapa en juridiskt giltig registrerad ansökan om internationellt skydd inom fö
 
 ## Status
 
-Draft
+Complete

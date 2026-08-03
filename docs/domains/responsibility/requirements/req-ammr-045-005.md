@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-045-005
@@ -28,4 +34,4 @@ Stoppa fristberäkningen under tid då överföring inte kan verkställas p.g.a.
 
 ## Status
 
-Draft
+Complete

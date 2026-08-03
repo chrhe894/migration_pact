@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-041-001
 
@@ -49,4 +55,4 @@ Till skillnad från framställan om övertagande (art. 39) är avisering om åte
 
 ## Status
 
-Draft
+Complete

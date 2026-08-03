@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - capability
+---
+
 ← [Border Procedure](../README.md)
 
 # CAP-BRD-002
@@ -41,4 +47,4 @@ Manage Adequate Capacity
 
 ## Status
 
-Draft
+Complete

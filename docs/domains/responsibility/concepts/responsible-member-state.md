@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - koncept
+---
+
 
 # CON-RES-001
 

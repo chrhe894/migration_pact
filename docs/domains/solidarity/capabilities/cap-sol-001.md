@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - capability
+---
+
 ← [Solidarity](../README.md)
 
 # CAP-SOL-001
@@ -43,4 +49,4 @@ Inrätta och administrera den årliga solidaritetspoolen.
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-040-001
@@ -28,4 +34,4 @@ Sätta tidsgräns för att besvara framställan om övertagande.
 
 ## Status
 
-Draft
+Complete

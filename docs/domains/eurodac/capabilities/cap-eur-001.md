@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - capability
+---
+
 ← [Eurodac](../README.md)
 
 # CAP-EUR-001
@@ -48,4 +54,4 @@ Ta biometriska uppgifter (fingeravtryck + ansiktsbild) med respekt för värdigh
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - krav
+---
+
 ← [Solidarity](../README.md)
 
 # REQ-AMMR-067-002
@@ -28,4 +34,4 @@ Skydda mottagande stats inre säkerhet genom möjlighet att vägra omfördelning
 
 ## Status
 
-Draft
+Complete

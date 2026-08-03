@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-036-003
@@ -28,4 +34,4 @@ Säkerställa att ansvarig stat fullgör sin skyldighet att handlägga ansökan.
 
 ## Status
 
-Draft
+Complete

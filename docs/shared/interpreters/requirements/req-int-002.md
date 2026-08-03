@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 ← [Interpreters](../README.md)
 
 # REQ-INT-002
@@ -28,4 +34,4 @@ Garanterar att rätten till tolk är reell och ekonomiskt tillgänglig, inte enb
 
 ## Status
 
-Draft
+Complete

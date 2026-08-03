@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - capability
+---
+
 ← [Screening](../README.md)
 
 # CAP-SCR-008
@@ -49,4 +55,4 @@ Säkerställa barnets bästa och utse företrädare för ensamkommande barn.
 
 ## Status
 
-Draft
+Complete

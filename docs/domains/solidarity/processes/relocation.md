@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - process
+---
+
 
 # PROC-SOL-001
 

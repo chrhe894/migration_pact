@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-045-002
@@ -28,4 +34,4 @@ Förkorta svarstiden vid förvar för att minimera frihetsberövandet.
 
 ## Status
 
-Draft
+Complete

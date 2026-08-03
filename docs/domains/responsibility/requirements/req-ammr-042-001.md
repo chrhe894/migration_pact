@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-042-001
@@ -28,4 +34,4 @@ Sätta tidsgräns för att formalisera överföringsbeslutet efter godtagande.
 
 ## Status
 
-Draft
+Complete

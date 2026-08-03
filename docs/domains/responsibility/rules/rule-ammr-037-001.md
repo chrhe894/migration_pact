@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-037-001
 
@@ -52,4 +58,4 @@ Den praktiskt viktigaste konsekvensen är att om den överförande staten inte v
 
 ## Status
 
-Draft
+Complete

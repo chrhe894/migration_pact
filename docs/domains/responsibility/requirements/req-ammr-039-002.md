@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-039-002
@@ -28,4 +34,4 @@ Förkorta tidsfristen vid starkare bevisläge genom träff i EU-databas.
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-038-001
 
@@ -47,4 +53,4 @@ Om sökanden avviker ska förfarandet fortgå ändå (punkt 2). Den fastställan
 
 ## Status
 
-Draft
+Complete

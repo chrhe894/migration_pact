@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - capability
+---
+
 ← [Responsibility](../README.md)
 
 # CAP-RES-005
@@ -41,4 +47,4 @@ Fatta och meddela överföringsbeslut med rättsmedelsupplysning.
 
 ## Status
 
-Draft
+Complete

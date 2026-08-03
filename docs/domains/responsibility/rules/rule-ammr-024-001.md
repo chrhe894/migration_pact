@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-024-001
 
@@ -41,4 +47,4 @@ Förfarandet för att fastställa ansvarig medlemsstat inleds efter registrering
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-008-003
 
@@ -50,4 +56,4 @@ Screeningförfarandet inleds för en person som omfattas av artikel 5 eller 7.
 
 ## Status
 
-Draft
+Complete

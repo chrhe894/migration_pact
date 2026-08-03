@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-039-001
 
@@ -53,4 +59,4 @@ Vid ensamkommande barn får framställan göras även efter tidsfristernas utgå
 
 ## Status
 
-Draft
+Complete

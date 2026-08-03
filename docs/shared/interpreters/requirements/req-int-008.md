@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 ← [Interpreters](../README.md)
 
 # REQ-INT-008
@@ -28,4 +34,4 @@ Skapar förutsättningar för att sökanden ska kunna redogöra för sina grunde
 
 ## Status
 
-Draft
+Complete

@@ -54,4 +54,4 @@ Regeln hanterar det fall då sökanden vänder sig till fel myndighet. Den motta
 
 ## Status
 
-Draft
+Complete

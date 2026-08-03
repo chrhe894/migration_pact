@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 ← [Interpreters](../README.md)
 
 # REQ-INT-006
@@ -28,4 +34,4 @@ Möjliggör en tryggare intervjusituation för sökande som utsatts för könsba
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - regel
+---
+
 
 # RULE-APR-051-001
 
@@ -53,4 +59,4 @@ Underlåtenhet att iaktta femddagarsfristen påverkar inte den fortsatta tilläm
 
 ## Status
 
-Draft
+Complete

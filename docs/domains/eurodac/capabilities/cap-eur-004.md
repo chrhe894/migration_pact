@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - capability
+---
+
 ← [Eurodac](../README.md)
 
 # CAP-EUR-004
@@ -41,4 +47,4 @@ Säkerställa barnvänligt förfarande vid biometritagning från 6 års ålder.
 
 ## Status
 
-Draft
+Complete

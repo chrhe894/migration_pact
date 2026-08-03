@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - krav
+---
+
 ← [Solidarity](../README.md)
 
 # REQ-AMMR-057-002
@@ -28,4 +34,4 @@ Formalisera solidaritetspoolens sammansättning och fördelning genom rättsligt
 
 ## Status
 
-Draft
+Complete

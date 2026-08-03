@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 ← [Interpreters](../README.md)
 
 # REQ-INT-001
@@ -28,4 +34,4 @@ Säkerställer att sökanden kan kommunicera effektivt vid de centrala stegen i 
 
 ## Status
 
-Draft
+Complete

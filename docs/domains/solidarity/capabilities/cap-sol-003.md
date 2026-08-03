@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - capability
+---
+
 ← [Solidarity](../README.md)
 
 # CAP-SOL-003
@@ -41,4 +47,4 @@ Apply Responsibility Offset
 
 ## Status
 
-Draft
+Complete

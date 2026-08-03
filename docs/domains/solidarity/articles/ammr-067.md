@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - artikel
+---
+
 
 # ART-AMMR-067
 

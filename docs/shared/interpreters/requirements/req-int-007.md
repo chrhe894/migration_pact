@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 ← [Interpreters](../README.md)
 
 # REQ-INT-007
@@ -28,4 +34,4 @@ Säkerställer att den som genomför intervjun har nödvändig kompetens inom in
 
 ## Status
 
-Draft
+Complete

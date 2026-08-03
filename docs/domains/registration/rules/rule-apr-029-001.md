@@ -60,4 +60,4 @@ Handlingen är ett tillfälligt dokument som bekräftar registreringen. Den ska 
 
 ## Status
 
-Draft
+Complete

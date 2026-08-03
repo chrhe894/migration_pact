@@ -1,3 +1,9 @@
+---
+tags:
+  - registration
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -38,4 +44,4 @@ Distinktionen är praktiskt viktig eftersom tidsfrister och rättsverkningar kop
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - registration
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -33,4 +39,4 @@ Artikel 4 i APR fastställer vilka myndigheter som är behöriga i respektive ro
 
 ## Status
 
-Draft
+Complete

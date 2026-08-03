@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-045-001
@@ -29,4 +35,4 @@ Skynda på förfarandet vid frihetsberövande för att begränsa förvarstiden.
 
 ## Status
 
-Draft
+Complete

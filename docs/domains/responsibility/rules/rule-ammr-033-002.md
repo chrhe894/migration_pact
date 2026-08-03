@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-033-002
 
@@ -55,4 +61,4 @@ Tidsbegränsningen innebär att om sökanden inte registrerar en ansökan inom d
 
 ## Status
 
-Draft
+Complete

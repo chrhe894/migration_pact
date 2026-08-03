@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - capability
+---
+
 ← [Screening](../README.md)
 
 # CAP-SCR-007
@@ -48,4 +54,4 @@ Informera personen om screeningens syfte, rättigheter, skyldigheter och utfall.
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-036-002
@@ -28,4 +34,4 @@ Säkerställa att ansvarig stat tar tillbaka personer som redan registrerats und
 
 ## Status
 
-Draft
+Complete

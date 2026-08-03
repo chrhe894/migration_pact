@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-038-001
@@ -28,4 +34,4 @@ Säkerställa att ansvarsbestämningsprocessen startar omgående.
 
 ## Status
 
-Draft
+Complete

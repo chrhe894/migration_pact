@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - time-limits
+---
+
 # RULE-TL-REG-002
 
 ## Rättslig grund
@@ -46,4 +52,4 @@ Undantag från RULE-TL-REG-001. Se RULE-APR-027-004 för fullständig regeltext.
 
 ## Status
 
-Draft
+Complete

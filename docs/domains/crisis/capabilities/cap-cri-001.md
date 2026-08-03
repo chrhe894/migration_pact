@@ -1,3 +1,9 @@
+---
+tags:
+  - crisis
+  - capability
+---
+
 ← [Crisis](../README.md)
 
 # CAP-CRI-001
@@ -45,4 +51,4 @@ Aktivera undantagsbestämmelser vid kris, force majeure eller instrumentaliserin
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-040-001
 
@@ -52,4 +58,4 @@ Tyst godkännande är den mekanism som säkerställer att systemet inte blockera
 
 ## Status
 
-Draft
+Complete

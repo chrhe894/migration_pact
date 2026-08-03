@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-013-002
 
@@ -51,4 +57,4 @@ Avsaknad av företrädare får inte hindra ett ensamkommande barn från att utö
 
 ## Status
 
-Draft
+Complete

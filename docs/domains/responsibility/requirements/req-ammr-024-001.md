@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-024-001
@@ -28,4 +34,4 @@ Säkerställa en enhetlig och förutsebar ansvarsfördelning genom strikt rangor
 
 ## Status
 
-Draft
+Complete

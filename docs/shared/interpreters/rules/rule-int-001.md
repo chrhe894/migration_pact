@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 # RULE-INT-001
 
 ## R채ttslig grund
@@ -48,4 +54,4 @@ R채tten till tolk 채r villkorad av att 채ndam책lsenlig kommunikation inte kan s�
 
 ## Status
 
-Draft
+Complete

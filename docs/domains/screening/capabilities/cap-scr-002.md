@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - capability
+---
+
 ← [Screening](../README.md)
 
 # CAP-SCR-002
@@ -55,4 +61,4 @@ Genomföra screening inom territoriet inom 3 dagar.
 
 ## Status
 
-Draft
+Complete

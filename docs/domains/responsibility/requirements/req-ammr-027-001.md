@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-027-001
@@ -28,4 +34,4 @@ Samla familjemedlemmar genom att tilldela ansvar till den stat där en familjeme
 
 ## Status
 
-Draft
+Complete

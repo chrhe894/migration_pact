@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - regel
+---
+
 
 # RULE-APR-045-001
 
@@ -57,4 +63,4 @@ Obligatorisk tillämpning kan avbrytas om kapaciteten uppnåtts (art. 47–50) e
 
 ## Status
 
-Draft
+Complete

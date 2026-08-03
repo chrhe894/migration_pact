@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-046-004
@@ -28,4 +34,4 @@ Bestämma ansvarspåföljden vid fristöverskridande för verkställande av öve
 
 ## Status
 
-Draft
+Complete

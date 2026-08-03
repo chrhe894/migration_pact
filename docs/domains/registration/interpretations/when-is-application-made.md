@@ -1,3 +1,9 @@
+---
+tags:
+  - registration
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -36,4 +42,4 @@ APR artikel 26 anger att det räcker med att personen "uttrycker" en önskan —
 
 ## Status
 
-Draft
+Complete

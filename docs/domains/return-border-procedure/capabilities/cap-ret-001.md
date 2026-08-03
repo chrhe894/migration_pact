@@ -1,3 +1,9 @@
+---
+tags:
+  - return-border-procedure
+  - capability
+---
+
 ← [Return Border Procedure](../README.md)
 
 # CAP-RET-001
@@ -43,4 +49,4 @@ Genomföra återvändandegränsförfarandet efter avslag inom 12 veckor.
 
 ## Status
 
-Draft
+Complete

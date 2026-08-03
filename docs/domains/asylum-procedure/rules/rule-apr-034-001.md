@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-034-001
 
@@ -41,4 +47,4 @@ En ansökan om internationellt skydd har lämnats in och ska prövas av den besl
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - capability
+---
+
 ← [Border Procedure](../README.md)
 
 # CAP-BRD-001
@@ -44,4 +50,4 @@ Tillämpa gränsförfarandet vid yttre gräns utan att sökanden tillåts resa i
 
 ## Status
 
-Draft
+Complete

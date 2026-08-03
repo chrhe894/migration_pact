@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -40,4 +46,4 @@ AMMR:s solidaritetsmekanism är inte enbart omfördelning — den består av fle
 
 ## Status
 
-Draft
+Complete

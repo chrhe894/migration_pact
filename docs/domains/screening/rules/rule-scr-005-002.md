@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-005-002
 
@@ -41,4 +47,4 @@ En tredjelandsmedborgare ansöker om internationellt skydd vid ett gränsöverg�
 
 ## Status
 
-Draft
+Complete

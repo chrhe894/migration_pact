@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-038-001
 
@@ -48,4 +54,4 @@ Den beslutande myndigheten prövar upptagbarheten av en ansökan om internatione
 
 ## Status
 
-Draft
+Complete

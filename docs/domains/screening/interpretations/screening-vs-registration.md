@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -36,4 +42,4 @@ Kopplingen är även operativ: uppgifterna i screeningformuläret (artikel 17) k
 
 ## Status
 
-Draft
+Complete

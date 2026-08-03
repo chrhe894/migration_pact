@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-034-001
 
@@ -41,4 +47,4 @@ Det konstateras att sökanden är beroende av en annan persons assistans på gru
 
 ## Status
 
-Draft
+Complete

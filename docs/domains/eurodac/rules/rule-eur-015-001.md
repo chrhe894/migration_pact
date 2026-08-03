@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - regel
+---
+
 
 # RULE-EUR-015-001
 
@@ -56,4 +62,4 @@ För ansökningar vid yttre gräns eller transitzon av personer som inte uppfyll
 
 ## Status
 
-Draft
+Complete

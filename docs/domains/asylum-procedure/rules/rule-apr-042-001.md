@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-042-001
 
@@ -49,4 +55,4 @@ Någon av de uppräknade omständigheterna i artikel 42 föreligger vid prövnin
 
 ## Status
 
-Draft
+Complete

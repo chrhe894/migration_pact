@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -41,4 +47,4 @@ Upptagandeprövningen kan ses som en "grindvakt" — den avgör om prövningsmas
 
 ## Status
 
-Draft
+Complete

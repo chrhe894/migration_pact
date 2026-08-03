@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-032-001
 
@@ -41,4 +47,4 @@ En tredjelandsmedborgare gör en ansökan om internationellt skydd inom det inte
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-044-002
@@ -28,4 +34,4 @@ Säkerställa att frihetsberövande grundas på individuell riskbedömning.
 
 ## Status
 
-Draft
+Complete

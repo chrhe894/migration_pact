@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - statistics
+---
+
 ← [Statistics](../README.md)
 
 # REQ-AMMR-009-003
@@ -28,4 +34,4 @@ Möjliggör proaktiv planering och tidiga insatser genom att tillhandahålla fra
 
 ## Status
 
-Draft
+Complete

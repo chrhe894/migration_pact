@@ -1,3 +1,9 @@
+---
+tags:
+  - crisis
+  - koncept
+---
+
 
 # CON-CRI-003
 

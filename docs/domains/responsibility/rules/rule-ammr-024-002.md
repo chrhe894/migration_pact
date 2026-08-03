@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-024-002
 
@@ -53,4 +59,4 @@ Tidpunkten kopplas till registreringen enligt APR artikel 27 — inte till inres
 
 ## Status
 
-Draft
+Complete

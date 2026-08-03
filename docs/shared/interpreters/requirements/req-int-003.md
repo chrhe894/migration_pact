@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 ← [Interpreters](../README.md)
 
 # REQ-INT-003
@@ -28,4 +34,4 @@ Säkerställer att tolkningens kvalitet och objektivitet upprätthålls, och att
 
 ## Status
 
-Draft
+Complete

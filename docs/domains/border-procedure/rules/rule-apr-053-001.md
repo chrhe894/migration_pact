@@ -1,3 +1,9 @@
+---
+tags:
+  - border-procedure
+  - regel
+---
+
 
 # RULE-APR-053-001
 
@@ -52,4 +58,4 @@ Undantaget för ensamkommande barn innebär i praktiken att ensamkommande barn s
 
 ## Status
 
-Draft
+Complete

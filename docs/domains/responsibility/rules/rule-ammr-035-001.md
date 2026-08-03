@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-035-001
 
@@ -47,4 +53,4 @@ Denna klausul kallas "suveränitetsklausulen" eller "diskretionär bedömning". 
 
 ## Status
 
-Draft
+Complete

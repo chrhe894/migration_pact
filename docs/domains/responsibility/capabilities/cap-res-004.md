@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - capability
+---
+
 ← [Responsibility](../README.md)
 
 # CAP-RES-004
@@ -41,4 +47,4 @@ Avisera ansvarig stat om person som befinner sig i fel stat.
 
 ## Status
 
-Draft
+Complete

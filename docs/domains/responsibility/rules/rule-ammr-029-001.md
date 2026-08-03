@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-029-001
 
@@ -49,4 +55,4 @@ Det konstateras att sökanden innehar eller har innehaft en giltig uppehållshan
 
 ## Status
 
-Draft
+Complete

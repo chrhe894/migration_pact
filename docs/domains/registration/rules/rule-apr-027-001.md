@@ -57,4 +57,4 @@ Skyldigheten gäller den myndighet som är behörig att registrera ansökningar,
 
 ## Status
 
-Draft
+Complete

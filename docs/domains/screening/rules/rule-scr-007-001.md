@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-007-001
 
@@ -53,4 +59,4 @@ Screening inom territoriet är avgränsad till personer som inte redan har genom
 
 ## Status
 
-Draft
+Complete

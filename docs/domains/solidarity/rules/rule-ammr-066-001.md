@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - regel
+---
+
 
 # RULE-AMMR-066-001
 
@@ -41,4 +47,4 @@ Solidaritetspoolen ska beräknas och fördelningen av bidrag bestämmas.
 
 ## Status
 
-Draft
+Complete

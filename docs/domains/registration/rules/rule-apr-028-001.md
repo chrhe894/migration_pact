@@ -55,4 +55,4 @@ Tidsfristen på 21 dagar räknas från registreringen, inte från det att ansök
 
 ## Status
 
-Draft
+Complete

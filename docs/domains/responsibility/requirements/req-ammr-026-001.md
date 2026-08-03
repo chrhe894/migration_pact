@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-026-001
@@ -28,4 +34,4 @@ Möjliggöra familjeåterförening genom att tilldela ansvar till den stat där 
 
 ## Status
 
-Draft
+Complete

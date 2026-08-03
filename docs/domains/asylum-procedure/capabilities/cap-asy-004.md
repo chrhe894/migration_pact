@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - capability
+---
+
 ← [Asylum Procedure](../README.md)
 
 # CAP-ASY-004
@@ -42,4 +48,4 @@ Bedöma om nya omständigheter finns och avgöra om ansökan ska avvisas eller p
 
 ## Status
 
-Draft
+Complete

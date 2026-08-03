@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-006-001
 
@@ -49,4 +55,4 @@ Regeln innebär en de facto friktionsbegränsning utan formellt inresebeslut. De
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - capability
+---
+
 ← [Asylum Procedure](../README.md)
 
 # CAP-ASY-005
@@ -44,4 +50,4 @@ Fatta och meddela beslut samt vid avslag utfärda återvändandebeslut.
 
 ## Status
 
-Draft
+Complete

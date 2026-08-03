@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - capability
+---
+
 ← [Responsibility](../README.md)
 
 # CAP-RES-003
@@ -42,4 +48,4 @@ Bedöma och besvara framställan inom tidsfrist.
 
 ## Status
 
-Draft
+Complete

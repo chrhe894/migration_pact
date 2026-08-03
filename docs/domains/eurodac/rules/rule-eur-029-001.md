@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - regel
+---
+
 
 # RULE-EUR-029-001
 
@@ -41,4 +47,4 @@ Biometriska uppgifter för en asylsökande överförs till Eurodac.
 
 ## Status
 
-Draft
+Complete

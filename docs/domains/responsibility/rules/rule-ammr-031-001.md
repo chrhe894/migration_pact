@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-031-001
 
@@ -43,4 +49,4 @@ En tredjelandsmedborgare som inte behöver visering reser in i EU via en specifi
 
 ## Status
 
-Draft
+Complete

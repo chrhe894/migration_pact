@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-055-002
 
@@ -47,4 +53,4 @@ Förhandsprövningen av en efterföljande ansökan visar att inga nya relevanta 
 
 ## Status
 
-Draft
+Complete

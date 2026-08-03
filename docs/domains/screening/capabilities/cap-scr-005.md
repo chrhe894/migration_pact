@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - capability
+---
+
 ← [Screening](../README.md)
 
 # CAP-SCR-005
@@ -51,4 +57,4 @@ Sammanställa all screeninginformation i ett formulär som överlämnas till nä
 
 ## Status
 
-Draft
+Complete

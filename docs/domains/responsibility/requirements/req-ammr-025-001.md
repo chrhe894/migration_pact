@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-025-001
@@ -28,4 +34,4 @@ Säkerställa att barnets bästa är den primära övervägningen vid ansvarsbes
 
 ## Status
 
-Draft
+Complete

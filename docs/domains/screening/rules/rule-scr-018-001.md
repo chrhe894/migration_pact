@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-018-001
 
@@ -60,4 +66,4 @@ Screeningformuläret ska överlämnas till den myndighet som personen hänvisas 
 
 ## Status
 
-Draft
+Complete

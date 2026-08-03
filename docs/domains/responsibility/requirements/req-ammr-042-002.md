@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-042-002
@@ -28,4 +34,4 @@ Säkerställa att personen informeras om överföringsbeslutet på ett förståe
 
 ## Status
 
-Draft
+Complete

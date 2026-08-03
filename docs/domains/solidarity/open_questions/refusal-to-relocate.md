@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - öppen-fråga
+---
+
 
 # Öppen fråga
 

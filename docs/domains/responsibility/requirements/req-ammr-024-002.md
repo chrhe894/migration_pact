@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-024-002
@@ -28,4 +34,4 @@ Förankra ansvarsbedömningen i de faktiska omständigheterna vid tidpunkten fö
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - koncept
+---
+
 
 # CON-SOL-002
 

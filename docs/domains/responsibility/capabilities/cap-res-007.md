@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - capability
+---
+
 ← [Responsibility](../README.md)
 
 # CAP-RES-007
@@ -41,4 +47,4 @@ Säkerställa sökandens rätt till överklagande och suspensiv verkan.
 
 ## Status
 
-Draft
+Complete

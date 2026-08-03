@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - capability
+---
+
 ← [Asylum Procedure](../README.md)
 
 # CAP-ASY-002
@@ -42,4 +48,4 @@ Bedöma om en ansökan kan tas upp till prövning i sak eller ska avvisas.
 
 ## Status
 
-Draft
+Complete

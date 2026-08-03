@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - regel
+---
+
 
 # RULE-EUR-013-001
 
@@ -41,4 +47,4 @@ En person som tillhör en av Eurodacs personkategorier identifieras av en medlem
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - krav
+---
+
 ← [Solidarity](../README.md)
 
 # REQ-AMMR-066-001
@@ -28,4 +34,4 @@ Fastställa en rättvis fördelningsnyckel baserad på ekonomisk kapacitet och b
 
 ## Status
 
-Draft
+Complete

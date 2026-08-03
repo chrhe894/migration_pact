@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - krav
+---
+
 ← [Solidarity](../README.md)
 
 # REQ-AMMR-063-001
@@ -28,4 +34,4 @@ Tillhandahålla en alternativ solidaritetsmekanism när fysisk omfördelning int
 
 ## Status
 
-Draft
+Complete

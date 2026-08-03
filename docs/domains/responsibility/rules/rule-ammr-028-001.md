@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-028-001
 
@@ -50,4 +56,4 @@ Regeln fungerar som en skyddsregel för familjeenhet. Den aktiveras enbart om de
 
 ## Status
 
-Draft
+Complete

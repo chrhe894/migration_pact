@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - capability
+---
+
 ← [Asylum Procedure](../README.md)
 
 # CAP-ASY-003
@@ -41,4 +47,4 @@ Tillämpa påskyndat förfarande med 3-månadersfrist vid kvalificerande grunder
 
 ## Status
 
-Draft
+Complete

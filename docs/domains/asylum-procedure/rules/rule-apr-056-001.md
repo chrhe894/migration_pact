@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - regel
+---
+
 
 # RULE-APR-056-001
 
@@ -51,4 +57,4 @@ Undantaget innebär att personen i princip kan avlägsnas under pågående pröv
 
 ## Status
 
-Draft
+Complete

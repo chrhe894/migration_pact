@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-041-003
@@ -28,4 +34,4 @@ Förhindra blockering av återtagandeförfarandet genom att likställa passivite
 
 ## Status
 
-Draft
+Complete

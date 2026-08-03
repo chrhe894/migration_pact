@@ -1,3 +1,9 @@
+---
+tags:
+  - screening
+  - regel
+---
+
 
 # RULE-SCR-013-001
 
@@ -41,4 +47,4 @@ En person som är under 18 år genomgår screening.
 
 ## Status
 
-Draft
+Complete

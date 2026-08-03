@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - time-limits
+---
+
 # RULE-TL-LOD-002
 
 ## Rättslig grund
@@ -46,4 +52,4 @@ Undantag från RULE-TL-LOD-001. Se RULE-APR-028-004 för fullständig regeltext.
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-033-001
@@ -28,4 +34,4 @@ Tilldela ansvar till den stat där personen först irreguljärt reste in i EU.
 
 ## Status
 
-Draft
+Complete

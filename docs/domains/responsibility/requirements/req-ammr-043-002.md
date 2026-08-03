@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-043-002
@@ -28,4 +34,4 @@ Möjliggöra att överföringen inhiberas i avvaktan på domstolsprövning.
 
 ## Status
 
-Draft
+Complete

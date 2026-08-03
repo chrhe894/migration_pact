@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-044-003
@@ -28,4 +34,4 @@ Begränsa frihetsberövandets varaktighet till det absolut nödvändiga.
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - asylum-procedure
+  - capability
+---
+
 ← [Asylum Procedure](../README.md)
 
 # CAP-ASY-006
@@ -42,4 +48,4 @@ Hantera uttryckligt och implicit återkallande av ansökan.
 
 ## Status
 
-Draft
+Complete

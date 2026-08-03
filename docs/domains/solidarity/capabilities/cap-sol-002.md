@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - capability
+---
+
 ← [Solidarity](../README.md)
 
 # CAP-SOL-002
@@ -44,4 +50,4 @@ Fysiskt omfördela sökande från utsatt till bidragande stat.
 
 ## Status
 
-Draft
+Complete

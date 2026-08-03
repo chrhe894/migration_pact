@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-037-001
@@ -28,4 +34,4 @@ Flytta ansvar till den stat som utfärdat ny uppehållshandling.
 
 ## Status
 
-Draft
+Complete

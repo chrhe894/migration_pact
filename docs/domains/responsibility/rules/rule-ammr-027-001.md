@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-027-001
 
@@ -47,4 +53,4 @@ Kriteriet kopplar till en pågående ansökan (inte beviljat skydd) och kräver 
 
 ## Status
 
-Draft
+Complete

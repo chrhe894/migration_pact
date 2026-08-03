@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-029-001
@@ -28,4 +34,4 @@ Koppla ansvar till den stat som möjliggjort personens lagliga närvaro genom ut
 
 ## Status
 
-Draft
+Complete

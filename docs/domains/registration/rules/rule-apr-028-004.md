@@ -61,4 +61,4 @@ Undantaget motsvarar 15-dagarsregeln vid registrering (RULE-APR-027-004) men avs
 
 ## Status
 
-Draft
+Complete

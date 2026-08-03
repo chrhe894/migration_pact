@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - process
+---
+
 
 # PROC-RES-001
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - regel
+---
+
 
 # RULE-AMMR-030-001
 
@@ -43,4 +49,4 @@ Det konstateras att sökanden har ett examensbevis utfärdat av en utbildningsan
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - krav
+---
+
 ← [Responsibility](../README.md)
 
 # REQ-AMMR-046-002
@@ -28,4 +34,4 @@ Möjliggöra förlängd överföringsfrist om personen avviker.
 
 ## Status
 
-Draft
+Complete

@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - capability
+---
+
 ← [Eurodac](../README.md)
 
 # CAP-EUR-002
@@ -48,4 +54,4 @@ Transmit Dataset for Asylum Applicants
 
 ## Status
 
-Draft
+Complete

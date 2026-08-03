@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - statistics
+---
+
 ← [Statistics](../README.md)
 
 # CAP-STA-001
@@ -42,4 +48,4 @@ Samla in, analysera och publicera årlig asyl- och migrationsrapport.
 
 ## Status
 
-Draft
+Complete

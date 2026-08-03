@@ -1,3 +1,9 @@
+---
+tags:
+  - shared
+  - interpreters
+---
+
 ← [Interpreters](../README.md)
 
 # RULE-INT-002
@@ -54,4 +60,4 @@ Regeln kompletterar RULE-INT-001 genom att fastställa att rätten till tolk int
 
 ## Status
 
-Draft
+Complete

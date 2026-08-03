@@ -1,3 +1,9 @@
+---
+tags:
+  - eurodac
+  - tolkning
+---
+
 
 # Tolkning
 
@@ -34,4 +40,4 @@ Det innebär att:
 
 ## Status
 
-Draft
+Complete

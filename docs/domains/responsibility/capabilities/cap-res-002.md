@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - capability
+---
+
 ← [Responsibility](../README.md)
 
 # CAP-RES-002
@@ -43,4 +49,4 @@ Skicka framställan om övertagande till annan stat inom tidsfrist.
 
 ## Status
 
-Draft
+Complete

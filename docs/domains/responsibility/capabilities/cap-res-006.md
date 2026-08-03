@@ -1,3 +1,9 @@
+---
+tags:
+  - responsibility
+  - capability
+---
+
 ← [Responsibility](../README.md)
 
 # CAP-RES-006
@@ -43,4 +49,4 @@ Verkställa fysisk överföring till ansvarig stat inom tidsfrist.
 
 ## Status
 
-Draft
+Complete

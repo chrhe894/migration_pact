@@ -1,3 +1,9 @@
+---
+tags:
+  - solidarity
+  - krav
+---
+
 ← [Solidarity](../README.md)
 
 # REQ-AMMR-063-002
@@ -28,4 +34,4 @@ Säkerställa att prövningsansvaret faktiskt övergår vid ansvarskompensation.
 
 ## Status
 
-Draft
+Complete
