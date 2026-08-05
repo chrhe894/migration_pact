@@ -1,4 +1,4 @@
-site_name: EU Migration and Asylum Pact — Knowledge Base
+site_name: EU:s migrations- och asylpakt — Kunskapsbas
 site_description: Strukturerad kunskapsbas för EU:s migrations- och asylpakt
 docs_dir: docs
 site_dir: site
@@ -35,7 +35,7 @@ nav:
   - Ordlista: GLOSSARY.md
   - Dublin vs AMMR: DUBLIN_VS_AMMR.md
   - Domäner:
-    - Registration:
+    - Registrering:
       - domains/registration/README.md
       - Artiklar:
         - APR artikel 27: domains/registration/articles/apr-027.md
@@ -44,17 +44,17 @@ nav:
         - APR artikel 32: domains/registration/articles/apr-032.md
         - APR artikel 33: domains/registration/articles/apr-033.md
       - Processer:
-        - Registration: domains/registration/processes/registration-of-an-application.md
-        - Lodging: domains/registration/processes/lodging-an-application.md
-        - Issue documents: domains/registration/processes/issue-applicant-documents.md
+        - Registrering: domains/registration/processes/registration-of-an-application.md
+        - Ingivande: domains/registration/processes/lodging-an-application.md
+        - Utfärda dokument: domains/registration/processes/issue-applicant-documents.md
       - Begrepp:
-        - Application: domains/registration/concepts/application-for-international-protection.md
-        - Applicant: domains/registration/concepts/applicant.md
-        - Registration: domains/registration/concepts/registration.md
-        - Registration authority: domains/registration/concepts/registration-authority.md
-        - Lodging: domains/registration/concepts/lodging.md
-        - Registration certificate: domains/registration/concepts/registration-certificate.md
-        - Applicant document: domains/registration/concepts/applicant-document.md
+        - Ansökan: domains/registration/concepts/application-for-international-protection.md
+        - Sökande: domains/registration/concepts/applicant.md
+        - Registrering: domains/registration/concepts/registration.md
+        - Registreringsmyndighet: domains/registration/concepts/registration-authority.md
+        - Ingivande: domains/registration/concepts/lodging.md
+        - Registreringsbevis: domains/registration/concepts/registration-certificate.md
+        - Sökandens dokument: domains/registration/concepts/applicant-document.md
       - Regler:
         - RULE-APR-027-001: domains/registration/rules/rule-apr-027-001.md
         - RULE-APR-027-002: domains/registration/rules/rule-apr-027-002.md
@@ -71,11 +71,11 @@ nav:
         - RULE-APR-029-003: domains/registration/rules/rule-apr-029-003.md
       - Tolkningar:
         - Made vs registered vs lodged: domains/registration/interpretations/made-vs-registered-vs-lodged.md
-        - Registering authority: domains/registration/interpretations/registering-authority.md
-        - When is application made: domains/registration/interpretations/when-is-application-made.md
+        - Registreringsmyndighet: domains/registration/interpretations/registering-authority.md
+        - När görs ansökan: domains/registration/interpretations/when-is-application-made.md
       - Öppna frågor:
-        - Impact of screening regulation: domains/registration/open_questions/impact-of-screening-regulation.md
-        - National margin of appreciation: domains/registration/open_questions/national-margin-of-appreciation.md
+        - Screeningförordningens påverkan: domains/registration/open_questions/impact-of-screening-regulation.md
+        - Nationellt bedömningsutrymme: domains/registration/open_questions/national-margin-of-appreciation.md
       - Capabilities:
         - CAP-REG-001 Register Application: domains/registration/capabilities/cap-reg-001.md
         - CAP-REG-002 Receive and Forward: domains/registration/capabilities/cap-reg-002.md
@@ -132,10 +132,10 @@ nav:
         - Inom territoriet: domains/screening/processes/screening-within-territory.md
       - Begrepp:
         - Screening: domains/screening/concepts/screening.md
-        - Screening authority: domains/screening/concepts/screening-authority.md
-        - Screening form: domains/screening/concepts/screening-form.md
-        - Preliminary health check: domains/screening/concepts/preliminary-health-check.md
-        - Vulnerability check: domains/screening/concepts/vulnerability-check.md
+        - Screeningmyndighet: domains/screening/concepts/screening-authority.md
+        - Screeningformulär: domains/screening/concepts/screening-form.md
+        - Preliminär hälsokontroll: domains/screening/concepts/preliminary-health-check.md
+        - Sårbarhetskontroll: domains/screening/concepts/vulnerability-check.md
       - Regler:
         - RULE-SCR-005-001: domains/screening/rules/rule-scr-005-001.md
         - RULE-SCR-005-002: domains/screening/rules/rule-scr-005-002.md
@@ -152,10 +152,10 @@ nav:
         - RULE-SCR-017-001: domains/screening/rules/rule-scr-017-001.md
         - RULE-SCR-018-001: domains/screening/rules/rule-scr-018-001.md
       - Tolkningar:
-        - Screening vs registration: domains/screening/interpretations/screening-vs-registration.md
+        - Screening vs registrering: domains/screening/interpretations/screening-vs-registration.md
       - Öppna frågor:
-        - Screening during mass arrivals: domains/screening/open_questions/screening-during-mass-arrivals.md
-        - When is screening concluded: domains/screening/open_questions/when-is-screening-concluded.md
+        - Screening vid massankomster: domains/screening/open_questions/screening-during-mass-arrivals.md
+        - När avslutas screening: domains/screening/open_questions/when-is-screening-concluded.md
       - Capabilities:
         - Översikt: domains/screening/capabilities/README.md
         - CAP-SCR-001 External Border: domains/screening/capabilities/cap-scr-001.md
@@ -178,14 +178,14 @@ nav:
         - Artikel 23: domains/eurodac/articles/eur-023.md
         - Artikel 29: domains/eurodac/articles/eur-029.md
       - Processer:
-        - Biometric data: domains/eurodac/processes/collect-and-transmit-biometric-data.md
+        - Biometriska uppgifter: domains/eurodac/processes/collect-and-transmit-biometric-data.md
       - Begrepp:
         - Eurodac: domains/eurodac/concepts/eurodac.md
-        - Biometric data: domains/eurodac/concepts/biometric-data.md
-        - Fingerprint data: domains/eurodac/concepts/fingerprint-data.md
-        - Facial image data: domains/eurodac/concepts/facial-image-data.md
+        - Biometriska uppgifter: domains/eurodac/concepts/biometric-data.md
+        - Fingeravtryck: domains/eurodac/concepts/fingerprint-data.md
+        - Ansiktsbild: domains/eurodac/concepts/facial-image-data.md
         - Dataset: domains/eurodac/concepts/dataset.md
-        - Originating Member State: domains/eurodac/concepts/originating-member-state.md
+        - Ursprungsmedlemsstat: domains/eurodac/concepts/originating-member-state.md
       - Regler:
         - RULE-EUR-013-001: domains/eurodac/rules/rule-eur-013-001.md
         - RULE-EUR-013-002: domains/eurodac/rules/rule-eur-013-002.md
@@ -195,9 +195,9 @@ nav:
         - RULE-EUR-029-001: domains/eurodac/rules/rule-eur-029-001.md
         - RULE-EUR-029-002: domains/eurodac/rules/rule-eur-029-002.md
       - Tolkningar:
-        - Eurodac in screening and registration: domains/eurodac/interpretations/eurodac-in-screening-and-registration.md
+        - Eurodac vid screening och registrering: domains/eurodac/interpretations/eurodac-in-screening-and-registration.md
       - Öppna frågor:
-        - Scope of next eurodac slice: domains/eurodac/open_questions/scope-of-next-eurodac-slice.md
+        - Nästa Eurodac-steg: domains/eurodac/open_questions/scope-of-next-eurodac-slice.md
       - Capabilities:
         - Översikt: domains/eurodac/capabilities/README.md
         - CAP-EUR-001 Collect Biometric: domains/eurodac/capabilities/cap-eur-001.md
@@ -207,7 +207,7 @@ nav:
         - CAP-EUR-005 Store and Delete: domains/eurodac/capabilities/cap-eur-005.md
       - Krav:
         - Översikt: domains/eurodac/requirements/README.md
-    - Responsibility:
+    - Ansvar:
       - domains/responsibility/README.md
       - Artiklar:
         - AMMR artikel 2: domains/responsibility/articles/ammr-002.md
@@ -235,14 +235,14 @@ nav:
         - AMMR artikel 45: domains/responsibility/articles/ammr-045.md
         - AMMR artikel 46: domains/responsibility/articles/ammr-046.md
       - Processer:
-        - Determine responsible MS: domains/responsibility/processes/determine-responsible-member-state.md
+        - Bestäm ansvarig medlemsstat: domains/responsibility/processes/determine-responsible-member-state.md
       - Begrepp:
-        - Responsible Member State: domains/responsibility/concepts/responsible-member-state.md
-        - Criteria hierarchy: domains/responsibility/concepts/criteria-hierarchy.md
-        - Take charge request: domains/responsibility/concepts/take-charge-request.md
-        - Take back notification: domains/responsibility/concepts/take-back-notification.md
-        - Transfer: domains/responsibility/concepts/transfer.md
-        - Determining Member State: domains/responsibility/concepts/determining-member-state.md
+        - Ansvarig medlemsstat: domains/responsibility/concepts/responsible-member-state.md
+        - Kriteriehierarki: domains/responsibility/concepts/criteria-hierarchy.md
+        - Framställan om övertagande: domains/responsibility/concepts/take-charge-request.md
+        - Meddelande om återtagande: domains/responsibility/concepts/take-back-notification.md
+        - Överföring: domains/responsibility/concepts/transfer.md
+        - Prövande medlemsstat: domains/responsibility/concepts/determining-member-state.md
       - Regler:
         - RULE-AMMR-024-001: domains/responsibility/rules/rule-ammr-024-001.md
         - RULE-AMMR-024-002: domains/responsibility/rules/rule-ammr-024-002.md
@@ -271,10 +271,10 @@ nav:
         - RULE-AMMR-045-002: domains/responsibility/rules/rule-ammr-045-002.md
         - RULE-AMMR-046-001: domains/responsibility/rules/rule-ammr-046-001.md
       - Tolkningar:
-        - First registration as reference point: domains/responsibility/interpretations/first-registration-as-reference-point.md
+        - Första registrering som referenspunkt: domains/responsibility/interpretations/first-registration-as-reference-point.md
       - Öppna frågor:
-        - Cessation of responsibility: domains/responsibility/open_questions/cessation-of-responsibility.md
-        - No criteria match: domains/responsibility/open_questions/no-criteria-match.md
+        - Upphörande av ansvar: domains/responsibility/open_questions/cessation-of-responsibility.md
+        - Inget kriterium matchar: domains/responsibility/open_questions/no-criteria-match.md
       - Capabilities:
         - Översikt: domains/responsibility/capabilities/README.md
         - CAP-RES-001 Determine Responsible MS: domains/responsibility/capabilities/cap-res-001.md
@@ -287,7 +287,7 @@ nav:
         - CAP-RES-008 Discretionary Clause: domains/responsibility/capabilities/cap-res-008.md
       - Krav:
         - Översikt: domains/responsibility/requirements/README.md
-    - Asylum Procedure:
+    - Asylförfarande:
       - domains/asylum-procedure/README.md
       - Artiklar:
         - APR artikel 11: domains/asylum-procedure/articles/apr-011.md
@@ -306,14 +306,14 @@ nav:
         - APR artikel 55: domains/asylum-procedure/articles/apr-055.md
         - APR artikel 56: domains/asylum-procedure/articles/apr-056.md
       - Processer:
-        - Examine application: domains/asylum-procedure/processes/examine-an-application.md
-        - Subsequent application: domains/asylum-procedure/processes/subsequent-application.md
+        - Prövning av ansökan: domains/asylum-procedure/processes/examine-an-application.md
+        - Efterföljande ansökan: domains/asylum-procedure/processes/subsequent-application.md
       - Begrepp:
-        - Determining authority: domains/asylum-procedure/concepts/determining-authority.md
-        - Admissibility: domains/asylum-procedure/concepts/admissibility.md
-        - Examination on the merits: domains/asylum-procedure/concepts/examination-on-the-merits.md
-        - Accelerated procedure: domains/asylum-procedure/concepts/accelerated-procedure.md
-        - Subsequent application: domains/asylum-procedure/concepts/subsequent-application.md
+        - Prövningsmyndighet: domains/asylum-procedure/concepts/determining-authority.md
+        - Upptagande till prövning: domains/asylum-procedure/concepts/admissibility.md
+        - Prövning i sak: domains/asylum-procedure/concepts/examination-on-the-merits.md
+        - Påskyndat förfarande: domains/asylum-procedure/concepts/accelerated-procedure.md
+        - Efterföljande ansökan: domains/asylum-procedure/concepts/subsequent-application.md
       - Regler:
         - RULE-APR-034-001: domains/asylum-procedure/rules/rule-apr-034-001.md
         - RULE-APR-034-002: domains/asylum-procedure/rules/rule-apr-034-002.md
@@ -326,10 +326,10 @@ nav:
         - RULE-APR-055-002: domains/asylum-procedure/rules/rule-apr-055-002.md
         - RULE-APR-056-001: domains/asylum-procedure/rules/rule-apr-056-001.md
       - Tolkningar:
-        - Admissibility vs merits: domains/asylum-procedure/interpretations/admissibility-vs-merits.md
+        - Upptagande vs sak: domains/asylum-procedure/interpretations/admissibility-vs-merits.md
       - Öppna frågor:
-        - Implicit withdrawal consequences: domains/asylum-procedure/open_questions/implicit-withdrawal-consequences.md
-        - Merits vs border: domains/asylum-procedure/open_questions/merits-vs-border.md
+        - Implicit återkallelse: domains/asylum-procedure/open_questions/implicit-withdrawal-consequences.md
+        - Sak vs gränsförfarande: domains/asylum-procedure/open_questions/merits-vs-border.md
       - Capabilities:
         - Översikt: domains/asylum-procedure/capabilities/README.md
         - CAP-ASY-001 Examine on Merits: domains/asylum-procedure/capabilities/cap-asy-001.md
@@ -340,7 +340,7 @@ nav:
         - CAP-ASY-006 Handle Withdrawal: domains/asylum-procedure/capabilities/cap-asy-006.md
       - Krav:
         - Översikt: domains/asylum-procedure/requirements/README.md
-    - Border Procedure:
+    - Gränsförfarande:
       - domains/border-procedure/README.md
       - Artiklar:
         - APR artikel 43: domains/border-procedure/articles/apr-043.md
@@ -356,10 +356,10 @@ nav:
         - APR artikel 53: domains/border-procedure/articles/apr-053.md
         - APR artikel 54: domains/border-procedure/articles/apr-054.md
       - Processer:
-        - Asylum border procedure: domains/border-procedure/processes/asylum-border-procedure.md
+        - Asylgränsförfarande: domains/border-procedure/processes/asylum-border-procedure.md
       - Begrepp:
-        - Border procedure: domains/border-procedure/concepts/border-procedure.md
-        - Adequate capacity: domains/border-procedure/concepts/adequate-capacity.md
+        - Gränsförfarande: domains/border-procedure/concepts/border-procedure.md
+        - Tillräcklig kapacitet: domains/border-procedure/concepts/adequate-capacity.md
       - Regler:
         - RULE-APR-043-001: domains/border-procedure/rules/rule-apr-043-001.md
         - RULE-APR-043-002: domains/border-procedure/rules/rule-apr-043-002.md
@@ -368,9 +368,9 @@ nav:
         - RULE-APR-051-002: domains/border-procedure/rules/rule-apr-051-002.md
         - RULE-APR-053-001: domains/border-procedure/rules/rule-apr-053-001.md
       - Tolkningar:
-        - Border vs regular procedure: domains/border-procedure/interpretations/border-vs-regular-procedure.md
+        - Gränsförfarande vs ordinarie: domains/border-procedure/interpretations/border-vs-regular-procedure.md
       - Öppna frågor:
-        - Capacity mechanism: domains/border-procedure/open_questions/capacity-mechanism.md
+        - Kapacitetsmekanism: domains/border-procedure/open_questions/capacity-mechanism.md
       - Capabilities:
         - Översikt: domains/border-procedure/capabilities/README.md
         - CAP-BRD-001 Apply Border Procedure: domains/border-procedure/capabilities/cap-brd-001.md
@@ -378,7 +378,7 @@ nav:
         - CAP-BRD-003 Exempt Vulnerable: domains/border-procedure/capabilities/cap-brd-003.md
       - Krav:
         - Översikt: domains/border-procedure/requirements/README.md
-    - Solidarity:
+    - Solidaritet:
       - domains/solidarity/README.md
       - Artiklar:
         - AMMR artikel 57: domains/solidarity/articles/ammr-057.md
@@ -395,21 +395,21 @@ nav:
         - AMMR artikel 68: domains/solidarity/articles/ammr-068.md
         - AMMR artikel 69: domains/solidarity/articles/ammr-069.md
       - Processer:
-        - Relocation: domains/solidarity/processes/relocation.md
+        - Omplacering: domains/solidarity/processes/relocation.md
       - Begrepp:
-        - Solidarity pool: domains/solidarity/concepts/solidarity-pool.md
-        - Relocation: domains/solidarity/concepts/relocation.md
-        - Responsibility offset: domains/solidarity/concepts/responsibility-offset.md
-        - Reference key: domains/solidarity/concepts/reference-key.md
+        - Solidaritetspool: domains/solidarity/concepts/solidarity-pool.md
+        - Omplacering: domains/solidarity/concepts/relocation.md
+        - Ansvarsavräkning: domains/solidarity/concepts/responsibility-offset.md
+        - Referensnyckel: domains/solidarity/concepts/reference-key.md
       - Regler:
         - RULE-AMMR-057-001: domains/solidarity/rules/rule-ammr-057-001.md
         - RULE-AMMR-063-001: domains/solidarity/rules/rule-ammr-063-001.md
         - RULE-AMMR-066-001: domains/solidarity/rules/rule-ammr-066-001.md
         - RULE-AMMR-067-001: domains/solidarity/rules/rule-ammr-067-001.md
       - Tolkningar:
-        - Solidarity types: domains/solidarity/interpretations/solidarity-types.md
+        - Solidaritetstyper: domains/solidarity/interpretations/solidarity-types.md
       - Öppna frågor:
-        - Refusal to relocate: domains/solidarity/open_questions/refusal-to-relocate.md
+        - Vägran att omplacera: domains/solidarity/open_questions/refusal-to-relocate.md
       - Capabilities:
         - Översikt: domains/solidarity/capabilities/README.md
         - CAP-SOL-001 Solidarity Pool: domains/solidarity/capabilities/cap-sol-001.md
@@ -417,7 +417,7 @@ nav:
         - CAP-SOL-003 Responsibility Offset: domains/solidarity/capabilities/cap-sol-003.md
       - Krav:
         - Översikt: domains/solidarity/requirements/README.md
-    - Crisis:
+    - Kris:
       - domains/crisis/README.md
       - Artiklar:
         - Artikel 1: domains/crisis/articles/crisis-001.md
@@ -433,25 +433,25 @@ nav:
         - Artikel 13: domains/crisis/articles/crisis-013.md
         - Artikel 14: domains/crisis/articles/crisis-014.md
       - Processer:
-        - Activate crisis measures: domains/crisis/processes/activate-crisis-measures.md
+        - Aktivera krisåtgärder: domains/crisis/processes/activate-crisis-measures.md
       - Begrepp:
-        - Crisis situation: domains/crisis/concepts/crisis-situation.md
+        - Krissituation: domains/crisis/concepts/crisis-situation.md
         - Force majeure: domains/crisis/concepts/force-majeure.md
-        - Instrumentalisation: domains/crisis/concepts/instrumentalisation.md
+        - Instrumentalisering: domains/crisis/concepts/instrumentalisation.md
       - Regler:
         - RULE-CRI-010-001: domains/crisis/rules/rule-cri-010-001.md
         - RULE-CRI-011-001: domains/crisis/rules/rule-cri-011-001.md
         - RULE-CRI-012-001: domains/crisis/rules/rule-cri-012-001.md
       - Tolkningar:
-        - Crisis vs normal: domains/crisis/interpretations/crisis-vs-normal.md
+        - Kris vs normalt: domains/crisis/interpretations/crisis-vs-normal.md
       - Öppna frågor:
-        - Threshold for crisis: domains/crisis/open_questions/threshold-for-crisis.md
+        - Tröskel för kris: domains/crisis/open_questions/threshold-for-crisis.md
       - Capabilities:
         - Översikt: domains/crisis/capabilities/README.md
         - CAP-CRI-001 Activate Crisis: domains/crisis/capabilities/cap-cri-001.md
       - Krav:
         - Översikt: domains/crisis/requirements/README.md
-    - Return Border Procedure:
+    - Återvändande vid gräns:
       - domains/return-border-procedure/README.md
       - Artiklar:
         - Artikel 1: domains/return-border-procedure/articles/return-001.md
@@ -462,49 +462,49 @@ nav:
         - Artikel 6: domains/return-border-procedure/articles/return-006.md
         - Artikel 7: domains/return-border-procedure/articles/return-007.md
       - Processer:
-        - Return border procedure: domains/return-border-procedure/processes/return-border-procedure.md
+        - Återvändandeförfarande vid gräns: domains/return-border-procedure/processes/return-border-procedure.md
       - Begrepp:
-        - Return border procedure: domains/return-border-procedure/concepts/return-border-procedure-concept.md
-        - Voluntary departure: domains/return-border-procedure/concepts/voluntary-departure.md
+        - Återvändande vid gräns: domains/return-border-procedure/concepts/return-border-procedure-concept.md
+        - Frivillig avresa: domains/return-border-procedure/concepts/voluntary-departure.md
       - Regler:
         - RULE-RET-004-001: domains/return-border-procedure/rules/rule-ret-004-001.md
         - RULE-RET-005-001: domains/return-border-procedure/rules/rule-ret-005-001.md
       - Tolkningar:
-        - Return vs regular return: domains/return-border-procedure/interpretations/return-vs-regular-return.md
+        - Återvändande vs ordinarie: domains/return-border-procedure/interpretations/return-vs-regular-return.md
       - Öppna frågor:
-        - Non removable persons: domains/return-border-procedure/open_questions/non-removable-persons.md
+        - Ej avlägsningsbara personer: domains/return-border-procedure/open_questions/non-removable-persons.md
       - Capabilities:
         - Översikt: domains/return-border-procedure/capabilities/README.md
         - CAP-RET-001 Return Border: domains/return-border-procedure/capabilities/cap-ret-001.md
       - Krav:
         - Översikt: domains/return-border-procedure/requirements/README.md
-  - Shared:
-    - Identity: shared/identity/README.md
-    - Interpreters:
+  - Delat:
+    - Identitet: shared/identity/README.md
+    - Tolkar:
       - shared/interpreters/README.md
       - Regler:
         - RULE-INT-001: shared/interpreters/rules/rule-int-001.md
-    - Documents: shared/documents/README.md
-    - Time Limits:
+    - Dokument: shared/documents/README.md
+    - Tidsfrister:
       - shared/time-limits/README.md
       - Regler:
         - RULE-TL-LOD-001: shared/time-limits/rules/rule-tl-lod-001.md
         - RULE-TL-LOD-002: shared/time-limits/rules/rule-tl-lod-002.md
         - RULE-TL-REG-001: shared/time-limits/rules/rule-tl-reg-001.md
         - RULE-TL-REG-002: shared/time-limits/rules/rule-tl-reg-002.md
-    - Biometrics: shared/biometrics/README.md
-    - Security Checks: shared/security-checks/README.md
-    - Children: shared/children/README.md
-    - Vulnerable Persons: shared/vulnerable-persons/README.md
-    - Interviews: shared/interviews/README.md
-    - Statistics: shared/statistics/README.md
-  - Scenarios: scenarios/README.md
+    - Biometri: shared/biometrics/README.md
+    - Säkerhetskontroller: shared/security-checks/README.md
+    - Barn: shared/children/README.md
+    - Sårbara personer: shared/vulnerable-persons/README.md
+    - Intervjuer: shared/interviews/README.md
+    - Statistik: shared/statistics/README.md
+  - Scenarier: scenarios/README.md
   - Projekt:
     - Roadmap: ROADMAP.md
-    - Decisions: DECISIONS.md
-    - Style Guide: STYLE_GUIDE.md
-    - Contributing: CONTRIBUTING.md
-    - Design Review: DESIGN_REVIEW.md
+    - Beslut: DECISIONS.md
+    - Stilguide: STYLE_GUIDE.md
+    - Bidra: CONTRIBUTING.md
+    - Designgranskning: DESIGN_REVIEW.md
 
 plugins:
   - search
