@@ -1,10 +1,10 @@
 ---
 tags:
   - shared
-  - vulnerable-persons
+  - sårbara-personer
 ---
 
-← [Vulnerable Persons](../README.md)
+← [Sårbara personer](../README.md)
 
 # CAP-VUL-002
 

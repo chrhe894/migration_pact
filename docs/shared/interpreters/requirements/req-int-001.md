@@ -1,10 +1,10 @@
 ---
 tags:
   - shared
-  - interpreters
+  - tolkar
 ---
 
-← [Interpreters](../README.md)
+← [Tolkar](../README.md)
 
 # REQ-INT-001
 

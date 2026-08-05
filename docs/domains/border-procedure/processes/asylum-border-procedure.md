@@ -1,6 +1,6 @@
 ---
 tags:
-  - border-procedure
+  - gränsförfarande
   - process
 ---
 

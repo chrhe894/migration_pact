@@ -1,4 +1,4 @@
-← [Return Border Procedure](../README.md)
+← [Återvändande vid gräns](../README.md)
 
 # Verksamhetsförmågor — Return Border Procedure
 

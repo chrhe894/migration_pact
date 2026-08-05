@@ -1,6 +1,6 @@
 ---
 tags:
-  - responsibility
+  - ansvar
   - öppen-fråga
 ---
 

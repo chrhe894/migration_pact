@@ -1,4 +1,4 @@
-← [Registration](../README.md)
+← [Registrering](../README.md)
 
 # Krav — Registration
 

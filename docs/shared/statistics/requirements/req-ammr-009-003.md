@@ -1,10 +1,10 @@
 ---
 tags:
   - shared
-  - statistics
+  - statistik
 ---
 
-← [Statistics](../README.md)
+← [Statistik](../README.md)
 
 # REQ-AMMR-009-003
 

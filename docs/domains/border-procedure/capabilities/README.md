@@ -1,4 +1,4 @@
-← [Border Procedure](../README.md)
+← [Gränsförfarande](../README.md)
 
 # Verksamhetsförmågor — Border Procedure
 

@@ -1,10 +1,10 @@
 ---
 tags:
   - shared
-  - interpreters
+  - tolkar
 ---
 
-← [Interpreters](../README.md)
+← [Tolkar](../README.md)
 
 # RULE-INT-002
 

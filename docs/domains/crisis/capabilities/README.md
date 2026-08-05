@@ -1,4 +1,4 @@
-← [Crisis](../README.md)
+← [Kris](../README.md)
 
 # Verksamhetsförmågor — Crisis
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - crisis
+  - kris
   - artikel
 ---
 

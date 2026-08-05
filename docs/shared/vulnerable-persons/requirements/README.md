@@ -1,4 +1,4 @@
-← [Vulnerable Persons](../README.md)
+← [Sårbara personer](../README.md)
 
 # Krav — Vulnerable Persons
 

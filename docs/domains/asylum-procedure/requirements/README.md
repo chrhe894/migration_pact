@@ -1,4 +1,4 @@
-← [Asylum Procedure](../README.md)
+← [Asylförfarande](../README.md)
 
 # Krav — Asylum Procedure
 

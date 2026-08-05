@@ -1,10 +1,10 @@
 ---
 tags:
-  - crisis
+  - kris
   - capability
 ---
 
-← [Crisis](../README.md)
+← [Kris](../README.md)
 
 # CAP-CRI-001
 

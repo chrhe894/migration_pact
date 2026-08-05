@@ -1,10 +1,10 @@
 ---
 tags:
-  - responsibility
+  - ansvar
   - capability
 ---
 
-← [Responsibility](../README.md)
+← [Ansvar](../README.md)
 
 # CAP-RES-003
 

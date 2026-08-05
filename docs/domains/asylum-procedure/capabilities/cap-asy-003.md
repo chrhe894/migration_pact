@@ -1,10 +1,10 @@
 ---
 tags:
-  - asylum-procedure
+  - asylförfarande
   - capability
 ---
 
-← [Asylum Procedure](../README.md)
+← [Asylförfarande](../README.md)
 
 # CAP-ASY-003
 

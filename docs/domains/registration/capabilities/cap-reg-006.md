@@ -1,12 +1,12 @@
 ---
 tags:
-  - registration
+  - registrering
   - capability
   - eurodac
   - 72-timmar
 ---
 
-← [Registration](../README.md)
+← [Registrering](../README.md)
 
 # CAP-REG-006
 

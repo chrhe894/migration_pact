@@ -1,4 +1,4 @@
-← [Interpreters](../README.md)
+← [Tolkar](../README.md)
 
 # Krav — Interpreters
 

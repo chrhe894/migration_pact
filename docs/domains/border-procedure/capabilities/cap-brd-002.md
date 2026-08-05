@@ -1,10 +1,10 @@
 ---
 tags:
-  - border-procedure
+  - gränsförfarande
   - capability
 ---
 
-← [Border Procedure](../README.md)
+← [Gränsförfarande](../README.md)
 
 # CAP-BRD-002
 

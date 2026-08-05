@@ -1,6 +1,6 @@
 ---
 tags:
-  - border-procedure
+  - gränsförfarande
   - öppen-fråga
 ---
 

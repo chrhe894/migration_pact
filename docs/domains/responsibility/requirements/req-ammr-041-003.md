@@ -1,10 +1,10 @@
 ---
 tags:
-  - responsibility
+  - ansvar
   - krav
 ---
 
-← [Responsibility](../README.md)
+← [Ansvar](../README.md)
 
 # REQ-AMMR-041-003
 

@@ -1,11 +1,11 @@
 ---
 tags:
-  - registration
+  - registrering
   - capability
   - inlämnande
 ---
 
-← [Registration](../README.md)
+← [Registrering](../README.md)
 
 # CAP-REG-003
 

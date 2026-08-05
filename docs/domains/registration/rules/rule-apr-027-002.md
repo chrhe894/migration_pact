@@ -1,6 +1,6 @@
 ---
 tags:
-  - registration
+  - registrering
   - regel
   - registrering
   - uppgifter

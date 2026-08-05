@@ -1,12 +1,12 @@
 ---
 tags:
-  - registration
+  - registrering
   - regel
   - registrering
   - ansökan-görs
 ---
 
-← [Registration](../README.md)
+← [Registrering](../README.md)
 
 # RULE-APR-026-001
 

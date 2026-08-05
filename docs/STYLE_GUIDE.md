@@ -593,7 +593,7 @@ Varje `.md`-fil i en domän ska ha en back-länk längst upp som pekar till dom�
 Exempel:
 
 ```markdown
-← [Registration](../README.md)
+← [Registrering](../README.md)
 ```
 
 Varje domäns README ska ha en back-länk till kunskapsbasens top-nivå README.

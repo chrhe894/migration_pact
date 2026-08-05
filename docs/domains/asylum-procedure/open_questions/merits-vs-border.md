@@ -1,6 +1,6 @@
 ---
 tags:
-  - asylum-procedure
+  - asylförfarande
   - öppen-fråga
 ---
 

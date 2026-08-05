@@ -1,4 +1,4 @@
-← [Solidarity](../README.md)
+← [Solidaritet](../README.md)
 
 # Krav — Solidarity
 

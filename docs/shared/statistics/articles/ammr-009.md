@@ -1,10 +1,10 @@
 ---
 tags:
   - shared
-  - statistics
+  - statistik
 ---
 
-← [Statistics](../README.md)
+← [Statistik](../README.md)
 
 # ART-AMMR-009
 

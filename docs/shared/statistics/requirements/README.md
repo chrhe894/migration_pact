@@ -1,4 +1,4 @@
-← [Statistics](../README.md)
+← [Statistik](../README.md)
 
 # Krav — Statistics
 

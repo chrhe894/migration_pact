@@ -1,6 +1,6 @@
 ---
 tags:
-  - responsibility
+  - ansvar
   - regel
 ---
 

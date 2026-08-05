@@ -1,4 +1,4 @@
-← [Responsibility](../README.md)
+← [Ansvar](../README.md)
 
 # Verksamhetsförmågor — Responsibility
 

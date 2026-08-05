@@ -1,10 +1,10 @@
 ---
 tags:
-  - solidarity
+  - solidaritet
   - krav
 ---
 
-← [Solidarity](../README.md)
+← [Solidaritet](../README.md)
 
 # REQ-AMMR-066-002
 

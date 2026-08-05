@@ -1,10 +1,10 @@
 ---
 tags:
-  - return-border-procedure
+  - återvändande
   - capability
 ---
 
-← [Return Border Procedure](../README.md)
+← [Återvändande vid gräns](../README.md)
 
 # CAP-RET-001
 

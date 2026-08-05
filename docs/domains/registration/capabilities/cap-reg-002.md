@@ -1,12 +1,12 @@
 ---
 tags:
-  - registration
+  - registrering
   - capability
   - vidarebefordra
   - fel-myndighet
 ---
 
-← [Registration](../README.md)
+← [Registrering](../README.md)
 
 # CAP-REG-002
 

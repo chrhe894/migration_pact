@@ -1,7 +1,7 @@
 ---
 tags:
   - shared
-  - interpreters
+  - tolkar
 ---
 
 # RULE-INT-001

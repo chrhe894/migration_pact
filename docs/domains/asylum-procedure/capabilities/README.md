@@ -1,4 +1,4 @@
-← [Asylum Procedure](../README.md)
+← [Asylförfarande](../README.md)
 
 # Verksamhetsförmågor — Asylum Procedure
 

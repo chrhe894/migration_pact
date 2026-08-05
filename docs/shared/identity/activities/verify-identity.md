@@ -7,7 +7,7 @@ tags:
 
 # ACT-ID-001
 
-# Verify identity
+# Verifiera identitet
 
 ## Syfte
 
@@ -33,14 +33,14 @@ Fastställa eller bedöma sökandens identitet i den utsträckning som krävs en
 
 ---
 
-## Shared Concepts
+## Delade begrepp
 
 - [Identity (CON-ID-001)](../concepts/identity.md)
 - [Identity document (CON-ID-002)](../concepts/identity-document.md)
 
 ---
 
-## Shared Rules
+## Delade regler
 
 Identitetsrelaterade regler finns i respektive domän:
 - [RULE-SCR-014-001](../../../domains/screening/rules/rule-scr-014-001.md) — Identifiering under screening

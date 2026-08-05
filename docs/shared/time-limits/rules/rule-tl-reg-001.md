@@ -1,7 +1,7 @@
 ---
 tags:
   - shared
-  - time-limits
+  - tidsfrister
 ---
 
 # RULE-TL-REG-001

@@ -1,10 +1,10 @@
 ---
 tags:
-  - solidarity
+  - solidaritet
   - capability
 ---
 
-← [Solidarity](../README.md)
+← [Solidaritet](../README.md)
 
 # CAP-SOL-002
 

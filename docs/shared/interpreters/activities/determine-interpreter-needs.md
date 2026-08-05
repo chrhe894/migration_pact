@@ -1,12 +1,12 @@
 ---
 tags:
   - shared
-  - interpreters
+  - tolkar
 ---
 
 # ACT-INT-001
 
-# Determine interpreter needs
+# Fastställ tolkbehov
 
 ## Syfte
 
@@ -22,12 +22,12 @@ Fastställa om sökanden behöver tolktjänster för att ändamålsenlig kommuni
 
 ---
 
-## Shared Concepts
+## Delade begrepp
 
 - Interpreter
 
 ---
 
-## Shared Rules
+## Delade regler
 
 - RULE-INT-001

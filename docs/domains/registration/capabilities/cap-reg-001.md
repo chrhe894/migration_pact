@@ -1,11 +1,11 @@
 ---
 tags:
-  - registration
+  - registrering
   - capability
   - registrering
 ---
 
-← [Registration](../README.md)
+← [Registrering](../README.md)
 
 # CAP-REG-001
 
