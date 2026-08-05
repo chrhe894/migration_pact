@@ -73,10 +73,10 @@ Om sökanden har genomgått screening enligt Screeningförordningen artikel 5.1 
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
-- [Verify identity](../../../shared/identity/activities/verify-identity.md)
-- [Determine interpreter needs](../../../shared/interpreters/activities/determine-interpreter-needs.md)
+- [Verifiera identitet](../../../shared/identity/activities/verify-identity.md)
+- [Fastställ tolkbehov](../../../shared/interpreters/activities/determine-interpreter-needs.md)
 
 ---
 

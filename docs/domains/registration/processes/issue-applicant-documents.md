@@ -71,7 +71,7 @@ För medföljande barn kan handlingar som utfärdas till förälder eller ansvar
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
 - (se shared/documents)
 

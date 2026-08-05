@@ -70,7 +70,7 @@ Båda systemen bygger på principen att **en** medlemsstat ska vara ansvarig fö
 
 ## Relaterade domäner
 
-- [Responsibility](domains/responsibility/README.md) — ansvarsbestämning
-- [Solidarity](domains/solidarity/README.md) — solidaritetsmekanism
+- [Ansvar](domains/responsibility/README.md) — ansvarsbestämning
+- [Solidaritet](domains/solidarity/README.md) — solidaritetsmekanism
 - [Screening](domains/screening/README.md) — ny fas
-- [Border Procedure](domains/border-procedure/README.md) — obligatoriskt gränsförfarande
+- [Gränsförfarande](domains/border-procedure/README.md) — obligatoriskt gränsförfarande

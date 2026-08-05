@@ -135,8 +135,8 @@ Grundregler:
 
 ## Används av
 
-- [PROC-REG-001 Registration](../../domains/registration/processes/registration-of-an-application.md)
-- [PROC-REG-002 Lodging](../../domains/registration/processes/lodging-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../../domains/registration/processes/registration-of-an-application.md)
+- [PROC-REG-002 Ingivande av en ansökan](../../domains/registration/processes/lodging-an-application.md)
 - [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
 - [PROC-SCR-002 Screening inom territoriet](../../domains/screening/processes/screening-within-territory.md)
 - [PROC-ASY-001 Pröva en ansökan](../../domains/asylum-procedure/processes/examine-an-application.md)

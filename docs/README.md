@@ -1,4 +1,4 @@
-# Knowledge Base for the EU Migration and Asylum Pact
+# Kunskapsbas för EU:s migrations- och asylpakt
 
 ## Om projektet
 
@@ -93,32 +93,32 @@ Se även:
 
 | Domän                                                                | Förordning                 | Status |
 | ----------------------------------------------------------------------| ----------------------------| --------|
-| [Registration](domains/registration/README.md)                       | APR                        | Pågår  |
-| [Asylum procedure](domains/asylum-procedure/README.md)               | APR                        | Pågår  |
-| [Border procedure](domains/border-procedure/README.md)               | APR                        | Pågår  |
-| [Screening](domains/screening/README.md)                             | Screeningförordningen      | Pågår  |
-| [Eurodac](domains/eurodac/README.md)                                 | Eurodacförordningen        | Pågår  |
-| [Responsibility](domains/responsibility/README.md)                   | AMMR                       | Pågår  |
-| [Solidarity](domains/solidarity/README.md)                           | AMMR                       | Pågår  |
-| [Crisis](domains/crisis/README.md)                                   | Krishanteringsförordningen | Pågår  |
-| [Återvändande vid gräns](domains/return-border-procedure/README.md) | Återvändande vid gräns    | Pågår  |
+| [Registrering](domains/registration/README.md)                       | APR                        | Klar   |
+| [Asylförfarande](domains/asylum-procedure/README.md)                 | APR                        | Klar   |
+| [Gränsförfarande](domains/border-procedure/README.md)                | APR                        | Klar   |
+| [Screening](domains/screening/README.md)                             | Screeningförordningen      | Klar   |
+| [Eurodac](domains/eurodac/README.md)                                 | Eurodacförordningen        | Klar   |
+| [Ansvar](domains/responsibility/README.md)                           | AMMR                       | Klar   |
+| [Solidaritet](domains/solidarity/README.md)                          | AMMR                       | Klar   |
+| [Kris](domains/crisis/README.md)                                     | Krishanteringsförordningen | Klar   |
+| [Återvändande vid gräns](domains/return-border-procedure/README.md)  | Återvändandeförordningen   | Klar   |
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Innehåll |
 |-------|----------|
-| [Identity](shared/identity/README.md) | Identitetsfastställande |
-| [Interpreters](shared/interpreters/README.md) | Tolktjänster |
-| [Documents](shared/documents/README.md) | Handlingar till sökanden |
-| [Time limits](shared/time-limits/README.md) | Tidsfrister |
-| [Children](shared/children/) | Särskilda garantier för barn |
-| [Vulnerable persons](shared/vulnerable-persons/README.md) | Sårbara personer |
-| [Biometrics](shared/biometrics/) | Biometriska uppgifter |
-| [Security checks](shared/security-checks/) | Säkerhetskontroller |
-| [Interviews](shared/interviews/README.md) | Personliga intervjuer |
-| [Statistics](shared/statistics/README.md) | Datapunkter och beräkningar |
+| [Identitet](shared/identity/README.md) | Identitetsfastställande |
+| [Tolkar](shared/interpreters/README.md) | Tolktjänster |
+| [Dokument](shared/documents/README.md) | Handlingar till sökanden |
+| [Tidsfrister](shared/time-limits/README.md) | Tidsfrister |
+| [Barn](shared/children/) | Särskilda garantier för barn |
+| [Sårbara personer](shared/vulnerable-persons/README.md) | Sårbara personer |
+| [Biometri](shared/biometrics/) | Biometriska uppgifter |
+| [Säkerhetskontroller](shared/security-checks/) | Säkerhetskontroller |
+| [Intervjuer](shared/interviews/README.md) | Personliga intervjuer |
+| [Statistik](shared/statistics/README.md) | Datapunkter och beräkningar |
 
 ---
 

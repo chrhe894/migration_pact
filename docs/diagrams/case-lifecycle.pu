@@ -1,0 +1,116 @@
+' ============================================================================
+' Diagram: Ärendets livscykel
+'
+' Syfte: Förenklad översikt över hela förfarandekedjan — från att en person
+'        söker skydd till slutligt utfall. Fungerar som navigationsdiagram
+'        med klickbara länkar till respektive domän.
+'
+' Status: Complete
+' ============================================================================
+
+@startuml case-lifecycle
+
+title Ärendets livscykel
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+skinparam partition {
+  BackgroundColor #FAFAFA
+  BorderColor #999999
+}
+
+start
+
+:Person söker skydd;
+
+partition "[[domains/screening/README.md SCREENING]]  (7 dagar)" {
+  :Identifiering, hälsokontroll,\nsårbarhet, säkerhetskontroll;
+  :Screeningformulär överlämnas;
+  note right
+    [[domains/screening/README.md Screening]]
+    Screeningförordningen art. 5–18
+  end note
+}
+
+partition "[[domains/registration/README.md REGISTRERING]]  (5 dagar)" {
+  :Ansökan registreras formellt;
+  :Registreringshandling utfärdas;
+  :Biometri → [[domains/eurodac/README.md Eurodac]] (72h);
+  note right
+    [[domains/registration/README.md Registrering]]
+    APR art. 27
+  end note
+}
+
+partition "[[domains/registration/README.md INLÄMNANDE]]  (21 dagar)" {
+  :Ansökan lämnas in personligen;
+  :Sökandehandling utfärdas;
+  note right
+    APR art. 28
+    Vid gräns: 5 dagar
+  end note
+}
+
+partition "[[domains/responsibility/README.md ANSVARSBEDÖMNING]]" {
+  :Kriterierna tillämpas i rangordning;
+  note right
+    [[domains/responsibility/README.md Ansvar]]
+    AMMR art. 24–46
+  end note
+  if (Ansvarig stat = denna stat?) then (Nej)
+    :Överföring till annan stat;
+  else (Ja)
+  endif
+}
+
+if (Gränsförfarande?) then (Ja)
+
+  partition "[[domains/border-procedure/README.md GRÄNSFÖRFARANDE]]  (12 veckor)" {
+    :Prövning vid gränsen;
+    note right
+      [[domains/border-procedure/README.md Gränsförfarande]]
+      APR art. 43–54
+    end note
+    if (Beviljat?) then (Ja)
+      :Inresa tillåts;
+      stop
+    else (Nej)
+      :[[domains/return-border-procedure/README.md Återvändande vid gräns]] (12 v);
+      stop
+    endif
+  }
+
+else (Nej)
+
+  partition "[[domains/asylum-procedure/README.md REGULJÄRT FÖRFARANDE]]  (6 månader)" {
+    :Upptagandeprövning;
+    :Personlig intervju;
+    :Prövning i sak;
+    note right
+      [[domains/asylum-procedure/README.md Asylförfarande]]
+      APR art. 34–42
+    end note
+    if (Beviljat?) then (Ja)
+      :Internationellt skydd\n(flyktingstatus / subsidiärt skydd);
+      stop
+    else (Nej)
+      :Återvändande;
+      stop
+    endif
+  }
+
+endif
+
+@enduml

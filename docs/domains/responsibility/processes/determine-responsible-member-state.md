@@ -71,9 +71,9 @@ Om tidsfristerna i artikel 33 har löpt ut (20 resp. 12 månader) kan inresestat
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
-- [Verify identity](../../../shared/identity/activities/verify-identity.md)
+- [Verifiera identitet](../../../shared/identity/activities/verify-identity.md)
 
 ---
 

@@ -77,10 +77,10 @@ Om sökanden avviker, inte samarbetar eller inte inställer sig till intervju ut
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
-- [Verify identity](../../../shared/identity/activities/verify-identity.md)
-- [Determine interpreter needs](../../../shared/interpreters/activities/determine-interpreter-needs.md)
+- [Verifiera identitet](../../../shared/identity/activities/verify-identity.md)
+- [Fastställ tolkbehov](../../../shared/interpreters/activities/determine-interpreter-needs.md)
 
 ---
 

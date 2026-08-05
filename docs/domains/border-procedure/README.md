@@ -13,7 +13,7 @@ Gränsförfarandet är ett särskilt förfarande som genomförs vid eller nära 
 
 | | |
 |---|---|
-| **Föregående** | [Screening](../screening/README.md) → [Registration](../registration/README.md) |
+| **Föregående** | [Screening](../screening/README.md) → [Registrering](../registration/README.md) |
 | **Nästa** | Beviljande (inresa tillåts) eller [Återvändande vid gräns](../return-border-procedure/README.md) |
 | **Inträde** | Ansökan registrerad, sökanden vid yttre gräns, gränsförfarandevillkor uppfyllda |
 | **Utträde** | Beslut fattat inom 12 veckor, eller tidsfrist löpt ut (inresa tillåts) |
@@ -49,8 +49,8 @@ Screening avslutad (ingen inresa tillåts)
         ▼
 Gränsförfarande inleds
         │
-        ├── Admissibility check (art. 38 via art. 44)
-        ├── Examination on the merits (art. 42 via art. 44)
+        ├── Upptagandeprövning (art. 38 via art. 44)
+        ├── Prövning i sak (art. 42 via art. 44)
         │
         ▼
 Beslut (inom 12 veckor)

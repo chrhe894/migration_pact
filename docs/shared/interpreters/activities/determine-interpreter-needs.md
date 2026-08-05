@@ -18,7 +18,7 @@ Fastställa om sökanden behöver tolktjänster för att ändamålsenlig kommuni
 
 - PROC-REG-001 Registrering av en ansökan
 - PROC-REG-002 Ingivande av en ansökan
-- PROC-ASY-001 Asylum procedure
+- PROC-ASY-001 Asylförfarande
 
 ---
 

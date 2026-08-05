@@ -63,9 +63,9 @@ Om personen omedelbart skickas tillbaka till en annan medlemsstat enligt bilater
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
-- [Verify identity](../../../shared/identity/activities/verify-identity.md)
+- [Verifiera identitet](../../../shared/identity/activities/verify-identity.md)
 - [Samla in och överföra biometriska uppgifter](../../eurodac/processes/collect-and-transmit-biometric-data.md)
 
 ---

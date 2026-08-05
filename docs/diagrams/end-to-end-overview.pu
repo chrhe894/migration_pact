@@ -144,7 +144,7 @@ if (Gränsförfarande? (art. 43/45)) then (Ja)
       :Inresa tillåts;
       stop
     else (Nej)
-      partition "**RETURN BORDER** (12 veckor)" {
+      partition "**ÅTERVÄNDANDE VID GRÄNS** (12 veckor)" {
         :[[domains/border-procedure/rules/rule-apr-051-001.md Återvändandebeslut]];
         note right
           [[domains/border-procedure/rules/rule-apr-051-001.md RULE-APR-051-001]]
@@ -160,7 +160,7 @@ if (Gränsförfarande? (art. 43/45)) then (Ja)
 else (Nej)
 
   partition "**PRÖVNING** (6 mån / 3 mån påskyndat)" {
-    :[[domains/asylum-procedure/rules/rule-apr-038-001.md Admissibility]];
+    :[[domains/asylum-procedure/rules/rule-apr-038-001.md Upptagandeprövning]];
     note right
       [[domains/asylum-procedure/rules/rule-apr-038-001.md RULE-APR-038-001]]
       Upptagandeprövning

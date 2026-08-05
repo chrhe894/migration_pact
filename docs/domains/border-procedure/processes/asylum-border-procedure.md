@@ -76,10 +76,10 @@ Sökanden tillåts resa in. Ärendet övergår till reguljärt förfarande.
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
-- [Verify identity](../../../shared/identity/activities/verify-identity.md)
-- [Determine interpreter needs](../../../shared/interpreters/activities/determine-interpreter-needs.md)
+- [Verifiera identitet](../../../shared/identity/activities/verify-identity.md)
+- [Fastställ tolkbehov](../../../shared/interpreters/activities/determine-interpreter-needs.md)
 
 ---
 

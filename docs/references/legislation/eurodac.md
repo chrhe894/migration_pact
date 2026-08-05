@@ -55,5 +55,5 @@ Eurodacförordningen reglerar EU:s centrala biometridatabas. Systemet lagrar fin
 ## Används i kunskapsbasen
 
 - [Eurodac (domän)](../../domains/eurodac/README.md)
-- [Registration](../../domains/registration/README.md)
+- [Registrering](../../domains/registration/README.md)
 - [Screening](../../domains/screening/README.md)

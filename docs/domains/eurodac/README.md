@@ -13,8 +13,8 @@ Eurodac är ett informationssystem för jämförelse av biometriska uppgifter oc
 
 | | |
 |---|---|
-| **Föregående** | [Screening](../screening/README.md) / [Registration](../registration/README.md) |
-| **Nästa** | [Responsibility](../responsibility/README.md) (Eurodac-träff kan utlösa ansvarsförfarande) |
+| **Föregående** | [Screening](../screening/README.md) / [Registrering](../registration/README.md) |
+| **Nästa** | [Ansvar](../responsibility/README.md) (Eurodac-träff kan utlösa ansvarsförfarande) |
 | **Inträde** | Biometriska uppgifter ska tas (screening eller registrering) |
 | **Utträde** | Dataset registrerat i Eurodac, tillgängligt för jämförelse |
 

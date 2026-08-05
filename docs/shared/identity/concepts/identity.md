@@ -52,7 +52,7 @@ Identitet ska fastställas eller bedömas i den utsträckning som krävs enligt 
 
 ## Används i
 
-- [ACT-ID-001 Verify identity](../activities/verify-identity.md)
+- [ACT-ID-001 Verifiera identitet](../activities/verify-identity.md)
 - [PROC-REG-001 Registrering av en ansökan](../../../domains/registration/processes/registration-of-an-application.md)
 - [PROC-SCR-001 Screening vid yttre gräns](../../../domains/screening/processes/screening-at-external-border.md)
 - [PROC-SCR-002 Screening inom territoriet](../../../domains/screening/processes/screening-within-territory.md)

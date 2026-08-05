@@ -68,9 +68,9 @@ Om det inte finns ett slutligt beslut om den tidigare ansökan (ärendet pågår
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
-- [Determine interpreter needs](../../../shared/interpreters/activities/determine-interpreter-needs.md)
+- [Fastställ tolkbehov](../../../shared/interpreters/activities/determine-interpreter-needs.md)
 
 ---
 

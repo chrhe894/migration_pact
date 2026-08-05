@@ -13,8 +13,8 @@ Ansvarsbestämningen är central i det gemensamma europeiska asylsystemet — de
 
 | | |
 |---|---|
-| **Föregående** | [Registration](../registration/README.md) / [Eurodac](../eurodac/README.md) |
-| **Nästa** | [Asylum Procedure](../asylum-procedure/README.md) eller [Border Procedure](../border-procedure/README.md) |
+| **Föregående** | [Registrering](../registration/README.md) / [Eurodac](../eurodac/README.md) |
+| **Nästa** | [Asylförfarande](../asylum-procedure/README.md) eller [Gränsförfarande](../border-procedure/README.md) |
 | **Inträde** | Ansökan registrerad, kriterierna ska tillämpas |
 | **Utträde** | Ansvarig stat fastställd, ev. överföring genomförd |
 

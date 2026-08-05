@@ -65,9 +65,9 @@ Om ett oproportionellt stort antal personer gör ansökan inom samma period ska 
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
-- [Verify identity](../../../shared/identity/activities/verify-identity.md)
+- [Verifiera identitet](../../../shared/identity/activities/verify-identity.md)
 
 ---
 

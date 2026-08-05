@@ -73,9 +73,9 @@ Vid allvarliga tekniska problem får 72-timmarsfristen för asylsökande förlä
 
 ---
 
-## Shared Activities
+## Delade aktiviteter
 
-- [Verify identity](../../../shared/identity/activities/verify-identity.md)
+- [Verifiera identitet](../../../shared/identity/activities/verify-identity.md)
 
 ---
 

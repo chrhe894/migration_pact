@@ -14,7 +14,7 @@ Registreringen är den första formella delen av asylförfarandet och säkerstä
 | | |
 |---|---|
 | **Föregående** | [Screening](../screening/README.md) |
-| **Nästa** | [Responsibility](../responsibility/README.md) / [Asylum Procedure](../asylum-procedure/README.md) |
+| **Nästa** | [Ansvar](../responsibility/README.md) / [Asylförfarande](../asylum-procedure/README.md) |
 | **Inträde** | Screening avslutad, person hänvisad till registreringsmyndighet |
 | **Utträde** | Ansökan registrerad och inlämnad, handlingar utfärdade |
 
@@ -41,16 +41,16 @@ Registreringen är den första formella delen av asylförfarandet och säkerstä
 ## Juridiska milstolpar
 
 ```text
-Application made
+Ansökan görs
         │
         ▼
-Application registered  ──→  Registration certificate utfärdas
+Ansökan registreras  ──→  Registreringshandling utfärdas
         │
         ▼
-Application lodged  ──→  Applicant document utfärdas
+Ansökan lämnas in  ──→  Sökandehandling utfärdas
         │
         ▼
-Transfer to applicable procedure
+Överföring till tillämpligt förfarande
 ```
 
 ---

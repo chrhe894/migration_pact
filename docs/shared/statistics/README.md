@@ -90,8 +90,8 @@ Statistik är inte en rättsakt i sig utan en stödfunktion som påverkar tillä
 
 ## Används av
 
-- [Border Procedure](../../domains/border-procedure/README.md) — kapacitetsberäkning och bifallsgräns
-- [Asylum Procedure](../../domains/asylum-procedure/README.md) — påskyndat vid säkert ursprungsland
-- [Solidarity](../../domains/solidarity/README.md) — referensnyckel
-- [Responsibility](../../domains/responsibility/README.md) — ansvarets upphörande (tidsberäkning)
-- [Crisis](../../domains/crisis/README.md) — utökad bifallsgräns vid kris
+- [Gränsförfarande](../../domains/border-procedure/README.md) — kapacitetsberäkning och bifallsgräns
+- [Asylförfarande](../../domains/asylum-procedure/README.md) — påskyndat vid säkert ursprungsland
+- [Solidaritet](../../domains/solidarity/README.md) — referensnyckel
+- [Ansvar](../../domains/responsibility/README.md) — ansvarets upphörande (tidsberäkning)
+- [Kris](../../domains/crisis/README.md) — utökad bifallsgräns vid kris

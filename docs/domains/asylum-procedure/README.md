@@ -13,7 +13,7 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 
 | | |
 |---|---|
-| **Föregående** | [Responsibility](../responsibility/README.md) (ansvarig stat fastställd) |
+| **Föregående** | [Ansvar](../responsibility/README.md) (ansvarig stat fastställd) |
 | **Nästa** | Beslut: uppehållstillstånd eller återvändande |
 | **Inträde** | Ansökan inlämnad i den ansvariga staten |
 | **Utträde** | Beslut fattat (beviljande, avslag eller återkallande) |
@@ -46,23 +46,23 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 ## Juridiska milstolpar
 
 ```text
-Application lodged
+Ansökan lämnas in
         │
         ▼
-Examination begins
+Prövning inleds
         │
-        ├── Admissibility check (art. 38)
-        │       ├── Inadmissible → Rejection
-        │       └── Admissible → Examination on the merits
+        ├── Upptagandeprövning (art. 38)
+        │       ├── Ej upptagbar → Avvisning
+        │       └── Upptagbar → Prövning i sak
         │
-        ├── Personal interview (art. 11–14)
+        ├── Personlig intervju (art. 11–14)
         │
         ▼
-Decision on the merits (art. 39)
+Beslut i sak (art. 39)
         │
-        ├── Granted (refugee status or subsidiary protection)
-        ├── Rejected → Return decision (art. 37)
-        └── Withdrawn (explicit art. 40 / implicit art. 41)
+        ├── Beviljat (flyktingstatus eller subsidiärt skydd)
+        ├── Avslag → Återvändandebeslut (art. 37)
+        └── Återkallat (uttryckligt art. 40 / implicit art. 41)
 ```
 
 ---

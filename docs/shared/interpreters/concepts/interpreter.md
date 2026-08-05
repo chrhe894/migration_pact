@@ -50,6 +50,6 @@ Kostnaderna för tolkning ska täckas med offentliga medel. Tolktjänster ska ti
 
 ## Används i
 
-- [ACT-INT-001 Determine interpreter needs](../activities/determine-interpreter-needs.md)
+- [ACT-INT-001 Fastställ tolkbehov](../activities/determine-interpreter-needs.md)
 - [PROC-REG-001 Registrering av en ansökan](../../../domains/registration/processes/registration-of-an-application.md)
 - [PROC-REG-002 Ingivande av en ansökan](../../../domains/registration/processes/lodging-an-application.md)

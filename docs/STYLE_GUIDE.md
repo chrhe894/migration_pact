@@ -498,7 +498,7 @@ Shared Activities i processbeskrivningar ska länkas till aktivitetsfilen under 
 Exempel:
 
 ```markdown
-- [Verify identity](../../../shared/identity/activities/verify-identity.md)
+- [Verifiera identitet](../../../shared/identity/activities/verify-identity.md)
 ```
 
 ---

@@ -56,6 +56,6 @@ APR ersätter det tidigare asylprocedurdirektivet (2013/32/EU) och inför ett di
 
 ## Används i kunskapsbasen
 
-- [Registration](../../domains/registration/README.md)
-- [Asylum Procedure](../../domains/asylum-procedure/README.md)
-- [Border Procedure](../../domains/border-procedure/README.md)
+- [Registrering](../../domains/registration/README.md)
+- [Asylförfarande](../../domains/asylum-procedure/README.md)
+- [Gränsförfarande](../../domains/border-procedure/README.md)
