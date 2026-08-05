@@ -1,7 +1,7 @@
 ---
 tags:
   - asylförfarande
-  - capability
+  - förmåga
 ---
 
 ← [Asylförfarande](../README.md)
@@ -28,7 +28,7 @@ Bedöma om en ansökan kan tas upp till prövning i sak eller ska avvisas.
 
 ## Stöds av
 
-- [PROC-ASY-001 Examine an Application](../processes/examine-an-application.md)
+- [PROC-ASY-001 Pröva en ansökan](../processes/examine-an-application.md)
 
 ---
 

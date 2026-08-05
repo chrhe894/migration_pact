@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Issue applicant documents
+' Diagram: Utfärda sökandehandlingar
 '
 ' Syfte: Visualiserar processen för utfärdande av handlingar till sökanden
 '        vid registrering och inlämnande av ansökan.
@@ -14,7 +14,7 @@
 
 @startuml issue-applicant-documents
 
-title Issue applicant documents
+title Utfärda sökandehandlingar
 
 skinparam shadowing false
 skinparam HyperlinkColor Black

@@ -1,7 +1,7 @@
 ---
 tags:
   - registrering
-  - capability
+  - förmåga
   - handlingar
 ---
 
@@ -31,7 +31,7 @@ Utfärda korrekta handlingar till sökanden vid registrering och inlämnande som
 
 ## Stöds av
 
-- [PROC-REG-003 Issue applicant documents](../processes/issue-applicant-documents.md)
+- [PROC-REG-003 Utfärda sökandehandlingar](../processes/issue-applicant-documents.md)
 
 ---
 

@@ -7,7 +7,7 @@ tags:
 
 # PROC-REG-002
 
-# Lodging an application
+# Ingivande av en ansökan
 
 ## Trigger
 

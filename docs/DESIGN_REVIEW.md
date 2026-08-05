@@ -243,7 +243,7 @@ Requirements and Capabilities answer different questions.
 |-----------|------------------|
 | What does the law require? | Rule |
 | What obligation follows? | Requirement |
-| What must the organisation be able to do? | Capability |
+| What must the organisation be able to do? | Förmåga |
 | How is it performed? | Process |
 
 These perspectives complement rather than duplicate one another.

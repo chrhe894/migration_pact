@@ -14,7 +14,7 @@ Varje scenario mappar steg för steg till domäner, processer och regler i kunsk
 | [Familj med barn — avslag vid gränsen](family-rejected-at-border.md) | Screening → Border Procedure → Return Border |
 | [Missad överföringsfrist — ansvaret övergår](transfer-deadline-missed.md) | Responsibility → Transfer (missad frist) |
 | [Efterföljande ansökan efter avslag](subsequent-application-after-rejection.md) | Asylum Procedure (subsequent application) |
-| [Solidaritetsomfördelning från Grekland](solidarity-relocation-from-greece.md) | Solidarity → Relocation |
+| [Solidaritetsomfördelning från Grekland](solidarity-relocation-from-greece.md) | Solidaritet → Omplacering |
 | [Ensamkommande barn från Eritrea](unaccompanied-minor-eritrea.md) | Screening → Registration → Responsibility (art. 25) → Children |
 | [Krissituation vid massankomst — Cypern](crisis-mass-arrival-cyprus.md) | Crisis → förlängda tidsfrister |
 | [Diskretionär bedömning — humanitära skäl](discretionary-clause-humanitarian.md) | Responsibility (art. 35, suveränitetsklausul) |

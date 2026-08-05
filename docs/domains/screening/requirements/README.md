@@ -2,7 +2,7 @@
 
 # Krav — Screening
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-SCR-005-001](req-scr-005-001.md) | Screening ska genomföras för alla som omhändertas vid otillåten gränspassage eller landsätts | RULE-SCR-005-001 | CAP-SCR-001 |
 | [REQ-SCR-005-002](req-scr-005-002.md) | Screening ska genomföras för asylsökande vid gränsövergångsställen som ej uppfyller inresevillkoren | RULE-SCR-005-002 | CAP-SCR-001 |

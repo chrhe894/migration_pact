@@ -24,12 +24,12 @@ Fastställa eller bedöma sökandens identitet i den utsträckning som krävs en
 
 ## Används av
 
-- [PROC-REG-001 Registration of an application](../../../domains/registration/processes/registration-of-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../../../domains/registration/processes/registration-of-an-application.md)
 - [PROC-SCR-001 Screening vid yttre gräns](../../../domains/screening/processes/screening-at-external-border.md)
 - [PROC-SCR-002 Screening inom territoriet](../../../domains/screening/processes/screening-within-territory.md)
-- [PROC-ASY-001 Examine an application](../../../domains/asylum-procedure/processes/examine-an-application.md)
-- [PROC-RES-001 Determine responsible Member State](../../../domains/responsibility/processes/determine-responsible-member-state.md)
-- [PROC-EUR-001 Collect and transmit biometric data](../../../domains/eurodac/processes/collect-and-transmit-biometric-data.md)
+- [PROC-ASY-001 Pröva en ansökan](../../../domains/asylum-procedure/processes/examine-an-application.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../../../domains/responsibility/processes/determine-responsible-member-state.md)
+- [PROC-EUR-001 Samla in och överföra biometriska uppgifter](../../../domains/eurodac/processes/collect-and-transmit-biometric-data.md)
 
 ---
 

@@ -52,7 +52,7 @@ Båda systemen bygger på principen att **en** medlemsstat ska vara ansvarig fö
 3. **Solidaritetspool** — årlig fördelning av bidrag baserat på referensnyckel
 4. **Ansvarskompensationer** — alternativ till fysisk omfördelning
 5. **Eurodac-utbyggnad** — ansiktsbild, fler kategorier, koppling till interoperabilitet
-6. **Return border procedure** — egen förordning för återvändande vid gräns
+6. **Återvändande vid gräns** — egen förordning för återvändande vid gräns
 7. **Examensbevis** som ansvarsgrund
 8. **Kapacitetstak** som kan stänga av obligatoriskt gränsförfarande
 

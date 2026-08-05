@@ -50,4 +50,4 @@ Statusen uppstår automatiskt när en person gör en ansökan om internationellt
 - [ART-APR-027](../articles/apr-027.md)
 - [ART-APR-028](../articles/apr-028.md)
 - [ART-APR-029](../articles/apr-029.md)
-- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)

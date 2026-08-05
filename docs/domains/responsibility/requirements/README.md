@@ -2,7 +2,7 @@
 
 # Krav — Responsibility
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-AMMR-024-001](req-ammr-024-001.md) | Kriterierna ska tillämpas i den ordning de anges | RULE-AMMR-024-001 | CAP-RES-001 |
 | [REQ-AMMR-024-002](req-ammr-024-002.md) | Ansvar ska fastställas baserat på situationen vid första registrering | RULE-AMMR-024-002 | CAP-RES-001 |

@@ -9,7 +9,7 @@ tags:
 
 ## Begrepp
 
-Return border procedure
+Återvändande vid gräns
 
 ---
 
@@ -33,7 +33,7 @@ Utlöses automatiskt av ett avslagsbeslut i asylgränsförfarandet ([PROC-RET-00
 
 ## Rättslig grund
 
-[Return Border Procedure artikel 4](../articles/return-004.md)
+[Återvändande vid gräns artikel 4](../articles/return-004.md)
 
 ---
 
@@ -47,4 +47,4 @@ Utlöses automatiskt av ett avslagsbeslut i asylgränsförfarandet ([PROC-RET-00
 ## Används i
 
 - [ART-RET-004](../articles/return-004.md)
-- [PROC-RET-001 Return border procedure](../processes/return-border-procedure.md)
+- [PROC-RET-001 Återvändande vid gräns](../processes/return-border-procedure.md)

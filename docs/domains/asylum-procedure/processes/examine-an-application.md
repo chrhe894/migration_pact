@@ -7,7 +7,7 @@ tags:
 
 # PROC-ASY-001
 
-# Examine an application
+# Pröva en ansökan
 
 ## Trigger
 

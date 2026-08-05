@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Collect and transmit biometric data
+' Diagram: Samla in och överföra biometriska uppgifter
 '
 ' Syfte: Visualiserar processen för insamling och överföring av
 '        biometriska uppgifter till Eurodac.
@@ -16,7 +16,7 @@
 
 @startuml collect-and-transmit-biometric-data
 
-title PROC-EUR-001 Collect and transmit biometric data
+title PROC-EUR-001 Samla in och överföra biometriska uppgifter
 
 skinparam shadowing false
 skinparam HyperlinkColor Black

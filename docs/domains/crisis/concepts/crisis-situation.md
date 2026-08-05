@@ -47,4 +47,4 @@ Uppstår som faktisk omständighet och erkänns formellt genom ett rådsbeslut b
 ## Används i
 
 - [ART-CRI-003](../articles/crisis-003.md)
-- [PROC-CRI-001 Activate crisis measures](../processes/activate-crisis-measures.md)
+- [PROC-CRI-001 Aktivera krisåtgärder](../processes/activate-crisis-measures.md)

@@ -40,11 +40,11 @@ Den beslutande myndigheten genom att bedöma ansökan mot avvisningsgrunderna i 
 ## Relaterade begrepp
 
 - [CON-ASY-003 Examination on the merits](examination-on-the-merits.md)
-- [CON-ASY-005 Subsequent application](subsequent-application.md)
+- [CON-ASY-005 Efterföljande ansökan](subsequent-application.md)
 
 ---
 
 ## Används i
 
 - [ART-APR-038](../articles/apr-038.md)
-- [PROC-ASY-001 Examine an application](../processes/examine-an-application.md)
+- [PROC-ASY-001 Pröva en ansökan](../processes/examine-an-application.md)

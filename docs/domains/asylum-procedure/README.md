@@ -38,8 +38,8 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 
 | Process | Beskrivning |
 |---------|-------------|
-| [PROC-ASY-001 Examine an application](processes/examine-an-application.md) | Från inlämnad ansökan till beslut |
-| [PROC-ASY-002 Subsequent application](processes/subsequent-application.md) | Hantering av efterföljande ansökan |
+| [PROC-ASY-001 Pröva en ansökan](processes/examine-an-application.md) | Från inlämnad ansökan till beslut |
+| [PROC-ASY-002 Efterföljande ansökan](processes/subsequent-application.md) | Hantering av efterföljande ansökan |
 
 ---
 
@@ -75,7 +75,7 @@ Decision on the merits (art. 39)
 | [CON-ASY-002](concepts/admissibility.md) | Admissibility |
 | [CON-ASY-003](concepts/examination-on-the-merits.md) | Examination on the merits |
 | [CON-ASY-004](concepts/accelerated-procedure.md) | Accelerated procedure |
-| [CON-ASY-005](concepts/subsequent-application.md) | Subsequent application |
+| [CON-ASY-005](concepts/subsequent-application.md) | Efterföljande ansökan |
 
 ---
 

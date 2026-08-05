@@ -47,4 +47,4 @@ Uppstår automatiskt genom att en ansökan registreras i medlemsstaten, varvid s
 ## Används i
 
 - [ART-AMMR-038](../articles/ammr-038.md)
-- [PROC-RES-001 Determine responsible Member State](../processes/determine-responsible-member-state.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../processes/determine-responsible-member-state.md)

@@ -87,13 +87,13 @@
 
 ## Processer
 
-- [x] PROC-RES-001 — Determine responsible Member State
+- [x] PROC-RES-001 — Fastställ ansvarig medlemsstat
 
 ---
 
 ## Diagram
 
-- [x] Determine responsible Member State
+- [x] Fastställ ansvarig medlemsstat
 
 ---
 

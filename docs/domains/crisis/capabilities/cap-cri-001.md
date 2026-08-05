@@ -1,7 +1,7 @@
 ---
 tags:
   - kris
-  - capability
+  - förmåga
 ---
 
 ← [Kris](../README.md)
@@ -10,7 +10,7 @@ tags:
 
 ## Verksamhetsförmåga
 
-Activate Crisis Measures
+Aktivera krisåtgärder
 
 ---
 
@@ -30,7 +30,7 @@ Aktivera undantagsbestämmelser vid kris, force majeure eller instrumentaliserin
 
 ## Stöds av
 
-- [PROC-CRI-001 Activate Crisis Measures](../processes/activate-crisis-measures.md)
+- [PROC-CRI-001 Aktivera krisåtgärder](../processes/activate-crisis-measures.md)
 
 ---
 

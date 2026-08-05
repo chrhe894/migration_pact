@@ -9,7 +9,7 @@ tags:
 
 ## Rättslig grund
 
-[Return Border Procedure artikel 5](../articles/return-005.md)
+[Återvändande vid gräns artikel 5](../articles/return-005.md)
 
 ---
 

@@ -10,7 +10,7 @@
 | Regler (RULE) | ~105 | Med Syfte, Utlösare, Rättsverkan |
 | Koncept (CON) | 43 | Med Syfte, Skapas av |
 | Krav (REQ) | ~225 | 9 domäner + shared/interpreters |
-| Capabilities (CAP) | 41 | 9 domäner |
+| Förmågor (CAP) | 41 | 9 domäner |
 | Processer (PROC) | 13 | Med Tillståndsförändringar |
 | Diagram (PlantUML) | 25+ | Med ID-länkkonvention |
 | Informationsflödesdiagram | 4 | Registration, Screening, Responsibility, Asylum Procedure |
@@ -18,7 +18,7 @@
 ### Spårbarhetskedja (implementerad)
 
 ```
-Article → Rule → Requirement → Capability → Process → Diagram
+Article → Rule → Requirement → Förmåga → Process → Diagram
 ```
 
 ---

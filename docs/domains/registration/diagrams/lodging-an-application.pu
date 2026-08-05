@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Lodging an application
+' Diagram: Ingivande av en ansökan
 '
 ' Syfte: Visualiserar processen från att en registrerad ansökan ska
 '        lämnas in till att inlämnandet är bekräftat och tidsfristen
@@ -16,7 +16,7 @@
 
 @startuml lodging-an-application
 
-title Lodging an application
+title Ingivande av en ansökan
 
 skinparam shadowing false
 skinparam HyperlinkColor Black

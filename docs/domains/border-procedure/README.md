@@ -14,7 +14,7 @@ Gränsförfarandet är ett särskilt förfarande som genomförs vid eller nära 
 | | |
 |---|---|
 | **Föregående** | [Screening](../screening/README.md) → [Registration](../registration/README.md) |
-| **Nästa** | Beviljande (inresa tillåts) eller [Return Border Procedure](../return-border-procedure/README.md) |
+| **Nästa** | Beviljande (inresa tillåts) eller [Återvändande vid gräns](../return-border-procedure/README.md) |
 | **Inträde** | Ansökan registrerad, sökanden vid yttre gräns, gränsförfarandevillkor uppfyllda |
 | **Utträde** | Beslut fattat inom 12 veckor, eller tidsfrist löpt ut (inresa tillåts) |
 
@@ -37,7 +37,7 @@ Gränsförfarandet är ett särskilt förfarande som genomförs vid eller nära 
 
 | Process | Beskrivning |
 |---------|-------------|
-| [PROC-BRD-001 Asylum border procedure](processes/asylum-border-procedure.md) | Prövning av ansökan inom ramen för gränsförfarande |
+| [PROC-BRD-001 Asylgränsförfarande](processes/asylum-border-procedure.md) | Prövning av ansökan inom ramen för gränsförfarande |
 
 ---
 
@@ -56,7 +56,7 @@ Gränsförfarande inleds
 Beslut (inom 12 veckor)
         │
         ├── Beviljat → inresa tillåts
-        ├── Avslag → return border procedure (förordning 2024/1349)
+        ├── Avslag → återvändandeförfarande vid gräns (förordning 2024/1349)
         └── Kapacitet uppnådd → reguljärt förfarande
 ```
 

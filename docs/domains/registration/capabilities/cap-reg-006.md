@@ -1,7 +1,7 @@
 ---
 tags:
   - registrering
-  - capability
+  - förmåga
   - eurodac
   - 72-timmar
 ---
@@ -30,7 +30,7 @@ Transmit Eurodac Dataset
 
 ## Stöds av
 
-- [PROC-EUR-001 Collect and transmit biometric data](../../eurodac/processes/collect-and-transmit-biometric-data.md)
+- [PROC-EUR-001 Samla in och överföra biometriska uppgifter](../../eurodac/processes/collect-and-transmit-biometric-data.md)
 
 ---
 

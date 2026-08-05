@@ -55,5 +55,5 @@ Handlingen ska återkallas när sökandehandlingen utfärdas. Den behöver inte 
 ## Används i
 
 - [ART-APR-029](../articles/apr-029.md)
-- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
-- [PROC-REG-003 Issue applicant documents](../processes/issue-applicant-documents.md)
+- [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)
+- [PROC-REG-003 Utfärda sökandehandlingar](../processes/issue-applicant-documents.md)

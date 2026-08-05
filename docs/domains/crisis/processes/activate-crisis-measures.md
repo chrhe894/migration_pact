@@ -7,7 +7,7 @@ tags:
 
 # PROC-CRI-001
 
-# Activate crisis measures
+# Aktivera krisåtgärder
 
 ## Trigger
 

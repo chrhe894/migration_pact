@@ -7,7 +7,7 @@ tags:
 
 # PROC-SOL-001
 
-# Relocation
+# Omplacering
 
 ## Trigger
 
@@ -45,7 +45,7 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 - Migration pressure established
 - Solidarity pool activated
-- Relocation confirmed
+- Omplacering bekräftad
 - Transfer completed
 - Responsibility transferred
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - asylförfarande
-  - capability
+  - förmåga
 ---
 
 ← [Asylförfarande](../README.md)
@@ -29,7 +29,7 @@ Pröva ansökan individuellt, objektivt och opartiskt mot flyktingstatus och sub
 
 ## Stöds av
 
-- [PROC-ASY-001 Examine an Application](../processes/examine-an-application.md)
+- [PROC-ASY-001 Pröva en ansökan](../processes/examine-an-application.md)
 
 ---
 

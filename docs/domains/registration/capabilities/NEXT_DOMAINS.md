@@ -33,7 +33,7 @@ Dessa bör implementeras om piloten bedöms värdefull.
 
 | Typ | ID-förslag | Beskrivning |
 |-----|-----------|-------------|
-| CAP | CAP-RES-001 | Determine Responsible State — fastställa ansvarig stat |
+| CAP | CAP-RES-001 | Fastställ ansvarig stat — fastställa ansvarig stat |
 | CAP | CAP-RES-002 | Send Take Charge Request — skicka framställan |
 | CAP | CAP-RES-003 | Execute Transfer — verkställa överföring |
 | REQ | REQ-AMMR-024-001 | Kriterierna ska tillämpas i rangordning |

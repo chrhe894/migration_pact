@@ -2,7 +2,7 @@
 
 # Krav — Interpreters
 
-| ID                                    | Krav                                                                                  | Härledd från   | Capability  |
+| ID                                    | Krav                                                                                  | Härledd från   | Förmåga  |
 | ------------------------------------- | ------------------------------------------------------------------------------------- | -------------- | ----------- |
 | [REQ-INT-001](req-int-001.md)         | Tolk ska tillhandahållas vid registrering, inlämnande och intervju                    | RULE-INT-001   | CAP-INT-001 |
 | [REQ-INT-002](req-int-002.md)         | Kostnader för tolkning ska bäras av det allmänna                                      | RULE-INT-002   | CAP-INT-001 |

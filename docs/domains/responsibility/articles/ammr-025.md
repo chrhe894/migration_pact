@@ -43,7 +43,7 @@ Artikeln fastställer särskilda ansvarskriterier för ensamkommande barn. Dessa
 
 ---
 
-## Shared Capabilities
+## Delade moduler
 
 - [Children](../../../shared/children/README.md)
 

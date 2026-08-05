@@ -15,9 +15,9 @@ Hur skiljer sig return border procedure från det ordinarie återvändandedirekt
 
 ## Analys
 
-Return border procedure (förordning 2024/1349) och återvändandedirektivet (2008/115/EG) reglerar båda återvändande, men i olika situationer:
+Återvändande vid gräns (förordning 2024/1349) och återvändandedirektivet (2008/115/EG) reglerar båda återvändande, men i olika situationer:
 
-**Return border procedure:**
+**Återvändande vid gräns:**
 - Tillämpas *enbart* efter avslag i asylgränsförfarandet.
 - Personen har *inte* tillåtits resa in — befinner sig vid gränsen.
 - Absolut tidsgräns: 12 veckor. Om det inte verkställs → inresa tillåts.
@@ -29,7 +29,7 @@ Return border procedure (förordning 2024/1349) och återvändandedirektivet (20
 - Personen befinner sig redan på territoriet.
 - Tillämpas efter screening inom territoriet (artikel 7) eller efter reguljärt asylförfarande.
 
-**Praktisk konsekvens:** Return border procedure är designat för att förhindra att en person vars ansökan avslagits vid gränsen överhuvudtaget sätter fot på territoriet. Om 12-veckorsfristen passerar utan verkställighet faller dock personen in i det ordinarie systemet.
+**Praktisk konsekvens:** Återvändande vid gräns är designat för att förhindra att en person vars ansökan avslagits vid gränsen överhuvudtaget sätter fot på territoriet. Om 12-veckorsfristen passerar utan verkställighet faller dock personen in i det ordinarie systemet.
 
 ---
 

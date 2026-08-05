@@ -40,7 +40,7 @@ En bidragande medlemsstat genom att välja ansvarskompensation som bidragsform u
 ## Relaterade begrepp
 
 - [CON-SOL-001 Solidarity pool](solidarity-pool.md)
-- [CON-SOL-002 Relocation](relocation.md)
+- [CON-SOL-002 Omplacering](relocation.md)
 
 ---
 

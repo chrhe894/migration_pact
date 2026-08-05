@@ -2,7 +2,7 @@
 
 # Krav — Eurodac
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-EUR-013-001](req-eur-013-001.md) | Biometriska uppgifter ska tas för alla personkategorier | RULE-EUR-013-001 | CAP-EUR-001 |
 | [REQ-EUR-013-002](req-eur-013-002.md) | Personen ska informeras om Eurodac och skyldigheten att lämna biometri | RULE-EUR-013-001 | CAP-EUR-001 |

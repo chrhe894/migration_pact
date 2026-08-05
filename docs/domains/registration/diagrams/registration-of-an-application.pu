@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Registration of an application
+' Diagram: Registrering av en ansökan
 '
 ' Syfte: Detaljerat aktivitetsflöde med regler, notes och
 '        förklaringar för varje steg.
@@ -14,7 +14,7 @@
 
 @startuml registration-of-an-application
 
-title Registration of an application
+title Registrering av en ansökan
 
 skinparam shadowing false
 skinparam HyperlinkColor Black

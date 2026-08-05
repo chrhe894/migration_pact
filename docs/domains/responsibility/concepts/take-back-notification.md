@@ -46,4 +46,4 @@ AMMR artikel 41
 
 ## Används i
 
-- PROC-RES-001 Determine responsible Member State
+- PROC-RES-001 Fastställ ansvarig medlemsstat

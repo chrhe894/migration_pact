@@ -15,7 +15,7 @@ Vad händer med personer som inte kan avlägsnas inom 12-veckorsfristen?
 
 ## Bakgrund
 
-Return border procedure har en absolut tidsgräns på 12 veckor. Om avlägsnande inte verkställts ska personen tillåtas resa in. Men:
+Återvändande vid gräns har en absolut tidsgräns på 12 veckor. Om avlägsnande inte verkställts ska personen tillåtas resa in. Men:
 
 - Vad händer om ursprungslandet inte samarbetar med återtagande?
 - Vilka rättigheter har personen efter inresa — rätt till mottagningsvillkor? Arbetstillstånd?

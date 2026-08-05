@@ -1,7 +1,7 @@
 ---
 tags:
   - screening
-  - capability
+  - förmåga
 ---
 
 ← [Screening](../README.md)

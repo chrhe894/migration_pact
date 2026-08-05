@@ -85,7 +85,7 @@ partition "Konsumeras av" {
   note right
     [[../../../domains/return-border-procedure/rules/rule-ret-004-001.md RULE-RET-004-001]]
     Vid avslag —
-    return border procedure
+    återvändandeförfarande vid gräns
   end note
   :Eurodac;
   note right

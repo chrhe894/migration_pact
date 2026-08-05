@@ -58,7 +58,7 @@ Eurodac är ett informationssystem för jämförelse av biometriska uppgifter oc
 
 | Process | Beskrivning |
 |---------|-------------|
-| [PROC-EUR-001 Collect and transmit biometric data](processes/collect-and-transmit-biometric-data.md) | Från att biometriska uppgifter ska tas till att dataset överförs till Eurodac |
+| [PROC-EUR-001 Samla in och överföra biometriska uppgifter](processes/collect-and-transmit-biometric-data.md) | Från att biometriska uppgifter ska tas till att dataset överförs till Eurodac |
 
 ---
 

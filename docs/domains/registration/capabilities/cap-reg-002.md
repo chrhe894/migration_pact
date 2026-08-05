@@ -1,7 +1,7 @@
 ---
 tags:
   - registrering
-  - capability
+  - förmåga
   - vidarebefordra
   - fel-myndighet
 ---
@@ -30,7 +30,7 @@ Säkerställa att en ansökan som görs till fel myndighet utan dröjsmål vidar
 
 ## Stöds av
 
-- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)
 
 ---
 

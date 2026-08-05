@@ -7,7 +7,7 @@ tags:
 
 # PROC-RES-001
 
-# Determine responsible Member State
+# Fastställ ansvarig medlemsstat
 
 ## Trigger
 

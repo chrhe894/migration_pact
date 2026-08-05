@@ -1,5 +1,5 @@
 
-# Return Border Procedure Backlog
+# Återvändande vid gräns Backlog
 
 ## Domänöversikt
 
@@ -32,13 +32,13 @@
 
 ## Processer
 
-- [x] PROC-RET-001 — Return border procedure
+- [x] PROC-RET-001 — Återvändande vid gräns
 
 ---
 
 ## Diagram
 
-- [x] Return border procedure
+- [x] Återvändande vid gräns
 
 ---
 

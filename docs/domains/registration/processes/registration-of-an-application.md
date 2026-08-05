@@ -7,7 +7,7 @@ tags:
 
 # PROC-REG-001
 
-# Registration of an application
+# Registrering av en ansökan
 
 ## Trigger
 

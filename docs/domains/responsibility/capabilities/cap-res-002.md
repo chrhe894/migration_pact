@@ -1,7 +1,7 @@
 ---
 tags:
   - ansvar
-  - capability
+  - förmåga
 ---
 
 ← [Ansvar](../README.md)
@@ -29,7 +29,7 @@ Skicka framställan om övertagande till annan stat inom tidsfrist.
 
 ## Stöds av
 
-- [PROC-RES-001 Determine Responsible Member State](../processes/determine-responsible-member-state.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../processes/determine-responsible-member-state.md)
 
 ---
 

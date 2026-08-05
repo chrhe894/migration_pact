@@ -9,7 +9,7 @@ tags:
 
 ## Artikel
 
-Return Border Procedure artikel 7
+Återvändande vid gräns artikel 7
 
 ## Rubrik
 
@@ -25,5 +25,5 @@ Reglerar villkoren för förvar under return border procedure. Förvar ska vara 
 
 ## Relaterade artiklar
 
-- [Return Border Procedure artikel 5](return-005.md) — Frivillig avresa
+- [Återvändande vid gräns artikel 5](return-005.md) — Frivillig avresa
 - [AMMR artikel 44](../../responsibility/articles/ammr-044.md) — Förvar

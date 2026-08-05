@@ -21,7 +21,7 @@ Obligation
 
 ## Regel
 
-Gränsförfarandet ska pågå i högst tolv veckor från registreringen. Efter denna period ska sökanden tillåtas resa in på medlemsstatens territorium, förutom om return border procedure (förordning (EU) 2024/1349) är tillämplig.
+Gränsförfarandet ska pågå i högst tolv veckor från registreringen. Efter denna period ska sökanden tillåtas resa in på medlemsstatens territorium, förutom om återvändandeförfarande vid gräns (förordning (EU) 2024/1349) är tillämplig.
 
 ---
 
@@ -41,7 +41,7 @@ Tolv veckor har förflutit sedan ansökan registrerades i gränsförfarandet.
 
 - Gränsförfarandet avslutas efter tolv veckor oavsett prövningsresultat.
 - Sökanden ska tillåtas resa in på territoriet.
-- Undantag gäller enbart vid tillämpning av return border procedure.
+- Undantag gäller enbart vid tillämpning av återvändandeförfarande vid gräns.
 
 ---
 

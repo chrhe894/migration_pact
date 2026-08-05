@@ -36,7 +36,7 @@ Förordningen medger undantag från ordinarie tidsfrister och förfaranden samt 
 
 | Process | Beskrivning |
 |---------|-------------|
-| [PROC-CRI-001 Activate crisis measures](processes/activate-crisis-measures.md) | Från begäran till aktivering av undantag |
+| [PROC-CRI-001 Aktivera krisåtgärder](processes/activate-crisis-measures.md) | Från begäran till aktivering av undantag |
 
 ---
 

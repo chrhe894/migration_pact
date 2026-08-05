@@ -1,7 +1,7 @@
 ---
 tags:
   - ansvar
-  - capability
+  - förmåga
 ---
 
 ← [Ansvar](../README.md)
@@ -28,7 +28,7 @@ Säkerställa sökandens rätt till överklagande och suspensiv verkan.
 
 ## Stöds av
 
-- [PROC-RES-001 Determine Responsible Member State](../processes/determine-responsible-member-state.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../processes/determine-responsible-member-state.md)
 
 ---
 

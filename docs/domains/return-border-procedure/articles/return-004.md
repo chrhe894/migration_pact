@@ -9,7 +9,7 @@ tags:
 
 ## Artikel
 
-Return Border Procedure artikel 4
+Återvändande vid gräns artikel 4
 
 ## Rubrik
 

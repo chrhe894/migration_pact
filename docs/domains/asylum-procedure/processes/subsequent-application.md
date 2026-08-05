@@ -7,7 +7,7 @@ tags:
 
 # PROC-ASY-002
 
-# Subsequent application
+# Efterföljande ansökan
 
 ## Trigger
 
@@ -45,7 +45,7 @@ Om det inte finns ett slutligt beslut om den tidigare ansökan (ärendet pågår
 
 ## Juridiska milstolpar
 
-- Subsequent application registered
+- Efterföljande ansökan registered
 - Preliminary examination completed
 - Admissibility decision (inadmissible / admissible)
 - If admissible: examination on the merits → decision

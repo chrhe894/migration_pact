@@ -15,7 +15,7 @@ Ett paket av sex EU-förordningar som antogs 2024 och som reformerar det gemensa
 
 Båda ger internationellt skydd men med olika rättslig grund.
 
-→ Se [PROC-ASY-001 Examine an application](domains/asylum-procedure/processes/examine-an-application.md)
+→ Se [PROC-ASY-001 Pröva en ansökan](domains/asylum-procedure/processes/examine-an-application.md)
 
 ---
 
@@ -62,10 +62,10 @@ Ett snabbare förfarande (max 12 veckor) som genomförs vid de yttre gränserna 
 ## Vad händer vid avslag?
 
 - I reguljärt förfarande: återvändandedirektivet (2008/115/EG) tillämpas.
-- I gränsförfarande: return border procedure (max 12 veckor ytterligare).
+- I gränsförfarande: återvändandeförfarande vid gräns (max 12 veckor ytterligare).
 - Om avlägsnande inte verkställs inom tidsfristen: personen tillåts resa in.
 
-→ Se [Return Border Procedure](domains/return-border-procedure/README.md)
+→ Se [Återvändande vid gräns](domains/return-border-procedure/README.md)
 
 ---
 

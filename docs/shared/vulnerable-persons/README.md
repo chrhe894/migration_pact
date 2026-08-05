@@ -48,4 +48,4 @@ Sårbarhetsrelaterade regler finns i respektive domän:
 
 - [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
 - [PROC-SCR-002 Screening inom territoriet](../../domains/screening/processes/screening-within-territory.md)
-- [PROC-REG-002 Lodging an application](../../domains/registration/processes/lodging-an-application.md)
+- [PROC-REG-002 Ingivande av en ansökan](../../domains/registration/processes/lodging-an-application.md)

@@ -29,4 +29,4 @@ Denna shared-modul dokumenterar handlingar som utfärdas till sökande under fö
 
 ## Används av
 
-- [PROC-REG-003 Issue applicant documents](../../domains/registration/processes/issue-applicant-documents.md)
+- [PROC-REG-003 Utfärda sökandehandlingar](../../domains/registration/processes/issue-applicant-documents.md)

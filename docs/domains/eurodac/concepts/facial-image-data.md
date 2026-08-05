@@ -48,4 +48,4 @@ Samlas in av den behöriga myndigheten genom fotografering av personens ansikte 
 
 - [ART-EUR-017](../articles/eur-017.md)
 - [ART-EUR-023](../articles/eur-023.md)
-- [PROC-EUR-001 Collect and transmit biometric data](../processes/collect-and-transmit-biometric-data.md)
+- [PROC-EUR-001 Samla in och överföra biometriska uppgifter](../processes/collect-and-transmit-biometric-data.md)

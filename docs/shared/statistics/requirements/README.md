@@ -2,7 +2,7 @@
 
 # Krav — Statistics
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-AMMR-009-001](req-ammr-009-001.md) | Kommissionen ska årligen publicera en rapport om asyl- och migrationssituationen | Art. AMMR 9 | CAP-STA-001 |
 | [REQ-AMMR-009-002](req-ammr-009-002.md) | Rapporten ska baseras på data från medlemsstater, EUAA, Frontex och andra organ | Art. AMMR 9 | CAP-STA-001 |

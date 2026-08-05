@@ -101,7 +101,7 @@ Se även:
 | [Responsibility](domains/responsibility/README.md)                   | AMMR                       | Pågår  |
 | [Solidarity](domains/solidarity/README.md)                           | AMMR                       | Pågår  |
 | [Crisis](domains/crisis/README.md)                                   | Krishanteringsförordningen | Pågår  |
-| [Return border procedure](domains/return-border-procedure/README.md) | Return Border Procedure    | Pågår  |
+| [Återvändande vid gräns](domains/return-border-procedure/README.md) | Återvändande vid gräns    | Pågår  |
 
 ---
 

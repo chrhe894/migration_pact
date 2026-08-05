@@ -1,7 +1,7 @@
 ---
 tags:
   - återvändande
-  - capability
+  - förmåga
 ---
 
 ← [Återvändande vid gräns](../README.md)
@@ -10,7 +10,7 @@ tags:
 
 ## Verksamhetsförmåga
 
-Conduct Return Border Procedure
+Conduct Återvändande vid gräns
 
 ---
 
@@ -22,14 +22,14 @@ Genomföra återvändandegränsförfarandet efter avslag inom 12 veckor.
 
 ## Implementerar
 
-- [RULE-RET-004-001](../rules/rule-ret-004-001.md) — Return border procedure inleds efter avslag
+- [RULE-RET-004-001](../rules/rule-ret-004-001.md) — Återvändande vid gräns inleds efter avslag
 - [RULE-RET-005-001](../rules/rule-ret-005-001.md) — Max 12 veckor
 
 ---
 
 ## Stöds av
 
-- [PROC-RET-001 Return Border Procedure](../processes/return-border-procedure.md)
+- [PROC-RET-001 Återvändande vid gräns](../processes/return-border-procedure.md)
 
 ---
 

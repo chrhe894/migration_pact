@@ -7,7 +7,7 @@ tags:
 
 # PROC-REG-003
 
-# Issue applicant documents
+# Utfärda sökandehandlingar
 
 ## Trigger
 

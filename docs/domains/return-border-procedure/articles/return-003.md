@@ -9,7 +9,7 @@ tags:
 
 ## Artikel
 
-Return Border Procedure artikel 3
+Återvändande vid gräns artikel 3
 
 ## Rubrik
 
@@ -25,4 +25,4 @@ Definitioner som gäller specifikt för förordningen, inklusive hänvisning til
 
 ## Relaterade artiklar
 
-- [Return Border Procedure artikel 1](return-001.md) — Syfte
+- [Återvändande vid gräns artikel 1](return-001.md) — Syfte

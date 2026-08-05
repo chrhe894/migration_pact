@@ -54,4 +54,4 @@ Den bestämmande medlemsstaten efter att ansvarsfrågan slutligt avgjorts genom 
 ## Används i
 
 - [ART-AMMR-046](../articles/ammr-046.md)
-- [PROC-RES-001 Determine responsible Member State](../processes/determine-responsible-member-state.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../processes/determine-responsible-member-state.md)

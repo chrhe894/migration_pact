@@ -1,7 +1,7 @@
 ---
 tags:
   - registrering
-  - capability
+  - förmåga
   - inlämnande
 ---
 
@@ -31,7 +31,7 @@ Ta emot sökandens formella inlämnande av ansökan och starta prövningstidsfri
 
 ## Stöds av
 
-- [PROC-REG-002 Lodging an application](../processes/lodging-an-application.md)
+- [PROC-REG-002 Ingivande av en ansökan](../processes/lodging-an-application.md)
 
 ---
 

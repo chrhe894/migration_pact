@@ -1,7 +1,7 @@
 ---
 tags:
   - gränsförfarande
-  - capability
+  - förmåga
 ---
 
 ← [Gränsförfarande](../README.md)
@@ -28,7 +28,7 @@ Manage Adequate Capacity
 
 ## Stöds av
 
-- [PROC-BRD-001 Asylum Border Procedure](../processes/asylum-border-procedure.md)
+- [PROC-BRD-001 Asylgränsförfarande](../processes/asylum-border-procedure.md)
 
 ---
 

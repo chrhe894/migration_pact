@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Examine an application
+' Diagram: Pröva en ansökan
 '
 ' Syfte: Visualiserar prövningsförfarandet från inlämnad ansökan till beslut.
 '
@@ -14,7 +14,7 @@
 
 @startuml examine-an-application
 
-title Examine an application
+title Pröva en ansökan
 
 skinparam shadowing false
 skinparam HyperlinkColor Black

@@ -9,7 +9,7 @@ tags:
 
 ## Rättslig grund
 
-[Return Border Procedure artikel 4](../articles/return-004.md)
+[Återvändande vid gräns artikel 4](../articles/return-004.md)
 
 ---
 

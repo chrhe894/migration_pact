@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Return border procedure
+' Diagram: Återvändande vid gräns
 '
 ' Syfte: Visualiserar återvändandegränsförfarandet.
 '
@@ -13,7 +13,7 @@
 
 @startuml return-border-procedure
 
-title Return border procedure
+title Återvändande vid gräns
 
 skinparam shadowing false
 skinparam HyperlinkColor Black
@@ -34,7 +34,7 @@ start
 
 :Avslag i asylgränsförfarande;
 
-:[[../rules/rule-ret-004-001.md Return border procedure inleds]];
+:[[../rules/rule-ret-004-001.md Återvändande vid gräns inleds]];
 note right
   [[../rules/rule-ret-004-001.md RULE-RET-004-001]]
   Inleds efter avslag i

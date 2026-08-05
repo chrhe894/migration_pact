@@ -16,15 +16,15 @@
 | Typ | Notering | Motivering |
 |-----|----------|------------|
 | Koppling | CAP-ASY-003 | Påskyndat förfarande delar grunder med gränsförfarande (art. 42 → art. 45) |
-| Koppling | REQ-APR-037-001 | Avslag i gränsförfarande → return border procedure |
+| Koppling | REQ-APR-037-001 | Avslag i gränsförfarande → återvändandeförfarande vid gräns |
 
 ---
 
-## Return Border Procedure
+## Återvändande vid gräns
 
 | Typ | Notering | Motivering |
 |-----|----------|------------|
-| Koppling | REQ-APR-037-001/002 | Återvändandebeslut triggar return border procedure |
+| Koppling | REQ-APR-037-001/002 | Återvändandebeslut triggar återvändandeförfarande vid gräns |
 
 ---
 

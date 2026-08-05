@@ -50,4 +50,4 @@ Eurodacsystemet automatiskt när ursprungsmedlemsstaten överför personuppgifte
 - [ART-EUR-015](../articles/eur-015.md)
 - [ART-EUR-017](../articles/eur-017.md)
 - [ART-EUR-029](../articles/eur-029.md)
-- [PROC-EUR-001 Collect and transmit biometric data](../processes/collect-and-transmit-biometric-data.md)
+- [PROC-EUR-001 Samla in och överföra biometriska uppgifter](../processes/collect-and-transmit-biometric-data.md)

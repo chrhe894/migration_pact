@@ -93,7 +93,7 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 
 | Tidsfrist | Förordning | Regel |
 |-----------|------------|-------|
-| 12 veckor — maximal varaktighet return border procedure | Return art. 5 | [RULE-RET-005-001](../../domains/return-border-procedure/rules/rule-ret-005-001.md) |
+| 12 veckor — maximal varaktighet återvändandeförfarande vid gräns | Return art. 5 | [RULE-RET-005-001](../../domains/return-border-procedure/rules/rule-ret-005-001.md) |
 | 15 dagar — tidsfrist för frivillig avresa | Return art. 5 | [RULE-RET-005-001](../../domains/return-border-procedure/rules/rule-ret-005-001.md) |
 
 ### Vid kris (undantag)
@@ -139,9 +139,9 @@ Grundregler:
 - [PROC-REG-002 Lodging](../../domains/registration/processes/lodging-an-application.md)
 - [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
 - [PROC-SCR-002 Screening inom territoriet](../../domains/screening/processes/screening-within-territory.md)
-- [PROC-ASY-001 Examine an application](../../domains/asylum-procedure/processes/examine-an-application.md)
-- [PROC-BRD-001 Asylum border procedure](../../domains/border-procedure/processes/asylum-border-procedure.md)
-- [PROC-RES-001 Determine responsible Member State](../../domains/responsibility/processes/determine-responsible-member-state.md)
-- [PROC-SOL-001 Relocation](../../domains/solidarity/processes/relocation.md)
-- [PROC-RET-001 Return border procedure](../../domains/return-border-procedure/processes/return-border-procedure.md)
-- [PROC-CRI-001 Activate crisis measures](../../domains/crisis/processes/activate-crisis-measures.md)
+- [PROC-ASY-001 Pröva en ansökan](../../domains/asylum-procedure/processes/examine-an-application.md)
+- [PROC-BRD-001 Asylgränsförfarande](../../domains/border-procedure/processes/asylum-border-procedure.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../../domains/responsibility/processes/determine-responsible-member-state.md)
+- [PROC-SOL-001 Omplacering](../../domains/solidarity/processes/relocation.md)
+- [PROC-RET-001 Återvändande vid gräns](../../domains/return-border-procedure/processes/return-border-procedure.md)
+- [PROC-CRI-001 Aktivera krisåtgärder](../../domains/crisis/processes/activate-crisis-measures.md)

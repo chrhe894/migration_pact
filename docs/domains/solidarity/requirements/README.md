@@ -2,7 +2,7 @@
 
 # Krav — Solidarity
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-AMMR-057-001](req-ammr-057-001.md) | Solidaritetspool ska inrättas årligen | RULE-AMMR-057-001 | CAP-SOL-001 |
 | [REQ-AMMR-057-002](req-ammr-057-002.md) | Rådet antar genomförandeakt | RULE-AMMR-057-001 | CAP-SOL-001 |

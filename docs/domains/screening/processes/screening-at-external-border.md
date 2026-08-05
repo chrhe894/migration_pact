@@ -80,7 +80,7 @@ Om det under screeningen framkommer att personen uppfyller inresevillkoren ska s
 
 - [Verify identity](../../../shared/identity/activities/verify-identity.md)
 - [Determine interpreter needs](../../../shared/interpreters/activities/determine-interpreter-needs.md)
-- [Collect and transmit biometric data](../../eurodac/processes/collect-and-transmit-biometric-data.md)
+- [Samla in och överföra biometriska uppgifter](../../eurodac/processes/collect-and-transmit-biometric-data.md)
 
 ---
 

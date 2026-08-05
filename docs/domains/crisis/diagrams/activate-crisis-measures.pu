@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Activate crisis measures
+' Diagram: Aktivera krisåtgärder
 '
 ' Syfte: Visualiserar processen för att aktivera krisundantag.
 '
@@ -13,7 +13,7 @@
 
 @startuml activate-crisis-measures
 
-title Activate crisis measures
+title Aktivera krisåtgärder
 
 skinparam shadowing false
 skinparam HyperlinkColor Black

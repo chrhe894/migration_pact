@@ -2,7 +2,7 @@
 
 # Krav — Asylum Procedure
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-APR-034-001](req-apr-034-001.md) | Prövning ska ske individuellt, objektivt och opartiskt | RULE-APR-034-001 | CAP-ASY-001 |
 | [REQ-APR-034-002](req-apr-034-002.md) | Ansökan ska prövas mot flyktingstatus först, subsidiärt skydd i andra hand | RULE-APR-034-002 | CAP-ASY-001 |

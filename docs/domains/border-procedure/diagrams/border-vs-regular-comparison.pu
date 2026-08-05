@@ -108,7 +108,7 @@ else (Gränsförfarande)
   if (Beviljat?) then (Ja)
     :Inresa tillåts;
   else (Nej)
-    :[[../rules/rule-apr-051-001.md Return border procedure]];
+    :[[../rules/rule-apr-051-001.md Återvändande vid gräns]];
     note right
       [[../rules/rule-apr-051-001.md RULE-APR-051-001]]
       **12 veckor** till

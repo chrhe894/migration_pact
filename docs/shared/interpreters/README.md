@@ -53,7 +53,7 @@ Se [Krav — Interpreters](requirements/README.md) för fullständig kravlista.
 
 ## Används av
 
-- [PROC-REG-001 Registration of an application](../../domains/registration/processes/registration-of-an-application.md)
-- [PROC-REG-002 Lodging an application](../../domains/registration/processes/lodging-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../../domains/registration/processes/registration-of-an-application.md)
+- [PROC-REG-002 Ingivande av en ansökan](../../domains/registration/processes/lodging-an-application.md)
 - [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
-- [PROC-ASY-001 Examine an application](../../domains/asylum-procedure/processes/examine-an-application.md)
+- [PROC-ASY-001 Pröva en ansökan](../../domains/asylum-procedure/processes/examine-an-application.md)

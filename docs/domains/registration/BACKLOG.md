@@ -51,9 +51,9 @@
 
 ## Processer
 
-- [x] PROC-REG-001 — Registration of an application
-- [x] PROC-REG-002 — Lodging an application
-- [x] PROC-REG-003 — Issue applicant documents
+- [x] PROC-REG-001 — Registrering av en ansökan
+- [x] PROC-REG-002 — Ingivande av en ansökan
+- [x] PROC-REG-003 — Utfärda sökandehandlingar
 
 ---
 

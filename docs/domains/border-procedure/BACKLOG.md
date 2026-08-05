@@ -47,13 +47,13 @@
 
 ## Processer
 
-- [x] PROC-BRD-001 — Asylum border procedure
+- [x] PROC-BRD-001 — Asylgränsförfarande
 
 ---
 
 ## Diagram
 
-- [x] Asylum border procedure
+- [x] Asylgränsförfarande
 
 ---
 

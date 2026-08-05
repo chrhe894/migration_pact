@@ -61,6 +61,6 @@ Tolkbehovet vid intervjun hanteras av [shared/interpreters](../interpreters/READ
 
 ## Används av
 
-- [PROC-ASY-001 Examine an application](../../domains/asylum-procedure/processes/examine-an-application.md)
-- [PROC-RES-001 Determine responsible Member State](../../domains/responsibility/processes/determine-responsible-member-state.md)
-- [PROC-BRD-001 Asylum border procedure](../../domains/border-procedure/processes/asylum-border-procedure.md)
+- [PROC-ASY-001 Pröva en ansökan](../../domains/asylum-procedure/processes/examine-an-application.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../../domains/responsibility/processes/determine-responsible-member-state.md)
+- [PROC-BRD-001 Asylgränsförfarande](../../domains/border-procedure/processes/asylum-border-procedure.md)

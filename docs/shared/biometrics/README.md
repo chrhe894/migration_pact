@@ -27,4 +27,4 @@ Denna shared-modul dokumenterar regler och begrepp kring insamling, lagring och 
 
 - [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
 - [PROC-SCR-002 Screening inom territoriet](../../domains/screening/processes/screening-within-territory.md)
-- [PROC-EUR-001 Collect and transmit biometric data](../../domains/eurodac/processes/collect-and-transmit-biometric-data.md)
+- [PROC-EUR-001 Samla in och överföra biometriska uppgifter](../../domains/eurodac/processes/collect-and-transmit-biometric-data.md)

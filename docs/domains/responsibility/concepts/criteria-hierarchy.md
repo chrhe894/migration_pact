@@ -46,4 +46,4 @@ Fastställd av unionslagstiftaren genom AMMR kapitel II och tillämpas av den be
 ## Används i
 
 - [ART-AMMR-024](../articles/ammr-024.md)
-- [PROC-RES-001 Determine responsible Member State](../processes/determine-responsible-member-state.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../processes/determine-responsible-member-state.md)

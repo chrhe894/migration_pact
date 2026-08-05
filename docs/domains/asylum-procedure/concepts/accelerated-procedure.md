@@ -46,4 +46,4 @@ Den beslutande myndigheten genom att konstatera att en ansökan uppfyller minst 
 ## Används i
 
 - [ART-APR-042](../articles/apr-042.md)
-- [PROC-ASY-001 Examine an application](../processes/examine-an-application.md)
+- [PROC-ASY-001 Pröva en ansökan](../processes/examine-an-application.md)

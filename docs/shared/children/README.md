@@ -33,7 +33,7 @@ Denna shared-modul dokumenterar särskilda regler och garantier som gäller för
 
 ## Används av
 
-- [PROC-REG-002 Lodging an application](../../domains/registration/processes/lodging-an-application.md)
-- [PROC-REG-003 Issue applicant documents](../../domains/registration/processes/issue-applicant-documents.md)
+- [PROC-REG-002 Ingivande av en ansökan](../../domains/registration/processes/lodging-an-application.md)
+- [PROC-REG-003 Utfärda sökandehandlingar](../../domains/registration/processes/issue-applicant-documents.md)
 - [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
-- [PROC-RES-001 Determine responsible Member State](../../domains/responsibility/processes/determine-responsible-member-state.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../../domains/responsibility/processes/determine-responsible-member-state.md)

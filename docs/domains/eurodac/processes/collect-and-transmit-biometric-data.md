@@ -7,7 +7,7 @@ tags:
 
 # PROC-EUR-001
 
-# Collect and transmit biometric data
+# Samla in och överföra biometriska uppgifter
 
 ## Trigger
 

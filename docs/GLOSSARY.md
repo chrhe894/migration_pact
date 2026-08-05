@@ -35,15 +35,15 @@ Alfabetisk lista över centrala begrepp i kunskapsbasen.
 | Registration | Registrering | Formell dokumentation av att ansökan gjorts | [CON-REG-003](domains/registration/concepts/registration.md) |
 | Registration authority | Registreringsmyndighet | Myndighet behörig att registrera ansökningar | [CON-REG-004](domains/registration/concepts/registration-authority.md) |
 | Registration certificate | Registreringshandling | Tillfällig handling vid registrering | [CON-REG-006](domains/registration/concepts/registration-certificate.md) |
-| Relocation | Omfördelning | Omfördelning av sökande mellan stater | [CON-SOL-002](domains/solidarity/concepts/relocation.md) |
+| Omplacering | Omfördelning | Omfördelning av sökande mellan stater | [CON-SOL-002](domains/solidarity/concepts/relocation.md) |
 | Responsible Member State | Ansvarig medlemsstat | Den stat som ska pröva ansökan | [CON-RES-001](domains/responsibility/concepts/responsible-member-state.md) |
 | Responsibility offset | Ansvarskompensation | Ansvarskompensation vid utebliven omfördelning | [CON-SOL-003](domains/solidarity/concepts/responsibility-offset.md) |
-| Return border procedure | Återvändandegränsförfarande | Återvändande efter avslag vid gräns | [CON-RET-001](domains/return-border-procedure/concepts/return-border-procedure-concept.md) |
+| Återvändande vid gräns | Återvändandegränsförfarande | Återvändande efter avslag vid gräns | [CON-RET-001](domains/return-border-procedure/concepts/return-border-procedure-concept.md) |
 | Screening | Screening | Förfarande vid gräns före registrering (7 dagar) | [CON-SCR-001](domains/screening/concepts/screening.md) |
 | Screening authority | Screeningmyndighet | Myndighet utsedd att genomföra screening | [CON-SCR-002](domains/screening/concepts/screening-authority.md) |
 | Screening form | Screeningformulär | Formulär som fylls i under screening | [CON-SCR-003](domains/screening/concepts/screening-form.md) |
 | Solidarity pool | Solidaritetspool | Årlig pool av solidaritetsbidrag | [CON-SOL-001](domains/solidarity/concepts/solidarity-pool.md) |
-| Subsequent application | Efterföljande ansökan | Ny ansökan efter slutligt beslut om tidigare ansökan | [CON-ASY-005](domains/asylum-procedure/concepts/subsequent-application.md) |
+| Efterföljande ansökan | Efterföljande ansökan | Ny ansökan efter slutligt beslut om tidigare ansökan | [CON-ASY-005](domains/asylum-procedure/concepts/subsequent-application.md) |
 | Take back notification | Avisering om återtagande | Avisering till ansvarig stat (Eurodac-baserat) | [CON-RES-004](domains/responsibility/concepts/take-back-notification.md) |
 | Take charge request | Framställan om övertagande | Framställan om övertagande av ansvar | [CON-RES-003](domains/responsibility/concepts/take-charge-request.md) |
 | Transfer | Överföring | Fysisk överföring till ansvarig stat | [CON-RES-005](domains/responsibility/concepts/transfer.md) |

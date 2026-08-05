@@ -47,4 +47,4 @@ Medlemsstaten genom nationell lagstiftning som utser den myndighet som ska fatta
 ## Används i
 
 - [ART-APR-034](../articles/apr-034.md)
-- [PROC-ASY-001 Examine an application](../processes/examine-an-application.md)
+- [PROC-ASY-001 Pröva en ansökan](../processes/examine-an-application.md)

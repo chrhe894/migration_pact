@@ -36,7 +36,7 @@ Solidaritetsmekanismen syftar till att fördela ansvaret rättvist mellan medlem
 
 | Process | Beskrivning |
 |---------|-------------|
-| [PROC-SOL-001 Relocation](processes/relocation.md) | Omfördelning av sökande från en utsatt stat till en bidragande stat |
+| [PROC-SOL-001 Omplacering](processes/relocation.md) | Omfördelning av sökande från en utsatt stat till en bidragande stat |
 
 ---
 
@@ -66,7 +66,7 @@ Ansvar övergår till mottagande stat (art. 68)
 | ID | Begrepp |
 |----|---------|
 | [CON-SOL-001](concepts/solidarity-pool.md) | Solidarity pool |
-| [CON-SOL-002](concepts/relocation.md) | Relocation |
+| [CON-SOL-002](concepts/relocation.md) | Omplacering |
 | [CON-SOL-003](concepts/responsibility-offset.md) | Responsibility offset |
 | [CON-SOL-004](concepts/reference-key.md) | Reference key |
 

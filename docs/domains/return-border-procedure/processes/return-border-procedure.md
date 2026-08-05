@@ -7,7 +7,7 @@ tags:
 
 # PROC-RET-001
 
-# Return border procedure
+# Återvändande vid gräns
 
 ## Trigger
 

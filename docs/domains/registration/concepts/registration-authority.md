@@ -53,4 +53,4 @@ Registreringsmyndigheten är inte nödvändigtvis samma myndighet som tar emot a
 ## Används i
 
 - [ART-APR-027](../articles/apr-027.md)
-- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)

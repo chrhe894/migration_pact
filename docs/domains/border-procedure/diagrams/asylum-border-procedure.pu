@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Asylum border procedure
+' Diagram: Asylgränsförfarande
 '
 ' Syfte: Visualiserar gränsförfarandet från screening till beslut.
 '
@@ -14,7 +14,7 @@
 
 @startuml asylum-border-procedure
 
-title Asylum border procedure
+title Asylgränsförfarande
 
 skinparam shadowing false
 skinparam HyperlinkColor Black
@@ -66,7 +66,7 @@ if (Tillåtlig?) then (Nej)
 
     :Ansökan avvisas;
 
-    :[[../rules/rule-apr-051-001.md Return border procedure]];
+    :[[../rules/rule-apr-051-001.md Återvändande vid gräns]];
     note right
       [[../rules/rule-apr-051-001.md RULE-APR-051-001]]
       **12 veckor** för avlägsnande
@@ -95,7 +95,7 @@ else (Nej)
 
     :Avslag;
 
-    :[[../rules/rule-apr-051-001.md Return border procedure]];
+    :[[../rules/rule-apr-051-001.md Återvändande vid gräns]];
     note right
       [[../rules/rule-apr-051-001.md RULE-APR-051-001]]
       ([[../articles/apr-051.md ART-APR-051]])

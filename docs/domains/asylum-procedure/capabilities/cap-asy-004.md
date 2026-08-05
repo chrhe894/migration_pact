@@ -1,7 +1,7 @@
 ---
 tags:
   - asylförfarande
-  - capability
+  - förmåga
 ---
 
 ← [Asylförfarande](../README.md)
@@ -10,7 +10,7 @@ tags:
 
 ## Verksamhetsförmåga
 
-Handle Subsequent Application
+Handle Efterföljande ansökan
 
 ---
 
@@ -29,7 +29,7 @@ Bedöma om nya omständigheter finns och avgöra om ansökan ska avvisas eller p
 
 ## Stöds av
 
-- [PROC-ASY-002 Subsequent Application](../processes/subsequent-application.md)
+- [PROC-ASY-002 Efterföljande ansökan](../processes/subsequent-application.md)
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 tags:
   - solidaritet
-  - capability
+  - förmåga
 ---
 
 ← [Solidaritet](../README.md)
@@ -28,7 +28,7 @@ Apply Responsibility Offset
 
 ## Stöds av
 
-- [PROC-SOL-001 Relocation](../processes/relocation.md)
+- [PROC-SOL-001 Omplacering](../processes/relocation.md)
 
 ---
 

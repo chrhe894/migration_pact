@@ -1,7 +1,7 @@
 ---
 tags:
   - eurodac
-  - capability
+  - förmåga
 ---
 
 ← [Eurodac](../README.md)
@@ -29,7 +29,7 @@ Lagra dataset korrekt och radera automatiskt vid fristens utgång.
 
 ## Stöds av
 
-- [PROC-EUR-001 Collect and transmit biometric data](../processes/collect-and-transmit-biometric-data.md)
+- [PROC-EUR-001 Samla in och överföra biometriska uppgifter](../processes/collect-and-transmit-biometric-data.md)
 
 ---
 

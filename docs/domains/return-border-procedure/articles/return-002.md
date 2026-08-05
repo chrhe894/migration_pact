@@ -9,7 +9,7 @@ tags:
 
 ## Artikel
 
-Return Border Procedure artikel 2
+Återvändande vid gräns artikel 2
 
 ## Rubrik
 
@@ -26,4 +26,4 @@ Förordningen tillämpas på tredjelandsmedborgare vars asylansökan avslagits e
 ## Relaterade artiklar
 
 - [APR artikel 43](../../border-procedure/articles/apr-043.md) — Villkor för att tillämpa gränsförfarandet
-- [Return Border Procedure artikel 4](return-004.md) — Återvändandebeslut
+- [Återvändande vid gräns artikel 4](return-004.md) — Återvändandebeslut

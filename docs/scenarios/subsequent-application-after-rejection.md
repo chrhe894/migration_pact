@@ -11,7 +11,7 @@ Ibrahim, 35 år, nigeriansk medborgare. Hans första ansökan prövades i Spanie
 - Spanien kontrollerar ärendehistorik
 - Slutligt beslut finns → markeras som efterföljande ansökan (art. 55)
 
-→ [CON-ASY-005 Subsequent application](../domains/asylum-procedure/concepts/subsequent-application.md)
+→ [CON-ASY-005 Efterföljande ansökan](../domains/asylum-procedure/concepts/subsequent-application.md)
 
 ---
 

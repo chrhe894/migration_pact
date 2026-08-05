@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Determine responsible Member State
+' Diagram: Fastställ ansvarig medlemsstat
 '
 ' Syfte: Visualiserar processen för att fastställa vilken medlemsstat
 '        som ansvarar för att pröva en asylansökan.
@@ -16,7 +16,7 @@
 
 @startuml determine-responsible-member-state
 
-title Determine responsible Member State
+title Fastställ ansvarig medlemsstat
 
 skinparam shadowing false
 skinparam HyperlinkColor Black

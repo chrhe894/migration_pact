@@ -9,7 +9,7 @@ tags:
 
 ## Begrepp
 
-Subsequent application
+Efterföljande ansökan
 
 ---
 
@@ -47,4 +47,4 @@ APR artikel 55
 ## Används i
 
 - [ART-APR-038](../articles/apr-038.md)
-- PROC-ASY-001 Examine an application
+- PROC-ASY-001 Pröva en ansökan

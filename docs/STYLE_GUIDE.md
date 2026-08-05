@@ -559,7 +559,7 @@ Exempel:
 ## Används i
 
 - [ART-APR-027](../articles/apr-027.md)
-- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)
 ```
 
 ## Begrepp länkar till begrepp, artiklar och processer
@@ -581,7 +581,7 @@ Exempel:
 ## Används i
 
 - [ART-APR-027](../articles/apr-027.md)
-- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)
 ```
 
 ---

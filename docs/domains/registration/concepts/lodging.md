@@ -55,4 +55,4 @@ Begreppet ska hållas isär från "making an application" (ansökan görs) och "
 ## Används i
 
 - [ART-APR-028](../articles/apr-028.md)
-- [PROC-REG-002 Lodging an application](../processes/lodging-an-application.md)
+- [PROC-REG-002 Ingivande av en ansökan](../processes/lodging-an-application.md)

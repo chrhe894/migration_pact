@@ -7,7 +7,7 @@ tags:
 
 # PROC-BRD-001
 
-# Asylum border procedure
+# Asylgränsförfarande
 
 ## Trigger
 
@@ -53,7 +53,7 @@ Sökanden tillåts resa in. Ärendet övergår till reguljärt förfarande.
 - Border procedure initiated (ingen inresa)
 - Application lodged (5 dagar)
 - Decision (inom 12 veckor)
-- Entry permitted / Return border procedure initiated
+- Entry permitted / Återvändande vid gräns initiated
 
 ---
 
@@ -61,7 +61,7 @@ Sökanden tillåts resa in. Ärendet övergår till reguljärt förfarande.
 
 | Före | Åtgärd | Efter |
 |------|--------|-------|
-| Sökande efter screening, vid gränsen | Gränsförfarande (12 veckor) | Beviljat: inresa / Avslag: return border procedure |
+| Sökande efter screening, vid gränsen | Gränsförfarande (12 veckor) | Beviljat: inresa / Avslag: återvändandeförfarande vid gräns |
 
 ---
 

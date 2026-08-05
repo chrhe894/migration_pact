@@ -2,7 +2,7 @@
 
 # Krav — Registration
 
-| ID                                    | Krav                                                                                             | Härledd från                       | Capability               |
+| ID                                    | Krav                                                                                             | Härledd från                       | Förmåga               |
 | ---------------------------------------| --------------------------------------------------------------------------------------------------| ------------------------------------| --------------------------|
 | [REQ-APR-027-001](req-apr-027-001.md) | Registreringsdatum ska registreras                                                               | RULE-APR-027-001, RULE-APR-027-002 | CAP-REG-001              |
 | [REQ-APR-027-002](req-apr-027-002.md) | Identitetsuppgifter ska registreras                                                              | RULE-APR-027-002                   | CAP-REG-001              |

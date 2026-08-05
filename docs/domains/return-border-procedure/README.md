@@ -33,7 +33,7 @@ Domänen beskriver förordning (EU) 2024/1349 om återvändandegränsförfarande
 
 | Process | Beskrivning |
 |---------|-------------|
-| [PROC-RET-001 Return border procedure](processes/return-border-procedure.md) | Från avslag i gränsförfarande till verkställt återvändande |
+| [PROC-RET-001 Återvändande vid gräns](processes/return-border-procedure.md) | Från avslag i gränsförfarande till verkställt återvändande |
 
 ---
 
@@ -43,7 +43,7 @@ Domänen beskriver förordning (EU) 2024/1349 om återvändandegränsförfarande
 Avslag i gränsförfarande (APR art. 44)
         │
         ▼
-Return border procedure inleds
+Återvändande vid gräns inleds
         │
         ├── Återvändandebeslut meddelas
         ├── Tidsfrist för frivillig avresa (max 15 dagar)
@@ -59,7 +59,7 @@ Verkställt avlägsnande eller frivillig avresa
 
 | ID | Begrepp |
 |----|---------|
-| [CON-RET-001](concepts/return-border-procedure-concept.md) | Return border procedure |
+| [CON-RET-001](concepts/return-border-procedure-concept.md) | Återvändande vid gräns |
 | [CON-RET-002](concepts/voluntary-departure.md) | Voluntary departure |
 
 ---

@@ -2,7 +2,7 @@
 
 # Krav — Crisis
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-CRI-002-001](req-cri-002-001.md) | Medlemsstat ska begära krisförklaring med motiverade skäl | Art. 2 | CAP-CRI-001 |
 | [REQ-CRI-003-001](req-cri-003-001.md) | Kommissionen ska bedöma situationen | Art. 3 | CAP-CRI-001 |

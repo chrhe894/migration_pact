@@ -47,4 +47,4 @@ Den beslutande myndigheten efter att ansökan bedömts vara upptagbar till pröv
 ## Används i
 
 - [ART-APR-039](../articles/apr-039.md)
-- [PROC-ASY-001 Examine an application](../processes/examine-an-application.md)
+- [PROC-ASY-001 Pröva en ansökan](../processes/examine-an-application.md)

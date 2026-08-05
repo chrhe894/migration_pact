@@ -54,4 +54,4 @@ Gränsförfarandet är inte ett separat förfarande i rättslig mening — det �
 ## Används i
 
 - [ART-APR-043](../articles/apr-043.md)
-- [PROC-BRD-001 Asylum border procedure](../processes/asylum-border-procedure.md)
+- [PROC-BRD-001 Asylgränsförfarande](../processes/asylum-border-procedure.md)

@@ -1,7 +1,7 @@
 ---
 tags:
   - registrering
-  - capability
+  - förmåga
   - registrering
 ---
 
@@ -30,7 +30,7 @@ Skapa en juridiskt giltig registrerad ansökan om internationellt skydd inom fö
 
 ## Stöds av
 
-- [PROC-REG-001 Registration of an application](../processes/registration-of-an-application.md)
+- [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)
 
 ---
 

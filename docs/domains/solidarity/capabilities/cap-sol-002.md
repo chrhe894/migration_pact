@@ -1,7 +1,7 @@
 ---
 tags:
   - solidaritet
-  - capability
+  - förmåga
 ---
 
 ← [Solidaritet](../README.md)
@@ -29,7 +29,7 @@ Fysiskt omfördela sökande från utsatt till bidragande stat.
 
 ## Stöds av
 
-- [PROC-SOL-001 Relocation](../processes/relocation.md)
+- [PROC-SOL-001 Omplacering](../processes/relocation.md)
 
 ---
 

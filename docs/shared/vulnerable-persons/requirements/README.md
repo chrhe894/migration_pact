@@ -2,7 +2,7 @@
 
 # Krav — Vulnerable Persons
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-APR-020-001](req-apr-020-001.md) | Behöriga myndigheter ska inom rimlig tid bedöma om sökanden har särskilda förfarandebehov | Art. 20 | CAP-VUL-001 |
 | [REQ-APR-020-002](req-apr-020-002.md) | Anpassningar kan omfatta intervjuförhållanden, extra tid och medicinsk personal | Art. 20 | CAP-VUL-001 |

@@ -28,7 +28,7 @@ Tilldela ansvar till den stat där personen först irreguljärt reste in i EU.
 
 ## Stöds av
 
-- [CAP-RES-001 Determine Responsible Member State](../capabilities/cap-res-001.md)
+- [CAP-RES-001 Fastställ ansvarig medlemsstat](../capabilities/cap-res-001.md)
 
 ---
 

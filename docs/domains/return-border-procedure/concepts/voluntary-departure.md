@@ -33,10 +33,10 @@ Den behöriga myndigheten genom att bevilja en tidsfrist för frivillig avresa i
 
 ## Relaterade begrepp
 
-- [CON-RET-001 Return border procedure](return-border-procedure-concept.md)
+- [CON-RET-001 Återvändande vid gräns](return-border-procedure-concept.md)
 
 ---
 
 ## Används i
 
-- [PROC-RET-001 Return border procedure](../processes/return-border-procedure.md)
+- [PROC-RET-001 Återvändande vid gräns](../processes/return-border-procedure.md)

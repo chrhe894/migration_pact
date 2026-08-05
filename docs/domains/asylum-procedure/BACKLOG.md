@@ -16,7 +16,7 @@
 - [x] Admissibility — CON-ASY-002
 - [x] Examination on the merits — CON-ASY-003
 - [x] Accelerated procedure — CON-ASY-004
-- [x] Subsequent application — CON-ASY-005
+- [x] Efterföljande ansökan — CON-ASY-005
 
 ---
 
@@ -53,14 +53,14 @@
 
 ## Processer
 
-- [x] PROC-ASY-001 — Examine an application
-- [x] PROC-ASY-002 — Subsequent application
+- [x] PROC-ASY-001 — Pröva en ansökan
+- [x] PROC-ASY-002 — Efterföljande ansökan
 
 ---
 
 ## Diagram
 
-- [x] Examine an application
+- [x] Pröva en ansökan
 
 ---
 

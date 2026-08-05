@@ -40,7 +40,7 @@ Ansvarsbestämningen är central i det gemensamma europeiska asylsystemet — de
 
 | Process | Beskrivning |
 |---------|-------------|
-| [PROC-RES-001 Determine responsible Member State](processes/determine-responsible-member-state.md) | Fastställ vilken medlemsstat som ansvarar för prövningen |
+| [PROC-RES-001 Fastställ ansvarig medlemsstat](processes/determine-responsible-member-state.md) | Fastställ vilken medlemsstat som ansvarar för prövningen |
 
 ---
 

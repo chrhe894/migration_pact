@@ -1,7 +1,7 @@
 ---
 tags:
   - ansvar
-  - capability
+  - förmåga
 ---
 
 ← [Ansvar](../README.md)
@@ -10,7 +10,7 @@ tags:
 
 ## Verksamhetsförmåga
 
-Determine Responsible Member State
+Fastställ ansvarig medlemsstat
 
 ---
 
@@ -29,7 +29,7 @@ Fastställa vilken stat som ansvarar genom att tillämpa kriterierna i rangordni
 
 ## Stöds av
 
-- [PROC-RES-001 Determine Responsible Member State](../processes/determine-responsible-member-state.md)
+- [PROC-RES-001 Fastställ ansvarig medlemsstat](../processes/determine-responsible-member-state.md)
 
 ---
 

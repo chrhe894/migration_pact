@@ -52,7 +52,7 @@ Men: familj med underåriga. Artikel 45.2 anger att familjesammanhållning ska u
 
 ---
 
-## Steg 5 — Return border procedure (12 veckor)
+## Steg 5 — Återvändande vid gräns (12 veckor)
 
 - Återvändandebeslut utfärdas
 - Familjen ges tidsfrist för frivillig avresa (max 15 dagar)
@@ -62,7 +62,7 @@ Men: familj med underåriga. Artikel 45.2 anger att familjesammanhållning ska u
 
 **Fråga:** Om Algeriet inte samarbetar med återtagande inom 12 veckor → familjen tillåts resa in på spanskt territorium.
 
-→ [Return Border Procedure](../domains/return-border-procedure/README.md)
+→ [Återvändande vid gräns](../domains/return-border-procedure/README.md)
 
 ---
 

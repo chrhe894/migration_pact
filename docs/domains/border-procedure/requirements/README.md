@@ -2,7 +2,7 @@
 
 # Krav — Border Procedure
 
-| ID | Krav | Härledd från | Capability |
+| ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
 | [REQ-APR-043-001](req-apr-043-001.md) | Gränsförfarande får tillämpas efter screening om inresevillkor ej uppfylls | RULE-APR-043-001 | CAP-BRD-001 |
 | [REQ-APR-043-002](req-apr-043-002.md) | Sökanden ska inte tillåtas resa in under gränsförfarandet | RULE-APR-043-002 | CAP-BRD-001 |
