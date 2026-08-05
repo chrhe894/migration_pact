@@ -1,5 +1,6 @@
 ---
 tags:
+  - registreringsbevis
   - registrering
   - koncept
 ---

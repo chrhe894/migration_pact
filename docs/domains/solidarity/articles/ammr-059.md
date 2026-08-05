@@ -1,5 +1,6 @@
 ---
 tags:
+  - meddelande-solidaritetsbehov
   - solidaritet
   - artikel
 ---

@@ -1,5 +1,6 @@
 ---
 tags:
+  - kriteriehierarki
   - ansvar
   - koncept
 ---

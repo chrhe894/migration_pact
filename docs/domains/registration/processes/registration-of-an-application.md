@@ -1,5 +1,6 @@
 ---
 tags:
+  - registrering-av-ansökan
   - registrering
   - process
 ---

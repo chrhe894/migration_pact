@@ -1,5 +1,6 @@
 ---
 tags:
+  - hälsokontroll
   - screening
   - koncept
 ---

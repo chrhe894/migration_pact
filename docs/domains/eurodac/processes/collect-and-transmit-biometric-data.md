@@ -1,5 +1,6 @@
 ---
 tags:
+  - samla-in-biometriska-uppgifter
   - eurodac
   - process
 ---

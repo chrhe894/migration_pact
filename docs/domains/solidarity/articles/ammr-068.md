@@ -1,5 +1,6 @@
 ---
 tags:
+  - förfarande-efter-omfördelning
   - solidaritet
   - artikel
 ---

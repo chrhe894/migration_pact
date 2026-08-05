@@ -1,5 +1,6 @@
 ---
 tags:
+  - ansvarskompensationer
   - solidaritet
   - artikel
 ---

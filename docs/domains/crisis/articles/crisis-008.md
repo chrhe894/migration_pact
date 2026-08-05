@@ -2,6 +2,7 @@
 tags:
   - kris
   - artikel
+  - solidaritet-vid-kris
 ---
 
 

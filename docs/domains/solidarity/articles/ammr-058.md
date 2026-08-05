@@ -1,5 +1,6 @@
 ---
 tags:
+  - information-migrationstryck
   - solidaritet
   - artikel
 ---

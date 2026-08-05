@@ -1,5 +1,6 @@
 ---
 tags:
+  - biometriska-uppgifter
   - eurodac
   - koncept
 ---

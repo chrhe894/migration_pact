@@ -1,5 +1,6 @@
 ---
 tags:
+  - genomförande-solidaritet
   - solidaritet
   - artikel
 ---

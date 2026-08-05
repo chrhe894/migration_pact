@@ -1,5 +1,6 @@
 ---
 tags:
+  - ansvarsavräkning
   - solidaritet
   - koncept
 ---

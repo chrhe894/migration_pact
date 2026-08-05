@@ -1,5 +1,6 @@
 ---
 tags:
+  - ingivande-av-ansökan
   - registrering
   - process
 ---

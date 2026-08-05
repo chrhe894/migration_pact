@@ -1,5 +1,6 @@
 ---
 tags:
+  - registrering-begrepp
   - registrering
   - koncept
 ---

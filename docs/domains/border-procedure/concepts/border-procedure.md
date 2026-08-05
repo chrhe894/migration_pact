@@ -1,5 +1,6 @@
 ---
 tags:
+  - gränsförfarande-begrepp
   - gränsförfarande
   - koncept
 ---

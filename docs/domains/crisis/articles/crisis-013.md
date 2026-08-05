@@ -2,6 +2,7 @@
 tags:
   - kris
   - artikel
+  - undantag-återtagande-kris
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 tags:
+  - force-majeure
   - kris
   - koncept
 ---

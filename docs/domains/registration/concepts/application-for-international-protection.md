@@ -1,5 +1,6 @@
 ---
 tags:
+  - ansökan-om-internationellt-skydd
   - registrering
   - koncept
 ---

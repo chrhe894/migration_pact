@@ -1,5 +1,6 @@
 ---
 tags:
+  - tillräcklig-kapacitet
   - gränsförfarande
   - koncept
 ---

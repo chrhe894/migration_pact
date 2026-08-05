@@ -1,5 +1,6 @@
 ---
 tags:
+  - referensnyckel
   - solidaritet
   - koncept
 ---

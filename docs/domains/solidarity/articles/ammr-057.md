@@ -1,5 +1,6 @@
 ---
 tags:
+  - inrättande-solidaritetspool
   - solidaritet
   - artikel
 ---

@@ -1,5 +1,6 @@
 ---
 tags:
+  - fingeravtryck
   - eurodac
   - koncept
 ---

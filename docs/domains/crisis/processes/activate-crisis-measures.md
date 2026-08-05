@@ -1,5 +1,6 @@
 ---
 tags:
+  - aktivera-krisåtgärder
   - kris
   - process
 ---

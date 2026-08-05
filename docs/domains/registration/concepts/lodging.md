@@ -1,5 +1,6 @@
 ---
 tags:
+  - ingivande
   - registrering
   - koncept
 ---

@@ -1,5 +1,6 @@
 ---
 tags:
+  - nedsättning-solidaritet-betydande
   - solidaritet
   - artikel
 ---

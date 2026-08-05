@@ -1,5 +1,6 @@
 ---
 tags:
+  - ekonomiska-bidrag
   - solidaritet
   - artikel
 ---

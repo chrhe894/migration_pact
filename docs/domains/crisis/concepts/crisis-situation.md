@@ -1,5 +1,6 @@
 ---
 tags:
+  - krissituation
   - kris
   - koncept
 ---

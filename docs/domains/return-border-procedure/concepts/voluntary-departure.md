@@ -1,5 +1,6 @@
 ---
 tags:
+  - frivillig-avresa
   - återvändande
   - koncept
 ---

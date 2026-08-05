@@ -1,5 +1,6 @@
 ---
 tags:
+  - framställan-om-övertagande
   - ansvar
   - koncept
 ---

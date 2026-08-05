@@ -1,5 +1,6 @@
 ---
 tags:
+  - alternativa-solidaritetsåtgärder
   - solidaritet
   - artikel
 ---

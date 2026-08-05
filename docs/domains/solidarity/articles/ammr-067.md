@@ -1,5 +1,6 @@
 ---
 tags:
+  - förfarande-inför-omfördelning
   - solidaritet
   - artikel
 ---

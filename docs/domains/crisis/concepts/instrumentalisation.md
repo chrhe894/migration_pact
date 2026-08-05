@@ -1,5 +1,6 @@
 ---
 tags:
+  - instrumentalisering
   - kris
   - koncept
 ---

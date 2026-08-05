@@ -1,5 +1,6 @@
 ---
 tags:
+  - registreringsmyndighet
   - registrering
   - koncept
 ---

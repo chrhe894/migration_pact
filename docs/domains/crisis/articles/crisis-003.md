@@ -2,6 +2,7 @@
 tags:
   - kris
   - artikel
+  - kommissionens-krisbeslut
 ---
 
 

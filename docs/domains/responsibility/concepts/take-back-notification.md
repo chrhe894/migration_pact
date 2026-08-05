@@ -1,5 +1,6 @@
 ---
 tags:
+  - avisering-om-återtagande
   - ansvar
   - koncept
 ---

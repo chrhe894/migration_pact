@@ -1,5 +1,6 @@
 ---
 tags:
+  - påskyndat-förfarande
   - asylförfarande
   - koncept
 ---

@@ -1,5 +1,6 @@
 ---
 tags:
+  - omplacering
   - solidaritet
   - koncept
 ---

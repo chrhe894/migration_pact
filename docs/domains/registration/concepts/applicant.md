@@ -1,5 +1,6 @@
 ---
 tags:
+  - sökande
   - registrering
   - koncept
 ---

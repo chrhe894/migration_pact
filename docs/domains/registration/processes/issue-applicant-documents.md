@@ -1,5 +1,6 @@
 ---
 tags:
+  - utfärda-sökandehandlingar
   - registrering
   - process
 ---
