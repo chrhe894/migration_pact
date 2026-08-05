@@ -9,7 +9,7 @@ tags:
 
 ## Begrepp
 
-Facial image data
+Ansiktsbild
 
 ---
 
@@ -39,8 +39,8 @@ Samlas in av den behöriga myndigheten genom fotografering av personens ansikte 
 
 ## Relaterade begrepp
 
-- [CON-EUR-002 Biometric data](biometric-data.md)
-- [CON-EUR-003 Fingerprint data](fingerprint-data.md)
+- [CON-EUR-002 Biometriska uppgifter](biometric-data.md)
+- [CON-EUR-003 Fingeravtryck](fingerprint-data.md)
 
 ---
 

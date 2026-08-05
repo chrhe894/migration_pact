@@ -39,7 +39,7 @@ Inrättat av unionslagstiftaren genom Eurodacförordningen och driftas av eu-LIS
 
 ## Relaterade begrepp
 
-- [CON-EUR-002 Biometric data](biometric-data.md)
+- [CON-EUR-002 Biometriska uppgifter](biometric-data.md)
 - [CON-EUR-005 Dataset](dataset.md)
 
 ---

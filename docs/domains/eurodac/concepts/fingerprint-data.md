@@ -9,7 +9,7 @@ tags:
 
 ## Begrepp
 
-Fingerprint data
+Fingeravtryck
 
 ---
 
@@ -39,8 +39,8 @@ Samlas in av den behöriga myndigheten genom optisk avläsning av personens fing
 
 ## Relaterade begrepp
 
-- [CON-EUR-002 Biometric data](biometric-data.md)
-- [CON-EUR-004 Facial image data](facial-image-data.md)
+- [CON-EUR-002 Biometriska uppgifter](biometric-data.md)
+- [CON-EUR-004 Ansiktsbild](facial-image-data.md)
 
 ---
 

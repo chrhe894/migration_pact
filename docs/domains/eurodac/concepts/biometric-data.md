@@ -9,7 +9,7 @@ tags:
 
 ## Begrepp
 
-Biometric data
+Biometriska uppgifter
 
 ---
 
@@ -39,8 +39,8 @@ Samlas in av den behöriga myndigheten i ursprungsmedlemsstaten vid registrering
 
 ## Relaterade begrepp
 
-- [CON-EUR-003 Fingerprint data](fingerprint-data.md)
-- [CON-EUR-004 Facial image data](facial-image-data.md)
+- [CON-EUR-003 Fingeravtryck](fingerprint-data.md)
+- [CON-EUR-004 Ansiktsbild](facial-image-data.md)
 - [CON-EUR-005 Dataset](dataset.md)
 - [CON-SCR-001 Screening](../../screening/concepts/screening.md)
 

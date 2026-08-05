@@ -40,7 +40,7 @@ Eurodacsystemet automatiskt när ursprungsmedlemsstaten överför personuppgifte
 ## Relaterade begrepp
 
 - [CON-EUR-001 Eurodac](eurodac.md)
-- [CON-EUR-002 Biometric data](biometric-data.md)
+- [CON-EUR-002 Biometriska uppgifter](biometric-data.md)
 - [CON-EUR-006 Originating Member State](originating-member-state.md)
 
 ---

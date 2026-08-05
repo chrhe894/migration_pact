@@ -87,9 +87,9 @@ Uppgifter lagras enligt tillämplig kategori
 | ID | Begrepp |
 |----|---------|
 | [CON-EUR-001](concepts/eurodac.md) | Eurodac |
-| [CON-EUR-002](concepts/biometric-data.md) | Biometric data |
-| [CON-EUR-003](concepts/fingerprint-data.md) | Fingerprint data |
-| [CON-EUR-004](concepts/facial-image-data.md) | Facial image data |
+| [CON-EUR-002](concepts/biometric-data.md) | Biometriska uppgifter |
+| [CON-EUR-003](concepts/fingerprint-data.md) | Fingeravtryck |
+| [CON-EUR-004](concepts/facial-image-data.md) | Ansiktsbild |
 | [CON-EUR-005](concepts/dataset.md) | Dataset |
 | [CON-EUR-006](concepts/originating-member-state.md) | Originating Member State |
 

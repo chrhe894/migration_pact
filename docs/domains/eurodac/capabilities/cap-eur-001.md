@@ -48,7 +48,7 @@ Ta biometriska uppgifter (fingeravtryck + ansiktsbild) med respekt för värdigh
 
 ## Relaterade begrepp
 
-- [CON-EUR-002 Biometric data](../concepts/biometric-data.md)
+- [CON-EUR-002 Biometriska uppgifter](../concepts/biometric-data.md)
 
 ---
 

@@ -17,9 +17,9 @@ Denna shared-modul dokumenterar regler och begrepp kring insamling, lagring och 
 
 ## Begrepp
 
-- [Biometric data (CON-EUR-002)](../../domains/eurodac/concepts/biometric-data.md)
-- [Fingerprint data (CON-EUR-003)](../../domains/eurodac/concepts/fingerprint-data.md)
-- [Facial image data (CON-EUR-004)](../../domains/eurodac/concepts/facial-image-data.md)
+- [Biometriska uppgifter (CON-EUR-002)](../../domains/eurodac/concepts/biometric-data.md)
+- [Fingeravtryck (CON-EUR-003)](../../domains/eurodac/concepts/fingerprint-data.md)
+- [Ansiktsbild (CON-EUR-004)](../../domains/eurodac/concepts/facial-image-data.md)
 
 ---
 
