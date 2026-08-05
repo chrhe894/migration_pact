@@ -1,5 +1,5 @@
 
-# Solidarity
+# Solidaritet
 
 ## Syfte
 
@@ -116,7 +116,7 @@ Ansvar övergår till mottagande stat (art. 68)
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Länk |
 |-------|------|

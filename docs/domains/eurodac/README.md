@@ -278,7 +278,7 @@ Uppgifter lagras enligt tillämplig kategori
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Länk |
 |-------|------|

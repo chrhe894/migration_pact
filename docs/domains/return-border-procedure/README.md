@@ -1,5 +1,5 @@
 
-# Return Border Procedure
+# Återvändande vid gräns
 
 ## Syfte
 
@@ -89,7 +89,7 @@ Verkställt avlägsnande eller frivillig avresa
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Länk |
 |-------|------|

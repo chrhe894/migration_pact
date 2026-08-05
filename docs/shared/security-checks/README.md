@@ -1,4 +1,4 @@
-# Shared — Security checks
+# Delat — Säkerhetskontroller
 
 ## Syfte
 

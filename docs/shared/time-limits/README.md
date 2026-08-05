@@ -1,4 +1,4 @@
-# Shared — Time limits
+# Delat — Tidsfrister
 
 ## Syfte
 

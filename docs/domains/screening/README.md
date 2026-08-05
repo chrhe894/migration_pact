@@ -167,7 +167,7 @@ Screening avslutas
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Länk |
 |-------|------|

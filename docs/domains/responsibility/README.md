@@ -1,5 +1,5 @@
 
-# Responsibility
+# Ansvar
 
 ## Syfte
 
@@ -236,7 +236,7 @@ Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först re
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Länk |
 |-------|------|

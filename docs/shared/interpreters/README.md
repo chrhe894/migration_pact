@@ -1,4 +1,4 @@
-# Shared — Interpreters
+# Delat — Tolkar
 
 ## Syfte
 

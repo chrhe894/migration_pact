@@ -1,5 +1,5 @@
 
-# Border Procedure
+# Gränsförfarande
 
 ## Syfte
 
@@ -117,7 +117,7 @@ Beslut (inom 12 veckor)
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Länk |
 |-------|------|

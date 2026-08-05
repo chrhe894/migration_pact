@@ -1,5 +1,5 @@
 
-# Registration
+# Registrering
 
 ## Syfte
 
@@ -119,7 +119,7 @@ Transfer to applicable procedure
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul        | Länk                                                       |
 | --------------| ------------------------------------------------------------|

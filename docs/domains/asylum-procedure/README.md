@@ -1,5 +1,5 @@
 
-# Asylum Procedure
+# Asylförfarande
 
 ## Syfte
 
@@ -126,7 +126,7 @@ Decision on the merits (art. 39)
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Länk |
 |-------|------|

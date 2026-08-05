@@ -1,5 +1,5 @@
 
-# Crisis
+# Kris
 
 ## Syfte
 
@@ -93,7 +93,7 @@ Undantag tillämpas (tidsfrister, gränsförfarande, registrering)
 
 ---
 
-## Shared capabilities
+## Delade moduler
 
 | Modul | Länk |
 |-------|------|
