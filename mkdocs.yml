@@ -504,7 +504,7 @@ nav:
     - Beslut: DECISIONS.md
     - Stilguide: STYLE_GUIDE.md
     - Bidra: CONTRIBUTING.md
-    - Designgranskning: DESIGN_REVIEW.md
+    - Förslag på förbättringar: SUGGESTED_IMPROVEMENTS.md
 
 plugins:
   - search
