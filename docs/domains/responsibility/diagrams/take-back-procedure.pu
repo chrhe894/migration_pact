@@ -52,7 +52,7 @@ partition "Upptäckt" {
 }
 
 partition "Avisering om återtagande (art. 41)" {
-  :[[../rules/rule-ammr-041-001.md Staten skickar avisering om återtagande]];
+  :[[../rules/rule-ammr-041-001.md Staten skickar avisering om\nåtertagande]];
   note right
     [[../rules/rule-ammr-041-001.md RULE-AMMR-041-001]]
     Omedelbart, senast **2 veckor**

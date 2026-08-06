@@ -57,7 +57,7 @@ partition "Under screening" {
 }
 
 partition "Ansökan gjord (made)" {
-  :[[../articles/apr-027.md Tredjelandsmedborgare uttrycker önskan om skydd]];
+  :[[../articles/apr-027.md Tredjelandsmedborgare uttrycker\nönskan om skydd]];
   note right
     [[../articles/apr-027.md ART-APR-027]]
     == Status ==
@@ -72,7 +72,7 @@ partition "Ansökan gjord (made)" {
 }
 
 partition "Ansökan registrerad" {
-  :[[../rules/rule-apr-027-001.md Behörig myndighet registrerar ansökan]];
+  :[[../rules/rule-apr-027-001.md Behörig myndighet registrerar\nansökan]];
   note right
     == Juridisk milstolpe ==
     **Application registered**
@@ -89,7 +89,7 @@ partition "Ansökan registrerad" {
 }
 
 partition "Ansökan inlämnad (lodged)" {
-  :[[../rules/rule-apr-028-002.md Sökanden lämnar in ansökan personligen]];
+  :[[../rules/rule-apr-028-002.md Sökanden lämnar in ansökan\npersonligen]];
   note right
     [[../rules/rule-apr-028-002.md RULE-APR-028-002]]
     == Handlingar ==

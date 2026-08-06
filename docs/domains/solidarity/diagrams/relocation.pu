@@ -63,7 +63,7 @@ if (Säkerhetsskäl att vägra?) then (Ja)
 
 else (Nej)
 
-    :[[../rules/rule-ammr-066-001.md Omfördelningsmedlemsstaten bekräftar mottagande]];
+    :[[../rules/rule-ammr-066-001.md Omfördelningsmedlemsstaten\nbekräftar mottagande]];
     note right
       [[../rules/rule-ammr-066-001.md RULE-AMMR-066-001]]
       ([[../articles/ammr-066.md ART-AMMR-066]])

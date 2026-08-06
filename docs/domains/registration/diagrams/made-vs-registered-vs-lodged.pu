@@ -29,7 +29,7 @@ skinparam note {
 start
 
 partition "**APPLICATION MADE** (Ansökan görs)" {
-  :[[../articles/apr-027.md Person uttrycker önskan om internationellt skydd]];
+  :[[../articles/apr-027.md Person uttrycker önskan om\ninternationellt skydd]];
   note right
     [[../articles/apr-027.md ART-APR-027]]
     == Vem ==
@@ -46,7 +46,7 @@ partition "**APPLICATION MADE** (Ansökan görs)" {
 }
 
 partition "**APPLICATION REGISTERED** (Ansökan registreras)" {
-  :[[../rules/rule-apr-027-001.md Behörig myndighet registrerar ansökan]];
+  :[[../rules/rule-apr-027-001.md Behörig myndighet registrerar\nansökan]];
   note right
     [[../rules/rule-apr-027-001.md RULE-APR-027-001]]
     == Vem ==
@@ -65,7 +65,7 @@ partition "**APPLICATION REGISTERED** (Ansökan registreras)" {
 }
 
 partition "**APPLICATION LODGED** (Ansökan lämnas in)" {
-  :[[../rules/rule-apr-028-002.md Sökanden lämnar in ansökan personligen]];
+  :[[../rules/rule-apr-028-002.md Sökanden lämnar in ansökan\npersonligen]];
   note right
     [[../rules/rule-apr-028-002.md RULE-APR-028-002]]
     == Vem ==

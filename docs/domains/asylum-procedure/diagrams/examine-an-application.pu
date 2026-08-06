@@ -58,7 +58,7 @@ if (Ansökan tillåtlig?) then (Nej)
 
 endif
 
-if (Grunder för påskyndat förfarande? (art. 42)) then (Ja)
+if (Grunder för påskyndat förfarande?\n(art. 42)) then (Ja)
 
     :[[../rules/rule-apr-042-001.md Påskyndat förfarande inleds]];
     note right
@@ -71,14 +71,14 @@ endif
 
 :Personlig intervju genomförs;
 
-:[[../rules/rule-apr-034-001.md Prövning i sak — individuell, objektiv, opartisk]];
+:[[../rules/rule-apr-034-001.md Prövning i sak — individuell,\nobjektiv, opartisk]];
 note right
   [[../rules/rule-apr-034-001.md RULE-APR-034-001]]
   Individuell, objektiv
   och opartisk prövning
 end note
 
-:[[../rules/rule-apr-034-002.md Pröva mot flyktingstatus och subsidiärt skydd]];
+:[[../rules/rule-apr-034-002.md Pröva mot flyktingstatus och\nsubsidiärt skydd]];
 note right
   [[../rules/rule-apr-034-002.md RULE-APR-034-002]]
   Flyktingstatus prövas först,

@@ -43,7 +43,7 @@ note right
 end note
 
 if (Ensamkommande barn? (art. 25)) then (Ja)
-  :[[../rules/rule-ammr-025-001.md Tillämpa kriterier för ensamkommande barn]];
+  :[[../rules/rule-ammr-025-001.md Tillämpa kriterier för\nensamkommande barn]];
   note right
     [[../rules/rule-ammr-025-001.md RULE-AMMR-025-001]]
     Barnets bästa prioriteras
@@ -53,7 +53,7 @@ if (Ensamkommande barn? (art. 25)) then (Ja)
   stop
 endif
 
-if (Familjemedlem lagligen bosatt? (art. 26)) then (Ja)
+if (Familjemedlem lagligen bosatt?\n(art. 26)) then (Ja)
   :Familjestaten ansvarar;
   note right
     [[../articles/ammr-026.md ART-AMMR-026]]
@@ -63,7 +63,7 @@ if (Familjemedlem lagligen bosatt? (art. 26)) then (Ja)
   stop
 endif
 
-if (Familjemedlem med pågående ansökan? (art. 27)) then (Ja)
+if (Familjemedlem med pågående ansökan?\n(art. 27)) then (Ja)
   :Den staten ansvarar;
   note right
     [[../articles/ammr-027.md ART-AMMR-027]]
@@ -73,7 +73,7 @@ if (Familjemedlem med pågående ansökan? (art. 27)) then (Ja)
   stop
 endif
 
-if (Uppehållshandling eller visering? (art. 29)) then (Ja)
+if (Uppehållshandling eller visering?\n(art. 29)) then (Ja)
   :[[../rules/rule-ammr-029-001.md Utfärdande stat ansvarar]];
   note right
     [[../rules/rule-ammr-029-001.md RULE-AMMR-029-001]]
@@ -103,7 +103,7 @@ if (Viseringsfri inresa? (art. 31)) then (Ja)
   stop
 endif
 
-if (Irreguljär inresa / landsättning? (art. 33)) then (Ja)
+if (Irreguljär inresa / landsättning?\n(art. 33)) then (Ja)
   :[[../rules/rule-ammr-033-001.md Första inresestaten ansvarar]];
   note right
     [[../rules/rule-ammr-033-001.md RULE-AMMR-033-001]]

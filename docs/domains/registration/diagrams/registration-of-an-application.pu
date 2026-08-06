@@ -125,7 +125,7 @@ end note
 :Meddela sökanden datum och plats
 för inlämnande av ansökan;
 
-:[[../processes/lodging-an-application.md Överlämna ärende till PROC-REG-002 Lodging]];
+:[[../processes/lodging-an-application.md Överlämna ärende till PROC-REG-002\nLodging]];
 
 stop
 @enduml

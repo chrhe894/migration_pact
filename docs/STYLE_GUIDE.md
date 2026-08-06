@@ -271,7 +271,7 @@ Aktivitetstext som överstiger **30 tecken** ska brytas med `\n` vid närmaste m
 :Registrera biometriska uppgifter i\nEurodac (om ej gjort);
 ```
 
-**Regel:** Bryt vid mellanslag närmast position 25–35. Aktiviteter med `[[länk]]`-syntax undantas (länktexten styr bredden).
+**Regel:** Bryt vid mellanslag närmast position 25–35. Aktiviteter med `[[länk]]`-syntax ska också brytas på samma sätt. Samma regel gäller if-satser (`if (text)`).
 
 **Lösning vid djup nesting:** Använd separata `if ... stop endif`-block i sekvens istället för nästlade `if/else/if/else`:
 

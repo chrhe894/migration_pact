@@ -54,7 +54,7 @@ partition "EU-styrning — årlig cykel" {
     ([[../articles/ammr-066.md ART-AMMR-066]]):
     50% BNP + 50% befolkning
   end note
-  :[[../rules/rule-ammr-057-001.md Rådet antar genomförandeakt om solidaritetspoolen]];
+  :[[../rules/rule-ammr-057-001.md Rådet antar genomförandeakt om\nsolidaritetspoolen]];
   note right
     [[../rules/rule-ammr-057-001.md RULE-AMMR-057-001]]
     ([[../articles/ammr-057.md ART-AMMR-057]])
@@ -105,7 +105,7 @@ partition "Bidragande stater väljer" {
   elseif (Ansvarskompensation)
 
     partition "Ansvarskompensation (art. 63)" {
-      :[[../rules/rule-ammr-063-001.md Bidragande stat övertar prövningsansvar]];
+      :[[../rules/rule-ammr-063-001.md Bidragande stat övertar\nprövningsansvar]];
       note right
         [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
         ([[../articles/ammr-063.md ART-AMMR-063]])
@@ -155,7 +155,7 @@ partition "Uppföljning" {
   :Rapportering till kommissionen;
 
   if (Omfördelningskvot inte uppfylld?) then (Ja)
-    :[[../rules/rule-ammr-063-001.md Obligatorisk ansvarskompensation aktiveras]];
+    :[[../rules/rule-ammr-063-001.md Obligatorisk ansvarskompensation\naktiveras]];
     note right
       [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
       Ingen stat kan helt undvika

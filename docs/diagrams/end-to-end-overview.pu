@@ -46,7 +46,7 @@ start
 partition "**SCREENING** (7 dagar)" {
   :Person omhändertas vid yttre gräns
   eller landsätts efter sök-och-räddning;
-  :[[domains/screening/rules/rule-scr-008-001.md Identifiering, hälsokontroll, sårbarhet, säkerhetskontroll]];
+  :[[domains/screening/rules/rule-scr-008-001.md Identifiering, hälsokontroll,\nsårbarhet, säkerhetskontroll]];
   note right
     [[domains/screening/rules/rule-scr-008-001.md RULE-SCR-008-001]]
     Screening ska genomföras inom

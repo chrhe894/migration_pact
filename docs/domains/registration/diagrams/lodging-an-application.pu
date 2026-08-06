@@ -35,7 +35,7 @@ skinparam note {
 
 start
 
-:[[../rules/rule-apr-028-002.md Sökanden kallas till angivet datum och plats]];
+:[[../rules/rule-apr-028-002.md Sökanden kallas till angivet\ndatum och plats]];
 note right
   [[../rules/rule-apr-028-001.md RULE-APR-028-001]]
   Tidsfrist: **21 dagar** från registrering
@@ -44,11 +44,11 @@ note right
   Vid massinflöde: senast **2 månader**
 end note
 
-if (Sökanden kan inställa sig personligen?) then (Nej)
+if (Sökanden kan inställa sig\npersonligen?) then (Nej)
 
-    if (Formulärinlämning tillåten enligt nationell rätt?) then (Ja)
+    if (Formulärinlämning tillåten enligt\nnationell rätt?) then (Ja)
 
-        :[[../rules/rule-apr-028-003.md Sökanden lämnar in ansökan via formulär]];
+        :[[../rules/rule-apr-028-003.md Sökanden lämnar in ansökan\nvia formulär]];
         note right
           [[../rules/rule-apr-028-003.md RULE-APR-028-003]]
           Formulärinlämning som
@@ -66,7 +66,7 @@ else (Ja)
 
     :Sökanden inställer sig personligen;
 
-    :[[../rules/rule-apr-028-005.md Sökanden lämnar in ansökan med faktorer och handlingar]];
+    :[[../rules/rule-apr-028-005.md Sökanden lämnar in ansökan\nmed faktorer och handlingar]];
     note right
       [[../rules/rule-apr-028-005.md RULE-APR-028-005]]
       Alla relevanta uppgifter
@@ -84,7 +84,7 @@ note right
   ([[../articles/apr-028.md ART-APR-028]])
 end note
 
-if (Ansökan inlämnad till beslutande myndighet?) then (Nej)
+if (Ansökan inlämnad till beslutande\nmyndighet?) then (Nej)
 
     :Beslutande myndigheten underrättas\nutan dröjsmål;
 

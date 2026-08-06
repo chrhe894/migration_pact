@@ -45,7 +45,7 @@ partition "Ansvarslogik" {
   enligt ordinarie ansvarskriterier;
 }
 
-if ("Är ärendet del av solidaritetsmekanismen?") then ("Nej")
+if ("Är ärendet del av\nsolidaritetsmekanismen?") then ("Nej")
   partition "Vanligt asylärende" {
     :Ansvarig medlemsstat
     tar emot eller behåller personen;
@@ -56,7 +56,7 @@ else ("Ja")
 endif
 
 partition "EU-styrning" {
-  :[[../rules/rule-ammr-057-001.md Solidaritetsår och årlig solidaritetspool]];
+  :[[../rules/rule-ammr-057-001.md Solidaritetsår och årlig\nsolidaritetspool]];
   note right
     [[../rules/rule-ammr-057-001.md RULE-AMMR-057-001]]
     ([[../articles/ammr-057.md ART-AMMR-057]])
@@ -93,7 +93,7 @@ if ("Vilken solidaritetsväg används?") then ("Omfördelning")
 
   partition "Omfördelningsmedlemsstat" {
     :Granskar uppgifter;
-    :[[../rules/rule-ammr-066-001.md Bekräftar eller motsätter sig enligt tidsfrist]];
+    :[[../rules/rule-ammr-066-001.md Bekräftar eller motsätter sig\nenligt tidsfrist]];
     note right
       [[../rules/rule-ammr-066-001.md RULE-AMMR-066-001]]
       ([[../articles/ammr-066.md ART-AMMR-066]])
@@ -180,7 +180,7 @@ else ("Obligatorisk ansvarskompensation")
     :Kontrollera om omfördelningslöften
     understiger relevanta trösklar
     eller inte genomförs;
-    :[[../rules/rule-ammr-063-001.md Beräkna ansvar upp till medlemsstatens rättvisa andel]];
+    :[[../rules/rule-ammr-063-001.md Beräkna ansvar upp till\nmedlemsstatens rättvisa andel]];
     note right
       [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
       ([[../articles/ammr-063.md ART-AMMR-063]])
@@ -193,7 +193,7 @@ else ("Obligatorisk ansvarskompensation")
   }
 
   partition "Bidragande / kompenserande medlemsstat" {
-    :[[../rules/rule-ammr-067-001.md Tar över ansvar för identifierade ansökningar]];
+    :[[../rules/rule-ammr-067-001.md Tar över ansvar för identifierade\nansökningar]];
     note right
       [[../rules/rule-ammr-067-001.md RULE-AMMR-067-001]]
       ([[../articles/ammr-067.md ART-AMMR-067]])

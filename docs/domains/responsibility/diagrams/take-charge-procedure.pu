@@ -36,7 +36,7 @@ skinparam note {
 start
 
 partition "Fastställande stat (art. 38)" {
-  :[[../rules/rule-ammr-038-001.md Ansökan registreras — förfarandet inleds]];
+  :[[../rules/rule-ammr-038-001.md Ansökan registreras — förfarandet\ninleds]];
   note right
     [[../rules/rule-ammr-038-001.md RULE-AMMR-038-001]]
     Förfarandet inleds utan dröjsmål
@@ -47,7 +47,7 @@ partition "Fastställande stat (art. 38)" {
 }
 
 partition "Framställan om övertagande (art. 39)" {
-  :[[../rules/rule-ammr-039-001.md Framställan skickas till den anmodade staten]];
+  :[[../rules/rule-ammr-039-001.md Framställan skickas till den\nanmodade staten]];
   note right
     [[../rules/rule-ammr-039-001.md RULE-AMMR-039-001]]
     **2 månader** från registrering

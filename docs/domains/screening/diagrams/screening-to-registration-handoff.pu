@@ -103,7 +103,7 @@ partition "Eurodac" {
 }
 
 partition "Ansvarsbedömning" {
-  :[[../../../domains/responsibility/rules/rule-ammr-038-001.md Fastställande stat inleder förfarandet]];
+  :[[../../../domains/responsibility/rules/rule-ammr-038-001.md Fastställande stat inleder\nförfarandet]];
   note right
     [[../../../domains/responsibility/rules/rule-ammr-038-001.md RULE-AMMR-038-001]]
     Startar parallellt med

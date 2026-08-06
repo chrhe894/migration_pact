@@ -76,7 +76,7 @@ if (Asylsökande?) then (Ja)
     Lagringstid: **10 år**
   end note
 else (Person som vistas olagligt)
-  :[[../rules/rule-eur-023-001.md Överför dataset för olaglig vistelse]];
+  :[[../rules/rule-eur-023-001.md Överför dataset för olaglig\nvistelse]];
   note right
     [[../rules/rule-eur-023-001.md RULE-EUR-023-001]]
     Överföring vid påträffande

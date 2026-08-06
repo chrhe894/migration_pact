@@ -65,7 +65,7 @@ if (Tolk behövs?) then (Ja)
 
 endif
 
-:[[../rules/rule-scr-014-001.md Identifiering / verifiering av identitet och databassökningar]];
+:[[../rules/rule-scr-014-001.md Identifiering / verifiering av\nidentitet och databassökningar]];
 note right
   [[../rules/rule-scr-014-001.md RULE-SCR-014-001]]
   Kontroll mot SIS, VIS, Eurodac,

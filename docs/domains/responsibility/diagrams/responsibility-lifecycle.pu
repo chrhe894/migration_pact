@@ -58,7 +58,7 @@ partition "**Ansvar uppstår** — en av följande vägar" {
 :Stat är ansvarig;
 
 partition "**Ansvar pågår**" {
-  :[[../rules/rule-ammr-036-001.md Skyldig att pröva / slutföra prövning]];
+  :[[../rules/rule-ammr-036-001.md Skyldig att pröva / slutföra\nprövning]];
   note right
     [[../rules/rule-ammr-036-001.md RULE-AMMR-036-001]]
     Skyldig att återta person

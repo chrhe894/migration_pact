@@ -75,7 +75,7 @@ partition "Klassificering" {
 }
 
 partition "Förhandsprövning" {
-  :[[../rules/rule-apr-055-001.md Registrera åberopade nya omständigheter och bevis]];
+  :[[../rules/rule-apr-055-001.md Registrera åberopade nya\nomständigheter och bevis]];
   note right
     [[../rules/rule-apr-055-001.md RULE-APR-055-001]]
     Förhandsprövning av om nya
@@ -87,9 +87,9 @@ partition "Förhandsprövning" {
   skriftligt eller med personlig intervju;
 }
 
-if ("Finns nya relevanta omständigheter?") then ("Ja")
+if ("Finns nya relevanta\nomständigheter?") then ("Ja")
   partition "Prövningsspår" {
-    if ("Avser skyddsbehov eller tidigare avvisningsgrund?") then ("Skyddsbehov")
+    if ("Avser skyddsbehov eller tidigare\navvisningsgrund?") then ("Skyddsbehov")
       :Markera att uppgifterna väsentligt
       kan öka sannolikheten för skydd;
     else ("Tidigare avvisningsgrund")
@@ -127,7 +127,7 @@ partition "Rätt att stanna" {
   end note
 }
 
-if ("Undantag från rätt att stanna kan bli aktuellt?") then ("Ja")
+if ("Undantag från rätt att stanna kan\nbli aktuellt?") then ("Ja")
   partition "Rättssäkerhetskontroll" {
     :Kontrollera suspensiv effekt
     vid överklagande;

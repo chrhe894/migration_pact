@@ -41,9 +41,9 @@ end note
 
 :Kommissionen bedömer situationen;
 
-if (Kris/force majeure/instrumentalisering?) then (Ja)
+if (Kris/force\nmajeure/instrumentalisering?) then (Ja)
 
-    :[[../articles/crisis-003.md Kommissionen fastställer genom beslut]];
+    :[[../articles/crisis-003.md Kommissionen fastställer genom\nbeslut]];
     note right
       [[../articles/crisis-003.md ART-CRI-003]]
       Kommissionens bedömning

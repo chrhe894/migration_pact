@@ -36,7 +36,7 @@ start
 
 :Tredjelandsmedborgare som vistas\nolagligt omhändertas;
 
-if (Screening redan genomförd i annan medlemsstat?) then (Ja)
+if (Screening redan genomförd i annan\nmedlemsstat?) then (Ja)
 
     :Screening genomförs inte;
 
@@ -44,7 +44,7 @@ if (Screening redan genomförd i annan medlemsstat?) then (Ja)
 
 endif
 
-if (Omedelbar överföring till annan medlemsstat enligt bilateralt avtal?) then (Ja)
+if (Omedelbar överföring till annan\nmedlemsstat enligt bilateralt\navtal?) then (Ja)
 
     :Mottagande medlemsstat genomför\nscreening;
 
@@ -57,7 +57,7 @@ note right
   Tidsfrist: **3 dagar**
 end note
 
-:[[../rules/rule-scr-014-001.md Identifiering / verifiering av identitet]];
+:[[../rules/rule-scr-014-001.md Identifiering / verifiering av\nidentitet]];
 note right
   [[../rules/rule-scr-014-001.md RULE-SCR-014-001]]
   Kontroll mot SIS, VIS, Eurodac,
