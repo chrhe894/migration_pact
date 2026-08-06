@@ -151,13 +151,13 @@ Dokumentera tvärgående begrepp som delas av flera domäner.
 | Statistik | 13 | Klar |
 | Tidsfrister | 5 | Klar |
 | Identitet | 4 | Klar |
-| Biometri | 1 (README) | Stub |
-| Barn | 1 (README) | Stub |
-| Dokument | 1 (README) | Stub |
+| Biometri | 1 (README, fullt innehåll) | Klar |
+| Barn | 1 (README, fullt innehåll) | Klar |
+| Dokument | 1 (README, fullt innehåll) | Klar |
 | Intervjuer | 1 (README, fullt innehåll) | Klar |
 | Säkerhetskontroller | 1 (README, fullt innehåll) | Klar |
 
-**Status:** ~85 % klar (5 moduler har bara README-stubs)
+**Status:** ✅ Klar
 
 ---
 
