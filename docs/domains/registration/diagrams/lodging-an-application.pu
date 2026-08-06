@@ -86,11 +86,11 @@ end note
 
 if (Ansökan inlämnad till beslutande myndighet?) then (Nej)
 
-    :Beslutande myndigheten underrättas utan dröjsmål;
+    :Beslutande myndigheten underrättas\nutan dröjsmål;
 
 endif
 
-:Tidsfristen för prövning börjar löpa;
+:Tidsfristen för prövning börjar\nlöpa;
 
 stop
 

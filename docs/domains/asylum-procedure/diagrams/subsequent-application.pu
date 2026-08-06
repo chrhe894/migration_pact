@@ -131,7 +131,7 @@ if ("Undantag från rätt att stanna kan bli aktuellt?") then ("Ja")
   partition "Rättssäkerhetskontroll" {
     :Kontrollera suspensiv effekt
     vid överklagande;
-    :Dokumentera non-refoulement-kontroll;
+    :Dokumentera\nnon-refoulement-kontroll;
     note right
       [[../articles/apr-010.md ART-APR-010]]
       Rätt att stanna kvar

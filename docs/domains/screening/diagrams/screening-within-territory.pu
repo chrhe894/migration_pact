@@ -34,7 +34,7 @@ skinparam note {
 
 start
 
-:Tredjelandsmedborgare som vistas olagligt omhändertas;
+:Tredjelandsmedborgare som vistas\nolagligt omhändertas;
 
 if (Screening redan genomförd i annan medlemsstat?) then (Ja)
 
@@ -46,7 +46,7 @@ endif
 
 if (Omedelbar överföring till annan medlemsstat enligt bilateralt avtal?) then (Ja)
 
-    :Mottagande medlemsstat genomför screening;
+    :Mottagande medlemsstat genomför\nscreening;
 
     stop
 
@@ -64,7 +64,7 @@ note right
   ECRIS-TCN
 end note
 
-:Registrera biometriska uppgifter om ej gjort;
+:Registrera biometriska uppgifter om\nej gjort;
 
 :[[../rules/rule-scr-015-001.md Säkerhetskontroll]];
 note right

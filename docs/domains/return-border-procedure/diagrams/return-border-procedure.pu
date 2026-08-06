@@ -44,7 +44,7 @@ end note
 
 :Återvändandebeslut utfärdas;
 
-:Tidsfrist för frivillig avresa (max 15 dagar);
+:Tidsfrist för frivillig avresa (max\n15 dagar);
 note right
   [[../rules/rule-ret-005-001.md RULE-RET-005-001]]
   Max **12 veckor** efter avslag

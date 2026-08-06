@@ -35,7 +35,7 @@ skinparam note {
 
 start
 
-:Ansökan registrerad — situationen vid registreringen fastställs;
+:Ansökan registrerad — situationen\nvid registreringen fastställs;
 note right
   [[../rules/rule-ammr-024-002.md RULE-AMMR-024-002]]
   Fryspunkt — situationen vid
@@ -115,7 +115,7 @@ if (Irreguljär inresa / landsättning? (art. 33)) then (Ja)
   stop
 endif
 
-:Stat där ansökan först registrerades ansvarar;
+:Stat där ansökan först\nregistrerades ansvarar;
 note right
   [[../rules/rule-ammr-033-002.md RULE-AMMR-033-002]]
   Residualkriteriet
@@ -124,7 +124,7 @@ end note
 :Ansvarig medlemsstat fastställd;
 
 if (Annan stat än den nuvarande?) then (Ja)
-  :Framställan om övertagande (take charge request);
+  :Framställan om övertagande (take\ncharge request);
   note right
     [[../rules/rule-ammr-038-001.md RULE-AMMR-038-001]]
     Inom 2 månader

@@ -33,7 +33,7 @@ skinparam note {
 
 start
 
-:Screening avslutad — sökanden hänvisas till gränsförfarande;
+:Screening avslutad — sökanden\nhänvisas till gränsförfarande;
 
 :[[../rules/rule-apr-043-001.md Kontrollera villkor för gränsförfarande]];
 note right

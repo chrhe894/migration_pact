@@ -57,7 +57,7 @@ partition "Fastställande stat" {
     :Prövar ansökan själv;
     stop
   else (Nej)
-    :Identifierar annan stat som ansvarig;
+    :Identifierar annan stat som\nansvarig;
   endif
 }
 

@@ -36,7 +36,7 @@ skinparam note {
 
 start
 
-:Person omhändertas, landsätts eller ansöker om asyl vid yttre gräns;
+:Person omhändertas, landsätts eller\nansöker om asyl vid yttre gräns;
 note right
   [[../rules/rule-scr-006-001.md RULE-SCR-006-001]]
   Inresa nekas under screening
@@ -72,7 +72,7 @@ note right
   ECRIS-TCN
 end note
 
-:Registrera biometriska uppgifter i Eurodac (om ej gjort);
+:Registrera biometriska uppgifter i\nEurodac (om ej gjort);
 
 :[[../rules/rule-scr-015-001.md Säkerhetskontroll mot EU-databaser]];
 note right
@@ -119,7 +119,7 @@ else (Nej)
 
     if (Omfördelning?) then (Ja)
 
-        :Hänvisa till relevant myndighet i annan medlemsstat;
+        :Hänvisa till relevant myndighet i\nannan medlemsstat;
 
     else (Nej)
 

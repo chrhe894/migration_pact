@@ -33,7 +33,7 @@ skinparam note {
 
 start
 
-:Ansökan inlämnad — ärendet till beslutande myndigheten;
+:Ansökan inlämnad — ärendet till\nbeslutande myndigheten;
 note right
   [[../articles/apr-034.md ART-APR-034]]
   Tidsfrist: **6 månader**
@@ -93,7 +93,7 @@ else (Nej)
 
     if (Subsidiärt skydd?) then (Ja)
 
-        :Status som subsidiärt skyddsbehövande beviljas;
+        :Status som subsidiärt\nskyddsbehövande beviljas;
 
     else (Nej)
 

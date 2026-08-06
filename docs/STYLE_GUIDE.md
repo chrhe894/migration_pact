@@ -259,6 +259,20 @@ PlantUML lägger nästlade `if/else`-grenar horisontellt. Djup nesting gör diag
 
 **Gräns:** Bredd-höjd-förhållande ska inte överstiga 2:1.
 
+## Radbrytning i aktiviteter
+
+Aktivitetstext som överstiger **30 tecken** ska brytas med `\n` vid närmaste mellanslag (tolerans ±5 tecken). Detta förhindrar att diagram blir onödigt breda.
+
+```plantuml
+' ❌ FEL — för lång rad (>35 tecken)
+:Registrera biometriska uppgifter i Eurodac (om ej gjort);
+
+' ✅ RÄTT — bruten vid ~30 tecken
+:Registrera biometriska uppgifter i\nEurodac (om ej gjort);
+```
+
+**Regel:** Bryt vid mellanslag närmast position 25–35. Aktiviteter med `[[länk]]`-syntax undantas (länktexten styr bredden).
+
 **Lösning vid djup nesting:** Använd separata `if ... stop endif`-block i sekvens istället för nästlade `if/else/if/else`:
 
 ```plantuml

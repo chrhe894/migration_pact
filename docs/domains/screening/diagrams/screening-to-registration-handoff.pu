@@ -62,7 +62,7 @@ partition "Screeningmyndighet" {
     ([[../articles/scr-018.md ART-SCR-018]])
   end note
 
-  :Hänvisning till registreringsmyndighet;
+  :Hänvisning till\nregistreringsmyndighet;
 }
 
 partition "Registreringsmyndighet" {

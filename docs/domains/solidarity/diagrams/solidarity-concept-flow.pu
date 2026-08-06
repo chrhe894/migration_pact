@@ -49,7 +49,7 @@ if ("Är ärendet del av solidaritetsmekanismen?") then ("Nej")
   partition "Vanligt asylärende" {
     :Ansvarig medlemsstat
     tar emot eller behåller personen;
-    :Ansökan prövas i ordinarie asylprocess;
+    :Ansökan prövas i ordinarie\nasylprocess;
   }
   stop
 else ("Ja")
@@ -86,7 +86,7 @@ partition "EU-styrning" {
 
 if ("Vilken solidaritetsväg används?") then ("Omfördelning")
   partition "Gynnad medlemsstat" {
-    :Identifierar person som kan omfördelas;
+    :Identifierar person som kan\nomfördelas;
     :Skickar uppgifter och handlingar
     till omfördelningsmedlemsstat;
   }
