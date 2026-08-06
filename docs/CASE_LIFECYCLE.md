@@ -14,6 +14,8 @@ Det fungerar som primär navigationshjälp för nya läsare.
 
 Källa: [`case-lifecycle.pu`](diagrams/case-lifecycle.pu)
 
+> Förenklad vy — klicka på en domän för att navigera dit.
+
 ---
 
 ## Domäner och deras plats i livscykeln
@@ -40,8 +42,10 @@ Källa: [`case-lifecycle.pu`](diagrams/case-lifecycle.pu)
 
 ---
 
-## Diagram
+## Detaljerat regelflöde
 
 <object type="image/svg+xml" data="diagrams/end-to-end-overview.svg" width="100%"></object>
 
 Källa: [`end-to-end-overview.pu`](diagrams/end-to-end-overview.pu)
+
+> Visar exakta regler, tidsfrister och undantag per steg. Klicka på en regel för att gå till regelkortet.
