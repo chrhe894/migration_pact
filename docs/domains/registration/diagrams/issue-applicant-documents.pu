@@ -9,7 +9,7 @@
 ' Relaterade regler:
 '   RULE-APR-029-001, RULE-APR-029-002, RULE-APR-029-003
 '
-' Status: Draft
+' Status: Complete
 ' ============================================================================
 
 @startuml issue-applicant-documents
@@ -35,44 +35,28 @@ start
 
 :Ansökan registreras;
 
-if (Sökandehandling kan utfärdas\ndirekt?) then (Ja)
+if (Sökanden i förvar eller\navtjänar fängelsestraff?) then (Ja)
 
-    :[[../rules/rule-apr-029-002.md Utfärda sökandehandling]];
-    note right
-      [[../rules/rule-apr-029-002.md RULE-APR-029-002]]
-      Utfärdas vid inlämnande
-      ([[../articles/apr-029.md ART-APR-029]])
-    end note
+  :Handlingar utfärdas inte\nunder frihetsberövande;
 
-    stop
-
-else (Nej)
-
-    if (Sökanden i förvar eller avtjänar\nfängelsestraff?) then (Ja)
-
-        :Handlingar utfärdas inte;
-
-        :Invänta frigivning;
-
-        :[[../rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
-        note right
-          [[../rules/rule-apr-029-001.md RULE-APR-029-001]]
-          Handling i sökandens namn
-          som anger att ansökan
-          gjorts och registrerats
-        end note
-
-    else (Nej)
-
-        :[[../rules/rule-apr-029-001.md Tillhandahåll registreringshandling]];
-        note right
-          [[../rules/rule-apr-029-001.md RULE-APR-029-001]]
-          Handling i sökandens namn
-        end note
-
-    endif
+  :Invänta frigivning;
 
 endif
+
+:[[../rules/rule-apr-029-001.md Tillhandahåll\nregistreringshandling]];
+note right
+  [[../rules/rule-apr-029-001.md RULE-APR-029-001]]
+  Handling i sökandens namn
+  som anger att ansökan
+  gjorts och registrerats
+  ([[../articles/apr-029.md ART-APR-029]])
+end note
+
+note right
+  == Juridisk milstolpe ==
+  Sökanden har en handling
+  som bekräftar registrering
+end note
 
 :Ansökan lämnas in;
 
@@ -80,12 +64,13 @@ endif
 note right
   [[../rules/rule-apr-029-002.md RULE-APR-029-002]]
   Giltighetstid: upp till **12 månader**
+  ---
   Innehåll: namn, foto, status,
   rätt att stanna, rörelsefrihet
   ([[../articles/apr-029.md ART-APR-029]])
 end note
 
-:[[../rules/rule-apr-029-003.md Återkalla registreringshandlingen]];
+:[[../rules/rule-apr-029-003.md Återkalla\nregistreringshandlingen]];
 note right
   [[../rules/rule-apr-029-003.md RULE-APR-029-003]]
   Registreringshandlingen ersätts
