@@ -487,6 +487,8 @@ nav:
     - Dokument: shared/documents/README.md
     - Tidsfrister:
       - shared/time-limits/README.md
+      - Begrepp:
+        - Uppsikt: shared/time-limits/concepts/uppsikt.md
       - Regler:
         - RULE-TL-LOD-001: shared/time-limits/rules/rule-tl-lod-001.md
         - RULE-TL-LOD-002: shared/time-limits/rules/rule-tl-lod-002.md
