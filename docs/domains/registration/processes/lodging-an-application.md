@@ -57,6 +57,23 @@ Om ett oproportionellt stort antal personer gör ansökan inom samma period ska 
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Ordinarie** — 21 dagar | [APR art. 28](../articles/apr-028.md) | Från registrering till inlämnande |
+| **Gränsförfarande** — 5 dagar | [APR art. 51](../../border-procedure/articles/apr-051.md) | Förkortad tidsfrist vid gränsförfarande |
+| **Massinflöde** — 2 månader | [APR art. 28](../articles/apr-028.md) | Vid oproportionellt stort antal ansökningar |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Andel inlämnade inom tidsfrist | Efterlevnadsmått mot 21-dagarskravet | Nationell statistik |
+| Andel formulärinlämningar | Andel som utnyttjar formulärmöjligheten | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-APR-028-001](../rules/rule-apr-028-001.md) — Tidsfrist för inlämnande (21 dagar)

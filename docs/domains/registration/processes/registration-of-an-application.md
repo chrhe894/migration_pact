@@ -63,6 +63,23 @@ Om sökanden har genomgått screening enligt Screeningförordningen artikel 5.1 
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Ordinarie** — 5 dagar | [APR art. 27](../articles/apr-027.md) | Från ansökan gjord till registrering |
+| **Massinflöde** — 15 dagar | [APR art. 27](../articles/apr-027.md) | Vid oproportionellt stort antal ansökningar |
+| **Vid kris** — 4 veckor | [Krishanteringsförordningen art. 10](../../crisis/articles/crisis-010.md) | Förlängd tidsfrist vid kris |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Antal registrerade per dag | Volym- och kapacitetsuppföljning | Nationell statistik |
+| Andel registrerade inom tidsfrist | Efterlevnadsmått mot 5-dagarskravet | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-APR-027-001](../rules/rule-apr-027-001.md) — Skyldighet att registrera

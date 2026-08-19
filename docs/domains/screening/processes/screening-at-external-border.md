@@ -64,6 +64,22 @@ Om det under screeningen framkommer att personen uppfyller inresevillkoren ska s
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Ordinarie** — 7 dagar | [Screening art. 8](../articles/screening-008.md) | Maximal screeningperiod vid yttre gräns |
+| **Förkortad** — 4 dagar | [Screening art. 8](../articles/screening-008.md) | Om personen befunnits >72h vid gränsen |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Genomsnittlig screeningtid | Tidseffektivitet mot 7-dagarskravet | Nationell statistik |
+| Andel hänvisade till asylförfarande vs återvändande | Flödesfördelning efter screening | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-SCR-005-001](../rules/rule-scr-005-001.md) — Screening obligatorisk vid gränspassage

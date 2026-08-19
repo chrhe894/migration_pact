@@ -66,6 +66,24 @@ Sökanden tillåts resa in. Ärendet övergår till reguljärt förfarande.
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Gränsförfarande** — 12 veckor | [APR art. 51](../articles/apr-051.md) | Maximal varaktighet |
+| **Inlämnande** — 5 dagar | [APR art. 51](../articles/apr-051.md) | Från registrering till inlämnande |
+| **Vid kris** — 18 veckor | [Krishanteringsförordningen art. 11](../../crisis/articles/crisis-011.md) | Förlängd tidsfrist vid kris |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Bifallsandel <20% | Obligatoriskt gränsförfarande om nationell bifallsandel under 20% | [APR art. 45](../articles/apr-045.md) |
+| Kapacitetsberäkning | Avgör om obligatorisk tillämpning upphör | [APR art. 47](../articles/apr-047.md) |
+| Antal gränsförfaranden | Uppföljning av volymer | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-APR-043-001](../rules/rule-apr-043-001.md) — Villkor för tillämpning

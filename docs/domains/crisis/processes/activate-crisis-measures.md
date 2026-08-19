@@ -47,6 +47,25 @@ Källa: [`activate-crisis-measures.pu`](../diagrams/activate-crisis-measures.pu)
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Registrering** — 4 veckor | [Krishanteringsförordningen art. 10](../articles/crisis-010.md) | Förlängd registreringstidsfrist |
+| **Gränsförfarande** — 18 veckor | [Krishanteringsförordningen art. 11](../articles/crisis-011.md) | Förlängd gränsförfarandetidsfrist |
+| **Framställan om övertagande** — 4 månader | [Krishanteringsförordningen art. 12](../articles/crisis-012.md) | Förlängd tidsfrist för framställan |
+| **Svar på framställan** — 2 månader | [Krishanteringsförordningen art. 12](../articles/crisis-012.md) | Förlängd svarstidsfrist |
+| **Överföring** — 1 år | [Krishanteringsförordningen art. 12](../articles/crisis-012.md) | Förlängd överföringstidsfrist |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Migrationstryck-indikatorer | Underlag för beslut om krisaktivering | Kommissionens situationsrapporter |
+| Antal krisaktiverade förfaranden | Uppföljning av undantagsanvändning | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-CRI-010-001](../rules/rule-cri-010-001.md) — Registreringstidsfrist 4 veckor

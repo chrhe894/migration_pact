@@ -66,6 +66,24 @@ Om sökanden avviker, inte samarbetar eller inte inställer sig till intervju ut
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Reguljär prövning** — 6 månader | [APR art. 35](../articles/apr-035.md) | Från inlämnande till beslut |
+| **Påskyndat förfarande** — 3 månader | [APR art. 42](../articles/apr-042.md) | Om grunder enligt art. 42 föreligger |
+| **Vid komplexitet** — 15 månader | [APR art. 35](../articles/apr-035.md) | Förlängning vid komplexa sak- eller rättsfrågor |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Bifallsandel | Underlag för att bedöma om påskyndat förfarande kan tillämpas | EUAA kvartalsdata |
+| Handläggningstid | Effektivitetsmått mot 6-månaderskravet | Nationell statistik |
+| Andel påskyndade | Andel ärenden i påskyndat förfarande | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-APR-034-001](../rules/rule-apr-034-001.md) — Individuell, objektiv, opartisk prövning

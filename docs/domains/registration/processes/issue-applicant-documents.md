@@ -64,6 +64,23 @@ För medföljande barn kan handlingar som utfärdas till förälder eller ansvar
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Registreringshandling** — vid registrering | [APR art. 29](../articles/apr-029.md) | Utfärdas omedelbart vid registrering |
+| **Sökandehandling** — vid inlämnande | [APR art. 29](../articles/apr-029.md) | Utfärdas senast vid inlämnande |
+| **Giltighetstid** — 12 månader | [APR art. 29](../articles/apr-029.md) | Förnyas automatiskt |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Antal utfärdade handlingar | Volymuppföljning | Nationell statistik |
+| Förnyelsefrekvens | Andel handlingar som förnyats | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-APR-029-001](../rules/rule-apr-029-001.md) — Registreringshandling

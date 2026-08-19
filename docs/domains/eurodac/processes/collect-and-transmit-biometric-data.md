@@ -62,6 +62,22 @@ Vid allvarliga tekniska problem får 72-timmarsfristen för asylsökande förlä
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Överföring** — 72 timmar | [Eurodac art. 15](../articles/eurodac-015.md) | Från tagning till överföring till centralsystemet |
+| **Vid hälsohinder** — 48 timmar | [Eurodac art. 15](../articles/eurodac-015.md) | Efter att hindret undanröjts |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Avvisningsfrekvens | Andel dataset som avvisas p.g.a. kvalitetsbrister | Eurodac systemrapporter |
+| Antal registreringar per kategori | Volymuppföljning per Eurodac-kategori | eu-LISA årsrapport |
+
+---
+
 ## Regler
 
 - [RULE-EUR-013-001](../rules/rule-eur-013-001.md) — Skyldighet att ta och lämna biometriska uppgifter

@@ -60,6 +60,28 @@ Om tidsfristerna i artikel 33 har löpt ut (20 resp. 12 månader) kan inresestat
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Framställan om övertagande** — 2 månader | [AMMR art. 39](../articles/ammr-039.md) | Från registrering |
+| **Framställan vid Eurodac-träff** — 1 månad | [AMMR art. 39](../articles/ammr-039.md) | Förkortad vid Eurodac-bevis |
+| **Svar på framställan** — 1 månad | [AMMR art. 40](../articles/ammr-040.md) | Ordinarie svarsfrist |
+| **Svar vid Eurodac-träff** — 2 veckor | [AMMR art. 40](../articles/ammr-040.md) | Förkortad svarsfrist |
+| **Överföring** — 6 månader | [AMMR art. 46](../articles/ammr-046.md) | Från godkännande till verkställighet |
+| **Överföring vid avvikande** — 18 månader | [AMMR art. 46](../articles/ammr-046.md) | Förlängd vid avvikande |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Antal framställningar | Volymuppföljning av övertagandeförfaranden | Nationell statistik |
+| Acceptansgrad | Andel godkända framställningar | Nationell statistik |
+| Andel verkställda överföringar | Effektivitetsmått | Nationell statistik |
+| Genomsnittlig överföringstid | Tidseffektivitet mot 6-månaderskravet | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-AMMR-024-001](../rules/rule-ammr-024-001.md) — Kriterierna i angiven ordning

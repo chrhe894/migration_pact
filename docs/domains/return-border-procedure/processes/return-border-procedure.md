@@ -53,6 +53,23 @@ Personen överklagar och beviljas suspensiv verkan. Tidsfristerna fryser till de
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Maximal varaktighet** — 12 veckor | [Återvändandeförordningen art. 5](../articles/return-005.md) | Från återvändandebeslut till verkställighet |
+| **Frivillig avresa** — 15 dagar | [Återvändandeförordningen art. 5](../articles/return-005.md) | Maximal period för frivillig avresa |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Andel frivilliga avresor | Andel som reser frivilligt inom 15 dagar | Nationell statistik |
+| Andel verkställda avlägsnanden | Effektivitetsmått för återvändande | Nationell statistik |
+| Genomsnittlig handläggningstid | Tidseffektivitet mot 12-veckorskravet | Nationell statistik |
+
+---
+
 ## Regler
 
 - [RULE-RET-004-001](../rules/rule-ret-004-001.md) — Tillämpning efter avslag
