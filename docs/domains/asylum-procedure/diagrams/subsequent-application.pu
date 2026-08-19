@@ -80,6 +80,9 @@ partition "Förhandsprövning" {
     [[../rules/rule-apr-055-001.md RULE-APR-055-001]]
     Förhandsprövning av om nya
     relevanta omständigheter finns
+    ---
+    Ingen explicit tidsfrist i APR
+    men ska ske snarast möjligt
   end note
   :Bedöm om uppgifterna kunde
   ha lagts fram tidigare;
@@ -101,6 +104,16 @@ if ("Finns nya relevanta\nomständigheter?") then ("Ja")
   partition "Beslut / workflow" {
     :För ärendet vidare
     till sakprövning;
+    note right
+      Tidsfrist: **6 månader**
+      ([[../rules/rule-apr-035-001.md RULE-APR-035-001]])
+      ---
+      Påskyndat: **3 månader**
+      (om uppenbart ogrundad, art. 42)
+      ---
+      Gränsförfarande: **12 veckor**
+      (om fördröjningssyfte, art. 43.1 c)
+    end note
   }
 
 else ("Nej")
@@ -151,6 +164,13 @@ endif
 partition "Uppföljning" {
   :Uppdatera ärendehistorik,
   statistik och auditlogg;
+  note right
+    == Statistikpunkter ==
+    • Bifallsandel efterföljande
+      ansökningar (EUAA)
+    • Andel avvisade som otillåtliga
+    • Tid till förhandsprövningsbeslut
+  end note
 }
 
 stop

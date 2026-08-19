@@ -38,6 +38,25 @@ Källa: [`subsequent-application.pu`](../diagrams/subsequent-application.pu)
 
 ---
 
+## Tidsfrister
+
+| Tidsfrist | Källa | Kommentar |
+|-----------|-------|-----------|
+| **Förhandsprövning** — ingen explicit tidsfrist | APR art. 55 | Ska genomföras "snarast"; underförstått innan prövningstidsfristerna börjar löpa |
+| **Prövning i sak (om upptagbar)** — 6 månader | APR art. 35 | Samma tidsfrist som för ordinarie ansökningar |
+| **Påskyndat förfarande** — 3 månader | APR art. 42 | Kan tillämpas om ansökan bedöms som uppenbart ogrundad |
+| **Gränsförfarande** — 12 veckor | APR art. 51 | Efterföljande ansökan som enbart syftar till att fördröja kan prövas i gränsförfarande (art. 43.1 c) |
+
+### Koppling till statistik
+
+| Datapunkt | Betydelse | Källa |
+|-----------|-----------|-------|
+| Bifallsandel efterföljande ansökningar | Om <20 % → påskyndat förfarande kan tillämpas | EUAA kvartalsdata |
+| Andel avvisade som otillåtliga | Mått på hur ofta nya omständigheter saknas | Nationell statistik |
+| Tid från inlämning till förhandsprövningsbeslut | Effektivitetsmått | Nationell statistik |
+
+---
+
 ## Alternativt flöde — ingen tidigare slutlig dom
 
 Om det inte finns ett slutligt beslut om den tidigare ansökan (ärendet pågår eller är överklagat) ska de nya uppgifterna hanteras inom det pågående förfarandet — inte som en efterföljande ansökan.
@@ -46,10 +65,10 @@ Om det inte finns ett slutligt beslut om den tidigare ansökan (ärendet pågår
 
 ## Juridiska milstolpar
 
-- Efterföljande ansökan registered
-- Preliminary examination completed
-- Admissibility decision (inadmissible / admissible)
-- If admissible: examination on the merits → decision
+- Efterföljande ansökan registrerad
+- Förhandsprövning genomförd
+- Upptagandebeslut (otillåtlig / upptagbar)
+- Om upptagbar: prövning i sak → beslut (6 mån / 3 mån påskyndat)
 
 ---
 
