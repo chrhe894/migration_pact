@@ -9,8 +9,8 @@ Denna shared-modul dokumenterar regler och begrepp kring identifiering och hante
 ## Primära rättskällor
 
 - [Screeningförordningen artikel 12](../../domains/screening/articles/scr-012.md), punkt 3 — Preliminär sårbarhetskontroll
-- APR artikel 20 — Bedömning av sårbarhet
-- APR artikel 21 — Sökande i behov av särskilda förfarandegarantier
+- [APR artikel 20](articles/apr-020.md) — Bedömning av sårbarhet
+- [APR artikel 21](articles/apr-021.md) — Sökande i behov av särskilda förfarandegarantier
 
 ---
 

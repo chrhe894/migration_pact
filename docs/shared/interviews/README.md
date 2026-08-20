@@ -55,7 +55,7 @@ Intervju om grunderna behöver inte genomföras om:
 
 ## Koppling till shared/interpreters
 
-Tolkbehovet vid intervjun hanteras av [shared/interpreters](../interpreters/README.md). APR artikel 13.3 b anger att om ändamålsenlig kommunikation inte kan säkerställas ska en kvalificerad tolk tillhandahållas.
+Tolkbehovet vid intervjun hanteras av [shared/interpreters](../interpreters/README.md). [APR artikel 13.3 b](../../domains/asylum-procedure/articles/apr-013.md) anger att om ändamålsenlig kommunikation inte kan säkerställas ska en kvalificerad tolk tillhandahållas.
 
 ---
 

@@ -30,7 +30,7 @@ Begränsar och fördelar antalet samtidiga gränsförfaranden mellan medlemsstat
 
 ## Skapas av
 
-Europeiska kommissionen genom beräkning enligt den formel som anges i APR artikel 47, baserat på statistiska uppgifter från de senaste tre åren.
+Europeiska kommissionen genom beräkning enligt den formel som anges i [APR artikel 47](../articles/apr-047.md), baserat på statistiska uppgifter från de senaste tre åren.
 
 ---
 

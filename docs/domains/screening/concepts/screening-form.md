@@ -40,7 +40,7 @@ Screeningmyndigheten som en del av screeningförfarandet ([PROC-SCR-001](../proc
 
 ## Kommentar
 
-Formuläret överlämnas till de myndigheter som personen hänvisas till efter screeningens avslutande. Det kan användas som underlag för registrering av asylansökan (APR artikel 27.1). Uppgifter om säkerhetskontrollträff maskeras i den version som tillhandahålls personen.
+Formuläret överlämnas till de myndigheter som personen hänvisas till efter screeningens avslutande. Det kan användas som underlag för registrering av asylansökan ([APR artikel 27.1](../../registration/articles/apr-027.md)). Uppgifter om säkerhetskontrollträff maskeras i den version som tillhandahålls personen.
 
 ---
 

@@ -16,7 +16,7 @@ Registration
 
 ## Definition
 
-Den åtgärd varigenom den behöriga myndigheten formellt dokumenterar att en ansökan om internationellt skydd har gjorts, i enlighet med de krav som anges i APR artikel 27.
+Den åtgärd varigenom den behöriga myndigheten formellt dokumenterar att en ansökan om internationellt skydd har gjorts, i enlighet med de krav som anges i [APR artikel 27](../articles/apr-027.md).
 
 Registreringen är den juridiska milstolpe som inleder det formella förfarandet och utlöser sökandens rättigheter och skyldigheter enligt APR.
 
@@ -30,7 +30,7 @@ Utgör startpunkten för det formella asylförfarandet och aktiverar sökandens 
 
 ## Skapas av
 
-Registreringsmyndigheten genom att formellt dokumentera ansökan i enlighet med APR artikel 27 ([PROC-REG-001](../processes/registration-of-an-application.md)).
+Registreringsmyndigheten genom att formellt dokumentera ansökan i enlighet med [APR artikel 27](../articles/apr-027.md) ([PROC-REG-001](../processes/registration-of-an-application.md)).
 
 ---
 

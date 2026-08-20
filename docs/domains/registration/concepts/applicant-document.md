@@ -16,7 +16,7 @@ Applicant document
 
 ## Definition
 
-Den handling som de behöriga myndigheterna ska utfärda till sökanden efter inlämnandet av ansökan, i enlighet med APR artikel 29.4.
+Den handling som de behöriga myndigheterna ska utfärda till sökanden efter inlämnandet av ansökan, i enlighet med [APR artikel 29.4](../articles/apr-029.md).
 
 Handlingen ska innehålla sökandens personuppgifter, status som sökande, uppgift om rätten att stanna kvar på territoriet samt en uppgift om att handlingen inte är en resehandling.
 

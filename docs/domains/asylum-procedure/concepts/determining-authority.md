@@ -28,7 +28,7 @@ Säkerställer att det finns en oberoende och specialiserad myndighet med ansvar
 
 ## Skapas av
 
-Medlemsstaten genom nationell lagstiftning som utser den myndighet som ska fatta beslut i enlighet med APR artikel 34.
+Medlemsstaten genom nationell lagstiftning som utser den myndighet som ska fatta beslut i enlighet med [APR artikel 34](../articles/apr-034.md).
 
 ---
 

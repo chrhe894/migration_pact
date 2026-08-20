@@ -19,7 +19,7 @@ Eurodac är inte ett separat migrationsförfarande på samma sätt som screening
 
 I screening anges registrering av biometriska uppgifter i Eurodac som en obligatorisk del av screeningen, om uppgifterna inte redan har registrerats. Det gör Eurodac till en operativ del av screeningflödet.
 
-För personer som ansöker om internationellt skydd kopplar Eurodac artikel 15 överföringsfristen till registreringen enligt APR artikel 27. När ansökan registreras ska biometriska uppgifter och övriga uppgifter enligt artikel 17 överföras till Eurodac så snart som möjligt och senast 72 timmar från registreringen.
+För personer som ansöker om internationellt skydd kopplar Eurodac artikel 15 överföringsfristen till registreringen enligt [APR artikel 27](../../registration/articles/apr-027.md). När ansökan registreras ska biometriska uppgifter och övriga uppgifter enligt artikel 17 överföras till Eurodac så snart som möjligt och senast 72 timmar från registreringen.
 
 Det innebär att:
 

@@ -16,7 +16,7 @@ Registration authority
 
 ## Definition
 
-Den myndighet i en medlemsstat som är behörig att registrera ansökningar om internationellt skydd enligt APR artikel 27.
+Den myndighet i en medlemsstat som är behörig att registrera ansökningar om internationellt skydd enligt [APR artikel 27](../articles/apr-027.md).
 
 ---
 
@@ -28,13 +28,13 @@ Säkerställer att det finns en identifierad aktör med ansvar för att genomfö
 
 ## Skapas av
 
-Medlemsstaten genom nationell lagstiftning som utser den behöriga myndigheten i enlighet med APR artikel 4.
+Medlemsstaten genom nationell lagstiftning som utser den behöriga myndigheten i enlighet med [APR artikel 4](../articles/apr-004.md).
 
 ---
 
 ## Rättslig grund
 
-[APR artikel 27](../articles/apr-027.md), punkt 1; APR artikel 4
+[APR artikel 27](../articles/apr-027.md), punkt 1; [APR artikel 4](../articles/apr-004.md)
 
 ---
 

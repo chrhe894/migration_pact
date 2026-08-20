@@ -15,7 +15,7 @@ Vem är "behörig myndighet" för registrering?
 
 ## Analys
 
-APR artikel 27.1 anger att registrering ska utföras av "de myndigheter som är behöriga att registrera ansökningar". Artikeln nämner tre aktörer som kan utföra uppgiften:
+[APR artikel 27.1](../articles/apr-027.md) anger att registrering ska utföras av "de myndigheter som är behöriga att registrera ansökningar". Artikeln nämner tre aktörer som kan utföra uppgiften:
 
 1. **Den nationellt behöriga myndigheten** — den myndighet i den berörda medlemsstaten som utsetts att registrera ansökningar.
 2. **En annan medlemsstats myndigheter** — om det följer av artikel 5.1 b i APR (t.ex. vid bilateralt samarbete).
@@ -33,7 +33,7 @@ Artikel 4 i APR fastställer vilka myndigheter som är behöriga i respektive ro
 ## Rättslig grund
 
 - [APR artikel 27](../articles/apr-027.md), punkt 1 och 3
-- APR artikel 4 (behöriga myndigheter — ej dokumenterad som egen fil)
+- [APR artikel 4](../articles/apr-004.md) (behöriga myndigheter)
 
 ---
 

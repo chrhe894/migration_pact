@@ -18,7 +18,7 @@ Vilken tidpunkt är avgörande för ansvarsbestämningen — registrering eller 
 AMMR artikel 24.2 anger uttryckligen att ansvarig medlemsstat fastställs "på grundval av situationen vid den tidpunkt då ansökan om internationellt skydd först registrerades i en medlemsstat."
 
 Det innebär att:
-- **Registreringstidpunkten** (APR artikel 27) är den rättsligt avgörande referenspunkten.
+- **Registreringstidpunkten** ([APR artikel 27](../../registration/articles/apr-027.md)) är den rättsligt avgörande referenspunkten.
 - Inresetidpunkten har betydelse för att *tillämpa* kriterierna (t.ex. artikel 33 räknar tid från gränspassage), men det är situationen *vid registreringen* som bestämmer vilka fakta som läggs till grund.
 - Förhållanden som ändras *efter* registreringen (t.ex. en familjemedlem som får uppehållstillstånd efter registreringen) påverkar normalt inte ansvarsbestämningen.
 

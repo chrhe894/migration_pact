@@ -24,7 +24,7 @@ Följande frågor är öppna:
 - Kan medlemsstaterna samla in mer omfattande information vid registreringen än vad som krävs enligt artikel 27?
 - Finns det krav på att registreringen ska ske på ett specifikt sätt (digitalt, fysiskt, kombination)?
 
-APR artikel 28.7 tillåter uttryckligen att ansökan görs, registreras och lämnas in samtidigt under förutsättning att garantierna i artikel 8.2–8.6 uppfylls. Detta ger en viss flexibilitet.
+[APR artikel 28.7](../articles/apr-028.md) tillåter uttryckligen att ansökan görs, registreras och lämnas in samtidigt under förutsättning att garantierna i artikel 8.2–8.6 uppfylls. Detta ger en viss flexibilitet.
 
 ---
 
@@ -32,7 +32,7 @@ APR artikel 28.7 tillåter uttryckligen att ansökan görs, registreras och läm
 
 - [APR artikel 27](../articles/apr-027.md), punkt 1–7
 - [APR artikel 28](../articles/apr-028.md), punkt 7
-- APR artikel 4 (behöriga myndigheter — ej dokumenterad som egen fil)
+- [APR artikel 4](../articles/apr-004.md) (behöriga myndigheter)
 - Proportionalitetsprincipen
 
 ---

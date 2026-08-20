@@ -16,7 +16,7 @@ Registration certificate
 
 ## Definition
 
-Den tillfälliga handling som de behöriga myndigheterna ska tillhandahålla sökanden i samband med registreringen av ansökan, i enlighet med APR artikel 29.1.
+Den tillfälliga handling som de behöriga myndigheterna ska tillhandahålla sökanden i samband med registreringen av ansökan, i enlighet med [APR artikel 29.1](../articles/apr-029.md).
 
 Handlingen anger att en ansökan har gjorts och registrerats och gäller till dess att sökandehandlingen enligt artikel 29.4 utfärdas.
 

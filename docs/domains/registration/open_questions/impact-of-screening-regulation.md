@@ -15,7 +15,7 @@ Hur påverkar Screeningförordningen registreringsprocessen i praktiken?
 
 ## Bakgrund
 
-APR artikel 27.7 fastställer att för personer som är föremål för screening enligt artikel 5.1 i Screeningförordningen ska artikel 27.1–27.6 (registrering) tillämpas först efter det att screeningen har avslutats.
+[APR artikel 27.7](../articles/apr-027.md) fastställer att för personer som är föremål för screening enligt [artikel 5.1 i Screeningförordningen](../../screening/articles/scr-005.md) ska artikel 27.1–27.6 (registrering) tillämpas först efter det att screeningen har avslutats.
 
 Detta innebär en sekventiell ordning:
 1. Screening inleds och genomförs.

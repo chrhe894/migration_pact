@@ -28,7 +28,7 @@ Möjliggör att vissa asylansökningar prövas vid gränsen innan personen till�
 
 ## Skapas av
 
-Den beslutande myndigheten genom att konstatera att ansökan uppfyller kriterierna i APR artikel 43 efter avslutad screening ([PROC-BRD-001](../processes/asylum-border-procedure.md)).
+Den beslutande myndigheten genom att konstatera att ansökan uppfyller kriterierna i [APR artikel 43](../articles/apr-043.md) efter avslutad screening ([PROC-BRD-001](../processes/asylum-border-procedure.md)).
 
 ---
 

@@ -16,7 +16,7 @@ Lodging
 
 ## Definition
 
-Den åtgärd varigenom sökanden personligen lämnar in sin ansökan om internationellt skydd till den behöriga myndigheten, i enlighet med APR artikel 28.
+Den åtgärd varigenom sökanden personligen lämnar in sin ansökan om internationellt skydd till den behöriga myndigheten, i enlighet med [APR artikel 28](../articles/apr-028.md).
 
 Inlämnandet är en separat juridisk milstolpe som inträffar efter registreringen och utlöser prövningsfristen.
 

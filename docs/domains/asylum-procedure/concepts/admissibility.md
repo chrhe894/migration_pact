@@ -16,7 +16,7 @@ Admissibility
 
 ## Definition
 
-Den preliminära bedömning varigenom den beslutande myndigheten avgör om en ansökan kan tas upp till prövning i sak, eller om den ska avvisas på någon av de grunder som anges i APR artikel 38.
+Den preliminära bedömning varigenom den beslutande myndigheten avgör om en ansökan kan tas upp till prövning i sak, eller om den ska avvisas på någon av de grunder som anges i [APR artikel 38](../articles/apr-038.md).
 
 ---
 
@@ -28,7 +28,7 @@ Fungerar som ett filter som avgör om en ansökan ska prövas i sak eller om den
 
 ## Skapas av
 
-Den beslutande myndigheten genom att bedöma ansökan mot avvisningsgrunderna i APR artikel 38 ([PROC-ASY-001](../processes/examine-an-application.md)).
+Den beslutande myndigheten genom att bedöma ansökan mot avvisningsgrunderna i [APR artikel 38](../articles/apr-038.md) ([PROC-ASY-001](../processes/examine-an-application.md)).
 
 ---
 

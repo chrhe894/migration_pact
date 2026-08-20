@@ -16,7 +16,7 @@ Accelerated procedure
 
 ## Definition
 
-Ett prövningsförfarande med förkortad tidsfrist (tre månader) som tillämpas på ansökningar som uppfyller en eller flera av de grunder som anges i APR artikel 42.
+Ett prövningsförfarande med förkortad tidsfrist (tre månader) som tillämpas på ansökningar som uppfyller en eller flera av de grunder som anges i [APR artikel 42](../articles/apr-042.md).
 
 ---
 
@@ -28,7 +28,7 @@ Möjliggör snabbare handläggning av ansökningar som sannolikt är ogrundade e
 
 ## Skapas av
 
-Den beslutande myndigheten genom att konstatera att en ansökan uppfyller minst en av de grunder som anges i APR artikel 42 ([PROC-ASY-001](../processes/examine-an-application.md)).
+Den beslutande myndigheten genom att konstatera att en ansökan uppfyller minst en av de grunder som anges i [APR artikel 42](../articles/apr-042.md) ([PROC-ASY-001](../processes/examine-an-application.md)).
 
 ---
 
