@@ -81,8 +81,8 @@ En sexmånadersfrist till nästa omprövning innebär **inte** att uppsikten aut
 |--|---------|--------|
 | **Ingrepp** | Lägre (frihetsbegränsning) | Högre (frihetsberövande) |
 | **Proportionalitetskrav** | Lägre tröskel | Högre tröskel |
-| **Omprövning** | Var 6:e/3:e månad / månadsvis | Var 2:e månad (AMMR art. 45) |
-| **Tidsfrister i EU-rätten** | Se nedan | AMMR art. 45: kortare frister |
+| **Omprövning** | Var 6:e/3:e månad / månadsvis | Var 2:e månad ([AMMR art. 45](../../domains/responsibility/articles/ammr-045.md)) |
+| **Tidsfrister i EU-rätten** | Se nedan | [AMMR art. 45](../../domains/responsibility/articles/ammr-045.md): kortare frister |
 
 ---
 
@@ -91,10 +91,10 @@ En sexmånadersfrist till nästa omprövning innebär **inte** att uppsikten aut
 Migrationspakten nämner inte "uppsikt" explicit med det svenska begreppet. De relevanta EU-rättsliga bestämmelserna handlar om:
 
 - **Alternativ till förvar** (alternatives to detention) — APR och AMMR anger att förvar ska vara en sista utväg och att mindre ingripande åtgärder ska prövas först.
-- **AMMR artikel 45** — Tidsfrister vid förvar, som indirekt påverkar uppsiktstiderna.
-- **Screeningförordningen artikel 8** — Kvarhållande under screening (inte förvar i strikt mening).
+- [**AMMR artikel 45**](../../domains/responsibility/articles/ammr-045.md) — Tidsfrister vid förvar, som indirekt påverkar uppsiktstiderna.
+- [**Screeningförordningen artikel 8**](../../domains/screening/articles/scr-008.md) — Kvarhållande under screening (inte förvar i strikt mening).
 
-Den svenska implementeringen (prop. 2025/26:265) går längre och definierar specifika uppsiktsformer med egna tidsgränser.
+Den svenska implementeringen ([prop. 2025/26:265](../national/prop-2025-26-265.md)) går längre och definierar specifika uppsiktsformer med egna tidsgränser.
 
 ---
 
@@ -105,8 +105,6 @@ Exakt vilken EU-artikel som specificerar "uppsiktstidfrister" i kontexten av mig
 - Duration of supervision measures (längsta tid)
 - Review period (omprövningsintervall)
 - Retention of documents (tid för kvarhållning av ID-handlingar)
-
-Om en specifik EU-formulering identifieras bör den länkas hit.
 
 Notera att uppsikt spänner över flera rättsliga aspekter (villkor, innehåll, tidslängd, omprövning, upphörande) som vardera motiverar egna regelkort — det handlar inte om en enda tidsfrist.
 

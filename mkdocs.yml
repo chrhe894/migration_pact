@@ -518,10 +518,7 @@ nav:
   - Referenser:
     - Lagstiftning:
       - references/legislation/INDEX.md
-    - Nationella:
-      - Ds 2025:30 vol 1 (PDF): references/nationella/migrations--och-asylpakten-ds-2025-30-volym-1.pdf
-      - Ds 2025:30 vol 2 (PDF): references/nationella/migrations--och-asylpakten-ds-202530-volym-2.pdf
-      - Prop. 2025/26:265 (PDF): references/nationella/skarpta-regler-om-uppsikt-och-forvar-prop.-202526265.pdf
+    - Nationella dokument: references/nationella/README.md
 
 plugins:
   - search
