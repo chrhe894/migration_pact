@@ -2,6 +2,10 @@
 # Build the static site: generate SVGs, build MkDocs, fix links, make responsive
 set -e
 
+echo "Copying references into docs/ for local linking..."
+rm -rf docs/references
+cp -r references docs/references
+
 echo "Generating SVGs from PlantUML..."
 find docs \( -name '*.pu' -o -name '*.puml' \) | xargs java -jar plantuml.jar -tsvg
 

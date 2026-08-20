@@ -112,6 +112,8 @@ nav:
         - REQ-EUR-015-001: domains/registration/requirements/req-eur-015-001.md
     - Screening:
       - domains/screening/README.md
+      - Nationellt:
+        - Ds 2025:30 — Screening: domains/screening/national/ds-2025-30-screening.md
       - Artiklar:
         - Artikel 5: domains/screening/articles/scr-005.md
         - Artikel 6: domains/screening/articles/scr-006.md
@@ -342,6 +344,8 @@ nav:
         - Översikt: domains/asylum-procedure/requirements/README.md
     - Gränsförfarande:
       - domains/border-procedure/README.md
+      - Nationellt:
+        - Ds 2025:30 — Gränsförfarande: domains/border-procedure/national/ds-2025-30-border-procedure.md
       - Artiklar:
         - APR artikel 43: domains/border-procedure/articles/apr-043.md
         - APR artikel 44: domains/border-procedure/articles/apr-044.md
@@ -494,6 +498,10 @@ nav:
         - RULE-TL-LOD-002: shared/time-limits/rules/rule-tl-lod-002.md
         - RULE-TL-REG-001: shared/time-limits/rules/rule-tl-reg-001.md
         - RULE-TL-REG-002: shared/time-limits/rules/rule-tl-reg-002.md
+      - Nationell implementering:
+        - Ds 2025:30 — Migrations- och asylpakten: shared/time-limits/national/ds-2025-30.md
+        - Ds 2025:30 — Mottagande: shared/time-limits/national/ds-2025-30-mottagande.md
+        - Prop. 2025/26:265 — Uppsikt och förvar: shared/time-limits/national/prop-2025-26-265.md
     - Biometri: shared/biometrics/README.md
     - Säkerhetskontroller: shared/security-checks/README.md
     - Barn: shared/children/README.md
@@ -507,6 +515,13 @@ nav:
     - Stilguide: STYLE_GUIDE.md
     - Bidra: CONTRIBUTING.md
     - Förslag på förbättringar: SUGGESTED_IMPROVEMENTS.md
+  - Referenser:
+    - Lagstiftning:
+      - references/legislation/INDEX.md
+    - Nationella:
+      - Ds 2025:30 vol 1 (PDF): references/nationella/migrations--och-asylpakten-ds-2025-30-volym-1.pdf
+      - Ds 2025:30 vol 2 (PDF): references/nationella/migrations--och-asylpakten-ds-202530-volym-2.pdf
+      - Prop. 2025/26:265 (PDF): references/nationella/skarpta-regler-om-uppsikt-och-forvar-prop.-202526265.pdf
 
 plugins:
   - search

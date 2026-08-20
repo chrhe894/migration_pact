@@ -117,6 +117,7 @@ Notera att uppsikt spänner över flera rättsliga aspekter (villkor, innehåll,
 - [Tidsfrister](../README.md) — Alla tidsfrister i kunskapsbasen
 - [Förvar](../../domains/responsibility/articles/ammr-045.md) — Tidsfrister vid förvar (AMMR art. 45)
 - [Screening art. 8](../../domains/screening/articles/scr-008.md) — Kvarhållande under screening
+- [Prop. 2025/26:265](../national/prop-2025-26-265.md) — Skärpta regler om uppsikt och förvar (svensk implementering)
 
 ---
 
