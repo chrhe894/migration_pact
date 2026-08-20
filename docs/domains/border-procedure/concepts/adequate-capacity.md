@@ -42,7 +42,7 @@ Europeiska kommissionen genom beräkning enligt den formel som anges i APR artik
 
 ## Kommentar
 
-När en stats kapacitet uppnåtts kan vissa grunder för gränsförfarande (art. 42.1 c, j) "stängas av". Art. 42.1 f (säkerhetshot) gäller dock alltid.
+När en stats kapacitet uppnåtts kan vissa grunder för gränsförfarande ([art. 42.1 c, j](../../asylum-procedure/articles/apr-042.md)) "stängas av". [Art. 42.1 f](../../asylum-procedure/articles/apr-042.md) (säkerhetshot) gäller dock alltid.
 
 ---
 

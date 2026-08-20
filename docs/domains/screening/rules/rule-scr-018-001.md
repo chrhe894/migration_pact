@@ -23,7 +23,7 @@ Obligation
 
 När screeningen har slutförts, eller senast när tidsfristerna i artikel 8 löper ut, ska personen hänvisas till rätt förfarande:
 
-- Asylansökan gjord → registreringsmyndighet (APR artikel 27)
+- Asylansökan gjord → registreringsmyndighet ([APR artikel 27](../../registration/articles/apr-027.md))
 - Ingen asylansökan → återvändandemyndighet (dir. 2008/115/EG)
 - Omfördelning → relevant myndighet i annan medlemsstat
 

@@ -42,10 +42,10 @@ Källa: [`subsequent-application.pu`](../diagrams/subsequent-application.pu)
 
 | Tidsfrist | Källa | Kommentar |
 |-----------|-------|-----------|
-| **Förhandsprövning** — ingen explicit tidsfrist | APR art. 55 | Ska genomföras "snarast"; underförstått innan prövningstidsfristerna börjar löpa |
-| **Prövning i sak (om upptagbar)** — 6 månader | APR art. 35 | Samma tidsfrist som för ordinarie ansökningar |
-| **Påskyndat förfarande** — 3 månader | APR art. 42 | Kan tillämpas om ansökan bedöms som uppenbart ogrundad |
-| **Gränsförfarande** — 12 veckor | APR art. 51 | Efterföljande ansökan som enbart syftar till att fördröja kan prövas i gränsförfarande (art. 43.1 c) |
+| **Förhandsprövning** — ingen explicit tidsfrist | [APR art. 55](../articles/apr-055.md) | Ska genomföras "snarast"; underförstått innan prövningstidsfristerna börjar löpa |
+| **Prövning i sak (om upptagbar)** — 6 månader | [APR art. 35](../articles/apr-035.md) | Samma tidsfrist som för ordinarie ansökningar |
+| **Påskyndat förfarande** — 3 månader | [APR art. 42](../articles/apr-042.md) | Kan tillämpas om ansökan bedöms som uppenbart ogrundad |
+| **Gränsförfarande** — 12 veckor | [APR art. 51](../../border-procedure/articles/apr-051.md) | Efterföljande ansökan som enbart syftar till att fördröja kan prövas i gränsförfarande ([art. 43.1 c](../../border-procedure/articles/apr-043.md)) |
 
 ### Koppling till statistik
 

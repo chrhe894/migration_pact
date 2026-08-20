@@ -21,7 +21,7 @@ Obligation
 
 ## Regel
 
-Återvändandegränsförfarandet ska tillämpas på tredjelandsmedborgare vars ansökan om internationellt skydd har avslagits eller avvisats i asylgränsförfarandet (APR art. 43–44) och som inte har rätt att stanna kvar på territoriet.
+Återvändandegränsförfarandet ska tillämpas på tredjelandsmedborgare vars ansökan om internationellt skydd har avslagits eller avvisats i asylgränsförfarandet ([APR art. 43](../../border-procedure/articles/apr-043.md)–[44](../../border-procedure/articles/apr-044.md)) och som inte har rätt att stanna kvar på territoriet.
 
 ---
 

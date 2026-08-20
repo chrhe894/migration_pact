@@ -10,7 +10,7 @@ tags:
 
 ## Rättslig grund
 
-APR artikel 8.4
+[APR artikel 8.4](../articles/apr-008.md)
 
 ---
 

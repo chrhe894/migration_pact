@@ -45,7 +45,7 @@ En tredjelandsmedborgare eller statslös person uttrycker en önskan om internat
 - Registreringshandling ska utfärdas (RULE-APR-029-001).
 - Eurodac-frist börjar löpa (72 timmar).
 - Inlämnandefrist börjar löpa (21 dagar).
-- Ansvarsbestämningens fryspunkt etableras (AMMR art. 24.2).
+- Ansvarsbestämningens fryspunkt etableras ([AMMR art. 24.2](../../responsibility/articles/ammr-024.md)).
 
 ---
 

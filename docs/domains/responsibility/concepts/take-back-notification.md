@@ -34,7 +34,7 @@ Den medlemsstat där personen befinner sig, genom att skicka en formell aviserin
 
 ## Rättslig grund
 
-AMMR artikel 41
+[AMMR artikel 41](../articles/ammr-041.md)
 
 ---
 

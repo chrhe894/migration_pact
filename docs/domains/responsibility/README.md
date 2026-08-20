@@ -46,19 +46,17 @@ Ansvarsbestämningen är central i det gemensamma europeiska asylsystemet — de
 
 ## Kriteriernas rangordning
 
-Kriterierna tillämpas i följande ordning (artikel 24). Om ett kriterium ger en ansvarig stat, tillämpas inte de efterföljande:
+Kriterierna tillämpas i följande ordning ([artikel 24](articles/ammr-024.md)). Om ett kriterium ger en ansvarig stat, tillämpas inte de efterföljande:
 
-```text
-1. Ensamkommande barn (art. 25)
-2. Familjemedlem lagligen bosatt (art. 26)
-3. Familjemedlem med pågående ansökan (art. 27)
-4. Familjeförfarande (art. 28)
-5. Uppehållshandling eller visering (art. 29)
-6. Examensbevis eller kvalifikation (art. 30)
-7. Inresa efter upphävt viseringskrav (art. 31)
-8. Ansökan i transitzon på flygplats (art. 32)
-9. Irreguljär inresa / landsättning (art. 33)
-```
+1. Ensamkommande barn ([art. 25](articles/ammr-025.md))
+2. Familjemedlem lagligen bosatt ([art. 26](articles/ammr-026.md))
+3. Familjemedlem med pågående ansökan ([art. 27](articles/ammr-027.md))
+4. Familjeförfarande ([art. 28](articles/ammr-028.md))
+5. Uppehållshandling eller visering ([art. 29](articles/ammr-029.md))
+6. Examensbevis eller kvalifikation ([art. 30](articles/ammr-030.md))
+7. Inresa efter upphävt viseringskrav ([art. 31](articles/ammr-031.md))
+8. Ansökan i transitzon på flygplats ([art. 32](articles/ammr-032.md))
+9. Irreguljär inresa / landsättning ([art. 33](articles/ammr-033.md))
 
 Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först registrerades.
 

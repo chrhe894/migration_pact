@@ -32,7 +32,7 @@ Den behöriga myndigheten genom att bedöma behovet av tolktjänster och anlita 
 
 ## Rättslig grund
 
-APR artikel 8.3
+[APR artikel 8](../articles/apr-008.md) (punkt 3)
 
 ---
 

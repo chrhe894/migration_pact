@@ -23,7 +23,7 @@ Obligation
 
 Medlemsstaten ska ta biometriska uppgifter för varje person som ansöker om internationellt skydd och som är sex år eller äldre. Uppgifterna ska överföras till Eurodac tillsammans med övriga uppgifter enligt artikel 17.1.
 
-För ansökningar som registreras enligt APR artikel 27 ska överföringen ske så snart som möjligt och senast 72 timmar från registreringen.
+För ansökningar som registreras enligt [APR artikel 27](../../registration/articles/apr-027.md) ska överföringen ske så snart som möjligt och senast 72 timmar från registreringen.
 
 ---
 

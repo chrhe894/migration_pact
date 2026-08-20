@@ -34,7 +34,7 @@ Personen själv genom att lämna in en ny ansökan efter ett slutligt beslut ([P
 
 ## Rättslig grund
 
-APR artikel 55
+[APR artikel 55](../articles/apr-055.md)
 
 ---
 

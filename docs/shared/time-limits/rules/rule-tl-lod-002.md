@@ -8,7 +8,7 @@ tags:
 
 ## Rättslig grund
 
-APR artikel 28.5
+[APR artikel 28.5](../../../domains/registration/articles/apr-028.md)
 
 ---
 

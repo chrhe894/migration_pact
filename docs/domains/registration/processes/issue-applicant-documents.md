@@ -18,7 +18,7 @@ En ansökan om internationellt skydd har registrerats eller lämnats in.
 
 ## Resultat
 
-Sökanden har tillhandahållits de handlingar som krävs enligt APR artikel 29.
+Sökanden har tillhandahållits de handlingar som krävs enligt [APR artikel 29](../articles/apr-029.md).
 
 ---
 
@@ -32,19 +32,19 @@ Källa: [`issue-applicant-documents.pu`](../diagrams/issue-applicant-documents.p
 
 ## Alternativt flöde — direkt utfärdande
 
-Om sökandehandlingen kan utfärdas direkt vid registreringen ska registreringshandlingen inte utfärdas (APR artikel 29.2, se [RULE-APR-029-001](../rules/rule-apr-029-001.md)).
+Om sökandehandlingen kan utfärdas direkt vid registreringen ska registreringshandlingen inte utfärdas ([APR artikel 29.2](../articles/apr-029.md), se [RULE-APR-029-001](../rules/rule-apr-029-001.md)).
 
 ---
 
 ## Alternativt flöde — förvar eller fängelsestraff
 
-Om sökanden är i förvar eller avtjänar fängelsestraff behöver handlingarna inte utfärdas. När sökanden friges ska handlingen tillhandahållas (APR artikel 29.5, se [RULE-APR-029-001](../rules/rule-apr-029-001.md)).
+Om sökanden är i förvar eller avtjänar fängelsestraff behöver handlingarna inte utfärdas. När sökanden friges ska handlingen tillhandahållas ([APR artikel 29.5](../articles/apr-029.md), se [RULE-APR-029-001](../rules/rule-apr-029-001.md)).
 
 ---
 
 ## Alternativt flöde — medföljande barn
 
-För medföljande barn kan handlingar som utfärdas till förälder eller ansvarig vuxen i tillämpliga fall även omfatta barnet (APR artikel 29.6).
+För medföljande barn kan handlingar som utfärdas till förälder eller ansvarig vuxen i tillämpliga fall även omfatta barnet ([APR artikel 29.6](../articles/apr-029.md)).
 
 ---
 

@@ -34,7 +34,7 @@ Den bestämmande medlemsstaten genom att skicka en formell framställan till den
 
 ## Rättslig grund
 
-AMMR artikel 39
+[AMMR artikel 39](../articles/ammr-039.md)
 
 ---
 

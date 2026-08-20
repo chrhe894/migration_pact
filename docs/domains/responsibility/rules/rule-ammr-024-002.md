@@ -41,13 +41,13 @@ Ansvarsförfarandet inleds och registreringstidpunkten behöver fastställas som
 
 - Omständigheterna vid registreringstidpunkten är avgörande.
 - Förändringar efter registrering påverkar normalt inte ansvarsbestämningen.
-- Registreringsdatumet kopplas till APR artikel 27.
+- Registreringsdatumet kopplas till [APR artikel 27](../../registration/articles/apr-027.md).
 
 ---
 
 ## Kommentar
 
-Tidpunkten kopplas till registreringen enligt APR artikel 27 — inte till inresa, ansökan görs eller inlämnande. Detta innebär att förhållanden som ändras efter registreringen normalt inte påverkar ansvarsbestämningen.
+Tidpunkten kopplas till registreringen enligt [APR artikel 27](../../registration/articles/apr-027.md) — inte till inresa, ansökan görs eller inlämnande. Detta innebär att förhållanden som ändras efter registreringen normalt inte påverkar ansvarsbestämningen.
 
 ---
 
