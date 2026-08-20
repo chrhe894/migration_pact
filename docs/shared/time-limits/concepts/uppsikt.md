@@ -98,22 +98,6 @@ Den svenska implementeringen (prop. 2025/26:265) går längre och definierar spe
 
 ---
 
-## Modellering i kunskapsbasen
-
-Uppsikt ska **inte** modelleras som en enda Rule Card. Korrekt struktur:
-
-| Aspekt | Modell |
-|--------|--------|
-| Villkor för att besluta om uppsikt | Regel (RULE-*) |
-| Innehåll i uppsikten (skyldigheter) | Regel (RULE-*) |
-| Längsta tillåtna uppsiktstid | Regel (RULE-*) med tidsfrist |
-| Tidsfrist för omprövning | Regel (RULE-*) med tidsfrist |
-| Materiellt upphörande | Regel (RULE-*) |
-
-Varje aspekt kan ha egna krav (REQ-*) kopplade till sig.
-
----
-
 ## Öppen fråga
 
 Exakt vilken EU-artikel som specificerar "uppsiktstidfrister" i kontexten av migrationspakten behöver verifieras. Möjliga tolkningar:
@@ -123,6 +107,8 @@ Exakt vilken EU-artikel som specificerar "uppsiktstidfrister" i kontexten av mig
 - Retention of documents (tid för kvarhållning av ID-handlingar)
 
 Om en specifik EU-formulering identifieras bör den länkas hit.
+
+Notera att uppsikt spänner över flera rättsliga aspekter (villkor, innehåll, tidslängd, omprövning, upphörande) som vardera motiverar egna regelkort — det handlar inte om en enda tidsfrist.
 
 ---
 
