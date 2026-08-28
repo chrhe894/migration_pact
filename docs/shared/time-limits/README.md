@@ -133,6 +133,13 @@ Grundregler:
 
 ---
 
+## Koncept
+
+- [Frysning och förlängning av tidsfrister](concepts/frysning-och-forlangning.md) — När tidsfrister kan pausas (suspensiv verkan) respektive förlängas (massinflöde, komplexitet, kris, avvikande)
+- [Uppsikt](concepts/uppsikt.md) — Tidsdimensioner kopplade till uppsiktsbeslut
+
+---
+
 ## Används av
 
 - [PROC-REG-001 Registrering av en ansökan](../../domains/registration/processes/registration-of-an-application.md)
