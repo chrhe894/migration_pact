@@ -1,0 +1,101 @@
+' ============================================================================
+' Diagram: Omfördelningsflöde (helhet)
+'
+' Syfte: Visualiserar hela omfördelningskedjan från identifiering till
+'        ansvarsövergång och registrering i mottagande stat.
+'
+' Källa: AMMR artiklarna 57, 63, 67, 68; Eurodac artikel 19; APR artiklarna 43, 52
+'
+' Relaterade regler:
+'   RULE-AMMR-067-001, RULE-AMMR-063-001, RULE-EUR-019-001
+'
+' Status: Draft
+' ============================================================================
+
+@startuml relocation-flow
+
+title Omfördelningsflöde: från identifiering till ansvarsövergång
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Migrationstryck konstateras;
+
+:[[../rules/rule-ammr-057-001.md Solidaritetspoolen aktiveras]];
+note right
+  [[../articles/ammr-057.md ART-AMMR-057]]
+end note
+
+partition "Förfarande inför omfördelning (art. 67)" {
+  :Förmånsstaten identifierar\nsökande för omfördelning;
+  :[[../rules/rule-ammr-067-001.md Omfördelningsmedlemsstaten meddelas]];
+  note right
+    [[../rules/rule-ammr-067-001.md RULE-AMMR-067-001]]
+    ([[../articles/ammr-067.md ART-AMMR-067]])
+  end note
+
+  if (Säkerhetsskäl att vägra?) then (Ja)
+    :Omfördelning avvisas\nför denna person;
+    :[[../rules/rule-ammr-063-001.md Ansvarskompensation aktiveras]];
+    note right
+      [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
+      ([[../articles/ammr-063.md ART-AMMR-063]])
+    end note
+    stop
+  else (Nej)
+    :Mottagarstaten bekräftar\nmottagande;
+    :Överföring inom **4 veckor**;
+    note right
+      Tidsfrist: se
+      [[../../../shared/time-limits/README.md shared/time-limits]]
+    end note
+  endif
+}
+
+partition "Förfarande efter omfördelning (art. 68)" {
+  :Mottagande stat blir\nansvarig stat;
+  note right
+    [[../articles/ammr-068.md ART-AMMR-068]]
+    Skydd mot vidareförflyttning:
+    omfördelningsstaten ansvarar
+    även vid efterföljande ansökan
+  end note
+
+  :[[../../eurodac/rules/rule-eur-019-001.md Biometri registreras i Eurodac]];
+  note right
+    [[../../eurodac/rules/rule-eur-019-001.md RULE-EUR-019-001]]
+    (Eurodac art. 19)
+  end note
+
+  :[[../../registration/README.md Registrering i mottagande stat]];
+}
+
+if (Hänvisas till gränsförfarande?) then (Ja)
+  :[[../../border-procedure/articles/apr-043.md Gränsförfarande i mottagarstaten]];
+  note right
+    [[../../border-procedure/articles/apr-043.md APR art. 43.1 d]]
+    [[../../border-procedure/articles/apr-052.md APR art. 52]]
+  end note
+else (Nej)
+  :Ordinarie prövning;
+endif
+
+:Ansvar övergått;
+
+stop
+
+@enduml

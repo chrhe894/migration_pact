@@ -64,7 +64,7 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 | Tidsfrist | Källa | Kommentar |
 |-----------|-------|-----------|
-| **Överföring** — 4 veckor | [AMMR art. 67](../../responsibility/articles/ammr-067.md) | Från bekräftelse till faktisk överföring |
+| **Överföring** — 4 veckor | [AMMR art. 67](../articles/ammr-067.md) | Från bekräftelse till faktisk överföring |
 
 ### Koppling till statistik
 

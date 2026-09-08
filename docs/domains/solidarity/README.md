@@ -105,6 +105,7 @@ Ansvar övergår till mottagande stat (art. 68)
 | Fil | Frågeställning |
 |-----|----------------|
 | [solidarity-types](interpretations/solidarity-types.md) | Vilka typer av solidaritetsbidrag finns och hur förhåller de sig till varandra? |
+| [relocation-flow](interpretations/relocation-flow.md) | Hur ser hela omfördelningsflödet ut från identifiering till ansvarsövergång? |
 
 ---
 
