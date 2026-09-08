@@ -64,6 +64,7 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 | 6 månader — verkställande av överföring | AMMR art. 46 | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
 | 18 månader — vid avvikande | AMMR art. 46 | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
 | 4 veckor — överföring vid förvar | AMMR art. 46 | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
+| 3 veckor — svar på begäran om informationsutbyte | AMMR art. 51.5 | [RULE-AMMR-051-001](../../domains/responsibility/rules/rule-ammr-051-001.md) |
 
 ### Ansvarsbedömning vid förvar
 

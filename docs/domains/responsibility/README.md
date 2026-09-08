@@ -216,6 +216,29 @@ Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först re
 |-------|-------------|
 | [RULE-AMMR-046-001](rules/rule-ammr-046-001.md) | Tidsfrist för överföring (6 mån / 18 mån / 4 veckor) |
 
+### AMMR artikel 51 — Utbyte av uppgifter (administrativt samarbete)
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-051-001](rules/rule-ammr-051-001.md) | Svarsfrist vid begäran om informationsutbyte (3 veckor) |
+
+---
+
+## Överföringskostnader och administrativt samarbete (art. 47–55)
+
+Stödbestämmelser i kapitel V–VII som omger ansvars- och överföringsförfarandet. Ingen av dessa har en egen numerisk tidsfrist (art. 55 påverkar uttryckligen inte förordningens frister).
+
+| Artikel | Rubrik |
+|---------|--------|
+| [AMMR artikel 47](articles/ammr-047.md) | Kostnader för överföring |
+| [AMMR artikel 48](articles/ammr-048.md) | Utbyte av relevant information innan en överföring |
+| [AMMR artikel 49](articles/ammr-049.md) | Utbyte av säkerhetsrelevant information innan en överföring |
+| [AMMR artikel 50](articles/ammr-050.md) | Utbyte av hälsouppgifter innan en överföring |
+| [AMMR artikel 52](articles/ammr-052.md) | Behöriga myndigheter och resurser |
+| [AMMR artikel 53](articles/ammr-053.md) | Administrativa överenskommelser |
+| [AMMR artikel 54](articles/ammr-054.md) | Nätverk av ansvariga enheter |
+| [AMMR artikel 55](articles/ammr-055.md) | Förlikning |
+
 ---
 
 ## Tolkningar
@@ -223,6 +246,7 @@ Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först re
 | Fil | Frågeställning |
 |-----|----------------|
 | [first-registration-as-reference-point](interpretations/first-registration-as-reference-point.md) | Vilken tidpunkt är avgörande — registrering eller inresa? |
+| [ammr-article-coverage](interpretations/ammr-article-coverage.md) | Vilka AMMR-artiklar är dokumenterade, och varför är vissa medvetet utelämnade? |
 
 ---
 

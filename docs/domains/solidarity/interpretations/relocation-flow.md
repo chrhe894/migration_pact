@@ -26,7 +26,7 @@ Källa: [`relocation-flow.pu`](../diagrams/relocation-flow.pu)
 
 Den utsatta staten (förmånsstaten) identifierar sökande som kan omfördelas och meddelar den bidragande staten (omfördelningsmedlemsstaten). Mottagarstaten ska bekräfta mottagande. **Överföringen ska ske inom fyra veckor efter bekräftelsen** ([RULE-AMMR-067-001](../rules/rule-ammr-067-001.md)).
 
-Fyraveckorsfristen är den enda tidsfristen i själva omfördelningsförfarandet och listas i [shared/time-limits](../../shared/time-limits/README.md).
+Fyraveckorsfristen är den enda tidsfristen i själva omfördelningsförfarandet och listas i [shared/time-limits](../../../shared/time-limits/README.md).
 
 ### Säkerhetsundantag
 
@@ -67,7 +67,7 @@ Systemet är designat så att ingen stat kan undvika solidaritet helt. Frågan o
 | Begrepp | [CON-SOL-002 Omfördelning](../concepts/relocation.md) |
 | Process (helhet) | [PROC-SOL-001 Omfördelning](../processes/relocation.md) |
 | Förfarande inför | [art. 67](../articles/ammr-067.md) / [RULE-AMMR-067-001](../rules/rule-ammr-067-001.md) |
-| Tidsfrist (4 veckor) | [shared/time-limits](../../shared/time-limits/README.md) |
+| Tidsfrist (4 veckor) | [shared/time-limits](../../../shared/time-limits/README.md) |
 | Förfarande efter / ansvarsövergång | [art. 68](../articles/ammr-068.md) |
 | Biometri i mottagande stat | [RULE-EUR-019-001](../../eurodac/rules/rule-eur-019-001.md) |
 | Gränsförfarande efter omfördelning | [APR art. 43](../../border-procedure/articles/apr-043.md), [APR art. 52](../../border-procedure/articles/apr-052.md) |

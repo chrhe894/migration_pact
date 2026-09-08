@@ -38,9 +38,9 @@ När en person överklagar ett beslut och beviljas **suspensiv verkan** pausas d
 
 | Frist som fryses | Rättslig grund | Regel |
 |------------------|----------------|-------|
-| 5-veckorsfristen för överföring vid förvar | [AMMR art. 45.3 b](../../domains/responsibility/articles/ammr-045.md) | [RULE-AMMR-045-002](../../domains/responsibility/rules/rule-ammr-045-002.md) |
-| 6-månadersfristen för överföring (normalt förfarande) | [AMMR art. 46](../../domains/responsibility/articles/ammr-046.md) | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
-| 12-veckorsfristen för återvändande vid gräns | [Return art. 5](../../domains/return-border-procedure/articles/ret-005.md) | [REQ-RET-005-004](../../domains/return-border-procedure/requirements/req-ret-005-004.md) |
+| 5-veckorsfristen för överföring vid förvar | [AMMR art. 45.3 b](../../../domains/responsibility/articles/ammr-045.md) | [RULE-AMMR-045-002](../../../domains/responsibility/rules/rule-ammr-045-002.md) |
+| 6-månadersfristen för överföring (normalt förfarande) | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) | [RULE-AMMR-046-001](../../../domains/responsibility/rules/rule-ammr-046-001.md) |
+| 12-veckorsfristen för återvändande vid gräns | [Return art. 5](../../../domains/return-border-procedure/articles/return-005.md) | [REQ-RET-005-004](../../../domains/return-border-procedure/requirements/req-ret-005-004.md) |
 
 ### Princip
 
@@ -64,8 +64,8 @@ Utan frysningsmekanism skulle beviljad suspensiv verkan i praktiken kunna leda t
 
 | Frist | Ordinarie | Förlängd | Rättslig grund | Regel |
 |-------|-----------|----------|----------------|-------|
-| Registrering av ansökan | 5 dagar | 15 dagar | [APR art. 27.5](../../domains/registration/articles/apr-027.md) | [RULE-TL-REG-002](../rules/rule-tl-reg-002.md) |
-| Inlämnande av ansökan | 21 dagar | 2 månader | [APR art. 28.5](../../domains/registration/articles/apr-028.md) | [RULE-TL-LOD-002](../rules/rule-tl-lod-002.md) |
+| Registrering av ansökan | 5 dagar | 15 dagar | [APR art. 27.5](../../../domains/registration/articles/apr-027.md) | [RULE-TL-REG-002](../rules/rule-tl-reg-002.md) |
+| Inlämnande av ansökan | 21 dagar | 2 månader | [APR art. 28.5](../../../domains/registration/articles/apr-028.md) | [RULE-TL-LOD-002](../rules/rule-tl-lod-002.md) |
 
 **Utlösare:** Ett oproportionellt stort antal ansökningar görs inom samma tidsperiod och det blir omöjligt att hålla ordinarie frister.
 
@@ -73,7 +73,7 @@ Utan frysningsmekanism skulle beviljad suspensiv verkan i praktiken kunna leda t
 
 | Frist | Ordinarie | Förlängd | Rättslig grund | Regel |
 |-------|-----------|----------|----------------|-------|
-| Prövning i sak | 6 månader | 15 månader | [APR art. 35](../../domains/asylum-procedure/articles/apr-035.md) | [RULE-APR-035-002](../../domains/asylum-procedure/rules/rule-apr-035-002.md) |
+| Prövning i sak | 6 månader | 15 månader | [APR art. 35](../../../domains/asylum-procedure/articles/apr-035.md) | [RULE-APR-035-002](../../../domains/asylum-procedure/rules/rule-apr-035-002.md) |
 
 **Utlösare:** Den beslutande myndigheten bedömer att ärendet innefattar komplexa sak- eller rättsfrågor som kräver längre utredningstid. Förlängningen ska vara motiverad.
 
@@ -81,11 +81,11 @@ Utan frysningsmekanism skulle beviljad suspensiv verkan i praktiken kunna leda t
 
 | Frist | Ordinarie | Vid kris | Rättslig grund | Regel |
 |-------|-----------|----------|----------------|-------|
-| Registrering | 5/15 dagar | 4 veckor | [Kris art. 10](../../domains/crisis/articles/crisis-010.md) | [RULE-CRI-010-001](../../domains/crisis/rules/rule-cri-010-001.md) |
-| Gränsförfarande varaktighet | 12 veckor | 18 veckor | [Kris art. 11](../../domains/crisis/articles/crisis-011.md) | [RULE-CRI-011-001](../../domains/crisis/rules/rule-cri-011-001.md) |
-| Framställan om övertagande | 2 månader | 4 månader | [Kris art. 12](../../domains/crisis/articles/crisis-012.md) | [RULE-CRI-012-001](../../domains/crisis/rules/rule-cri-012-001.md) |
-| Svar på framställan | 1 månad | 2 månader | [Kris art. 12](../../domains/crisis/articles/crisis-012.md) | [RULE-CRI-012-001](../../domains/crisis/rules/rule-cri-012-001.md) |
-| Överföring | 6 månader | 1 år | [Kris art. 12](../../domains/crisis/articles/crisis-012.md) | [RULE-CRI-012-001](../../domains/crisis/rules/rule-cri-012-001.md) |
+| Registrering | 5/15 dagar | 4 veckor | [Kris art. 10](../../../domains/crisis/articles/crisis-010.md) | [RULE-CRI-010-001](../../../domains/crisis/rules/rule-cri-010-001.md) |
+| Gränsförfarande varaktighet | 12 veckor | 18 veckor | [Kris art. 11](../../../domains/crisis/articles/crisis-011.md) | [RULE-CRI-011-001](../../../domains/crisis/rules/rule-cri-011-001.md) |
+| Framställan om övertagande | 2 månader | 4 månader | [Kris art. 12](../../../domains/crisis/articles/crisis-012.md) | [RULE-CRI-012-001](../../../domains/crisis/rules/rule-cri-012-001.md) |
+| Svar på framställan | 1 månad | 2 månader | [Kris art. 12](../../../domains/crisis/articles/crisis-012.md) | [RULE-CRI-012-001](../../../domains/crisis/rules/rule-cri-012-001.md) |
+| Överföring | 6 månader | 1 år | [Kris art. 12](../../../domains/crisis/articles/crisis-012.md) | [RULE-CRI-012-001](../../../domains/crisis/rules/rule-cri-012-001.md) |
 
 **Utlösare:** Rådet fastställer att en kris- eller force majeure-situation föreligger i en medlemsstat.
 
@@ -93,7 +93,7 @@ Utan frysningsmekanism skulle beviljad suspensiv verkan i praktiken kunna leda t
 
 | Frist | Ordinarie | Vid avvikande | Rättslig grund | Regel |
 |-------|-----------|---------------|----------------|-------|
-| Överföring | 6 månader | 18 månader | [AMMR art. 46](../../domains/responsibility/articles/ammr-046.md) | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
+| Överföring | 6 månader | 18 månader | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) | [RULE-AMMR-046-001](../../../domains/responsibility/rules/rule-ammr-046-001.md) |
 
 **Utlösare:** Personen avviker (absconds) och är inte tillgänglig för överföring.
 
@@ -121,10 +121,10 @@ Tidsfristerna kan **aldrig** förlängas obegränsat. Varje förlängningsgrund 
 
 - [Tidsfrister — översikt](../README.md)
 - [Uppsikt](uppsikt.md) — Tidsfrister kopplade till uppsikt
-- [RULE-AMMR-045-002](../../domains/responsibility/rules/rule-ammr-045-002.md) — Suspensiv verkan fryser 5-veckorsfristen
-- [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) — Överföringsfrist 6 månader / 18 månader
-- [RULE-APR-035-002](../../domains/asylum-procedure/rules/rule-apr-035-002.md) — Förlängning vid komplexitet
-- [RULE-CRI-012-001](../../domains/crisis/rules/rule-cri-012-001.md) — Förlängda frister vid kris
+- [RULE-AMMR-045-002](../../../domains/responsibility/rules/rule-ammr-045-002.md) — Suspensiv verkan fryser 5-veckorsfristen
+- [RULE-AMMR-046-001](../../../domains/responsibility/rules/rule-ammr-046-001.md) — Överföringsfrist 6 månader / 18 månader
+- [RULE-APR-035-002](../../../domains/asylum-procedure/rules/rule-apr-035-002.md) — Förlängning vid komplexitet
+- [RULE-CRI-012-001](../../../domains/crisis/rules/rule-cri-012-001.md) — Förlängda frister vid kris
 
 ---
 

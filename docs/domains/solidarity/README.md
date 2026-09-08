@@ -22,6 +22,7 @@ Solidaritetsmekanismen syftar till att fördela ansvaret rättvist mellan medlem
 
 ## Primära rättskällor
 
+- [AMMR artikel 56](articles/ammr-056.md) — Den årliga solidaritetspoolen
 - [AMMR artikel 57](articles/ammr-057.md) — Rådets genomförandeakt om solidaritetspoolen
 - [AMMR artikel 63](articles/ammr-063.md) — Ansvarskompensationer
 - [AMMR artikel 64](articles/ammr-064.md) — Ekonomiska bidrag

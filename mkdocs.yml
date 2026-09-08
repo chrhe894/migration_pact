@@ -236,6 +236,15 @@ nav:
         - AMMR artikel 44: domains/responsibility/articles/ammr-044.md
         - AMMR artikel 45: domains/responsibility/articles/ammr-045.md
         - AMMR artikel 46: domains/responsibility/articles/ammr-046.md
+        - AMMR artikel 47: domains/responsibility/articles/ammr-047.md
+        - AMMR artikel 48: domains/responsibility/articles/ammr-048.md
+        - AMMR artikel 49: domains/responsibility/articles/ammr-049.md
+        - AMMR artikel 50: domains/responsibility/articles/ammr-050.md
+        - AMMR artikel 51: domains/responsibility/articles/ammr-051.md
+        - AMMR artikel 52: domains/responsibility/articles/ammr-052.md
+        - AMMR artikel 53: domains/responsibility/articles/ammr-053.md
+        - AMMR artikel 54: domains/responsibility/articles/ammr-054.md
+        - AMMR artikel 55: domains/responsibility/articles/ammr-055.md
       - Processer:
         - Bestäm ansvarig medlemsstat: domains/responsibility/processes/determine-responsible-member-state.md
       - Begrepp:
@@ -272,8 +281,10 @@ nav:
         - RULE-AMMR-045-001: domains/responsibility/rules/rule-ammr-045-001.md
         - RULE-AMMR-045-002: domains/responsibility/rules/rule-ammr-045-002.md
         - RULE-AMMR-046-001: domains/responsibility/rules/rule-ammr-046-001.md
+        - RULE-AMMR-051-001: domains/responsibility/rules/rule-ammr-051-001.md
       - Tolkningar:
         - Första registrering som referenspunkt: domains/responsibility/interpretations/first-registration-as-reference-point.md
+        - AMMR-artiklarnas täckning: domains/responsibility/interpretations/ammr-article-coverage.md
       - Öppna frågor:
         - Upphörande av ansvar: domains/responsibility/open_questions/cessation-of-responsibility.md
         - Inget kriterium matchar: domains/responsibility/open_questions/no-criteria-match.md
@@ -385,6 +396,7 @@ nav:
     - Solidaritet:
       - domains/solidarity/README.md
       - Artiklar:
+        - AMMR artikel 56: domains/solidarity/articles/ammr-056.md
         - AMMR artikel 57: domains/solidarity/articles/ammr-057.md
         - AMMR artikel 58: domains/solidarity/articles/ammr-058.md
         - AMMR artikel 59: domains/solidarity/articles/ammr-059.md

@@ -51,6 +51,15 @@
 - [x] AMMR artikel 44 — Förvar inför överföring
 - [x] AMMR artikel 45 — Tidsfrister för sökande i förvar (suspensiv verkan)
 - [x] AMMR artikel 46 — Överföring
+- [x] AMMR artikel 47 — Kostnader för överföring
+- [x] AMMR artikel 48 — Utbyte av relevant information innan en överföring
+- [x] AMMR artikel 49 — Utbyte av säkerhetsrelevant information innan en överföring
+- [x] AMMR artikel 50 — Utbyte av hälsouppgifter innan en överföring
+- [x] AMMR artikel 51 — Utbyte av uppgifter (administrativt samarbete)
+- [x] AMMR artikel 52 — Behöriga myndigheter och resurser
+- [x] AMMR artikel 53 — Administrativa överenskommelser
+- [x] AMMR artikel 54 — Nätverk av ansvariga enheter
+- [x] AMMR artikel 55 — Förlikning
 
 ---
 

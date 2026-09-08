@@ -21,6 +21,7 @@
 
 ## Artiklar
 
+- [x] AMMR artikel 56 — Den årliga solidaritetspoolen
 - [x] AMMR artikel 57 — Solidaritetspoolen
 - [x] AMMR artikel 58 — Information om migrationstryck
 - [x] AMMR artikel 59 — Meddelande om behov
