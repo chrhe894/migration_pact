@@ -1,6 +1,6 @@
 ---
 tags:
-  - omplacering
+  - omfördelning
   - solidaritet
   - process
 ---
@@ -8,7 +8,7 @@ tags:
 
 # PROC-SOL-001
 
-# Omplacering
+# Omfördelning
 
 ## Trigger
 
@@ -46,7 +46,7 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 - Migration pressure established
 - Solidarity pool activated
-- Omplacering bekräftad
+- Omfördelning bekräftad
 - Transfer completed
 - Responsibility transferred
 
@@ -70,7 +70,7 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 | Datapunkt | Betydelse | Källa |
 |-----------|-----------|-------|
-| Antal omplacerade | Volymuppföljning av solidaritetsmekanism | Nationell statistik |
+| Antal omfördelade | Volymuppföljning av solidaritetsmekanism | Nationell statistik |
 | Bidragsandel per stat | Uppföljning mot referensnyckel | EU-rapporter |
 | Genomsnittlig överföringstid | Tidseffektivitet mot 4-veckorskravet | Nationell statistik |
 

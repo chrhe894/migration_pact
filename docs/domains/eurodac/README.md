@@ -29,7 +29,7 @@ Eurodac är ett informationssystem för jämförelse av biometriska uppgifter oc
 - [Eurodac artikel 15](articles/eur-015.md) — Insamling och överföring för asylsökande
 - [Eurodac artikel 17](articles/eur-017.md) — Registrering av uppgifter
 - [Eurodac artikel 18](articles/eur-018.md) — Sök- och räddningsinsatser
-- [Eurodac artikel 19](articles/eur-019.md) — Omplacerade personer
+- [Eurodac artikel 19](articles/eur-019.md) — Omfördelade personer
 - [Eurodac artikel 20](articles/eur-020.md) — Vidarebosatta personer
 - [Eurodac artikel 21](articles/eur-021.md) — Irreguljär gränspassage
 - [Eurodac artikel 22](articles/eur-022.md) — Återkallat uppehållstillstånd
@@ -122,11 +122,11 @@ Uppgifter lagras enligt tillämplig kategori
 |-------|-------------|
 | [RULE-EUR-018-001](rules/rule-eur-018-001.md) | Tidsfrist för biometrisk insamling vid landsättning (72 timmar) |
 
-### Eurodac artikel 19 — Omplacerade personer
+### Eurodac artikel 19 — Omfördelade personer
 
 | Regel | Beskrivning |
 |-------|-------------|
-| [RULE-EUR-019-001](rules/rule-eur-019-001.md) | Biometrisk registrering vid omplacering |
+| [RULE-EUR-019-001](rules/rule-eur-019-001.md) | Biometrisk registrering vid omfördelning |
 
 ### Eurodac artikel 20 — Vidarebosatta eller mottagna personer
 

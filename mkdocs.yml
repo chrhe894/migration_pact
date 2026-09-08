@@ -399,10 +399,10 @@ nav:
         - AMMR artikel 68: domains/solidarity/articles/ammr-068.md
         - AMMR artikel 69: domains/solidarity/articles/ammr-069.md
       - Processer:
-        - Omplacering: domains/solidarity/processes/relocation.md
+        - Omfördelning: domains/solidarity/processes/relocation.md
       - Begrepp:
         - Solidaritetspool: domains/solidarity/concepts/solidarity-pool.md
-        - Omplacering: domains/solidarity/concepts/relocation.md
+        - Omfördelning: domains/solidarity/concepts/relocation.md
         - Ansvarsavräkning: domains/solidarity/concepts/responsibility-offset.md
         - Referensnyckel: domains/solidarity/concepts/reference-key.md
       - Regler:
@@ -412,8 +412,9 @@ nav:
         - RULE-AMMR-067-001: domains/solidarity/rules/rule-ammr-067-001.md
       - Tolkningar:
         - Solidaritetstyper: domains/solidarity/interpretations/solidarity-types.md
+        - Omfördelningsflöde: domains/solidarity/interpretations/relocation-flow.md
       - Öppna frågor:
-        - Vägran att omplacera: domains/solidarity/open_questions/refusal-to-relocate.md
+        - Vägran att omfördela: domains/solidarity/open_questions/refusal-to-relocate.md
       - Capabilities:
         - Översikt: domains/solidarity/capabilities/README.md
         - CAP-SOL-001 Solidarity Pool: domains/solidarity/capabilities/cap-sol-001.md

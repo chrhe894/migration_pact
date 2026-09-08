@@ -1,7 +1,6 @@
 ---
 tags:
   - solidaritet
-  - omplacering
   - omfördelning
   - tolkning
 ---
@@ -65,8 +64,8 @@ Systemet är designat så att ingen stat kan undvika solidaritet helt. Frågan o
 
 | Steg / aspekt | Artefakt |
 |---------------|----------|
-| Begrepp | [CON-SOL-002 Omplacering](../concepts/relocation.md) |
-| Process (helhet) | [PROC-SOL-001 Omplacering](../processes/relocation.md) |
+| Begrepp | [CON-SOL-002 Omfördelning](../concepts/relocation.md) |
+| Process (helhet) | [PROC-SOL-001 Omfördelning](../processes/relocation.md) |
 | Förfarande inför | [art. 67](../articles/ammr-067.md) / [RULE-AMMR-067-001](../rules/rule-ammr-067-001.md) |
 | Tidsfrist (4 veckor) | [shared/time-limits](../../shared/time-limits/README.md) |
 | Förfarande efter / ansvarsövergång | [art. 68](../articles/ammr-068.md) |

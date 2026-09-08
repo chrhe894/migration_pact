@@ -13,7 +13,7 @@
 ## Begrepp
 
 - [x] Solidarity pool — CON-SOL-001
-- [x] Omplacering — CON-SOL-002
+- [x] Omfördelning — CON-SOL-002
 - [x] Responsibility offset — CON-SOL-003
 - [x] Reference key — CON-SOL-004
 
@@ -48,13 +48,13 @@
 
 ## Processer
 
-- [x] PROC-SOL-001 — Omplacering
+- [x] PROC-SOL-001 — Omfördelning
 
 ---
 
 ## Diagram
 
-- [x] Omplacering
+- [x] Omfördelning
 
 ---
 

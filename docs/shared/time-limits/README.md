@@ -149,6 +149,6 @@ Grundregler:
 - [PROC-ASY-001 Pröva en ansökan](../../domains/asylum-procedure/processes/examine-an-application.md)
 - [PROC-BRD-001 Asylgränsförfarande](../../domains/border-procedure/processes/asylum-border-procedure.md)
 - [PROC-RES-001 Fastställ ansvarig medlemsstat](../../domains/responsibility/processes/determine-responsible-member-state.md)
-- [PROC-SOL-001 Omplacering](../../domains/solidarity/processes/relocation.md)
+- [PROC-SOL-001 Omfördelning](../../domains/solidarity/processes/relocation.md)
 - [PROC-RET-001 Återvändande vid gräns](../../domains/return-border-procedure/processes/return-border-procedure.md)
 - [PROC-CRI-001 Aktivera krisåtgärder](../../domains/crisis/processes/activate-crisis-measures.md)

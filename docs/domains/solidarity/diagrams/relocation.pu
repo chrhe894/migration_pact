@@ -1,5 +1,5 @@
 ' ============================================================================
-' Diagram: Omplacering
+' Diagram: Omfördelning
 '
 ' Syfte: Visualiserar omfördelningsförfarandet.
 '
@@ -14,7 +14,7 @@
 
 @startuml relocation
 
-title Omplacering
+title Omfördelning
 
 skinparam shadowing false
 skinparam HyperlinkColor Black

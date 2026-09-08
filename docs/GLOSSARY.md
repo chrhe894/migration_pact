@@ -35,7 +35,7 @@ Alfabetisk lista över centrala begrepp i kunskapsbasen.
 | Registration | Registrering | Formell dokumentation av att ansökan gjorts | [CON-REG-003](domains/registration/concepts/registration.md) |
 | Registration authority | Registreringsmyndighet | Myndighet behörig att registrera ansökningar | [CON-REG-004](domains/registration/concepts/registration-authority.md) |
 | Registration certificate | Registreringshandling | Tillfällig handling vid registrering | [CON-REG-006](domains/registration/concepts/registration-certificate.md) |
-| Omplacering | Omfördelning | Omfördelning av sökande mellan stater | [CON-SOL-002](domains/solidarity/concepts/relocation.md) |
+| Relocation | Omfördelning (äv. omplacering) | Omfördelning av sökande mellan stater | [CON-SOL-002](domains/solidarity/concepts/relocation.md) |
 | Responsible Member State | Ansvarig medlemsstat | Den stat som ska pröva ansökan | [CON-RES-001](domains/responsibility/concepts/responsible-member-state.md) |
 | Responsibility offset | Ansvarskompensation | Ansvarskompensation vid utebliven omfördelning | [CON-SOL-003](domains/solidarity/concepts/responsibility-offset.md) |
 | Återvändande vid gräns | Återvändandegränsförfarande | Återvändande efter avslag vid gräns | [CON-RET-001](domains/return-border-procedure/concepts/return-border-procedure-concept.md) |

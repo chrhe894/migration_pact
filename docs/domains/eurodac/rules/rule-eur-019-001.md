@@ -21,26 +21,26 @@ Obligation
 
 ## Regel
 
-Medlemsstaterna ska ta biometriska uppgifter av varje person som fyllt sex år och som omplaceras enligt AMMR:s solidaritetsmekanism. Mottagande medlemsstat ska överföra uppgifterna till centralsystemet.
+Medlemsstaterna ska ta biometriska uppgifter av varje person som fyllt sex år och som omfördelas enligt AMMR:s solidaritetsmekanism. Mottagande medlemsstat ska överföra uppgifterna till centralsystemet.
 
 ---
 
 ## Syfte
 
-Säkerställer spårbarhet vid omplacering genom att den mottagande medlemsstaten registrerar biometriska uppgifter i Eurodac.
+Säkerställer spårbarhet vid omfördelning genom att den mottagande medlemsstaten registrerar biometriska uppgifter i Eurodac.
 
 ---
 
 ## Utlösare
 
-En person omplaceras till en mottagande medlemsstat inom ramen för solidaritetsmekanismen.
+En person omfördelas till en mottagande medlemsstat inom ramen för solidaritetsmekanismen.
 
 ---
 
 ## Rättsverkan
 
 - Biometriska uppgifter ska tas av mottagande medlemsstat.
-- Uppgifterna ska överföras till centralsystemet snarast efter omplacering.
+- Uppgifterna ska överföras till centralsystemet snarast efter omfördelning.
 - Datasetet ska innehålla uppgift om ursprungs- och mottagande medlemsstat.
 
 ---

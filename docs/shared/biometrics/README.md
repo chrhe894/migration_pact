@@ -51,7 +51,7 @@ Biometriska uppgifter ska tas för följande kategorier (från 6 års ålder):
 |----------|---------|-----------|
 | Asylsökande | Eurodac art. 15 | 72 timmar |
 | Sök- och räddning | Eurodac art. 18 | 72 timmar |
-| Omplacerade | Eurodac art. 19 | Snarast efter omplacering |
+| Omfördelade | Eurodac art. 19 | Snarast efter omfördelning |
 | Vidarebosatta | Eurodac art. 20 | 72 timmar |
 | Irreguljär gränspassage | Eurodac art. 21 | 72 timmar |
 | Återkallat uppehållstillstånd | Eurodac art. 22 | Tillämplig tidsfrist |

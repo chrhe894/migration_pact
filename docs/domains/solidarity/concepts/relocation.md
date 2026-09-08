@@ -1,6 +1,6 @@
 ---
 tags:
-  - omplacering
+  - omfördelning
   - solidaritet
   - koncept
 ---
@@ -10,7 +10,7 @@ tags:
 
 ## Begrepp
 
-Omplacering
+Omfördelning
 
 ---
 
@@ -49,4 +49,4 @@ Solidaritetsmekanismen genom att en bidragande medlemsstat accepterar omfördeln
 
 - [ART-AMMR-067](../articles/ammr-067.md)
 - [ART-AMMR-068](../articles/ammr-068.md)
-- [PROC-SOL-001 Omplacering](../processes/relocation.md)
+- [PROC-SOL-001 Omfördelning](../processes/relocation.md)

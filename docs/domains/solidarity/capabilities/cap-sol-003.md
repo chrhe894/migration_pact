@@ -28,7 +28,7 @@ Apply Responsibility Offset
 
 ## Stöds av
 
-- [PROC-SOL-001 Omplacering](../processes/relocation.md)
+- [PROC-SOL-001 Omfördelning](../processes/relocation.md)
 
 ---
 

@@ -8,7 +8,7 @@
 - [x] Artiklarna 13–17 — Skyldigheter, underåriga, asylsökande, tidsfrister, registrering
 - [x] Artikel 23 — Personer som vistas olagligt
 - [x] Artikel 29 — Lagring av uppgifter
-- [x] Artiklarna 18–22 — Övriga personkategorier (SAR, omplacering, vidarebosättning, irreguljär gränspassage, återkallat tillstånd)
+- [x] Artiklarna 18–22 — Övriga personkategorier (SAR, omfördelning, vidarebosättning, irreguljär gränspassage, återkallat tillstånd)
 - [x] Artiklarna 24–26 — Märkning, avmärkning, statusuppgifter
 - [x] Artikel 30 — Radering i förtid
 - [x] Artiklarna 31–35 — Jämförelse, brottsbekämpande åtkomst, Europol, kommunikation, loggning

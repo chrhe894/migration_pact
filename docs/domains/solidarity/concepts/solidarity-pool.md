@@ -40,7 +40,7 @@ Rådet genom antagande av en årlig genomförandeakt baserad på kommissionens f
 
 ## Relaterade begrepp
 
-- [CON-SOL-002 Omplacering](relocation.md)
+- [CON-SOL-002 Omfördelning](relocation.md)
 - [CON-SOL-003 Responsibility offset](responsibility-offset.md)
 - [CON-SOL-004 Reference key](reference-key.md)
 
@@ -49,4 +49,4 @@ Rådet genom antagande av en årlig genomförandeakt baserad på kommissionens f
 ## Används i
 
 - [ART-AMMR-057](../articles/ammr-057.md)
-- [PROC-SOL-001 Omplacering](../processes/relocation.md)
+- [PROC-SOL-001 Omfördelning](../processes/relocation.md)

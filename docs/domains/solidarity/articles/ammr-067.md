@@ -34,7 +34,7 @@ Omfördelning kan inte ske om det finns rimliga skäl att anta att personen utg�
 
 ## Härledda begrepp
 
-- [CON-SOL-002 Omplacering](../concepts/relocation.md)
+- [CON-SOL-002 Omfördelning](../concepts/relocation.md)
 
 ---
 
@@ -46,7 +46,7 @@ Omfördelning kan inte ske om det finns rimliga skäl att anta att personen utg�
 
 ## Processer
 
-- [PROC-SOL-001 Omplacering](../processes/relocation.md)
+- [PROC-SOL-001 Omfördelning](../processes/relocation.md)
 
 ---
 

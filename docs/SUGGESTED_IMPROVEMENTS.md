@@ -18,7 +18,7 @@ Konkreta tillämpningsexempel som demonstrerar kunskapsbasens användning i verk
 | Scenario | Domäner | Poäng |
 |----------|---------|-------|
 | **Ceuta 2026 — massankomst** | Screening → Registration → Gränsförfarande → Kris | Visar krismekanismen, kapacitetstak, förlängda tidsfrister |
-| **Omfördelning från Grekland** | Ansvar → Solidaritet → Registration (mottagande stat) | Visar hela solidaritetsflödet från tryck till genomförd omplacering |
+| **Omfördelning från Grekland** | Ansvar → Solidaritet → Registration (mottagande stat) | Visar hela solidaritetsflödet från tryck till genomförd omfördelning |
 | **Efterföljande ansökan i Sverige** | Registration → Asylförfarande (efterföljande) | Visar upptagandeprövning, nya omständigheter, tidsfrister |
 | **Instrumentalisering vid östgräns** | Screening → Kris → Gränsförfarande | Krisförklaring, undantag, säkerhetskontroll |
 | **Familj med barn vid gräns** | Screening → Registration → Ansvar (art. 25–28) | Barn-garantier, familjeförfarande, ensamkommande |
