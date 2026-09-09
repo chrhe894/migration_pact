@@ -117,7 +117,7 @@ Se även:
 | [Sårbara personer](shared/vulnerable-persons/README.md) | Sårbara personer |
 | [Biometri](shared/biometrics/) | Biometriska uppgifter |
 | [Säkerhetskontroller](shared/security-checks/) | Säkerhetskontroller |
-| [Intervjuer](shared/interviews/README.md) | Personliga intervjuer |
+| [Personliga intervjuer](shared/interviews/README.md) | Personliga intervjuer och övriga intervjuer |
 | [Statistik](shared/statistics/README.md) | Datapunkter och beräkningar |
 
 ---

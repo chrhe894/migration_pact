@@ -1,0 +1,62 @@
+' ============================================================================
+' Diagram: Personliga intervjuer som gemensam förmåga
+'
+' Syfte: Visar den personliga intervjun som en delad förmåga som återanvänds
+'        av flera förfaranden, med gemensamma krav, inspelning och de olika
+'        intervjutypernas syfte.
+'
+' Källa: APR artiklarna 8, 11, 12, 13, 14 samt art. 38 (upptagandeintervju)
+'
+' Status: Draft
+' ============================================================================
+
+@startuml personal-interview-capability
+
+title Personliga intervjuer som gemensam förmåga
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam rectangle {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+rectangle "Förfaranden som anropar förmågan" as procs {
+  card "[[../../../domains/responsibility/processes/determine-responsible-member-state.md Fastställ ansvarig stat]]" as p1
+  card "[[../../../domains/asylum-procedure/processes/examine-an-application.md Pröva en ansökan]]" as p2
+  card "[[../../../domains/border-procedure/processes/asylum-border-procedure.md Asylgränsförfarande]]" as p3
+}
+
+rectangle "**Personlig intervju** (gemensam förmåga)" as cap #EAF3EA {
+  card "[[../../../domains/asylum-procedure/articles/apr-011.md Ansvarsintervju]]\n(art. 11)" as t1
+  card "[[../../../domains/asylum-procedure/articles/apr-012.md Sakintervju]]\n(art. 12)" as t2
+  card "[[../../../domains/asylum-procedure/articles/apr-038.md Upptagandeintervju]]\n(art. 38)" as t3
+}
+
+rectangle "Gemensamma krav" as reqs {
+  card "[[../../../domains/asylum-procedure/articles/apr-013.md Kvalitetskrav]]\n(art. 13)" as r1
+  card "[[../../../domains/asylum-procedure/articles/apr-014.md Rapportering och\ninspelning (art. 14)]]" as r2
+  card "[[../../interpreters/README.md Tolk vid behov]]\n(art. 8.3, 13.3)" as r3
+}
+
+p1 --> t1
+p2 --> t2
+p2 --> t3
+p3 --> t2
+p3 --> t3
+
+cap --> reqs
+
+note bottom of reqs
+  **Inspelning:** varje personlig intervju ska
+  dokumenteras i rapport eller genom
+  ljud-/videoinspelning (art. 14) och ingå i akten.
+end note
+
+@enduml

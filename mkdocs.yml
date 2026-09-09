@@ -519,7 +519,7 @@ nav:
     - Säkerhetskontroller: shared/security-checks/README.md
     - Barn: shared/children/README.md
     - Sårbara personer: shared/vulnerable-persons/README.md
-    - Intervjuer: shared/interviews/README.md
+    - Personliga intervjuer: shared/interviews/README.md
     - Statistik: shared/statistics/README.md
   - Scenarier: scenarios/README.md
   - Projekt:
