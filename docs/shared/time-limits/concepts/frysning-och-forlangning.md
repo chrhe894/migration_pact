@@ -99,6 +99,40 @@ Utan frysningsmekanism skulle beviljad suspensiv verkan i praktiken kunna leda t
 
 ---
 
+## Samlad kravtabell per domän
+
+Tabellen samlar frysnings- och förlängningsfristerna, vilken process fristen hamnar i, och länkar till domänens krav (REQ) där sådana finns.
+
+Kolumnerna **Startar i** och **Stoppar i** anger den **rättsliga** start- respektive stopphändelsen enligt förordningen (den händelse då klockan börjar respektive slutar löpa). Utrymmet efter "→" är avsett för att fylla i **var i era interna processlistor** händelsen inträffar.
+
+### Frysning (suspensiv verkan)
+
+Vid beviljad suspensiv verkan pausas fristen; den återupptas när den suspensiva verkan upphör (se avsnitt 1).
+
+| Domän | Frist | Mekanism | Process | Krav (REQ) | Startar i (rättslig händelse → internt steg) | Stoppar i (rättslig händelse → internt steg) |
+|-------|-------|----------|---------|------------|-----------|-----------|
+| Ansvar | 5 v — överföring vid förvar (art. 45.3 b) | Frysning | [PROC-RES-001](../../../domains/responsibility/processes/determine-responsible-member-state.md) | [REQ-AMMR-045-005](../../../domains/responsibility/requirements/req-ammr-045-005.md) | Godtagande/bekräftelse, eller dagen suspensiv verkan upphör → _(fyll i)_ | Överföringen verkställs → _(fyll i)_ |
+| Ansvar | 6 mån — överföring (art. 46) | Frysning | [PROC-RES-001](../../../domains/responsibility/processes/determine-responsible-member-state.md) | [REQ-AMMR-046-001](../../../domains/responsibility/requirements/req-ammr-046-001.md) | Godtagande/bekräftelse, eller dagen rättsmedlet upphör ha suspensiv verkan → _(fyll i)_ | Överföringen verkställs → _(fyll i)_ |
+| Återvändande vid gräns | 12 v — återvändandeförfarande (Return art. 5) | Frysning | [PROC-RET-001](../../../domains/return-border-procedure/processes/return-border-procedure.md) | [REQ-RET-005-004](../../../domains/return-border-procedure/requirements/req-ret-005-004.md) | Återvändandeförfarandet inleds (efter avslag i gränsförfarande) → _(fyll i)_ | Återvändandet verkställs, eller 12 v löper ut (inresa tillåts) → _(fyll i)_ |
+
+### Förlängning
+
+| Domän | Frist | Mekanism | Process | Krav (REQ) | Startar i (rättslig händelse → internt steg) | Stoppar i (rättslig händelse → internt steg) |
+|-------|-------|----------|---------|------------|-----------|-----------|
+| Registrering | 5 → 15 dagar vid massinflöde (art. 27.5) | Förlängning | [PROC-REG-001](../../../domains/registration/processes/registration-of-an-application.md) | [REQ-APR-027-005](../../../domains/registration/requirements/req-apr-027-005.md) | Ansökan görs (application made) → _(fyll i)_ | Ansökan registreras → _(fyll i)_ |
+| Registrering | 21 dagar → 2 mån vid massinflöde (art. 28.5) | Förlängning | [PROC-REG-002](../../../domains/registration/processes/lodging-an-application.md) | [REQ-APR-028-005](../../../domains/registration/requirements/req-apr-028-005.md) | Ansökan registreras → _(fyll i)_ | Bokad tid för inlämnande ges / ansökan lämnas in → _(fyll i)_ |
+| Asylförfarande | 6 → 15 mån vid komplexitet (art. 35) | Förlängning | [PROC-ASY-001](../../../domains/asylum-procedure/processes/examine-an-application.md) | [REQ-APR-035-002](../../../domains/asylum-procedure/requirements/req-apr-035-002.md) | Ansökan lämnas in (lodging) → _(fyll i)_ | Beslut i sak fattas → _(fyll i)_ |
+| Ansvar | 6 → 18 mån vid avvikande (art. 46) | Förlängning | [PROC-RES-001](../../../domains/responsibility/processes/determine-responsible-member-state.md) | [REQ-AMMR-046-002](../../../domains/responsibility/requirements/req-ammr-046-002.md) | Godtagande/bekräftelse → _(fyll i)_ | Överföringen verkställs, eller 18 mån löper ut (ansvar övergår) → _(fyll i)_ |
+| Kris | Registrering → 4 v (kris art. 10) | Förlängning | [PROC-CRI-001](../../../domains/crisis/processes/activate-crisis-measures.md) | [REQ-CRI-010-001](../../../domains/crisis/requirements/req-cri-010-001.md) | Ansökan görs (application made) → _(fyll i)_ | Ansökan registreras → _(fyll i)_ |
+| Kris | Gränsförfarande → 18 v (kris art. 11) | Förlängning | [PROC-CRI-001](../../../domains/crisis/processes/activate-crisis-measures.md) | [REQ-CRI-011-002](../../../domains/crisis/requirements/req-cri-011-002.md) | Gränsförfarandet inleds → _(fyll i)_ | Gränsförfarandet avslutas, eller 18 v löper ut → _(fyll i)_ |
+| Kris | Framställan → 4 mån (kris art. 12) | Förlängning | [PROC-CRI-001](../../../domains/crisis/processes/activate-crisis-measures.md) | [REQ-CRI-012-001](../../../domains/crisis/requirements/req-cri-012-001.md) | Ansökan registreras → _(fyll i)_ | Framställan om övertagande skickas → _(fyll i)_ |
+| Kris | Svar → 2 mån (kris art. 12) | Förlängning | [PROC-CRI-001](../../../domains/crisis/processes/activate-crisis-measures.md) | [REQ-CRI-012-002](../../../domains/crisis/requirements/req-cri-012-002.md) | Framställan tas emot → _(fyll i)_ | Svar lämnas (eller tyst godkännande inträder) → _(fyll i)_ |
+| Kris | Överföring → 1 år (kris art. 12) | Förlängning | [PROC-CRI-001](../../../domains/crisis/processes/activate-crisis-measures.md) | [REQ-CRI-012-003](../../../domains/crisis/requirements/req-cri-012-003.md) | Godtagande/bekräftelse → _(fyll i)_ | Överföringen verkställs → _(fyll i)_ |
+
+> **Om kolumnerna:** Den rättsliga händelsen är hämtad från förordningen (artiklarna/reglerna som länkas i tabellen). Texten efter "→ _(fyll i)_" är avsedd att ersättas med motsvarande steg i era interna processlistor. Notera att kris-fristerna (art. 10–12) har **samma** start-/stopphändelser som sina ordinarie motsvarigheter — det är bara det maximala fristmåttet som förlängs.
+
+---
+
 ## Avgränsning: frysning vs. förlängning
 
 | | Frysning | Förlängning |
