@@ -131,6 +131,8 @@ Kris-fristerna (art. 10–12) har samma start- och stopphändelser som sina ordi
 | Kris | Svar → 2 mån (kris art. 12) | Förlängning | [PROC-CRI-001](../../../domains/crisis/processes/activate-crisis-measures.md) | [REQ-CRI-012-002](../../../domains/crisis/requirements/req-cri-012-002.md) | Framställan tas emot | Svar lämnas (eller tyst godkännande inträder) |
 | Kris | Överföring → 1 år (kris art. 12) | Förlängning | [PROC-CRI-001](../../../domains/crisis/processes/activate-crisis-measures.md) | [REQ-CRI-012-003](../../../domains/crisis/requirements/req-cri-012-003.md) | Godtagande/bekräftelse | Överföringen verkställs |
 
+> **Efterföljande ansökningar:** [PROC-ASY-002](../../../domains/asylum-procedure/processes/subsequent-application.md) har inga *egna* förlängda tidsfrister — förhandsprövningen (art. 55) saknar explicit frist, och en upptagen efterföljande ansökan prövas enligt *samma* frister som en ordinarie ansökan. Komplexitetsförlängningen (6 → 15 mån, art. 35) i tabellen ovan gäller därför även efterföljande ansökningar.
+
 ---
 
 ## Avgränsning: frysning vs. förlängning
