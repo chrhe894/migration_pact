@@ -1,0 +1,81 @@
+@startuml
+title Automatiserad bokning och hantering av intervju
+
+actor "Intervjuare" as Interviewer
+participant "Vår applikation\n(Orkestrator)" as App
+participant "Outlook /\nMicrosoft 365" as Outlook
+participant "Externt\npersonalsystem" as Staff
+participant "Zoom" as Zoom
+participant "Efterföljande\nsystem" as Downstream
+
+== Bokning ==
+
+Interviewer -> App : Begär intervju\nför individ / ärende
+
+App -> Outlook : Hämta tillgängliga\npersoner, lokaler & resurser
+Outlook --> App : Tillgänglighet
+
+App -> Staff : Kontrollera personal\n/ alternativa resurser
+Staff --> App : Tillgänglighet
+
+App -> App : Matcha krav\nmot tillgängliga resurser
+
+note right
+  Exempel på regler:
+  - obligatoriska personer
+  - alternativa personer
+  - lokal
+  - utrustning
+  - möteslängd
+  - tidigast möjliga tid
+  - övriga verksamhetsregler
+end note
+
+App -> Zoom : Skapa möte
+Zoom --> App : Meeting ID\nJoin URL + inställningar
+
+App -> Outlook : Skapa kalenderhändelse
+note right
+  Eventet kan innehålla:
+  - deltagare
+  - lokal
+  - tid
+  - Zoom-länk
+  - Meeting ID
+  - övrig information
+end note
+Outlook --> App : Bokning skapad
+
+App --> Interviewer : Intervju bokad
+
+== Intervju ==
+
+Interviewer -> Zoom : Startar / genomför intervju
+
+Zoom -> App : Möteshändelser
+note right
+  Exempel:
+  - mötet startar
+  - inspelning startar
+  - inspelning pausas
+  - inspelning återupptas
+  - mötet avslutas
+end note
+
+== Efterarbete ==
+
+Zoom -> App : Inspelning tillgänglig
+
+App -> Zoom : Hämta inspelningsinformation
+Zoom --> App : Inspelning / metadata
+
+App -> Zoom : Hämta rätt ljudfil
+Zoom --> App : Ljudfil
+
+App -> Downstream : Överför ljud / länk\n+ metadata
+
+Downstream --> App : Bekräftelse
+
+App --> Interviewer : Efterarbete klart
+
+@enduml

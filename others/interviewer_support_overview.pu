@@ -1,0 +1,54 @@
+@startuml
+title Automatiserad hantering av intervjuer
+
+skinparam componentStyle rectangle
+skinparam shadowing false
+
+actor "Intervjuare" as User
+
+rectangle "Vår applikation\n\nOrkestrator" as App {
+    rectangle "Bokning & matchning" as Booking
+    rectangle "Möteshantering" as Meeting
+    rectangle "Inspelnings- & efterarbete" as Post
+}
+
+rectangle "Outlook / Microsoft 365" as Outlook {
+    rectangle "Kalendrar" as Calendars
+    rectangle "Lokaler & resurser" as Resources
+}
+
+rectangle "Externt personalsystem" as Staff {
+    rectangle "Personal / tillgänglighet" as StaffData
+}
+
+rectangle "Zoom" as Zoom {
+    rectangle "Möten" as ZoomMeeting
+    rectangle "Inspelningar" as Recordings
+    rectangle "Händelser" as Events
+}
+
+rectangle "Efterföljande system" as Downstream {
+    rectangle "System C" as SystemC
+    rectangle "System D" as SystemD
+}
+
+User --> App : Bokningsförfrågan\nStarta / hantera intervju
+
+App --> Booking
+Booking --> Calendars : Söka tillgänglighet
+Booking --> Resources : Söka lokaler\n& utrustning
+Booking --> StaffData : Söka personal\n& alternativ personal
+
+Booking --> Meeting : Bästa tid\n& resurser
+
+Meeting --> Outlook : Skapa / uppdatera\nevent
+Meeting --> ZoomMeeting : Skapa / konfigurera\nmöte
+
+ZoomMeeting --> Events : Möteshändelser
+Events --> Post : Händelser om\nmöte / inspelning
+
+Post --> Recordings : Hämta rätt\ninspelning / ljud
+Post --> SystemC : Överföra ljud\n/ information
+SystemC --> SystemD : Vidare bearbetning
+
+@enduml
