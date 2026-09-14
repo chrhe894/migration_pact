@@ -1,5 +1,5 @@
 @startuml
-title Automatiserad bokning och hantering av intervju
+title Automatiserad bokning och hantering av familjens intervjuer
 
 actor "Intervjuare" as Interviewer
 participant "Vår applikation\n(Orkestrator)" as App
@@ -10,7 +10,7 @@ participant "Efterföljande\nsystem" as Downstream
 
 == Bokning ==
 
-Interviewer -> App : Begär intervju\nför individ / ärende
+Interviewer -> App : Starta bokning\nför familj / ärende
 
 App -> Outlook : Hämta tillgängliga\npersoner, lokaler & resurser
 Outlook --> App : Tillgänglighet
@@ -18,63 +18,91 @@ Outlook --> App : Tillgänglighet
 App -> Staff : Kontrollera personal\n/ alternativa resurser
 Staff --> App : Tillgänglighet
 
-App -> App : Matcha krav\nmot tillgängliga resurser
+App -> App : Beräkna bästa tider\nför samtliga intervjuer
 
 note right
-  Exempel på regler:
-  - obligatoriska personer
-  - alternativa personer
-  - lokal
-  - utrustning
-  - möteslängd
-  - tidigast möjliga tid
-  - övriga verksamhetsregler
+  Varje individ kan kräva
+  ett eget Zoom-möte.
+
+  Antalet möten kan därför
+  vara större än antalet
+  familjemedlemmar.
 end note
 
-App -> Zoom : Skapa möte
-Zoom --> App : Meeting ID\nJoin URL + inställningar
+loop För varje intervju / mötes-ID
+    App -> Zoom : Skapa Zoom-möte
+    Zoom --> App : Meeting ID + Join URL
 
-App -> Outlook : Skapa kalenderhändelse
-note right
-  Eventet kan innehålla:
-  - deltagare
-  - lokal
-  - tid
-  - Zoom-länk
-  - Meeting ID
-  - övrig information
+    App -> Outlook : Skapa kalenderhändelse
+    note right
+        Lägg till:
+        - rätt deltagare
+        - lokal
+        - tid
+        - Zoom-länk
+        - Meeting ID
+    end note
+
+    Outlook --> App : Kalenderhändelse skapad
+end
+
+App --> Interviewer : Samtliga intervjuer bokade
+
+== Intervjuer ==
+
+loop För varje intervju
+
+    Interviewer -> App : Starta / öppna nästa intervju
+
+    App -> App : Hämta rätt mötes-ID
+
+    App -> Zoom : Kontrollera / förbered möte
+    Zoom --> App : Mötesstatus
+
+    App --> Interviewer : Rätt möte redo
+
+    Interviewer -> Zoom : Genomför intervju
+
+end
+
+== Byte av mötes-ID ==
+
+note over App,Zoom
+  Om verksamhetsregler kräver att
+  ett nytt mötes-ID används kan
+  applikationen hantera detta
+  utan att intervjuaren behöver
+  administrera ID:n manuellt.
 end note
-Outlook --> App : Bokning skapad
 
-App --> Interviewer : Intervju bokad
+loop För varje intervju där nytt mötes-ID krävs
 
-== Intervju ==
+    App -> Zoom : Skapa nytt Zoom-möte
+    Zoom --> App : Nytt Meeting ID + Join URL
 
-Interviewer -> Zoom : Startar / genomför intervju
+    App -> Outlook : Uppdatera kalenderhändelse
+    Outlook --> App : Uppdaterad
 
-Zoom -> App : Möteshändelser
-note right
-  Exempel:
-  - mötet startar
-  - inspelning startar
-  - inspelning pausas
-  - inspelning återupptas
-  - mötet avslutas
-end note
+    App -> App : Koppla gammalt och\nnytt mötes-ID
+
+end
 
 == Efterarbete ==
 
-Zoom -> App : Inspelning tillgänglig
+loop För varje genomförd intervju
 
-App -> Zoom : Hämta inspelningsinformation
-Zoom --> App : Inspelning / metadata
+    Zoom -> App : recording.completed
 
-App -> Zoom : Hämta rätt ljudfil
-Zoom --> App : Ljudfil
+    App -> Zoom : Hämta inspelningsinformation
+    Zoom --> App : Inspelning + metadata
 
-App -> Downstream : Överför ljud / länk\n+ metadata
+    App -> Zoom : Hämta rätt ljudfil
+    Zoom --> App : Ljudfil
 
-Downstream --> App : Bekräftelse
+    App -> Downstream : Skicka ljud + metadata
+    Downstream --> App : Bekräftelse
+
+end
 
 App --> Interviewer : Efterarbete klart
 
