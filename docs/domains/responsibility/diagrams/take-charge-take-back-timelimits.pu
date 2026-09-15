@@ -7,6 +7,9 @@
 '
 ' Källa: AMMR artiklarna 39, 40, 41, 42, 43, 45, 46
 '
+' Not: Fristerna ligger i noderna (inte sidoställda notes) för att hålla
+'      diagrammet smalt och läsbart. UT = Sverige skickar, IN = tar emot.
+'
 ' Status: Draft
 ' ============================================================================
 
@@ -18,87 +21,31 @@ skinparam shadowing false
 skinparam HyperlinkColor Black
 skinparam HyperlinkUnderline true
 skinparam defaultFontName Arial
+skinparam maxMessageSize 200
 skinparam activity {
   BackgroundColor #F8F8F8
   BorderColor #333333
   DiamondBackgroundColor #FFFFFF
   DiamondBorderColor #333333
-}
-skinparam note {
-  BackgroundColor #FFF7D6
-  BorderColor #7A6A2A
+  FontSize 12
 }
 
-|#EAF3EA|UT — Sverige anmodande/aviserande stat|
 start
+
 :Ansökan registrerad i Sverige\n(fryspunkt för ansvar);
 
-if (Grund för ansvar?) then (Övertagande — art. 39)
-  :[[../articles/ammr-039.md Skicka framställan om övertagande]];
-  note right
-    **Frist (UT):**
-    2 mån från registrering
-    1 mån vid Eurodac-/VIS-träff
-    ([[../articles/ammr-039.md art. 39]])
-    Vid **förvar**: 2 v / 1 v
-    ([[../articles/ammr-045.md art. 45]])
-  end note
-else (Återtagande — art. 41)
-  :[[../articles/ammr-041.md Skicka avisering om återtagande]];
-  note right
-    **Frist (UT):**
-    Omedelbart, senast 2 v
-    efter Eurodac-träff
-    ([[../articles/ammr-041.md art. 41]])
-  end note
-endif
-
-|#F3EFE0|IN — mottagande stat|
-:Framställan/avisering tas emot;
-
-if (Typ?) then (Övertagande)
-  :[[../articles/ammr-040.md Svara på framställan]];
-  note right
-    **Frist (IN):**
-    1 mån normalt
-    2 v vid Eurodac-/VIS-träff
-    1 v vid **förvar** ([[../articles/ammr-045.md art. 45]])
-    ---
-    Uteblivet svar = **tyst godkännande**
-    ([[../articles/ammr-040.md art. 40]])
-  end note
+if (Grund?) then (Övertagande)
+  :**UT** Skicka framställan\n2 mån (1 mån Eurodac/VIS)\nförvar: 2 v / 1 v\n[[../articles/ammr-039.md art. 39]] · [[../articles/ammr-045.md 45]];
+  :**IN** Svara på framställan\n1 mån (2 v Eurodac/VIS)\nförvar: 1 v\nutebliven = tyst godkännande\n[[../articles/ammr-040.md art. 40]];
 else (Återtagande)
-  :[[../articles/ammr-041.md Bekräfta återtagande]];
-  note right
-    **Frist (IN):**
-    2 v att bekräfta eller
-    visa att man ej är ansvarig
-    ---
-    Uteblivet svar = **bekräftelse**
-    ([[../articles/ammr-041.md art. 41]])
-  end note
+  :**UT** Skicka avisering\nsenast 2 v efter Eurodac-träff\n[[../articles/ammr-041.md art. 41]];
+  :**IN** Bekräfta återtagande\n2 v (utebliven = bekräftelse)\n[[../articles/ammr-041.md art. 41]];
 endif
 
-|#EAF3EA|UT — Sverige anmodande/aviserande stat|
-:[[../articles/ammr-042.md Fatta och meddela överföringsbeslut]];
-note right
-  **Frist:** 2 v efter
-  godtagande/bekräftelse
-  ([[../articles/ammr-042.md art. 42]])
-end note
+:**UT** Överföringsbeslut\n2 v efter godtagande/bekräftelse\n[[../articles/ammr-042.md art. 42]];
 
-:Personen underrättas om\nrättsmedel;
-
-if (Överklagar personen?) then (Ja — art. 43)
-  :[[../articles/ammr-043.md Överklagande / omprövning]];
-  note right
-    **Rättsmedel ([[../articles/ammr-043.md art. 43]]):**
-    Nationell överklagandefrist
-    (2 v–1 mån; 7 dagar i snabbförfarande)
-    ---
-    Beviljad **suspensiv verkan**
-    fryser överföringsfristen
-  end note
+if (Överklagar?) then (Ja)
+  :Överklagande / omprövning\nnationell frist: 2 v–1 mån\n(7 dgr snabbförfarande)\n[[../articles/ammr-043.md art. 43]];
   if (Suspensiv verkan?) then (Ja)
     :Överföringsfristen **fryses**\ntills verkan upphör;
   else (Nej)
@@ -106,16 +53,7 @@ if (Överklagar personen?) then (Ja — art. 43)
 else (Nej)
 endif
 
-:[[../articles/ammr-046.md Verkställ överföring]];
-note right
-  **Frist ([[../articles/ammr-046.md art. 46]]):**
-  6 mån (normalt)
-  18 mån vid avvikande
-  4 v vid förvar / 5 v ([[../articles/ammr-045.md art. 45]])
-  ---
-  Missad frist = **ansvaret övergår**
-  till överförande stat
-end note
+:**UT** Verkställ överföring\n6 mån · 18 mån (avvikande)\n4 v förvar / 5 v (art. 45)\nmissad frist = ansvar övergår\n[[../articles/ammr-046.md art. 46]];
 
 stop
 
