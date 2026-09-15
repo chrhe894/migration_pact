@@ -247,6 +247,11 @@ Stödbestämmelser i kapitel V–VII som omger ansvars- och överföringsförfar
 |-----|----------------|
 | [first-registration-as-reference-point](interpretations/first-registration-as-reference-point.md) | Vilken tidpunkt är avgörande — registrering eller inresa? |
 | [ammr-article-coverage](interpretations/ammr-article-coverage.md) | Vilka AMMR-artiklar är dokumenterade, och varför är vissa medvetet utelämnade? |
+| [take-charge-take-back-timelimits](interpretations/take-charge-take-back-timelimits.md) | Samlad överblick: tidsfrister för övertagande/återtagande per riktning |
+| [take-charge-in](interpretations/take-charge-in.md) | Övertagande IN — frister när Sverige tar emot en framställan |
+| [take-charge-out](interpretations/take-charge-out.md) | Övertagande UT — frister när Sverige skickar en framställan |
+| [take-back-in](interpretations/take-back-in.md) | Återtagande IN — frister när Sverige tar emot en avisering |
+| [take-back-out](interpretations/take-back-out.md) | Återtagande UT — frister när Sverige skickar en avisering |
 
 ---
 

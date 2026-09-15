@@ -1,5 +1,5 @@
 @startuml
-title Automatiserad bokning och hantering av familjens intervjuer
+title Automatiserad hantering av familjens intervjuer
 
 actor "Intervjuare" as Interviewer
 participant "Vår applikation\n(Orkestrator)" as App
@@ -21,69 +21,53 @@ Staff --> App : Tillgänglighet
 App -> App : Beräkna bästa tider\nför samtliga intervjuer
 
 note right
-  Varje individ kan kräva
-  ett eget Zoom-möte.
+  Varje intervju kräver ett
+  eget Zoom-mötes-ID.
 
-  Antalet möten kan därför
-  vara större än antalet
-  familjemedlemmar.
+  Orkestratorn håller reda på
+  kopplingen mellan individ,
+  intervju, kalenderhändelse
+  och Zoom-möte.
 end note
 
-loop För varje intervju / mötes-ID
+loop För varje intervju
+
     App -> Zoom : Skapa Zoom-möte
     Zoom --> App : Meeting ID + Join URL
 
     App -> Outlook : Skapa kalenderhändelse
-    note right
-        Lägg till:
-        - rätt deltagare
-        - lokal
-        - tid
-        - Zoom-länk
-        - Meeting ID
-    end note
-
     Outlook --> App : Kalenderhändelse skapad
+
 end
 
-App --> Interviewer : Samtliga intervjuer bokade
+App --> Interviewer : Bokningen är klar
 
 == Intervjuer ==
 
 loop För varje intervju
 
-    Interviewer -> App : Starta / öppna nästa intervju
+    App -> Interviewer : Visa nästa individ,\ninfo och [Starta]
 
-    App -> App : Hämta rätt mötes-ID
+    Interviewer -> App : Starta intervju
 
-    App -> Zoom : Kontrollera / förbered möte
+    App -> Zoom : Starta / öppna aktuellt möte
     Zoom --> App : Mötesstatus
 
-    App --> Interviewer : Rätt möte redo
+    App --> Interviewer : Intervjun är aktiv
 
-    Interviewer -> Zoom : Genomför intervju
+    Interviewer -> App : [Stopp]
 
-end
+    App -> Zoom : Avsluta aktuellt möte
+    Zoom --> App : Mötet avslutat
 
-== Byte av mötes-ID ==
+    note right
+      Zoom avslutar mötesinstansen
+      och påbörjar uppladdning /
+      behandling av inspelningen.
 
-note over App,Zoom
-  Om verksamhetsregler kräver att
-  ett nytt mötes-ID används kan
-  applikationen hantera detta
-  utan att intervjuaren behöver
-  administrera ID:n manuellt.
-end note
-
-loop För varje intervju där nytt mötes-ID krävs
-
-    App -> Zoom : Skapa nytt Zoom-möte
-    Zoom --> App : Nytt Meeting ID + Join URL
-
-    App -> Outlook : Uppdatera kalenderhändelse
-    Outlook --> App : Uppdaterad
-
-    App -> App : Koppla gammalt och\nnytt mötes-ID
+      Nästa intervju använder
+      ett nytt Zoom Meeting ID.
+    end note
 
 end
 
