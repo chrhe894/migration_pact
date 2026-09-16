@@ -1,0 +1,69 @@
+' ============================================================================
+' ARBETSYTA (others/) — ej del av MkDocs-bygget
+'
+' Diagram: Fristtyper på övertagande/återtagande-tidsaxeln (AMMR/Ansvar)
+'
+' Syfte: Åskådliggöra VAR olika fristtyper lägger sig längs det
+'        mellanstatliga överföringsflödet (UT-perspektiv: Sverige överför).
+'
+' Källor att mappa mot lagdelarna senare:
+'   art. 39 (framställan), art. 40 (svar), 2025/2055 art. 9.2/15 (omprövning),
+'   art. 42 (beslut), art. 43 (rättsmedel), art. 45 (förvar), art. 46 (överföring)
+' ============================================================================
+
+@startuml overview-fristtyper
+
+title Fristtyper längs övertagande/återtagande (AMMR — UT-perspektiv)
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam ArrowColor #333333
+skinparam rectangle {
+  BorderColor #333333
+  FontSize 12
+}
+
+' Tidsaxelns hållpunkter (händelser)
+rectangle "Registrering\n(fryspunkt)" as R #F8F8F8
+rectangle "Framställan/\navisering skickad" as F #F8F8F8
+rectangle "ACCEPT\n(uttrycklig/tyst)" as A #EAF3EA
+rectangle "Överförings-\nbeslut" as B #F8F8F8
+rectangle "Överföring\nverkställd" as T #F8F8F8
+
+R -down-> F
+F -down-> A
+A -down-> B
+B -down-> T
+
+' Fristtyper som band under tidsaxeln (akronym leder varje band)
+rectangle "**TAB** — Ansökan till Begäran\nreg → framställan\n2 mån / 1 mån (Eurodac) · förvar 2 v / 1 v\nart. 39 / 45" as T1 #FFF7D6
+rectangle "**TBS** — Begäran till Svar\nframställan/avisering → svar\n1 mån / 2 v / 1 v (förvar)\nart. 40 / 41 / 45" as T2 #FFF7D6
+rectangle "**TNO** — Nekad begäran till Omprövning\nvid avslag/icke-bekräftelse\nbegär 3 v / 2 v · svar 2 v\ngenomf. 2025/2055 art. 9.2 / 15" as T3 #FFE0E0
+rectangle "**ATB** — Accept till Beslut\naccept → beslut\n2 veckor\nart. 42" as T4 #E0ECFF
+rectangle "**ATÖ** — Accept till Överföring\naccept → överföring verkställd\n6 mån / 18 mån (avvikande) / 4 v (förvar)\nmissad = ansvaret övergår · art. 46" as T5 #E0ECFF
+rectangle "**Frysning**\nsuspensiv verkan pausar **ATÖ**\nart. 43.3 → 46" as T6 #EDE0FF
+
+R .right.> T1
+F .right.> T2
+A .right.> T3 : (om nej vid svar)
+A .right.> T4
+A .right.> T5
+B .right.> T6 : (om överklagande)
+
+legend bottom
+  Akronymer (fristtyper)
+  ----
+  **TAB** Ansökan till Begäran
+  **TBS** Begäran till Svar
+  **TNO** Nekad begäran till Omprövning
+  **ATB** Accept till Beslut
+  **ATÖ** Accept till Överföring
+  ----
+  Färg:
+  |<#FFF7D6>     | frister mellan stater |
+  |<#FFE0E0>     | omprövning |
+  |<#E0ECFF>     | accept-startade |
+  |<#EDE0FF>     | frysning |
+endlegend
+
+@enduml

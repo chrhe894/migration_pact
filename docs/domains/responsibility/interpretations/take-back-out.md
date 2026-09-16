@@ -35,6 +35,17 @@ Se även den motsatta riktningen: [Återtagande IN](take-back-in.md) (Sverige ta
 
 Den mottagande staten ska svara inom 2 veckor; uteblivet svar = bekräftelse till Sveriges förmån.
 
+### 1b. Vid icke-bekräftelse — begär omprövning (genomförandeförordning 2025/2055 art. 15.3–15.4)
+
+Om den mottagande staten **inte bekräftar** aviseringen med hänvisning till att ansvaret upphört ([art. 37](../articles/ammr-037.md)) kan Sverige begära omprövning:
+
+| Åtgärd | Frist |
+|--------|-------|
+| Sverige begär omprövning (efter icke-bekräftelse) | **2 veckor** efter icke-bekräftelsen |
+| Underrättad stat bekräftar / vidmakthåller (bör sträva efter) | **2 veckor** |
+
+När 2-veckorsfristen löper ut avslutas omprövningen. Uteblivet svar = **inte** bekräftelse. Se [RULE-AMMR-IMPL-015-001](../rules/rule-ammr-impl-015-001.md).
+
 ### 2. Överföringsbeslut ([art. 42](../articles/ammr-042.md))
 
 Överföringsbeslutet ska fattas och meddelas personen senast **2 veckor** efter bekräftelse.
@@ -48,6 +59,8 @@ Den mottagande staten ska svara inom 2 veckor; uteblivet svar = bekräftelse til
 | Personen i förvar | **4 veckor** (art. 46) / 5 veckor ([art. 45](../articles/ammr-045.md)) |
 
 Missad överföringsfrist = **ansvaret övergår** till Sverige (den överförande staten).
+
+> Steg 2 och 3 är instanser av fristtypen [Accept till beslut (ATB)](../../../shared/time-limits/concepts/fristtyp-accept-till-beslut.md): båda startar vid accept (bekräftelse) — 2 v till beslut, 6 mån till verkställighet.
 
 ---
 
@@ -71,6 +84,7 @@ Se det samlade diagrammet i [Övertagande och återtagande — tidsfrister](take
 - [AMMR artikel 42](../articles/ammr-042.md) — Överföringsbeslut
 - [AMMR artikel 43](../articles/ammr-043.md) — Rättsmedel
 - [AMMR artikel 46](../articles/ammr-046.md) — Verkställande av överföring
+- [Genomförandeförordning (EU) 2025/2055](../../../references/legislation/ammr-implementing.md), art. 15.3–15.4 — Omprövning vid icke-bekräftelse ([RULE-AMMR-IMPL-015-001](../rules/rule-ammr-impl-015-001.md))
 
 ---
 

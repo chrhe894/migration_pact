@@ -4,6 +4,7 @@
 | -------------| --------------------------------------------| --------------------------------------------------|
 | APR         | Asylum Procedure Regulation                | registration, asylum-procedure, border-procedure |
 | AMMR        | Asylum and Migration Management Regulation | responsibility, solidarity                       |
+| AMMR-IMPL   | AMMR Implementing Regulation (EU) 2025/2055 | responsibility                                   |
 | Screening   | Screening Regulation                       | screening                                        |
 | Eurodac     | Eurodac Regulation                         | eurodac                                          |
 | Crisis      | Crisis and Force Majeure Regulation        | crisis                                           |

@@ -1,0 +1,46 @@
+' ============================================================================
+' ARBETSYTA (others/) — ej del av MkDocs-bygget
+'
+' Diagram: Fristtyp "Nekad begäran till omprövning" (mellanstatlig)
+'
+' Källor: genomförandeförordning (EU) 2025/2055
+'   art. 9.2  (övertagande: avslag → begär 3 v → svar 2 v)
+'   art. 15.3-15.4 (återtagande: icke-bekräftelse → begär 2 v → svar 2 v)
+' ============================================================================
+
+@startuml omprovning
+
+title Fristtyp: TNO — Nekad begäran till omprövning (mellanstatlig)
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+
+start
+
+if (Förfarande?) then (Övertagande)
+  :Anmodad stat **AVSLÅR**\nframställan (art. 40.8);
+  :Anmodande stat **begär omprövning**\ninom **3 veckor** från avslaget\n(2025/2055 art. 9.2);
+else (Återtagande)
+  :Mottagande stat lämnar\n**ICKE-BEKRÄFTELSE**\n(ansvaret sägs ha upphört, art. 37);
+  :Meddelande stat **begär omprövning**\ninom **2 veckor** efter icke-bekräftelsen\n(2025/2055 art. 15.3-15.4);
+endif
+
+:Motparten svarar\n(bör sträva efter) inom **2 veckor**;
+
+if (Svar inom 2 v?) then (Ja)
+  :Godta / vidmakthålla;
+else (Nej)
+  :Förfarandet **avslutas** ändå\nnär 2-veckorsfristen löper ut;
+endif
+
+:Uteblivet svar = **INTE** bekräftelse\n(till skillnad från grundförfarandets\ntysta godkännande);
+note right
+  Rent MELLANSTATLIG omprövning.
+  Ej att förväxla med individens
+  rättsmedel (AMMR art. 43).
+  Unik för ansvarsförfarandet.
+end note
+
+stop
+
+@enduml

@@ -39,6 +39,17 @@ Om Sverige inte skickar framställan inom fristen förblir **Sverige** ansvarigt
 
 Den anmodade staten svarar enligt [art. 40](../articles/ammr-040.md) (1 mån / 2 v vid träff). Uteblivet svar = tyst godkännande till Sveriges förmån.
 
+### 2b. Vid avslag — begär omprövning (genomförandeförordning 2025/2055 art. 9.2)
+
+Om den anmodade staten **avslår** framställan kan Sverige begära att den prövas på nytt:
+
+| Åtgärd | Frist |
+|--------|-------|
+| Sverige begär omprövning (efter avslag) | **3 veckor** från mottagandet av avslaget |
+| Anmodad stat svarar (bör sträva efter) | **2 veckor** |
+
+När 2-veckorsfristen löper ut avslutas omprövningen, oavsett om svar lämnats. Uteblivet svar = **inte** bekräftelse, och omprövningen förlänger inte art. 40-fristerna. Rent mellanstatligt förfarande — ej att förväxla med individens rättsmedel (art. 43). Se [RULE-AMMR-IMPL-009-001](../rules/rule-ammr-impl-009-001.md).
+
 ### 3. Fatta överföringsbeslut ([art. 42](../articles/ammr-042.md))
 
 Beslutet ska fattas och meddelas personen senast **2 veckor** efter godtagande/bekräftelse. Personen ska informeras om rättsmedel.
@@ -52,6 +63,8 @@ Beslutet ska fattas och meddelas personen senast **2 veckor** efter godtagande/b
 | Personen i förvar | **4 veckor** (art. 46) / 5 veckor ([art. 45](../articles/ammr-045.md)) |
 
 Missad överföringsfrist = **ansvaret övergår** till Sverige (den överförande staten).
+
+> Steg 3 och 4 är instanser av fristtypen [Accept till beslut (ATB)](../../../shared/time-limits/concepts/fristtyp-accept-till-beslut.md): båda startar vid accept (godtagande/bekräftelse) — 2 v till beslut, 6 mån till verkställighet.
 
 ---
 
@@ -76,6 +89,7 @@ Se det samlade diagrammet i [Övertagande och återtagande — tidsfrister](take
 - [AMMR artikel 43](../articles/ammr-043.md) — Rättsmedel
 - [AMMR artikel 45](../articles/ammr-045.md) — Förkortade frister vid förvar
 - [AMMR artikel 46](../articles/ammr-046.md) — Verkställande av överföring
+- [Genomförandeförordning (EU) 2025/2055](../../../references/legislation/ammr-implementing.md), art. 9.2 — Omprövning efter avslag ([RULE-AMMR-IMPL-009-001](../rules/rule-ammr-impl-009-001.md))
 
 ---
 

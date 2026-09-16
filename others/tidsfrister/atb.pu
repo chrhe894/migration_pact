@@ -1,0 +1,60 @@
+' ============================================================================
+' ARBETSYTA (others/) — ej del av MkDocs-bygget
+'
+' Diagram: Fristtyperna ATB (Accept till Beslut) och ATÖ (Accept till Överföring)
+'
+' Båda startar vid accept men har olika slutpunkt och rättsföljd.
+'
+' Källor: art. 42 (ATB, beslut, 2 v), art. 46 (ATÖ, överföring, 6 mån),
+'         art. 43.3 (suspensiv verkan fryser ATÖ), art. 45 (förvar)
+' ============================================================================
+
+@startuml atb
+
+title Fristtyper: ATB (Accept till Beslut) och ATÖ (Accept till Överföring)
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+
+start
+:**ACCEPT**\ngodtagande (övertagande)\neller bekräftelse (återtagande)\n— uttrycklig ELLER tyst;
+note right
+  Gemensam startpunkt för
+  både ATB och ATÖ.
+  Gäller UT-riktningen
+  (den överförande staten).
+end note
+
+fork
+  :**ATB** — Accept till Beslut\n2 veckor · art. 42;
+  :Överföringsbeslut meddelas;
+  note right
+    Missad ATB = beslutet
+    är försenat, men
+    förfarandet fortsätter.
+  end note
+fork again
+  :**ATÖ** — Accept till Överföring\n6 månader · art. 46;
+  if (Överklagande med\nsuspensiv verkan?) then (Ja)
+    :ATÖ **fryses**\ntills verkan upphör\n(art. 43.3);
+    :Räknas om från dagen\nverkan upphör;
+  else (Nej / avvikande / förvar)
+    :6 mån · 18 mån (avvikande)\n· 4 v (förvar);
+  endif
+  :Överföring verkställd;
+  note right
+    Missad ATÖ =
+    **ansvaret övergår**
+    till överförande stat.
+  end note
+end fork
+
+floating note
+  Gäller UT-riktningen (övertagande UT + återtagande UT).
+  ATÖ har även en instans i ansvarskompensation (lagrum att verifiera).
+  ATB är en delsträcka inom ATÖ:s längre fönster.
+end note
+
+stop
+
+@enduml

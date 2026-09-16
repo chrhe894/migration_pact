@@ -37,9 +37,17 @@ start
 if (Grund?) then (Övertagande)
   :**UT** Skicka framställan\n2 mån (1 mån Eurodac/VIS)\nförvar: 2 v / 1 v\n[[../articles/ammr-039.md art. 39]] · [[../articles/ammr-045.md 45]];
   :**IN** Svara på framställan\n1 mån (2 v Eurodac/VIS)\nförvar: 1 v\nutebliven = tyst godkännande\n[[../articles/ammr-040.md art. 40]];
+  if (Avslag?) then (Ja)
+    :**UT** Begär omprövning\ninom 3 v · svar inom 2 v\n(genomf. 2025/2055 art. 9.2);
+  else (Nej)
+  endif
 else (Återtagande)
   :**UT** Skicka avisering\nsenast 2 v efter Eurodac-träff\n[[../articles/ammr-041.md art. 41]];
   :**IN** Bekräfta återtagande\n2 v (utebliven = bekräftelse)\n[[../articles/ammr-041.md art. 41]];
+  if (Icke-bekräftad?) then (Ja)
+    :**UT** Begär omprövning\ninom 2 v · svar inom 2 v\n(genomf. 2025/2055 art. 15);
+  else (Nej)
+  endif
 endif
 
 :**UT** Överföringsbeslut\n2 v efter godtagande/bekräftelse\n[[../articles/ammr-042.md art. 42]];

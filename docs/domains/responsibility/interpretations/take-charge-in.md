@@ -36,6 +36,10 @@ Se även den motsatta riktningen: [Övertagande UT](take-charge-out.md) (Sverige
 
 Om Sverige inte svarar med underbyggda skäl inom fristen anses framställan **godtagen** — Sverige blir skyldigt att överta personen ([RULE-AMMR-040-001](../rules/rule-ammr-040-001.md)). Passivitet räknas alltså som ja. För att undgå ansvar måste Sverige aktivt invända med motiverade skäl.
 
+### Om Sverige avslår — omprövningsbegäran kan komma tillbaka (genomförandeförordning 2025/2055 art. 9.2)
+
+Om Sverige avslår framställan kan den anmodande staten begära **omprövning** inom 3 veckor. Sverige ska då sträva efter att svara **inom 2 veckor**. När fristen löper ut avslutas omprövningen — och uteblivet svar från Sverige räknas **inte** som bekräftelse. Se [RULE-AMMR-IMPL-009-001](../rules/rule-ammr-impl-009-001.md).
+
 ---
 
 ## Efter godtagande
@@ -55,6 +59,7 @@ Se det samlade diagrammet i [Övertagande och återtagande — tidsfrister](take
 - [AMMR artikel 40](../articles/ammr-040.md) — Svar på framställan
 - [AMMR artikel 45](../articles/ammr-045.md) — Förkortade frister vid förvar
 - [RULE-AMMR-040-001](../rules/rule-ammr-040-001.md) — Svarsfrist och tyst godkännande
+- [Genomförandeförordning (EU) 2025/2055](../../../references/legislation/ammr-implementing.md), art. 9.2 — Omprövning efter avslag ([RULE-AMMR-IMPL-009-001](../rules/rule-ammr-impl-009-001.md))
 
 ---
 

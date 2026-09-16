@@ -222,6 +222,13 @@ Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först re
 |-------|-------------|
 | [RULE-AMMR-051-001](rules/rule-ammr-051-001.md) | Svarsfrist vid begäran om informationsutbyte (3 veckor) |
 
+### Omprövning mellan medlemsstater (genomförandeförordning 2025/2055)
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-AMMR-IMPL-009-001](rules/rule-ammr-impl-009-001.md) | Omprövning efter avslag på framställan om övertagande (3 v / 2 v) |
+| [RULE-AMMR-IMPL-015-001](rules/rule-ammr-impl-015-001.md) | Omprövning efter icke-bekräftad avisering om återtagande (2 v / 2 v) |
+
 ---
 
 ## Överföringskostnader och administrativt samarbete (art. 47–55)

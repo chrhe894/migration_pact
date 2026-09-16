@@ -137,6 +137,7 @@ Grundregler:
 ## Koncept
 
 - [Frysning och förlängning av tidsfrister](concepts/frysning-och-forlangning.md) — När tidsfrister kan pausas (suspensiv verkan) respektive förlängas (massinflöde, komplexitet, kris, avvikande)
+- [Fristtyp: Accept till beslut (ATB)](concepts/fristtyp-accept-till-beslut.md) — Återanvändbar fristtyp som startar vid accept (uttrycklig/tyst) och löper till beslut resp. verkställighet
 - [Uppsikt](concepts/uppsikt.md) — Tidsdimensioner kopplade till uppsiktsbeslut
 
 ---

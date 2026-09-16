@@ -35,6 +35,10 @@ Se även den motsatta riktningen: [Återtagande UT](take-back-out.md) (Sverige s
 
 Om Sverige inte svarar inom två veckor anses aviseringen **bekräftad** ([RULE-AMMR-041-001](../rules/rule-ammr-041-001.md)). Liksom vid övertagande räknas passivitet som ett ja.
 
+### Om Sverige inte bekräftar — omprövningsbegäran kan komma tillbaka (genomförandeförordning 2025/2055 art. 15.3–15.4)
+
+Om Sverige lämnar en **icke-bekräftelse** med hänvisning till att ansvaret upphört ([art. 37](../articles/ammr-037.md)) kan den meddelande staten begära **omprövning** inom 2 veckor. Sverige ska då sträva efter att bekräfta eller vidmakthålla sin icke-bekräftelse **inom 2 veckor**. När fristen löper ut avslutas omprövningen, och uteblivet svar från Sverige räknas **inte** som bekräftelse. Se [RULE-AMMR-IMPL-015-001](../rules/rule-ammr-impl-015-001.md).
+
 ---
 
 ## Efter bekräftelse
@@ -53,6 +57,7 @@ Se det samlade diagrammet i [Övertagande och återtagande — tidsfrister](take
 
 - [AMMR artikel 41](../articles/ammr-041.md) — Avisering om återtagande
 - [RULE-AMMR-041-001](../rules/rule-ammr-041-001.md) — Bekräftelsefrist och tyst bekräftelse
+- [Genomförandeförordning (EU) 2025/2055](../../../references/legislation/ammr-implementing.md), art. 15.3–15.4 — Omprövning vid icke-bekräftelse ([RULE-AMMR-IMPL-015-001](../rules/rule-ammr-impl-015-001.md))
 
 ---
 

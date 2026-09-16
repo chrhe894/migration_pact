@@ -282,6 +282,8 @@ nav:
         - RULE-AMMR-045-002: domains/responsibility/rules/rule-ammr-045-002.md
         - RULE-AMMR-046-001: domains/responsibility/rules/rule-ammr-046-001.md
         - RULE-AMMR-051-001: domains/responsibility/rules/rule-ammr-051-001.md
+        - RULE-AMMR-IMPL-009-001: domains/responsibility/rules/rule-ammr-impl-009-001.md
+        - RULE-AMMR-IMPL-015-001: domains/responsibility/rules/rule-ammr-impl-015-001.md
       - Tolkningar:
         - Första registrering som referenspunkt: domains/responsibility/interpretations/first-registration-as-reference-point.md
         - AMMR-artiklarnas täckning: domains/responsibility/interpretations/ammr-article-coverage.md
@@ -510,6 +512,8 @@ nav:
     - Tidsfrister:
       - shared/time-limits/README.md
       - Begrepp:
+        - Frysning och förlängning: shared/time-limits/concepts/frysning-och-forlangning.md
+        - Fristtyp: Accept till beslut (ATB): shared/time-limits/concepts/fristtyp-accept-till-beslut.md
         - Uppsikt: shared/time-limits/concepts/uppsikt.md
       - Regler:
         - RULE-TL-LOD-001: shared/time-limits/rules/rule-tl-lod-001.md
