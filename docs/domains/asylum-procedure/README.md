@@ -31,6 +31,7 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 - [APR artikel 40](articles/apr-040.md) — Uttryckligt återkallande
 - [APR artikel 41](articles/apr-041.md) — Implicit återkallande
 - [APR artikel 42](articles/apr-042.md) — Påskyndat prövningsförfarande
+- [APR artikel 72](articles/apr-072.md) — Lagring av uppgifter
 
 ---
 
@@ -107,6 +108,13 @@ Beslut i sak (art. 39)
 |-------|-------------|
 | [RULE-APR-042-001](rules/rule-apr-042-001.md) | Grunder för påskyndat prövningsförfarande |
 | [RULE-APR-042-002](rules/rule-apr-042-002.md) | Tidsfrist vid påskyndat — tre månader |
+
+### APR artikel 72 — Lagring av uppgifter
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-APR-072-001](rules/rule-apr-072-001.md) | Lagringstid tio år och radering |
+| [RULE-APR-072-002](rules/rule-apr-072-002.md) | Lagring i enlighet med GDPR |
 
 ---
 

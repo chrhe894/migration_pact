@@ -37,3 +37,5 @@
 | [REQ-APR-055-004](req-apr-055-004.md) | Vid första efterföljande ansökan har sökanden rätt att stanna | [Art. 55](../articles/apr-055.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
 | [REQ-APR-056-001](req-apr-056-001.md) | Undantag från rätt att stanna kan gälla vid andra/följande efterföljande ansökan | [RULE-APR-056-001](../rules/rule-apr-056-001.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
 | [REQ-APR-056-002](req-apr-056-002.md) | Undantag kräver att non-refoulement-kontroll genomförs | [RULE-APR-056-001](../rules/rule-apr-056-001.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
+| [REQ-APR-072-001](req-apr-072-001.md) | Uppgifter ska lagras i tio år från slutligt beslut och därefter raderas | [RULE-APR-072-001](../rules/rule-apr-072-001.md) | [CAP-ASY-007](../capabilities/cap-asy-007.md) |
+| [REQ-APR-072-002](req-apr-072-002.md) | Lagring ska ske i enlighet med GDPR (ändamålsbegränsning, lagringsminimering) | [RULE-APR-072-002](../rules/rule-apr-072-002.md) | [CAP-ASY-007](../capabilities/cap-asy-007.md) |
