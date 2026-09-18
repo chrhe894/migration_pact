@@ -22,6 +22,7 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 
 ## Primära rättskällor
 
+- [APR artikel 22](articles/apr-022.md) — Garantier för underåriga (inkl. intervju med medföljande barn)
 - [APR artikel 34](articles/apr-034.md) — Prövning av ansökningar
 - [APR artikel 35](articles/apr-035.md) — Prövningsförfarandets varaktighet
 - [APR artikel 36](articles/apr-036.md) — Beslut om ansökningar
@@ -82,6 +83,14 @@ Beslut i sak (art. 39)
 
 ## Regler
 
+### APR artikel 22 — Garantier för underåriga
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-APR-022-001](rules/rule-apr-022-001.md) | Barnets bästa som främsta hänsyn |
+| [RULE-APR-022-002](rules/rule-apr-022-002.md) | Underårigs rätt till personlig intervju |
+| [RULE-APR-022-003](rules/rule-apr-022-003.md) | Medföljande barn intervjuas i närvaro av ansvarig vuxen |
+
 ### APR artikel 34 — Prövning
 
 | Regel | Beskrivning |
@@ -123,6 +132,7 @@ Beslut i sak (art. 39)
 | Fil | Frågeställning |
 |-----|----------------|
 | [admissibility-vs-merits](interpretations/admissibility-vs-merits.md) | Skillnaden mellan upptagandeprövning och prövning i sak |
+| [family-interviews](interpretations/family-interviews.md) | Komplikationer vid intervjuer med familjer |
 
 ---
 

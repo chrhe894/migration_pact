@@ -4,6 +4,9 @@
 
 | ID | Krav | Härledd från | Förmåga |
 |----|------|--------------|------------|
+| [REQ-APR-022-001](req-apr-022-001.md) | Barnets bästa ska komma i främsta rummet | [RULE-APR-022-001](../rules/rule-apr-022-001.md) | [CAP-ASY-008](../capabilities/cap-asy-008.md) |
+| [REQ-APR-022-002](req-apr-022-002.md) | Underårig ska ges tillfälle till barnorienterad personlig intervju | [RULE-APR-022-002](../rules/rule-apr-022-002.md) | [CAP-ASY-008](../capabilities/cap-asy-008.md) |
+| [REQ-APR-022-003](req-apr-022-003.md) | Medföljande barn ska intervjuas i närvaro av ansvarig vuxen | [RULE-APR-022-003](../rules/rule-apr-022-003.md) | [CAP-ASY-008](../capabilities/cap-asy-008.md) |
 | [REQ-APR-034-001](req-apr-034-001.md) | Prövning ska ske individuellt, objektivt och opartiskt | [RULE-APR-034-001](../rules/rule-apr-034-001.md) | [CAP-ASY-001](../capabilities/cap-asy-001.md) |
 | [REQ-APR-034-002](req-apr-034-002.md) | Ansökan ska prövas mot flyktingstatus först, subsidiärt skydd i andra hand | [RULE-APR-034-002](../rules/rule-apr-034-002.md) | [CAP-ASY-001](../capabilities/cap-asy-001.md) |
 | [REQ-APR-034-003](req-apr-034-003.md) | Aktuell landinformation (COI) ska beaktas | [RULE-APR-034-001](../rules/rule-apr-034-001.md) | [CAP-ASY-001](../capabilities/cap-asy-001.md) |

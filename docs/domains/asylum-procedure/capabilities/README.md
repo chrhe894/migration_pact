@@ -11,3 +11,4 @@
 | [CAP-ASY-005](cap-asy-005.md) | Issue Decision and Return Order | RULE-APR-034-001, RULE-APR-035-001 | PROC-ASY-001 |
 | [CAP-ASY-006](cap-asy-006.md) | Handle Withdrawal | Art. 40, Art. 41 | PROC-ASY-001 |
 | [CAP-ASY-007](cap-asy-007.md) | Retain and Erase Case Data | RULE-APR-072-001, RULE-APR-072-002 | PROC-ASY-001 |
+| [CAP-ASY-008](cap-asy-008.md) | Conduct Personal Interview | RULE-APR-022-002, RULE-APR-022-003 | PROC-ASY-001 |
