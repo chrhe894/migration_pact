@@ -513,7 +513,7 @@ nav:
       - shared/time-limits/README.md
       - Begrepp:
         - Frysning och förlängning: shared/time-limits/concepts/frysning-och-forlangning.md
-        - Fristtyp: Accept till beslut (ATB): shared/time-limits/concepts/fristtyp-accept-till-beslut.md
+        - "Fristtyp: Accept till beslut (ATB)": shared/time-limits/concepts/fristtyp-accept-till-beslut.md
         - Uppsikt: shared/time-limits/concepts/uppsikt.md
       - Regler:
         - RULE-TL-LOD-001: shared/time-limits/rules/rule-tl-lod-001.md
