@@ -530,6 +530,7 @@ nav:
     - Sårbara personer: shared/vulnerable-persons/README.md
     - Personliga intervjuer: shared/interviews/README.md
     - Statistik: shared/statistics/README.md
+    - Flaggor och markeringar: shared/flags/README.md
   - Scenarier: scenarios/README.md
   - Projekt:
     - Roadmap: ROADMAP.md

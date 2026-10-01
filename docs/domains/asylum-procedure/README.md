@@ -118,6 +118,16 @@ Beslut i sak (art. 39)
 | [RULE-APR-042-001](rules/rule-apr-042-001.md) | Grunder för påskyndat prövningsförfarande |
 | [RULE-APR-042-002](rules/rule-apr-042-002.md) | Tidsfrist vid påskyndat — tre månader |
 
+### APR artiklarna 55–56 — Efterföljande ansökningar
+
+| Regel | Beskrivning |
+|-------|-------------|
+| [RULE-APR-055-001](rules/rule-apr-055-001.md) | Förhandsprövning av efterföljande ansökan |
+| [RULE-APR-055-002](rules/rule-apr-055-002.md) | Avvisning vid avsaknad av nya omständigheter |
+| [RULE-APR-055-003](rules/rule-apr-055-003.md) | Markering som efterföljande ansökan (flagga) |
+| [RULE-APR-056-001](rules/rule-apr-056-001.md) | Undantag från rätt att stanna |
+| [RULE-APR-056-002](rules/rule-apr-056-002.md) | Nivåräkning styr rätten att stanna (flagga) |
+
 ### APR artikel 72 — Lagring av uppgifter
 
 | Regel | Beskrivning |

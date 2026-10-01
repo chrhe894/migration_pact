@@ -24,6 +24,8 @@ Bedöma om nya omständigheter finns och avgöra om ansökan ska avvisas eller p
 
 - [RULE-APR-055-001](../rules/rule-apr-055-001.md) — Förhandsprövning ska genomföras vid efterföljande ansökan
 - [RULE-APR-055-002](../rules/rule-apr-055-002.md) — Ansökan ska avvisas om inga nya relevanta omständigheter
+- [RULE-APR-055-003](../rules/rule-apr-055-003.md) — Markering som efterföljande ansökan (flagga)
+- [RULE-APR-056-002](../rules/rule-apr-056-002.md) — Nivåräkning styr rätten att stanna (flagga)
 
 ---
 
