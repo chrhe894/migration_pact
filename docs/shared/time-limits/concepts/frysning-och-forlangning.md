@@ -36,11 +36,14 @@ När en person överklagar ett beslut och beviljas **suspensiv verkan** pausas d
 
 ### Tillämpningsområde
 
-| Frist som fryses | Rättslig grund | Regel |
-|------------------|----------------|-------|
-| 5-veckorsfristen för överföring vid förvar | [AMMR art. 45.3 b](../../../domains/responsibility/articles/ammr-045.md) | [RULE-AMMR-045-002](../../../domains/responsibility/rules/rule-ammr-045-002.md) |
-| 6-månadersfristen för överföring (normalt förfarande) | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) | [RULE-AMMR-046-001](../../../domains/responsibility/rules/rule-ammr-046-001.md) |
-| 12-veckorsfristen för återvändande vid gräns | [Return art. 5](../../../domains/return-border-procedure/articles/return-005.md) | [REQ-RET-005-004](../../../domains/return-border-procedure/requirements/req-ret-005-004.md) |
+| Frist som fryses | Fristtyp | Rättslig grund | Regel |
+|------------------|----------|----------------|-------|
+| 5-veckorsfristen för överföring vid förvar | [ATÖ](fristtyp-accept-till-overforing.md) (förvarsnära, art. 45) | [AMMR art. 45.3 b](../../../domains/responsibility/articles/ammr-045.md) | [RULE-AMMR-045-002](../../../domains/responsibility/rules/rule-ammr-045-002.md) |
+| 6-månadersfristen för överföring (normalt förfarande) | [ATÖ](fristtyp-accept-till-overforing.md) | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) | [RULE-AMMR-046-001](../../../domains/responsibility/rules/rule-ammr-046-001.md) |
+| 4-veckorsfristen för omfördelningsöverföring | [ATÖ](fristtyp-accept-till-overforing.md) (omfördelning) | [AMMR art. 67.11](../../../domains/solidarity/articles/ammr-067.md) | [RULE-AMMR-067-001](../../../domains/solidarity/rules/rule-ammr-067-001.md) |
+| 12-veckorsfristen för återvändande vid gräns | — | [Return art. 5](../../../domains/return-border-procedure/articles/return-005.md) | [REQ-RET-005-004](../../../domains/return-border-procedure/requirements/req-ret-005-004.md) |
+
+> **Beslutsfristen (ATB, art. 42) fryses inte.** Det är verkställigheten (ATÖ, art. 46) som pausas vid suspensiv verkan — se [Fristtyp: Accept till beslut (ATB)](fristtyp-accept-till-beslut.md) och [Fristtyp: Accept till överföring (ATÖ)](fristtyp-accept-till-overforing.md).
 
 ### Princip
 
@@ -91,11 +94,11 @@ Utan frysningsmekanism skulle beviljad suspensiv verkan i praktiken kunna leda t
 
 ### 2.4 Vid avvikande (specifik för överföring)
 
-| Frist | Ordinarie | Vid avvikande | Rättslig grund | Regel |
-|-------|-----------|---------------|----------------|-------|
-| Överföring | 6 månader | 18 månader | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) | [RULE-AMMR-046-001](../../../domains/responsibility/rules/rule-ammr-046-001.md) |
+| Frist | Fristtyp | Ordinarie | Vid avvikande | Rättslig grund | Regel |
+|-------|----------|-----------|---------------|----------------|-------|
+| Överföring | [ATÖ](fristtyp-accept-till-overforing.md) | 6 månader | 18 månader | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) | [RULE-AMMR-046-001](../../../domains/responsibility/rules/rule-ammr-046-001.md) |
 
-**Utlösare:** Personen avviker (absconds) och är inte tillgänglig för överföring.
+**Utlösare:** Personen avviker (absconds) och är inte tillgänglig för överföring. Detta är [ATÖ](fristtyp-accept-till-overforing.md):s egen förlängningsgrund.
 
 ---
 

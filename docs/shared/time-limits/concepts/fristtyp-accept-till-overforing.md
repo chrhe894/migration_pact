@@ -46,7 +46,7 @@ Att **missad frist = ansvarsövergång** är ATÖ:s signum och skiljer den från
 
 ---
 
-## Instanser i AMMR (ansvarsförfarandet)
+## Instanser — överföringsförfarandet (ansvar, art. 46)
 
 ATÖ instansieras i **överföringsförfarandet** och gäller den stat som skickat framställan/avisering och fått accept (UT-riktningen) — oavsett om det rör övertagande eller återtagande.
 
@@ -57,6 +57,18 @@ ATÖ instansieras i **överföringsförfarandet** och gäller den stat som skick
 | ATÖ — förvar | Personen är i förvar | **4 veckor** | Accept | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) |
 
 Alla tre räknas från accept (inte staplade). Vid överskridande övergår ansvaret till den överförande staten ([RULE-AMMR-046-001](../../../domains/responsibility/rules/rule-ammr-046-001.md)).
+
+---
+
+## Instans — omfördelning (solidaritet, art. 67.11)
+
+Samma fristtyp dyker upp i **omfördelningsförfarandet**. Här sker en faktisk fysisk överföring av personen från den gynnade staten till omfördelningsmedlemsstaten, så ATÖ-karaktären gäller — men med egen frist och egen startpunkt (omfördelningsmedlemsstatens bekräftelse).
+
+| Instans | Situation | Längd | Startpunkt | Rättslig grund |
+|---------|-----------|-------|------------|----------------|
+| ATÖ — omfördelning | Verkställd omfördelning | **4 veckor** | Omfördelningsmedlemsstatens bekräftelse (art. 67.9) | [AMMR art. 67.11](../../../domains/solidarity/articles/ammr-067.md) → [RULE-AMMR-067-001](../../../domains/solidarity/rules/rule-ammr-067-001.md) |
+
+Fristen räknas från bekräftelsen, eller — vid överklagande med suspensiv verkan — från det slutliga beslutet (art. 67.11 hänvisar uttryckligen till art. 43.3). Omfördelningens överföringsbeslut fattas separat inom **1 vecka** från bekräftelsen (art. 67.10); det är omfördelningens motsvarighet till [ATB](fristtyp-accept-till-beslut.md), fast kortare.
 
 > **Angränsande förvarsfrist (ej samma instans):** [AMMR art. 45.3](../../../domains/responsibility/articles/ammr-045.md) anger en överföringsfrist om **5 veckor** inom förvarsregimen (se [RULE-AMMR-045-001](../../../domains/responsibility/rules/rule-ammr-045-001.md)). Den ligger i art. 45:s förvarskontext, medan ATÖ-instansen "förvar" ovan är art. 46:s fyraveckorsfrist. De ska inte sammanblandas; vid frihetsberövande är de kortare art. 45-fristerna styrande och fristöverskridande leder till **frigivning**, inte enbart ansvarsövergång.
 
@@ -87,11 +99,25 @@ Båda räknas från accept — de staplas inte. ATB leder fram till *beslutet*, 
 
 ---
 
+## Frysning och förlängning
+
+ATÖ är den fristtyp i överföringsförfarandet som faktiskt påverkas av både frysning och förlängning. Se [Frysning och förlängning](frysning-och-forlangning.md) för helheten.
+
+- **Frysning (suspensiv verkan):** Om personen överklagar överföringsbeslutet och beviljas suspensiv verkan pausas ATÖ-fristen. Den räknas då från "den dag överklagandet eller omprövningen inte längre har suspensiv verkan" ([AMMR art. 43.3](../../../domains/responsibility/articles/ammr-043.md), art. 46). Detsamma gäller omfördelningsinstansen — art. 67.11 hänvisar uttryckligen till art. 43.3.
+- **Förlängning vid avvikande:** 6-månadersinstansen ersätts av **18 månader** om personen avviker (art. 46). Detta är ATÖ:s egen förlängningsgrund.
+- **Förlängning vid kris:** Vid aktiverad krissituation kan överföringsfristen förlängas till **1 år** ([Kris art. 12](../../../domains/crisis/articles/crisis-012.md)).
+
+> Till skillnad från ATB (som varken fryses eller förlängs) är ATÖ alltså den rörliga fristen — den kan både pausas och ersättas av en längre frist.
+
+---
+
 ## Avgränsningar (vanliga missförstånd)
 
 - **Gäller UT-riktningen, inte IN.** Verkställigheten är den överförande/anmodande statens uppgift. Den mottagande staten ger accepten men bär inte ATÖ-fristen.
 - **Gäller övertagande OCH återtagande** — startpunkten "accept" finns i båda (godtagande resp. bekräftelse).
-- **Inte i ansvarskompensation.** Vid ansvarskompensation (solidaritet, [AMMR art. 63](../../../domains/solidarity/articles/ammr-063.md)) sker ingen fysisk överföring — art. 46-fristen är inte tillämplig.
+- **Solidaritet: skilj ansvarskompensation från omfördelning.**
+  - **Ansvarskompensation** ([AMMR art. 63](../../../domains/solidarity/articles/ammr-063.md)) innebär att en stat *övertar prövningsansvaret* — ingen fysisk överföring av personen sker, så ingen ATÖ-frist gäller.
+  - **Omfördelning** ([AMMR art. 67](../../../domains/solidarity/articles/ammr-067.md)) innebär en *fysisk överföring* av personen — därför gäller ATÖ-karaktären, med fyraveckorsfristen i art. 67.11 (se instanstabellen ovan).
 - **Förvar: skilj art. 45 från art. 46.** Se noten ovan.
 
 ---

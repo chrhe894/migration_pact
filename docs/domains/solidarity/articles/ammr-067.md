@@ -55,3 +55,9 @@ Omfördelning kan inte ske om det finns rimliga skäl att anta att personen utg�
 - [AMMR artikel 57](ammr-057.md) — Solidaritetspoolen
 - [AMMR artikel 68](ammr-068.md) — Förfarande efter omfördelning
 - [Screening artikel 18](../../screening/articles/scr-018.md) — Hänvisning vid screening
+
+---
+
+## Fristtyp
+
+Överföringsfristen i punkt 11 (fyra veckor från bekräftelsen) är en instans av fristtypen [Accept till överföring (ATÖ)](../../../shared/time-limits/concepts/fristtyp-accept-till-overforing.md).

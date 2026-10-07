@@ -53,9 +53,13 @@ ATB förekommer i **överföringsförfarandet** — och gäller den stat som **s
 
 ---
 
-## Koppling till frysning
+## Frysning och förlängning
 
-ATB-fristen (2 veckor till beslut) är kort och fryses normalt inte. Det är den parallella [ATÖ](fristtyp-accept-till-overforing.md)-fristen (verkställighet, art. 46) som kan **frysas** om personen överklagar och beviljas suspensiv verkan (art. 43.3). Se [Frysning och förlängning](frysning-och-forlangning.md).
+ATB-fristen **varken fryses eller förlängs**. [AMMR art. 42.1](../../../domains/responsibility/articles/ammr-042.md) sätter en fast tvåveckorsfrist för själva beslutet utan någon frysnings- eller förlängningsmekanism, och ingen av de dokumenterade grunderna (suspensiv verkan, massinflöde, komplexitet, kris, avvikande) är kopplad till art. 42.
+
+Orsaken är sekvensen: beslutet fattas **först**, och det är först därefter som personen kan överklaga och begära suspensiv verkan. Den suspensiva verkan pausar då **verkställigheten** — alltså den parallella [ATÖ](fristtyp-accept-till-overforing.md)-fristen (art. 46), vars startpunkt räknas om till "den dag rättsmedlet inte längre har suspensiv verkan" ([AMMR art. 43.3](../../../domains/responsibility/articles/ammr-043.md)) — inte beslutsfristen.
+
+Se [Frysning och förlängning](frysning-och-forlangning.md) för helheten och [ATÖ](fristtyp-accept-till-overforing.md) för den rörliga fristen.
 
 ---
 

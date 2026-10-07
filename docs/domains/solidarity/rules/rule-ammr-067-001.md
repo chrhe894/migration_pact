@@ -47,6 +47,12 @@ Förmånsstaten identifierar sökande som ska omfördelas till en annan medlemss
 
 ---
 
+## Fristtyp
+
+Fyraveckorsfristen för överföring (art. 67.11) är en instans av fristtypen [Accept till överföring (ATÖ)](../../../shared/time-limits/concepts/fristtyp-accept-till-overforing.md): den startar vid omfördelningsmedlemsstatens bekräftelse och löper till verkställd överföring, och kan frysas vid suspensiv verkan (art. 67.11 hänvisar till art. 43.3). Omfördelningens överföringsbeslut (1 vecka, art. 67.10) motsvarar [ATB](../../../shared/time-limits/concepts/fristtyp-accept-till-beslut.md).
+
+---
+
 ## Status
 
 Complete
