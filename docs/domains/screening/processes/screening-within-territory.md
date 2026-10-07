@@ -56,7 +56,7 @@ Om personen omedelbart skickas tillbaka till en annan medlemsstat enligt bilater
 
 | Tidsfrist | Källa | Kommentar |
 |-----------|-------|-----------|
-| **Screening inom territoriet** — 3 dagar | [Screening art. 8](../articles/screening-008.md) | Maximal screeningperiod inom territoriet |
+| **Screening inom territoriet** — 3 dagar | [Screening art. 8](../articles/scr-008.md) | Maximal screeningperiod inom territoriet |
 
 ### Koppling till statistik
 

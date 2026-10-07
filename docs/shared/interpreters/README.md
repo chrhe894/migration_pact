@@ -10,7 +10,7 @@ Rätten till tolk är en grundläggande garanti som gäller i flera förfaranden
 
 ## Primära rättskällor
 
-- [APR artikel 8.3](../articles/apr-008.md) — Rätt till tolkning vid registrering, inlämnande och personlig intervju
+- [APR artikel 8.3](articles/apr-008.md) — Rätt till tolkning vid registrering, inlämnande och personlig intervju
 - [APR artikel 30.2](articles/apr-030.md) — Tolktjänster i förvarsanläggningar och vid gränsövergångsställen
 
 ---

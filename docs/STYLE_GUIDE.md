@@ -550,7 +550,7 @@ Exempel: "Utgör startpunkten för det formella asylförfarandet och aktiverar s
 
 Vilken process, aktör eller händelse som skapar eller etablerar begreppet. Länka till relevant process om möjligt.
 
-Exempel: "Registreringsmyndigheten genom att formellt dokumentera ansökan ([PROC-REG-001](../processes/registration-of-an-application.md))."
+Exempel: `Registreringsmyndigheten genom att formellt dokumentera ansökan ([PROC-REG-001](../processes/registration-of-an-application.md)).`
 
 ## Relaterade begrepp
 

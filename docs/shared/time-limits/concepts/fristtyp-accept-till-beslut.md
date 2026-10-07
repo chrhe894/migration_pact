@@ -13,7 +13,7 @@ tags:
 
 En **fristtyp** är en återanvändbar mall för en tidsfrist, definierad av sin **startpunkt** och sin **karaktär** — inte av en enskild artikel. Samma fristtyp kan *instansieras* i flera processer, med olika slutpunkt och längd. Detta speglar hur tidsfrister definieras systemmässigt i verksamheten.
 
-Se även fristtypen [Nekad begäran till omprövning](../../../domains/responsibility/interpretations/take-charge-take-back-timelimits.md) (mellanstatlig omprövning).
+Se även fristtypen [Nekad begäran till omprövning (TNO)](fristtyp-nekad-begaran-till-omprovning.md) (mellanstatlig omprövning).
 
 ---
 

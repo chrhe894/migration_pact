@@ -68,8 +68,8 @@ Om det under screeningen framkommer att personen uppfyller inresevillkoren ska s
 
 | Tidsfrist | Källa | Kommentar |
 |-----------|-------|-----------|
-| **Ordinarie** — 7 dagar | [Screening art. 8](../articles/screening-008.md) | Maximal screeningperiod vid yttre gräns |
-| **Förkortad** — 4 dagar | [Screening art. 8](../articles/screening-008.md) | Om personen befunnits >72h vid gränsen |
+| **Ordinarie** — 7 dagar | [Screening art. 8](../articles/scr-008.md) | Maximal screeningperiod vid yttre gräns |
+| **Förkortad** — 4 dagar | [Screening art. 8](../articles/scr-008.md) | Om personen befunnits >72h vid gränsen |
 
 ### Koppling till statistik
 
