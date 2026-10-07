@@ -140,6 +140,7 @@ Grundregler:
 - [Fristtyp: Accept till beslut (ATB)](concepts/fristtyp-accept-till-beslut.md) — Återanvändbar fristtyp som startar vid accept (uttrycklig/tyst) och löper till beslut resp. verkställighet
 - [Fristtyp: Nekad begäran till omprövning (TNO)](concepts/fristtyp-nekad-begaran-till-omprovning.md) — Mellanstatlig fristtyp som startar vid ett nekande (avslag/icke-bekräftelse) och ger en kort frist att begära omprövning och svara
 - [Fristtyp: Accept till överföring (ATÖ)](concepts/fristtyp-accept-till-overforing.md) — Överföringsfristen: startar vid accept och löper till verkställd överföring (6 mån / 18 mån avvikande / 4 v förvar); missad frist = ansvarsövergång
+- [Fristtyp: Transfer — genomförande av överföring (TGÖ)](concepts/fristtyp-transfer-genomforande-overforing.md) — De praktiska koordineringsfristerna vid själva överföringen (förhandsavisering 7–14 d, 21 d för utsatta, 5 d bekräftelse, 7 d presumtion); genomförandeförordning 2025/2055 kap. V
 - [Uppsikt](concepts/uppsikt.md) — Tidsdimensioner kopplade till uppsiktsbeslut
 
 ---

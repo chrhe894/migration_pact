@@ -27,6 +27,7 @@ Motsvarar i funktion den tidigare Dublin III-genomförandeförordningen (EG) nr 
 - Aviseringar om återtagande (art. 12 f.f.)
 - **Omprövning efter icke-bekräftad avisering** — art. 15.3–15.4 (frist: 2 veckor att begära, 2 veckor att svara)
 - Informationsutbyte innan överföring
+- **Genomförande av överföringar (kap. V, art. 22–29)** — förhandsavisering 7–14 dagar (21 dagar för utsatta/ensamkommande/≥10 personer), mottagande stats bekräftelse inom 5 dagar, presumtion "anses genomförd" efter 7 dagar; fristtyp [TGÖ](../../shared/time-limits/concepts/fristtyp-transfer-genomforande-overforing.md)
 - Standardformulär och DubliNet
 
 ---

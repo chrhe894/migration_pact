@@ -43,3 +43,9 @@ Artikeln ålägger den överförande staten att före överföringen skicka de u
 - [AMMR artikel 46](ammr-046.md) — Överföring
 - [AMMR artikel 51](ammr-051.md) — Utbyte av uppgifter (punkt 8–9 tillämpliga)
 - [AMMR artikel 52](ammr-052.md) — Behöriga myndigheter och resurser
+
+---
+
+## Används i fristtyp
+
+Punkt 2 a (omedelbara åtgärder för särskilda behov) är grunden för den förstärkta framförhållningen på **minst 21 dagar** i fristtypen [TGÖ](../../../shared/time-limits/concepts/fristtyp-transfer-genomforande-overforing.md), se [RULE-AMMR-IMPL-022-001](../rules/rule-ammr-impl-022-001.md).

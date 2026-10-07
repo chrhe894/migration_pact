@@ -125,6 +125,7 @@ ATÖ är den fristtyp i överföringsförfarandet som faktiskt påverkas av båd
 ## Se även
 
 - [Tidsfrister — översikt](../README.md)
+- [Fristtyp: Transfer — genomförande av överföring (TGÖ)](fristtyp-transfer-genomforande-overforing.md) — de inre koordineringsfristerna inom ATÖ-ramen
 - [Fristtyp: Accept till beslut (ATB)](fristtyp-accept-till-beslut.md)
 - [Fristtyp: Nekad begäran till omprövning (TNO)](fristtyp-nekad-begaran-till-omprovning.md)
 - [Frysning och förlängning](frysning-och-forlangning.md)
