@@ -163,7 +163,7 @@ Beslut i sak (art. 39)
 | Time limits | [shared/time-limits](../../shared/time-limits/README.md) |
 | Children | [shared/children](../../shared/children/README.md) |
 | Vulnerable persons | [shared/vulnerable-persons](../../shared/vulnerable-persons/README.md) |
-| Interviews | [shared/interviews](../../shared/interviews/) |
+| Interviews | [shared/interviews](../../shared/interviews/README.md) |
 
 ---
 

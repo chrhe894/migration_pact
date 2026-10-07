@@ -113,10 +113,10 @@ Se även:
 | [Tolkar](shared/interpreters/README.md) | Tolktjänster |
 | [Dokument](shared/documents/README.md) | Handlingar till sökanden |
 | [Tidsfrister](shared/time-limits/README.md) | Tidsfrister |
-| [Barn](shared/children/) | Särskilda garantier för barn |
+| [Barn](shared/children/README.md) | Särskilda garantier för barn |
 | [Sårbara personer](shared/vulnerable-persons/README.md) | Sårbara personer |
-| [Biometri](shared/biometrics/) | Biometriska uppgifter |
-| [Säkerhetskontroller](shared/security-checks/) | Säkerhetskontroller |
+| [Biometri](shared/biometrics/README.md) | Biometriska uppgifter |
+| [Säkerhetskontroller](shared/security-checks/README.md) | Säkerhetskontroller |
 | [Personliga intervjuer](shared/interviews/README.md) | Personliga intervjuer och övriga intervjuer |
 | [Statistik](shared/statistics/README.md) | Datapunkter och beräkningar |
 | [Flaggor och markeringar](shared/flags/README.md) | Villkorsutlösta flaggor, markeringar och varningar |

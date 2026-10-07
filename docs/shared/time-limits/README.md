@@ -139,6 +139,7 @@ Grundregler:
 - [Frysning och förlängning av tidsfrister](concepts/frysning-och-forlangning.md) — När tidsfrister kan pausas (suspensiv verkan) respektive förlängas (massinflöde, komplexitet, kris, avvikande)
 - [Fristtyp: Accept till beslut (ATB)](concepts/fristtyp-accept-till-beslut.md) — Återanvändbar fristtyp som startar vid accept (uttrycklig/tyst) och löper till beslut resp. verkställighet
 - [Fristtyp: Nekad begäran till omprövning (TNO)](concepts/fristtyp-nekad-begaran-till-omprovning.md) — Mellanstatlig fristtyp som startar vid ett nekande (avslag/icke-bekräftelse) och ger en kort frist att begära omprövning och svara
+- [Fristtyp: Accept till överföring (ATÖ)](concepts/fristtyp-accept-till-overforing.md) — Överföringsfristen: startar vid accept och löper till verkställd överföring (6 mån / 18 mån avvikande / 4 v förvar); missad frist = ansvarsövergång
 - [Uppsikt](concepts/uppsikt.md) — Tidsdimensioner kopplade till uppsiktsbeslut
 
 ---

@@ -4,6 +4,7 @@ tags:
   - tidsfrister
   - koncept
   - fristtyp
+  - ATB
   - accept-till-beslut
 ---
 
@@ -31,16 +32,14 @@ Det gemensamma för alla ATB-instanser är alltså **startpunkten: accept**. Slu
 
 ## Instanser i AMMR (ansvarsförfarandet)
 
-ATB förekommer i **överföringsförfarandet** — och gäller den stat som **skickat** framställan/avisering och fått accept (UT-riktningen), oavsett om det rör övertagande eller återtagande.
+ATB förekommer i **överföringsförfarandet** — och gäller den stat som **skickat** framställan/avisering och fått accept (UT-riktningen), oavsett om det rör övertagande eller återtagande. Slutpunkten för ATB är alltid **överföringsbeslutet** (art. 42).
 
 | Instans | Process | Slutpunkt | Längd | Rättslig grund |
 |---------|---------|-----------|-------|----------------|
 | ATB — beslut | [Övertagande UT](../../../domains/responsibility/interpretations/take-charge-out.md) | Överföringsbeslut fattas och meddelas | **2 veckor** | [AMMR art. 42](../../../domains/responsibility/articles/ammr-042.md) |
-| ATB — verkställighet | [Övertagande UT](../../../domains/responsibility/interpretations/take-charge-out.md) | Överföringen verkställd | **6 månader** | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) |
 | ATB — beslut | [Återtagande UT](../../../domains/responsibility/interpretations/take-back-out.md) | Överföringsbeslut fattas och meddelas | **2 veckor** | [AMMR art. 42](../../../domains/responsibility/articles/ammr-042.md) |
-| ATB — verkställighet | [Återtagande UT](../../../domains/responsibility/interpretations/take-back-out.md) | Överföringen verkställd | **6 månader** | [AMMR art. 46](../../../domains/responsibility/articles/ammr-046.md) |
 
-De två instanserna löper i **sekvens**: först 2 veckor från accept till beslut, därefter 6 månader från accept till verkställd överföring (fristerna räknas båda från accept, inte staplade efter varandra).
+> **Verkställigheten är en egen fristtyp.** Själva överföringen (6 mån / 18 mån vid avvikande / 4 v vid förvar, art. 46) hör till fristtypen [Accept till överföring (ATÖ)](fristtyp-accept-till-overforing.md), inte till ATB. Båda startar vid accept och löper **parallellt** — ATB fram till beslutet, ATÖ fram till den verkställda överföringen.
 
 ---
 
@@ -48,23 +47,25 @@ De två instanserna löper i **sekvens**: först 2 veckor från accept till besl
 
 - **Gäller UT-riktningen, inte IN.** Både beslut (art. 42) och verkställighet (art. 46) är den överförande/anmodande statens uppgift. Den mottagande staten (IN) *ger* accepten men bär inte ATB-fristerna.
 - **Gäller övertagande OCH återtagande** — inte bara övertagande. Startpunkten "accept" finns i båda (godtagande resp. bekräftelse).
-- **Inte i ansvarskompensation.** Vid ansvarskompensation (solidaritet, [AMMR art. 63](../../../domains/solidarity/articles/ammr-063.md)) sker ingen fysisk överföring — därför är art. 42/46-fristerna inte tillämpliga.
+- **Inte i ansvarskompensation.** Vid ansvarskompensation (solidaritet, [AMMR art. 63](../../../domains/solidarity/articles/ammr-063.md)) sker ingen fysisk överföring — därför är art. 42-fristen inte tillämplig.
 - **Inte i återvändandeförfarandet.** ATB hör hemma i ansvar/överföring ([PROC-RES-001](../../../domains/responsibility/processes/determine-responsible-member-state.md)), inte i återvändande vid gräns.
+- **Beslut, inte verkställighet.** ATB löper till överföringsbeslutet (art. 42). Själva verkställigheten (art. 46) är fristtypen [ATÖ](fristtyp-accept-till-overforing.md).
 
 ---
 
 ## Koppling till frysning
 
-6-månadersinstansen (art. 46) kan **frysas**: om personen överklagar och beviljas suspensiv verkan pausas fristen tills verkan upphör (art. 43.3). Se [Frysning och förlängning](frysning-och-forlangning.md). Startpunkten räknas då om till "den dag rättsmedlet inte längre har suspensiv verkan".
+ATB-fristen (2 veckor till beslut) är kort och fryses normalt inte. Det är den parallella [ATÖ](fristtyp-accept-till-overforing.md)-fristen (verkställighet, art. 46) som kan **frysas** om personen överklagar och beviljas suspensiv verkan (art. 43.3). Se [Frysning och förlängning](frysning-och-forlangning.md).
 
 ---
 
 ## Se även
 
 - [Tidsfrister — översikt](../README.md)
+- [Fristtyp: Accept till överföring (ATÖ)](fristtyp-accept-till-overforing.md)
 - [Övertagande/återtagande — tidsfrister per riktning](../../../domains/responsibility/interpretations/take-charge-take-back-timelimits.md)
 - [Frysning och förlängning](frysning-och-forlangning.md)
-- [AMMR art. 42](../../../domains/responsibility/articles/ammr-042.md) · [art. 46](../../../domains/responsibility/articles/ammr-046.md)
+- [AMMR art. 42](../../../domains/responsibility/articles/ammr-042.md)
 
 ---
 

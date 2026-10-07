@@ -515,6 +515,7 @@ nav:
         - Frysning och förlängning: shared/time-limits/concepts/frysning-och-forlangning.md
         - "Fristtyp: Accept till beslut (ATB)": shared/time-limits/concepts/fristtyp-accept-till-beslut.md
         - "Fristtyp: Nekad begäran till omprövning (TNO)": shared/time-limits/concepts/fristtyp-nekad-begaran-till-omprovning.md
+        - "Fristtyp: Accept till överföring (ATÖ)": shared/time-limits/concepts/fristtyp-accept-till-overforing.md
         - Uppsikt: shared/time-limits/concepts/uppsikt.md
       - Regler:
         - RULE-TL-LOD-001: shared/time-limits/rules/rule-tl-lod-001.md
