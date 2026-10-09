@@ -71,9 +71,20 @@ elseif (Månader)
 
 endif
 
-if (Sista dagen\när helgdag?) then (Ja)
+if (Sista dagen\när helgdag/\nlördag/söndag?) then (Ja)
 
     :Flytta till\nnästa arbetsdag;
+
+endif
+
+if (Frist >= 2 dagar men\nomfattar < 2 arbetsdagar?) then (Ja)
+
+    :Förläng tills minst\ntvå arbetsdagar ryms;
+    note right
+      1182/71 art. 3.5
+      "minst två arbetsdagar"
+      (t.ex. 3 dagar fre → tis)
+    end note
 
 endif
 

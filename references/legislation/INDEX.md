@@ -9,3 +9,4 @@
 | Eurodac     | Eurodac Regulation                         | eurodac                                          |
 | Crisis      | Crisis and Force Majeure Regulation        | crisis                                           |
 | Return      | Return Border Procedure Regulation         | return-border-procedure                          |
+| 1182/71     | Time Limits Regulation (EEG, Euratom)      | tvärgående (tidsfrister)                         |

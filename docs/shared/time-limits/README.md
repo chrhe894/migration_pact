@@ -130,7 +130,29 @@ Grundregler:
 - Dagar = kalenderdagar om inget annat anges ("arbetsdagar" anges uttryckligen).
 - Veckor = samma veckodag.
 - Månader = samma datum (eller månadens sista dag om datumet inte finns).
-- Om sista dagen är en helgdag: fristen förlängs till nästa arbetsdag.
+- Om sista dagen är en helgdag (eller lördag/söndag): fristen förlängs till nästa arbetsdag.
+- **Minst två arbetsdagar:** en frist på två eller flera dagar ska omfatta minst två arbetsdagar. Räcker inte perioden till det förlängs den tills två arbetsdagar ryms ([1182/71 art. 3.5](../../references/legislation/time-limits-regulation.md)).
+
+### Rättslig grund för beräkningen
+
+| Regelverk | Beräkningsregel | Omfattar "minst två arbetsdagar" (art. 3.5)? |
+|-----------|-----------------|-----------------------------------------------|
+| AMMR art. 75 (ingen egen artikelfil; se [AMMR-täckning](../../domains/responsibility/interpretations/ammr-article-coverage.md)) | Egen, uttömmande | Nej — återges inte uttryckligen |
+| APR art. 73 | Egen, uttömmande (inleds "om inte annat föreskrivs") | Nej — återges inte uttryckligen |
+| Screeningförordningen (2024/1356) | Saknar egen artikel → [1182/71](../../references/legislation/time-limits-regulation.md) fyller ut | Ja — art. 3.5 tillämplig |
+
+### Exempel: 3-dagarsfrist som startar en fredag (screening)
+
+```text
+Fredag   = startdag (räknas inte, art. 3.1)
+Lördag   = dag 1  (ej arbetsdag)
+Söndag   = dag 2  (ej arbetsdag)
+Måndag   = dag 3  → preliminärt slut, men bara 1 arbetsdag i perioden
+→ art. 3.5 kräver minst 2 arbetsdagar → fristen förlängs till tisdag
+Tisdag   = fristen löper ut 24:00 (måndag + tisdag = två arbetsdagar)
+```
+
+Utan art. 3.5 skulle fristen löpt ut måndag — i praktiken efter en enda arbetsdag. Regeln om minst två arbetsdagar förhindrar det.
 
 ---
 
@@ -142,6 +164,12 @@ Grundregler:
 - [Fristtyp: Accept till överföring (ATÖ)](concepts/fristtyp-accept-till-overforing.md) — Överföringsfristen: startar vid accept och löper till verkställd överföring (6 mån / 18 mån avvikande / 4 v förvar); missad frist = ansvarsövergång
 - [Fristtyp: Transfer — genomförande av överföring (TGÖ)](concepts/fristtyp-transfer-genomforande-overforing.md) — De praktiska koordineringsfristerna vid själva överföringen (förhandsavisering 7–14 d, 21 d för utsatta, 5 d bekräftelse, 7 d presumtion); genomförandeförordning 2025/2055 kap. V
 - [Uppsikt](concepts/uppsikt.md) — Tidsdimensioner kopplade till uppsiktsbeslut
+
+---
+
+## Öppna frågor
+
+- **Gäller "minst två arbetsdagar" (1182/71 art. 3.5) även AMMR- och APR-fristerna?** AMMR art. 75 och APR art. 73 har egna, uttömmande beräkningsregler som motsvarar 1182/71 art. 3.1/3.3/3.4 men **inte** uttryckligen återger art. 3.5. Frågan är om de egna reglerna tränger undan 1182/71 helt (lex specialis) eller om art. 3.5 ändå gäller som allmän utfyllnad. För **screeningfristerna** är art. 3.5 tillämplig eftersom screeningförordningen saknar egen beräkningsartikel. Behöver verifieras rättsligt innan korta AMMR/APR-frister (t.ex. 1-veckasfrister vid förvar) beräknas i system.
 
 ---
 
