@@ -7,7 +7,7 @@
 ' Källa: Shared — tidsfrister (generell logik)
 '
 ' Relaterade regler:
-'   RULE-TL-REG-001, RULE-TL-REG-002, RULE-TL-LOD-001, RULE-TL-LOD-002
+'   RULE-TL-REG-001 (startdagen räknas inte); 1182/71 art. 3.5 (minst två arbetsdagar)
 '
 ' Status: Draft
 ' ============================================================================
@@ -44,10 +44,6 @@ end note
 if (Vilken typ av tidsfrist?) then (Dagar)
 
     :Lägg till antal dagar;
-    note right
-      [[../rules/rule-tl-reg-002.md RULE-TL-REG-002]]
-      Registrering: **5 dagar**
-    end note
 
 elseif (Veckor)
 
@@ -89,13 +85,6 @@ if (Frist >= 2 dagar men\nomfattar < 2 arbetsdagar?) then (Ja)
 endif
 
 :Fristen löper ut\n24:00;
-note right
-  [[../rules/rule-tl-lod-001.md RULE-TL-LOD-001]]
-  Inlämnande: **21 dagar**
-  ---
-  [[../rules/rule-tl-lod-002.md RULE-TL-LOD-002]]
-  Vid gränsförfarande: **5 dagar**
-end note
 
 stop
 
