@@ -64,7 +64,9 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 | Tidsfrist | Källa | Kommentar |
 |-----------|-------|-----------|
-| **Överföring** — 4 veckor | [AMMR art. 67](../articles/ammr-067.md) | Från bekräftelse till faktisk överföring |
+| **Bekräftelse** — 1 vecka (undantagsvis 2) | [AMMR art. 67.9](../articles/ammr-067.md) | Omfördelningsmedlemsstaten bekräftar mottagande; tystnad = bekräftelse |
+| **Överföringsbeslut** — 1 vecka | [AMMR art. 67.10](../articles/ammr-067.md) | Från bekräftelse till beslut om överföring |
+| **Överföring** — 4 veckor | [AMMR art. 67.11](../articles/ammr-067.md) | Från bekräftelse till faktisk överföring; kan frysas vid suspensiv verkan (art. 43.3) |
 
 ### Koppling till statistik
 

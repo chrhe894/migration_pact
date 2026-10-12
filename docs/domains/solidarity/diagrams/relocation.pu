@@ -3,11 +3,12 @@
 '
 ' Syfte: Visualiserar omfördelningsförfarandet.
 '
-' Källa: AMMR artiklarna 57, 63, 66, 67, 68
+' Källa: AMMR artiklarna 57, 63, 67 (p. 9-11), 68
 '
 ' Relaterade regler:
-'   RULE-AMMR-057-001, RULE-AMMR-063-001, RULE-AMMR-066-001,
-'   RULE-AMMR-067-001
+'   RULE-AMMR-057-001, RULE-AMMR-063-001, RULE-AMMR-067-001
+'
+' Tidsfrister (art. 67): bekräftelse 1 v (ev. 2), beslut 1 v, överföring 4 v
 '
 ' Status: Draft
 ' ============================================================================
@@ -46,8 +47,6 @@ end note
 :[[../rules/rule-ammr-067-001.md Omfördelningsmedlemsstaten meddelas]];
 note right
   [[../rules/rule-ammr-067-001.md RULE-AMMR-067-001]]
-  Överföring inom **4 veckor**
-  efter bekräftelse
   ([[../articles/ammr-067.md ART-AMMR-067]])
 end note
 
@@ -63,13 +62,28 @@ if (Säkerhetsskäl att vägra?) then (Ja)
 
 else (Nej)
 
-    :[[../rules/rule-ammr-066-001.md Omfördelningsmedlemsstaten\nbekräftar mottagande]];
+    :[[../rules/rule-ammr-067-001.md Omfördelningsmedlemsstaten\nbekräftar mottagande]];
     note right
-      [[../rules/rule-ammr-066-001.md RULE-AMMR-066-001]]
-      ([[../articles/ammr-066.md ART-AMMR-066]])
+      Bekräftelse inom **1 vecka**
+      (undantagsvis 2 veckor)
+      Tystnad = bekräftelse
+      ([[../articles/ammr-067.md ART-AMMR-067]] p. 9)
     end note
 
-    :Överföring inom 4 veckor;
+    :Överföringsbeslut fattas;
+    note right
+      Beslut inom **1 vecka**
+      från bekräftelsen
+      ([[../articles/ammr-067.md ART-AMMR-067]] p. 10)
+    end note
+
+    :Överföring verkställs;
+    note right
+      Inom **4 veckor** efter bekräftelse
+      (eller slutligt beslut vid
+      suspensiv verkan, art. 43.3)
+      ([[../articles/ammr-067.md ART-AMMR-067]] p. 11)
+    end note
 
     :Omfördelningsmedlemsstaten blir\nansvarig stat;
     note right
