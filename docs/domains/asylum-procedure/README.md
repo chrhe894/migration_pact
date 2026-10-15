@@ -32,6 +32,8 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 - [APR artikel 40](articles/apr-040.md) — Uttryckligt återkallande
 - [APR artikel 41](articles/apr-041.md) — Implicit återkallande
 - [APR artikel 42](articles/apr-042.md) — Påskyndat prövningsförfarande
+- [APR artikel 67](articles/apr-067.md) — Rätten till ett effektivt rättsmedel
+- [APR artikel 68](articles/apr-068.md) — Överklagandets suspensiva verkan
 - [APR artikel 72](articles/apr-072.md) — Lagring av uppgifter
 
 ---

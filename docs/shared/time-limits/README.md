@@ -154,6 +154,24 @@ Tisdag   = fristen löper ut 24:00 (måndag + tisdag = två arbetsdagar)
 
 Utan art. 3.5 skulle fristen löpt ut måndag — i praktiken efter en enda arbetsdag. Regeln om minst två arbetsdagar förhindrar det.
 
+### Korta dagsfrister där art. 3.5 kan bli aktuell
+
+Regeln om minst två arbetsdagar biter bara på frister uttryckta i **dagar** (inte arbetsdagar) i spannet **2–6 dagar** — kortare kan inte träffas (regeln kräver "två eller flera dagar"), och frister på 7 dagar eller mer rymmer alltid minst två arbetsdagar. Nedan de frister i det spannet som är kandidater, med bedömning av om regeln bör tillämpas.
+
+| Frist | Avser | Entitet | Art. 3.5 tillämplig? | Resonemang |
+|-------|-------|---------|----------------------|------------|
+| **3 dagar** — screening inom territoriet ([scr art. 8.4](../../domains/screening/rules/rule-scr-008-002.md)) | Slutföra screening | Myndighet | **Ja (säkert)** | Screeningförordningen saknar egen beräkningsregel → [1182/71](../../references/legislation/time-limits-regulation.md) fyller ut, inkl. art. 3.5 |
+| **4 dagar** — förkortad screening ([scr art. 8.3](../../domains/screening/rules/rule-scr-008-001.md)) | Slutföra screening (>72h vid gräns) | Myndighet | **Ja (säkert)** | Samma grund som ovan |
+| **2 dagar** — Etias/Europol motiverat yttrande ([screening art. 35a](../../domains/screening/articles/scr-035a.md)) | Yttrande om säkerhetshot (bevakningslista) | Myndighet | **Ja (säkert)** | Ligger i screeningens tillämpningsområde → 1182/71 gäller. Kort frist som lätt får < 2 arbetsdagar över en helg |
+| **5–10 dagar** — överklagandefrist ([APR art. 67.7](../../domains/asylum-procedure/articles/apr-067.md)) | Lämna in överklagande | **Individ** | **Bör tillämpas** (men öppen fråga för APR) | Det är den enskildes frist att utöva ett rättsmedel — precis det art. 3.5 skyddar. APR har dock egen beräkningsregel (art. 73) som inte återger 3.5 → se öppen fråga |
+| **5 dagar (minst)** — begäran att stanna kvar ([APR art. 68.5](../../domains/asylum-procedure/articles/apr-068.md)) | Begära att få stanna i väntan på överklagande | **Individ** | **Bör tillämpas** (men öppen fråga för APR) | Individfrist med allvarlig konsekvens (avlägsnande). Samma öppna fråga som ovan |
+
+**Varför individfristerna väger tyngre:** art. 3.5 är tänkt att skydda den som ska *hinna agera* inom en kort frist. När fristen löper för en enskild (överklaga, begära att stanna) vore det orimligt att den i praktiken kollapsar till en enda arbetsdag. Myndighetsinterna frister (t.ex. screeningens slutförande) träffas också av regeln, men poängen är tydligast för individen.
+
+**Varför AMMR art. 67.10 (2 dagar) INTE är med:** underrättelsen om överföringsbeslut ska ske "senast två dagar **före** överföringen" ([AMMR art. 67.10](../../domains/solidarity/articles/ammr-067.md)). Det är en **baklänges räknad varseltid**, inte en frist att utföra något *inom*. Art. 3.5 är skriven för framåtlöpande frister; 1182/71 art. 3.4 undantar dessutom uttryckligen frister som räknas bakåt från helgdagsframflyttning. Den hanteras alltså inte av regeln.
+
+> **Timfrister (gränsfall):** Eurodacs 72h/48h-frister (art. 15 m.fl.) uttrycks i **timmar**, inte dagar. Art. 3.5 talar om "dagar" och är därför inte direkt tillämplig, trots att 72h ≈ 3 dygn. En öppen fråga är hur dessa ska hanteras operativt över helger.
+
 ---
 
 ## Koncept
