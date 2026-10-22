@@ -51,7 +51,7 @@ För vissa kategorier raderas Eurodac-uppgifter även vid **uppehållstillstånd
 
 <object type="image/svg+xml" data="diagrams/data-retention.svg" width="100%"></object>
 
-Källa: [`data-retention.puml`](diagrams/data-retention.puml)
+[Öppna diagrammet i egen flik](diagrams/data-retention.svg){target=_blank} (zooma för att se hela) · Källa: [`data-retention.puml`](diagrams/data-retention.puml)
 
 ---
 
