@@ -120,6 +120,7 @@ Se även:
 | [Personliga intervjuer](shared/interviews/README.md) | Personliga intervjuer och övriga intervjuer |
 | [Statistik](shared/statistics/README.md) | Datapunkter och beräkningar |
 | [Flaggor och markeringar](shared/flags/README.md) | Villkorsutlösta flaggor, markeringar och varningar |
+| [Gallring och radering](shared/data-retention/README.md) | Lagringstider, radering och medborgarskapsundantag |
 
 ---
 

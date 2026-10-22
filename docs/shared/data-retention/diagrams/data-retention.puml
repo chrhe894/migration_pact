@@ -1,0 +1,127 @@
+' ============================================================================
+' Diagram: Gallring och radering av uppgifter
+'
+' Syfte: Visar de olika fallen för när uppgifter ska raderas (ordinarie frist,
+'        förtida radering vid medborgarskap) OCH pekar ut de systemproblem
+'        som uppstår när regimerna ska gå ihop. Problem markeras med dämpat
+'        röda noter.
+'
+' Källa: APR art. 72; Eurodac art. 29-30; utlänningsdataförordn. 3 §;
+'        arkivlagen 1990:782; medborgarskapslagen 2001:82; GDPR (2016/679)
+'
+' Status: Draft
+' ============================================================================
+
+@startuml data-retention
+
+title Gallring och radering av uppgifter — fall och problem
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Uppgifter samlas in under förfarandet\n(intervjurapport + ljud-/videoinspelning,\nregistrerings- och inlämningsuppgifter);
+
+note right #FADBD8
+  <b>Problem 1 — olika klockor</b>
+  Tre regimer med olika startpunkt:
+  asyl-akt (slutligt beslut),
+  Eurodac (överföring),
+  nationell biometri (registrering).
+  Samma person → olika raderingsdatum.
+end note
+
+split
+  ' ---- Asyl-akten (APR art. 72) ----
+  :[[../../../domains/asylum-procedure/articles/apr-072.md **Asyl-akt** (APR art. 72)]]\nuppgifter enligt art. 14, 27, 28;
+  :Startpunkt: dagen för\n**slutligt beslut**;
+
+  if (Medborgarskap i en MS\nföre 10 år?) then (Ja)
+    :Radera så snart MS\nfår kännedom (art. 72.1);
+    note right #FADBD8
+      <b>Problem 2 — triggern saknar väg</b>
+      Medborgarskap beslutas i annan
+      process/myndighet
+      ([[../../../references/legislation/medborgarskapslagen.md medborgarskapslagen]]).
+      Ingen mekanism sprider händelsen
+      till lagringssystemen.
+      ---
+      <b>Problem 3 — gränsöverskridande</b>
+      Medborgarskap i *annan* MS ska också
+      utlösa radering, men hur får Sverige
+      kännedom?
+    end note
+  else (Nej)
+    :Radera vid **10 år**\nfrån slutligt beslut;
+  endif
+
+split again
+  ' ---- Eurodac (art. 29/30) ----
+  :[[../../../domains/eurodac/articles/eur-029.md **Eurodac** (art. 29/30)]]\nbiometriska uppgifter;
+  :Startpunkt: dagen för\n**överföring** till Eurodac;
+
+  if (Radering i förtid?\n(medborgarskap / uppehålls-\ntillstånd / lämnat EU)) then (Ja)
+    :Ursprungs-MS begär radering\ni centralsystemet utan dröjsmål\n(art. 30);
+  else (Nej)
+    :Radera vid **10 år** (asylsökande)\neller **5 år** (olaglig vistelse)\nfrån överföring (art. 29);
+  endif
+
+split again
+  ' ---- Nationell biometri (utlänningsdataförordn. 3 §) ----
+  :[[../../../references/legislation/utlanningsdataforordningen.md **Nationell biometri** (SE)]]\nMigrationsverkets fingeravtrycks-/fotoregister;
+  :Startpunkt: dagen för\n**registrering**;
+
+  if (Svenskt medborgarskap?) then (Ja)
+    :Gallras **senast när**\npersonen blir svensk\nmedborgare (3 §);
+  else (Nej)
+    :Gallras vid **10 år**\nfrån registrering (3 §);
+  endif
+end split
+
+:Radering ska verkställas\ni respektive system;
+
+note right #FADBD8
+  <b>Problem 4 — ljud-/videofiler</b>
+  Intervjuinspelningar
+  ([[../../../domains/asylum-procedure/articles/apr-014.md art. 14]])
+  kan ligga i separat medielagring, skilt
+  från akten → triggern måste nå även dit.
+end note
+
+if (Nationell arkivrätt?) then
+  :[[../../../references/legislation/arkivlagstiftning.md Arkivlagen: allmänna handlingar **ska bevaras** (3 §)]];
+  note right #FADBD8
+    <b>Problem 5 — gallra vs. bevara</b>
+    EU kräver radering; arkivlagen utgår
+    från bevarande. Löses rättsligt av
+    [[../../../references/legislation/arkivlagstiftning.md arkivlagen 10 § 3 st]]
+    (avvikande regler gäller) — men systemen
+    måste faktiskt tillämpa EU-fristen,
+    inte normalt bevarande.
+  end note
+endif
+
+:Uppgifterna raderade / gallrade;
+
+note right
+  GDPR (2016/679) gäller parallellt:
+  ändamålsbegränsning + lagringsminimering
+  (APR art. 72.2)
+end note
+
+stop
+
+@enduml
