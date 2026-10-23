@@ -47,6 +47,26 @@ För vissa kategorier raderas Eurodac-uppgifter även vid **uppehållstillstånd
 
 ---
 
+## Exempel — medborgarskap efter 8 år
+
+Scenariot: en sökande registreras, får avslag, och förvärvar så småningom svenskt medborgarskap efter åtta års hemvist — alltså **före** tioårsfristens utgång. Vad händer med uppgifterna i akten?
+
+| Uppgift i ärendet | Omfattas av | Öde vid medborgarskap |
+|-------------------|-------------|------------------------|
+| **Ljud-/videoinspelning av intervjun** | [APR art. 14 → art. 72.1](../../domains/asylum-procedure/articles/apr-072.md) | **Raderas** i förtid, så snart medlemsstaten får kännedom om medborgarskapet |
+| Registrerings- och inlämningsuppgifter | [APR art. 27/28 → art. 72.1](../../domains/asylum-procedure/articles/apr-072.md) | **Raderas** i förtid |
+| Biometri i Migrationsverkets register | [Utlänningsdataförordningen 3 §](../../references/legislation/utlanningsdataforordningen.md) | **Raderas** senast när personen blir svensk medborgare |
+| Biometri i Eurodac | [Eurodac art. 30](../../domains/eurodac/articles/eur-030.md) | **Raderas** i förtid |
+| **Beslut och centrala ärendehandlingar** | [Arkivlagen 3 §](../../references/legislation/arkivlagstiftning.md) (bevarandehuvudregel) | **Bevaras/arkiveras** — ingen specifik gallringsregel träffar dem |
+
+**Poängen:** två delar av *samma ärende* får motsatt öde. **Ljudinspelningen ska raderas**, medan själva **beslutet kan bevaras** för framtida rättsskipning och forskning. Det är inte "radera hela akten" — det är radera de specifikt reglerade uppgifterna och bevara resten.
+
+> **Notera:** åttaårssiffran styr ingenting här. Det är **medborgarskapshändelsen** som triggar raderingen — hade personen blivit medborgare efter fem år hade inspelningen raderats då i stället. Åtta år är bara hemvistvillkoret för att nå medborgarskap ([medborgarskapslagen 11 §](../../references/legislation/medborgarskapslagen.md)).
+
+Att raderingen faktiskt sker "direkt" förutsätter dock att signalen om medborgarskap når fram till det system där ljudfilen ligger — ofta en **separat medielagring** (se **Problem 4** nedan). Det är där den rättsliga skyldigheten och den tekniska verkligheten glider isär.
+
+---
+
 ## Översikt — aktivitetsdiagram
 
 <object type="image/svg+xml" data="diagrams/data-retention.svg" width="100%"></object>
