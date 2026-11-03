@@ -72,6 +72,16 @@ partition "Klassificering" {
     beslut om en tidigare ansökan
   end note
   :Fastställ ansvarig medlemsstat;
+  :**Tidsfrist startar** vid inlämning
+  (lodged, art. 28.2);
+  note right
+    == Frist-klockan ==
+    Alla frister i [[../articles/apr-035.md art. 35]]
+    löper **från inlämningsdagen**,
+    inte från förhandsprövningen.
+    Förhandsprövningen ryms **inom**
+    upptagandefristen (2 mån).
+  end note
 }
 
 partition "Förhandsprövning" {
@@ -106,13 +116,16 @@ if ("Finns nya relevanta\nomständigheter?") then ("Ja")
     till sakprövning;
     note right
       Tidsfrist: **6 månader**
-      ([[../rules/rule-apr-035-001.md RULE-APR-035-001]])
+      ([[../articles/apr-035.md art. 35.4]])
+      **Frist stoppas** vid sakbeslut
       ---
       Påskyndat: **3 månader**
-      (om uppenbart ogrundad, art. 42)
+      (om uppenbart ogrundad, art. 35.3/42)
       ---
       Gränsförfarande: **12 veckor**
       (om fördröjningssyfte, art. 43.1 c)
+      ---
+      Förlängning: +6 mån (art. 35.5)
     end note
   }
 
@@ -122,12 +135,19 @@ else ("Nej")
     note right
       [[../rules/rule-apr-055-002.md RULE-APR-055-002]]
       Inga nya relevanta omständigheter
-      → ansökan avvisas
+      → ansökan avvisas (art. 38.2)
+      ---
+      Tidsfrist: **2 månader**
+      ([[../articles/apr-035.md art. 35.1 1 st.]])
+      **Frist stoppas** när beslut fattas
+      ---
+      Specialfall art. 38.1 e:
+      **10 arbetsdagar**
     end note
   }
 endif
 
-partition "Rätt att stanna" {
+partition "Rätt att stanna (rättsföljd — ej tidsfrist)" {
   :Räkna om ansökan är första,
   andra eller följande efterföljande ansökan;
   :Kontrollera återvändandebeslut
@@ -135,8 +155,13 @@ partition "Rätt att stanna" {
   note right
     [[../articles/apr-056.md ART-APR-056]]
     Undantag från rätt att stanna
-    kan gälla vid andra eller
-    följande efterföljande ansökan
+    kan gälla vid:
+    • a) första (fördröjningssyfte)
+    • b) andra eller följande
+    ---
+    OBS: detta är en **rättsföljd**
+    (stanna kvar eller ej), **inte**
+    en tidsfrist.
   end note
 }
 
