@@ -72,8 +72,8 @@ Alla frister löper **från den dag ansökan lämnades in** (lodged, [art. 28.2]
 
 | Utfall | Frist | Grund |
 |--------|-------|-------|
-| Avvisning som ej upptagbar (efterföljande utan nya faktorer, art. 38.2) | **2 månader** | [art. 35.1 första stycket](../articles/apr-035.md) |
-| Återvändandebeslut + sen ansökan (art. 38.1 e) | **10 arbetsdagar** | [art. 35.1 andra stycket](../articles/apr-035.md) |
+| Avvisning som ej upptagbar (efterföljande utan nya faktorer, [art. 38.2](../articles/apr-038.md)) | **2 månader** | [art. 35.1 första stycket](../articles/apr-035.md) |
+| Återvändandebeslut + sen ansökan ([art. 38.1 e](../articles/apr-038.md)) | **10 arbetsdagar** | [art. 35.1 andra stycket](../articles/apr-035.md) |
 | Nya faktorer → prövning i sak | 3 mån (påskyndat) / **6 mån** (ordinarie) | [art. 35.3–35.4](../articles/apr-035.md) |
 
 Förlängning: +2 mån för upptagandefristen (art. 35.2) och +6 mån för sakfristen (art. 35.5), vid massinflöde, komplexa omständigheter eller sökandens försummelse. **Förhandsprövningen** (art. 55.3–4) har ingen egen dagsfrist — den ryms inom tvåmånadersfristen.

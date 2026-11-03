@@ -45,7 +45,7 @@ Alla frister löper **från den dag ansökan lämnades in** (lodged, [art. 28.2]
 | Tidsfrist | Källa | Kommentar |
 |-----------|-------|-----------|
 | **Avvisning som ej upptagbar** — 2 månader | [APR art. 35.1 första st.](../articles/apr-035.md) | Vanligaste utfallet: efterföljande ansökan utan nya faktorer nekas enligt art. 38.2 |
-| **Återvändandebeslut + sen ansökan (art. 38.1 e)** — 10 arbetsdagar | [APR art. 35.1 andra st.](../articles/apr-035.md) | Kortare specialfrist |
+| **Återvändandebeslut + sen ansökan ([art. 38.1 e](../articles/apr-038.md))** — 10 arbetsdagar | [APR art. 35.1 andra st.](../articles/apr-035.md) | Kortare specialfrist; fristen anges i art. 35, grunden i art. 38.1 e |
 | **Förhandsprövning** — ingen explicit dagsfrist | [APR art. 55.3–4](../articles/apr-055.md) | Ska ske snarast; ryms inom tvåmånadersfristen ovan |
 | **Prövning i sak (om nya faktorer)** — 6 månader | [APR art. 35.4](../articles/apr-035.md) | Samma frist som ordinarie ansökningar |
 | **Påskyndat förfarande** — 3 månader | [APR art. 35.3 / 42](../articles/apr-042.md) | Om ansökan bedöms uppenbart ogrundad |
