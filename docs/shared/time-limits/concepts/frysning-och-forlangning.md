@@ -76,7 +76,7 @@ Utan frysningsmekanism skulle beviljad suspensiv verkan i praktiken kunna leda t
 
 | Frist | Ordinarie | Förlängd | Rättslig grund | Regel |
 |-------|-----------|----------|----------------|-------|
-| Prövning i sak | 6 månader | 15 månader | [APR art. 35](../../../domains/asylum-procedure/articles/apr-035.md) | [RULE-APR-035-002](../../../domains/asylum-procedure/rules/rule-apr-035-002.md) |
+| Prövning i sak | 6 månader | 12 månader (6+6) | [APR art. 35.4–35.5](../../../domains/asylum-procedure/articles/apr-035.md) | [RULE-APR-035-002](../../../domains/asylum-procedure/rules/rule-apr-035-002.md) |
 
 **Utlösare:** Den beslutande myndigheten bedömer att ärendet innefattar komplexa sak- eller rättsfrågor som kräver längre utredningstid. Förlängningen ska vara motiverad.
 

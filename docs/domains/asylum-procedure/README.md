@@ -105,7 +105,8 @@ Beslut i sak (art. 39)
 | Regel | Beskrivning |
 |-------|-------------|
 | [RULE-APR-035-001](rules/rule-apr-035-001.md) | Prövningstidsfrist — sex månader |
-| [RULE-APR-035-002](rules/rule-apr-035-002.md) | Förlängning vid komplexa ärenden — upp till 15 månader |
+| [RULE-APR-035-002](rules/rule-apr-035-002.md) | Förlängning av sakfristen — upp till 12 månader (6+6) |
+| [RULE-APR-035-003](rules/rule-apr-035-003.md) | Upptagandefrister — 2 månader / 10 arbetsdagar |
 
 ### APR artikel 38 — Upptagande till prövning
 

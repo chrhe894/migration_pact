@@ -14,9 +14,9 @@ Statistik är inte en rättsakt i sig utan en stödfunktion som påverkar tillä
 
 | Användning | Tröskel | Källa |
 |-----------|---------|-------|
-| Obligatoriskt gränsförfarande | < 20% i EU-genomsnitt | APR art. 45.1 → art. 42.1 c |
-| Gränsförfarande vid kris | < 50% i EU-genomsnitt | Krishanteringsförordningen art. 11 |
-| Påskyndat förfarande — säkert ursprungsland | < 20% | APR art. 42.1 c |
+| Obligatoriskt gränsförfarande | < 20% i EU-genomsnitt | [APR art. 45.1](../../domains/border-procedure/articles/apr-045.md) → [art. 42.1 c](../../domains/asylum-procedure/articles/apr-042.md) |
+| Gränsförfarande vid kris | < 50% i EU-genomsnitt | [Krishanteringsförordningen art. 11](../../domains/crisis/articles/crisis-011.md) |
+| Påskyndat förfarande — säkert ursprungsland | < 20% | [APR art. 42.1 c](../../domains/asylum-procedure/articles/apr-042.md) |
 
 **Datakälla:** EU:s asylbyrå (EUAA) publicerar kvartals- och årsdata.
 
@@ -26,10 +26,10 @@ Statistik är inte en rättsakt i sig utan en stödfunktion som påverkar tillä
 
 | Parameter | Värde/formel | Källa |
 |-----------|--------------|-------|
-| Unionens totala kapacitet | 30 000 | APR art. 46 |
-| Medlemsstats kapacitet | Proportionell andel av 30 000 baserat på 3 års data | APR art. 47.4 |
-| Beräkningsgrund | Irreguljära gränspassager + landsättningar + nekade inresor | APR art. 47.4 |
-| Årligt högsta antal | 2x (2026), 3x (2027), 4x (2028) av kapaciteten | APR art. 47.1 |
+| Unionens totala kapacitet | 30 000 | [APR art. 46](../../domains/border-procedure/articles/apr-046.md) |
+| Medlemsstats kapacitet | Proportionell andel av 30 000 baserat på 3 års data | [APR art. 47.4](../../domains/border-procedure/articles/apr-047.md) |
+| Beräkningsgrund | Irreguljära gränspassager + landsättningar + nekade inresor | [APR art. 47.4](../../domains/border-procedure/articles/apr-047.md) |
+| Årligt högsta antal | 2x (2026), 3x (2027), 4x (2028) av kapaciteten | [APR art. 47.1](../../domains/border-procedure/articles/apr-047.md) |
 
 **Datakälla:** Frontex (gränspassager) och Eurostat.
 
@@ -39,8 +39,8 @@ Statistik är inte en rättsakt i sig utan en stödfunktion som påverkar tillä
 
 | Parameter | Vikt | Källa |
 |-----------|------|-------|
-| BNP | 50% | AMMR art. 66 |
-| Befolkning | 50% | AMMR art. 66 |
+| BNP | 50% | [AMMR art. 66](../../domains/solidarity/articles/ammr-066.md) |
+| Befolkning | 50% | [AMMR art. 66](../../domains/solidarity/articles/ammr-066.md) |
 
 **Datakälla:** Eurostat.
 
@@ -50,10 +50,10 @@ Statistik är inte en rättsakt i sig utan en stödfunktion som påverkar tillä
 
 | Parameter | Tidsfrist | Källa |
 |-----------|-----------|-------|
-| Irreguljär gränspassage | 20 månader | AMMR art. 33.1 |
-| Landsättning (sök-och-räddning) | 12 månader | AMMR art. 33.2 |
-| Frånvaro från EU | 9 månader | AMMR art. 37.4 |
-| Efter gränsförfarandebeslut | 15 månader | AMMR art. 37.2 |
+| Irreguljär gränspassage | 20 månader | [AMMR art. 33.1](../../domains/responsibility/articles/ammr-033.md) |
+| Landsättning (sök-och-räddning) | 12 månader | [AMMR art. 33.2](../../domains/responsibility/articles/ammr-033.md) |
+| Frånvaro från EU | 9 månader | [AMMR art. 37.4](../../domains/responsibility/articles/ammr-037.md) |
+| Efter gränsförfarandebeslut | 15 månader | [AMMR art. 37.2](../../domains/responsibility/articles/ammr-037.md) |
 
 **Datakälla:** Eurodac (registrerade uppgifter), in- och utresesystemet (EES).
 
@@ -73,9 +73,9 @@ Statistik är inte en rättsakt i sig utan en stödfunktion som påverkar tillä
 
 ## Rapportering
 
-- **AMMR artikel 9** — Den årliga europeiska asyl- och migrationsrapporten
-- **AMMR artikel 10** — Information för att bedöma migrationstryck
-- **APR artikel 49** — Medlemsstats underrättelse om kapacitet
+- [AMMR artikel 9](articles/ammr-009.md) — Den årliga europeiska asyl- och migrationsrapporten
+- [AMMR artikel 10](articles/ammr-010.md) — Information för att bedöma migrationstryck
+- [APR artikel 49](../../domains/border-procedure/articles/apr-049.md) — Medlemsstats underrättelse om kapacitet
 
 ---
 

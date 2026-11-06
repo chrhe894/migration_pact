@@ -41,7 +41,8 @@
 - [x] RULE-APR-034-001 — Individuell, objektiv, opartisk prövning
 - [x] RULE-APR-034-002 — Prövning mot flyktingstatus och subsidiärt skydd
 - [x] RULE-APR-035-001 — Prövningstidsfrist sex månader
-- [x] RULE-APR-035-002 — Förlängning till 15 månader
+- [x] RULE-APR-035-002 — Förlängning av sakfristen (max 12 månader)
+- [x] RULE-APR-035-003 — Upptagandefrister (2 månader / 10 arbetsdagar)
 - [x] RULE-APR-038-001 — Grunder för avvisning
 - [x] RULE-APR-042-001 — Grunder för påskyndat förfarande
 - [x] RULE-APR-042-002 — Tidsfrist tre månader (påskyndat)

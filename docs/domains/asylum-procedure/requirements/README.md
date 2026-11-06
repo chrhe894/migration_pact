@@ -12,7 +12,7 @@
 | [REQ-APR-034-003](req-apr-034-003.md) | Aktuell landinformation (COI) ska beaktas | [RULE-APR-034-001](../rules/rule-apr-034-001.md) | [CAP-ASY-001](../capabilities/cap-asy-001.md) |
 | [REQ-APR-034-004](req-apr-034-004.md) | Myndigheten ska ha tillgång till expertutlåtanden vid behov | [RULE-APR-034-001](../rules/rule-apr-034-001.md) | [CAP-ASY-001](../capabilities/cap-asy-001.md) |
 | [REQ-APR-035-001](req-apr-035-001.md) | Beslut ska fattas inom 6 månader från inlämnande | [RULE-APR-035-001](../rules/rule-apr-035-001.md) | [CAP-ASY-005](../capabilities/cap-asy-005.md) |
-| [REQ-APR-035-002](req-apr-035-002.md) | Förlängning till 15 månader vid komplexitet | [RULE-APR-035-002](../rules/rule-apr-035-002.md) | [CAP-ASY-005](../capabilities/cap-asy-005.md) |
+| [REQ-APR-035-002](req-apr-035-002.md) | Förlängning av sakfristen till max 12 månader (6+6) | [RULE-APR-035-002](../rules/rule-apr-035-002.md) | [CAP-ASY-005](../capabilities/cap-asy-005.md) |
 | [REQ-APR-036-001](req-apr-036-001.md) | Beslut ska meddelas skriftligen | [Art. 36](../articles/apr-036.md) | [CAP-ASY-005](../capabilities/cap-asy-005.md) |
 | [REQ-APR-036-002](req-apr-036-002.md) | Avslagsbeslut ska innehålla faktiska och rättsliga skäl | [Art. 36](../articles/apr-036.md) | [CAP-ASY-005](../capabilities/cap-asy-005.md) |
 | [REQ-APR-036-003](req-apr-036-003.md) | Avslagsbeslut ska innehålla information om överklagandemöjligheter och tidsfrister | [Art. 36](../articles/apr-036.md) | [CAP-ASY-005](../capabilities/cap-asy-005.md) |
@@ -37,8 +37,8 @@
 | [REQ-APR-055-001](req-apr-055-001.md) | Förhandsprövning ska genomföras vid efterföljande ansökan | [RULE-APR-055-001](../rules/rule-apr-055-001.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
 | [REQ-APR-055-002](req-apr-055-002.md) | Ansökan ska avvisas om inga nya relevanta omständigheter | [RULE-APR-055-002](../rules/rule-apr-055-002.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
 | [REQ-APR-055-003](req-apr-055-003.md) | Nya omständigheter ska leda till sakprövning | [RULE-APR-055-001](../rules/rule-apr-055-001.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
-| [REQ-APR-055-004](req-apr-055-004.md) | Vid första efterföljande ansökan har sökanden rätt att stanna | [Art. 55](../articles/apr-055.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
-| [REQ-APR-056-001](req-apr-056-001.md) | Undantag från rätt att stanna kan gälla vid andra/följande efterföljande ansökan | [RULE-APR-056-001](../rules/rule-apr-056-001.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
+| [REQ-APR-055-004](req-apr-055-004.md) | Vid första efterföljande ansökan har sökanden som huvudregel rätt att stanna (undantag vid enbart fördröjningssyfte) | [Art. 55](../articles/apr-055.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
+| [REQ-APR-056-001](req-apr-056-001.md) | Undantag från rätt att stanna får medges vid förhalande första (56 a) och vid andra eller ytterligare efterföljande ansökan (56 b) | [RULE-APR-056-001](../rules/rule-apr-056-001.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
 | [REQ-APR-056-002](req-apr-056-002.md) | Undantag kräver att non-refoulement-kontroll genomförs | [RULE-APR-056-001](../rules/rule-apr-056-001.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
 | [REQ-APR-055-005](req-apr-055-005.md) | Ansökan ska markeras som efterföljande vid tidigare slutligt beslut (inkl. Eurodac-träff i annan MS) | [RULE-APR-055-003](../rules/rule-apr-055-003.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |
 | [REQ-APR-056-003](req-apr-056-003.md) | Antalet efterföljande ansökningar ska räknas för att avgöra rätten att stanna | [RULE-APR-056-002](../rules/rule-apr-056-002.md) | [CAP-ASY-004](../capabilities/cap-asy-004.md) |

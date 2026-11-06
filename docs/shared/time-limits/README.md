@@ -41,7 +41,8 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 | Tidsfrist | Förordning | Regel |
 |-----------|------------|-------|
 | 6 månader — prövning reguljärt förfarande | APR art. 35 | [RULE-APR-035-001](../../domains/asylum-procedure/rules/rule-apr-035-001.md) |
-| 15 månader — förlängning vid komplexitet | APR art. 35 | [RULE-APR-035-002](../../domains/asylum-procedure/rules/rule-apr-035-002.md) |
+| 12 månader — förlängning av sakfristen (6+6) | APR art. 35.5 | [RULE-APR-035-002](../../domains/asylum-procedure/rules/rule-apr-035-002.md) |
+| 2 månader — upptagandeprövning (10 arbetsdagar i art. 38.1 e-fallet) | APR art. 35.1 | [RULE-APR-035-003](../../domains/asylum-procedure/rules/rule-apr-035-003.md) |
 | 3 månader — påskyndat förfarande | APR art. 42 | [RULE-APR-042-002](../../domains/asylum-procedure/rules/rule-apr-042-002.md) |
 
 ### Gränsförfarande (Border Procedure)

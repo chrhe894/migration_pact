@@ -21,7 +21,7 @@ Undantag
 
 ## Regel
 
-Vid komplexa ärenden som innebär sakfrågor eller rättsliga frågor som kräver längre utredningstid får prövningsfristen förlängas till upp till 15 månader.
+Sakprövningsfristen på sex månader (artikel 35.4) får förlängas med **högst sex månader** — det vill säga till sammanlagt **tolv månader** — vid ett oproportionerligt stort antal ansökningar inom samma tidsperiod, komplexa sak- eller rättsfrågor, eller när förseningen beror på sökandens försummelse (artikel 35.5).
 
 ---
 
@@ -33,15 +33,16 @@ Ger den beslutande myndigheten möjlighet att genomföra en grundlig utredning i
 
 ## Utlösare
 
-Den beslutande myndigheten bedömer att ärendet innefattar komplexa sak- eller rättsfrågor som kräver längre utredningstid.
+En av grunderna i artikel 35.5 föreligger: oproportionerligt stort antal ansökningar, komplexa sak-/rättsfrågor, eller sökandens försummelse av skyldigheter enligt artikel 9.
 
 ---
 
 ## Rättsverkan
 
-- Prövningsfristen förlängs till maximalt 15 månader.
-- Förlängningen ska vara motiverad av ärendets komplexitet.
+- Sakprövningsfristen förlängs med högst sex månader, till maximalt tolv månader.
+- Förlängningen ska vara motiverad av någon av grunderna i artikel 35.5.
 - Sökanden behåller sina rättigheter under hela den förlängda perioden.
+- En yttersta gräns på 21 månader gäller vid uppskjutande enligt artikel 35.7 (tillfälligt osäkra förhållanden i ursprungslandet).
 
 ---
 

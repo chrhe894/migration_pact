@@ -72,7 +72,7 @@ Om sökanden avviker, inte samarbetar eller inte inställer sig till intervju ut
 |-----------|-------|-----------|
 | **Reguljär prövning** — 6 månader | [APR art. 35](../articles/apr-035.md) | Från inlämnande till beslut |
 | **Påskyndat förfarande** — 3 månader | [APR art. 42](../articles/apr-042.md) | Om grunder enligt art. 42 föreligger |
-| **Vid komplexitet** — 15 månader | [APR art. 35](../articles/apr-035.md) | Förlängning vid komplexa sak- eller rättsfrågor |
+| **Vid komplexitet** — 12 månader (6+6) | [APR art. 35.5](../articles/apr-035.md) | Förlängning av sakfristen med högst sex månader |
 
 ### Koppling till statistik
 
@@ -89,7 +89,7 @@ Om sökanden avviker, inte samarbetar eller inte inställer sig till intervju ut
 - [RULE-APR-034-001](../rules/rule-apr-034-001.md) — Individuell, objektiv, opartisk prövning
 - [RULE-APR-034-002](../rules/rule-apr-034-002.md) — Prövning mot flyktingstatus och subsidiärt skydd
 - [RULE-APR-035-001](../rules/rule-apr-035-001.md) — Tidsfrist sex månader
-- [RULE-APR-035-002](../rules/rule-apr-035-002.md) — Förlängning till 15 månader
+- [RULE-APR-035-002](../rules/rule-apr-035-002.md) — Förlängning av sakfristen (max 12 månader)
 - [RULE-APR-038-001](../rules/rule-apr-038-001.md) — Grunder för avvisning
 - [RULE-APR-042-001](../rules/rule-apr-042-001.md) — Grunder för påskyndat förfarande
 - [RULE-APR-042-002](../rules/rule-apr-042-002.md) — Tidsfrist tre månader (påskyndat)
