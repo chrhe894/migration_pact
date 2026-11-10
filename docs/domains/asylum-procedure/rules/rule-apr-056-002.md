@@ -16,19 +16,19 @@ tags:
 
 ## Regeltyp
 
-Obligation
+Villkor (härledd implementeringsregel)
 
 ---
 
 ## Regel
 
-Det ska hållas reda på hur många efterföljande ansökningar en sökande har lämnat in och vilket slutligt utfall den föregående efterföljande ansökan fick. Nivån — första efterföljande ansökan respektive andra eller ytterligare — avgör vilken grund för undantag från rätten att stanna kvar som kan komma i fråga (artikel 56 a respektive b).
+Förordningen ålägger **ingen uttrycklig skyldighet** att föra en räknare över efterföljande ansökningar. Men **om** en medlemsstat vill tillämpa något av undantagen från rätten att stanna kvar enligt artikel 56, måste den kunna fastställa nivån — första efterföljande ansökan respektive andra eller ytterligare — och det slutliga utfallet av den föregående efterföljande ansökan. Att hålla reda på detta är alltså en **förutsättning** för att alls kunna åberopa artikel 56 a respektive b, inte ett självständigt krav i förordningen.
 
 ---
 
 ## Syfte
 
-Säkerställa att rätten att stanna kvar bedöms korrekt. Artikel 56 a (första efterföljande ansökan) kräver fördröjningssyfte, medan artikel 56 b (andra eller ytterligare) kräver ett slutligt nekande eller avslag som ogrundad på den föregående efterföljande ansökan.
+Säkerställa att rätten att stanna kvar kan bedömas korrekt **när** medlemsstaten väljer att tillämpa artikel 56. Artikel 56 a (första efterföljande ansökan) kräver fördröjningssyfte, medan artikel 56 b (andra eller ytterligare) kräver ett slutligt nekande eller avslag som ogrundad på den föregående efterföljande ansökan. Utnyttjar staten inte artikel 56-undantagen behövs ingen nivåräkning för det ändamålet.
 
 ---
 
@@ -49,6 +49,8 @@ En efterföljande ansökan har markerats ([RULE-APR-055-003](rule-apr-055-003.md
 ## Kommentar
 
 Nivåräkningen är en räknarbaserad flagga: antalet tidigare efterföljande ansökningar mäts mot tröskeln "första vs. andra/ytterligare", och utfallet av den föregående efterföljande ansökan registreras. Den förutsätter att markeringen enligt [RULE-APR-055-003](rule-apr-055-003.md) upprätthålls över tid. Se [shared/flags](../../../shared/flags/README.md).
+
+Till skillnad från en obligation (som artikel 56 inte innehåller) är detta en **härledd** regel: den följer av vad som praktiskt krävs för att tillämpa en frivillig bestämmelse. Eftersom själva artikel 56-undantaget är fakultativt ("medlemsstaterna **får**") är även räknaren villkorad av det nationella valet att använda undantaget.
 
 ---
 

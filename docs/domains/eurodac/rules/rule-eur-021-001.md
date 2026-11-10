@@ -21,27 +21,32 @@ Obligation
 
 ## Regel
 
-Medlemsstaterna ska ta biometriska uppgifter av varje person som fyllt sex år och som grips vid irreguljär passage av en yttre gräns och inte avvisas, samt överföra uppgifterna inom 72 timmar.
+För personer som beviljats inresa enligt ett nationellt vidarebosättningsprogram får **endast** de uppgifter som räknas upp i art. 21.1 registreras i Eurodac, inklusive datum då internationellt skydd eller humanitär status beviljades.
 
 ---
 
 ## Syfte
 
-Möjliggör identifiering och spårning av personer som passerar yttre gränser irreguljärt, som underlag för ansvarsbestämning och framtida jämförelser.
+Begränsar registreringen till nödvändiga uppgifter för kategorin.
 
 ---
 
 ## Utlösare
 
-En person grips av gränskontrollmyndighet vid irreguljär passage av en yttre gräns.
+Uppgifter om en person enligt art. 20.1 överförs till Eurodac.
 
 ---
 
 ## Rättsverkan
 
-- Biometriska uppgifter ska tas inom 72 timmar.
-- Uppgifterna ska överföras till centralsystemet.
-- Datasetet ska innehålla uppgift om gränsövergångsställe och datum.
+- Endast uppräknade fält får registreras.
+- Fälten i 21.1 a–f och h utgör ett dataset enligt förordning (EU) 2019/818 art. 27.1 aa.
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln avsåg tidigare biometri vid irreguljär passage av en yttre gräns, som regleras i art. 22 ([RULE-EUR-022-001](rule-eur-022-001.md)).
 
 ---
 

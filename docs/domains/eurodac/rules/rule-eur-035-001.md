@@ -9,38 +9,43 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 35](../articles/eur-035.md), punkt 1–2
+[Eurodac artikel 35](../articles/eur-035.md), punkt 1
 
 ---
 
 ## Regeltyp
 
-Obligation
+Systembeteende
 
 ---
 
 ## Regel
 
-eu-LISA och medlemsstaterna ska logga varje åtkomst till centralsystemet och varje begäran om jämförelse, inklusive syftet, datum, tid, myndighet och referensnummer.
+All kommunikation mellan utsedda myndigheter, kontrollmyndigheter, nationella åtkomstpunkter och Europols åtkomstpunkt ska vara **säkrad och ske elektroniskt**.
 
 ---
 
 ## Syfte
 
-Möjliggör dataskyddstillsyn och revision genom fullständig spårbarhet av all åtkomst.
+Skyddar uppgifterna i det brottsbekämpande förfarandet.
 
 ---
 
 ## Utlösare
 
-Åtkomst till eller begäran om jämförelse i centralsystemet sker.
+Kommunikation inom det brottsbekämpande förfarandet enligt art. 32.
 
 ---
 
 ## Rättsverkan
 
-- Varje åtkomst ska loggas.
-- Loggar ska vara tillgängliga för tillsynsmyndigheter.
+- Kommunikationen ska vara elektronisk och säkrad.
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln avsåg tidigare loggning av all åtkomst. Register över uppgiftsbehandling regleras i art. 41 ([RULE-EUR-041-001](rule-eur-041-001.md)).
 
 ---
 

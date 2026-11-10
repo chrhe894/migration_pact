@@ -9,39 +9,44 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 34](../articles/eur-034.md), punkt 1–2
+[Eurodac artikel 34](../articles/eur-034.md), punkt 1–4
 
 ---
 
 ## Regeltyp
 
-Systembeteende
+Villkor
 
 ---
 
 ## Regel
 
-Kommunikation med centralsystemet för brottsbekämpande jämförelser ska ske uteslutande genom nationella åtkomstpunkter, som ansvarar för att verifiera att villkoren i artikel 32 är uppfyllda.
+Europols utsedda myndighet får begära jämförelse med Eurodac inom Europols mandat endast om **samtliga** villkor är uppfyllda: a) jämförelser i informationssystem som är tillgängliga för Europol har inte fastställt identiteten, b) jämförelsen är nödvändig för att stödja medlemsstaternas arbete mot terroristbrott eller andra grova brott, c) den är nödvändig i ett särskilt fall och d) det finns rimliga skäl att anta att den väsentligen bidrar till det. Europols behandling av resultatet kräver **tillstånd från ursprungsmedlemsstaten**.
 
 ---
 
 ## Syfte
 
-Centraliserar kontrollen av brottsbekämpande åtkomst till en definierad nationell kanal, vilket underlättar tillsyn och loggning.
+Begränsar Europols åtkomst och ger ursprungsmedlemsstaten kontroll över användningen av uppgifterna.
 
 ---
 
 ## Utlösare
 
-En begäran om brottsbekämpande jämförelse ska skickas till centralsystemet.
+Europol överväger en framställan om jämförelse med Eurodac.
 
 ---
 
 ## Rättsverkan
 
-- Begäran ska passera nationell åtkomstpunkt.
-- Åtkomstpunkten ska verifiera villkoren.
-- Direktkommunikation utan åtkomstpunkt är förbjuden.
+- Tillståndet inhämtas via den nationella Europolenheten i ursprungsmedlemsstaten.
+- Framställan görs med biometriska eller alfanumeriska uppgifter.
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln avsåg tidigare kommunikation via nationella åtkomstpunkter (se [RULE-EUR-035-001](rule-eur-035-001.md)).
 
 ---
 

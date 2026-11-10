@@ -8,7 +8,7 @@ tags:
 
 # PROC-SOL-001
 
-# Omfördelning
+# Omfördelning (översikt)
 
 ## Trigger
 
@@ -18,11 +18,22 @@ En medlemsstat har konstaterats vara utsatt för migrationstryck och solidaritet
 
 ## Resultat
 
-Sökande har omfördelats till en bidragande stat som övertar prövningsansvaret.
+Sökande eller person med internationellt skydd har omfördelats till en bidragande stat som tar emot personen och blir ansvarig enligt [art. 68](../articles/ammr-068.md).
 
 ---
 
-## Huvudflöde
+## Två flöden: UT och IN
+
+Omfördelning ser olika ut beroende på om staten **skickar** eller **tar emot**. Rollerna har olika steg, olika frister och olika skyldigheter, och därför finns ett flöde per roll.
+
+| Flöde | Staten är | AMMR-term | Process | Kärnan |
+|-------|-----------|-----------|---------|--------|
+| **UT** | Utsatt stat som skickar | Gynnad medlemsstat (i repot även förmånsstat) | [PROC-SOL-002 Omfördelning UT](relocation-out.md) | Kontrollera hot, identifiera, översända uppgifter, besluta om och verkställa överföring |
+| **IN** | Bidragande stat som tar emot | Omfördelningsmedlemsstat | [PROC-SOL-003 Omfördelning IN](relocation-in.md) | Granska, bekräfta eller meddela hot, ombesörja ankomst, fastställa ansvar |
+
+---
+
+## Samspel
 
 <object type="image/svg+xml" data="../diagrams/relocation.svg" width="100%"></object>
 
@@ -30,15 +41,35 @@ Källa: [`relocation.pu`](../diagrams/relocation.pu)
 
 ---
 
-## Alternativt flöde — säkerhetsvägran
+## Tidsfrister i samspel
 
-Omfördelningsmedlemsstaten kan vägra om det finns rimliga skäl att anta att personen utgör en fara för nationell säkerhet eller allmän ordning.
+Fristerna ligger hos olika stater. Kolumnen *Vem* visar vilket flöde som äger fristen.
+
+| Steg | Vem | Frist | Startar | Fristtyp | Källa |
+|------|-----|-------|---------|----------|-------|
+| Översända uppgifter | UT | Så snart som möjligt | — | — | [art. 67.7](../articles/ammr-067.md) |
+| **Besked** (bekräftelse eller hot) | IN | **1 vecka** (undantagsvis högst 2, uppskjutande meddelas inom 1 v). Tystnad = bekräftelse | Mottagandet av informationen | Svarsfrist | [art. 67.9](../articles/ammr-067.md) |
+| **Överföringsbeslut** | UT | **1 vecka** | Bekräftelsen | Motsvarar [ATB](../../../shared/time-limits/concepts/fristtyp-accept-till-beslut.md) | [art. 67.10](../articles/ammr-067.md) |
+| Underrättelse till personen | UT | Senast **2 dagar** (sökande) / **1 vecka** (skyddade) före överföring | Räknas baklänges | — | [art. 67.10](../articles/ammr-067.md) |
+| **Överföring verkställd** | UT | **4 veckor**. Kan frysas vid suspensiv verkan (art. 43.3) | Bekräftelsen (eller slutligt beslut) | [ATÖ](../../../shared/time-limits/concepts/fristtyp-accept-till-overforing.md) | [art. 67.11](../articles/ammr-067.md) |
+| Underrätta om ankomst / utebliven ankomst | IN | Ingen frist angiven | — | — | [art. 68.1](../articles/ammr-068.md) |
 
 ---
 
-## Alternativt flöde — ansvarskompensation
+## Alternativt flöde — hot mot den inre säkerheten
 
-Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvaret för motsvarande antal ansökningar ([RULE-AMMR-063-001](../rules/rule-ammr-063-001.md)).
+Grunden i art. 67 är **hot mot den inre säkerheten**, och den kontrolleras av båda staterna:
+
+- **UT** ska säkerställa att det inte finns rimliga skäl att anse personen som hot innan förfarandet tillämpas (p. 2). Finns det, avslutas förfarandet och personen utesluts från all framtida omfördelning eller överföring.
+- **IN** granskar uppgifterna (p. 8). Bekräftas hotet, underrättar IN den gynnade staten inom en vecka och personen omfördelas inte (p. 9).
+
+Art. 67 kopplar inte detta till ansvarskompensation.
+
+---
+
+## Separat spår — ansvarskompensation
+
+Ansvarskompensation ([art. 63](../articles/ammr-063.md)) är ett **eget alternativ** till omfördelning, inte en följd av en säkerhetsvägran. En bidragande stat som inte genomfört sina utfästelser eller godtagit omfördelningar enligt art. 67.9 motsvarande utfästelsen vid årets slut ska, på begäran av den gynnade staten, ta ansvar för motsvarande antal ansökningar ([art. 63.5](../articles/ammr-063.md), [RULE-AMMR-063-001](../rules/rule-ammr-063-001.md)). Någon fysisk överföring sker då inte, och ingen ATÖ-frist gäller.
 
 ---
 
@@ -60,24 +91,6 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 ---
 
-## Tidsfrister
-
-| Tidsfrist | Källa | Kommentar |
-|-----------|-------|-----------|
-| **Bekräftelse** — 1 vecka (undantagsvis 2 vid komplex/omfattande kontroll, måste aviseras inom 1 v) | [AMMR art. 67.9](../articles/ammr-067.md) | Omfördelningsmedlemsstaten bekräftar mottagande; tystnad = bekräftelse |
-| **Överföringsbeslut** — 1 vecka | [AMMR art. 67.10](../articles/ammr-067.md) | Från bekräftelse till beslut om överföring |
-| **Överföring** — 4 veckor | [AMMR art. 67.11](../articles/ammr-067.md) | Från bekräftelse till faktisk överföring; kan frysas vid suspensiv verkan (art. 43.3) |
-
-### Koppling till statistik
-
-| Datapunkt | Betydelse | Källa |
-|-----------|-----------|-------|
-| Antal omfördelade | Volymuppföljning av solidaritetsmekanism | Nationell statistik |
-| Bidragsandel per stat | Uppföljning mot referensnyckel | EU-rapporter |
-| Genomsnittlig överföringstid | Tidseffektivitet mot 4-veckorskravet | Nationell statistik |
-
----
-
 ## Regler
 
 - [RULE-AMMR-057-001](../rules/rule-ammr-057-001.md) — Skyldighet att bidra
@@ -87,6 +100,8 @@ Om en stat inte omfördelar sin kvot ska den istället överta prövningsansvare
 
 ---
 
-## Diagram
+## Se även
 
-Se huvudflöde ovan.
+- [Tolkning: hela omfördelningsflödet](../interpretations/relocation-flow.md)
+- [Omfördelning UT](relocation-out.md)
+- [Omfördelning IN](relocation-in.md)

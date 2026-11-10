@@ -9,7 +9,7 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 32](../articles/eur-032.md), punkt 1–3
+[Eurodac artikel 32](../articles/eur-032.md), punkt 1–2; [artikel 6](../../../references/legislation/eurodac.md)
 
 ---
 
@@ -21,27 +21,32 @@ Villkor
 
 ## Regel
 
-Brottsbekämpande myndigheter får begära jämförelse med Eurodac-uppgifter endast om rimliga skäl föreligger, sökning i nationella databaser och VIS inte gett resultat, och begäran godkänts av den behöriga verifierande myndigheten.
+En framställan om jämförelse för brottsbekämpande ändamål ska vara en **motiverad elektronisk framställan** till **kontrollmyndigheten**. Kontrollmyndigheten kontrollerar att villkoren i art. 33 eller 34 är uppfyllda och vidarebefordrar först därefter framställan via den nationella åtkomstpunkten, eller Europols åtkomstpunkt, till Eurodac.
 
 ---
 
 ## Syfte
 
-Skyddar registrerade personers rättigheter genom att säkerställa att brottsbekämpande åtkomst endast sker som sista utväg och med rättslig kontroll.
+Säkerställer en oberoende förhandskontroll innan brottsbekämpande myndigheter får åtkomst till uppgifter om bland andra asylsökande.
 
 ---
 
 ## Utlösare
 
-En brottsbekämpande myndighet behöver jämföra biometriska uppgifter med Eurodac.
+En utsedd myndighet eller Europols utsedda myndighet vill jämföra biometriska eller alfanumeriska uppgifter med Eurodac.
 
 ---
 
 ## Rättsverkan
 
-- Nationella databaser och VIS måste sökas först.
-- Begäran måste godkännas av verifierande myndighet.
-- Vid brådskande fall: efterhandskontroll krävs.
+- Endast kontrollmyndigheten får vidarebefordra framställan till den nationella åtkomstpunkten (art. 6.2).
+- Jämförelse sker mot uppgifter enligt art. 15, 18.2, 20, 22, 23, 24 och 26.
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln innehöll tidigare villkoren för åtkomst (se [RULE-EUR-033-001](rule-eur-033-001.md)).
 
 ---
 

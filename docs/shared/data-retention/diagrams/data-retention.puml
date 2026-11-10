@@ -73,7 +73,7 @@ split again
   :[[../../../domains/eurodac/articles/eur-029.md **Eurodac** (art. 29/30)]]\nbiometriska uppgifter;
   :Startpunkt: dagen för\n**överföring** till Eurodac;
 
-  if (Radering i förtid?\n(medborgarskap / uppehålls-\ntillstånd / lämnat EU)) then (Ja)
+  if (Radering i förtid?\n(medborgarskap i\nen medlemsstat)) then (Ja)
     :Ursprungs-MS begär radering\ni centralsystemet utan dröjsmål\n(art. 30);
   else (Nej)
     :Radera vid **10 år** (asylsökande)\neller **5 år** (olaglig vistelse)\nfrån överföring (art. 29);

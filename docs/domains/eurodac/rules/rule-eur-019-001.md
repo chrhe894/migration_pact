@@ -21,27 +21,32 @@ Obligation
 
 ## Regel
 
-Medlemsstaterna ska ta biometriska uppgifter av varje person som fyllt sex år och som omfördelas enligt AMMR:s solidaritetsmekanism. Mottagande medlemsstat ska överföra uppgifterna till centralsystemet.
+För personer som omfattas av ett inreseförfarande enligt unionsramen för vidarebosättning får **endast** de uppgifter som räknas upp i art. 19.1 registreras i Eurodac. Utöver grundfälten omfattar de i tillämpliga fall datum för beslut om skydd eller humanitär status, datum och grunder för vägrad inresa samt datum för avbrytande av förfarandet.
 
 ---
 
 ## Syfte
 
-Säkerställer spårbarhet vid omfördelning genom att den mottagande medlemsstaten registrerar biometriska uppgifter i Eurodac.
+Begränsar vilka uppgifter som får registreras (uppgiftsminimering) och säkerställer att utfallet av inreseförfarandet framgår.
 
 ---
 
 ## Utlösare
 
-En person omfördelas till en mottagande medlemsstat inom ramen för solidaritetsmekanismen.
+Uppgifter om en person enligt art. 18.2 överförs till Eurodac.
 
 ---
 
 ## Rättsverkan
 
-- Biometriska uppgifter ska tas av mottagande medlemsstat.
-- Uppgifterna ska överföras till centralsystemet snarast efter omfördelning.
-- Datasetet ska innehålla uppgift om ursprungs- och mottagande medlemsstat.
+- Endast uppräknade fält får registreras.
+- Fälten i 19.1 a–f och h utgör ett dataset enligt förordning (EU) 2019/818 art. 27.1 aa.
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln avsåg tidigare insamling av biometri vid omfördelning, vilket inte regleras i art. 19. Omfördelning regleras i [art. 25](../articles/eur-025.md) och [RULE-EUR-025-001](rule-eur-025-001.md).
 
 ---
 

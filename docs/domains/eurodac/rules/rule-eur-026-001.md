@@ -9,7 +9,7 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 26](../articles/eur-026.md), punkt 1–2
+[Eurodac artikel 26](../articles/eur-026.md), punkt 1–4
 
 ---
 
@@ -21,26 +21,33 @@ Obligation
 
 ## Regel
 
-Ursprungsmedlemsstaten ska utan dröjsmål överföra statusuppgifter till centralsystemet och uppdatera dem vid varje relevant ändring i personens förfarande.
+Biometriska uppgifter ska **genast** tas för varje person sex år eller äldre som registrerats som beviljad **tillfälligt skydd**. Uppgifterna ska överföras till Eurodac så snart som möjligt, **senast tio dagar** efter registreringen.
 
 ---
 
 ## Syfte
 
-Ger en aktuell bild av varje registrerad persons förfarandestatus, vilket möjliggör automatiserade kontroller och statistik.
+Bidrar till genomförandet av direktivet om tillfälligt skydd (art. 1.1 j) och gör det möjligt att upptäcka dubbelregistreringar.
 
 ---
 
 ## Utlösare
 
-En milstolpe i personens förfarande inträffar (ansökan registrerad, beslut fattat, överföring verkställd, etc.).
+En person registreras som beviljad tillfälligt skydd enligt direktiv 2001/55/EG.
 
 ---
 
 ## Rättsverkan
 
-- Statusuppgifter överförs till centralsystemet.
-- Statusuppgifter uppdateras vid varje ändring.
+- Överföring senast tio dagar efter registreringen.
+- Vid hälsorelaterade hinder: 48 timmar efter att hindren undanröjts. Vid allvarliga tekniska problem får fristen förlängas med högst 48 timmar.
+- Datasetet lagras i ett år från rådets genomförandebeslut och förlängs årligen så länge skyddet varar (art. 29.9).
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln avsåg tidigare en allmän skyldighet att registrera statusuppgifter. Statusuppdateringar regleras i art. 16 ([RULE-EUR-016-001](rule-eur-016-001.md)).
 
 ---
 

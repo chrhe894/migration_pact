@@ -34,7 +34,7 @@ Samlas in av den behöriga myndigheten i ursprungsmedlemsstaten vid registrering
 
 ## Rättslig grund
 
-[Eurodac artikel 13](../articles/eur-013.md)
+[Eurodac artikel 2](../articles/eur-002.md), punkt 1 s (definition: uppgifter om fingeravtryck eller ansiktsbild); [artikel 13](../articles/eur-013.md) (skyldighet att ta)
 
 ---
 

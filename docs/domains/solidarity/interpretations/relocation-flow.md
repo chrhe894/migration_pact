@@ -24,13 +24,13 @@ Källa: [`relocation-flow.pu`](../diagrams/relocation-flow.pu)
 
 ### Steg 1–4: Förfarande inför omfördelning ([art. 67](../articles/ammr-067.md))
 
-Den utsatta staten (förmånsstaten) identifierar sökande som kan omfördelas och meddelar den bidragande staten (omfördelningsmedlemsstaten). Mottagarstaten ska bekräfta mottagande. **Överföringen ska ske inom fyra veckor efter bekräftelsen** ([RULE-AMMR-067-001](../rules/rule-ammr-067-001.md)).
+Den utsatta staten (gynnad medlemsstat, i repot även förmånsstat) identifierar personer som kan omfördelas och översänder uppgifter till den bidragande staten (omfördelningsmedlemsstaten). Mottagarstaten ska inom en vecka bekräfta mottagande (undantagsvis högst två veckor, tystnad = bekräftelse). Den gynnade staten beslutar om överföring inom en vecka från bekräftelsen och **överföringen ska ske inom fyra veckor efter bekräftelsen** ([RULE-AMMR-067-001](../rules/rule-ammr-067-001.md)).
 
-Fyraveckorsfristen är den enda tidsfristen i själva omfördelningsförfarandet och listas i [shared/time-limits](../../../shared/time-limits/README.md).
+Fristerna ligger hos olika stater och är samlade i [Omfördelning (översikt)](../processes/relocation.md). Rollerna har egna flöden: [Omfördelning UT](../processes/relocation-out.md) och [Omfördelning IN](../processes/relocation-in.md). Fristerna listas även i [shared/time-limits](../../../shared/time-limits/README.md).
 
 ### Säkerhetsundantag
 
-Mottagarstaten kan vägra omfördelning av en specifik person om det finns rimliga skäl att anta att personen utgör en fara för nationell säkerhet eller allmän ordning. Detta är ett undantag för *enskilda personer* — inte ett sätt att undvika sitt solidaritetsbidrag som helhet (se öppen fråga nedan).
+Båda staterna kontrollerar om det finns rimliga skäl att anse att personen utgör ett **hot mot den inre säkerheten**: den gynnade staten före och under förfarandet (art. 67.2), omfördelningsmedlemsstaten vid sin granskning (art. 67.8–67.9). Bekräftas hotet omfördelas personen inte. Detta är ett undantag för *enskilda personer* — inte ett sätt att undvika sitt solidaritetsbidrag som helhet (se öppen fråga nedan). Art. 67 kopplar inte säkerhetsvägran till ansvarskompensation; det är ett separat spår (se nedan).
 
 ### Steg 5: Ansvarsövergång ([art. 68](../articles/ammr-068.md))
 
@@ -38,7 +38,9 @@ När omfördelningen genomförts blir den mottagande staten **ansvarig stat** f�
 
 ### Steg 6–7: Registrering i mottagande stat
 
-Vid omfördelning ska den mottagande staten ta biometriska uppgifter och överföra dem till Eurodac snarast ([RULE-EUR-019-001](../../eurodac/rules/rule-eur-019-001.md), Eurodac art. 19). Därefter sker registreringen av ansökan i mottagande stat — vilket är domänens angivna utträdespunkt mot [Registrering](../../registration/README.md).
+Eurodac hanterar omfördelning i kapitel VII ([Eurodac art. 25](../../eurodac/articles/eur-025.md)): den gynnade staten uppdaterar sitt dataset med uppgift om omfördelningsmedlemsstaten så snart den är skyldig att ta emot personen (25.1), och omfördelningsmedlemsstaten översänder personens dataset med ankomstdatum när personen anlänt (25.2). Ansvaret anges i Eurodac enligt art. 16.1 och 16.3, och för personer med skydd registrerar sig omfördelningsmedlemsstaten som ansvarig med den gynnade statens markering (art. 31.6). Därefter sker registreringen av ansökan i mottagande stat — vilket är domänens angivna utträdespunkt mot [Registrering](../../registration/README.md).
+
+> **Rättelse:** tidigare angavs Eurodac art. 19 som regel för biometri vid omfördelning. Art. 19 gäller registrering av vidarebosatta personer, inte omfördelning.
 
 ### Koppling till gränsförfarande
 
@@ -69,7 +71,9 @@ Systemet är designat så att ingen stat kan undvika solidaritet helt. Frågan o
 | Förfarande inför | [art. 67](../articles/ammr-067.md) / [RULE-AMMR-067-001](../rules/rule-ammr-067-001.md) |
 | Tidsfrist (4 veckor) | [shared/time-limits](../../../shared/time-limits/README.md) |
 | Förfarande efter / ansvarsövergång | [art. 68](../articles/ammr-068.md) |
-| Biometri i mottagande stat | [RULE-EUR-019-001](../../eurodac/rules/rule-eur-019-001.md) |
+| Eurodac vid omfördelning | [Eurodac art. 25, 16, 31.6](../../eurodac/articles/eur-025.md) |
+| Flöde UT (gynnad stat) | [PROC-SOL-002](../processes/relocation-out.md) |
+| Flöde IN (omfördelningsmedlemsstat) | [PROC-SOL-003](../processes/relocation-in.md) |
 | Gränsförfarande efter omfördelning | [APR art. 43](../../border-procedure/articles/apr-043.md), [APR art. 52](../../border-procedure/articles/apr-052.md) |
 | Vid utebliven omfördelning | [solidarity-types](solidarity-types.md), [refusal-to-relocate](../open_questions/refusal-to-relocate.md) |
 

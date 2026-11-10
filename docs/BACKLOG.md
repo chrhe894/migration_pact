@@ -35,9 +35,9 @@ En användare som navigerar hit möter en tom sida:
 - [ ] `shared/vulnerable-persons/articles/apr-021.md` — Garantier för ensamkommande barn
 - [ ] `shared/statistics/articles/ammr-009.md` — Årlig rapport om asyl och migration
 - [ ] `shared/statistics/articles/ammr-010.md` — Bedömning av migrationssituationen
-- [ ] `domains/eurodac/articles/eur-001.md` — Syfte och tillämpningsområde
-- [ ] `domains/eurodac/articles/eur-002.md` — Definitioner
-- [ ] `domains/eurodac/articles/eur-016.md` — Åtgärder för identifiering
+- [x] `domains/eurodac/articles/eur-001.md` — Syftet med Eurodac
+- [x] `domains/eurodac/articles/eur-002.md` — Definitioner
+- [x] `domains/eurodac/articles/eur-016.md` — Information om den registrerades status
 
 ### Shared-moduler som saknar krav och capabilities
 
@@ -54,8 +54,35 @@ En användare som navigerar hit möter en tom sida:
 
 - [ ] Registration: artikel 4 (behöriga myndigheter) — fil skapad men regler ej formaliserade
 - [ ] Screening: artiklarna 9 (samarbetsskyldigheter) — regel saknas
-- [ ] Eurodac: artiklarna 1–2, 16–22, 24–28, 30–42 (övriga kategorier, brottsbekämpning) — de flesta saknas
+- [x] Eurodac: artiklarna 1–2 och 13–42 — samtliga kort och regler granskade och omskrivna mot förordningstexten (2026-09), se [Eurodac BACKLOG](domains/eurodac/BACKLOG.md)
+- [ ] Eurodac: artiklarna 3–12 och 43–63 saknar egna kort (bland annat art. 43 rätt till tillgång, 48 datasäkerhet, 49–50 tredjeland, 52 skadestånd)
+- [ ] Eurodac: krav (REQ) och förmågor (CAP) saknas för art. 16, 18–22, 24–28 och 30–42
 - [ ] Asylum Procedure: artiklarna 8–14 (garantier, intervju) — delvis i shared men ej komplett
+
+### KRITISKT — Kvalitetsgranskning mot förordningstext
+
+Vid granskningen av Eurodac (2026-09) var ungefär två tredjedelar av artikelkorten numrerade fel, och flera innehöll uppgifter som inte står i förordningen. Felen var systematiska, så de andra domänerna kan ha samma problem. Ett enda felaktigt kort gör hela sajten misstänkt.
+
+Metod per domän: jämför varje artikelkorts rubrik och innehåll med förordningstexten i `references/_text/`, och kontrollera att varje regel hör till rätt artikel. Rätta, lägg in en rättelsenot och uppdatera alla hänvisningar.
+
+- [x] Eurodac (förordning 2024/1358) — art. 1–2, 13–42 och 36 regler
+- [ ] Screening (förordning 2024/1356) — obs: textfilen saknas i `references/_text/` och måste först konverteras från mhtml
+- [ ] Registrering (APR art. 26–33)
+- [ ] Asylförfarande (APR)
+- [ ] Gränsförfarande (APR art. 43–54)
+- [ ] Ansvar (AMMR)
+- [ ] Solidaritet (AMMR del IV) — art. 67–68 är redan kontrollerade
+- [ ] Kris (förordning 2024/1359)
+- [ ] Återvändande vid gräns (förordning 2024/1349)
+- [ ] Shared-moduler (statistics, interpreters, vulnerable-persons, time-limits)
+
+### Följdarbete efter Eurodac-granskningen
+
+- [ ] **Ändrade regel-ID:** kontrollera externa system och dokument som använder de gamla betydelserna. RULE-EUR-018-001 avsåg tidigare sök och räddning (nu 024-001). RULE-EUR-024-001 och RULE-EUR-025-001 avsåg tidigare märkning och avmärkning (nu 031-001). RULE-EUR-031-001 avsåg tidigare Eurodac-träff (nu 027-001)
+- [ ] **Tidsfrister:** för in Eurodacs övriga frister på [tidsfristsidan](shared/time-limits/README.md). Där finns i dag bara art. 15. Saknas gör 72 timmar för art. 18, 20, 22, 23 och 24, +48 timmar vid plötslig tillströmning (24.6), tio dagar för tillfälligt skydd (26.2), 24 timmar och en timme för jämförelse (38.2), tre arbetsdagar (38.6, omfattas av regeln om minst två arbetsdagar?) samt 72 timmar för underrättelser (16.4, 30.2, 31.1)
+- [ ] **Data-retention:** komplettera Eurodac-raden med samtliga lagringstider i art. 29 (3 år och 1 år saknas), och överväg att markering (art. 31) ska synas i diagrammet
+- [ ] **Flaggkatalogen:** överväg Eurodacs säkerhetsflagga (art. 17.2 i och 17.4) i egenskapsmodellen. Den sätts och tas bort av ursprungsmedlemsstaten och sprids via Eurodac inom 72 timmar
+- [ ] **Biometri:** shared/biometrics saknar fortfarande egna krav och förmågor (se nedan)
 
 ### MkDocs / HTML-sajt
 
@@ -111,8 +138,9 @@ Följande spill identifierades vid skapande av capabilities/requirements:
 
 ## Prioriteringsordning
 
-1. **Berika stubs** (8 st) — tar bort döda sidor
-2. **Shared-modulerna** — identity, children, biometrics behöver formella krav
-3. **Eurodac utökning** — de flesta artiklar saknas fortfarande
-4. **Asylum Procedure artiklarna 8–14** — intervjugarantier
-5. **Konsolidera korsdomännoter** till en gemensam underhållslista
+1. **Kvalitetsgranskning mot förordningstext** — domän för domän, se ovan. Korrekthet går före utökning
+2. **Berika stubs** (5 st kvar) — tar bort döda sidor
+3. **Shared-modulerna** — identity, children, biometrics behöver formella krav
+4. **Eurodac** — krav och förmågor för art. 16–42, kort för art. 3–12 och 43–63
+5. **Asylum Procedure artiklarna 8–14** — intervjugarantier
+6. **Konsolidera korsdomännoter** till en gemensam underhållslista

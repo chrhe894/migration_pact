@@ -34,7 +34,7 @@ Uppstår som roll när en medlemsstat överför data till Eurodac i samband med 
 
 ## Rättslig grund
 
-[Eurodac artikel 2](../../../references/legislation/eurodac.md), definition av ursprungsmedlemsstat
+[Eurodac artikel 2](../articles/eur-002.md), punkt 1 e. För de flesta kategorier är det den stat som överför uppgifterna och erhåller jämförelseresultatet. För art. 18.2 och 20.1 är det endast den stat som överför
 
 ---
 

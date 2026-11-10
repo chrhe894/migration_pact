@@ -37,7 +37,9 @@ Solidaritetsmekanismen syftar till att fördela ansvaret rättvist mellan medlem
 
 | Process | Beskrivning |
 |---------|-------------|
-| [PROC-SOL-001 Omfördelning](processes/relocation.md) | Omfördelning av sökande från en utsatt stat till en bidragande stat |
+| [PROC-SOL-001 Omfördelning (översikt)](processes/relocation.md) | Omfördelning av sökande från en utsatt stat till en bidragande stat, med samspelsdiagram och samlade frister |
+| [PROC-SOL-002 Omfördelning UT](processes/relocation-out.md) | Den gynnade (skickande) statens flöde: kontrollera, identifiera, översända, besluta, verkställa |
+| [PROC-SOL-003 Omfördelning IN](processes/relocation-in.md) | Omfördelningsmedlemsstatens (mottagande) flöde: granska, bekräfta, ombesörja ankomst, fastställa ansvar |
 
 ---
 

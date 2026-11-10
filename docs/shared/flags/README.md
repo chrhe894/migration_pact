@@ -24,15 +24,17 @@ Flaggorna grupperas i sex kategorier efter vad de uttrycker.
 |--------|------------|------------|-------|
 | Säkerhetsträff (screening) | Träff vid sökning i SIS, EES, ETIAS, VIS, Ecris-TCN, Europol, Interpol | Noteras i screeningformuläret; påverkar hänvisning till förfarande | [RULE-SCR-015-001](../../domains/screening/rules/rule-scr-015-001.md) |
 | Maskering av säkerhetsträff | Säkerhetsträff finns | Träffen döljs i den sökandes **egen** version av formuläret (synlig endast för myndigheten) | [REQ-SCR-017-002](../../domains/screening/requirements/req-scr-017-002.md) |
-| SIS/SIRENE-notifiering | Träff i SIS vid identifiering | SIRENE-kontoret underrättas omedelbart och vidtar åtgärd enligt registreringen | [eur-016](../../domains/eurodac/articles/eur-016.md) |
+| SIS/Sirene-samråd | Träff i SIS vid screeningens sökning | Screeningmyndigheten genomför förfarandena i SIS-förordningarna, inklusive samråd med den registrerande medlemsstaten via Sirenekontoren | [Screening art. 16.3](../../domains/screening/articles/scr-016.md) |
 
 ### 2. Status- och registermärkningar (Eurodac m.fl.)
 
 | Flagga | Utlöses av | Konsekvens | Källa |
 |--------|------------|------------|-------|
-| Eurodac-träff (hit/no-hit) | Automatisk jämförelse av biometri | Hit/no-hit till ursprungsstaten; kan utlösa ansvarsförfarande och korta frister | [RULE-EUR-031-001](../../domains/eurodac/rules/rule-eur-031-001.md) |
-| Märkning vid beviljat skydd | Slutligt beslut om flykting-/subsidiärt skydd | Uppgifter märks i centralsystemet; ger ej längre träff vid ansvarsbestämning | [eur-024](../../domains/eurodac/articles/eur-024.md) |
-| Avmärkning | Skydd upphör/ändras | Märkning tas bort; uppgifter åter sökbara för ansvarsbestämning | [RULE-EUR-025-001](../../domains/eurodac/rules/rule-eur-025-001.md) |
+| Eurodac-träff (hit/no-hit) | Automatisk jämförelse av biometri | Hit/no-hit till ursprungsstaten. Kan utlösa ansvarsförfarande och korta frister. Träff som stödjer AMMR har företräde | [RULE-EUR-027-001](../../domains/eurodac/rules/rule-eur-027-001.md) |
+| Markering vid beviljat skydd | Internationellt skydd beviljas | Uppgifterna markeras och lagras kvar. Markeringen följer med vid träff (art. 27.4) och uppgifterna är tillgängliga för brottsbekämpande jämförelse | [RULE-EUR-031-001](../../domains/eurodac/rules/rule-eur-031-001.md) (art. 31.1–31.2) |
+| Markering vid uppehållstillstånd | Uppehållstillstånd efter irreguljär passage, olaglig vistelse eller landsättning | Uppgifterna markeras och lagras kvar till ordinarie lagringstid (raderas inte) | [RULE-EUR-031-002](../../domains/eurodac/rules/rule-eur-031-002.md) (art. 31.4) |
+| Säkerhetsflaggning i Eurodac | Säkerhetskontroll visar att personen kan vara hot mot den inre säkerheten (beväpnad, våldsam, indikationer på terrorbrott eller grova brott) | Uppgiften registreras i datasetet. Raderas när hotet inte längre föreligger, efter samråd, och spridning sker inom 72 timmar | [Eurodac art. 17.2 i och 17.4](../../domains/eurodac/articles/eur-017.md), 22.3 d, 23.3 e, 24.3 f |
+| Borttagen markering | Skyddsstatus återkallas (förordning 2024/1347 art. 14 eller 19) | Markeringen tas bort av ursprungsmedlemsstaten | [RULE-EUR-031-001](../../domains/eurodac/rules/rule-eur-031-001.md) (art. 31.3) |
 | **Efterföljande-ansökan-markering** | Träff på tidigare ansökan (i Sverige eller via Eurodac i annan MS) | Ärendet markeras som efterföljande ansökan → förhandsprövning (art. 55); nivåräkning styr rätten att stanna (art. 56) | [RULE-APR-055-003](../../domains/asylum-procedure/rules/rule-apr-055-003.md), [RULE-APR-056-002](../../domains/asylum-procedure/rules/rule-apr-056-002.md) |
 
 ### 3. Risk- och tvångsåtgärdsflaggor
@@ -184,9 +186,9 @@ Detta är ett **arbetsunderlag**, inte en formaliserad del av katalogen. Postern
 
 | Kandidat | Entitet | Typ | Utlösare → konsekvens | Källa |
 |----------|---------|-----|------------------------|-------|
-| Registrering vid återkallat uppehållstillstånd | Person | boolean/märkning | Tillstånd återkallas + ingen rätt att stanna → biometri tas, dataset märks | [RULE-EUR-022-001](../../domains/eurodac/rules/rule-eur-022-001.md) |
-| Biometri vid sök-och-räddning (72h) | Person | tröskel (tid) | SAR-landsättning → biometri inom 72h | [RULE-EUR-018-001](../../domains/eurodac/rules/rule-eur-018-001.md) |
-| Omfördelningsmärkning | Person | märkning | Omfördelning → dataset märks med ursprungs- och mottagande-MS | [RULE-EUR-019-001](../../domains/eurodac/rules/rule-eur-019-001.md) |
+| Biometri vid irreguljär gränspassage (72h) | Person | tröskel (tid) | Omhändertagen vid irreguljär passage och inte avvisad → biometri inom 72h, eller innan frigivning vid förvar över 72h | [RULE-EUR-022-001](../../domains/eurodac/rules/rule-eur-022-001.md) |
+| Biometri vid sök-och-räddning (72h) | Person | tröskel (tid) | SAR-landsättning → biometri inom 72h, förlängning +48h vid plötslig tillströmning (högst en månad) | [RULE-EUR-024-001](../../domains/eurodac/rules/rule-eur-024-001.md) |
+| Omfördelningsmärkning | Person | märkning | Omfördelning → gynnad MS uppdaterar datasetet med omfördelnings-MS (25.1); omfördelnings-MS översänder datasetet med ankomstdatum (25.2) | [Eurodac art. 25](../../domains/eurodac/articles/eur-025.md), flöden: [UT](../../domains/solidarity/processes/relocation-out.md) / [IN](../../domains/solidarity/processes/relocation-in.md) |
 
 ### Registrering
 
@@ -266,7 +268,7 @@ Samma kandidater, sorterade efter **mönstertyp** i stället för domän. Den h�
 | **Frist → rättsföljd (hård deadline)** | Deadline missas → automatisk följd | Ansvar: överföring ([art. 46](../../domains/responsibility/rules/rule-ammr-046-001.md)), frigivning ([art. 45](../../domains/responsibility/rules/rule-ammr-045-001.md)); Återvändandegräns: [art. 5](../../domains/return-border-procedure/rules/rule-ret-005-001.md); Screening: [art. 8/18](../../domains/screening/rules/rule-scr-008-001.md) |
 | **Numerisk tröskel / kvot / tak** | Mätvärde mot gräns | Statistik: [bifallsandel](../statistics/README.md); Gränsförfarande: [kapacitet](../../domains/border-procedure/concepts/adequate-capacity.md); Solidaritet: [referensnyckel](../../domains/solidarity/rules/rule-ammr-066-001.md) |
 | **Räknare (ackumulerande)** | Antal händelser mot gräns | Mottagande: närvarokontroll ([ds-2025-30](../time-limits/national/ds-2025-30-mottagande.md)); Asyl: efterföljande-nivå ([art. 56](../../domains/asylum-procedure/rules/rule-apr-056-002.md)) |
-| **Register-/formulärmärkning** | Status sätts i system/formulär | Eurodac: [art. 24](../../domains/eurodac/articles/eur-024.md), [art. 19](../../domains/eurodac/rules/rule-eur-019-001.md), [art. 22](../../domains/eurodac/rules/rule-eur-022-001.md); Screening: säkerhetsträff ([art. 15](../../domains/screening/rules/rule-scr-015-001.md)) |
+| **Register-/formulärmärkning** | Status sätts i system/formulär | Eurodac: markering ([art. 31](../../domains/eurodac/rules/rule-eur-031-001.md)), omfördelning ([art. 25](../../domains/eurodac/rules/rule-eur-025-001.md)), säkerhetsflaggning ([art. 17.2 i](../../domains/eurodac/articles/eur-017.md)), status och utresa ([art. 16](../../domains/eurodac/rules/rule-eur-016-001.md)); Screening: säkerhetsträff ([art. 15](../../domains/screening/rules/rule-scr-015-001.md)) |
 | **Spärr / uteslutning** | Rättighet/flöde blockeras | Asyl/mottagande: påskyndat-spärr ([ds-2025-30](../time-limits/national/ds-2025-30-mottagande.md)); Gränsförfarande: inrese-fiktion ([art. 43.2](../../domains/border-procedure/rules/rule-apr-043-002.md)); Solidaritet: säkerhetsundantag ([art. 67](../../domains/solidarity/rules/rule-ammr-067-001.md)) |
 | **Säkerhets-/ordningsbedömning** | Hot identifieras → åtgärd | Screening: [art. 15](../../domains/screening/rules/rule-scr-015-001.md); Ansvar: förvar ([art. 44](../../domains/responsibility/rules/rule-ammr-044-001.md)); Solidaritet: [art. 67](../../domains/solidarity/rules/rule-ammr-067-001.md) |
 | **Sårbarhet / barn** | Särskilda behov → anpassning/undantag | Screening: [art. 12](../../domains/screening/articles/scr-012.md), [art. 13](../../domains/screening/rules/rule-scr-013-001.md); Vulnerable: [art. 21](../vulnerable-persons/articles/apr-021.md); Gränsförfarande: [art. 53](../../domains/border-procedure/rules/rule-apr-053-001.md) |

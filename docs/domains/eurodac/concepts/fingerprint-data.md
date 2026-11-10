@@ -34,7 +34,7 @@ Samlas in av den behöriga myndigheten genom optisk avläsning av personens fing
 
 ## Rättslig grund
 
-[Eurodac artikel 17](../articles/eur-017.md), punkt 1 a; [Eurodac artikel 23](../articles/eur-023.md), punkt 2 a
+[Eurodac artikel 2](../articles/eur-002.md), punkt 1 q (definition: platta och rullade avtryck av alla tio fingrar, om de finns, eller ett fingeravtrycksspår); [artikel 17](../articles/eur-017.md), punkt 1 a; [artikel 23](../articles/eur-023.md), punkt 2 a
 
 ---
 

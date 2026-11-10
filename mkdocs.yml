@@ -174,12 +174,38 @@ nav:
     - Eurodac:
       - domains/eurodac/README.md
       - Artiklar:
+        - Artikel 1: domains/eurodac/articles/eur-001.md
+        - Artikel 2: domains/eurodac/articles/eur-002.md
         - Artikel 13: domains/eurodac/articles/eur-013.md
         - Artikel 14: domains/eurodac/articles/eur-014.md
         - Artikel 15: domains/eurodac/articles/eur-015.md
+        - Artikel 16: domains/eurodac/articles/eur-016.md
         - Artikel 17: domains/eurodac/articles/eur-017.md
+        - Artikel 18: domains/eurodac/articles/eur-018.md
+        - Artikel 19: domains/eurodac/articles/eur-019.md
+        - Artikel 20: domains/eurodac/articles/eur-020.md
+        - Artikel 21: domains/eurodac/articles/eur-021.md
+        - Artikel 22: domains/eurodac/articles/eur-022.md
         - Artikel 23: domains/eurodac/articles/eur-023.md
+        - Artikel 24: domains/eurodac/articles/eur-024.md
+        - Artikel 25: domains/eurodac/articles/eur-025.md
+        - Artikel 26: domains/eurodac/articles/eur-026.md
+        - Artikel 27: domains/eurodac/articles/eur-027.md
+        - Artikel 28: domains/eurodac/articles/eur-028.md
         - Artikel 29: domains/eurodac/articles/eur-029.md
+        - Artikel 30: domains/eurodac/articles/eur-030.md
+        - Artikel 31: domains/eurodac/articles/eur-031.md
+        - Artikel 32: domains/eurodac/articles/eur-032.md
+        - Artikel 33: domains/eurodac/articles/eur-033.md
+        - Artikel 34: domains/eurodac/articles/eur-034.md
+        - Artikel 35: domains/eurodac/articles/eur-035.md
+        - Artikel 36: domains/eurodac/articles/eur-036.md
+        - Artikel 37: domains/eurodac/articles/eur-037.md
+        - Artikel 38: domains/eurodac/articles/eur-038.md
+        - Artikel 39: domains/eurodac/articles/eur-039.md
+        - Artikel 40: domains/eurodac/articles/eur-040.md
+        - Artikel 41: domains/eurodac/articles/eur-041.md
+        - Artikel 42: domains/eurodac/articles/eur-042.md
       - Processer:
         - Biometriska uppgifter: domains/eurodac/processes/collect-and-transmit-biometric-data.md
       - Begrepp:
@@ -194,9 +220,38 @@ nav:
         - RULE-EUR-013-002: domains/eurodac/rules/rule-eur-013-002.md
         - RULE-EUR-014-001: domains/eurodac/rules/rule-eur-014-001.md
         - RULE-EUR-015-001: domains/eurodac/rules/rule-eur-015-001.md
+        - RULE-EUR-016-001: domains/eurodac/rules/rule-eur-016-001.md
+        - RULE-EUR-018-001: domains/eurodac/rules/rule-eur-018-001.md
+        - RULE-EUR-019-001: domains/eurodac/rules/rule-eur-019-001.md
+        - RULE-EUR-020-001: domains/eurodac/rules/rule-eur-020-001.md
+        - RULE-EUR-021-001: domains/eurodac/rules/rule-eur-021-001.md
+        - RULE-EUR-022-001: domains/eurodac/rules/rule-eur-022-001.md
         - RULE-EUR-023-001: domains/eurodac/rules/rule-eur-023-001.md
+        - RULE-EUR-024-001: domains/eurodac/rules/rule-eur-024-001.md
+        - RULE-EUR-025-001: domains/eurodac/rules/rule-eur-025-001.md
+        - RULE-EUR-026-001: domains/eurodac/rules/rule-eur-026-001.md
+        - RULE-EUR-027-001: domains/eurodac/rules/rule-eur-027-001.md
         - RULE-EUR-029-001: domains/eurodac/rules/rule-eur-029-001.md
         - RULE-EUR-029-002: domains/eurodac/rules/rule-eur-029-002.md
+        - RULE-EUR-030-001: domains/eurodac/rules/rule-eur-030-001.md
+        - RULE-EUR-030-002: domains/eurodac/rules/rule-eur-030-002.md
+        - RULE-EUR-031-001: domains/eurodac/rules/rule-eur-031-001.md
+        - RULE-EUR-031-002: domains/eurodac/rules/rule-eur-031-002.md
+        - RULE-EUR-032-001: domains/eurodac/rules/rule-eur-032-001.md
+        - RULE-EUR-032-002: domains/eurodac/rules/rule-eur-032-002.md
+        - RULE-EUR-033-001: domains/eurodac/rules/rule-eur-033-001.md
+        - RULE-EUR-034-001: domains/eurodac/rules/rule-eur-034-001.md
+        - RULE-EUR-035-001: domains/eurodac/rules/rule-eur-035-001.md
+        - RULE-EUR-035-002: domains/eurodac/rules/rule-eur-035-002.md
+        - RULE-EUR-036-001: domains/eurodac/rules/rule-eur-036-001.md
+        - RULE-EUR-037-001: domains/eurodac/rules/rule-eur-037-001.md
+        - RULE-EUR-038-001: domains/eurodac/rules/rule-eur-038-001.md
+        - RULE-EUR-038-002: domains/eurodac/rules/rule-eur-038-002.md
+        - RULE-EUR-039-001: domains/eurodac/rules/rule-eur-039-001.md
+        - RULE-EUR-040-001: domains/eurodac/rules/rule-eur-040-001.md
+        - RULE-EUR-041-001: domains/eurodac/rules/rule-eur-041-001.md
+        - RULE-EUR-042-001: domains/eurodac/rules/rule-eur-042-001.md
+        - RULE-EUR-042-002: domains/eurodac/rules/rule-eur-042-002.md
       - Tolkningar:
         - Eurodac vid screening och registrering: domains/eurodac/interpretations/eurodac-in-screening-and-registration.md
       - Öppna frågor:
@@ -423,7 +478,9 @@ nav:
         - AMMR artikel 68: domains/solidarity/articles/ammr-068.md
         - AMMR artikel 69: domains/solidarity/articles/ammr-069.md
       - Processer:
-        - Omfördelning: domains/solidarity/processes/relocation.md
+        - Omfördelning (översikt): domains/solidarity/processes/relocation.md
+        - Omfördelning UT: domains/solidarity/processes/relocation-out.md
+        - Omfördelning IN: domains/solidarity/processes/relocation-in.md
       - Begrepp:
         - Solidaritetspool: domains/solidarity/concepts/solidarity-pool.md
         - Omfördelning: domains/solidarity/concepts/relocation.md

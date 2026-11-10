@@ -34,7 +34,7 @@ Samlas in av den behöriga myndigheten genom fotografering av personens ansikte 
 
 ## Rättslig grund
 
-[Eurodac artikel 17](../articles/eur-017.md), punkt 1 b; [Eurodac artikel 23](../articles/eur-023.md), punkt 2 b
+[Eurodac artikel 2](../articles/eur-002.md), punkt 1 r (definition: digitala ansiktsbilder med tillräcklig upplösning och kvalitet för automatisk biometrisk matchning); [artikel 17](../articles/eur-017.md), punkt 1 b; [artikel 23](../articles/eur-023.md), punkt 2 b; [artikel 28](../articles/eur-028.md) (jämförelse av ansiktsbild)
 
 ---
 

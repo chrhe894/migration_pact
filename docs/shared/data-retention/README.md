@@ -41,9 +41,16 @@ Detta är det fall som ofta missförstås. Medborgarskap leder till radering **t
 
 > **Vad "8 år" egentligen är:** åttaårssiffran som ibland nämns i detta sammanhang är **inte** en lagrings-/gallringstid. Det är **huvudregelns hemvistkrav för naturalisering** — åtta års hemvist med styrkt identitet ([medborgarskapslagen 11 § första stycket 3](../../references/legislation/medborgarskapslagen.md)). Vid **oklar identitet** krävs i stället **tio år** (11 c § andra stycket). Kopplingen till gallring är indirekt: hemvisttiden leder till *medborgarskap*, och det är **medborgarskapet** som är raderingstriggern ovan — inte åttaårsgränsen i sig.
 
-### Fall 3 — Eurodac: andra grunder för förtida radering
+### Fall 3 — Eurodac: uppehållstillstånd och utresa leder inte till radering
 
-För vissa kategorier raderas Eurodac-uppgifter även vid **uppehållstillstånd** eller när personen **lämnat medlemsstaternas territorium** ([Eurodac art. 30.2–30.3](../../domains/eurodac/articles/eur-030.md)). Detta gäller inte asyl-aktens art. 72-regim.
+Eurodac art. 30 har **bara medborgarskap** som grund för förtida radering. Om personen fått medborgarskap i ursprungsmedlemsstaten raderas uppgifterna utan dröjsmål. Om medborgarskapet gäller en annan medlemsstat raderas de så snart ursprungsmedlemsstaten får kännedom om det (30.1). Eurodac informerar sedan inom 72 timmar övriga ursprungsmedlemsstater med träff (30.2). Det gäller kategorierna i art. 29.1, 29.3 och 29.5–29.9.
+
+Uppehållstillstånd och att personen lämnat territoriet leder **inte** till radering:
+
+- **Uppehållstillstånd** till en person som vistats olagligt eller landsatts efter sök och räddning leder till att uppgifterna **markeras** (art. 31.4). De lagras sedan kvar till ordinarie lagringstid och är tillgängliga för brottsbekämpande jämförelse (31.5).
+- **Att personen lämnat territoriet** registreras som en uppdatering av datasetet (art. 16.2 c–d) för att underlätta ansvarsreglerna i AMMR art. 37.4–37.5.
+
+> **Rättelse:** sidan sa tidigare, med hänvisning till ett felaktigt artikelkort, att uppgifter också raderas i förtid vid uppehållstillstånd eller när personen lämnat territoriet (art. 30.2–30.3). Det stämmer inte mot förordningstexten.
 
 ---
 

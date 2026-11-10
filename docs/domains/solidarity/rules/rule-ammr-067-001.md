@@ -21,9 +21,9 @@ Obligation
 
 ## Regel
 
-Den förmånsstaten identifierar sökande som kan omfördelas och meddelar omfördelningsmedlemsstaten. Omfördelningsmedlemsstaten ska bekräfta mottagande. Överföring ska ske inom fyra veckor efter bekräftelse.
+Den gynnade medlemsstaten (förmånsstaten) identifierar personer som kan omfördelas och översänder uppgifter till omfördelningsmedlemsstaten. Omfördelningsmedlemsstaten ska inom en vecka bekräfta mottagande (undantagsvis högst två veckor), och tystnad räknas som bekräftelse. Den gynnade staten ska fatta beslut om överföring inom en vecka från bekräftelsen. Överföring ska ske inom fyra veckor efter bekräftelse.
 
-Omfördelning kan inte genomföras om det finns rimliga skäl att anta att personen utgör en fara för nationell säkerhet eller allmän ordning i mottagarstaten.
+Omfördelning får inte genomföras om det finns rimliga skäl att anse att personen utgör ett hot mot den inre säkerheten. Den gynnade staten ska kontrollera detta före och under förfarandet (p. 2), och omfördelningsmedlemsstaten vid granskningen (p. 8–9).
 
 ---
 
@@ -41,9 +41,11 @@ Förmånsstaten identifierar sökande som ska omfördelas till en annan medlemss
 
 ## Rättsverkan
 
-- Omfördelningsmedlemsstaten ska bekräfta mottagande.
+- Omfördelningsmedlemsstaten ska bekräfta mottagande inom en vecka från mottagandet av uppgifterna (högst två veckor vid särskilt komplicerad granskning). Tystnad är bekräftelse.
+- Den gynnade staten fattar överföringsbeslut inom en vecka från bekräftelsen.
 - Överföring ska ske inom fyra veckor efter bekräftelse.
-- Säkerhetsundantag kan åberopas av mottagarstaten.
+- Hot mot den inre säkerheten hindrar omfördelning. Det gäller kontroll både hos den gynnade staten (p. 2) och hos omfördelningsmedlemsstaten (p. 8–9).
+- Flödena beskrivs per roll i [Omfördelning UT](../processes/relocation-out.md) och [Omfördelning IN](../processes/relocation-in.md).
 
 ---
 

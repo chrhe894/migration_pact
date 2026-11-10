@@ -9,7 +9,7 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 38](../articles/eur-038.md), punkt 1–2
+[Eurodac artikel 38](../articles/eur-038.md), punkt 1
 
 ---
 
@@ -21,27 +21,32 @@ Obligation
 
 ## Regel
 
-Ursprungsmedlemsstaten ansvarar för kvaliteten hos överförda uppgifter. Centralsystemet ska utföra automatiska kvalitetskontroller och avvisa dataset som inte uppfyller minimikraven.
+Medlemsstaterna ska överföra biometriska uppgifter av **adekvat kvalitet** för jämförelse. Kvaliteten kontrolleras i Eurodac. Om uppgifterna inte duger informeras medlemsstaten, som ska överföra nya uppgifter av adekvat kvalitet med **samma referensnummer**.
 
 ---
 
 ## Syfte
 
-Säkerställer att biometriska uppgifter i Eurodac håller tillräcklig kvalitet för tillförlitliga jämförelser.
+Säkerställer att jämförelserna håller hög exakthet.
 
 ---
 
 ## Utlösare
 
-Biometriska uppgifter överförs till centralsystemet.
+Eurodac konstaterar att överförda biometriska uppgifter inte lämpar sig för jämförelse.
 
 ---
 
 ## Rättsverkan
 
-- Automatisk kvalitetskontroll utförs.
-- Dataset som inte uppfyller kraven avvisas.
-- Medlemsstaten meddelas.
+- eu-LISA fastställer vad som är adekvat kvalitet.
+- Nya uppgifter överförs med samma referensnummer som tidigare.
+
+---
+
+## Kommentar
+
+> **Rättelse:** regeln angav tidigare att centralsystemet "avvisar dataset".
 
 ---
 

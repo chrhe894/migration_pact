@@ -9,7 +9,7 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 36](../articles/eur-036.md), punkt 1–2
+[Eurodac artikel 36](../articles/eur-036.md), punkt 1–4
 
 ---
 
@@ -21,27 +21,32 @@ Ansvarsfördelning
 
 ## Regel
 
-Ursprungsmedlemsstaten är personuppgiftsansvarig för de uppgifter den överför. eu-LISA är personuppgiftsbiträde för behandling som sker i centralsystemet.
+**Ursprungsmedlemsstaten** ansvarar för att uppgifterna tas, överförs, registreras, lagras, rättas och raderas lagligt, att de är korrekta och aktuella, att jämförelseresultat behandlas lagligt, för säkerheten före och under överföringen samt för den slutliga identifieringen. **eu-LISA** ansvarar för att Eurodac drivs enligt förordningen och dataskyddsreglerna, för systemets säkerhet och för att endast behöriga personer har åtkomst.
 
 ---
 
 ## Syfte
 
-Definierar tydligt dataskyddsrättsliga roller och ansvar, vilket är nödvändigt för tillämpning av GDPR och dataskyddsdirektivet.
+Fördelar ansvaret tydligt mellan medlemsstaterna och systemförvaltaren.
 
 ---
 
 ## Utlösare
 
-Uppgifter behandlas i Eurodac.
+All uppgiftsbehandling i och kring Eurodac.
 
 ---
 
 ## Rättsverkan
 
-- Ursprungsmedlemsstaten ansvarar för lagligheten av överföring.
-- eu-LISA ansvarar för korrekt drift av centralsystemet.
-- Samarbetsskyldighet gäller.
+- Ursprungsmedlemsstaten bär ansvaret för sina uppgifter och för den slutliga identifieringen (art. 38.4).
+- eu-LISA underrättar Europaparlamentet, rådet och Europeiska datatillsynsmannen om sina åtgärder.
+
+---
+
+## Kommentar
+
+> **Rättelse:** regeln använde tidigare GDPR-begreppen "personuppgiftsansvarig" och "personuppgiftsbiträde". Artikeln använder inte de begreppen.
 
 ---
 

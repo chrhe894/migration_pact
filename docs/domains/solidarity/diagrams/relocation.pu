@@ -1,21 +1,24 @@
 ' ============================================================================
-' Diagram: Omfördelning
+' Diagram: Omfördelning — samspel mellan UT och IN
 '
-' Syfte: Visualiserar omfördelningsförfarandet.
+' Syfte: Visar hur den gynnade medlemsstaten (UT, skickar) och
+'        omfördelningsmedlemsstaten (IN, tar emot) samverkar i
+'        omfördelningsförfarandet. Detaljflöden per roll finns i
+'        relocation-out.pu och relocation-in.pu.
 '
-' Källa: AMMR artiklarna 57, 63, 67 (p. 9-11), 68
+' Källa: AMMR artiklarna 57, 67 (p. 2-11), 68
 '
 ' Relaterade regler:
-'   RULE-AMMR-057-001, RULE-AMMR-063-001, RULE-AMMR-067-001
+'   RULE-AMMR-057-001, RULE-AMMR-067-001
 '
-' Tidsfrister (art. 67): bekräftelse 1 v (ev. 2), beslut 1 v, överföring 4 v
+' Tidsfrister (art. 67): besked 1 v (ev. 2), beslut 1 v, överföring 4 v
 '
 ' Status: Draft
 ' ============================================================================
 
 @startuml relocation
 
-title Omfördelning
+title Omfördelning: samspel mellan UT och IN
 
 skinparam shadowing false
 skinparam HyperlinkColor Black
@@ -32,69 +35,76 @@ skinparam note {
   BorderColor #7A6A2A
 }
 
+|Gynnad medlemsstat (UT)|
 start
 
-:Migrationstryck konstateras;
-
-:[[../rules/rule-ammr-057-001.md Solidaritetspoolen aktiveras]];
+:[[../rules/rule-ammr-057-001.md Solidaritetspoolen aktiverad]];
 note right
-  [[../rules/rule-ammr-057-001.md RULE-AMMR-057-001]]
-  ([[../articles/ammr-057.md ART-AMMR-057]])
+  [[../articles/ammr-057.md ART-AMMR-057]]
 end note
 
-:Förmånsstaten identifierar sökande\nför omfördelning;
-
-:[[../rules/rule-ammr-067-001.md Omfördelningsmedlemsstaten meddelas]];
+:Kontrollera hot mot inre säkerheten,\nidentifiera personer som kan omfördelas;
 note right
-  [[../rules/rule-ammr-067-001.md RULE-AMMR-067-001]]
-  ([[../articles/ammr-067.md ART-AMMR-067]])
+  [[../articles/ammr-067.md ART-AMMR-067]] p. 2-6
+  Vid hot: förfarandet avslutas,
+  personen utesluts från framtida omfördelning
 end note
 
-if (Säkerhetsskäl att vägra?) then (Ja)
+:[[../rules/rule-ammr-067-001.md Översänd uppgifter och handlingar]];
+note right
+  Så snart som möjligt (p. 7)
+end note
 
-    :Omfördelning avvisas;
+|Omfördelningsmedlemsstat (IN)|
+:Granska uppgifterna\n(ev. personlig intervju);
+note right
+  [[../articles/ammr-067.md ART-AMMR-067]] p. 8
+end note
 
-    :[[../rules/rule-ammr-063-001.md Ansvarskompensation aktiveras]];
-    note right
-      [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
-      ([[../articles/ammr-063.md ART-AMMR-063]])
-    end note
-
+if (Rimliga skäl att anse hot\nmot den inre säkerheten?) then (Ja)
+  :Underrätta den gynnade staten;
+  note right
+    Inom **1 vecka** (högst 2 veckor)
+    p. 9 andra st.
+  end note
+  :Personen omfördelas inte;
+  stop
 else (Nej)
-
-    :[[../rules/rule-ammr-067-001.md Omfördelningsmedlemsstaten\nbekräftar mottagande]];
-    note right
-      Bekräftelse inom **1 vecka**
-      (undantagsvis **2 veckor** vid komplex
-      eller omfattande kontroll —
-      måste aviseras inom 1 v)
-      Tystnad = bekräftelse
-      ([[../articles/ammr-067.md ART-AMMR-067]] p. 9)
-    end note
-
-    :Överföringsbeslut fattas;
-    note right
-      Beslut inom **1 vecka**
-      från bekräftelsen
-      ([[../articles/ammr-067.md ART-AMMR-067]] p. 10)
-    end note
-
-    :Överföring verkställs;
-    note right
-      Inom **4 veckor** efter bekräftelse
-      (eller slutligt beslut vid
-      suspensiv verkan, art. 43.3)
-      ([[../articles/ammr-067.md ART-AMMR-067]] p. 11)
-    end note
-
-    :Omfördelningsmedlemsstaten blir\nansvarig stat;
-    note right
-      [[../articles/ammr-068.md ART-AMMR-068]]
-      Ansvar övergår vid
-      faktisk överföring
-    end note
-
+  :[[../rules/rule-ammr-067-001.md Bekräfta mottagande]];
+  note right
+    Inom **1 vecka** från mottagandet
+    (undantagsvis högst 2 veckor)
+    **Tystnad = bekräftelse**
+    p. 9
+  end note
 endif
+
+|Gynnad medlemsstat (UT)|
+:Fatta beslut om överföring;
+note right
+  **1 vecka** från bekräftelsen
+  p. 10
+end note
+
+:Verkställ överföringen;
+note right
+  Inom **4 veckor** efter bekräftelsen
+  (eller slutligt beslut vid suspensiv
+  verkan, art. 43.3)
+  p. 11
+end note
+
+|Omfördelningsmedlemsstat (IN)|
+:Underrätta om ankomst\neller utebliven ankomst;
+note right
+  [[../articles/ammr-068.md ART-AMMR-068]] p. 1
+end note
+
+:Ansvar övergår / fastställs;
+note right
+  [[../articles/ammr-068.md ART-AMMR-068]] p. 2-4
+  Ansvar anges i Eurodac
+end note
 
 stop
 

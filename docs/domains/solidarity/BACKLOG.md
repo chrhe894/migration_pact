@@ -49,7 +49,9 @@
 
 ## Processer
 
-- [x] PROC-SOL-001 — Omfördelning
+- [x] PROC-SOL-001 — Omfördelning (översikt)
+- [x] PROC-SOL-002 — Omfördelning UT (gynnad medlemsstat)
+- [x] PROC-SOL-003 — Omfördelning IN (omfördelningsmedlemsstat)
 
 ---
 

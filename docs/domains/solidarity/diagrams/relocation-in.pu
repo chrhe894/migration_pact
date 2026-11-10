@@ -1,0 +1,191 @@
+' ============================================================================
+' Diagram: Omfördelning IN — omfördelningsmedlemsstat (mottagare)
+'
+' Syfte: Visualiserar omfördelningsförfarandet ur den mottagande
+'        medlemsstatens perspektiv. Motsvarande avsändarperspektiv finns i
+'        relocation-out.pu.
+'
+' Källa: AMMR artikel 67 (p. 8-9), artikel 68 (p. 1-4),
+'        Eurodac art. 16.3, 25.2, 31.6, APR art. 43.1 d
+'
+' Relaterade regler:
+'   RULE-AMMR-067-001
+'
+' Tidsfrister (art. 67.9): besked 1 v (undantagsvis högst 2 v)
+'
+' Status: Draft
+' ============================================================================
+
+@startuml relocation-in
+
+title Omfördelning IN: omfördelningsmedlemsstat (tar emot)
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+skinparam partition {
+  BackgroundColor #FAFAFA
+  BorderColor #999999
+}
+
+start
+
+:Ta emot uppgifter och handlingar\nfrån den gynnade medlemsstaten;
+note right
+  Standardformulär
+  ([[../articles/ammr-067.md ART-AMMR-067]] p. 7)
+  ---
+  **Fristen på 1 vecka startar**
+  vid mottagandet (p. 9)
+end note
+
+partition "Granskning (art. 67.8)" {
+  :[[../rules/rule-ammr-067-001.md Granska uppgifterna]];
+  note right
+    Kontrollera att det inte finns rimliga skäl
+    att anse personen som hot mot den inre
+    säkerheten
+    ([[../articles/ammr-067.md ART-AMMR-067]] p. 8)
+  end note
+
+  if (Behövs personlig intervju?) then (Ja, valfritt)
+    :Intervjua personen;
+    note right
+      Personen ska informeras om
+      intervjuns art och syfte
+      Ska ske **inom fristerna** i p. 9
+    end note
+  else (Nej)
+  endif
+}
+
+partition "Besked (art. 67.9)" {
+  if (Särskilt komplicerad granskning\neller stort antal ärenden?) then (Ja)
+    :Meddela inom **1 vecka** att svaret skjuts upp;
+    note right
+      Svar därefter senast inom **2 veckor**
+    end note
+  else (Nej)
+  endif
+
+  if (Rimliga skäl att anse hot\nmot den inre säkerheten?) then (Ja)
+    :Underrätta den gynnade staten om arten av\noch de underliggande faktorerna till\nregistrering i relevant databas;
+    note right
+      Inom **1 vecka** (högst 2 veckor)
+      ([[../articles/ammr-067.md ART-AMMR-067]] p. 9 andra st.)
+    end note
+    :Personen omfördelas inte;
+    stop
+  else (Nej)
+    :Bekräfta att personen kommer att omfördelas;
+    note right
+      Inom **1 vecka** (högst 2 veckor)
+      **Tystnad = bekräftelse** och skyldighet
+      att omfördela
+      ([[../articles/ammr-067.md ART-AMMR-067]] p. 9)
+    end note
+  endif
+
+  :Ombesörja lämpliga ankomstarrangemang;
+  note right
+    Skyldighet som följer av bekräftelsen,
+    även vid tyst bekräftelse (p. 9)
+  end note
+}
+
+partition "Överföring (den gynnade staten, se UT-flödet)" {
+  :Den gynnade staten beslutar (1 v)\noch verkställer överföringen (4 v);
+  note right
+    Se [[../processes/relocation-out.md Omfördelning UT]]
+    Fristtyper:
+    [[../../../shared/time-limits/concepts/fristtyp-accept-till-beslut.md ATB]],
+    [[../../../shared/time-limits/concepts/fristtyp-accept-till-overforing.md ATÖ]]
+  end note
+}
+
+partition "Ankomst (art. 68.1)" {
+  if (Personen har kommit fram i god ordning?) then (Ja)
+    :Underrätta den gynnade staten, asylbyrån och\nEU-solidaritetssamordnaren om ankomsten;
+    :Översänd personens Eurodac-dataset\nmed ankomstdatum;
+    note right
+      [[../../eurodac/articles/eur-025.md Eurodac art. 25.2]]
+    end note
+  else (Nej)
+    :Underrätta den gynnade staten, asylbyrån och\nEU-solidaritetssamordnaren om att personen\ninte har infunnit sig inom fastställd tidsfrist;
+    note right
+      [[../articles/ammr-068.md ART-AMMR-068]] p. 1
+      Artikeln anger inte vad som händer därefter
+    end note
+    stop
+  endif
+}
+
+partition "Ansvar (art. 68.2-68.4)" {
+  if (Var ansvarig medlemsstat redan\nfastställd (gynnade staten ansvarig\nav andra skäl än art. 67.5 st. 2)?) then (Nej, ännu ej fastställd)
+    :Tillämpa förfarandena i del III;
+    note right
+      Med undantag för art. 16.2, 17.1, 17.2,
+      25.5, 29, 30, 33.1 och 33.2
+      ([[../articles/ammr-068.md ART-AMMR-068]] p. 2)
+    end note
+    if (Kan ansvarig medlemsstat fastställas?) then (Nej)
+      :Omfördelningsmedlemsstaten är\nansvarig för prövningen;
+    else (Ja)
+      :Ansvarig medlemsstat enligt del III;
+    endif
+    :Ange sitt ansvar i Eurodac;
+    note right
+      [[../../eurodac/articles/eur-016.md Eurodac art. 16.1]]
+      (enligt AMMR art. 68.2)
+    end note
+  else (Ja, gynnade staten var ansvarig)
+    :Ansvaret övergår till\nomfördelningsmedlemsstaten;
+    note right
+      [[../articles/ammr-068.md ART-AMMR-068]] p. 3
+      Gäller även ytterligare framställningar
+      och efterföljande ansökan
+      ([[../../asylum-procedure/articles/apr-055.md APR art. 55]],
+      [[../../asylum-procedure/articles/apr-056.md 56]])
+    end note
+    :Ange sitt ansvar i Eurodac;
+    note right
+      [[../../eurodac/articles/eur-016.md Eurodac art. 16.3]]
+    end note
+  endif
+
+  if (Har personen beviljats\ninternationellt skydd?) then (Ja)
+    :Bevilja automatiskt internationell\nskyddsstatus i enlighet med den status\nsom den gynnade staten beviljat;
+    note right
+      [[../articles/ammr-068.md ART-AMMR-068]] p. 4
+      Registrera sig som ansvarig i Eurodac
+      med den gynnade statens markering
+      ([[../../eurodac/articles/eur-031.md Eurodac art. 31.6]])
+    end note
+  else (Nej)
+  endif
+}
+
+if (Hänvisas till gränsförfarande?) then (Ja)
+  :[[../../border-procedure/articles/apr-043.md Gränsförfarande i omfördelningsmedlemsstaten]];
+  note right
+    [[../../border-procedure/articles/apr-043.md APR art. 43.1 d]]
+    (efter omfördelning enligt AMMR art. 67.11)
+  end note
+else (Nej)
+  :Ordinarie förfarande;
+endif
+
+stop
+
+@enduml

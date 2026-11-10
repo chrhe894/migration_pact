@@ -9,38 +9,44 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 37](../articles/eur-037.md), punkt 1–2
+[Eurodac artikel 37](../articles/eur-037.md), punkt 1–6
 
 ---
 
 ## Regeltyp
 
-Förbud
+Systembeteende
 
 ---
 
 ## Regel
 
-Uppgifter som behandlas i centralsystemet får inte överföras till eller göras tillgängliga för tredjeland, internationella organisationer eller privata aktörer.
+Uppgifterna ska överföras till Eurodac **elektroniskt** i det fastställda dataformatet och registreras automatiskt. Varje överföring ska ha ett **referensnummer** som entydigt knyter uppgifterna till en person och till den överförande medlemsstaten. Referensnumret inleds med medlemsstatens bokstavsbeteckning följd av en kategorisiffra (1 sökande, 2 irreguljär gränspassage, 3 olaglig vistelse, 4 utsedd myndighet, 5 Europol, 6 framställan enligt art. 43, 7 art. 18, 8 nationellt vidarebosättningsprogram, 9 sök och räddning, 0 tillfälligt skydd).
 
 ---
 
 ## Syfte
 
-Skyddar registrerade personer mot risken att deras biometriska och personliga uppgifter hamnar utanför EU:s jurisdiktion utan tillräckliga skyddsåtgärder.
+Gör att varje dataset kan knytas entydigt till person, medlemsstat och kategori.
 
 ---
 
 ## Utlösare
 
-En begäran om åtkomst eller överföring av uppgifter från Eurodac till tredjeland eller annan extern aktör.
+En medlemsstat överför uppgifter till Eurodac.
 
 ---
 
 ## Rättsverkan
 
-- Överföring förbjuden.
-- Undantag kräver uttryckligt stöd i unionsrätten.
+- Eurodac bekräftar mottagandet så snart som möjligt, och mottagningsbevis kan fås på begäran.
+- Kategorisiffran avgör vilken personkategori datasetet gäller.
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln avsåg tidigare ett förbud mot överföring till tredjeland. Det regleras i art. 49–50, som inte har egna kort. eu-LISA:s förbud mot att ge tredjelands myndigheter åtkomst finns i art. 40.6.
 
 ---
 

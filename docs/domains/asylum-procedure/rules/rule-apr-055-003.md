@@ -37,7 +37,7 @@ Säkerställa att en ny ansökan som i själva verket följer på ett tidigare s
 Vid registrering eller handläggning framkommer att sökanden har ett tidigare slutligt beslut om en ansökan om internationellt skydd, t.ex. genom:
 
 - uppgift i den egna statens register, eller
-- en träff vid jämförelse i Eurodac som visar en tidigare ansökan i en annan medlemsstat ([RULE-EUR-031-001](../../eurodac/rules/rule-eur-031-001.md)).
+- en träff vid jämförelse i Eurodac som visar en tidigare ansökan i en annan medlemsstat ([RULE-EUR-027-001](../../eurodac/rules/rule-eur-027-001.md)).
 
 ---
 
@@ -59,7 +59,7 @@ Markeringen är ett exempel på det tvärgående flaggmönstret: ett villkor (ti
 
 - [RULE-APR-055-001](rule-apr-055-001.md) — Förhandsprövning av efterföljande ansökan
 - [RULE-APR-056-002](rule-apr-056-002.md) — Nivåräkning styr rätten att stanna
-- [RULE-EUR-031-001](../../eurodac/rules/rule-eur-031-001.md) — Eurodac-träff (hit/no-hit)
+- [RULE-EUR-027-001](../../eurodac/rules/rule-eur-027-001.md) — Eurodac-träff (hit/no-hit)
 
 ---
 

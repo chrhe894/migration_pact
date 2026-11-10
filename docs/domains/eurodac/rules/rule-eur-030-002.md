@@ -9,38 +9,43 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 30](../articles/eur-030.md), punkt 4
+[Eurodac artikel 30](../articles/eur-030.md), punkt 2
 
 ---
 
 ## Regeltyp
 
-Obligation
+Systembeteende
 
 ---
 
 ## Regel
 
-Ursprungsmedlemsstaten ansvarar för att begära radering av uppgifter i centralsystemet utan dröjsmål när villkoren för förtida radering är uppfyllda.
+När uppgifter raderats i förtid på grund av medborgarskap ska Eurodac så snart som möjligt, **senast inom 72 timmar**, informera alla ursprungsmedlemsstater som registrerat en träff på uppgifter om samma person.
 
 ---
 
 ## Syfte
 
-Placerar det operativa ansvaret hos den medlemsstat som överförde uppgifterna, så att radering inte försenas.
+Sprider raderingstriggern till andra medlemsstater som har uppgifter om personen.
 
 ---
 
 ## Utlösare
 
-Ursprungsmedlemsstaten får kännedom om att villkoren för förtida radering uppfyllts.
+En ursprungsmedlemsstat raderar uppgifter enligt art. 30.1.
 
 ---
 
 ## Rättsverkan
 
-- Ursprungsmedlemsstaten ska initiera raderingsbegäran.
-- Centralsystemet raderar uppgifterna efter begäran.
+- Övriga ursprungsmedlemsstater med träff underrättas inom 72 timmar.
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln avsåg tidigare att ursprungsmedlemsstaten ska "begära radering i centralsystemet". Förordningen säger att ursprungsmedlemsstaten själv raderar (art. 30.1, 40.3) och att Eurodac därefter underrättar övriga stater.
 
 ---
 

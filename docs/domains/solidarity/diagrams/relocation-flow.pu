@@ -4,10 +4,10 @@
 ' Syfte: Visualiserar hela omfördelningskedjan från identifiering till
 '        ansvarsövergång och registrering i mottagande stat.
 '
-' Källa: AMMR artiklarna 57, 63, 67, 68; Eurodac artikel 19; APR artiklarna 43, 52
+' Källa: AMMR artiklarna 57, 67, 68; Eurodac artiklarna 16, 25, 31; APR artiklarna 43, 52
 '
 ' Relaterade regler:
-'   RULE-AMMR-067-001, RULE-AMMR-063-001, RULE-EUR-019-001
+'   RULE-AMMR-067-001
 '
 ' Status: Draft
 ' ============================================================================
@@ -48,19 +48,22 @@ partition "Förfarande inför omfördelning (art. 67)" {
     ([[../articles/ammr-067.md ART-AMMR-067]])
   end note
 
-  if (Säkerhetsskäl att vägra?) then (Ja)
-    :Omfördelning avvisas\nför denna person;
-    :[[../rules/rule-ammr-063-001.md Ansvarskompensation aktiveras]];
+  if (Hot mot den inre säkerheten?) then (Ja)
+    :Personen omfördelas inte;
     note right
-      [[../rules/rule-ammr-063-001.md RULE-AMMR-063-001]]
-      ([[../articles/ammr-063.md ART-AMMR-063]])
+      Kontrolleras av båda staterna:
+      gynnad stat (p. 2), omfördelnings-MS (p. 8-9)
+      Ingen koppling till ansvarskompensation
+      ([[../articles/ammr-067.md ART-AMMR-067]])
     end note
     stop
   else (Nej)
-    :Mottagarstaten bekräftar\nmottagande;
-    :Överföring inom **4 veckor**;
+    :Mottagarstaten bekräftar mottagande\n(1 vecka, tystnad = bekräftelse);
+    :Beslut inom **1 vecka**,\növerföring inom **4 veckor**;
     note right
-      Tidsfrist: se
+      Detaljer: [[../processes/relocation-out.md Omfördelning UT]]
+      och [[../processes/relocation-in.md Omfördelning IN]]
+      Tidsfrister: se
       [[../../../shared/time-limits/README.md shared/time-limits]]
     end note
   endif
@@ -75,10 +78,11 @@ partition "Förfarande efter omfördelning (art. 68)" {
     även vid efterföljande ansökan
   end note
 
-  :[[../../eurodac/rules/rule-eur-019-001.md Biometri registreras i Eurodac]];
+  :Ansvar anges och dataset översänds i Eurodac;
   note right
-    [[../../eurodac/rules/rule-eur-019-001.md RULE-EUR-019-001]]
-    (Eurodac art. 19)
+    [[../../eurodac/articles/eur-025.md Eurodac art. 25.2]]
+    (dataset med ankomstdatum)
+    Ansvar: art. 16.1 och 16.3
   end note
 
   :[[../../registration/README.md Registrering i mottagande stat]];

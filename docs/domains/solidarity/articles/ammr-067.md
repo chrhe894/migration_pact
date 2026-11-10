@@ -26,9 +26,11 @@ Artikeln reglerar det förfarande som gäller för att omfördela en sökande fr
 
 ## Innehåll
 
-Den förmånsstaten identifierar sökande som kan omfördelas och meddelar omfördelningsmedlemsstaten. Omfördelningsmedlemsstaten ska bekräfta att den tar emot personen. Överföring ska ske inom fyra veckor efter bekräftelsen.
+Den gynnade medlemsstaten (i repot även förmånsstat) identifierar personer som kan omfördelas och översänder uppgifter till omfördelningsmedlemsstaten (p. 3, 7). Omfördelningsmedlemsstaten granskar uppgifterna och ska inom en vecka bekräfta att den tar emot personen, eller underrätta om hot (p. 8–9). Den gynnade staten fattar beslut om överföring inom en vecka från bekräftelsen (p. 10) och överföringen ska ske inom fyra veckor efter bekräftelsen (p. 11).
 
-Omfördelning kan inte ske om det finns rimliga skäl att anta att personen utgör en fara för nationell säkerhet eller allmän ordning i mottagarstaten.
+Omfördelning får inte ske om det finns rimliga skäl att anse att personen utgör ett **hot mot den inre säkerheten**. Den gynnade staten ska kontrollera detta innan förfarandet tillämpas (p. 2) och omfördelningsmedlemsstaten vid sin granskning (p. 8–9). Tystnad från omfördelningsmedlemsstaten inom fristen räknas som bekräftelse (p. 9).
+
+Rollerna beskrivs som två flöden: [Omfördelning UT](../processes/relocation-out.md) (gynnad stat) och [Omfördelning IN](../processes/relocation-in.md) (omfördelningsmedlemsstat).
 
 ---
 
@@ -46,7 +48,9 @@ Omfördelning kan inte ske om det finns rimliga skäl att anta att personen utg�
 
 ## Processer
 
-- [PROC-SOL-001 Omfördelning](../processes/relocation.md)
+- [PROC-SOL-001 Omfördelning (översikt)](../processes/relocation.md)
+- [PROC-SOL-002 Omfördelning UT](../processes/relocation-out.md)
+- [PROC-SOL-003 Omfördelning IN](../processes/relocation-in.md)
 
 ---
 

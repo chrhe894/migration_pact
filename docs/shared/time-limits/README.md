@@ -89,7 +89,9 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 
 | Tidsfrist | Förordning | Regel |
 |-----------|------------|-------|
-| 4 veckor — överföring vid omfördelning | AMMR art. 67 | [RULE-AMMR-067-001](../../domains/solidarity/rules/rule-ammr-067-001.md) |
+| 1 vecka (högst 2) — besked från omfördelningsmedlemsstaten (IN), tystnad = bekräftelse | [AMMR art. 67.9](../../domains/solidarity/articles/ammr-067.md) | [RULE-AMMR-067-001](../../domains/solidarity/rules/rule-ammr-067-001.md), [Omfördelning IN](../../domains/solidarity/processes/relocation-in.md) |
+| 1 vecka — överföringsbeslut av gynnad stat (UT), från bekräftelsen | [AMMR art. 67.10](../../domains/solidarity/articles/ammr-067.md) | [RULE-AMMR-067-001](../../domains/solidarity/rules/rule-ammr-067-001.md), [Omfördelning UT](../../domains/solidarity/processes/relocation-out.md) |
+| 4 veckor — överföring vid omfördelning (UT) | [AMMR art. 67.11](../../domains/solidarity/articles/ammr-067.md) | [RULE-AMMR-067-001](../../domains/solidarity/rules/rule-ammr-067-001.md) |
 
 ### Återvändande vid gräns
 
@@ -201,6 +203,8 @@ Regeln om minst två arbetsdagar biter bara på frister uttryckta i **dagar** (i
 - [PROC-ASY-001 Pröva en ansökan](../../domains/asylum-procedure/processes/examine-an-application.md)
 - [PROC-BRD-001 Asylgränsförfarande](../../domains/border-procedure/processes/asylum-border-procedure.md)
 - [PROC-RES-001 Fastställ ansvarig medlemsstat](../../domains/responsibility/processes/determine-responsible-member-state.md)
-- [PROC-SOL-001 Omfördelning](../../domains/solidarity/processes/relocation.md)
+- [PROC-SOL-001 Omfördelning (översikt)](../../domains/solidarity/processes/relocation.md)
+- [PROC-SOL-002 Omfördelning UT](../../domains/solidarity/processes/relocation-out.md)
+- [PROC-SOL-003 Omfördelning IN](../../domains/solidarity/processes/relocation-in.md)
 - [PROC-RET-001 Återvändande vid gräns](../../domains/return-border-procedure/processes/return-border-procedure.md)
 - [PROC-CRI-001 Aktivera krisåtgärder](../../domains/crisis/processes/activate-crisis-measures.md)

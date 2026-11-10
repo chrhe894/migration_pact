@@ -66,7 +66,7 @@ Vid allvarliga tekniska problem får 72-timmarsfristen för asylsökande förlä
 
 | Tidsfrist | Källa | Kommentar |
 |-----------|-------|-----------|
-| **Överföring** — 72 timmar | [Eurodac art. 15](../articles/eur-015.md) | Från tagning till överföring till centralsystemet |
+| **Överföring** — 72 timmar | [Eurodac art. 15.1](../articles/eur-015.md) | Från registreringen av ansökan (15.1 a). Vid ansökan vid gränsövergångsställe eller i transitzon av person som inte uppfyller inresevillkoren: från tagningen (15.1 b) |
 | **Vid hälsohinder** — 48 timmar | [Eurodac art. 15](../articles/eur-015.md) | Efter att hindret undanröjts |
 
 ### Koppling till statistik

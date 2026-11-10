@@ -29,7 +29,9 @@ Fysiskt omfördela sökande från utsatt till bidragande stat.
 
 ## Stöds av
 
-- [PROC-SOL-001 Omfördelning](../processes/relocation.md)
+- [PROC-SOL-001 Omfördelning (översikt)](../processes/relocation.md)
+- [PROC-SOL-002 Omfördelning UT](../processes/relocation-out.md)
+- [PROC-SOL-003 Omfördelning IN](../processes/relocation-in.md)
 
 ---
 

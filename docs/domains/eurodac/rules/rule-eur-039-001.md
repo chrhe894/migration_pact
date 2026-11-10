@@ -9,39 +9,43 @@ tags:
 
 ## Rättslig grund
 
-[Eurodac artikel 39](../articles/eur-039.md), punkt 1–3
+[Eurodac artikel 39](../articles/eur-039.md)
 
 ---
 
 ## Regeltyp
 
-Obligation
+Systembeteende
 
 ---
 
 ## Regel
 
-eu-LISA och medlemsstaterna ska vidta lämpliga tekniska och organisatoriska säkerhetsåtgärder — inklusive kryptering, åtkomstkontroll, incidenthantering och regelbundna revisioner — för att skydda uppgifter mot obehörig åtkomst, ändring eller förlust.
+Vid överföring av uppgifter mellan medlemsstaterna och Eurodac ska **kommunikationsinfrastrukturen** användas.
 
 ---
 
 ## Syfte
 
-Skyddar integriteten och konfidentialiteten hos biometriska och personliga uppgifter i Eurodac.
+Säkerställer en gemensam och kontrollerad kanal för uppgiftsutbyte.
 
 ---
 
 ## Utlösare
 
-Uppgifter lagras eller behandlas i centralsystemet eller nationella system.
+Uppgifter överförs till eller från Eurodac.
 
 ---
 
 ## Rättsverkan
 
-- Säkerhetspolicy ska antas.
-- Kryptering och åtkomstkontroll krävs.
-- Regelbundna revisioner och riskbedömningar ska genomföras.
+- eu-LISA fastställer de tekniska förfarandena för infrastrukturen.
+
+---
+
+## Kommentar
+
+> **Ändrat innehåll:** regeln avsåg tidigare datasäkerhet (kryptering, åtkomstkontroll, incidenthantering, revisioner). Datasäkerhet regleras i art. 48, som inte har något eget kort.
 
 ---
 

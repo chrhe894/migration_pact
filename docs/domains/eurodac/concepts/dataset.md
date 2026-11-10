@@ -34,7 +34,7 @@ Eurodacsystemet automatiskt när ursprungsmedlemsstaten överför personuppgifte
 
 ## Rättslig grund
 
-[Eurodac artikel 15](../articles/eur-015.md), punkt 4; [Eurodac artikel 29](../articles/eur-029.md)
+[Eurodac artikel 2](../articles/eur-002.md), punkt 1 y (definition); [artikel 15](../articles/eur-015.md), punkt 4 (länkning i sekvens); [artikel 29](../articles/eur-029.md) (lagring)
 
 ---
 

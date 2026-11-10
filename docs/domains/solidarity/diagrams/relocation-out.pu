@@ -1,0 +1,189 @@
+' ============================================================================
+' Diagram: Omfördelning UT — gynnad medlemsstat (förmånsstat)
+'
+' Syfte: Visualiserar omfördelningsförfarandet ur den gynnade medlemsstatens
+'        perspektiv (den som skickar personen). Motsvarande mottagarperspektiv
+'        finns i relocation-in.pu.
+'
+' Källa: AMMR artikel 67 (p. 2-7, 10-13), Eurodac art. 25.1
+'
+' Relaterade regler:
+'   RULE-AMMR-067-001
+'
+' Tidsfrister (art. 67): beslut 1 v (p. 10), underrättelse senast 2 dagar /
+'   1 vecka före överföring (p. 10), överföring 4 v (p. 11)
+'
+' Status: Draft
+' ============================================================================
+
+@startuml relocation-out
+
+title Omfördelning UT: gynnad medlemsstat (skickar)
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+skinparam partition {
+  BackgroundColor #FAFAFA
+  BorderColor #999999
+}
+
+start
+
+:[[../rules/rule-ammr-057-001.md Solidaritetspoolen aktiverad]];
+note right
+  [[../articles/ammr-057.md ART-AMMR-057]]
+  Omfördelning enligt
+  [[../articles/ammr-056.md art. 56.2 a]]
+end note
+
+partition "Förberedelse (art. 67.2-67.7)" {
+  :Kontrollera att det inte finns rimliga skäl\natt anse personen som hot mot\nden inre säkerheten;
+  note right
+    [[../articles/ammr-067.md ART-AMMR-067]] p. 2
+    Gäller **före och under** förfarandet
+  end note
+
+  if (Hot mot den inre säkerheten?) then (Ja)
+    :Tillämpa inte / avsluta förfarandet omedelbart;
+    :Utesluta personen från all framtida\nomfördelning eller överföring;
+    note right
+      [[../articles/ammr-067.md ART-AMMR-067]] p. 2
+      Ansöker personen om skydd är den
+      gynnade staten ansvarig
+      ([[../../../references/legislation/ammr.md AMMR art. 16.4]])
+    end note
+    stop
+  else (Nej)
+  endif
+
+  :Identifiera personer som kan omfördelas;
+  note right
+    [[../articles/ammr-067.md ART-AMMR-067]] p. 3-4
+    EUAA kan stödja identifiering och matchning
+    ---
+    Meningsfulla kopplingar (familj, kultur) beaktas
+    men ger **ingen rätt att välja** stat
+    ---
+    Utan koppling: rättvis fördelning
+    mellan övriga omfördelningsstater
+    ---
+    Familjemedlemmar till **samma** stat (p. 6)
+  end note
+
+  if (Är den gynnade staten ansvarig enligt\n[[../../responsibility/articles/ammr-025.md art. 25]]-[[../../responsibility/articles/ammr-028.md 28]] eller [[../../responsibility/articles/ammr-034.md 34]]\n(utom art. 25.5)?) then (Ja, sökande)
+    :Inte berättigad till omfördelning;
+    note right
+      [[../articles/ammr-067.md ART-AMMR-067]] p. 5
+      andra stycket
+    end note
+    stop
+  else (Nej)
+  endif
+
+  if (Har personen beviljats\ninternationellt skydd?) then (Ja)
+    :Inhämta skriftligt samtycke\ntill omfördelningen;
+    note right
+      [[../articles/ammr-067.md ART-AMMR-067]] p. 4
+    end note
+  else (Nej)
+  endif
+
+  :Informera personen om förfarandet\n(art. 67 och 68);
+  note right
+    [[../articles/ammr-067.md ART-AMMR-067]] p. 5
+  end note
+
+  :[[../rules/rule-ammr-067-001.md Översänd uppgifter och handlingar\ntill omfördelningsmedlemsstaten]];
+  note right
+    Standardformulär, **så snart som möjligt**
+    ([[../articles/ammr-067.md ART-AMMR-067]] p. 7)
+  end note
+}
+
+partition "Besked från omfördelningsmedlemsstaten (se IN-flödet)" {
+  :Vänta på besked;
+  note right
+    **1 vecka** från mottagandet
+    (undantagsvis högst 2 veckor)
+    **Tystnad = bekräftelse**
+    ([[../articles/ammr-067.md ART-AMMR-067]] p. 9)
+  end note
+
+  if (Besked?) then (Hot mot inre säkerheten)
+    :Personen omfördelas inte;
+    stop
+  else (Bekräftelse - uttrycklig eller tyst)
+  endif
+
+  :Uppdatera Eurodac-dataset med\nomfördelningsmedlemsstaten;
+  note right
+    [[../../eurodac/articles/eur-025.md Eurodac art. 25.1]]
+    Så snart omfördelningsmedlemsstaten
+    är skyldig att ta emot personen
+  end note
+}
+
+partition "Överföring (art. 67.10-67.13)" {
+  :[[../rules/rule-ammr-067-001.md Fatta beslut om överföring]];
+  note right
+    **1 vecka** från bekräftelsen
+    ([[../articles/ammr-067.md ART-AMMR-067]] p. 10)
+    Motsvarar fristtypen
+    [[../../../shared/time-limits/concepts/fristtyp-accept-till-beslut.md ATB]]
+  end note
+
+  :Underrätta personen skriftligen;
+  note right
+    Utan dröjsmål, dock senast
+    **2 dagar** före överföring (sökande)
+    **1 vecka** före (skyddade)
+    ([[../articles/ammr-067.md ART-AMMR-067]] p. 10)
+    Baklänges räknad varseltid
+  end note
+
+  :Rättsmedel mot överföringsbeslutet;
+  note right
+    [[../../responsibility/articles/ammr-043.md AMMR art. 43]] gäller i
+    tillämpliga delar ([[../articles/ammr-067.md ART-AMMR-067]] p. 13)
+    Suspensiv verkan fryser fristen
+  end note
+
+  :Verkställ överföringen;
+  note right
+    Inom **4 veckor** efter bekräftelsen
+    (eller slutligt beslut vid suspensiv
+    verkan, art. 43.3)
+    ([[../articles/ammr-067.md ART-AMMR-067]] p. 11)
+    Enligt den gynnade statens nationella
+    rätt, efter samråd
+    Fristtyp:
+    [[../../../shared/time-limits/concepts/fristtyp-accept-till-overforing.md ATÖ]]
+    ---
+    Personer med skydd: översänd även
+    information enligt
+    [[../../responsibility/articles/ammr-051.md art. 51.2]] (p. 13)
+  end note
+}
+
+:Personen överförd;
+note right
+  Fortsätter hos omfördelningsmedlemsstaten:
+  [[../processes/relocation-in.md Omfördelning IN]]
+  ([[../articles/ammr-068.md ART-AMMR-068]])
+end note
+
+stop
+
+@enduml
