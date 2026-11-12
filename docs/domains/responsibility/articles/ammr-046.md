@@ -27,13 +27,20 @@ Artikeln reglerar hur och inom vilka tidsfrister en överföring till den ansvar
 
 ## Innehåll
 
-Överföringen ska verkställas så snart det är praktiskt möjligt och senast inom sex månader efter det att den anmodade staten godtagit framställan eller aviseringen bekräftats, eller efter att rättsmedlet inte längre har suspensiv verkan.
+**Punkt 1** — Överföringen ska verkställas enligt den överförande statens nationella rätt, efter samråd, så snart det är praktiskt möjligt och **inom sex månader** efter att framställan om övertagande godtogs, meddelandet om återtagande bekräftades, eller det slutliga beslutet om överklagande eller omprövning med suspensiv verkan (art. 43.3) fattades. Överföringar efter godtagande enligt art. 25–28 och 34 ska prioriteras. Vid omfördelning gäller fristen i art. 67.11 (fyra veckor). Den ansvariga staten underrättar om personen kommit fram eller inte infunnit sig.
 
-Om personen avviker kan fristen förlängas till högst 18 månader.
+**Punkt 2** — Om överföringen inte sker inom fristen befrias den ansvariga staten och **ansvaret övergår** till den överförande staten. Fristen får förlängas:
 
-Om personen är i förvar ska överföringen verkställas inom fyra veckor.
+- till **högst ett år** om överföringen inte kunnat verkställas därför att personen varit **frihetsberövad**,
+- till **högst tre år** från det att den anmodande staten underrättade den ansvariga staten, om personen eller en familjemedlem som ska överföras med personen har **avvikit**, **fysiskt motsätter sig** överföringen, avsiktligt ser till att hans eller hennes **tillstånd inte medger** överföringen, eller **inte uppfyller de medicinska kraven** för överföringen.
 
-Om överföringen inte sker inom tidsfristen övergår ansvaret till den överförande staten.
+Vid förvar gäller i stället fem veckor ([art. 45.3](ammr-045.md)), och vid kris eller force majeure ett år ([Kris art. 12.2 d](../../crisis/articles/crisis-012.md)).
+
+---
+
+## Kommentar
+
+> **Rättelse:** kortet angav tidigare att fristen vid avvikande förlängs till högst 18 månader, och att överföringen vid förvar ska ske inom fyra veckor. 18 månader var regeln i Dublin III-förordningen. I AMMR gäller högst tre år, med fler grunder än avvikande. Förvarsfristen är fem veckor och finns i art. 45.3, inte i art. 46.
 
 ---
 

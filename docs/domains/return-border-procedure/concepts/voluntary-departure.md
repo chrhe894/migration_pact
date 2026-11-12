@@ -16,7 +16,7 @@ Voluntary departure
 
 ## Definition
 
-En tidsfrist under vilken personen ges möjlighet att lämna territoriet frivilligt innan tvångsavlägsnande verkställs. I return border procedure är fristen begränsad till högst 15 dagar.
+En tidsfrist under vilken personen ges möjlighet att lämna territoriet frivilligt innan tvångsavlägsnande verkställs. I gränsförfarandet för återvändande beviljas fristen endast på begäran och är begränsad till högst 15 dagar. Den ger ingen rätt att resa in, och den beviljas inte vid risk för avvikande, uppenbart ogrundad ansökan eller säkerhetsrisk ([art. 4.5](../articles/return-004.md)).
 
 ---
 
@@ -28,7 +28,7 @@ Ger personen en sista möjlighet att återvända på eget initiativ, vilket är 
 
 ## Skapas av
 
-Den behöriga myndigheten genom att bevilja en tidsfrist för frivillig avresa i samband med återvändandebeslutet ([PROC-RET-001](../processes/return-border-procedure.md)).
+Den behöriga myndigheten genom att, på personens begäran, bevilja en tidsfrist för frivillig avresa ([PROC-RET-001](../processes/return-border-procedure.md)).
 
 ---
 

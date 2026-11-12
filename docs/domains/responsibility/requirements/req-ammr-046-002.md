@@ -10,13 +10,15 @@ tags:
 
 ## Krav
 
-Vid avvikande: förlängning till 18 månader.
+Fristen får förlängas till högst ett år om personen varit frihetsberövad, och till högst tre år om personen eller en medföljande familjemedlem avvikit, fysiskt motsätter sig överföringen, avsiktligt förhindrar den eller inte uppfyller de medicinska kraven (art. 46.2).
+
+> **Rättelse:** kravet angav tidigare "förlängning till 18 månader vid avvikande", vilket var regeln i Dublin III.
 
 ---
 
 ## Syfte
 
-Möjliggöra förlängd överföringsfrist om personen avviker.
+Möjliggöra förlängd överföringsfrist när överföringen hindras av frihetsberövande eller av personens eget agerande.
 
 ---
 

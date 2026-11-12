@@ -55,8 +55,9 @@ När 2-veckorsfristen löper ut avslutas omprövningen. Uteblivet svar = **inte*
 | Situation | Frist |
 |-----------|-------|
 | Normalfall | **6 månader** från bekräftelse (eller när suspensiv verkan upphör) |
-| Personen avviker | Förlängs till högst **18 månader** |
-| Personen i förvar | **4 veckor** (art. 46) / 5 veckor ([art. 45](../articles/ammr-045.md)) |
+| Personen har varit frihetsberövad | Förlängs till högst **ett år** ([art. 46.2](../articles/ammr-046.md)) |
+| Personen (eller medföljande familjemedlem) avviker, fysiskt motsätter sig, avsiktligt förhindrar överföringen eller inte uppfyller de medicinska kraven | Förlängs till högst **tre år** ([art. 46.2](../articles/ammr-046.md)) |
+| Personen i förvar | **5 veckor** ([art. 45.3](../articles/ammr-045.md)) |
 
 Missad överföringsfrist = **ansvaret övergår** till Sverige (den överförande staten).
 
@@ -68,7 +69,7 @@ Missad överföringsfrist = **ansvaret övergår** till Sverige (den överföran
 
 Personen har rätt att överklaga överföringsbeslutet. AMMR anger ingen egen numerisk överklagandefrist — den bestäms i nationell rätt (i Sverige normalt **2 veckor–1 månad**, **7 dagar** i snabbförfarande, [ds-2025-30](../../../shared/time-limits/national/ds-2025-30.md)).
 
-Beviljad **suspensiv verkan** fryser överföringsfristen tills verkan upphör — se [Frysning och förlängning](../../../shared/time-limits/concepts/frysning-och-forlangning.md).
+Vid beviljad **suspensiv verkan** fryses överföringsfristen: en ny full frist räknas från det slutliga beslutet om överklagandet (art. 46.1), eller vid förvar från den dag den suspensiva verkan upphör (art. 45.3 b) — se [Frysning och förlängning](../../../shared/time-limits/concepts/frysning-och-forlangning.md).
 
 ---
 

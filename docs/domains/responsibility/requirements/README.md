@@ -47,6 +47,6 @@
 | [REQ-AMMR-045-004](req-ammr-045-004.md) | Person ska friges om tidsfristerna inte iakttas | [RULE-AMMR-045-001](../rules/rule-ammr-045-001.md) | [CAP-RES-006](../capabilities/cap-res-006.md) |
 | [REQ-AMMR-045-005](req-ammr-045-005.md) | Suspensiv verkan fryser 5-veckorsfristen | [RULE-AMMR-045-002](../rules/rule-ammr-045-002.md) | [CAP-RES-007](../capabilities/cap-res-007.md) |
 | [REQ-AMMR-046-001](req-ammr-046-001.md) | Överföring ska verkställas inom 6 månader | [RULE-AMMR-046-001](../rules/rule-ammr-046-001.md) | [CAP-RES-006](../capabilities/cap-res-006.md) |
-| [REQ-AMMR-046-002](req-ammr-046-002.md) | Vid avvikande: förlängning till 18 månader | [RULE-AMMR-046-001](../rules/rule-ammr-046-001.md) | [CAP-RES-006](../capabilities/cap-res-006.md) |
-| [REQ-AMMR-046-003](req-ammr-046-003.md) | Vid förvar: överföring inom 4 veckor | [RULE-AMMR-046-001](../rules/rule-ammr-046-001.md) | [CAP-RES-006](../capabilities/cap-res-006.md) |
+| [REQ-AMMR-046-002](req-ammr-046-002.md) | Förlängning till högst 1 år (frihetsberövande) eller 3 år (avvikande m.m.) | [RULE-AMMR-046-001](../rules/rule-ammr-046-001.md) | [CAP-RES-006](../capabilities/cap-res-006.md) |
+| [REQ-AMMR-046-003](req-ammr-046-003.md) | Vid förvar: överföring inom 5 veckor (art. 45.3) | [RULE-AMMR-045-001](../rules/rule-ammr-045-001.md) | [CAP-RES-006](../capabilities/cap-res-006.md) |
 | [REQ-AMMR-046-004](req-ammr-046-004.md) | Missad frist = ansvaret övergår till överförande stat | [RULE-AMMR-046-001](../rules/rule-ammr-046-001.md) | [CAP-RES-006](../capabilities/cap-res-006.md) |

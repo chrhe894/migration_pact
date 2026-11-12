@@ -63,7 +63,8 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 | 2 veckor — bekräftelse av avisering | AMMR art. 41.3 | [RULE-AMMR-041-001](../../domains/responsibility/rules/rule-ammr-041-001.md) |
 | 2 veckor — överföringsbeslut | AMMR art. 42.1 | [RULE-AMMR-042-001](../../domains/responsibility/rules/rule-ammr-042-001.md) |
 | 6 månader — verkställande av överföring | AMMR art. 46 | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
-| 18 månader — vid avvikande | AMMR art. 46 | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
+| 1 år — förlängning vid frihetsberövande | AMMR art. 46.2 | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
+| 3 år — förlängning vid avvikande, fysiskt motstånd, avsiktligt förhindrande eller ej uppfyllda medicinska krav | AMMR art. 46.2 | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
 | 4 veckor — överföring vid förvar | AMMR art. 46 | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
 | 3 veckor — svar på begäran om informationsutbyte | AMMR art. 51.5 | [RULE-AMMR-051-001](../../domains/responsibility/rules/rule-ammr-051-001.md) |
 
@@ -97,8 +98,10 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 
 | Tidsfrist | Förordning | Regel |
 |-----------|------------|-------|
-| 12 veckor — maximal varaktighet återvändandeförfarande vid gräns | Return art. 5 | [RULE-RET-005-001](../../domains/return-border-procedure/rules/rule-ret-005-001.md) |
-| 15 dagar — tidsfrist för frivillig avresa | Return art. 5 | [RULE-RET-005-001](../../domains/return-border-procedure/rules/rule-ret-005-001.md) |
+| 12 veckor — gränsförfarande för återvändande, från att rätten att stanna kvar upphört (+6 v vid kris) | Return art. 4.2, 6.1 | [RULE-RET-004-002](../../domains/return-border-procedure/rules/rule-ret-004-002.md) |
+| 15 dagar — tidsfrist för frivillig avresa (på begäran) | Return art. 4.5 | [RULE-RET-004-003](../../domains/return-border-procedure/rules/rule-ret-004-003.md) |
+
+> **Egen fristberäkning:** förordning 2024/1349 har egna beräkningsregler ([art. 11](../../domains/return-border-procedure/articles/return-011.md)). Regeln om minst två arbetsdagar i 1182/71 art. 3.5 finns inte där, men en frist som slutar på en helgdag flyttas till nästa arbetsdag.
 
 ### Vid kris (undantag)
 
@@ -116,7 +119,7 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 ## Nyckelprinciper
 
 1. **Fristerna är bindande** — om en myndighet inte agerar inom tidsfristen inträder en rättslig konsekvens (ansvar övergår, person friges, förfarande avslutas).
-2. **Suspensiv verkan fryser frister** — vid överklagande med beviljad suspensiv verkan pausas överförings- och avlägsnandfrister.
+2. **Suspensiv verkan fryser frister** — vid överklagande med beviljad suspensiv verkan börjar överföringsfristen om från det slutliga beslutet om överklagandet. Se [Frysning och förlängning](concepts/frysning-och-forlangning.md).
 3. **Massinflöde/kris förlänger** — vid oproportionellt inflöde eller krissituation kan tidsfristerna förlängas, men aldrig obegränsat.
 4. **Förvar kräver kortare frister** — vid frihetsberövande ställs högre krav på skyndsamhet.
 
@@ -179,10 +182,10 @@ Regeln om minst två arbetsdagar biter bara på frister uttryckta i **dagar** (i
 
 ## Koncept
 
-- [Frysning och förlängning av tidsfrister](concepts/frysning-och-forlangning.md) — När tidsfrister kan pausas (suspensiv verkan) respektive förlängas (massinflöde, komplexitet, kris, avvikande)
+- [Frysning och förlängning av tidsfrister](concepts/frysning-och-forlangning.md) — Samlad lista över alla tidsfrister som kan frysas (ny startpunkt vid suspensiv verkan) eller förlängas, per förordning och process
 - [Fristtyp: Accept till beslut (ATB)](concepts/fristtyp-accept-till-beslut.md) — Återanvändbar fristtyp som startar vid accept (uttrycklig/tyst) och löper till beslut resp. verkställighet
 - [Fristtyp: Nekad begäran till omprövning (TNO)](concepts/fristtyp-nekad-begaran-till-omprovning.md) — Mellanstatlig fristtyp som startar vid ett nekande (avslag/icke-bekräftelse) och ger en kort frist att begära omprövning och svara
-- [Fristtyp: Accept till överföring (ATÖ)](concepts/fristtyp-accept-till-overforing.md) — Överföringsfristen: startar vid accept och löper till verkställd överföring (6 mån / 18 mån avvikande / 4 v förvar); missad frist = ansvarsövergång
+- [Fristtyp: Accept till överföring (ATÖ)](concepts/fristtyp-accept-till-overforing.md) — Överföringsfristen: startar vid accept och löper till verkställd överföring (6 mån, förlängs till 1 år / 3 år; 5 v vid förvar enligt art. 45.3); missad frist = ansvarsövergång
 - [Fristtyp: Transfer — genomförande av överföring (TGÖ)](concepts/fristtyp-transfer-genomforande-overforing.md) — De praktiska koordineringsfristerna vid själva överföringen (förhandsavisering 7–14 d, 21 d för utsatta, 5 d bekräftelse, 7 d presumtion); genomförandeförordning 2025/2055 kap. V
 - [Uppsikt](concepts/uppsikt.md) — Tidsdimensioner kopplade till uppsiktsbeslut
 

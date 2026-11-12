@@ -40,7 +40,7 @@ Den bestämmande medlemsstaten efter att ansvarsfrågan slutligt avgjorts genom 
 
 ## Kommentar
 
-Överföringen ska verkställas inom 6 månader (18 vid avvikande, 4 veckor vid förvar). Om fristen löper ut övergår ansvaret till den överförande staten.
+Överföringen ska verkställas inom 6 månader. Fristen kan förlängas till högst ett år vid frihetsberövande och till högst tre år vid avvikande med mera (art. 46.2). Vid förvar gäller fem veckor (art. 45.3). Om fristen löper ut övergår ansvaret till den överförande staten.
 
 ---
 

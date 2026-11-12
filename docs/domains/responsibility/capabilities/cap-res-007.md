@@ -35,7 +35,7 @@ Säkerställa sökandens rätt till överklagande och suspensiv verkan.
 ## Producerar
 
 - Överklagandemöjlighet
-- Frysning av frist vid beviljad suspensiv verkan
+- Ny startpunkt för överföringsfristen vid beviljad suspensiv verkan (frysning, art. 45.3 b och 46.1)
 
 ---
 

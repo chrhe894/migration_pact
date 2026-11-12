@@ -1,19 +1,21 @@
 ' ============================================================================
-' Diagram: Återvändande vid gräns
+' Diagram: Gränsförfarande för återvändande
 '
-' Syfte: Visualiserar återvändandegränsförfarandet.
+' Syfte: Visualiserar gränsförfarandet för återvändande enligt
+'        förordning (EU) 2024/1349.
 '
-' Källa: Förordning (EU) 2024/1349 artiklarna 4–6
+' Källa: Förordning (EU) 2024/1349 artiklarna 4–6 och 11; APR art. 68
 '
 ' Relaterade regler:
-'   RULE-RET-004-001, RULE-RET-005-001
+'   RULE-RET-004-001, RULE-RET-004-002, RULE-RET-004-003,
+'   RULE-RET-005-001, RULE-RET-006-001, RULE-RET-011-001
 '
 ' Status: Draft
 ' ============================================================================
 
 @startuml return-border-procedure
 
-title Återvändande vid gräns
+title Gränsförfarande för återvändande (förordning 2024/1349)
 
 skinparam shadowing false
 skinparam HyperlinkColor Black
@@ -32,59 +34,78 @@ skinparam note {
 
 start
 
-:Avslag i asylgränsförfarande;
+:Avslag i gränsförfarandet för asyl;
 
-:[[../rules/rule-ret-004-001.md Återvändande vid gräns inleds]];
+:[[../rules/rule-ret-004-001.md Ingen inresa på territoriet]];
 note right
   [[../rules/rule-ret-004-001.md RULE-RET-004-001]]
-  Inleds efter avslag i
-  gränsförfarande
-  ([[../articles/return-004.md ART-RET-004]])
+  ([[../articles/return-004.md ART-RET-004]] p. 1)
 end note
 
-:Återvändandebeslut utfärdas;
-
-:Tidsfrist för frivillig avresa (max\n15 dagar);
-note right
-  [[../rules/rule-ret-005-001.md RULE-RET-005-001]]
-  Max **12 veckor** efter avslag
-  Frivillig avresa: max **15 dagar**
-  ([[../articles/return-005.md ART-RET-005]])
-end note
-
-if (Personen återvänder frivilligt?) then (Ja)
-
-    :Frivillig avresa;
-
+if (Rätt att stanna kvar under\növerklagande? ([[../../asylum-procedure/articles/apr-068.md APR art. 68]])) then (Ja)
+  :Vänta på överklagandet;
+  note right
+    Tolvveckorsperioden har
+    **inte börjat** löpa
+    (ingen frysning, ny startpunkt)
+  end note
+  if (Bifall?) then (Ja)
+    :Förfarandet avslutas;
     stop
-
+  else (Nej)
+  endif
+else (Nej)
 endif
 
-if (Överklagande med suspensiv verkan?) then (Ja)
+:[[../rules/rule-ret-004-002.md Tolvveckorsperioden börjar]];
+note right
+  [[../rules/rule-ret-004-002.md RULE-RET-004-002]]
+  Från dagen då personen inte längre
+  har rätt att stanna kvar
+  Högst **12 veckor** vid gränsen,
+  i transitområde eller annan plats
+  ([[../articles/return-004.md ART-RET-004]] p. 2)
+  ---
+  Vid kris: +högst **6 veckor**
+  ([[../rules/rule-ret-006-001.md RULE-RET-006-001]])
+  ---
+  Fristberäkning: [[../rules/rule-ret-011-001.md art. 11]]
+end note
 
-    :Tidsfristen fryser;
-
-    :Domstol beslutar;
-
+if (Förvar nödvändigt?) then (Ja, sista utväg)
+  :[[../rules/rule-ret-005-001.md Förvar]];
+  note right
+    [[../rules/rule-ret-005-001.md RULE-RET-005-001]]
+    Högst lika länge som
+    tolvveckorsperioden
+    ([[../articles/return-005.md ART-RET-005]])
+  end note
+else (Nej)
 endif
 
-:Avlägsnande verkställs;
-
-if (Avlägsnande möjligt inom 12 veckor?) then (Nej)
-
-    :[[../rules/rule-ret-005-001.md Tidsfrist utgången — inresa tillåts]];
-    note right
-      [[../rules/rule-ret-005-001.md RULE-RET-005-001]]
-      Om 12 veckor utan verkställt
-      avlägsnande → inresa tillåts
-    end note
-
-else (Ja)
-
-    :Avlägsnande genomfört;
-
+if (Begär personen frivillig avresa\noch inga hinder finns?) then (Ja)
+  :[[../rules/rule-ret-004-003.md Tidsfrist för frivillig avresa]];
+  note right
+    [[../rules/rule-ret-004-003.md RULE-RET-004-003]]
+    Högst **15 dagar**, endast på begäran
+    Ej vid risk för avvikande, uppenbart
+    ogrundad ansökan eller säkerhetsrisk
+  end note
+else (Nej)
 endif
 
-stop
+if (Återvändande verkställt\ninom perioden?) then (Ja)
+  :Personen har återvänt;
+  stop
+else (Nej)
+  :[[../rules/rule-ret-004-002.md Fortsätt enligt återvändandedirektivet]];
+  note right
+    [[../articles/return-004.md ART-RET-004]] p. 4
+    Direktiv 2008/115/EG
+    **Ingen** rätt till inresa enligt
+    denna förordning
+  end note
+  stop
+endif
 
 @enduml

@@ -20,7 +20,8 @@ Båda systemen bygger på principen att **en** medlemsstat ska vara ansvarig fö
 | **Framställan om övertagande** | 3 månader | 2 månader (1 mån vid Eurodac-träff) |
 | **Svar på framställan** | 2 månader | 1 månad (2 veckor vid Eurodac-träff) |
 | **Överföringsfrist** | 6 månader | 6 månader (oförändrat) |
-| **Förlängd frist vid avvikande** | 18 månader | 18 månader (oförändrat) |
+| **Förlängd frist vid avvikande** | 18 månader (Dublin III art. 29.2) | Högst 3 år, och grunderna har utvidgats till fysiskt motstånd, avsiktligt förhindrande och ej uppfyllda medicinska krav (AMMR art. 46.2) |
+| **Förlängd frist vid frihetsberövande** | 1 år | 1 år (oförändrat) |
 | **Examensbevis som kriterium** | Fanns inte | Nytt kriterium (art. 30) — max 6 år |
 | **Nytt viseringsfritt kriterium** | Fanns inte | Nytt (art. 31) |
 | **Tyst godkännande** | Existerade men svagare formulering | Förstärkt — inget svar = godkännande |

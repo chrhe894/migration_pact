@@ -124,8 +124,9 @@ partition "Överföring (art. 46)" {
   note right
     [[../rules/rule-ammr-046-001.md RULE-AMMR-046-001]]
     Normalt: **6 månader**
-    Vid förvar: **4 veckor**
-    Vid avvikande: **18 månader**
+    Vid förvar: **5 veckor** (art. 45.3)
+    Frihetsberövad: högst **1 år**
+    Avvikande m.m.: högst **3 år** (art. 46.2)
     ([[../articles/ammr-046.md ART-AMMR-046]])
     ---
     == Konsekvens vid missad frist ==

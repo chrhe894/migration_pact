@@ -42,7 +42,7 @@ Flaggorna grupperas i sex kategorier efter vad de uttrycker.
 | Flagga | Utlöses av | Konsekvens | Källa |
 |--------|------------|------------|-------|
 | Avvikanderisk / säkerhetshot | Individuell bedömning av risk för avvikande eller hot | Förvar får ske (sista utväg) efter proportionalitetsbedömning | [RULE-AMMR-044-001](../../domains/responsibility/rules/rule-ammr-044-001.md) |
-| Avvikande (absconding) | Person ej tillgänglig för överföring | Överföringsfristen förlängs från 6 till 18 månader | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
+| Avvikande (absconding) | Personen (eller medföljande familjemedlem) avviker, motsätter sig fysiskt, avsiktligt förhindrar eller uppfyller inte medicinska krav | Överföringsfristen får förlängas från 6 månader till högst 3 år (vid frihetsberövande: högst 1 år) | [RULE-AMMR-046-001](../../domains/responsibility/rules/rule-ammr-046-001.md) |
 | Tillgänglighetskrav (screening) | Risk för avvikande, inre säkerhet eller folkhälsa | Nationellt kvarhållande/uppsikt under screening | [scr-006](../../domains/screening/articles/scr-006.md) |
 
 ### 4. Sårbarhets- och statuspresumtioner
@@ -64,9 +64,11 @@ Flaggorna grupperas i sex kategorier efter vad de uttrycker.
 
 | Flagga | Utlöses av | Konsekvens | Källa |
 |--------|------------|------------|-------|
-| Påskyndat-förfarande-spärr | Ansökan klassas enligt art. 42.1 a–f | Kortare prövningsfrist (3 mån) + spärr mot arbetsmarknadstillträde (AT-UND) | [ds-2025-30-mottagande](../time-limits/national/ds-2025-30-mottagande.md) |
-| "Fel medlemsstat"-status | Sökande i annan MS efter delgivet överföringsbeslut | Indragning av mottagningsvillkor (ingen dagersättning, inget AT-UND) | [ds-2025-30-mottagande](../time-limits/national/ds-2025-30-mottagande.md) |
-| **Närvarokontroll-räknare** | Upprepade missade kontroller / överträdd anmälningsskyldighet ("per tillfälle") | Nedsättning av dagersättning som ackumuleras per tillfälle (t.ex. 2 veckor per missad anmälan) | [ds-2025-30-mottagande](../time-limits/national/ds-2025-30-mottagande.md) |
+| Påskyndat-förfarande-spärr | Ansökan klassas enligt art. 42.1 a–f | Kortare prövningsfrist (3 mån) + inget arbetsmarknadstillträde (AT-UND); redan beviljat tillträde upphävs | [Mottagandelag 5:5](../time-limits/national/mottagandelag-2026-999.md#arbetsmarknadstilltrade-at-und-5-kap-5) |
+| Överföringsbeslut delgivet (AMMR art. 17.4) | Sökande skyldig att vistas i annan MS och skriftligen underrättad om överföringsbeslut | Inget AT-UND; dagersättning bara om plats med fri kost **inte** erbjuds; särskilt bidrag påverkas inte | [Mottagandelag 5:5, 6:1 a](../time-limits/national/mottagandelag-2026-999.md#dagersattning-och-sarskilt-bidrag-6-kap) |
+| Avlägsnandebeslut (inkl. återvändande- och överföringsbeslut, 1:12) | Beslut som vunnit laga kraft eller får verkställas omedelbart | Generell anmälningsskyldighet 3 dagar/vecka (16+), länsbegränsning, dagersättning kräver medverkan till verkställighet | [Mottagandelag 1:11–12, 4:1, 4:6, 6:4](../time-limits/national/mottagandelag-2026-999.md#vem-omfattas-1-kap) |
+| **Anmälnings-räknare** | Missade anmälningstillfällen | 4:5 (individuell): 2 veckor per tillfälle. 4:6 (generell): 1 vecka när andra missen sker inom en månad. Missad närvarokontroll (4:3) ger **ingen** nedsättning enligt lagen | [Mottagandelag 6:8](../time-limits/national/mottagandelag-2026-999.md#nedsattning) |
+| **Läns-dagräknare** | Dagar utanför länet (4:1) | 1 vecka nedsättning **för varje dag** | [Mottagandelag 6:8 p. 2](../time-limits/national/mottagandelag-2026-999.md#nedsattning) |
 
 ---
 
@@ -76,7 +78,7 @@ Flera flaggor är inte binära utan **ackumuleras eller mäts mot en tröskel** 
 
 | Mekanism | Vad som räknas/mäts | Tröskel/effekt | Källa |
 |----------|---------------------|----------------|-------|
-| Nedsättning dagersättning "per tillfälle" | Antal missade närvarokontroller / överträdelser av anmälningsskyldighet | Varje tillfälle ger ny nedsättningsperiod (ackumulerande) | [ds-2025-30-mottagande](../time-limits/national/ds-2025-30-mottagande.md) |
+| Nedsättning dagersättning | Missade anmälningar (4:5 per tillfälle; 4:6 andra gången inom en månad) och dagar utanför länet (per dag). Inte missade närvarokontroller | 4:5: 2 v per tillfälle; 4:6: 1 v; länet: 1 v per dag | [Mottagandelag 6:8](../time-limits/national/mottagandelag-2026-999.md#nedsattning) |
 | Efterföljande-ansökan-nivå | Antal tidigare ansökningar (första vs. andra/följande) | Styr rätten att stanna (art. 56) | [RULE-APR-056-002](../../domains/asylum-procedure/rules/rule-apr-056-002.md) |
 | Bifallsandel | EU-genomsnittlig bifallsandel per ursprungsland | < 20 % (< 50 % vid kris) utlöser gränsförfarande/påskyndat | [statistics](../statistics/README.md) |
 | Gränsförfarandekapacitet | Antal pågående gränsförfaranden mot statens tak | Tak uppnått stänger av vissa grunder | [adequate-capacity](../../domains/border-procedure/concepts/adequate-capacity.md) |
@@ -210,8 +212,8 @@ Detta är ett **arbetsunderlag**, inte en formaliserad del av katalogen. Postern
 
 | Kandidat | Entitet | Typ | Utlösare → konsekvens | Källa |
 |----------|---------|-----|------------------------|-------|
-| Automatiskt inlett förfarande + inreseförbud | Ärende | boolean | Avslag i asylgränsförfarande → återvändandeförfarande inleds auto, inresa nekas | [RULE-RET-004-001](../../domains/return-border-procedure/rules/rule-ret-004-001.md) |
-| Absolut 12-veckorsfrist → rätt till inresa | Person | tröskel (tid) | 12 v utan verkställt avlägsnande → förfarandet avslutas, inresa tillåts | [RULE-RET-005-001](../../domains/return-border-procedure/rules/rule-ret-005-001.md) |
+| Automatiskt inlett förfarande + inreseförbud | Ärende | boolean | Avslag i gränsförfarandet för asyl → ingen inresa, gränsförfarandet för återvändande tillämpas | [RULE-RET-004-001](../../domains/return-border-procedure/rules/rule-ret-004-001.md) |
+| Tolvveckorsperiod för återvändande vid gräns | Person | tröskel (tid) | Rätten att stanna kvar upphör efter avslag i gränsförfarandet för asyl → högst 12 v vid gränsen (+6 v vid kris). Inte verkställt → återvändandet fortsätter enligt direktiv 2008/115/EG, ingen rätt till inresa | [RULE-RET-004-002](../../domains/return-border-procedure/rules/rule-ret-004-002.md) |
 
 ### Ansvar (AMMR)
 
@@ -267,9 +269,9 @@ Samma kandidater, sorterade efter **mönstertyp** i stället för domän. Den h�
 | **Cessation (tid → ansvar upphör)** | Tidsfrist passeras → tillstånd upphör | Ansvar: [art. 33](../../domains/responsibility/rules/rule-ammr-033-002.md), [art. 37](../../domains/responsibility/rules/rule-ammr-037-001.md) |
 | **Frist → rättsföljd (hård deadline)** | Deadline missas → automatisk följd | Ansvar: överföring ([art. 46](../../domains/responsibility/rules/rule-ammr-046-001.md)), frigivning ([art. 45](../../domains/responsibility/rules/rule-ammr-045-001.md)); Återvändandegräns: [art. 5](../../domains/return-border-procedure/rules/rule-ret-005-001.md); Screening: [art. 8/18](../../domains/screening/rules/rule-scr-008-001.md) |
 | **Numerisk tröskel / kvot / tak** | Mätvärde mot gräns | Statistik: [bifallsandel](../statistics/README.md); Gränsförfarande: [kapacitet](../../domains/border-procedure/concepts/adequate-capacity.md); Solidaritet: [referensnyckel](../../domains/solidarity/rules/rule-ammr-066-001.md) |
-| **Räknare (ackumulerande)** | Antal händelser mot gräns | Mottagande: närvarokontroll ([ds-2025-30](../time-limits/national/ds-2025-30-mottagande.md)); Asyl: efterföljande-nivå ([art. 56](../../domains/asylum-procedure/rules/rule-apr-056-002.md)) |
+| **Räknare (ackumulerande)** | Antal händelser mot gräns | Mottagande: missade anmälningar och dagar utanför länet ([mottagandelag 6:8](../time-limits/national/mottagandelag-2026-999.md#nedsattning)); Asyl: efterföljande-nivå ([art. 56](../../domains/asylum-procedure/rules/rule-apr-056-002.md)) |
 | **Register-/formulärmärkning** | Status sätts i system/formulär | Eurodac: markering ([art. 31](../../domains/eurodac/rules/rule-eur-031-001.md)), omfördelning ([art. 25](../../domains/eurodac/rules/rule-eur-025-001.md)), säkerhetsflaggning ([art. 17.2 i](../../domains/eurodac/articles/eur-017.md)), status och utresa ([art. 16](../../domains/eurodac/rules/rule-eur-016-001.md)); Screening: säkerhetsträff ([art. 15](../../domains/screening/rules/rule-scr-015-001.md)) |
-| **Spärr / uteslutning** | Rättighet/flöde blockeras | Asyl/mottagande: påskyndat-spärr ([ds-2025-30](../time-limits/national/ds-2025-30-mottagande.md)); Gränsförfarande: inrese-fiktion ([art. 43.2](../../domains/border-procedure/rules/rule-apr-043-002.md)); Solidaritet: säkerhetsundantag ([art. 67](../../domains/solidarity/rules/rule-ammr-067-001.md)) |
+| **Spärr / uteslutning** | Rättighet/flöde blockeras | Asyl/mottagande: påskyndat-spärr ([mottagandelag 5:5](../time-limits/national/mottagandelag-2026-999.md#arbetsmarknadstilltrade-at-und-5-kap-5)); Gränsförfarande: inrese-fiktion ([art. 43.2](../../domains/border-procedure/rules/rule-apr-043-002.md)); Solidaritet: säkerhetsundantag ([art. 67](../../domains/solidarity/rules/rule-ammr-067-001.md)) |
 | **Säkerhets-/ordningsbedömning** | Hot identifieras → åtgärd | Screening: [art. 15](../../domains/screening/rules/rule-scr-015-001.md); Ansvar: förvar ([art. 44](../../domains/responsibility/rules/rule-ammr-044-001.md)); Solidaritet: [art. 67](../../domains/solidarity/rules/rule-ammr-067-001.md) |
 | **Sårbarhet / barn** | Särskilda behov → anpassning/undantag | Screening: [art. 12](../../domains/screening/articles/scr-012.md), [art. 13](../../domains/screening/rules/rule-scr-013-001.md); Vulnerable: [art. 21](../vulnerable-persons/articles/apr-021.md); Gränsförfarande: [art. 53](../../domains/border-procedure/rules/rule-apr-053-001.md) |
 | **Systemomfattande masterläge** | Ett tillstånd ändrar många frister | Kris: [art. 10](../../domains/crisis/rules/rule-cri-010-001.md), [art. 11](../../domains/crisis/rules/rule-cri-011-001.md), [art. 12](../../domains/crisis/rules/rule-cri-012-001.md) |

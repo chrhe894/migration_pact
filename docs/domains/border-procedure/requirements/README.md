@@ -18,8 +18,8 @@
 | [REQ-APR-047-002](req-apr-047-002.md) | Vid kapacitet: art. 42.1 j upphör | [Art. 47](../articles/apr-047.md) | [CAP-BRD-002](../capabilities/cap-brd-002.md) |
 | [REQ-APR-047-003](req-apr-047-003.md) | Vid högsta årsantal: art. 42.1 c och j upphör, f kvarstår | [Art. 47](../articles/apr-047.md) | [CAP-BRD-002](../capabilities/cap-brd-002.md) |
 | [REQ-APR-051-001](req-apr-051-001.md) | Inlämnande inom 5 dagar | [RULE-APR-051-001](../rules/rule-apr-051-001.md) | [CAP-BRD-001](../capabilities/cap-brd-001.md) |
-| [REQ-APR-051-002](req-apr-051-002.md) | Max 12 veckor | [RULE-APR-051-002](../rules/rule-apr-051-002.md) | [CAP-BRD-002](../capabilities/cap-brd-002.md) |
-| [REQ-APR-051-003](req-apr-051-003.md) | Efter 12 veckor utan beslut: inresa tillåts | [RULE-APR-051-002](../rules/rule-apr-051-002.md) | [CAP-BRD-002](../capabilities/cap-brd-002.md) |
+| [REQ-APR-051-002](req-apr-051-002.md) | Högst 12 veckor (16 veckor efter omfördelning) | [RULE-APR-051-002](../rules/rule-apr-051-002.md) | [CAP-BRD-002](../capabilities/cap-brd-002.md) |
+| [REQ-APR-051-003](req-apr-051-003.md) | Inte avslutat inom perioden: inresa tillåts (utom vid gränsförfarande för återvändande) | [RULE-APR-051-002](../rules/rule-apr-051-002.md) | [CAP-BRD-002](../capabilities/cap-brd-002.md) |
 | [REQ-APR-053-001](req-apr-053-001.md) | Undantag vid särskilda behov | [RULE-APR-053-001](../rules/rule-apr-053-001.md) | [CAP-BRD-003](../capabilities/cap-brd-003.md) |
 | [REQ-APR-053-002](req-apr-053-002.md) | Undantag vid medicinskt tillstånd | [RULE-APR-053-001](../rules/rule-apr-053-001.md) | [CAP-BRD-003](../capabilities/cap-brd-003.md) |
 | [REQ-APR-053-003](req-apr-053-003.md) | Undantag för ensamkommande barn, utom säkerhetshot | [RULE-APR-053-001](../rules/rule-apr-053-001.md) | [CAP-BRD-003](../capabilities/cap-brd-003.md) |

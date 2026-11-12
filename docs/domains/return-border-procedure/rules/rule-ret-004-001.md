@@ -9,45 +9,52 @@ tags:
 
 ## Rättslig grund
 
-[Återvändande vid gräns artikel 4](../articles/return-004.md)
+[Återvändande vid gräns artikel 4](../articles/return-004.md), punkt 1; [artikel 1](../articles/return-001.md), punkt 1
 
 ---
 
 ## Regeltyp
 
-Obligation
+Förbud
 
 ---
 
 ## Regel
 
-Återvändandegränsförfarandet ska tillämpas på tredjelandsmedborgare vars ansökan om internationellt skydd har avslagits eller avvisats i asylgränsförfarandet ([APR art. 43](../../border-procedure/articles/apr-043.md)–[44](../../border-procedure/articles/apr-044.md)) och som inte har rätt att stanna kvar på territoriet.
+En tredjelandsmedborgare eller statslös person vars ansökan om internationellt skydd har **avslagits** i gränsförfarandet för asyl ([APR art. 43–54](../../border-procedure/articles/apr-043.md)) **får inte tillåtas resa in** på medlemsstatens territorium. I stället tillämpas gränsförfarandet för återvändande.
 
 ---
 
 ## Syfte
 
-Kanaliserar personer vars asylansökan avslagits i gränsförfarandet direkt till ett återvändandeförfarande vid gränsen, utan att de behöver ges tillträde till territoriet.
+Säkerställer kontinuitet mellan gränsförfarandet för asyl och återvändandet, så att personen inte behöver släppas in på territoriet innan återvändandet genomförs.
 
 ---
 
 ## Utlösare
 
-En ansökan om internationellt skydd avslås eller avvisas i asylgränsförfarandet och sökanden saknar rätt att stanna kvar.
+En ansökan avslås i gränsförfarandet för asyl.
 
 ---
 
 ## Rättsverkan
 
-- Återvändandegränsförfarandet inleds automatiskt.
-- Personen tillåts inte resa in på territoriet.
-- Avlägsnande ska verkställas inom 12 veckor (RULE-RET-005-001).
+- Personen får inte resa in på territoriet.
+- Tolvveckorsperioden enligt [RULE-RET-004-002](rule-ret-004-002.md) börjar löpa när personen inte längre har rätt att stanna kvar.
+- Vissa artiklar i återvändandedirektivet 2008/115/EG gäller (art. 4.3).
+
+---
+
+## Kommentar
+
+> **Rättelse:** regeln angav tidigare att förfarandet gäller ansökningar som "avslagits eller avvisats" och att det "inleds automatiskt". Förordningen talar om ansökningar som har **avslagits**.
 
 ---
 
 ## Relaterade regler
 
-- [RULE-APR-043-002](../../border-procedure/rules/rule-apr-043-002.md) — Inresa nekas
+- [RULE-RET-004-002](rule-ret-004-002.md) — Tolvveckorsperioden
+- [RULE-APR-043-002](../../border-procedure/rules/rule-apr-043-002.md) — Inresa nekas under gränsförfarandet för asyl
 
 ---
 

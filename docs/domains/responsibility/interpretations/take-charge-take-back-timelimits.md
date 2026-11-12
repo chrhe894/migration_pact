@@ -46,8 +46,8 @@ Källa: [`take-charge-take-back-timelimits.pu`](../diagrams/take-charge-take-bac
 | Omprövning mellan stater (efter avslag / icke-bekräftelse) | Begär inom 3 v, svar inom 2 v — [2025/2055 art. 9.2](../../../references/legislation/ammr-implementing.md) | Begär inom 2 v, svar inom 2 v — [2025/2055 art. 15](../../../references/legislation/ammr-implementing.md) |
 | Vid förvar | Svar 1 v, framställan 2 v/1 v — [art. 45](../articles/ammr-045.md) | Överföring 5 v — [art. 45](../articles/ammr-045.md) |
 | Överföringsbeslut | 2 v efter godtagande — [art. 42](../articles/ammr-042.md) | 2 v efter bekräftelse — [art. 42](../articles/ammr-042.md) |
-| Överföring | 6 mån / 18 mån (avvikande) / 4 v (förvar) — [art. 46](../articles/ammr-046.md) | Samma — [art. 46](../articles/ammr-046.md) |
-| Överklagande | Nationell frist; suspensiv verkan fryser — [art. 43](../articles/ammr-043.md) | Samma — [art. 43](../articles/ammr-043.md) |
+| Överföring | 6 mån, förlängs till högst 1 år (frihetsberövande) / 3 år (avvikande m.m.) — [art. 46](../articles/ammr-046.md); 5 v vid förvar — [art. 45.3](../articles/ammr-045.md) | Samma |
+| Överklagande | Nationell frist; suspensiv verkan ger överföringsfristen en ny startpunkt — [art. 43](../articles/ammr-043.md) | Samma — [art. 43](../articles/ammr-043.md) |
 
 Genomgående: **uteblivet svar i tid = tyst godkännande/bekräftelse**, och **missad överföringsfrist = ansvaret övergår** till den överförande staten.
 

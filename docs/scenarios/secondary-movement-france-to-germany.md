@@ -45,7 +45,7 @@ Fatima, 30 år, afghansk medborgare. Hon registrerade sin ansökan i Frankrike m
 
 ## Alternativt utfall — Fatima avviker
 
-Om Fatima avviker förlängs överföringsfristen till 18 månader. Om den ändå löper ut utan verkställighet blir Tyskland ansvarigt.
+Om Fatima avviker får överföringsfristen förlängas till högst tre år ([AMMR art. 46.2](../domains/responsibility/articles/ammr-046.md)). Om den ändå löper ut utan verkställighet blir Tyskland ansvarigt.
 
 ---
 

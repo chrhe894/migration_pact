@@ -2,6 +2,7 @@
 tags:
   - återvändande
   - regel
+  - förvar
 ---
 
 
@@ -9,45 +10,45 @@ tags:
 
 ## Rättslig grund
 
-[Återvändande vid gräns artikel 5](../articles/return-005.md)
+[Återvändande vid gräns artikel 5](../articles/return-005.md), punkt 1–4
 
 ---
 
 ## Regeltyp
 
-Obligation
+Villkor
 
 ---
 
 ## Regel
 
-Återvändandegränsförfarandet får inte pågå längre än tolv veckor efter att asylgränsförfarandet avslutats. Om avlägsnande inte verkställts inom denna tidsfrist ska personen tillåtas resa in på territoriet.
+Förvar får användas **endast som sista utväg**, efter en individuell bedömning och när mindre ingripande åtgärder inte räcker. Den som hölls i förvar under gränsförfarandet för asyl får hållas kvar i förvar. Den som inte hölls i förvar får tas i förvar vid risk för avvikande, om personen håller sig undan eller hindrar återvändandet, eller vid risk för allmän ordning, allmän säkerhet eller nationell säkerhet. Förvaret får **inte överstiga tolvveckorsperioden** i art. 4.2.
 
 ---
 
 ## Syfte
 
-Sätter en absolut tidsgräns för kvarhållande i återvändandegränsförfarandet som skyddar individen mot obestämd kvarhållning vid gränsen.
+Begränsar frihetsberövandet till vad som är nödvändigt för att förhindra inresa och genomföra återvändandet.
 
 ---
 
 ## Utlösare
 
-Tolv veckor har förflutit sedan asylgränsförfarandet avslutades utan att avlägsnande verkställts.
+Personen har inte längre rätt att stanna kvar efter avslag i gränsförfarandet för asyl, och förvar övervägs.
 
 ---
 
 ## Rättsverkan
 
-- Återvändandegränsförfarandet ska avslutas.
-- Personen ska tillåtas resa in på territoriet.
-- Fristens utgång gäller oberoende av om återvändande faktiskt är möjligt.
+- Förvaret ska vara så kort som möjligt och bara pågå så länge det finns rimliga utsikter till avlägsnande.
+- Ett påföljande förvar enligt återvändandedirektivet räknas in i direktivets maximala förvarsperioder (art. 15.5–15.6).
+- Vid kris får förvarsperioden förlängas med högst sex veckor ([RULE-RET-006-001](rule-ret-006-001.md)).
 
 ---
 
 ## Kommentar
 
-12-veckorsfristen är absolut och gäller oberoende av om återvändande faktiskt är möjligt (t.ex. brist på samarbete med ursprungslandet). Det innebär att staten inte kan hålla kvar personen vid gränsen på obestämd tid.
+> **Ändrat innehåll:** regeln avsåg tidigare tolvveckorsperioden och angav att personen ska tillåtas resa in när perioden löpt ut. Tolvveckorsperioden finns nu som [RULE-RET-004-002](rule-ret-004-002.md). Enligt art. 4.4 fortsätter återvändandet då enligt återvändandedirektivet, och personen ska inte tillåtas resa in.
 
 ---
 

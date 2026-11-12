@@ -13,3 +13,4 @@
 | Arkivlagstiftning | Arkivlagen (1990:782), TF (1949:105), RA-FS | tvärgående (gallring/arkivering, nationell) |
 | Medborgarskapslagen | Lag (2001:82) om svenskt medborgarskap | tvärgående (medborgarskap som raderingstrigger, nationell) |
 | Utlänningsdataförordningen | Utlänningsdataförordning (2016:30) | tvärgående (gallring av biometri, nationell) |
+| Mottagandelagen | Mottagandelag (2026:999), ersätter LMA | tvärgående (mottagande, dagersättning, kontrollåtgärder, nationell) |

@@ -39,7 +39,7 @@ ATB förekommer i **överföringsförfarandet** — och gäller den stat som **s
 | ATB — beslut | [Övertagande UT](../../../domains/responsibility/interpretations/take-charge-out.md) | Överföringsbeslut fattas och meddelas | **2 veckor** | [AMMR art. 42](../../../domains/responsibility/articles/ammr-042.md) |
 | ATB — beslut | [Återtagande UT](../../../domains/responsibility/interpretations/take-back-out.md) | Överföringsbeslut fattas och meddelas | **2 veckor** | [AMMR art. 42](../../../domains/responsibility/articles/ammr-042.md) |
 
-> **Verkställigheten är en egen fristtyp.** Själva överföringen (6 mån / 18 mån vid avvikande / 4 v vid förvar, art. 46) hör till fristtypen [Accept till överföring (ATÖ)](fristtyp-accept-till-overforing.md), inte till ATB. Båda startar vid accept och löper **parallellt** — ATB fram till beslutet, ATÖ fram till den verkställda överföringen.
+> **Verkställigheten är en egen fristtyp.** Själva överföringen (6 mån, förlängs till högst 1 år / 3 år enligt art. 46.2; 5 v vid förvar enligt art. 45.3) hör till fristtypen [Accept till överföring (ATÖ)](fristtyp-accept-till-overforing.md), inte till ATB. Båda startar vid accept och löper **parallellt** — ATB fram till beslutet, ATÖ fram till den verkställda överföringen.
 
 ---
 
@@ -57,7 +57,7 @@ ATB förekommer i **överföringsförfarandet** — och gäller den stat som **s
 
 ATB-fristen **varken fryses eller förlängs**. [AMMR art. 42.1](../../../domains/responsibility/articles/ammr-042.md) sätter en fast tvåveckorsfrist för själva beslutet utan någon frysnings- eller förlängningsmekanism, och ingen av de dokumenterade grunderna (suspensiv verkan, massinflöde, komplexitet, kris, avvikande) är kopplad till art. 42.
 
-Orsaken är sekvensen: beslutet fattas **först**, och det är först därefter som personen kan överklaga och begära suspensiv verkan. Den suspensiva verkan pausar då **verkställigheten** — alltså den parallella [ATÖ](fristtyp-accept-till-overforing.md)-fristen (art. 46), vars startpunkt räknas om till "den dag rättsmedlet inte längre har suspensiv verkan" ([AMMR art. 43.3](../../../domains/responsibility/articles/ammr-043.md)) — inte beslutsfristen.
+Orsaken är sekvensen: beslutet fattas **först**, och det är först därefter som personen kan överklaga och begära suspensiv verkan. Den suspensiva verkan påverkar då **verkställigheten**, det vill säga den parallella [ATÖ](fristtyp-accept-till-overforing.md)-fristen. Dess startpunkt flyttas till det slutliga beslutet om överklagandet (art. 46.1), och vid förvar till den dag den suspensiva verkan upphör (art. 45.3 b) ([AMMR art. 43.3](../../../domains/responsibility/articles/ammr-043.md)) — inte beslutsfristen.
 
 Se [Frysning och förlängning](frysning-och-forlangning.md) för helheten och [ATÖ](fristtyp-accept-till-overforing.md) för den rörliga fristen.
 

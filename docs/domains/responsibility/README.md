@@ -214,7 +214,7 @@ Om inget kriterium ger en ansvarig stat: den medlemsstat där ansökan först re
 
 | Regel | Beskrivning |
 |-------|-------------|
-| [RULE-AMMR-046-001](rules/rule-ammr-046-001.md) | Tidsfrist för överföring (6 mån / 18 mån / 4 veckor) |
+| [RULE-AMMR-046-001](rules/rule-ammr-046-001.md) | Tidsfrist för överföring (6 mån, förlängning till 1 år / 3 år) |
 
 ### AMMR artikel 51 — Utbyte av uppgifter (administrativt samarbete)
 

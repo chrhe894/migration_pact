@@ -16,7 +16,7 @@ tags:
 
 ## Definition
 
-Ett gränsförfarande för återvändande som tillämpas på tredjelandsmedborgare vars asylansökan avslagits i asylgränsförfarandet. Personen tillåts inte resa in på territoriet utan ska återvända direkt.
+Ett gränsförfarande för återvändande som tillämpas på tredjelandsmedborgare och statslösa personer vars ansökan avslagits i gränsförfarandet för asyl. Personen tillåts inte resa in på territoriet. Personen ska vistas vid gränsen, i ett transitområde eller på annan anvisad plats i högst tolv veckor från den dag rätten att stanna kvar upphört. Därefter fortsätter återvändandet enligt direktiv 2008/115/EG om det inte verkställts.
 
 ---
 
@@ -28,7 +28,7 @@ Säkerställer ett snabbt och effektivt verkställande av avslagsbeslut fattade 
 
 ## Skapas av
 
-Utlöses automatiskt av ett avslagsbeslut i asylgränsförfarandet ([PROC-RET-001](../processes/return-border-procedure.md)).
+Tillämpas när en ansökan avslagits i gränsförfarandet för asyl och personen inte längre har rätt att stanna kvar ([PROC-RET-001](../processes/return-border-procedure.md)).
 
 ---
 

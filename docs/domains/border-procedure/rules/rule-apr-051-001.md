@@ -21,7 +21,7 @@ Obligation
 
 ## Regel
 
-Ansökningar som är föremål för gränsförfarandet ska lämnas in senast fem dagar från registreringen (avviker från ordinarie tidsfrist på 21 dagar i artikel 28).
+Ansökningar som är föremål för gränsförfarandet ska lämnas in senast fem dagar från den första registreringen, eller efter omfördelning (AMMR art. 67.11) senast fem dagar från ankomsten till omfördelningsmedlemsstaten. Det avviker från ordinarie tidsfrist på 21 dagar i artikel 28.
 
 ---
 
@@ -47,7 +47,7 @@ En ansökan om internationellt skydd registreras inom ramen för gränsförfaran
 
 ## Kommentar
 
-Underlåtenhet att iaktta femddagarsfristen påverkar inte den fortsatta tillämpningen av gränsförfarandet.
+Underlåtenhet att iaktta femdagarsfristen påverkar inte den fortsatta tillämpningen av gränsförfarandet.
 
 ---
 

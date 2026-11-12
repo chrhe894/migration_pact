@@ -88,7 +88,7 @@ Fristerna skiljer sig något beroende på hur överföringen verkställs:
 
 TGÖ och [ATÖ](fristtyp-accept-till-overforing.md) hänger ihop men är inte samma sak:
 
-- **ATÖ** = den **yttre fristen** för att överföringen ska vara verkställd (6 mån / 18 mån / 4 v, art. 46). Missad ATÖ = **ansvaret övergår**.
+- **ATÖ** = den **yttre fristen** för att överföringen ska vara verkställd (6 mån, förlängs till 1 år / 3 år enligt art. 46.2; 5 v vid förvar enligt art. 45.3). Missad ATÖ = **ansvaret övergår**.
 - **TGÖ** = de **inre koordineringsfristerna** för att planera och genomföra överföringen (7–14 d avisering, 5 d bekräftelse, 7 d presumtion). TGÖ ryms helt inom ATÖ-ramen.
 
 ```text

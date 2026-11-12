@@ -46,16 +46,16 @@ Belgien fastställer att Italien är ansvarigt för Saras (32 år, eritreisk) an
 ## Alternativt utfall — Sara avviker
 
 Om Sara avviker under väntetiden:
-- Överföringsfristen förlängs till 18 månader
-- Om Sara hittas igen inom 18 månader: överföring kan fortfarande ske
-- Om 18 månader löper ut: Belgien ansvarar ändå
+- Överföringsfristen kan förlängas till högst tre år från det att den ansvariga staten underrättades ([AMMR art. 46.2](../domains/responsibility/articles/ammr-046.md))
+- Om Sara hittas igen inom den förlängda fristen kan överföringen fortfarande ske
+- Om den förlängda fristen löper ut övergår ansvaret till Belgien
 
 ---
 
 ## Nyckelaspekter
 
 - **"Sanktionsmekanism"** — missad frist = straff. Staten som inte överför får ansvaret.
-- Gäller oavsett orsak (administrativa problem, sjukdom, logistik)
-- Suspensiv verkan fryser fristen — utan den tickar klockan
+- Gäller vid administrativa och logistiska problem. Fristen får dock förlängas till högst ett år om personen varit frihetsberövad, och till högst tre år om personen avvikit, fysiskt motsätter sig, avsiktligt förhindrar överföringen eller inte uppfyller de medicinska kraven (art. 46.2)
+- Vid suspensiv verkan räknas fristen från det slutliga beslutet om överklagandet (art. 46.1), så att en ny full frist börjar löpa
 - Systemet skapar starka incitament att verkställa överföringar
-- Vid förvar: fristen är bara 4 veckor (ännu starkare press)
+- Vid förvar: fristen är bara fem veckor och annars ska personen släppas ([art. 45.3–45.4](../domains/responsibility/articles/ammr-045.md))

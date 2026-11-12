@@ -39,9 +39,8 @@ En person i förvar överklagar överföringsbeslutet och beviljas suspensiv ver
 
 ## Rättsverkan
 
-- 5-veckorsfristen för överföring pausas under suspensiv verkan.
-- Fristen börjar löpa igen när den suspensiva verkan upphör.
-- Personen kan fortfarande hållas i förvar under den pausade perioden.
+- 5-veckorsfristen löper inte under den suspensiva verkan.
+- Den dag den suspensiva verkan upphör börjar en **ny full** femveckorsfrist löpa. Fristen fortsätter inte där den var.
 
 ---
 

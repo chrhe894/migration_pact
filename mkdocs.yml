@@ -547,14 +547,20 @@ nav:
         - Artikel 5: domains/return-border-procedure/articles/return-005.md
         - Artikel 6: domains/return-border-procedure/articles/return-006.md
         - Artikel 7: domains/return-border-procedure/articles/return-007.md
+        - Artikel 8: domains/return-border-procedure/articles/return-008.md
+        - Artikel 11: domains/return-border-procedure/articles/return-011.md
       - Processer:
-        - Återvändandeförfarande vid gräns: domains/return-border-procedure/processes/return-border-procedure.md
+        - Gränsförfarande för återvändande: domains/return-border-procedure/processes/return-border-procedure.md
       - Begrepp:
         - Återvändande vid gräns: domains/return-border-procedure/concepts/return-border-procedure-concept.md
         - Frivillig avresa: domains/return-border-procedure/concepts/voluntary-departure.md
       - Regler:
         - RULE-RET-004-001: domains/return-border-procedure/rules/rule-ret-004-001.md
+        - RULE-RET-004-002: domains/return-border-procedure/rules/rule-ret-004-002.md
+        - RULE-RET-004-003: domains/return-border-procedure/rules/rule-ret-004-003.md
         - RULE-RET-005-001: domains/return-border-procedure/rules/rule-ret-005-001.md
+        - RULE-RET-006-001: domains/return-border-procedure/rules/rule-ret-006-001.md
+        - RULE-RET-011-001: domains/return-border-procedure/rules/rule-ret-011-001.md
       - Tolkningar:
         - Återvändande vs ordinarie: domains/return-border-procedure/interpretations/return-vs-regular-return.md
       - Öppna frågor:
@@ -587,7 +593,8 @@ nav:
         - RULE-TL-REG-002: shared/time-limits/rules/rule-tl-reg-002.md
       - Nationell implementering:
         - Ds 2025:30 — Migrations- och asylpakten: shared/time-limits/national/ds-2025-30.md
-        - Ds 2025:30 — Mottagande: shared/time-limits/national/ds-2025-30-mottagande.md
+        - Mottagandelag (2026:999): shared/time-limits/national/mottagandelag-2026-999.md
+        - Ds 2025:30 — Mottagande (övrigt): shared/time-limits/national/ds-2025-30-mottagande.md
         - Prop. 2025/26:265 — Uppsikt och förvar: shared/time-limits/national/prop-2025-26-265.md
     - Biometri: shared/biometrics/README.md
     - Säkerhetskontroller: shared/security-checks/README.md

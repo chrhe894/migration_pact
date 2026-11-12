@@ -116,7 +116,8 @@ partition "Överföring" {
     [[../rules/rule-ammr-045-001.md RULE-AMMR-045-001]]
     Normalt: **6 månader**
     Förvar: **4 veckor** (5 veckor art. 45)
-    Avvikande: **18 månader**
+    Frihetsberövad: högst **1 år**
+    Avvikande m.m.: högst **3 år**
     ([[../articles/ammr-045.md ART-AMMR-045]])
   end note
 

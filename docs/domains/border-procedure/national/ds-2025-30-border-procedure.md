@@ -52,14 +52,16 @@ EU:s asylprocedurförordning (APR art. 43–54) reglerar gränsförfarandet dire
 | Övriga beslut om internationellt skydd | **2 veckor – 1 månad** (fastställs i nationell rätt) | Min 2 v, max 1 mån |
 | Begäran om att stanna kvar (art. 68.5 a) | **7 dagar** från delgivning | — |
 
-### Rörelsebegränsning under gränsförfarande (obligatorisk)
+### Boende på bestämd plats under gränsförfarande
+
+> Rättad mot antagen lag: tidigare stod "generell skyldighet, inget individuellt beslut" och "3 kap. 9 § mottagandelagen". Lagen ger Migrationsverket en möjlighet att besluta, och bestämmelsen finns i 3 kap. 3 § tredje stycket.
 
 | Parameter | Värde |
 |-----------|-------|
-| Vad | Sökande får **enbart bo** på bestämd plats beslutad av Migrationsverket |
-| Vem | Alla sökande i gränsförfarande — **inklusive barn under 16** |
-| Överklagbart? | **Nej** — generell skyldighet, inget individuellt beslut |
-| Rättslig grund | Ny bestämmelse i 3 kap. 9 § mottagandelagen |
+| Vad | Migrationsverket **får besluta** att sökanden under prövningen ska bo enbart på en bestämd plats i närheten av yttre gränsen eller i anvisade områden inom territoriet |
+| Vem | Sökande vars ansökan prövas i gränsförfarandet. Stycket har **ingen åldersgräns** (16-årsgränsen i första stycket gäller inte här) |
+| Överklagbart? | **Nej** (10 kap. 1 § andra stycket) |
+| Rättslig grund | [3 kap. 3 § tredje stycket mottagandelagen (2026:999)](../../../shared/time-limits/national/mottagandelag-2026-999.md#boende-3-kap), i lydelse enligt SFS 2026:1168 (ikraft 2 okt 2026) |
 | Systemkonsekvens | Boendetilldelning kopplas till gränsförfarandestatus |
 
 ---

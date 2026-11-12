@@ -69,7 +69,9 @@ Om tidsfristerna i artikel 33 har löpt ut (20 resp. 12 månader) kan inresestat
 | **Svar på framställan** — 1 månad | [AMMR art. 40](../articles/ammr-040.md) | Ordinarie svarsfrist |
 | **Svar vid Eurodac-träff** — 2 veckor | [AMMR art. 40](../articles/ammr-040.md) | Förkortad svarsfrist |
 | **Överföring** — 6 månader | [AMMR art. 46](../articles/ammr-046.md) | Från godkännande till verkställighet |
-| **Överföring vid avvikande** — 18 månader | [AMMR art. 46](../articles/ammr-046.md) | Förlängd vid avvikande |
+| **Överföring vid frihetsberövande** — högst 1 år | [AMMR art. 46.2](../articles/ammr-046.md) | Förlängning om personen varit frihetsberövad |
+| **Överföring vid avvikande m.m.** — högst 3 år | [AMMR art. 46.2](../articles/ammr-046.md) | Avvikande, fysiskt motstånd, avsiktligt förhindrande eller ej uppfyllda medicinska krav |
+| **Överföring vid förvar** — 5 veckor | [AMMR art. 45.3](../articles/ammr-045.md) | Annars ska personen släppas ur förvar |
 
 ### Koppling till statistik
 
