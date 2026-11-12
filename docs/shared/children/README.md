@@ -68,7 +68,7 @@ Barnets bästa ska vara en primär hänsyn i samtliga förfaranden. Särskilda r
 
 ## Används av
 
-- [PROC-REG-002 Ingivande av en ansökan](../../domains/registration/processes/lodging-an-application.md)
+- [PROC-REG-002 Inlämnande av en ansökan](../../domains/registration/processes/lodging-an-application.md)
 - [PROC-REG-003 Utfärda sökandehandlingar](../../domains/registration/processes/issue-applicant-documents.md)
 - [PROC-SCR-001 Screening vid yttre gräns](../../domains/screening/processes/screening-at-external-border.md)
 - [PROC-RES-001 Fastställ ansvarig medlemsstat](../../domains/responsibility/processes/determine-responsible-member-state.md)

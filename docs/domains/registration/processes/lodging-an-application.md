@@ -1,6 +1,6 @@
 ---
 tags:
-  - ingivande-av-ansökan
+  - inlämnande-av-ansökan
   - registrering
   - process
 ---
@@ -8,7 +8,7 @@ tags:
 
 # PROC-REG-002
 
-# Ingivande av en ansökan
+# Inlämnande av en ansökan
 
 ## Trigger
 

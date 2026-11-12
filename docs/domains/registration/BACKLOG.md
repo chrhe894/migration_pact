@@ -52,7 +52,7 @@
 ## Processer
 
 - [x] PROC-REG-001 — Registrering av en ansökan
-- [x] PROC-REG-002 — Ingivande av en ansökan
+- [x] PROC-REG-002 — Inlämnande av en ansökan
 - [x] PROC-REG-003 — Utfärda sökandehandlingar
 
 ---

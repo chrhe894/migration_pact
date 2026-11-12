@@ -33,7 +33,7 @@ Registreringen är den första formella delen av asylförfarandet och säkerstä
 | Process | Beskrivning |
 |---------|-------------|
 | [PROC-REG-001 Registrering av en ansökan](processes/registration-of-an-application.md) | Från att ansökan görs till att den är registrerad |
-| [PROC-REG-002 Ingivande av en ansökan](processes/lodging-an-application.md) | Från registrering till att ansökan lämnas in |
+| [PROC-REG-002 Inlämnande av en ansökan](processes/lodging-an-application.md) | Från registrering till att ansökan lämnas in |
 | [PROC-REG-003 Utfärda sökandehandlingar](processes/issue-applicant-documents.md) | Utfärdande av handlingar vid registrering och inlämnande |
 
 ---

@@ -31,7 +31,7 @@ Ta emot sökandens formella inlämnande av ansökan och starta prövningstidsfri
 
 ## Stöds av
 
-- [PROC-REG-002 Ingivande av en ansökan](../processes/lodging-an-application.md)
+- [PROC-REG-002 Inlämnande av en ansökan](../processes/lodging-an-application.md)
 
 ---
 

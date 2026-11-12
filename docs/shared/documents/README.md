@@ -99,5 +99,5 @@ Beslut fattas
 ## Används av
 
 - [PROC-REG-001 Registrering av en ansökan](../../domains/registration/processes/registration-of-an-application.md)
-- [PROC-REG-002 Ingivande av en ansökan](../../domains/registration/processes/lodging-an-application.md)
+- [PROC-REG-002 Inlämnande av en ansökan](../../domains/registration/processes/lodging-an-application.md)
 - [PROC-REG-003 Utfärda sökandehandlingar](../../domains/registration/processes/issue-applicant-documents.md)

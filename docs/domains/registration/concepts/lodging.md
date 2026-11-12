@@ -1,6 +1,6 @@
 ---
 tags:
-  - ingivande
+  - inlämnande
   - registrering
   - koncept
 ---
@@ -56,4 +56,4 @@ Begreppet ska hållas isär från "making an application" (ansökan görs) och "
 ## Används i
 
 - [ART-APR-028](../articles/apr-028.md)
-- [PROC-REG-002 Ingivande av en ansökan](../processes/lodging-an-application.md)
+- [PROC-REG-002 Inlämnande av en ansökan](../processes/lodging-an-application.md)

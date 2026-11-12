@@ -31,7 +31,7 @@ Upprätthålla registreringsskyldigheten även vid oproportionellt inflöde, med
 ## Stöds av
 
 - [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)
-- [PROC-REG-002 Ingivande av en ansökan](../processes/lodging-an-application.md)
+- [PROC-REG-002 Inlämnande av en ansökan](../processes/lodging-an-application.md)
 
 ---
 

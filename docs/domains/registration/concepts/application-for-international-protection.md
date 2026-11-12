@@ -52,5 +52,5 @@ Personen själv genom att uttrycka en önskan om skydd inför valfri myndighet (
 - [ART-APR-028](../articles/apr-028.md)
 - [ART-APR-029](../articles/apr-029.md)
 - [PROC-REG-001 Registrering av en ansökan](../processes/registration-of-an-application.md)
-- [PROC-REG-002 Ingivande av en ansökan](../processes/lodging-an-application.md)
+- [PROC-REG-002 Inlämnande av en ansökan](../processes/lodging-an-application.md)
 - [PROC-REG-003 Utfärda sökandehandlingar](../processes/issue-applicant-documents.md)
