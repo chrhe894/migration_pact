@@ -26,12 +26,17 @@ TIDSFRISTER
 │       Grunder: massinflöde, komplexitet, sökandens försummelse,
 │       frihetsberövande, avvikande, tekniska problem, kris m.fl.
 │
-└── UPPSKJUTANDE / SPÄRR
-        Förfarandet eller verkställigheten skjuts upp utan en ny fast
-        frist, eller med en yttersta gräns (t.ex. 21 månader).
+├── UPPSKJUTANDE / SPÄRR
+│       Förfarandet eller verkställigheten skjuts upp utan en ny fast
+│       frist, eller med en yttersta gräns (t.ex. 21 månader).
+│
+└── FÖRKORTNING
+        Fristen ersätts av en kortare frist när ett villkor är uppfyllt.
+        Grunder: förvar, träff i Eurodac eller VIS, gränsförfarande,
+        påskyndat förfarande, bilateral överenskommelse m.fl.
 ```
 
-Sidan listar **alla** frister i förordningarna som kan frysas, förlängas eller skjutas upp. Först kommer en översikt per process, sedan detaljerna per mekanism och förordning. Den är kontrollerad mot förordningstexten i `references/_text/` (APR 2024/1348, AMMR 2024/1351, Eurodac 2024/1358, kris 2024/1359, genomförandeförordning 2025/2055) screeningförordningen 2024/1356 och förordning 2024/1349 om gränsförfarandet för återvändande.
+Sidan listar **alla** frister i förordningarna som kan frysas, förlängas, skjutas upp eller förkortas. Först kommer en översikt per process, sedan detaljerna per mekanism och förordning. Den är kontrollerad mot förordningstexten i `references/_text/` (APR 2024/1348, AMMR 2024/1351, Eurodac 2024/1358, kris 2024/1359, genomförandeförordning 2025/2055) screeningförordningen 2024/1356 och förordning 2024/1349 om gränsförfarandet för återvändande.
 
 ---
 
@@ -207,14 +212,38 @@ Process: [PROC-EUR-001](../../../domains/eurodac/processes/collect-and-transmit-
 
 ---
 
-## Avgränsning: frysning, förlängning och uppskjutande
+## 5. Förkortning
 
-| | Frysning | Förlängning | Uppskjutande |
-|--|----------|-------------|--------------|
-| **Effekt** | Ny startpunkt, ny full frist | Fristen ersätts av en längre frist | Förfarandet eller verkställigheten står still |
-| **Grund** | Suspensiv verkan vid överklagande | Massinflöde, komplexitet, försummelse, frihetsberövande, avvikande, tekniska problem, kris | Osäkra förhållanden i ursprungslandet, kris i mottagarstaten, möjlighet att rätta |
-| **Vem utlöser** | Domstol (beviljar suspensiv verkan) | Myndighet eller stat (konstaterar grund), rådet vid kris | Beslutande myndighet eller förordningen |
-| **Tak** | Hela fristen löper på nytt | Alltid ett angivet tak | Yttersta gräns (21 månader, 1 år) eller ingen angiven |
+En frist ersätts av en **kortare** frist när ett villkor är uppfyllt. Krisförordningen innehåller inga förkortningar.
+
+| Frist | Ordinarie | Förkortad till | Villkor | Rättslig grund |
+|-------|-----------|----------------|---------|----------------|
+| Screening vid yttre gräns | 7 dagar | **4 dagar** | Person som omhändertagits vid irreguljär gränspassage (art. 5.1 a) och som fysiskt uppehållit sig vid den yttre gränsen i mer än 72 timmar. Screeningen genomförs därefter | [Screening art. 8.3](../../../domains/screening/articles/scr-008.md) |
+| Inlämnande av ansökan | 21 dagar | **5 dagar** från första registreringen (efter omfördelning: från ankomsten till omfördelningsstaten) | Ansökan prövas i gränsförfarandet och sökanden ges en faktisk möjlighet. Missad frist hindrar inte gränsförfarandet | [APR art. 51.1](../../../domains/border-procedure/articles/apr-051.md) |
+| Framställan om övertagande | 2 månader från registreringen | **1 månad** från träffen | Träff i Eurodac på uppgifter enligt Eurodac art. 22 eller 24, eller träff i VIS | [AMMR art. 39.1 andra st.](../../../domains/responsibility/articles/ammr-039.md) |
+| Svar på framställan om övertagande | 1 månad | **2 veckor** | Framställan grundas på en sådan träff i Eurodac eller VIS | [AMMR art. 40.2](../../../domains/responsibility/articles/ammr-040.md) |
+| Framställan om övertagande eller avisering om återtagande | 2 månader / 2 veckor | **2 veckor** från registreringen (eller från Eurodac-träffen om ingen ny ansökan registrerats). **1 vecka** från förvarstagandet om förvaret sker senare | Personen tas i förvar enligt art. 44 | [AMMR art. 45.1](../../../domains/responsibility/articles/ammr-045.md) |
+| Svar på framställan om övertagande | 1 månad | **1 vecka**. Uteblivet svar räknas som godtagande | Personen hålls i förvar | [AMMR art. 45.2](../../../domains/responsibility/articles/ammr-045.md) |
+| Överföring | 6 månader | **5 veckor** från godtagandet eller bekräftelsen | Personen hålls i förvar. Passeras fristen ska personen friges, men art. 46 gäller fortsatt (45.4) | [AMMR art. 45.3 a](../../../domains/responsibility/articles/ammr-045.md) |
+| Översändande och granskning av framställningar och aviseringar | Enligt AMMR | **Enligt överenskommelsen** | Medlemsstaterna har ingått en bilateral administrativ överenskommelse som förkortar fristerna | [AMMR art. 53.1 b](../../../domains/responsibility/articles/ammr-053.md) |
+| Upptagandeprövning | 2 månader | **10 arbetsdagar** | Sökanden har ett beslut om återvändande och ansökte först efter sju arbetsdagar från att beslutet mottogs, var informerad om konsekvenserna, och inga nya relevanta faktorer har framkommit (art. 38.1 e) | [APR art. 35.1 andra st.](../../../domains/asylum-procedure/articles/apr-035.md), [38.1 e](../../../domains/asylum-procedure/articles/apr-038.md) |
+| Prövning i sak | 6 månader | **3 månader** från inlämnandet | Påskyndat prövningsförfarande: någon grund i art. 42.1 eller 42.3 | [APR art. 35.3](../../../domains/asylum-procedure/articles/apr-035.md), [42](../../../domains/asylum-procedure/articles/apr-042.md) |
+| Hela förfarandet | 6 månader (prövning) | **12 veckor** från registreringen, inklusive begäran om att stanna kvar och överklagande | Ansökan prövas i gränsförfarandet | [APR art. 51.2](../../../domains/border-procedure/articles/apr-051.md) |
+| Överklagandefrist | 2 veckor–1 månad | **5–10 dagar** (fastställs i nationell rätt) | Beslut att neka prövning, eller avslag som implicit återkallad, ogrundad eller uppenbart ogrundad när någon omständighet i art. 42.1 eller 42.3 gällde | [APR art. 67.7](../../../domains/asylum-procedure/articles/apr-067.md) |
+| Frivillig avresa | 7–30 dagar enligt återvändandedirektivet art. 7.1 (ej kontrollerat, direktivet finns inte i repot) | **Högst 15 dagar** | Beviljas bara på begäran, och inte vid risk för avvikande, avslag som uppenbart ogrundad i gränsförfarandet eller risk för allmän ordning eller säkerhet. Ger ingen rätt till inresa | [Return art. 4.5](../../../domains/return-border-procedure/articles/return-004.md) |
+
+> Påskyndat förfarande och gränsförfarande är egna förfaranden med egna frister, inte förkortningar av en frist som redan löper. De står med eftersom fristen blir kortare än vid ordinarie prövning.
+
+---
+
+## Avgränsning: frysning, förlängning, uppskjutande och förkortning
+
+| | Frysning | Förlängning | Uppskjutande | Förkortning |
+|--|----------|-------------|--------------|-------------|
+| **Effekt** | Ny startpunkt, ny full frist | Fristen ersätts av en längre frist | Förfarandet eller verkställigheten står still | Fristen ersätts av en kortare frist |
+| **Grund** | Suspensiv verkan vid överklagande | Massinflöde, komplexitet, försummelse, frihetsberövande, avvikande, tekniska problem, kris | Osäkra förhållanden i ursprungslandet, kris i mottagarstaten, möjlighet att rätta | Förvar, träff i Eurodac eller VIS, gränsförfarande, påskyndat förfarande, bilateral överenskommelse |
+| **Vem utlöser** | Domstol (beviljar suspensiv verkan) | Myndighet eller stat (konstaterar grund), rådet vid kris | Beslutande myndighet eller förordningen | Förordningen (villkoret är uppfyllt), medlemsstaterna vid bilateral överenskommelse |
+| **Tak** | Hela fristen löper på nytt | Alltid ett angivet tak | Yttersta gräns (21 månader, 1 år) eller ingen angiven | Den kortare fristen är bindande |
 
 ---
 

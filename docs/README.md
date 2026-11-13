@@ -26,20 +26,33 @@ Projektet har följande mål:
 
 ## Omfattning
 
-Projektet omfattar främst:
+Kunskapsbasen utgår från EU-rätten och kompletteras med den svenska rätt som behövs för att förstå hur pakten genomförs och vad den kräver av ett systemstöd.
 
-- EU-förordningar,
-- EU-direktiv när de är relevanta,
-- bilagor,
-- skäl (recitals),
-- officiell vägledning från EU:s institutioner när den kompletterar lagstiftningen.
+**EU-rätt (primär källa)**
 
-Projektet omfattar inte:
+- paktens förordningar: artiklar, skäl och bilagor,
+- genomförandeförordningar och allmänna EU-regler som förordningarna bygger på, till exempel reglerna för beräkning av frister,
+- EU-direktiv när de behövs för sammanhanget, till exempel mottagandedirektivet och återvändandedirektivet.
 
-- nationell lagstiftning,
-- nationell tillämpning,
-- myndigheters interna rutiner,
+**Svensk rätt och förarbeten**
+
+- nationell lagstiftning som genomför eller kompletterar pakten, till exempel mottagandelagen,
+- nationell lagstiftning som styr hur uppgifter får lagras och gallras: arkivlagen, tryckfrihetsförordningen, utlänningsdataförordningen och Riksarkivets föreskrifter,
+- förarbeten (departementsskrivelser och propositioner) som beskriver de nationella valen i genomförandet. Förslag som ännu inte är antagna markeras som förslag.
+
+**Systemperspektiv**
+
+- processer, regler, krav och förmågor som härleds ur rättskällorna,
+- tvärgående frågor som tidsfrister, flaggor och markeringar, statistik samt gallring och radering,
+- tolkningar och öppna frågor, tydligt skilda från lagtexten.
+
+**Omfattas inte**
+
+- myndigheters interna rutiner och handböcker,
+- rättspraxis, utom när den uttryckligen anges som källa,
 - juridisk rådgivning.
+
+Källorna listas i [Källor](#kallor).
 
 ---
 
@@ -121,6 +134,58 @@ Se även:
 | [Statistik](shared/statistics/README.md) | Datapunkter och beräkningar |
 | [Flaggor och markeringar](shared/flags/README.md) | Villkorsutlösta flaggor, markeringar och varningar |
 | [Gallring och radering](shared/data-retention/README.md) | Lagringstider, radering och medborgarskapsundantag |
+
+---
+
+## Källor
+
+Uppgifterna är hämtade ur källtexterna i `references/` och kontrollerade där. Textversionerna för sökning finns i `references/_text/`.
+
+### EU-förordningar
+
+| Förkortning | Rättsakt | Nummer | Antagen | Publicerad (EUT L) | Tillämpas från | Referenskort |
+|-------------|----------|--------|---------|--------------------|----------------|--------------|
+| APR | Förordning om ett gemensamt förfarande för internationellt skydd i unionen | (EU) 2024/1348 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026 | [APR](references/legislation/apr.md) |
+| AMMR | Förordning om asyl- och migrationshantering | (EU) 2024/1351 | 14 maj 2024 | 22 maj 2024 | 1 juli 2026. Vissa artiklar, bl.a. art. 7–15, från 11 juni 2024 (art. 85) | [AMMR](references/legislation/ammr.md) |
+| Screening | Förordning om screening av tredjelandsmedborgare vid de yttre gränserna | (EU) 2024/1356 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026 | [Screening](references/legislation/screening.md) |
+| Eurodac | Förordning om inrättande av Eurodac | (EU) 2024/1358 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026. Art. 26 (tillfälligt skydd) från 12 juni 2029 | [Eurodac](references/legislation/eurodac.md) |
+| Kris | Förordning om krissituationer och force majeure-situationer | (EU) 2024/1359 | 14 maj 2024 | 22 maj 2024 | 1 juli 2026 | [Kris](references/legislation/crisis.md) |
+| Return | Förordning om ett gränsförfarande för återvändande | (EU) 2024/1349 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026 | [Return](references/legislation/return-border-procedure.md) |
+| AMMR-IMPL | Kommissionens genomförandeförordning om tillämpningsföreskrifter för AMMR | (EU) 2025/2055 | 2 oktober 2025 | 12 november 2025 | 12 juni 2026 | [AMMR-IMPL](references/legislation/ammr-implementing.md) |
+| 1182/71 | Rådets förordning om regler för bestämning av perioder, datum och frister | (EEG, Euratom) nr 1182/71 | 3 juni 1971 | — | Gäller | [1182/71](references/legislation/time-limits-regulation.md) (källtexten finns inte i repot) |
+
+### Svensk lagstiftning och föreskrifter
+
+| Författning | Nummer | Utfärdad / beslutad | Ikraft | Lydelse i repot | Referenskort |
+|-------------|--------|---------------------|--------|-----------------|--------------|
+| Mottagandelag | SFS 2026:999 | 4 juni 2026 | 1 oktober 2026 (paktanpassning SFS 2026:1168: 2 oktober 2026) | t.o.m. SFS 2026:1630 | [Mottagandelagen](references/legislation/mottagandelagen.md) |
+| Utlänningsdataförordning | SFS 2016:30 | 4 februari 2016 | 12 februari 2016 | t.o.m. SFS 2026:1362 | [Utlänningsdataförordningen](references/legislation/utlanningsdataforordningen.md) |
+| Arkivlag | SFS 1990:782 | 7 juni 1990 | 1 juli 1991 | t.o.m. SFS 2026:715 | [Arkivlagstiftning](references/legislation/arkivlagstiftning.md) |
+| Tryckfrihetsförordning | SFS 1949:105 | — | — | t.o.m. SFS 2022:1524 | [Arkivlagstiftning](references/legislation/arkivlagstiftning.md) |
+| Lag om svenskt medborgarskap | SFS 2001:82 | — | — | t.o.m. SFS 2026:1689 | [Medborgarskapslagen](references/legislation/medborgarskapslagen.md) |
+| Riksarkivets föreskrifter om gallring av handlingar och uppgifter inom informationsutbyten mellan myndigheter | RA-FS 2026:1 | Beslutad 31 augusti 2026 | Utkom 18 september 2026 | — | [Arkivlagstiftning](references/legislation/arkivlagstiftning.md) |
+
+"—" betyder att uppgiften inte framgår av källfilen i repot.
+
+### Förarbeten
+
+| Dokument | Nummer | Datum | Status | Sida |
+|----------|--------|-------|--------|------|
+| Migrations- och asylpakten (volym 1 och 2) | Ds 2025:30 | 2025 | Departementsskrivelse med förslag. Delvis ersatt av antagen lag | [Ds 2025:30](shared/time-limits/national/ds-2025-30.md) |
+| Skärpta regler om uppsikt och förvar | Prop. 2025/26:265 | 30 april 2026 | Proposition. Föreslaget ikraftträdande 21 juli 2026, vissa delar 1 oktober 2026 och 1 december 2027 | [Prop. 2025/26:265](shared/time-limits/national/prop-2025-26-265.md) |
+
+### Rättsakter som refereras men inte finns i repot
+
+Uppgifter som bygger på dessa är inte kontrollerade mot källtexten.
+
+| Rättsakt | Nummer | Används för |
+|----------|--------|-------------|
+| Mottagandedirektivet | (EU) 2024/1346 | Genomförs genom mottagandelagen |
+| Skyddsgrundsförordningen | (EU) 2024/1347 | Skyddsgrunder, flyktingbegreppet |
+| Återvändandedirektivet | 2008/115/EG | Återvändande efter gränsförfarandet, frivillig avresa |
+| Direktivet om tillfälligt skydd | 2001/55/EG | Tillfälligt skydd i Eurodac |
+| Mottagandeutredningen | SOU 2024:68 | Bakgrund till mottagandelagen |
+| Utlänningslagen | SFS 2005:716 | Hänvisningar i nationella sidor |
 
 ---
 
