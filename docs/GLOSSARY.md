@@ -17,10 +17,12 @@ Alfabetisk lista över centrala begrepp i kunskapsbasen.
 | Crisis situation | Krissituation | Massankomst som gör asylsystemet ur stånd att fungera | [CON-CRI-001](domains/crisis/concepts/crisis-situation.md) |
 | Criteria hierarchy | Kriteriernas rangordning | Ordningen för ansvarskriterier i AMMR | [CON-RES-002](domains/responsibility/concepts/criteria-hierarchy.md) |
 | Dataset | Dataset | En registrering av biometriska och personuppgifter i Eurodac | [CON-EUR-005](domains/eurodac/concepts/dataset.md) |
+| Dependent person | Person i beroendeställning | Sökande som är beroende av, eller har beroende, barn, syskon eller förälder som är lagligen bosatt i en medlemsstat (AMMR art. 34) | [CON-RES-009](domains/responsibility/concepts/dependent-person.md) |
 | Determining authority | Beslutande myndighet | Myndighet som prövar ansökningar | [CON-ASY-001](domains/asylum-procedure/concepts/determining-authority.md) |
 | Determining Member State | Fastställande stat | Den stat som genomför ansvarsbedömningen | [CON-RES-006](domains/responsibility/concepts/determining-member-state.md) |
 | Eurodac | Eurodac | EU:s biometriska informationssystem | [CON-EUR-001](domains/eurodac/concepts/eurodac.md) |
 | Examination on the merits | Prövning i sak | Fullständig prövning av skyddsgrunder | [CON-ASY-003](domains/asylum-procedure/concepts/examination-on-the-merits.md) |
+| Family member | Familjemedlem | Make/maka/partner, underårigt ogift barn, och förälder eller ansvarig vuxen till underårig. Familjen ska ha funnits före ankomsten (AMMR art. 2.8) | [CON-RES-007](domains/responsibility/concepts/family-member.md) |
 | Facial image data | Ansiktsbild | Ansiktsbild behandlad i Eurodac | [CON-EUR-004](domains/eurodac/concepts/facial-image-data.md) |
 | Fingerprint data | Fingeravtryck | Fingeravtryck behandlade i Eurodac | [CON-EUR-003](domains/eurodac/concepts/fingerprint-data.md) |
 | Force majeure | Force majeure | Oförutsebara omständigheter utanför en stats kontroll | [CON-CRI-002](domains/crisis/concepts/force-majeure.md) |
@@ -35,6 +37,7 @@ Alfabetisk lista över centrala begrepp i kunskapsbasen.
 | Registration | Registrering | Formell dokumentation av att ansökan gjorts | [CON-REG-003](domains/registration/concepts/registration.md) |
 | Registration authority | Registreringsmyndighet | Myndighet behörig att registrera ansökningar | [CON-REG-004](domains/registration/concepts/registration-authority.md) |
 | Registration certificate | Registreringshandling | Tillfällig handling vid registrering | [CON-REG-006](domains/registration/concepts/registration-certificate.md) |
+| Relative | Släkting | Vuxen faster, moster, farbror, morbror eller mor-/farförälder. Har betydelse bara för ensamkommande barn (AMMR art. 2.9, 25.3) | [CON-RES-008](domains/responsibility/concepts/relative.md) |
 | Relocation | Omfördelning (äv. omplacering) | Omfördelning av sökande mellan stater | [CON-SOL-002](domains/solidarity/concepts/relocation.md) |
 | Responsible Member State | Ansvarig medlemsstat | Den stat som ska pröva ansökan | [CON-RES-001](domains/responsibility/concepts/responsible-member-state.md) |
 | Responsibility offset | Ansvarskompensation | Ansvarskompensation vid utebliven omfördelning | [CON-SOL-003](domains/solidarity/concepts/responsibility-offset.md) |

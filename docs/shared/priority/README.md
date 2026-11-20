@@ -23,6 +23,31 @@ Modulen samlar alla bestämmelser om att vissa ärenden ska eller får **behandl
 
 ---
 
+## Begrepp
+
+Vilka personer som omfattas styrs av definitionerna i AMMR. De är snävare än i vardagsspråket.
+
+| Begrepp | Vem | Inte | Källa |
+|---------|-----|------|-------|
+| [Familjemedlem](../../domains/responsibility/concepts/family-member.md) | Make, maka eller partner. Underårigt ogift barn. Om sökanden är underårig: fadern, modern eller **annan vuxen som ansvarar** för barnet enligt lag eller praxis. Familjen ska ha funnits **före** ankomsten | Vuxna barn, syskon, föräldrar till vuxna, mor- och farföräldrar (om de inte är ansvarig vuxen) | AMMR art. 2.8 |
+| [Släkting](../../domains/responsibility/concepts/relative.md) | **Vuxen** faster, moster, farbror, morbror eller mor- eller farförälder | Kusiner, vuxna syskon. Har betydelse **bara** för ensamkommande barn (25.3) | AMMR art. 2.9 |
+| Syskon | Definieras inte. Nämns uttryckligen i art. 25 (ensamkommande barn), 28 (underåriga ogifta syskon) och 34 | — | AMMR art. 25, 28, 34 |
+| [Person i beroendeställning](../../domains/responsibility/concepts/dependent-person.md) | Sökande som på grund av graviditet, nyfött barn, svår sjukdom, allvarlig funktionsnedsättning, allvarligt trauma eller hög ålder är beroende av sitt **barn, syskon eller förälder** som är lagligen bosatt i en medlemsstat, eller tvärtom. Skriftligt önskemål och omsorgsförmåga krävs | Make, maka, mor- och farföräldrar, övriga anhöriga | AMMR art. 34.1 |
+| Underårig | Under 18 år | — | AMMR art. 2.10 |
+| Ensamkommande barn (BUV) | Underårig som kommer utan ansvarig vuxen, så länge ingen sådan vuxen faktiskt tar hand om barnet. Även barn som lämnas ensamma efter inresan | — | AMMR art. 2.11 |
+| Särskilda förfarandegarantier | Behov av stöd för att kunna utnyttja rättigheter och fullgöra skyldigheter i förfarandet. Bedöms individuellt inom 30 dagar | — | [APR art. 20–21](../vulnerable-persons/README.md) |
+
+**Exempel: mormor.**
+
+| Situation | Hur hon räknas | Prioritet enligt 39–40, 46 |
+|-----------|----------------|----------------------------|
+| Hon har faktiskt ansvaret för ett underårigt barnbarn | Familjemedlem (2.8 c) | Ja |
+| Barnbarnet är ensamkommande och hon bor lagligt i en annan medlemsstat | Släkting (2.9, 25.3) | Ja |
+| Barnbarnet har kommit med sina föräldrar | Inget kriterium. Bara humanitära skäl (art. 35.2) | Nej. Men ärendet inbegriper en underårig och ska prioriteras enligt 23.1 |
+| Barnbarnet är vuxet | Inget kriterium. Bara humanitära skäl (art. 35.2) | Nej |
+
+---
+
 ## Obligatorisk prioritet ("ska")
 
 ### Ansvar (AMMR och genomförandeförordningen)
@@ -30,7 +55,7 @@ Modulen samlar alla bestämmelser om att vissa ärenden ska eller får **behandl
 | Vem | Vad som prioriteras | Rättslig grund |
 |-----|---------------------|----------------|
 | **Underåriga**, både ensamkommande och medföljande | **Alla förfaranden** i AMMR som inbegriper underåriga: ansvarsbestämning, framställningar, svar, överföring och omfördelning | AMMR art. 23.1 ([AMMR](../../references/legislation/ammr.md)) |
-| **Ensamkommande barn** (art. 25), **familjemedlemmar** (art. 26–28) och **personer i beroendeställning** (art. 34) | Framställan om övertagande | [AMMR art. 39.1](../../domains/responsibility/articles/ammr-039.md) |
+| **Ensamkommande barn** med familjemedlem, syskon eller [släkting](../../domains/responsibility/concepts/relative.md) i en medlemsstat (art. 25), [**familjemedlemmar**](../../domains/responsibility/concepts/family-member.md) (art. 26–28) och [**personer i beroendeställning**](../../domains/responsibility/concepts/dependent-person.md) (art. 34) | Framställan om övertagande | [AMMR art. 39.1](../../domains/responsibility/articles/ammr-039.md) |
 | Samma | Svar på framställan om övertagande | [AMMR art. 40.1](../../domains/responsibility/articles/ammr-040.md) |
 | Samma | Överföring efter godtagande | [AMMR art. 46.1](../../domains/responsibility/articles/ammr-046.md) |
 | Underåriga, och ärenden enligt art. 25–28 och 34 | DubliNet-meddelanden märks med bokstaven **"P"** i referensnumret | [Genomförandeförordning 2025/2055 art. 5.2](../../references/legislation/ammr-implementing.md) |
@@ -79,7 +104,7 @@ Listan i APR art. 34.5 är **inte uttömmande** ("särskilt om"). Myndigheten f�
 |-------|---------------|---------------------------------------------|-----------------------|------|
 | Ensamkommande barn (BUV) | **Ska** (23.1, 39–40, 46) | **Får** (34.5 b) | **Ska** (44.3) | **Ska** (10.2, 11.5) |
 | Barnfamiljer (medföljande barn) | **Ska** (23.1). Familjeärenden även enligt 39–40, 46 när kriterierna i 26–28 tillämpas | Får, bara om barnet eller familjen har särskilda behov (34.5 b) | **Ska** (44.3) | **Ska** (10.2, 11.5) |
-| Övriga familjeärenden (art. 26–28) och personer i beroendeställning (art. 34) | **Ska** (39–40, 46) | Ingen särskild grund | Ingen särskild grund | Ingen särskild grund |
+| Övriga familjeärenden (art. 26–28) och personer i beroendeställning (art. 34). Mor- och farföräldrar omfattas bara via art. 25.3 eller som ansvarig vuxen | **Ska** (39–40, 46) | Ingen särskild grund | Ingen särskild grund | Ingen särskild grund |
 | Särskilda förfarande- eller mottagningsbehov | Ingen särskild grund | **Får** (34.5 b) | Ingen särskild grund. Kan i stället leda till att gränsförfarandet inte tillämpas (21.2) | **Ska** (10.2, 11.5) |
 | Tortyr, våldtäkt, allvarligt våld | Ingen särskild grund | **Ska** vid hänvisning (20.4) | Samma | Samma |
 | Välgrundad ansökan | — | **Får** (34.5 a) | — | **Får** (10.3, 11.5); 4 veckor vid kommissionens rekommendation (14.2) |

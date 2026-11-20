@@ -310,6 +310,9 @@ nav:
         - Meddelande om återtagande: domains/responsibility/concepts/take-back-notification.md
         - Överföring: domains/responsibility/concepts/transfer.md
         - Prövande medlemsstat: domains/responsibility/concepts/determining-member-state.md
+        - Familjemedlem: domains/responsibility/concepts/family-member.md
+        - Släkting: domains/responsibility/concepts/relative.md
+        - Person i beroendeställning: domains/responsibility/concepts/dependent-person.md
       - Regler:
         - RULE-AMMR-024-001: domains/responsibility/rules/rule-ammr-024-001.md
         - RULE-AMMR-024-002: domains/responsibility/rules/rule-ammr-024-002.md

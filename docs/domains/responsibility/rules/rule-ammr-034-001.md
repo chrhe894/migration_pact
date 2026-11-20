@@ -2,6 +2,8 @@
 tags:
   - ansvar
   - regel
+  - familj
+  - prioritet
 ---
 
 
@@ -9,7 +11,7 @@ tags:
 
 ## Rättslig grund
 
-[AMMR artikel 34](../articles/ammr-034.md)
+[AMMR artikel 34](../articles/ammr-034.md), punkt 1–2
 
 ---
 
@@ -21,30 +23,39 @@ Obligation
 
 ## Regel
 
-Om en sökande på grund av graviditet, nyfött barn, svår sjukdom, allvarlig funktionsnedsättning, allvarligt trauma eller hög ålder är beroende av en annan persons assistans, och den personen lagligen vistas i en annan medlemsstat, ska sökanden normalt sammanföras med den personen, förutsatt att familjebanden existerade i ursprungslandet och att berörda skriftligen samtycker.
+Om en sökande på grund av graviditet, nyfött barn, svår psykisk eller fysisk sjukdom, allvarlig funktionsnedsättning, allvarligt psykologiskt trauma eller hög ålder är beroende av hjälp från sitt **barn, syskon eller förälder** som är lagligen bosatt i en medlemsstat, eller om barnet, syskonet eller föräldern är beroende av sökandens hjälp, ska medlemsstaterna **i normala fall** hålla samman eller sammanföra dem, förutsatt att
+
+- familjebanden fanns **innan sökanden kom till medlemsstaternas territorium**,
+- barnet, syskonet, föräldern eller sökanden kan ta hand om personen i beroendeställning, och
+- de berörda, efter att ha informerats om möjligheten, **skriftligen** har uttryckt önskemål om det.
+
+Ansvarig är den medlemsstat där barnet, syskonet eller föräldern är lagligen bosatt. Om sökandens hälsotillstånd under betydande tid hindrar resan dit, är staten där sökanden befinner sig ansvarig, och den behöver inte föra den anhöriga till sitt territorium.
 
 ---
 
 ## Syfte
 
-Skyddar beroendeförhållanden genom att möjliggöra sammanföring med den person som sökanden är beroende av för sin dagliga omvårdnad.
+Skyddar beroendeförhållanden inom den närmaste familjen genom att hålla samman eller sammanföra personerna.
 
 ---
 
 ## Utlösare
 
-Det konstateras att sökanden är beroende av en annan persons assistans på grund av specificerade skäl och att den personen lagligen vistas i en annan medlemsstat.
+Det konstateras ett beroende av angivet slag mellan sökanden och sökandens barn, syskon eller förälder som är lagligen bosatt i en medlemsstat.
 
 ---
 
 ## Rättsverkan
 
-- Sökanden ska normalt sammanföras med den assisterande personen.
-- Familjebanden ska ha existerat i ursprungslandet.
-- Skriftligt samtycke från berörda krävs.
+- Om den anhöriga bor i **samma** stat: kontrollera omsorgsförmågan **innan** en framställan om övertagande görs till en annan stat (34.1 andra st.).
+- Om den anhöriga bor i **en annan** stat: den staten är ansvarig (34.2).
+- Hälsohinder under betydande tid: staten där sökanden befinner sig är ansvarig (34.2).
+- Framställan, svar och överföring ska prioriteras (art. 39.1, 40.1, 46.1).
+
+> **Rättelse (2026-09):** regeln angav tidigare "en annan persons assistans" och att familjebanden ska ha funnits "i ursprungslandet" (formuleringen i Dublin III). AMMR gäller bara barn, syskon och föräldrar och kräver att banden fanns innan sökanden kom till medlemsstaternas territorium. Omvänt beroende, kravet på omsorgsförmåga, kontrollen i samma stat och undantaget vid hälsohinder saknades.
 
 ---
 
 ## Status
 
-Complete
+Complete (kontrollerad mot förordningstexten 2026-09)
