@@ -9,8 +9,12 @@ Denna shared-modul dokumenterar regler och begrepp kring identifiering och hante
 ## Primära rättskällor
 
 - [Screeningförordningen artikel 12](../../domains/screening/articles/scr-012.md), punkt 3 — Preliminär sårbarhetskontroll
-- [APR artikel 20](articles/apr-020.md) — Bedömning av sårbarhet
+- [APR artikel 20](articles/apr-020.md) — Bedömning av behovet av särskilda förfarandegarantier (inom 30 dagar)
 - [APR artikel 21](articles/apr-021.md) — Sökande i behov av särskilda förfarandegarantier
+- [APR artikel 22](../../domains/asylum-procedure/articles/apr-022.md) — Garantier för underåriga
+- APR artikel 23 och 25 — Ensamkommande barn och åldersbedömning (inga egna kort; se [kraven](requirements/README.md))
+
+Kraven och förmågorna kontrollerades mot förordningstexten 2026-09 och fick delvis nya ID:n, se [kravlistan](requirements/README.md). Prioritering av sårbara personer och barn beskrivs i [Prioritet i handläggningen](../priority/README.md).
 
 ---
 

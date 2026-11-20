@@ -50,7 +50,8 @@ Flaggorna grupperas i sex kategorier efter vad de uttrycker.
 | Flagga | Utlöses av | Konsekvens | Källa |
 |--------|------------|------------|-------|
 | Sårbarhetsindikering | Preliminär kontroll identifierar särskilda behov | Anpassat förfarande; specialistmyndighet kopplas in vid barnmisshandel/människohandel | [scr-012](../../domains/screening/articles/scr-012.md) |
-| "Behandla som underårig" | Tvivel om ålder | Behandlas som underårig tills annat fastställts; prioriterad handläggning | [apr-021](../vulnerable-persons/articles/apr-021.md) |
+| "Behandla som underårig" | Åldersbedömningen ger inget entydigt resultat eller ett intervall under 18 år | Medlemsstaten utgår från att sökanden är underårig; garantierna för barn gäller, och AMMR-förfaranden ska prioriteras (AMMR art. 23.1) | [REQ-APR-025-002](../vulnerable-persons/requirements/req-apr-025-002.md) |
+| **Prioritet** | Underåriga, familjeärenden, särskilda behov, välgrundad ansökan m.fl. | Ärendet behandlas före tidigare inkomna ärenden. Fristerna ändras inte. DubliNet-meddelanden märks "P" | [Prioritet i handläggningen](../priority/README.md) |
 
 ### 5. Tidsfrist- och gränsvärdesflaggor
 

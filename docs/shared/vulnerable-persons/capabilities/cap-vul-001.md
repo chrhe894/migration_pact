@@ -16,13 +16,14 @@ Identify Special Procedural Needs
 
 ## Syfte
 
-Bedöma och dokumentera sökandens särskilda förfarandebehov.
+Bedöma, dokumentera och tillgodose sökandens behov av särskilda förfarandegarantier, och styra bort från påskyndat förfarande och gränsförfarande när stödet inte kan ges där.
 
 ---
 
 ## Implementerar
 
-- Art. 20 (punkt 1, 3)
+- APR art. 20 (punkt 1–5)
+- APR art. 21 (punkt 1–2)
 
 ---
 
@@ -34,17 +35,21 @@ Bedöma och dokumentera sökandens särskilda förfarandebehov.
 
 ## Producerar
 
-- Dokumenterad behovsbedömning
+- Registrerade första tecken i akten (vid registreringen)
+- Slutförd behovsbedömning inom 30 dagar
+- Prioriterad hänvisning vid indikationer på tortyr eller allvarligt våld
+- Beslut att inte tillämpa, eller upphöra med, påskyndat förfarande eller gränsförfarande
 
 ---
 
 ## Konsumerar
 
 - Screeningresultat (sårbarhetskontroll)
-- Sökandens situation
+- Sökandens uttalanden, beteende och handlingar
+- Uttalanden från föräldrar, ansvarig vuxen eller företrädare (underåriga)
 
 ---
 
 ## Status
 
-Complete
+Complete (kontrollerad mot förordningstexten 2026-09)

@@ -31,8 +31,8 @@ Dessa artikelfiler existerar men saknar substantiellt innehåll.
 En användare som navigerar hit möter en tom sida:
 
 - [ ] `shared/interpreters/articles/apr-030.md` — Personlig intervju, tolkningskrav
-- [ ] `shared/vulnerable-persons/articles/apr-020.md` — Garantier vid särskilda behov
-- [ ] `shared/vulnerable-persons/articles/apr-021.md` — Garantier för ensamkommande barn
+- [x] `shared/vulnerable-persons/articles/apr-020.md` — Bedömning av behovet av särskilda förfarandegarantier (omskriven 2026-09)
+- [x] `shared/vulnerable-persons/articles/apr-021.md` — Sökande i behov av särskilda förfarandegarantier (omskriven 2026-09; tidigare fel artikel)
 - [ ] `shared/statistics/articles/ammr-009.md` — Årlig rapport om asyl och migration
 - [ ] `shared/statistics/articles/ammr-010.md` — Bedömning av migrationssituationen
 - [x] `domains/eurodac/articles/eur-001.md` — Syftet med Eurodac
@@ -41,7 +41,8 @@ En användare som navigerar hit möter en tom sida:
 
 ### Shared-moduler som saknar krav och capabilities
 
-- [ ] shared/vulnerable-persons — Inga regler, krav eller capabilities
+- [ ] shared/vulnerable-persons — krav och förmågor finns (granskade 2026-09), men inga regler (RULE)
+- [ ] shared/priority — ny modul 2026-09; saknar regler, krav och förmågor
 - [ ] shared/children — Inga regler, krav eller capabilities
 - [ ] shared/identity — Har aktivitet men inga formella krav
 - [ ] shared/biometrics — Enbart README
@@ -74,7 +75,10 @@ Metod per domän: jämför varje artikelkorts rubrik och innehåll med förordni
 - [ ] Ansvar (AMMR)
 - [ ] Solidaritet (AMMR del IV) — art. 67–68 är redan kontrollerade
 - [ ] Kris (förordning 2024/1359)
-- [ ] Shared-moduler (statistics, interpreters, vulnerable-persons, time-limits)
+- [ ] Shared-moduler (statistics, interpreters, time-limits)
+- [x] Shared: vulnerable-persons — granskad 2026-09. Korten för art. 20 och 21 hade fel innehåll: art. 21 beskrev ensamkommande barn (art. 22, 23, 25) och påstod att deras ansökningar *ska* prioriteras, och art. 20 saknade 30-dagarsfristen. Kraven har fått nya ID:n (REQ-APR-021-001–005 → 022-001, 023-001/002, 025-001/002; 021-006 borttaget), se [kravlistan](shared/vulnerable-persons/requirements/README.md)
+- [ ] **Tidsfrister:** för in 30 dagar för bedömningen av särskilda förfarandegarantier (APR 20.3) på tidsfristsidan
+- [ ] **Ändrade krav-ID:** REQ-APR-021-001 och 002 betyder nu annat (art. 21). Kontrollera externa system som använder de gamla betydelserna
 
 ### Följdarbete efter Eurodac-granskningen
 

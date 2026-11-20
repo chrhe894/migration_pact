@@ -128,6 +128,7 @@ Se även:
 | [Tidsfrister](shared/time-limits/README.md) | Tidsfrister |
 | [Barn](shared/children/README.md) | Särskilda garantier för barn |
 | [Sårbara personer](shared/vulnerable-persons/README.md) | Sårbara personer |
+| [Prioritet](shared/priority/README.md) | Vilka ärenden som ska eller får behandlas före andra |
 | [Biometri](shared/biometrics/README.md) | Biometriska uppgifter |
 | [Säkerhetskontroller](shared/security-checks/README.md) | Säkerhetskontroller |
 | [Personliga intervjuer](shared/interviews/README.md) | Personliga intervjuer och övriga intervjuer |

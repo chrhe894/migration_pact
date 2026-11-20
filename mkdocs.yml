@@ -600,6 +600,7 @@ nav:
     - Säkerhetskontroller: shared/security-checks/README.md
     - Barn: shared/children/README.md
     - Sårbara personer: shared/vulnerable-persons/README.md
+    - Prioritet: shared/priority/README.md
     - Personliga intervjuer: shared/interviews/README.md
     - Statistik: shared/statistics/README.md
     - Flaggor och markeringar: shared/flags/README.md
