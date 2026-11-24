@@ -369,6 +369,7 @@ nav:
     - Asylförfarande:
       - domains/asylum-procedure/README.md
       - Artiklar:
+        - APR artikel 7: domains/asylum-procedure/articles/apr-007.md
         - APR artikel 11: domains/asylum-procedure/articles/apr-011.md
         - APR artikel 12: domains/asylum-procedure/articles/apr-012.md
         - APR artikel 13: domains/asylum-procedure/articles/apr-013.md
@@ -397,6 +398,7 @@ nav:
         - Påskyndat förfarande: domains/asylum-procedure/concepts/accelerated-procedure.md
         - Efterföljande ansökan: domains/asylum-procedure/concepts/subsequent-application.md
       - Regler:
+        - RULE-APR-007-001: domains/asylum-procedure/rules/rule-apr-007-001.md
         - RULE-APR-034-001: domains/asylum-procedure/rules/rule-apr-034-001.md
         - RULE-APR-034-002: domains/asylum-procedure/rules/rule-apr-034-002.md
         - RULE-APR-035-001: domains/asylum-procedure/rules/rule-apr-035-001.md
@@ -573,6 +575,237 @@ nav:
         - CAP-RET-001 Return Border: domains/return-border-procedure/capabilities/cap-ret-001.md
       - Krav:
         - Översikt: domains/return-border-procedure/requirements/README.md
+    - Återvändande:
+      - domains/return/README.md
+      - Artiklar:
+        - Artikel 1: domains/return/articles/rr-001.md
+        - Artikel 2: domains/return/articles/rr-002.md
+        - Artikel 3: domains/return/articles/rr-003.md
+        - Artikel 4: domains/return/articles/rr-004.md
+        - Artikel 5: domains/return/articles/rr-005.md
+        - Artikel 6: domains/return/articles/rr-006.md
+        - Artikel 7: domains/return/articles/rr-007.md
+        - Artikel 8: domains/return/articles/rr-008.md
+        - Artikel 9: domains/return/articles/rr-009.md
+        - Artikel 10: domains/return/articles/rr-010.md
+        - Artikel 11: domains/return/articles/rr-011.md
+        - Artikel 12: domains/return/articles/rr-012.md
+        - Artikel 13: domains/return/articles/rr-013.md
+        - Artikel 14: domains/return/articles/rr-014.md
+        - Artikel 15: domains/return/articles/rr-015.md
+        - Artikel 16: domains/return/articles/rr-016.md
+        - Artikel 17: domains/return/articles/rr-017.md
+        - Artikel 18: domains/return/articles/rr-018.md
+        - Artikel 19: domains/return/articles/rr-019.md
+        - Artikel 20: domains/return/articles/rr-020.md
+        - Artikel 21: domains/return/articles/rr-021.md
+        - Artikel 22: domains/return/articles/rr-022.md
+        - Artikel 23: domains/return/articles/rr-023.md
+        - Artikel 24: domains/return/articles/rr-024.md
+        - Artikel 25: domains/return/articles/rr-025.md
+        - Artikel 26: domains/return/articles/rr-026.md
+        - Artikel 27: domains/return/articles/rr-027.md
+        - Artikel 28: domains/return/articles/rr-028.md
+        - Artikel 29: domains/return/articles/rr-029.md
+        - Artikel 30: domains/return/articles/rr-030.md
+        - Artikel 31: domains/return/articles/rr-031.md
+        - Artikel 32: domains/return/articles/rr-032.md
+        - Artikel 33: domains/return/articles/rr-033.md
+        - Artikel 34: domains/return/articles/rr-034.md
+        - Artikel 35: domains/return/articles/rr-035.md
+        - Artikel 36: domains/return/articles/rr-036.md
+        - Artikel 37: domains/return/articles/rr-037.md
+        - Artikel 38: domains/return/articles/rr-038.md
+        - Artikel 39: domains/return/articles/rr-039.md
+        - Artikel 40: domains/return/articles/rr-040.md
+        - Artikel 41: domains/return/articles/rr-041.md
+        - Artikel 42: domains/return/articles/rr-042.md
+        - Artikel 43: domains/return/articles/rr-043.md
+        - Artikel 44: domains/return/articles/rr-044.md
+        - Artikel 45: domains/return/articles/rr-045.md
+        - Artikel 46: domains/return/articles/rr-046.md
+        - Artikel 47: domains/return/articles/rr-047.md
+        - Artikel 48: domains/return/articles/rr-048.md
+        - Artikel 49: domains/return/articles/rr-049.md
+        - Artikel 50: domains/return/articles/rr-050.md
+      - Processer:
+        - Återvändandeförfarande: domains/return/processes/return-procedure.md
+        - Förvar inför avlägsnande: domains/return/processes/return-detention.md
+        - Erkännande av annan medlemsstats beslut: domains/return/processes/recognition-of-return-decision.md
+        - Återvändandesamordning – ambassad: domains/return/processes/return-coordination-embassy.md
+        - Återvändandesamordning – resa: domains/return/processes/return-coordination-travel.md
+        - Frivilligt återvändande med stöd: domains/return/processes/assisted-voluntary-return.md
+      - Begrepp:
+        - Beslut om återvändande: domains/return/concepts/return-decision.md
+        - Tidsfrist för avresa: domains/return/concepts/departure-period.md
+        - Europeisk återvändandeorder: domains/return/concepts/european-return-order.md
+        - Inreseförbud: domains/return/concepts/entry-ban.md
+        - Risk för avvikande: domains/return/concepts/risk-of-absconding.md
+        - Avlägsnande: domains/return/concepts/removal.md
+      - Regler:
+        - RULE-RR-002-001: domains/return/rules/rule-rr-002-001.md
+        - RULE-RR-002-002: domains/return/rules/rule-rr-002-002.md
+        - RULE-RR-002-003: domains/return/rules/rule-rr-002-003.md
+        - RULE-RR-002-004: domains/return/rules/rule-rr-002-004.md
+        - RULE-RR-004-001: domains/return/rules/rule-rr-004-001.md
+        - RULE-RR-005-001: domains/return/rules/rule-rr-005-001.md
+        - RULE-RR-005-002: domains/return/rules/rule-rr-005-002.md
+        - RULE-RR-005-003: domains/return/rules/rule-rr-005-003.md
+        - RULE-RR-005-004: domains/return/rules/rule-rr-005-004.md
+        - RULE-RR-005-005: domains/return/rules/rule-rr-005-005.md
+        - RULE-RR-005-006: domains/return/rules/rule-rr-005-006.md
+        - RULE-RR-005-007: domains/return/rules/rule-rr-005-007.md
+        - RULE-RR-005-008: domains/return/rules/rule-rr-005-008.md
+        - RULE-RR-005-009: domains/return/rules/rule-rr-005-009.md
+        - RULE-RR-005-010: domains/return/rules/rule-rr-005-010.md
+        - RULE-RR-005-011: domains/return/rules/rule-rr-005-011.md
+        - RULE-RR-005-012: domains/return/rules/rule-rr-005-012.md
+        - RULE-RR-005-013: domains/return/rules/rule-rr-005-013.md
+        - RULE-RR-005-014: domains/return/rules/rule-rr-005-014.md
+        - RULE-RR-006-001: domains/return/rules/rule-rr-006-001.md
+        - RULE-RR-006-002: domains/return/rules/rule-rr-006-002.md
+        - RULE-RR-006-003: domains/return/rules/rule-rr-006-003.md
+        - RULE-RR-006-004: domains/return/rules/rule-rr-006-004.md
+        - RULE-RR-007-001: domains/return/rules/rule-rr-007-001.md
+        - RULE-RR-007-002: domains/return/rules/rule-rr-007-002.md
+        - RULE-RR-007-003: domains/return/rules/rule-rr-007-003.md
+        - RULE-RR-007-004: domains/return/rules/rule-rr-007-004.md
+        - RULE-RR-007-005: domains/return/rules/rule-rr-007-005.md
+        - RULE-RR-007-006: domains/return/rules/rule-rr-007-006.md
+        - RULE-RR-007-007: domains/return/rules/rule-rr-007-007.md
+        - RULE-RR-008-001: domains/return/rules/rule-rr-008-001.md
+        - RULE-RR-008-002: domains/return/rules/rule-rr-008-002.md
+        - RULE-RR-008-003: domains/return/rules/rule-rr-008-003.md
+        - RULE-RR-008-004: domains/return/rules/rule-rr-008-004.md
+        - RULE-RR-008-005: domains/return/rules/rule-rr-008-005.md
+        - RULE-RR-008-006: domains/return/rules/rule-rr-008-006.md
+        - RULE-RR-008-007: domains/return/rules/rule-rr-008-007.md
+        - RULE-RR-009-001: domains/return/rules/rule-rr-009-001.md
+        - RULE-RR-009-002: domains/return/rules/rule-rr-009-002.md
+        - RULE-RR-009-003: domains/return/rules/rule-rr-009-003.md
+        - RULE-RR-009-004: domains/return/rules/rule-rr-009-004.md
+        - RULE-RR-009-005: domains/return/rules/rule-rr-009-005.md
+        - RULE-RR-010-001: domains/return/rules/rule-rr-010-001.md
+        - RULE-RR-010-002: domains/return/rules/rule-rr-010-002.md
+        - RULE-RR-010-003: domains/return/rules/rule-rr-010-003.md
+        - RULE-RR-010-004: domains/return/rules/rule-rr-010-004.md
+        - RULE-RR-011-001: domains/return/rules/rule-rr-011-001.md
+        - RULE-RR-011-002: domains/return/rules/rule-rr-011-002.md
+        - RULE-RR-011-003: domains/return/rules/rule-rr-011-003.md
+        - RULE-RR-012-001: domains/return/rules/rule-rr-012-001.md
+        - RULE-RR-013-001: domains/return/rules/rule-rr-013-001.md
+        - RULE-RR-013-002: domains/return/rules/rule-rr-013-002.md
+        - RULE-RR-013-003: domains/return/rules/rule-rr-013-003.md
+        - RULE-RR-013-004: domains/return/rules/rule-rr-013-004.md
+        - RULE-RR-014-001: domains/return/rules/rule-rr-014-001.md
+        - RULE-RR-014-002: domains/return/rules/rule-rr-014-002.md
+        - RULE-RR-014-003: domains/return/rules/rule-rr-014-003.md
+        - RULE-RR-015-001: domains/return/rules/rule-rr-015-001.md
+        - RULE-RR-016-001: domains/return/rules/rule-rr-016-001.md
+        - RULE-RR-016-002: domains/return/rules/rule-rr-016-002.md
+        - RULE-RR-017-001: domains/return/rules/rule-rr-017-001.md
+        - RULE-RR-017-002: domains/return/rules/rule-rr-017-002.md
+        - RULE-RR-018-001: domains/return/rules/rule-rr-018-001.md
+        - RULE-RR-018-002: domains/return/rules/rule-rr-018-002.md
+        - RULE-RR-018-003: domains/return/rules/rule-rr-018-003.md
+        - RULE-RR-018-004: domains/return/rules/rule-rr-018-004.md
+        - RULE-RR-019-001: domains/return/rules/rule-rr-019-001.md
+        - RULE-RR-019-002: domains/return/rules/rule-rr-019-002.md
+        - RULE-RR-020-001: domains/return/rules/rule-rr-020-001.md
+        - RULE-RR-020-002: domains/return/rules/rule-rr-020-002.md
+        - RULE-RR-020-003: domains/return/rules/rule-rr-020-003.md
+        - RULE-RR-021-001: domains/return/rules/rule-rr-021-001.md
+        - RULE-RR-022-001: domains/return/rules/rule-rr-022-001.md
+        - RULE-RR-023-001: domains/return/rules/rule-rr-023-001.md
+        - RULE-RR-023-002: domains/return/rules/rule-rr-023-002.md
+        - RULE-RR-024-001: domains/return/rules/rule-rr-024-001.md
+        - RULE-RR-024-002: domains/return/rules/rule-rr-024-002.md
+        - RULE-RR-025-001: domains/return/rules/rule-rr-025-001.md
+        - RULE-RR-025-002: domains/return/rules/rule-rr-025-002.md
+        - RULE-RR-025-003: domains/return/rules/rule-rr-025-003.md
+        - RULE-RR-026-001: domains/return/rules/rule-rr-026-001.md
+        - RULE-RR-027-001: domains/return/rules/rule-rr-027-001.md
+        - RULE-RR-027-002: domains/return/rules/rule-rr-027-002.md
+        - RULE-RR-027-003: domains/return/rules/rule-rr-027-003.md
+        - RULE-RR-028-001: domains/return/rules/rule-rr-028-001.md
+        - RULE-RR-028-002: domains/return/rules/rule-rr-028-002.md
+        - RULE-RR-029-001: domains/return/rules/rule-rr-029-001.md
+        - RULE-RR-029-002: domains/return/rules/rule-rr-029-002.md
+        - RULE-RR-030-001: domains/return/rules/rule-rr-030-001.md
+        - RULE-RR-030-002: domains/return/rules/rule-rr-030-002.md
+        - RULE-RR-030-003: domains/return/rules/rule-rr-030-003.md
+        - RULE-RR-030-004: domains/return/rules/rule-rr-030-004.md
+        - RULE-RR-031-001: domains/return/rules/rule-rr-031-001.md
+        - RULE-RR-031-002: domains/return/rules/rule-rr-031-002.md
+        - RULE-RR-031-003: domains/return/rules/rule-rr-031-003.md
+        - RULE-RR-031-004: domains/return/rules/rule-rr-031-004.md
+        - RULE-RR-032-001: domains/return/rules/rule-rr-032-001.md
+        - RULE-RR-032-002: domains/return/rules/rule-rr-032-002.md
+        - RULE-RR-032-003: domains/return/rules/rule-rr-032-003.md
+        - RULE-RR-033-001: domains/return/rules/rule-rr-033-001.md
+        - RULE-RR-034-001: domains/return/rules/rule-rr-034-001.md
+        - RULE-RR-035-001: domains/return/rules/rule-rr-035-001.md
+        - RULE-RR-036-001: domains/return/rules/rule-rr-036-001.md
+        - RULE-RR-036-002: domains/return/rules/rule-rr-036-002.md
+        - RULE-RR-036-003: domains/return/rules/rule-rr-036-003.md
+        - RULE-RR-036-004: domains/return/rules/rule-rr-036-004.md
+        - RULE-RR-037-001: domains/return/rules/rule-rr-037-001.md
+        - RULE-RR-038-001: domains/return/rules/rule-rr-038-001.md
+        - RULE-RR-039-001: domains/return/rules/rule-rr-039-001.md
+        - RULE-RR-039-002: domains/return/rules/rule-rr-039-002.md
+        - RULE-RR-041-001: domains/return/rules/rule-rr-041-001.md
+        - RULE-RR-042-001: domains/return/rules/rule-rr-042-001.md
+        - RULE-RR-042-002: domains/return/rules/rule-rr-042-002.md
+        - RULE-RR-043-001: domains/return/rules/rule-rr-043-001.md
+        - RULE-RR-043-002: domains/return/rules/rule-rr-043-002.md
+        - RULE-RR-044-001: domains/return/rules/rule-rr-044-001.md
+        - RULE-RR-044-002: domains/return/rules/rule-rr-044-002.md
+        - RULE-RR-044-003: domains/return/rules/rule-rr-044-003.md
+        - RULE-RR-044-004: domains/return/rules/rule-rr-044-004.md
+        - RULE-RR-044-005: domains/return/rules/rule-rr-044-005.md
+        - RULE-RR-044-006: domains/return/rules/rule-rr-044-006.md
+        - RULE-RR-045-001: domains/return/rules/rule-rr-045-001.md
+        - RULE-RR-045-002: domains/return/rules/rule-rr-045-002.md
+        - RULE-RR-045-003: domains/return/rules/rule-rr-045-003.md
+        - RULE-RR-046-001: domains/return/rules/rule-rr-046-001.md
+        - RULE-RR-046-002: domains/return/rules/rule-rr-046-002.md
+        - RULE-RR-048-001: domains/return/rules/rule-rr-048-001.md
+        - RULE-RR-048-002: domains/return/rules/rule-rr-048-002.md
+        - RULE-RR-049-001: domains/return/rules/rule-rr-049-001.md
+        - RULE-RR-049-002: domains/return/rules/rule-rr-049-002.md
+        - RULE-RR-050-001: domains/return/rules/rule-rr-050-001.md
+        - RULE-ETD-003-001: domains/return/rules/rule-etd-003-001.md
+        - RULE-ETD-005-001: domains/return/rules/rule-etd-005-001.md
+        - RULE-JRF-004-001: domains/return/rules/rule-jrf-004-001.md
+        - RULE-JRF-005-001: domains/return/rules/rule-jrf-005-001.md
+        - RULE-JRF-006-001: domains/return/rules/rule-jrf-006-001.md
+        - RULE-JRF-007-001: domains/return/rules/rule-jrf-007-001.md
+        - RULE-FRX-048-001: domains/return/rules/rule-frx-048-001.md
+        - RULE-FRX-050-001: domains/return/rules/rule-frx-050-001.md
+        - RULE-FRX-053-001: domains/return/rules/rule-frx-053-001.md
+        - RULE-UTL-12-014-001: domains/return/rules/rule-utl-12-014-001.md
+        - RULE-UTL-12-014C-001: domains/return/rules/rule-utl-12-014c-001.md
+        - RULE-UTL-12-015-001: domains/return/rules/rule-utl-12-015-001.md
+        - RULE-UTL-12-021-001: domains/return/rules/rule-utl-12-021-001.md
+      - Tolkningar:
+        - Övergången 2026–2027: domains/return/interpretations/transition-2026-2027.md
+      - Öppna frågor:
+        - Oklara startpunkter: domains/return/open_questions/unclear-start-points.md
+      - Nationell implementering:
+        - Utlänningslagen: domains/return/national/utlanningslagen-mapping.md
+      - Capabilities:
+        - Översikt: domains/return/capabilities/README.md
+        - CAP-RTN-001: domains/return/capabilities/cap-rtn-001.md
+        - CAP-RTN-002: domains/return/capabilities/cap-rtn-002.md
+        - CAP-RTN-003: domains/return/capabilities/cap-rtn-003.md
+        - CAP-RTN-004: domains/return/capabilities/cap-rtn-004.md
+        - CAP-RTN-005: domains/return/capabilities/cap-rtn-005.md
+        - CAP-RTN-006: domains/return/capabilities/cap-rtn-006.md
+        - CAP-RTN-007: domains/return/capabilities/cap-rtn-007.md
+        - CAP-RTN-008: domains/return/capabilities/cap-rtn-008.md
+        - CAP-RTN-009: domains/return/capabilities/cap-rtn-009.md
+      - Krav:
+        - Översikt: domains/return/requirements/README.md
   - Delat:
     - Identitet: shared/identity/README.md
     - Tolkar:

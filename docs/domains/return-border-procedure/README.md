@@ -45,7 +45,7 @@ Art. 9 (ändringar av förordning 2021/1148), 10 (överklagande från offentliga
 | Process | Beskrivning |
 |---------|-------------|
 | [PROC-RET-001 Gränsförfarande för återvändande](processes/return-border-procedure.md) | Från avslag i gränsförfarandet för asyl till verkställt återvändande, eller fortsättning enligt återvändandedirektivet |
-
+J
 ---
 
 ## Juridiska milstolpar

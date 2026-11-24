@@ -1,0 +1,108 @@
+' ============================================================================
+' Diagram: Återvändandesamordning – ambassad
+'
+' Syfte: Identitet, medborgarskap och resehandling via tredjelandets
+'        myndigheter (ambassad/konsulat) inför återvändande.
+'
+' Källa: Förordning 2026/2280 art. 18, 22, 29–30, 34, 36–37, 42; APR art. 7;
+'        förordning 2016/1953; förordning 2019/1896 art. 48; UtlL 12 kap. 14 §
+'
+' Status: Draft
+' ============================================================================
+
+@startuml return-coordination-embassy
+
+title Återvändandesamordning – ambassad
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Beslut om återvändande finns;
+note right
+  Ansvarig myndighet: Migrationsverket,
+  Polismyndigheten eller Säpo
+  ([[../rules/rule-utl-12-014-001.md UtlL 12:14]])
+end note
+
+if (Giltig resehandling och\nfastställd identitet?) then (Ja)
+  :Vidare till resa (PROC-RTN-005);
+  stop
+else (Nej)
+endif
+
+:[[../rules/rule-rr-018-002.md Inhämta uppgifter från personen]];
+note right
+  Identitet, handlingar, resvägar,
+  transitländer ([[../rules/rule-rr-018-002.md 18.3]], [[../rules/rule-rr-018-003.md 18.4]])
+end note
+
+:[[../rules/rule-rr-036-001.md Kontrollera med andra medlemsstater]];
+note right
+  Uppgifter om medborgarskap och resehandlingar
+  Svar inom **två veckor** ([[../rules/rule-rr-036-002.md 36.7]])
+  Resehandlingar i original ([[../rules/rule-rr-036-004.md 36.10]])
+end note
+
+:[[../../asylum-procedure/rules/rule-apr-007-001.md Tystnadsplikt]]: lämna bara nödvändiga uppgifter;
+note right
+  **Röj inte att personen ansökt om
+  internationellt skydd** för påstådda
+  förföljare ([[../../asylum-procedure/rules/rule-apr-007-001.md APR 7.2]])
+  Överföring enligt [[../rules/rule-rr-037-001.md art. 37]],
+  dokumenteras
+end note
+
+split
+  :Begäran till ambassad/konsulat;
+  note right
+    Personen inställer sig personligen
+    eller via video ([[../rules/rule-rr-018-002.md 18.3 m]])
+  end note
+split again
+  :[[../rules/rule-etd-003-001.md Europeisk resehandling]];
+  note right
+    Om återtagandeinstrumentet medger
+    ([[../rules/rule-rr-034-001.md 34.1]]). En resa, kostnadsfri
+  end note
+split again
+  :Stöd från Frontex eller annan MS;
+  note right
+    [[../rules/rule-frx-048-001.md Frontex 48.1 a ii]] (konsulärt samarbete)
+    [[../rules/rule-rr-042-002.md RR 42.2 b]], sambandsmän (34.2)
+  end note
+end split
+
+if (Personen samarbetar?) then (Nej)
+  :[[../rules/rule-rr-022-001.md Konsekvenser]] / förvar;
+  note right
+    Förvarsskäl: identitet, bristande
+    samarbete ([[../rules/rule-rr-029-001.md 29.3 d–e]])
+    Förlängning till 24 mån vid försenade
+    handlingar ([[../rules/rule-rr-030-002.md 30.3]])
+  end note
+else (Ja)
+endif
+
+if (Resehandling erhållen?) then (Ja)
+  :Vidare till resa (PROC-RTN-005);
+  stop
+else (Nej)
+  :Hinder: fortsatta åtgärder eller\n[[../rules/rule-rr-011-002.md uppskjutande]];
+  stop
+endif
+
+@enduml

@@ -1,0 +1,96 @@
+' ============================================================================
+' Diagram: Förvar inför avlägsnande
+'
+' Syfte: Visualiserar förvar enligt förordning (EU) 2026/2280 art. 13, 23
+'        och 29–33, med förvarstidens tak och prövningsintervall.
+'
+' Tillämpas: från 17 oktober 2027 (art. 50.3)
+'
+' Status: Draft
+' ============================================================================
+
+@startuml return-detention
+
+title Förvar inför avlägsnande (förordning (EU) 2026/2280)
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Beslut om återvändande finns;
+
+if (Räcker alternativ till förvar?\n([[../rules/rule-rr-023-001.md art. 23]])) then (Ja)
+  :[[../rules/rule-rr-023-001.md Alternativ till förvar]];
+  stop
+else (Nej)
+endif
+
+:[[../rules/rule-rr-029-001.md Beslut om förvar]];
+note right
+  Individuell bedömning, proportionerligt
+  Skäl a–f ([[../rules/rule-rr-029-001.md RULE-RR-029-001]])
+  Skriftligt beslut ([[../rules/rule-rr-029-002.md RULE-RR-029-002]])
+  ---
+  Barn och familjer: sista utväg
+  ([[../rules/rule-rr-033-001.md RULE-RR-033-001]])
+end note
+
+if (Beslutat av administrativ\nmyndighet?) then (Ja)
+  :[[../rules/rule-rr-031-003.md Rättslig prövning]];
+  note right
+    Så snart som möjligt, inom frist
+    i nationell rätt
+    ([[../rules/rule-rr-031-003.md RULE-RR-031-003]])
+  end note
+else (Nej)
+endif
+
+repeat
+  :Förvar pågår;
+  note right
+    Prövning minst **var 6:e månad**
+    ([[../rules/rule-rr-031-001.md RULE-RR-031-001]])
+    Ensamkommande barn: minst **var 3:e månad**
+    ([[../rules/rule-rr-031-002.md RULE-RR-031-002]])
+  end note
+  if (Skälen kvarstår?) then (Nej)
+    :[[../rules/rule-rr-030-001.md Frigivning]];
+    note right
+      Åtgärder enligt art. 20 och 23
+      får tillämpas
+    end note
+    stop
+  else (Ja)
+  endif
+repeat while (Avlägsnande genomfört?) is (Nej) not (Ja)
+
+:Avlägsnat;
+note right
+  **Tak:** 12 månader, högst 24 vid bristande
+  samarbete, försenade handlingar eller
+  exceptionella skäl ([[../rules/rule-rr-030-002.md RULE-RR-030-002]])
+  Därefter ytterligare högst **6 månader**
+  sammanlagt ([[../rules/rule-rr-030-003.md RULE-RR-030-003]]);
+  domstolsprövning minst var 3:e månad
+  ([[../rules/rule-rr-031-004.md RULE-RR-031-004]])
+  ---
+  Säkerhetsrisk: längre period som domstol
+  fastställer ([[../rules/rule-rr-013-003.md RULE-RR-013-003]])
+end note
+
+stop
+
+@enduml

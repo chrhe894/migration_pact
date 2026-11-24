@@ -114,7 +114,8 @@ Se även:
 | [Ansvar](domains/responsibility/README.md)                           | AMMR                       | Klar   |
 | [Solidaritet](domains/solidarity/README.md)                          | AMMR                       | Klar   |
 | [Kris](domains/crisis/README.md)                                     | Krishanteringsförordningen | Klar   |
-| [Återvändande vid gräns](domains/return-border-procedure/README.md)  | Återvändandeförordningen   | Klar   |
+| [Återvändande vid gräns](domains/return-border-procedure/README.md)  | Förordning (EU) 2024/1349  | Klar   |
+| [Återvändande](domains/return/README.md)                             | Förordning (EU) 2026/2280  | Ny (2026-11). Tillämpas i huvudsak från 17 okt 2027 |
 
 ---
 
@@ -152,6 +153,11 @@ Uppgifterna är hämtade ur källtexterna i `references/` och kontrollerade där
 | Eurodac | Förordning om inrättande av Eurodac | (EU) 2024/1358 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026. Art. 26 (tillfälligt skydd) från 12 juni 2029 | [Eurodac](references/legislation/eurodac.md) |
 | Kris | Förordning om krissituationer och force majeure-situationer | (EU) 2024/1359 | 14 maj 2024 | 22 maj 2024 | 1 juli 2026 | [Kris](references/legislation/crisis.md) |
 | Return | Förordning om ett gränsförfarande för återvändande | (EU) 2024/1349 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026 | [Return](references/legislation/return-border-procedure.md) |
+| Återvändandedirektivet | Direktiv om gemensamma normer och förfaranden för återvändande av tredjelandsmedborgare som vistas olagligt | 2008/115/EG | 16 december 2008 | 24 december 2008 | Gäller till 17 oktober 2027 (förordning 2026/2280 art. 49) | [2008/115](references/legislation/return-directive.md) |
+| ETD | Förordning om en europeisk resehandling för återvändande | (EU) 2016/1953 | 26 oktober 2016 | 17 november 2016 | 8 april 2017 (art. 9) | [ETD](references/legislation/european-travel-document.md) |
+| JRF | Rådets beslut om gemensamma flygningar för återsändande | 2004/573/EG | 29 april 2004 | 6 augusti 2004 | Dagen efter offentliggörandet (art. 8) | [JRF](references/legislation/joint-return-flights.md) |
+| Frontex | Förordning om den europeiska gräns- och kustbevakningen | (EU) 2019/1896 | 13 november 2019 | 14 november 2019 | Gäller (grundtexten; senare ändringar ej kontrollerade) | [Frontex](references/legislation/frontex.md) |
+| RR | Förordning om ett gemensamt system för återvändande av tredjelandsmedborgare vars vistelse är olaglig | (EU) 2026/2280 | 7 oktober 2026 | 15 oktober 2026 | Delvis 16 oktober 2026; i övrigt 17 oktober 2027 (art. 50). Ersätter direktiv 2008/115/EG från 17 oktober 2027 (art. 49) | [RR](references/legislation/return-regulation.md) |
 | AMMR-IMPL | Kommissionens genomförandeförordning om tillämpningsföreskrifter för AMMR | (EU) 2025/2055 | 2 oktober 2025 | 12 november 2025 | 12 juni 2026 | [AMMR-IMPL](references/legislation/ammr-implementing.md) |
 | 1182/71 | Rådets förordning om regler för bestämning av perioder, datum och frister | (EEG, Euratom) nr 1182/71 | 3 juni 1971 | — | Gäller | [1182/71](references/legislation/time-limits-regulation.md) (källtexten finns inte i repot) |
 
@@ -160,6 +166,7 @@ Uppgifterna är hämtade ur källtexterna i `references/` och kontrollerade där
 | Författning | Nummer | Utfärdad / beslutad | Ikraft | Lydelse i repot | Referenskort |
 |-------------|--------|---------------------|--------|-----------------|--------------|
 | Mottagandelag | SFS 2026:999 | 4 juni 2026 | 1 oktober 2026 (paktanpassning SFS 2026:1168: 2 oktober 2026) | t.o.m. SFS 2026:1630 | [Mottagandelagen](references/legislation/mottagandelagen.md) |
+| Utlänningslag | SFS 2005:716 | — | — | t.o.m. SFS 2026:1752 | [Utlänningslagen](references/legislation/utlanningslagen.md) |
 | Utlänningsdataförordning | SFS 2016:30 | 4 februari 2016 | 12 februari 2016 | t.o.m. SFS 2026:1362 | [Utlänningsdataförordningen](references/legislation/utlanningsdataforordningen.md) |
 | Arkivlag | SFS 1990:782 | 7 juni 1990 | 1 juli 1991 | t.o.m. SFS 2026:715 | [Arkivlagstiftning](references/legislation/arkivlagstiftning.md) |
 | Tryckfrihetsförordning | SFS 1949:105 | — | — | t.o.m. SFS 2022:1524 | [Arkivlagstiftning](references/legislation/arkivlagstiftning.md) |
@@ -182,11 +189,10 @@ Uppgifter som bygger på dessa är inte kontrollerade mot källtexten.
 | Rättsakt | Nummer | Används för |
 |----------|--------|-------------|
 | Mottagandedirektivet | (EU) 2024/1346 | Genomförs genom mottagandelagen |
+| Direktivet om stöd vid transitering via flyg | 2003/110/EG | Transit vid återsändande (beslut 2004/573/EG bilagan avsnitt 4) |
 | Skyddsgrundsförordningen | (EU) 2024/1347 | Skyddsgrunder, flyktingbegreppet |
-| Återvändandedirektivet | 2008/115/EG | Återvändande efter gränsförfarandet, frivillig avresa |
 | Direktivet om tillfälligt skydd | 2001/55/EG | Tillfälligt skydd i Eurodac |
 | Mottagandeutredningen | SOU 2024:68 | Bakgrund till mottagandelagen |
-| Utlänningslagen | SFS 2005:716 | Hänvisningar i nationella sidor |
 
 ---
 

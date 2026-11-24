@@ -1,0 +1,155 @@
+' ============================================================================
+' Diagram: Återvändandeförfarande
+'
+' Syfte: Visualiserar återvändandeförfarandet enligt förordning (EU) 2026/2280,
+'        från olaglig vistelse till frivilligt återvändande eller avlägsnande.
+'
+' Källa: Förordning (EU) 2026/2280 art. 2, 5–11, 18–20, 27–29, 34, 44
+'
+' Tillämpas: huvudsakligen från 17 oktober 2027 (art. 50.3). Fram till dess
+'            gäller direktiv 2008/115/EG.
+'
+' Status: Draft
+' ============================================================================
+
+@startuml return-procedure
+
+title Återvändandeförfarande (förordning (EU) 2026/2280)
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Olaglig vistelse konstateras;
+note right
+  T.ex. avslag på ansökan om
+  internationellt skydd eller
+  avslutad laglig vistelse
+  ([[../articles/rr-003.md ART-RR-003]] p. 2)
+end note
+
+if (Omfattas av förordningen?\n([[../rules/rule-rr-002-001.md RULE-RR-002-001]])) then (Nej)
+  :Andra regler gäller;
+  stop
+else (Ja)
+endif
+
+if (Giltigt tillstånd i\nannan medlemsstat?) then (Ja)
+  :[[../rules/rule-rr-006-003.md Bege sig omedelbart dit]];
+  note right
+    [[../rules/rule-rr-006-002.md RULE-RR-006-002]]
+    [[../rules/rule-rr-006-003.md RULE-RR-006-003]]
+    Inget beslut om återvändande
+  end note
+  stop
+else (Nej)
+endif
+
+if (Beslut från annan medlemsstat\nsom erkänns? ([[../articles/rr-007.md art. 7]])) then (Ja)
+  :Verkställ enligt PROC-RTN-003;
+  note right
+    [[../processes/recognition-of-return-decision.md PROC-RTN-003]]
+  end note
+else (Nej)
+  :[[../rules/rule-rr-005-001.md Beslut om återvändande]];
+  note right
+    [[../rules/rule-rr-005-001.md RULE-RR-005-001]]
+    Samtidigt med beslut om avslutad
+    laglig vistelse ([[../rules/rule-rr-005-011.md 5.12]])
+    Europeisk återvändandeorder i SIS
+    ([[../rules/rule-rr-005-012.md 5.14]])
+    ---
+    **Tidsfrist för avresa: högst 30 dagar**
+    eller omedelbar avresa
+    ([[../rules/rule-rr-005-002.md RULE-RR-005-002]])
+    Längre / förlängd / förkortad
+    ([[../rules/rule-rr-005-003.md 5.3]], [[../rules/rule-rr-005-004.md 5.4]], [[../rules/rule-rr-005-005.md 5.5]])
+    ---
+    Information om stöd senast nu
+    ([[../rules/rule-rr-044-002.md RULE-RR-044-002]])
+  end note
+endif
+
+:[[../rules/rule-rr-008-001.md Inreseförbud]] (obligatoriskt eller fakultativt);
+note right
+  Högst **10 år**, undantagsvis **20 år**
+  ([[../rules/rule-rr-008-006.md RULE-RR-008-006]])
+  Löper från avresedagen
+  ([[../rules/rule-rr-008-007.md RULE-RR-008-007]])
+end note
+
+if (Överklagande?) then (Ja)
+  :[[../rules/rule-rr-027-001.md Överklagande till domstol]];
+  note right
+    Frist högst **14 dagar** (30 enligt undantag)
+    från underrättelsen
+    ([[../rules/rule-rr-027-001.md RULE-RR-027-001]])
+    **Ingen automatisk suspensiv verkan.**
+    Domstolen kan skjuta upp avlägsnandet
+    ([[../rules/rule-rr-028-001.md RULE-RR-028-001]])
+  end note
+else (Nej)
+endif
+
+:[[../rules/rule-rr-018-001.md Skyldighet att samarbeta]]\noch [[../rules/rule-rr-020-001.md tillgänglighetsåtgärder]];
+note right
+  Risk för avvikande
+  ([[../rules/rule-rr-019-001.md RULE-RR-019-001]])
+  Konsekvenser vid bristande samarbete
+  ([[../rules/rule-rr-022-001.md RULE-RR-022-001]])
+end note
+
+if (Frivilligt återvändande\ninom tidsfristen?) then (Ja)
+  :Personen har lämnat territoriet;
+  note right
+    Inreseförbudet börjar löpa
+    ([[../rules/rule-rr-008-007.md 8.9]])
+  end note
+  stop
+else (Nej)
+endif
+
+if (Förvar nödvändigt?) then (Ja)
+  :Förvar enligt PROC-RTN-002;
+  note right
+    [[../processes/return-detention.md PROC-RTN-002]]
+  end note
+else (Nej)
+endif
+
+:[[../rules/rule-rr-034-001.md Återtagande]] (resehandling, återvändandeinsats);
+
+if (Hinder: non-refoulement eller\nuppskjutet beslut? ([[../rules/rule-rr-011-001.md 11.1]])) then (Ja)
+  :[[../rules/rule-rr-011-002.md Avlägsnandet skjuts upp]];
+  note right
+    Skriftlig bekräftelse
+    Omprövning när omständigheterna ändras
+    ([[../rules/rule-rr-011-002.md RULE-RR-011-002]])
+  end note
+  stop
+else (Nej)
+endif
+
+:[[../rules/rule-rr-010-001.md Avlägsnande]];
+note right
+  [[../rules/rule-rr-010-002.md Beslut om avlägsnande]]
+  [[../rules/rule-rr-010-003.md Non-refoulement]] före avlägsnande
+  [[../rules/rule-rr-012-001.md Oberoende övervakning]]
+end note
+
+stop
+
+@enduml

@@ -21,6 +21,12 @@ Svenska utredningar, propositioner och departementsskrivelser relaterade till EU
 |----------|-----|
 | Lagtext (rättsdatabaser, ändringar t.o.m. SFS 2026:1630) | [mottagandelagen_2026_999.mhtml](mottagandelagen_2026_999.mhtml) |
 
+## Utlänningslag (2005:716)
+
+| Dokument | Fil |
+|----------|-----|
+| Lagtext (rättsdatabaser, ändringar t.o.m. SFS 2026:1752) | [Utlänningslag (2005_716) - Regeringskansliets rättsdatabaser.mhtml](<Utlänningslag (2005_716) - Regeringskansliets rättsdatabaser.mhtml>) |
+
 ---
 
 > PDF-filerna öppnas direkt i webbläsaren via länkarna ovan.

@@ -126,7 +126,7 @@ Frister som blir **kortare** än den ordinarie fristen när ett villkor är uppf
 | FK14 | | Återvändande vid gräns | Återvändande vid gräns | Frivillig avresa (Return 4.5) | Beviljas bara på begäran, och inte vid risk för avvikande, avslag som uppenbart ogrundad i gränsförfarandet eller risk för allmän ordning eller säkerhet. Ger ingen rätt till inresa | Högst 15 dagar (återvändandedirektivet art. 7.1: 7–30 dagar) | | | | | | | Förkortning |
 
 > FK11 och FK12 är egna förfaranden med egna frister snarare än förkortningar av en löpande frist. De står med eftersom fristen blir kortare än vid ordinarie prövning.
-> FK14 jämför med återvändandedirektivet 2008/115/EG, som inte finns i `references/`. Uppgiften 7–30 dagar är inte kontrollerad mot direktivtexten.
+> FK14 jämför med återvändandedirektivet 2008/115/EG art. 7.1 (7–30 dagar, kontrollerat). Direktivet ersätts 17 oktober 2027 av förordning (EU) 2026/2280, där tidsfristen för avresa är högst 30 dagar men får vara längre i enskilda fall (art. 5.2–5.3).
 
 ## Domäner utan förlängning, frysning eller förkortning
 

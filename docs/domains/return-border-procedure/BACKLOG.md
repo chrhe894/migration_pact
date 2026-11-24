@@ -35,7 +35,7 @@ Domänen är granskad mot förordningstexten (2026-09), som finns i `references/
 ## Att göra
 
 - [ ] Krav för kris (art. 6–8) och fristberäkning (art. 11)
-- [ ] Koppling till återvändandedirektivet 2008/115/EG: vilka av direktivets artiklar gäller (art. 4.3), och vad de innebär. Direktivet finns inte i `references/`
+- [ ] Koppling till återvändandedirektivet 2008/115/EG: vilka av direktivets artiklar gäller (art. 4.3), och vad de innebär. Direktivet finns nu i `references/_text/OJ_L_2008348_SV_TXT.txt`. Från 17 oktober 2027 läses hänvisningarna enligt jämförelsetabellen i förordning (EU) 2026/2280
 - [ ] Nationell genomförande (Ds 2025:30): vem fattar beslut och var vistas personen
 
 ## Processer

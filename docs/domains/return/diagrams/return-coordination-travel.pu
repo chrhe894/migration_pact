@@ -1,0 +1,111 @@
+' ============================================================================
+' Diagram: Återvändandesamordning – resa
+'
+' Syfte: Planering och genomförande av återvändandeinsatsen (avlägsnande),
+'        från verkställbart beslut till överlämnande i destinationslandet.
+'
+' Källa: Förordning 2026/2280 art. 10–12, 17, 37, 39, 42; beslut 2004/573/EG;
+'        förordning 2019/1896 art. 50; UtlL 12 kap. 15, 21 §§
+'
+' Status: Draft
+' ============================================================================
+
+@startuml return-coordination-travel
+
+title Återvändandesamordning – resa
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+:Verkställbart beslut och resehandling finns;
+note right
+  Snarast möjligt efter fristen
+  ([[../rules/rule-utl-12-015-001.md UtlL 12:15]])
+end note
+
+if (Hinder? Uppskjutande, inhibition,\nnon-refoulement) then (Ja)
+  :[[../rules/rule-rr-011-001.md Skjut upp]];
+  stop
+else (Nej)
+endif
+
+if (Ensamkommande barn?) then (Ja)
+  :[[../rules/rule-rr-017-002.md Försäkran om mottagande]];
+else (Nej)
+endif
+
+:Hälsa och flygduglighet;
+note right
+  Sjukjournal vid kända hälsoproblem
+  ([[../rules/rule-jrf-007-001.md riktlinjerna 1.1.2]])
+  Hälsouppgifter ([[../rules/rule-rr-039-001.md art. 39]])
+end note
+
+switch (Transportsätt?)
+case (Reguljärt flyg)
+  :Bokning med ledsagare\neller utan;
+case (Gemensam flygning)
+  :[[../rules/rule-jrf-004-001.md Organisera]] eller [[../rules/rule-jrf-005-001.md delta]];
+case (Frontex-insats)
+  :[[../rules/rule-frx-050-001.md Anmäl till Frontex]];
+endswitch
+
+:[[../rules/rule-jrf-006-001.md Handlingar, viseringar, underrättelser]];
+note right
+  Resehandling och transitvisering för
+  återvändande och ledsagare
+  Underrätta flygbolag, transit- och
+  destinationsland **i god tid**
+  Uppgifter till flygbolag ([[../rules/rule-rr-037-001.md art. 37]])
+  Transit via annan MS ([[../rules/rule-rr-042-001.md 42.1 a–b]])
+end note
+
+:Ledsagare;
+note right
+  Antal efter riskanalys, bör minst
+  motsvara antalet återvändande
+  ([[../rules/rule-jrf-007-001.md 1.2]])
+end note
+
+:Avresedag;
+note right
+  På flygplatsen minst **3 timmar** före avgång
+  SIS-kontroll ([[../rules/rule-frx-050-001.md Frontex 50.2]])
+  Tvång proportionerligt, **inga lugnande medel**
+  ([[../rules/rule-rr-010-004.md 10]], [[../rules/rule-jrf-007-001.md 3.2]])
+  Övervakning ([[../rules/rule-rr-012-001.md art. 12]])
+end note
+
+if (Genomförd?) then (Ja)
+  :Överlämnande utan handbojor;
+  :[[../rules/rule-utl-12-021-001.md Registrera avresedatum]];
+  note right
+    Beslutet verkställt (UtlL 12:21)
+    Inreseförbudet börjar löpa
+    ([[../rules/rule-rr-008-007.md 8.9]])
+  end note
+  stop
+else (Nej)
+  :Återresa och nytt försök;
+  note right
+    Varje stat ansvarar för sina
+    återvändande ([[../rules/rule-jrf-007-001.md riktlinjerna 6]])
+  end note
+  stop
+endif
+
+@enduml
