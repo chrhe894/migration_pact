@@ -71,8 +71,18 @@ note right
   Underrätta flygbolag, transit- och
   destinationsland **i god tid**
   Uppgifter till flygbolag ([[../rules/rule-rr-037-001.md art. 37]])
-  Transit via annan MS ([[../rules/rule-rr-042-001.md 42.1 a–b]])
 end note
+
+if (Direktflyg möjligt?\n([[../rules/rule-tra-003-001.md 2003/110 art. 3]])) then (Nej)
+  :[[../rules/rule-tra-004-001.md Ansök om transitering]];
+  note right
+    Skriftligt, senast **2 dagar** före
+    Svar inom **2 dagar** (+48 h)
+    Transit högst **24 timmar** (+48 h)
+    ([[../rules/rule-tra-005-001.md RULE-TRA-005-001]])
+  end note
+else (Ja)
+endif
 
 :Ledsagare;
 note right

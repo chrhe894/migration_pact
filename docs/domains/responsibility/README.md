@@ -34,6 +34,8 @@ Ansvarsbestämningen är central i det gemensamma europeiska asylsystemet — de
 - [AMMR artikel 33](articles/ammr-033.md) — Inresa (irreguljär gränspassage)
 - [AMMR artikel 35](articles/ammr-035.md) — Diskretionär bedömning
 
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Processer

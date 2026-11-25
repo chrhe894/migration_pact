@@ -16,6 +16,8 @@ Denna shared-modul dokumenterar regler och begrepp kring identifiering och hante
 
 Kraven och förmågorna kontrollerades mot förordningstexten 2026-09 och fick delvis nya ID:n, se [kravlistan](requirements/README.md). Prioritering av sårbara personer och barn beskrivs i [Prioritet i handläggningen](../priority/README.md).
 
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Begrepp

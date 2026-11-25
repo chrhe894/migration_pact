@@ -22,43 +22,43 @@ Eurodac är ett informationssystem för jämförelse av biometriska uppgifter oc
 
 ## Primära rättskällor
 
-| Artikel | Rubrik | Kapitel |
-|---------|--------|---------|
-| [1](articles/eur-001.md) | Syftet med Eurodac | I Allmänna bestämmelser |
-| [2](articles/eur-002.md) | Definitioner | I |
-| [13](articles/eur-013.md) | Skyldighet att ta biometriska uppgifter | I |
-| [14](articles/eur-014.md) | Särskilda bestämmelser rörande underåriga | I |
-| [15](articles/eur-015.md) | Insamling och överföring — sökande av internationellt skydd | II |
-| [16](articles/eur-016.md) | Information om den registrerades status (ansvarig MS, ankomst, utresa) | II |
-| [17](articles/eur-017.md) | Registrering av uppgifter — sökande (inkl. säkerhetsflaggning 17.2 i) | II |
-| [18](articles/eur-018.md) | Insamling och överföring — inreseförfarande enligt unionsramen för vidarebosättning | III avsnitt 1 |
-| [19](articles/eur-019.md) | Registrering av uppgifter — unionsramen | III avsnitt 1 |
-| [20](articles/eur-020.md) | Insamling och överföring — nationellt vidarebosättningsprogram | III avsnitt 2 |
-| [21](articles/eur-021.md) | Registrering av uppgifter — nationellt program | III avsnitt 2 |
-| [22](articles/eur-022.md) | Insamling och överföring — irreguljär passage av yttre gräns | IV |
-| [23](articles/eur-023.md) | Insamling och överföring — olaglig vistelse | V |
-| [24](articles/eur-024.md) | Insamling och överföring — landsättning efter sök och räddning | VI |
-| [25](articles/eur-025.md) | Information om omfördelningsstatus | VII |
-| [26](articles/eur-026.md) | Insamling och överföring — tillfälligt skydd | VIII |
-| [27](articles/eur-027.md) | Jämförelse av biometriska uppgifter | IX |
-| [28](articles/eur-028.md) | Jämförelse av uppgifter om ansiktsbild | IX |
-| [29](articles/eur-029.md) | Lagring av uppgifter | X |
-| [30](articles/eur-030.md) | Radering av uppgifter i förtid (medborgarskap) | X |
-| [31](articles/eur-031.md) | Markering av uppgifter (skydd, uppehållstillstånd) | X |
-| [32](articles/eur-032.md) | Förfarande för jämförelse — brottsbekämpning | XI |
-| [33](articles/eur-033.md) | Villkor för utsedda myndigheters åtkomst | XI |
-| [34](articles/eur-034.md) | Villkor för Europols åtkomst | XI |
-| [35](articles/eur-035.md) | Kommunikation inom brottsbekämpande förfarande | XI |
-| [36](articles/eur-036.md) | Ansvar i frågor som rör uppgiftsbehandling | XII |
-| [37](articles/eur-037.md) | Överföring (dataformat, referensnummer) | XII |
-| [38](articles/eur-038.md) | Genomförande av jämförelser och överföring av resultat | XII |
-| [39](articles/eur-039.md) | Kommunikation mellan medlemsstaterna och Eurodac | XII |
-| [40](articles/eur-040.md) | Åtkomst till och rättelse eller radering av uppgifter | XII |
-| [41](articles/eur-041.md) | Register | XII |
-| [42](articles/eur-042.md) | Rätt till information | XII |
+
+- [Eurodac artikel 1](articles/eur-001.md) — Syftet med Eurodac
+- [Eurodac artikel 2](articles/eur-002.md) — Definitioner
+- [Eurodac artikel 13](articles/eur-013.md) — Skyldighet att ta biometriska uppgifter
+- [Eurodac artikel 14](articles/eur-014.md) — Särskilda bestämmelser rörande underåriga
+- [Eurodac artikel 15](articles/eur-015.md) — Insamling och överföring — sökande av internationellt skydd
+- [Eurodac artikel 16](articles/eur-016.md) — Information om den registrerades status (ansvarig MS, ankomst, utresa)
+- [Eurodac artikel 17](articles/eur-017.md) — Registrering av uppgifter — sökande (inkl. säkerhetsflaggning 17.2 i)
+- [Eurodac artikel 18](articles/eur-018.md) — Insamling och överföring — inreseförfarande enligt unionsramen för vidarebosättning
+- [Eurodac artikel 19](articles/eur-019.md) — Registrering av uppgifter — unionsramen
+- [Eurodac artikel 20](articles/eur-020.md) — Insamling och överföring — nationellt vidarebosättningsprogram
+- [Eurodac artikel 21](articles/eur-021.md) — Registrering av uppgifter — nationellt program
+- [Eurodac artikel 22](articles/eur-022.md) — Insamling och överföring — irreguljär passage av yttre gräns
+- [Eurodac artikel 23](articles/eur-023.md) — Insamling och överföring — olaglig vistelse
+- [Eurodac artikel 24](articles/eur-024.md) — Insamling och överföring — landsättning efter sök och räddning
+- [Eurodac artikel 25](articles/eur-025.md) — Information om omfördelningsstatus
+- [Eurodac artikel 26](articles/eur-026.md) — Insamling och överföring — tillfälligt skydd
+- [Eurodac artikel 27](articles/eur-027.md) — Jämförelse av biometriska uppgifter
+- [Eurodac artikel 28](articles/eur-028.md) — Jämförelse av uppgifter om ansiktsbild
+- [Eurodac artikel 29](articles/eur-029.md) — Lagring av uppgifter
+- [Eurodac artikel 30](articles/eur-030.md) — Radering av uppgifter i förtid (medborgarskap)
+- [Eurodac artikel 31](articles/eur-031.md) — Markering av uppgifter (skydd, uppehållstillstånd)
+- [Eurodac artikel 32](articles/eur-032.md) — Förfarande för jämförelse — brottsbekämpning
+- [Eurodac artikel 33](articles/eur-033.md) — Villkor för utsedda myndigheters åtkomst
+- [Eurodac artikel 34](articles/eur-034.md) — Villkor för Europols åtkomst
+- [Eurodac artikel 35](articles/eur-035.md) — Kommunikation inom brottsbekämpande förfarande
+- [Eurodac artikel 36](articles/eur-036.md) — Ansvar i frågor som rör uppgiftsbehandling
+- [Eurodac artikel 37](articles/eur-037.md) — Överföring (dataformat, referensnummer)
+- [Eurodac artikel 38](articles/eur-038.md) — Genomförande av jämförelser och överföring av resultat
+- [Eurodac artikel 39](articles/eur-039.md) — Kommunikation mellan medlemsstaterna och Eurodac
+- [Eurodac artikel 40](articles/eur-040.md) — Åtkomst till och rättelse eller radering av uppgifter
+- [Eurodac artikel 41](articles/eur-041.md) — Register
+- [Eurodac artikel 42](articles/eur-042.md) — Rätt till information
+
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
 
 Artiklar utan eget kort (3–12, 43–63, bland annat datasäkerhet art. 48, tredjeland art. 49–50 och skadestånd art. 52) finns i [referenskortet för Eurodacförordningen](../../references/legislation/eurodac.md).
-
 > **Rättelse (granskning 2026-09):** flera artikelkort och regler i domänen var numrerade fel och beskrev en annan artikel än filnamnet. Ett par innehöll också uppgifter som inte står i förordningen. Alla kort och regler är nu kontrollerade mot förordningstexten. Där innehållet ändrats finns en rättelsenot på respektive sida.
 
 ---

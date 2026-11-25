@@ -155,6 +155,8 @@ Uppgifterna är hämtade ur källtexterna i `references/` och kontrollerade där
 | Return | Förordning om ett gränsförfarande för återvändande | (EU) 2024/1349 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026 | [Return](references/legislation/return-border-procedure.md) |
 | Återvändandedirektivet | Direktiv om gemensamma normer och förfaranden för återvändande av tredjelandsmedborgare som vistas olagligt | 2008/115/EG | 16 december 2008 | 24 december 2008 | Gäller till 17 oktober 2027 (förordning 2026/2280 art. 49) | [2008/115](references/legislation/return-directive.md) |
 | ETD | Förordning om en europeisk resehandling för återvändande | (EU) 2016/1953 | 26 oktober 2016 | 17 november 2016 | 8 april 2017 (art. 9) | [ETD](references/legislation/european-travel-document.md) |
+| 862/2007 | Förordning om gemenskapsstatistik över migration och internationellt skydd, ändrad genom (EU) 2020/851 | (EG) nr 862/2007; ändring (EU) 2020/851 | 11 juli 2007; ändring 18 juni 2020 | — | Asylstatistik enligt ändringen från januari 2021 (art. 4.1) | [Statistikförordningen](references/legislation/eurostat-migration-statistics.md) (endast ändringsförordningen i repot) |
+| TRA | Rådets direktiv om bistånd vid transitering i samband med återsändande med flyg | 2003/110/EG | 25 november 2003 | 6 december 2003 | Samma dag som offentliggörandet (art. 12) | [TRA](references/legislation/transit-by-air.md) |
 | JRF | Rådets beslut om gemensamma flygningar för återsändande | 2004/573/EG | 29 april 2004 | 6 augusti 2004 | Dagen efter offentliggörandet (art. 8) | [JRF](references/legislation/joint-return-flights.md) |
 | Frontex | Förordning om den europeiska gräns- och kustbevakningen | (EU) 2019/1896 | 13 november 2019 | 14 november 2019 | Gäller (grundtexten; senare ändringar ej kontrollerade) | [Frontex](references/legislation/frontex.md) |
 | RR | Förordning om ett gemensamt system för återvändande av tredjelandsmedborgare vars vistelse är olaglig | (EU) 2026/2280 | 7 oktober 2026 | 15 oktober 2026 | Delvis 16 oktober 2026; i övrigt 17 oktober 2027 (art. 50). Ersätter direktiv 2008/115/EG från 17 oktober 2027 (art. 49) | [RR](references/legislation/return-regulation.md) |
@@ -189,7 +191,6 @@ Uppgifter som bygger på dessa är inte kontrollerade mot källtexten.
 | Rättsakt | Nummer | Används för |
 |----------|--------|-------------|
 | Mottagandedirektivet | (EU) 2024/1346 | Genomförs genom mottagandelagen |
-| Direktivet om stöd vid transitering via flyg | 2003/110/EG | Transit vid återsändande (beslut 2004/573/EG bilagan avsnitt 4) |
 | Skyddsgrundsförordningen | (EU) 2024/1347 | Skyddsgrunder, flyktingbegreppet |
 | Direktivet om tillfälligt skydd | 2001/55/EG | Tillfälligt skydd i Eurodac |
 | Mottagandeutredningen | SOU 2024:68 | Bakgrund till mottagandelagen |

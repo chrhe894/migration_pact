@@ -6,6 +6,8 @@ Denna shared-modul dokumenterar de statistiska datapunkter och beräkningar som 
 
 Statistik är inte en rättsakt i sig utan en stödfunktion som påverkar tillämpningen av flera domäner.
 
+Artikelkort (AMMR art. 9–10): [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Datapunkter som styr förfaranden
@@ -76,6 +78,23 @@ Statistik är inte en rättsakt i sig utan en stödfunktion som påverkar tillä
 - [AMMR artikel 9](articles/ammr-009.md) — Den årliga europeiska asyl- och migrationsrapporten
 - [AMMR artikel 10](articles/ammr-010.md) — Information för att bedöma migrationstryck
 - [APR artikel 49](../../domains/border-procedure/articles/apr-049.md) — Medlemsstats underrättelse om kapacitet
+- [AMMR artikel 80](../../references/legislation/ammr.md) — Statistik till Eurostat om tillämpningen av AMMR (förordning 862/2007 art. 4.4)
+
+### Asylstatistik till Eurostat (förordning 862/2007 art. 4.1)
+
+Sverige ska varje månad lämna asylstatistik till Eurostat, i lydelse enligt förordning (EU) 2020/851 ([referenskort](../../references/legislation/eurostat-migration-statistics.md)):
+
+| Led | Vad som räknas | Period och frist |
+|-----|----------------|------------------|
+| d | **Personer** som ansöker **för första gången** (inkl. familjemedlemmar) | Månad, inom två månader |
+| e | Personer vars ansökan behandlats i **påskyndat förfarande** (nu APR art. 42.1) | Månad, inom två månader |
+| f | **Personer** som gjort en **efterföljande ansökan** (nu APR art. 55), inkl. familjemedlemmar | Månad, inom två månader |
+| c | Återkallade ansökningar, uttryckligt respektive implicit | Månad, inom två månader |
+| g | Personer med materiella mottagningsvillkor vid periodens slut | År, inom sex månader |
+
+Led a–f delas upp efter ålder, kön, medborgarskap och ensamkommande barn.
+
+**Konsekvens för systemet:** varje ansökan måste kunna klassas som förstagångsansökan eller efterföljande ansökan, och personer räknas **en gång per månad**. Förordningen kräver däremot **inte** att antalet efterföljande ansökningar per person redovisas.
 
 ---
 

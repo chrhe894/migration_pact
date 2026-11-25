@@ -108,7 +108,7 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 | Tidsfrist | Ordinarie | Vid kris | Regel |
 |-----------|-----------|----------|-------|
 | Registrering | 5/15 dagar | 4 veckor | [RULE-CRI-010-001](../../domains/crisis/rules/rule-cri-010-001.md) |
-| Gränsförfarande bifallsgräns | <20% | <50% | [RULE-CRI-011-001](../../domains/crisis/rules/rule-cri-011-001.md) |
+| Gränsförfarande, bifallsandel som grund (inte en tidsfrist) | Högst 20 % (APR 42.1 j) | Obligatoriskt gränsförfarande: tröskeln får sänkas till 5 % (kris 11.3). Prövning i sak i gränsförfarandet får dessutom ske vid 50 % eller lägre (kris 11.4) | [RULE-CRI-011-001](../../domains/crisis/rules/rule-cri-011-001.md) |
 | Gränsförfarande varaktighet | 12 veckor | 18 veckor | [RULE-CRI-011-001](../../domains/crisis/rules/rule-cri-011-001.md) |
 | Framställan om övertagande | 2 månader | 4 månader | [RULE-CRI-012-001](../../domains/crisis/rules/rule-cri-012-001.md) |
 | Svar på framställan | 1 månad | 2 månader | [RULE-CRI-012-001](../../domains/crisis/rules/rule-cri-012-001.md) |
@@ -116,11 +116,54 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 
 ---
 
+## Förlängning vid högt tryck — vem beslutar?
+
+Flera frister förlängs när många personer kommer samtidigt. Det finns **tre nivåer** för vem som beslutar. Ingen av bestämmelserna avgränsar förlängningen till vissa orter: villkoren gäller hur många som söker "inom samma tidsperiod", inte var.
+
+### Nivå 1 — förordningen eller myndigheten, utan EU-beslut
+
+Två varianter: förlängningen **gäller direkt** när villkoret är uppfyllt ("ska"), eller myndigheten eller medlemsstaten **beslutar** ("får"). I vissa fall ska kommissionen underrättas, men den godkänner inte.
+
+| Förlängning | Villkor | Variant | Källa |
+|-------------|---------|---------|-------|
+| Registrering 5 → 15 dagar | Oproportionellt stort antal ansökningar gör registrering i tid omöjlig | Gäller direkt | [APR 27.5](../../domains/registration/rules/rule-apr-027-004.md) |
+| Bokad tid för inlämnande 21 dagar → 2 månader | Oproportionellt stort antal gör det omöjligt att boka tid inom 21 dagar | Gäller direkt | [APR 28.5](../../domains/registration/rules/rule-apr-028-004.md) |
+| Upptagandeprövning +2 månader, prövning i sak +6 månader | Oproportionellt stort antal, komplexa omständigheter eller sökandens underlåtenhet | Beslutande myndighet får förlänga | [APR 35.2, 35.5](../../domains/asylum-procedure/articles/apr-035.md) |
+| Företrädare för ensamkommande barn +10 arbetsdagar | Oproportionellt stort antal ansökningar från ensamkommande barn eller andra exceptionella situationer | Behörig myndighet | APR 23.3, AMMR 23.2 b |
+| Eurodac efter sök och räddning +48 timmar | Plötslig tillströmning | Medlemsstaten anmäler till kommissionen och övriga medlemsstater; högst en månad | [Eurodac 24.6](../../domains/eurodac/articles/eur-024.md) |
+| Besked om omfördelning 1 → 2 veckor | Särskilt komplicerad granskning eller många ärenden samtidigt | Omfördelningsmedlemsstaten | [AMMR 67.9](../../domains/solidarity/articles/ammr-067.md) |
+| Återvändande: överklagande, prövning av förvar, informationsutbyte (från 17 okt 2027) | Exceptionellt många som ska återvända ger oförutsedd, stor belastning på förvar, personal eller domstolar | Medlemsstaten, så länge situationen består; underrättar kommissionen | [RR 45](../../domains/return/articles/rr-045.md) |
+
+Texten anger inte om bedömningen ska göras för hela landet eller per enhet, och Ds 2025:30 gör inget nationellt val. Vem som bedömer och hur det dokumenteras är en organisatorisk fråga.
+
+### Nivå 2 — EU-beslutat krisläge
+
+Undantagen i krisförordningen art. 10–13 (registrering, gränsförfarande, ansvar) och gränsförfarandet för återvändande (2024/1349 art. 6) kräver beslut på EU-nivå:
+
+| Steg | Vem | Frist | Källa |
+|------|-----|-------|-------|
+| Motiverad begäran | Medlemsstaten | — | [Kris art. 2](../../domains/crisis/README.md) |
+| Fastställande av kris eller force majeure | Kommissionen | Senast 2 veckor från begäran | Kris art. 3 |
+| Godkännande av undantagen | Rådet | Inom 2 veckor från kommissionens förslag | Kris art. 4.3 |
+| Varaktighet | — | 3 månader, kan förlängas en gång med 3 månader; nytt beslut möjligt; **högst 12 månader** totalt | Kris art. 5 |
+
+Krisen får ha sitt ursprung lokalt eller regionalt (kris art. 1.4 a), men det är **medlemsstaten** som ansöker och får godkännande. Förordningen har ingen form för ett beslut som bara gäller en del av territoriet. Fristerna i krisläge finns i tabellen [Vid kris](#vid-kris-undantag).
+
+### Nivå 3 — nationellt beslut
+
+Regeringen, eller den myndighet regeringen bestämmer, får vid **särskilt omfattande tillströmning** föreskriva undantag i mottagandet: länsbegränsningen, närvarokontrollen, anmälningsskyldigheten och boendevillkoret för dagersättning ([mottagandelagen 11 kap. 1 §](national/mottagandelag-2026-999.md#undantag-vid-omfattande-tillstromning-11-kap-1)). Det är ett svenskt beslut utan EU-inblandning.
+
+### Inte samma sak
+
+**Migrationstryck enligt AMMR art. 11** bedöms årligen av kommissionen för hela medlemsstater. Det styr solidariteten och förlänger inga tidsfrister.
+
+---
+
 ## Nyckelprinciper
 
 1. **Fristerna är bindande** — om en myndighet inte agerar inom tidsfristen inträder en rättslig konsekvens (ansvar övergår, person friges, förfarande avslutas).
 2. **Suspensiv verkan fryser frister** — vid överklagande med beviljad suspensiv verkan börjar överföringsfristen om från det slutliga beslutet om överklagandet. Se [Frysning och förlängning](concepts/frysning-och-forlangning.md).
-3. **Massinflöde/kris förlänger** — vid oproportionellt inflöde eller krissituation kan tidsfristerna förlängas, men aldrig obegränsat.
+3. **Högt tryck och kris förlänger** — vid oproportionellt inflöde eller krissituation kan tidsfristerna förlängas, men aldrig obegränsat. Vem som beslutar beror på nivå, se [Förlängning vid högt tryck](#forlangning-vid-hogt-tryck-vem-beslutar).
 4. **Förvar kräver kortare frister** — vid frihetsberövande ställs högre krav på skyndsamhet.
 
 ---

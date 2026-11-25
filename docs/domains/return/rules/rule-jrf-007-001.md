@@ -47,7 +47,7 @@ Avlägsnande med flyg, särskilt gemensam flygning.
 - **Vård och tolk:** **minst en läkare** ombord vid gemensam flygning. Bara läkaren får ge medicin. Personen ska kunna tala med läkare eller ledsagare via tolk (3.3).
 - **Ankomst:** överlämnande till destinationslandets myndigheter **utan handbojor eller andra tvångsmedel**, utanför flygplanet. Konsulatpersonal eller sambandsmän får underlätta överlämnandet (5).
 - **Misslyckad insats:** varje deltagande stat ansvarar för och bekostar återresan för sina återvändande (6).
-- Transitering i en medlemsstat följer direktiv 2003/110/EG (4), som inte finns i repot.
+- Transitering i en medlemsstat följer direktiv 2003/110/EG (4), se [RULE-TRA-004-001](rule-tra-004-001.md) och [RULE-TRA-005-001](rule-tra-005-001.md).
 
 ---
 

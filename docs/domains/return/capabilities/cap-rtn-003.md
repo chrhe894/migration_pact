@@ -52,6 +52,11 @@ Från andra rättsakter:
 - [RULE-JRF-007-001](../rules/rule-jrf-007-001.md) — Riktlinjer för säkerhet vid återsändande med flyg
 - [RULE-FRX-050-001](../rules/rule-frx-050-001.md) — Frontex återvändandeinsatser
 - [RULE-FRX-053-001](../rules/rule-frx-053-001.md) — Frontex återvändandeinterventioner (fem arbetsdagar)
+- [RULE-TRA-003-001](../rules/rule-tra-003-001.md) — Direktflyg först, villkor för transitering
+- [RULE-TRA-004-001](../rules/rule-tra-004-001.md) — Ansökan om transitering, två dagar
+- [RULE-TRA-005-001](../rules/rule-tra-005-001.md) — Transitering inom 24 timmar
+- [RULE-TRA-006-001](../rules/rule-tra-006-001.md) — Återtagande när transiteringen misslyckas
+- [RULE-TRA-007-001](../rules/rule-tra-007-001.md) — Ledsagarnas befogenheter vid transitering
 - [RULE-UTL-12-014-001](../rules/rule-utl-12-014-001.md) — Verkställande myndighet (UtlL 12:14)
 - [RULE-UTL-12-015-001](../rules/rule-utl-12-015-001.md) — När beslutet ska verkställas (UtlL 12:15)
 - [RULE-UTL-12-021-001](../rules/rule-utl-12-021-001.md) — Verkställt när personen lämnat landet (UtlL 12:21)

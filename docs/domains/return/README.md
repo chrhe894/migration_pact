@@ -23,58 +23,29 @@ Domänen omfattar beslut om återvändande och tidsfrist för avresa, ömsesidig
 
 ## Primära rättskällor
 
-| Artikel | Rubrik | Tillämpas från |
-|---------|--------|----------------|
-| [1](articles/rr-001.md) | Innehåll | 16 okt 2026 |
-| [2](articles/rr-002.md) | Tillämpningsområde | 2.1–2.3: 16 okt 2026; övrigt 17 okt 2027 |
-| [3](articles/rr-003.md) | Definitioner | 3.3: 16 okt 2026; övrigt 17 okt 2027 |
-| [4](articles/rr-004.md) | Grundläggande rättigheter | 16 okt 2026 |
-| [5](articles/rr-005.md) | Beslut om återvändande | 5.13, 5.15: 16 okt 2026; övrigt 17 okt 2027 |
-| [6](articles/rr-006.md) | Undantag från skyldigheten att utfärda ett beslut om återvändande | 17 okt 2027 |
-| [7](articles/rr-007.md) | Erkännande och verkställighet av beslut om återvändande som utfärdats av en annan medlemsstat | 17 okt 2027 |
-| [8](articles/rr-008.md) | Utfärdande av ett inreseförbud | 17 okt 2027 |
-| [9](articles/rr-009.md) | Återkallande eller tillfälligt upphävande av ett inreseförbud eller förkortning av dess varaktighet | 17 okt 2027 |
-| [10](articles/rr-010.md) | Avlägsnande | 17 okt 2027 |
-| [11](articles/rr-011.md) | Villkor för att skjuta upp avlägsnandet | 17 okt 2027 |
-| [12](articles/rr-012.md) | Övervakning av avlägsnande | 17 okt 2027 |
-| [13](articles/rr-013.md) | Återvändande av tredjelandsmedborgare som utgör säkerhetsrisker | 17 okt 2027 |
-| [14](articles/rr-014.md) | Återvändande till ett tredjeland med vilket det finns ett avtal eller en överenskommelse | 16 okt 2026 |
-| [15](articles/rr-015.md) | Barnets bästa | 16 okt 2026 |
-| [16](articles/rr-016.md) | Åldersbedömning av underåriga | 16 okt 2026 |
-| [17](articles/rr-017.md) | Ensamkommande barns återvändande | 17 okt 2027 |
-| [18](articles/rr-018.md) | Skyldighet att samarbeta | 17 okt 2027 |
-| [19](articles/rr-019.md) | Risk för avvikande | 17 okt 2027 |
-| [20](articles/rr-020.md) | Tillgänglighet för återvändandeprocessen | 17 okt 2027 |
-| [21](articles/rr-021.md) | Utredningsåtgärder | 17 okt 2027 |
-| [22](articles/rr-022.md) | Konsekvenser vid bristande efterlevnad av skyldigheten att samarbeta | 17 okt 2027 |
-| [23](articles/rr-023.md) | Alternativ till förvar | 17 okt 2027 |
-| [24](articles/rr-024.md) | Rätt till information | 17 okt 2027 |
-| [25](articles/rr-025.md) | Rättsligt bistånd och biträde | 17 okt 2027 |
-| [26](articles/rr-026.md) | Rätten till ett effektivt rättsmedel | 17 okt 2027 |
-| [27](articles/rr-027.md) | Överklagande till behörig domstol | 17 okt 2027 |
-| [28](articles/rr-028.md) | Suspensiv verkan | 17 okt 2027 |
-| [29](articles/rr-029.md) | Skäl för förvar | 17 okt 2027 |
-| [30](articles/rr-030.md) | Förvarsperiod | 17 okt 2027 |
-| [31](articles/rr-031.md) | Prövning av beslut om förvar | 17 okt 2027 |
-| [32](articles/rr-032.md) | Förhållanden i samband med förvar | 17 okt 2027 |
-| [33](articles/rr-033.md) | Förhållanden i samband med förvar av ensamkommande barn och familjer med underåriga | 17 okt 2027 |
-| [34](articles/rr-034.md) | Återtagande | 16 okt 2026 |
-| [35](articles/rr-035.md) | Extern dimension och samarbete med tredjeländer | 16 okt 2026 |
-| [36](articles/rr-036.md) | Informationsdelning mellan medlemsstaterna | 17 okt 2027 |
-| [37](articles/rr-037.md) | Överföring av uppgifter till tredjeländer gällande tredjelandsmedborgare för återvändande, återtagande och återintegrering | 17 okt 2027 |
-| [38](articles/rr-038.md) | Överföring av uppgifter till tredjeländer gällande fällande domar i brottmål mot tredjelandsmedborgare för återvändande, återtagande och återintegrering | 17 okt 2027 |
-| [39](articles/rr-039.md) | Överföring till tredjeländer av tredjelandsmedborgares hälsouppgifter i syfte att genomföra återvändandeinsatser och återintegrering | 17 okt 2027 |
-| [40](articles/rr-040.md) | Komponenter i ett gemensamt system för återvändande | 17 okt 2027 |
-| [41](articles/rr-041.md) | Behöriga myndigheter | 16 okt 2026 |
-| [42](articles/rr-042.md) | Samarbete mellan medlemsstaterna | 17 okt 2027 |
-| [43](articles/rr-043.md) | Stöd från Frontex | 16 okt 2026 |
-| [44](articles/rr-044.md) | Stöd till återvändande och återintegrering | 17 okt 2027 |
-| [45](articles/rr-045.md) | Krissituationer | 17 okt 2027 |
-| [46](articles/rr-046.md) | Statistik | 17 okt 2027 |
-| [47](articles/rr-047.md) | Kommittéförfarande | 16 okt 2026 |
-| [48](articles/rr-048.md) | Rapportering | 16 okt 2026 |
-| [49](articles/rr-049.md) | Upphävande | 16 okt 2026 |
-| [50](articles/rr-050.md) | Ikraftträdande och tillämpning | Ikraft 16 okt 2026 (anger datumen) |
+
+- [Återvändandeförordningen artikel 3](articles/rr-003.md) — Definitioner
+- [Återvändandeförordningen artikel 5](articles/rr-005.md) — Beslut om återvändande (tidsfrist för avresa, europeisk återvändandeorder)
+- [Återvändandeförordningen artikel 6](articles/rr-006.md) — Undantag från skyldigheten att utfärda beslut
+- [Återvändandeförordningen artikel 7](articles/rr-007.md) — Erkännande av annan medlemsstats beslut
+- [Återvändandeförordningen artikel 8](articles/rr-008.md) — Inreseförbud
+- [Återvändandeförordningen artikel 10](articles/rr-010.md) — Avlägsnande
+- [Återvändandeförordningen artikel 11](articles/rr-011.md) — Uppskjutande av avlägsnande
+- [Återvändandeförordningen artikel 14](articles/rr-014.md) — Återvändande till tredjeland med avtal
+- [Återvändandeförordningen artikel 17](articles/rr-017.md) — Ensamkommande barn
+- [Återvändandeförordningen artikel 18](articles/rr-018.md) — Skyldighet att samarbeta
+- [Återvändandeförordningen artikel 19](articles/rr-019.md) — Risk för avvikande
+- [Återvändandeförordningen artikel 27](articles/rr-027.md) — Överklagande
+- [Återvändandeförordningen artikel 28](articles/rr-028.md) — Suspensiv verkan
+- [Återvändandeförordningen artikel 29](articles/rr-029.md) — Skäl för förvar
+- [Återvändandeförordningen artikel 30](articles/rr-030.md) — Förvarsperiod
+- [Återvändandeförordningen artikel 31](articles/rr-031.md) — Prövning av förvar
+- [Återvändandeförordningen artikel 34](articles/rr-034.md) — Återtagande
+- [Återvändandeförordningen artikel 45](articles/rr-045.md) — Krissituationer
+- [Återvändandeförordningen artikel 49](articles/rr-049.md) — Upphävande
+- [Återvändandeförordningen artikel 50](articles/rr-050.md) — Ikraftträdande och tillämpning
+
+Alla artiklar, med tillämpningsdatum: [Översikt över artikelkorten](articles/README.md)
 
 Bilagan innehåller en jämförelsetabell mot direktiven 2001/40/EG och 2008/115/EG och beslut 2004/191/EG. Förordningstexten finns i `references/_text/OJ_L_202602280_SV_TXT.txt`, och direktivet i `references/_text/OJ_L_2008348_SV_TXT.txt`. Se även [referenskortet](../../references/legislation/return-regulation.md).
 
@@ -91,7 +62,7 @@ Bilagan innehåller en jämförelsetabell mot direktiven 2001/40/EG och 2008/115
 | [PROC-RTN-005 Återvändandesamordning – resa](processes/return-coordination-travel.md) | Planering och genomförande av avlägsnandet: transport, ledsagare, handlingar, ankomst |
 | [PROC-RTN-006 Frivilligt återvändande med stöd](processes/assisted-voluntary-return.md) | Rådgivning, återvändande- och återintegreringsstöd, frivillig avresa |
 
-Delprocesserna 004–006 kombinerar förordning 2026/2280 med regler som **gäller redan nu**: APR art. 7 (tystnadsplikt), förordning (EU) 2016/1953 (europeisk resehandling), rådets beslut 2004/573/EG (gemensamma flygningar), Frontexförordningen (EU) 2019/1896 och utlänningslagen 12 kap. Varje steg anger från när regeln gäller.
+Delprocesserna 004–006 kombinerar förordning 2026/2280 med regler som **gäller redan nu**: APR art. 7 (tystnadsplikt), förordning (EU) 2016/1953 (europeisk resehandling), rådets beslut 2004/573/EG (gemensamma flygningar), rådets direktiv 2003/110/EG (transitering med flyg), Frontexförordningen (EU) 2019/1896 och utlänningslagen 12 kap. Varje steg anger från när regeln gäller.
 
 ---
 
@@ -281,6 +252,11 @@ Uppskjutet avlägsnande (art. 11)
 | [RULE-FRX-048-001](rules/rule-frx-048-001.md) | Frontex stöd, konsulärt samarbete utan att röja asylansökan (2019/1896 art. 48) | Nu |
 | [RULE-FRX-050-001](rules/rule-frx-050-001.md) | Frontex återvändandeinsatser, SIS-kontroll, övervakning (art. 50) | Nu |
 | [RULE-FRX-053-001](rules/rule-frx-053-001.md) | Återvändandeinterventioner, operativ plan inom fem arbetsdagar (art. 53) | Nu |
+| [RULE-TRA-003-001](rules/rule-tra-003-001.md) | Direktflyg först, villkor och vägransgrunder för transitering (2003/110/EG art. 3) | Nu |
+| [RULE-TRA-004-001](rules/rule-tra-004-001.md) | Ansökan senast två dagar före, svar inom två dagar (+48 h) (art. 4) | Nu |
+| [RULE-TRA-005-001](rules/rule-tra-005-001.md) | Transitering inom 24 timmar (+48 h), bistånd och kostnader (art. 5) | Nu |
+| [RULE-TRA-006-001](rules/rule-tra-006-001.md) | Omedelbart återtagande när transiteringen misslyckas (art. 6) | Nu |
+| [RULE-TRA-007-001](rules/rule-tra-007-001.md) | Ledsagarnas befogenheter vid transitering (art. 7) | Nu |
 | [RULE-UTL-12-014-001](rules/rule-utl-12-014-001.md) | Verkställande myndighet (UtlL 12 kap. 14–14 a §§) | Nu |
 | [RULE-UTL-12-014C-001](rules/rule-utl-12-014c-001.md) | Upphäva eller förlänga tidsfrist för frivillig avresa (12 kap. 14 b–14 c §§) | Nu |
 | [RULE-UTL-12-015-001](rules/rule-utl-12-015-001.md) | När beslutet ska verkställas, återreseförbud (12 kap. 15–15 a §§) | Nu |

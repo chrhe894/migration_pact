@@ -30,6 +30,8 @@ Förordningen medger undantag från ordinarie tidsfrister och förfaranden samt 
 - [Crisis artikel 11](articles/crisis-011.md) — Gränsförfarande vid kris
 - [Crisis artikel 12](articles/crisis-012.md) — Förlängda tidsfrister för övertagande och överföring
 
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Processer

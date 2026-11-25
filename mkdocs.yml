@@ -38,6 +38,7 @@ nav:
     - Registrering:
       - domains/registration/README.md
       - Artiklar:
+        - Översikt: domains/registration/articles/README.md
         - APR artikel 27: domains/registration/articles/apr-027.md
         - APR artikel 28: domains/registration/articles/apr-028.md
         - APR artikel 29: domains/registration/articles/apr-029.md
@@ -115,6 +116,7 @@ nav:
       - Nationellt:
         - Ds 2025:30 — Screening: domains/screening/national/ds-2025-30-screening.md
       - Artiklar:
+        - Översikt: domains/screening/articles/README.md
         - Artikel 5: domains/screening/articles/scr-005.md
         - Artikel 6: domains/screening/articles/scr-006.md
         - Artikel 7: domains/screening/articles/scr-007.md
@@ -174,6 +176,7 @@ nav:
     - Eurodac:
       - domains/eurodac/README.md
       - Artiklar:
+        - Översikt: domains/eurodac/articles/README.md
         - Artikel 1: domains/eurodac/articles/eur-001.md
         - Artikel 2: domains/eurodac/articles/eur-002.md
         - Artikel 13: domains/eurodac/articles/eur-013.md
@@ -268,6 +271,7 @@ nav:
     - Ansvar:
       - domains/responsibility/README.md
       - Artiklar:
+        - Översikt: domains/responsibility/articles/README.md
         - AMMR artikel 2: domains/responsibility/articles/ammr-002.md
         - AMMR artikel 24: domains/responsibility/articles/ammr-024.md
         - AMMR artikel 25: domains/responsibility/articles/ammr-025.md
@@ -369,6 +373,7 @@ nav:
     - Asylförfarande:
       - domains/asylum-procedure/README.md
       - Artiklar:
+        - Översikt: domains/asylum-procedure/articles/README.md
         - APR artikel 7: domains/asylum-procedure/articles/apr-007.md
         - APR artikel 11: domains/asylum-procedure/articles/apr-011.md
         - APR artikel 12: domains/asylum-procedure/articles/apr-012.md
@@ -430,6 +435,7 @@ nav:
       - Nationellt:
         - Ds 2025:30 — Gränsförfarande: domains/border-procedure/national/ds-2025-30-border-procedure.md
       - Artiklar:
+        - Översikt: domains/border-procedure/articles/README.md
         - APR artikel 43: domains/border-procedure/articles/apr-043.md
         - APR artikel 44: domains/border-procedure/articles/apr-044.md
         - APR artikel 45: domains/border-procedure/articles/apr-045.md
@@ -468,6 +474,7 @@ nav:
     - Solidaritet:
       - domains/solidarity/README.md
       - Artiklar:
+        - Översikt: domains/solidarity/articles/README.md
         - AMMR artikel 56: domains/solidarity/articles/ammr-056.md
         - AMMR artikel 57: domains/solidarity/articles/ammr-057.md
         - AMMR artikel 58: domains/solidarity/articles/ammr-058.md
@@ -511,6 +518,7 @@ nav:
     - Kris:
       - domains/crisis/README.md
       - Artiklar:
+        - Översikt: domains/crisis/articles/README.md
         - Artikel 1: domains/crisis/articles/crisis-001.md
         - Artikel 2: domains/crisis/articles/crisis-002.md
         - Artikel 3: domains/crisis/articles/crisis-003.md
@@ -545,6 +553,7 @@ nav:
     - Återvändande vid gräns:
       - domains/return-border-procedure/README.md
       - Artiklar:
+        - Översikt: domains/return-border-procedure/articles/README.md
         - Artikel 1: domains/return-border-procedure/articles/return-001.md
         - Artikel 2: domains/return-border-procedure/articles/return-002.md
         - Artikel 3: domains/return-border-procedure/articles/return-003.md
@@ -578,6 +587,7 @@ nav:
     - Återvändande:
       - domains/return/README.md
       - Artiklar:
+        - Översikt: domains/return/articles/README.md
         - Artikel 1: domains/return/articles/rr-001.md
         - Artikel 2: domains/return/articles/rr-002.md
         - Artikel 3: domains/return/articles/rr-003.md
@@ -783,6 +793,11 @@ nav:
         - RULE-FRX-048-001: domains/return/rules/rule-frx-048-001.md
         - RULE-FRX-050-001: domains/return/rules/rule-frx-050-001.md
         - RULE-FRX-053-001: domains/return/rules/rule-frx-053-001.md
+        - RULE-TRA-003-001: domains/return/rules/rule-tra-003-001.md
+        - RULE-TRA-004-001: domains/return/rules/rule-tra-004-001.md
+        - RULE-TRA-005-001: domains/return/rules/rule-tra-005-001.md
+        - RULE-TRA-006-001: domains/return/rules/rule-tra-006-001.md
+        - RULE-TRA-007-001: domains/return/rules/rule-tra-007-001.md
         - RULE-UTL-12-014-001: domains/return/rules/rule-utl-12-014-001.md
         - RULE-UTL-12-014C-001: domains/return/rules/rule-utl-12-014c-001.md
         - RULE-UTL-12-015-001: domains/return/rules/rule-utl-12-015-001.md

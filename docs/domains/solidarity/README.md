@@ -31,6 +31,8 @@ Solidaritetsmekanismen syftar till att fördela ansvaret rättvist mellan medlem
 - [AMMR artikel 67](articles/ammr-067.md) — Förfarande inför omfördelning
 - [AMMR artikel 68](articles/ammr-068.md) — Förfarande efter omfördelning
 
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Processer

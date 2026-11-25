@@ -36,6 +36,8 @@ Screening är ett förfarande som genomförs vid de yttre gränserna eller inom 
 - [Screening artikel 18](articles/scr-018.md) — Slutförande av screeningen
 - [Screening artikel 35a](articles/scr-035a.md) — Etias bevakningslista: motiverat yttrande (via art. 22, i Etias-förordningen)
 
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Processer

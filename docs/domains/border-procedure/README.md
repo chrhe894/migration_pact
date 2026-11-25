@@ -31,6 +31,8 @@ Gränsförfarandet är ett särskilt förfarande som genomförs vid eller nära 
 - [APR artikel 53](articles/apr-053.md) — Undantag från gränsförfarandet
 - [APR artikel 54](articles/apr-054.md) — Platser för genomförande
 
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Processer

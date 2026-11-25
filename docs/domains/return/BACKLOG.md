@@ -18,7 +18,7 @@
 - [ ] **Jämförelsetabellen:** textversionen är svår att läsa. Kopplingen för art. 7 och delar av art. 29–30 behöver kontrolleras mot EUR-Lex HTML-version
 - [x] **Återvändandesamordning:** delprocesserna PROC-RTN-004 (ambassad), 005 (resa) och 006 (frivilligt återvändande med stöd), med regler från APR art. 7, förordning 2016/1953, beslut 2004/573/EG, Frontexförordningen och utlänningslagen 12 kap. (2026-11)
 - [ ] **Uppgifter till tredjeland:** stäm av förordning 2026/2280 art. 37 (som tillåter överföring av bl.a. skälen till besluten, art. 36.6 h) mot APR art. 7.2 och dataskyddsförordningen. Bör bli en tolkning
-- [ ] **Saknade källor:** direktiv 2003/110/EG (transit via flyg), återtagandeavtal och överenskommelser med tredjeländer, eventuella ändringar av Frontexförordningen efter 2019
+- [ ] **Saknade källor:** återtagandeavtal och överenskommelser med tredjeländer, eventuella ändringar av Frontexförordningen efter 2019
 - [ ] **Krav och förmågor för delprocesserna:** de nya reglerna (ETD, JRF, FRX, UTL, APR-007) har inga egna krav ännu
 - [ ] **Krav per regel:** batcherna för art. 10–17 och 18–25 har ett krav per artikel i stället för ett per regel
 - [ ] **Koppling från andra domäner:** APR art. 37 (beslut om återvändande samtidigt med avslag), Eurodac (återvändandebeslut), mottagandelagen (avlägsnandebeslut), screening (hänvisning till återvändande)

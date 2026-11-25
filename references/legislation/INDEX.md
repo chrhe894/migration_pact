@@ -15,6 +15,8 @@
 | ETD         | Europeisk resehandling för återvändande (EU) 2016/1953 | return |
 | JRF         | Rådets beslut 2004/573/EG om gemensamma flygningar för återsändande | return |
 | FRX         | Frontexförordningen (EU) 2019/1896 | return (avsnittet om återvändande) |
+| TRA         | Rådets direktiv 2003/110/EG om bistånd vid transitering med flyg | return |
+| 862/2007    | Statistikförordningen (EG) nr 862/2007, ändrad genom (EU) 2020/851 | shared/statistics, asylum-procedure |
 | 1182/71     | Time Limits Regulation (EEG, Euratom)      | tvärgående (tidsfrister)                         |
 | Arkivlagstiftning | Arkivlagen (1990:782), TF (1949:105), RA-FS | tvärgående (gallring/arkivering, nationell) |
 | Medborgarskapslagen | Lag (2001:82) om svenskt medborgarskap | tvärgående (medborgarskap som raderingstrigger, nationell) |

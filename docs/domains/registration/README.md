@@ -26,6 +26,8 @@ Registreringen är den första formella delen av asylförfarandet och säkerstä
 - [APR artikel 28](articles/apr-028.md) — Inlämnande av ansökan
 - [APR artikel 29](articles/apr-029.md) — Handlingar som tillhandahålls sökanden
 
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Processer

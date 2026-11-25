@@ -22,20 +22,20 @@ Förfarandet säkerställer att personer vars ansökan avslagits i gränsförfar
 
 ## Primära rättskällor
 
-| Artikel | Rubrik |
-|---------|--------|
-| [1](articles/return-001.md) | Innehåll och tillämpningsområde |
-| [2](articles/return-002.md) | Hänvisningar till förordning (EU) 2024/1348 |
-| [3](articles/return-003.md) | Definitioner |
-| [4](articles/return-004.md) | Gränsförfarande för återvändande (12 veckor, frivillig avresa) |
-| [5](articles/return-005.md) | Förvar |
-| [6](articles/return-006.md) | Åtgärder i krissituation (+6 veckor) |
-| [7](articles/return-007.md) | Förfaranderegler |
-| [8](articles/return-008.md) | Särskilda bestämmelser och garantier |
-| [11](articles/return-011.md) | Beräkning av tidsfrister |
+
+- [Återvändande vid gräns artikel 1](articles/return-001.md) — Innehåll och tillämpningsområde
+- [Återvändande vid gräns artikel 2](articles/return-002.md) — Hänvisningar till förordning (EU) 2024/1348
+- [Återvändande vid gräns artikel 3](articles/return-003.md) — Definitioner
+- [Återvändande vid gräns artikel 4](articles/return-004.md) — Gränsförfarande för återvändande (12 veckor, frivillig avresa)
+- [Återvändande vid gräns artikel 5](articles/return-005.md) — Förvar
+- [Återvändande vid gräns artikel 6](articles/return-006.md) — Åtgärder i krissituation (+6 veckor)
+- [Återvändande vid gräns artikel 7](articles/return-007.md) — Förfaranderegler
+- [Återvändande vid gräns artikel 8](articles/return-008.md) — Särskilda bestämmelser och garantier
+- [Återvändande vid gräns artikel 11](articles/return-011.md) — Beräkning av tidsfrister
+
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
 
 Art. 9 (ändringar av förordning 2021/1148), 10 (överklagande från offentliga myndigheter), 12 (övergångsbestämmelser: nationella genomförandeplaner klara senast den 1 juli 2026), 13 (utvärdering) och 14 (ikraftträdande) har inga egna kort. Förordningstexten finns i `references/_text/OJ_L_202401349_SV_TXT.txt`.
-
 > **Rättelse (granskning 2026-09):** domänens artikelkort var numrerade fel. Bara kortet för art. 3 stämde. Domänen påstod också att personen tillåts resa in om återvändandet inte verkställts inom tolv veckor, och att fristen fryses vid överklagande. Båda påståendena är felaktiga. Kort, regler, krav, process och diagram är nu kontrollerade mot förordningstexten.
 
 ---

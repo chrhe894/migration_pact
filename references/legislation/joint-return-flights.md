@@ -39,7 +39,7 @@ Förordning 2026/2280 art. 10.10 kräver att riktlinjerna beaktas vid avlägsnan
 - `references/L_2004261SV.01002801.xml.mhtml`
 - Text: `references/_text/OJ_L_2004261_SV_TXT.txt`
 
-Direktiv 2003/110/EG om stöd vid transitering via flyg, som bilagan hänvisar till, finns inte i repot.
+Direktiv 2003/110/EG om bistånd vid transitering med flyg, som bilagan hänvisar till, beskrivs i [transit-by-air](transit-by-air.md).
 
 ---
 

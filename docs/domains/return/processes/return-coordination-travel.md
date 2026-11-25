@@ -50,7 +50,7 @@ Källa: [`return-coordination-travel.pu`](../diagrams/return-coordination-travel
 | 5 | Välj transport: **reguljärt flyg**, **nationell charter**, **gemensam flygning** (organisera eller delta) eller **Frontex-insats** | [RULE-JRF-004-001](../rules/rule-jrf-004-001.md), [RULE-JRF-005-001](../rules/rule-jrf-005-001.md), [RULE-FRX-050-001](../rules/rule-frx-050-001.md) | Nu |
 | 6 | Handlingar och viseringar för den återvändande och ledsagarna. Tillstånd från transit- och destinationsländer. Informera egna beskickningar | [RULE-JRF-006-001](../rules/rule-jrf-006-001.md), [RULE-JRF-004-001](../rules/rule-jrf-004-001.md) | Nu |
 | 7 | Underrätta flygbolag, transitländer och destinationsland **i god tid**. Överför nödvändiga uppgifter till flygbolag | [RULE-JRF-007-001](../rules/rule-jrf-007-001.md), [RULE-RR-037-001](../rules/rule-rr-037-001.md) | Riktlinjer: nu; RR: 17 okt 2027 |
-| 8 | Transit via annan medlemsstat | [RULE-RR-042-001](../rules/rule-rr-042-001.md) (direktiv 2003/110/EG, finns inte i repot) | 17 okt 2027 |
+| 8 | **Transit via annan medlemsstat:** pröva direktflyg först. Skriftlig ansökan till transitstatens centrala myndighet senast två dagar före. Ledsagarna har med beslutet. Misslyckas transiteringen återtar Sverige personen | [RULE-TRA-003-001](../rules/rule-tra-003-001.md) – [RULE-TRA-007-001](../rules/rule-tra-007-001.md), [RULE-RR-042-001](../rules/rule-rr-042-001.md) | TRA: nu; RR: 17 okt 2027 |
 | 9 | **Ledsagare:** antal efter riskanalys, bör minst motsvara antalet återvändande. Minst två företrädare vid deltagande i annan stats flygning | [RULE-JRF-007-001](../rules/rule-jrf-007-001.md), [RULE-JRF-005-001](../rules/rule-jrf-005-001.md) | Nu |
 | 10 | Förvar fram till avresan om det behövs | [PROC-RTN-002](return-detention.md), [RULE-RR-030-004](../rules/rule-rr-030-004.md) | 17 okt 2027 |
 | 11 | **Avresedag:** på flygplatsen minst tre timmar före avgång, säkerhetskontroll, proportionerligt tvång, inga lugnande medel, läkare vid gemensam flygning, övervakning | [RULE-JRF-007-001](../rules/rule-jrf-007-001.md), [RULE-RR-010-004](../rules/rule-rr-010-004.md), [RULE-RR-012-001](../rules/rule-rr-012-001.md) | Riktlinjer: nu; RR: 17 okt 2027 |
@@ -68,6 +68,9 @@ Källa: [`return-coordination-travel.pu`](../diagrams/return-coordination-travel
 | Verkställighet mot EES-medborgare | Tidigast fyra veckor efter delgivning, om inte synnerliga skäl finns | [RULE-UTL-12-015-001](../rules/rule-utl-12-015-001.md) |
 | Ankomst till flygplatsen | Minst tre timmar före avgång (gemensam flygning, riktlinjerna 2.1 a) | [RULE-JRF-007-001](../rules/rule-jrf-007-001.md) |
 | Underrättelse till flygbolag, transit- och destinationsland | I god tid (ingen siffra) | [RULE-JRF-007-001](../rules/rule-jrf-007-001.md) |
+| Ansökan om transitering via annan medlemsstat | Senast **två dagar** före transiteringen (kortare i brådskande, motiverade fall) | [RULE-TRA-004-001](../rules/rule-tra-004-001.md) |
+| Transitstatens svar | Inom **två dagar**, förlängning högst **48 timmar**. Uteblivet svar: transit efter anmälan | [RULE-TRA-004-001](../rules/rule-tra-004-001.md) |
+| Transiteringens längd | Högst **24 timmar**, förlängning högst **48 timmar** om den inte kan slutföras | [RULE-TRA-005-001](../rules/rule-tra-005-001.md) |
 | Frontex beslut om operativ plan vid snabb återvändandeintervention | Inom fem arbetsdagar | [RULE-FRX-053-001](../rules/rule-frx-053-001.md) |
 | Beslutets giltighet efter avresa | Upphör fem år efter att personen lämnat landet, eller när ett pågående återreseförbud löper ut | [RULE-UTL-12-021-001](../rules/rule-utl-12-021-001.md) |
 | Inreseförbud | Löper från avresedagen | [RULE-RR-008-007](../rules/rule-rr-008-007.md) |

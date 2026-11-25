@@ -86,11 +86,11 @@ Varje rad är ett **läge** en sökande kan befinna sig i, definierat av totalt 
 
 | Process/flöde/läge | Ansökningar (totalt) | Efterföljande ansökningar | Kod | Tidsfrister | Påskyndat | Non-refoulement | Statistikbehov | Regler | Kommentar |
 |--------------------|----------------------|---------------------------|-----|-------------|-----------|-----------------|----------------|--------|-----------|
-| *(fylls i)* | 1 | 0 | *(fylls i)* | Sak **6 mån** / påskyndat 3 mån ([art. 35.3–4](../articles/apr-035.md)) | Möjligt på allmänna grunder ([art. 42](../articles/apr-042.md)) | Spärr vid ev. återvändande efter avslag | Bifallsandel, handläggningstid | [RULE-APR-035-001](../rules/rule-apr-035-001.md) | Förstagångsansökan, ordinarie förfarande |
+| *(fylls i)* | 1 | 0 | *(fylls i)* | Sak **6 mån** / påskyndat 3 mån ([art. 35.3–4](../articles/apr-035.md)) | Möjligt på allmänna grunder ([art. 42](../articles/apr-042.md)) | Spärr vid ev. återvändande efter avslag | Eurostat: förstagångssökande (862/2007 art. 4.1 d). Bifallsandel, handläggningstid | [RULE-APR-035-001](../rules/rule-apr-035-001.md) | Förstagångsansökan, ordinarie förfarande |
 | *(fylls i)* | 1 i annan MS (pågående) + 1 här | 0 | *(fylls i)* | Ingen asylfrist här; **AMMR**-återtagandefrister | — | Spärr vid överföring | Eurodac-träffar | [AMMR](../../responsibility/README.md) | **Inte** efterföljande — ansvarsfråga (ej laga kraft) |
 | *(fylls i)* | 2 (slutligt avslag i annan MS) | 1 | *(fylls i)* | Förhandsprövning → **2 mån** avvisning / **6 mån** sak | Ja om prövning ej nekas ([art. 42.1 g](../articles/apr-042.md)) | Spärr vid överföring + återvändande | Andel avvisade | [RULE-APR-055-001](../rules/rule-apr-055-001.md), [055-002](../rules/rule-apr-055-002.md), [035-003](../rules/rule-apr-035-003.md) | Efterföljande, men prövas av **ansvarig MS** efter återtagande |
-| *(fylls i)* | 2 (slutligt avslag här) | 1 | *(fylls i)* | Förhandsprövning (ingen egen frist) → **2 mån** avvisning ([art. 35.1](../articles/apr-035.md)) / **6 mån** sak | Ja om prövning ej nekas ([art. 42.1 g](../articles/apr-042.md)) | Spärr innan avlägsnande; stärks om stanna-kvar-undantag (art. 56 a) används | Andel avvisade, tid till förhandsbeslut | [RULE-APR-055-001](../rules/rule-apr-055-001.md), [055-002](../rules/rule-apr-055-002.md), [035-003](../rules/rule-apr-035-003.md), [056-001](../rules/rule-apr-056-001.md) | **Klassisk** första efterföljande ansökan |
-| *(fylls i)* | 3+ (avslag på nr 2) | 2+ | *(fylls i)* | Som raden ovan | Ja om prövning ej nekas ([art. 42.1 g](../articles/apr-042.md)) | Spärr innan avlägsnande; stanna-kvar-undantag utan fördröjningskrav (art. 56 b) | Antal efterföljande per person (räknare) | [RULE-APR-056-002](../rules/rule-apr-056-002.md), [056-001](../rules/rule-apr-056-001.md) | Andra/ytterligare efterföljande ansökan |
+| *(fylls i)* | 2 (slutligt avslag här) | 1 | *(fylls i)* | Förhandsprövning (ingen egen frist) → **2 mån** avvisning ([art. 35.1](../articles/apr-035.md)) / **6 mån** sak | Ja om prövning ej nekas ([art. 42.1 g](../articles/apr-042.md)) | Spärr innan avlägsnande; stärks om stanna-kvar-undantag (art. 56 a) används | Eurostat: person med efterföljande ansökan (862/2007 art. 4.1 f). Andel avvisade, tid till förhandsbeslut | [RULE-APR-055-001](../rules/rule-apr-055-001.md), [055-002](../rules/rule-apr-055-002.md), [035-003](../rules/rule-apr-035-003.md), [056-001](../rules/rule-apr-056-001.md) | **Klassisk** första efterföljande ansökan |
+| *(fylls i)* | 3+ (avslag på nr 2) | 2+ | *(fylls i)* | Som raden ovan | Ja om prövning ej nekas ([art. 42.1 g](../articles/apr-042.md)) | Spärr innan avlägsnande; stanna-kvar-undantag utan fördröjningskrav (art. 56 b) | Eurostat: person med efterföljande ansökan (art. 4.1 f), samma kategori som raden ovan. Räknaren är ett **operativt** behov för art. 56, inget statistikkrav | [RULE-APR-056-002](../rules/rule-apr-056-002.md), [056-001](../rules/rule-apr-056-001.md) | Andra/ytterligare efterföljande ansökan |
 | *(fylls i)* | oväsentligt (1 eller flera) + beviljat skydd i annan MS | — | *(fylls i)* | **2 mån** upptagandeprövning ([art. 35.1](../articles/apr-035.md)) | — | Spärr vid ev. återvändande | — | [art. 38.1 c](../articles/apr-038.md) | **Inte** efterföljande — ej upptagbar (annan MS gav skydd). Antalet ansökningar saknar betydelse; grunden utlöses enbart av skyddet i annan MS |
 
 ### Hur non-refoulement påverkar
@@ -104,6 +104,23 @@ Non-refoulement är ingen tidsfrist och ingen engångskontroll, utan en **genomg
 ### Hur påskyndat påverkar
 
 En efterföljande ansökan **för vilken prövning inte nekas** är en uttrycklig grund för påskyndat förfarande ([art. 42.1 g](../articles/apr-042.md); för underåriga art. 42.3 c). Det innebär att om nya faktorer finns och ärendet går till sakprövning, kan sakfristen bli **3 månader** i stället för 6. Nekas prövning (inga nya faktorer) är det i stället upptagandefristen på 2 månader som gäller — påskyndat är då inte relevant.
+
+---
+
+## Statistik till Eurostat
+
+Enligt förordning 862/2007 art. 4.1 i lydelse enligt förordning (EU) 2020/851 ska Sverige varje månad, inom två månader, rapportera:
+
+- **led d:** antalet **personer** som ansöker **för första gången**,
+- **led f:** antalet **personer** som gjort en **efterföljande ansökan** (direktiv 2013/32/EU art. 40, som nu motsvaras av APR art. 55),
+
+båda uppdelade efter ålder, kön, medborgarskap och ensamkommande barn.
+
+Förordningen kräver alltså att varje ansökan klassas som **förstagångsansökan eller efterföljande ansökan**, och att personer räknas en gång per månad. Den kräver **inte** att antalet efterföljande ansökningar per person redovisas.
+
+Att hålla reda på om det är den **första** eller en **andra eller ytterligare** efterföljande ansökan är ett operativt behov. Det styr undantagen från rätten att stanna kvar (APR art. 56 a–b) och kostnadsfri rådgivning (art. 16.3 b), och gäller bara om Sverige använder de undantagen ([REQ-APR-056-003](../requirements/req-apr-056-003.md)).
+
+Källa: [Statistikförordningen](../../../references/legislation/eurostat-migration-statistics.md). Grundförordningen 862/2007 finns inte i repot, bara ändringsförordningen 2020/851.
 
 ---
 

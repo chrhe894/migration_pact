@@ -36,6 +36,8 @@ Förfarandet inleds efter att ansökan har registrerats och lämnats in, och avs
 - [APR artikel 68](articles/apr-068.md) — Överklagandets suspensiva verkan
 - [APR artikel 72](articles/apr-072.md) — Lagring av uppgifter
 
+Alla artiklar: [Översikt över artikelkorten](articles/README.md)
+
 ---
 
 ## Processer
