@@ -1,0 +1,88 @@
+' ============================================================================
+' Diagram: Händelsehantering i förvarsprocessen (PROC-DET-002)
+'
+' Syfte: Visar hur förvarsprocessen tar emot en beslutshändelse från en
+'        annan process och avgör vad som händer med förvaret.
+'
+' Källa: Utlänningslagen 10 kap. 3, 5, 14, 16, 19, 20, 23 §§; AMMR art. 45
+'
+' Status: Draft
+' ============================================================================
+
+@startuml detention-event-handling
+
+title Händelsehantering: nytt beslut påverkar pågående förvar
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+|Källprocess|
+start
+:Beslut fattas\n(asyl, ansvar, gräns, återvändande, domstol);
+:Beslutshändelse BH-xx med beslutskod;
+
+|Förvarsprocessen|
+:Hämta pågående förvar\n(förvarsperiod, aktuellt beslut, FG, klockor);
+if (Person i förvar\neller under uppsikt?) then (Nej)
+  :Logga händelsen;
+  stop
+else (Ja)
+endif
+
+if (Händelsen ger skäl att upphäva?\nBH-15, BH-25, BH-33, BH-07 bifall) then (Ja)
+  :[[../rules/rule-utl-10-014-001.md Upphäv omedelbart]]\n([[../rules/rule-utl-10-023-001.md 10:23]], AMMR 45.4);
+  :Frigivning (PROC-DET-004);
+  stop
+else (Nej)
+endif
+
+if (Ändras personens status?\nsökande ↔ ej sökande, barn ↔ vuxen) then (Ja)
+  :Gamla grunden upphör;
+  note right
+    BH-10/17: blir sökande → 10:3
+    BH-14/16: inte längre sökande → 10:5
+    BH-13: rätten att stanna upphör → FG-10
+    BH-40: ålder
+  end note
+  if (Finns skäl för förvar\nenligt ny grund?) then (Ja)
+    :Nytt förvarsbeslut med ny FG\n([[../rules/rule-utl-10-003-001.md 10:3]] / [[../rules/rule-utl-10-005-001.md 10:5]]);
+    :Starta ny K1 (grundtak)\nK2 ny prövning\nK5 fortsätter;
+  else (Nej)
+    :Frigivning, eller\n[[../rules/rule-utl-10-002-001.md uppsikt]];
+    stop
+  endif
+else (Nej)
+endif
+
+if (Påverkas en klocka?) then (Ja)
+  :Starta, frys eller ge ny startpunkt;
+  note right
+    BH-21/22: AMMR svar 1 v, överföring 5 v
+    BH-24: suspensiv verkan → ny startpunkt
+    BH-06: domstolsfrist 15 (21) dagar
+    BH-08/42: tak förlängs
+  end note
+else (Nej)
+endif
+
+if (Byter ärendet myndighet?\nBH-30) then (Ja)
+  :Ny beslutsfattare för förvaret\n([[../rules/rule-utl-10-020-001.md 10:20–22]]);
+else (Nej)
+endif
+
+:Uppdatera bevakning\n(varningar före K1, K2, K3, K4);
+stop
+
+@enduml

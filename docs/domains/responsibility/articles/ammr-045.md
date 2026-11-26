@@ -56,6 +56,8 @@ Punkt 3 b är den direkta kopplingen mellan suspensiv verkan och tidsfrister. Om
 
 ## Relaterade artiklar
 
+
+- [Förvar (delad modul)](../../../shared/detention/README.md) — förvarsgrunder, tidsfrister och händelsehantering
 - [AMMR artikel 43](ammr-043.md) — Rättsmedel (punkt 3 om suspensiv verkan)
 - [AMMR artikel 44](ammr-044.md) — Villkor för förvar
 - [AMMR artikel 46](ammr-046.md) — Överföring

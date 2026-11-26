@@ -1,0 +1,93 @@
+' ============================================================================
+' Diagram: Förvar — huvudprocess (PROC-DET-001)
+'
+' Källa: Utlänningslagen 10 kap., 16 kap. 4 §
+'
+' Status: Draft
+' ============================================================================
+
+@startuml detention-lifecycle
+
+title Förvar — huvudprocess
+
+skinparam shadowing false
+skinparam HyperlinkColor Black
+skinparam HyperlinkUnderline true
+skinparam defaultFontName Arial
+skinparam activity {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+  DiamondBackgroundColor #FFFFFF
+  DiamondBorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+start
+
+if (Brådskande, behörig\nmyndighet ej nåbar?) then (Ja)
+  :[[../rules/rule-utl-10-020-001.md Interimistiskt beslut]] (Polis, FG-12);
+  note right
+    Anmäls skyndsamt; prövas omedelbart
+    K2 räknas från verkställigheten
+  end note
+else (Nej)
+endif
+
+:Bestäm beslutsfattare;
+note right
+  Polis: avvisningsärende eller verkställighet
+  Säpo: verkställighet i säkerhetsärende
+  MV: övriga ([[../rules/rule-utl-10-020-001.md 10:20–22]])
+end note
+
+:Bestäm status och grund;
+note right
+  Sökande → [[../rules/rule-utl-10-003-001.md 10:3]] (vuxen) / [[../rules/rule-utl-10-004-001.md 10:4]] (barn)
+  Ej sökande → [[../rules/rule-utl-10-005-001.md 10:5]] / [[../rules/rule-utl-10-006-001.md 10:6]]
+  Ansvarsförfarandet → AMMR art. 44
+  Återvändandegräns → 2024/1349 art. 5
+end note
+
+if (Räcker uppsikt?\n([[../rules/rule-utl-10-002-001.md 10:2]])) then (Ja)
+  :Beslut om uppsikt (UP-01/UP-02);
+  note right
+    Ny prövning 6 mån (förstärkt 3, barn 1)
+    ([[../rules/rule-utl-10-015-001.md RULE-UTL-10-015-001]])
+  end note
+  stop
+else (Nej)
+endif
+
+if (Barn?) then (Ja)
+  :Kontrollera att barnet inte skiljs\nfrån vårdnadshavare; synnerliga skäl\nom vårdnadshavare saknas;
+  note right
+    Tak 72 + 72 timmar
+    ([[../rules/rule-utl-10-013-001.md RULE-UTL-10-013-001]])
+  end note
+else (Nej)
+endif
+
+:Beslut om förvar med FG (BH-03);
+:Verkställ förvaret;
+note right
+  Starta K1 (grundtak), K2 (ny prövning),
+  K5 (total tid). AMMR: K4.
+end note
+
+repeat
+  :Förvar pågår — bevakning;
+  note right
+    Händelser från andra processer
+    → [[../processes/change-of-ground.md PROC-DET-002]]
+    Ny prövning inom 2 mån
+    → [[../processes/review-and-court.md PROC-DET-003]]
+  end note
+repeat while (Skäl kvar och inget tak nått?) is (Ja) not (Nej)
+
+:Upphörande (PROC-DET-004);
+stop
+
+@enduml

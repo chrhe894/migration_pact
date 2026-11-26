@@ -46,6 +46,8 @@ Artikeln reglerar villkoren för att ta en person i förvar inför en överföri
 
 ## Relaterade artiklar
 
+
+- [Förvar (delad modul)](../../../shared/detention/README.md) — förvarsgrunder, tidsfrister och händelsehantering
 - [AMMR artikel 45](ammr-045.md) — Tidsfrister för sökande i förvar
 - [AMMR artikel 46](ammr-046.md) — Överföring
 - [AMMR artikel 43](ammr-043.md) — Rättsmedel

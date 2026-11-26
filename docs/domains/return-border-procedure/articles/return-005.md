@@ -55,6 +55,8 @@ Vid kris får förvarsperioden förlängas på samma sätt som tolvveckorsperiod
 
 ## Relaterade artiklar
 
+
+- [Förvar (delad modul)](../../../shared/detention/README.md) — förvarsgrunder, tidsfrister och händelsehantering
 - [Återvändande vid gräns artikel 4](return-004.md) — Gränsförfarande för återvändande
 - [AMMR artikel 44](../../responsibility/articles/ammr-044.md) — Förvar (för överföring, annan regim)
 

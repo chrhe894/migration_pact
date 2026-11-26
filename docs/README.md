@@ -130,6 +130,7 @@ Se även:
 | [Barn](shared/children/README.md) | Särskilda garantier för barn |
 | [Sårbara personer](shared/vulnerable-persons/README.md) | Sårbara personer |
 | [Prioritet](shared/priority/README.md) | Vilka ärenden som ska eller får behandlas före andra |
+| [Förvar](shared/detention/README.md) | Förvarsgrunder, tidsfrister, prövning och händelsestyrd hantering av beslut |
 | [Biometri](shared/biometrics/README.md) | Biometriska uppgifter |
 | [Säkerhetskontroller](shared/security-checks/README.md) | Säkerhetskontroller |
 | [Personliga intervjuer](shared/interviews/README.md) | Personliga intervjuer och övriga intervjuer |

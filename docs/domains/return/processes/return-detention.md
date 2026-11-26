@@ -23,7 +23,7 @@ Personen har avlägsnats, eller har släppts ur förvar därför att skälen int
 
 ## Tillämpas från
 
-**17 oktober 2027** (art. 50.3). Fram till dess gäller direktiv 2008/115/EG art. 15–17 och 10 kap. utlänningslagen.
+**17 oktober 2027** (art. 50.3). Fram till dess gäller direktiv 2008/115/EG art. 15–17 och 10 kap. utlänningslagen. Gällande regler, förvarsgrunder och hur förvaret påverkas av beslut i andra processer beskrivs i modulen [Förvar](../../../shared/detention/README.md).
 
 ---
 

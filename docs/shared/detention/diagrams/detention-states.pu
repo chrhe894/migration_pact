@@ -1,0 +1,87 @@
+' ============================================================================
+' Diagram: Förvarets tillstånd och övergångar
+'
+' Syfte: Tillståndsmaskin för en förvarsperiod. Tillstånden är förvarsgrunder
+'        (FG) och uppsikt (UP). Övergångarna utlöses av beslutshändelser (BH)
+'        enligt beslutskatalogen.
+'
+' Källa: Utlänningslagen 10 kap., 16 kap. 4 §; AMMR art. 44–45;
+'        förordning 2024/1349 art. 5; direktiv 2008/115/EG art. 15
+'
+' Status: Draft
+' ============================================================================
+
+@startuml detention-states
+
+title Förvar — tillstånd och övergångar (BH = beslutshändelse)
+
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam HyperlinkColor Black
+skinparam state {
+  BackgroundColor #F8F8F8
+  BorderColor #333333
+}
+skinparam note {
+  BackgroundColor #FFF7D6
+  BorderColor #7A6A2A
+}
+
+[*] --> Fri
+
+state "Fri / ej frihetsberövad" as Fri
+state "Omhändertagen\n(11 § polislagen)" as Omh
+state "Interimistiskt förvar\nFG-12" as Int
+state "Uppsikt\nUP-01 / UP-02" as Upp
+
+state "Förvar — sökande" as Sok {
+  state "FG-01/02\nidentitet, utredning\n**4 veckor**" as FG0102
+  state "FG-03/05/06\nboende, försening, säkerhet\n**12 månader**" as FG0356
+  state "FG-04\ngränsförfarandet\n**12 veckor**" as FG04
+  state "FG-07\nansvarsförfarandet\n**AMMR 45**" as FG07
+}
+
+state "Förvar — ej sökande" as Ej {
+  state "FG-08\nutredning\n**4 veckor**" as FG08
+  state "FG-10\nåtervändandegräns\n**12 veckor**" as FG10
+  state "FG-09\nverkställighet\n**6 + 12 månader**" as FG09
+}
+
+Fri --> Omh : BH-01
+Omh --> Int : BH-02
+Fri --> Int : BH-02
+Int --> Sok : BH-03
+Int --> Ej : BH-03
+Fri --> Sok : BH-03
+Fri --> Ej : BH-03
+Fri --> Upp : BH-04
+Upp --> Sok : BH-03
+Upp --> Ej : BH-03
+
+FG09 --> FG0356 : BH-10 / BH-17\nansökan i förvar → FG-05
+FG04 --> FG10 : BH-13\nrätten att stanna upphör
+FG10 --> FG09 : K7 slut\nnytt beslut
+Sok --> FG09 : BH-14 / BH-16\navslag verkställbart,\nåterkallelse
+FG08 --> FG09 : beslut om\navvisning
+Sok --> Upp : BH-04
+Ej --> Upp : BH-04
+
+Sok --> Fri : BH-07, BH-15, BH-25,\nBH-43, BH-44, BH-45
+Ej --> Fri : BH-07, BH-33,\nBH-43, BH-44
+FG07 --> [*] : BH-26 överförd
+FG09 --> [*] : BH-34 avlägsnad
+FG10 --> [*] : BH-34 avlägsnad
+
+note right of Sok
+  Sökande: K3 domstol 15 (21) dagar
+  Grunderna upphör när personen
+  inte längre är sökande
+end note
+
+note right of Ej
+  Ny prövning (K2) var 2:a månad
+  för FG-09 och FG-10
+  Från 17 okt 2027: förordning 2026/2280
+end note
+
+@enduml

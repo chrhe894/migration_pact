@@ -97,6 +97,9 @@ def html_to_text(markup: str) -> str:
     parser.feed(markup)
     text = html.unescape("".join(parser.parts))
     text = text.replace("\u00a0", " ")
+    # Vissa källor (t.ex. Regeringskansliets rättsdatabaser) innehåller Windows-1252-tecken
+    # som hamnar som C1-styrtecken (U+0080–U+009F), t.ex. tankstreck 0x96. Översätt dem.
+    text = re.sub(r"[\u0080-\u009f]", lambda m: bytes([ord(m.group())]).decode("cp1252", errors="replace"), text)
     lines = [re.sub(r"[ \t]+", " ", line).strip() for line in text.splitlines()]
     out, blank = [], 0
     for line in lines:

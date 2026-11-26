@@ -70,6 +70,8 @@ Tidsfristerna är centrala för hela systemet — de skapar rättssäkerhet, tvi
 
 ### Ansvarsbedömning vid förvar
 
+Alla förvarsfrister, även nationella, samlas i modulen [Förvar](../detention/README.md).
+
 | Tidsfrist | Förordning | Regel |
 |-----------|------------|-------|
 | 2 veckor — framställan/avisering vid förvar | AMMR art. 45.1 | [RULE-AMMR-045-001](../../domains/responsibility/rules/rule-ammr-045-001.md) |

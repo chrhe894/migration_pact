@@ -852,6 +852,35 @@ nav:
     - Barn: shared/children/README.md
     - Sårbara personer: shared/vulnerable-persons/README.md
     - Prioritet: shared/priority/README.md
+    - Förvar:
+      - shared/detention/README.md
+      - Beslutskatalog och händelsematris: shared/detention/decision-catalogue.md
+      - Processer:
+        - PROC-DET-001 Förvar – huvudprocess: shared/detention/processes/detention-lifecycle.md
+        - PROC-DET-002 Händelsehantering och byte av grund: shared/detention/processes/change-of-ground.md
+        - PROC-DET-003 Ny prövning och domstolsprövning: shared/detention/processes/review-and-court.md
+        - PROC-DET-004 Upphörande och frigivning: shared/detention/processes/release.md
+      - Regler:
+        - RULE-RD-015-001: shared/detention/rules/rule-rd-015-001.md
+        - RULE-UTL-10-002-001: shared/detention/rules/rule-utl-10-002-001.md
+        - RULE-UTL-10-003-001: shared/detention/rules/rule-utl-10-003-001.md
+        - RULE-UTL-10-004-001: shared/detention/rules/rule-utl-10-004-001.md
+        - RULE-UTL-10-005-001: shared/detention/rules/rule-utl-10-005-001.md
+        - RULE-UTL-10-006-001: shared/detention/rules/rule-utl-10-006-001.md
+        - RULE-UTL-10-011-001: shared/detention/rules/rule-utl-10-011-001.md
+        - RULE-UTL-10-012-001: shared/detention/rules/rule-utl-10-012-001.md
+        - RULE-UTL-10-013-001: shared/detention/rules/rule-utl-10-013-001.md
+        - RULE-UTL-10-014-001: shared/detention/rules/rule-utl-10-014-001.md
+        - RULE-UTL-10-015-001: shared/detention/rules/rule-utl-10-015-001.md
+        - RULE-UTL-10-016-001: shared/detention/rules/rule-utl-10-016-001.md
+        - RULE-UTL-10-017-001: shared/detention/rules/rule-utl-10-017-001.md
+        - RULE-UTL-10-018-001: shared/detention/rules/rule-utl-10-018-001.md
+        - RULE-UTL-10-019-001: shared/detention/rules/rule-utl-10-019-001.md
+        - RULE-UTL-10-020-001: shared/detention/rules/rule-utl-10-020-001.md
+        - RULE-UTL-10-023-001: shared/detention/rules/rule-utl-10-023-001.md
+        - RULE-UTL-16-004-001: shared/detention/rules/rule-utl-16-004-001.md
+      - Öppna frågor:
+        - Sammanräkning av förvarstid: shared/detention/open_questions/aggregation-of-detention-time.md
     - Personliga intervjuer: shared/interviews/README.md
     - Statistik: shared/statistics/README.md
     - Flaggor och markeringar: shared/flags/README.md
