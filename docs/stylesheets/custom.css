@@ -6,3 +6,34 @@ object[type="image/svg+xml"] {
   width: 100%;
   /* Height set dynamically by svg-resize.js based on viewBox aspect ratio */
 }
+
+/* Tables: fit the content column between the left and right sidebars.
+   Material renders tables as inline-block, which lets them grow wider than
+   the column. Make them full-width block tables and let cell text wrap,
+   including long unbroken strings such as rule IDs and links. */
+.md-typeset__table {
+  display: block;
+  width: 100%;
+}
+
+.md-typeset table:not([class]),
+.md-typeset__table table:not([class]) {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  table-layout: auto;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  padding: 0.5em 0.6em;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: auto;
+  vertical-align: top;
+}
+
+/* Keep the horizontal scrollbar as a last resort on very narrow screens */
+.md-typeset__scrollwrap {
+  overflow-x: auto;
+}
