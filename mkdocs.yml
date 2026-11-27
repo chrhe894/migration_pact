@@ -861,6 +861,8 @@ nav:
         - PROC-DET-003 Ny prövning och domstolsprövning: shared/detention/processes/review-and-court.md
         - PROC-DET-004 Upphörande och frigivning: shared/detention/processes/release.md
       - Regler:
+        - RULE-RCD-010-001: shared/detention/rules/rule-rcd-010-001.md
+        - RULE-RCD-011-001: shared/detention/rules/rule-rcd-011-001.md
         - RULE-RD-015-001: shared/detention/rules/rule-rd-015-001.md
         - RULE-UTL-10-002-001: shared/detention/rules/rule-utl-10-002-001.md
         - RULE-UTL-10-003-001: shared/detention/rules/rule-utl-10-003-001.md

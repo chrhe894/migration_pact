@@ -23,10 +23,10 @@ Varje förvarsbeslut har **en** grund. Grunden bestämmer längsta tid, prövnin
 | FG | Grund | Lagrum (nuvarande / från 1 dec 2027) | Vem | Längsta tid | Ny prövning | Domstol | Beslutar | Kod |
 |----|-------|---------------------------------------|-----|-------------|-------------|---------|----------|-----|
 | FG-01 | Sökande: bestämma eller bekräfta identitet/nationalitet | 10:3 1 st. 1 / 10:5 | Vuxen sökande | **4 veckor** | — | **15 dagar** (21) | MV | **ID** |
-| FG-02 | Sökande: utreda grunderna för ansökan | 10:3 1 st. 2 / 10:5 | Vuxen sökande | **4 veckor** | — | 15 (21) | MV | **UTANS** ⚠ |
+| FG-02 | Sökande: utreda grunderna för ansökan | 10:3 1 st. 2 / 10:5 | Vuxen sökande | **4 veckor** | — | 15 (21) | MV | **UTANS** |
 | FG-03 | Sökande: inte följt boendebeslut + risk för avvikande | 10:3 1 st. 3 / 10:5 | Vuxen sökande | **12 månader** | **2 mån** | 15 (21) | MV | **BOSKYL** |
 | FG-04 | Gränsförfarandet för asyl (APR art. 43) | 10:3 1 st. 4 / 10:5 | Vuxen sökande | **12 veckor** (+6 v vid kris) | 2 mån | 15 (21) | MV | **ASYLGR** |
-| FG-05 | Ansökan i förvar för att försena verkställighet | 10:3 1 st. 5 / 10:5 | Vuxen sökande, redan i förvar enligt FG-09 | **12 månader** | 2 mån | 15 (21) | MV | **FHVERK** ⚠ |
+| FG-05 | Ansökan i förvar för att försena verkställighet | 10:3 1 st. 5 / 10:5 | Vuxen sökande, redan i förvar enligt FG-09 | **12 månader** | 2 mån | 15 (21) | MV | **FHVERK** |
 | FG-06 | Sökande: nationell säkerhet eller allmän ordning | 10:3 1 st. 6 / 10:5 | Vuxen sökande | **12 månader** | 2 mån | 15 (21) | MV | **SÄKORD** |
 | FG-07 | Ansvarsförfarandet (AMMR art. 44) | 10:3 1 st. 7 / 10:5 | Sökande | AMMR art. 45: framställan 2 v (1 v), svar 1 v, beslut 2 v, **överföring 5 v** | 2 mån | 15 (21) | MV | **AMMR** |
 | FG-08 | Ej sökande: utreda identitet eller rätt att resa in/stanna | 10:5 1 st. 1 / 10:7 | Vuxen | **4 veckor** | — | Skyndsamt | Polis/MV | **UTRED** |
@@ -40,22 +40,25 @@ Varje förvarsbeslut har **en** grund. Grunden bestämmer längsta tid, prövnin
 
 ### Beslutskoder för förvarsgrund
 
-Verksamhetens koder anger **grunden** i ett förvarsbeslut (BH-03). ⚠ = tolkning av förkortningen, behöver bekräftas.
+Verksamhetens koder anger **grunden** i ett förvarsbeslut (BH-03). ⚠ = tolkning av förkortningen, behöver bekräftas. Kolumnen RCD anger motsvarande led i [mottagandedirektivet (EU) 2024/1346](../../references/legislation/reception-directive.md) artikel 10.4 ([RULE-RCD-010-001](rules/rule-rcd-010-001.md)). Direktivet gäller bara sökande, så UTL-koderna och SANN saknar motsvarighet. Sökande barn (INS-BARN) får enligt artikel 13.2 tas i förvar bara undantagsvis, som en sista utväg.
 
-| Kod | FG | Lagrum (nu) | Lagtextens formulering | Säkerhet |
-|-----|----|-------------|------------------------|----------|
-| ID | FG-01 | 10:3 1 st. 1 | "bestämma eller bekräfta utlänningens identitet eller nationalitet" | Säker |
-| UTANS | FG-02 | 10:3 1 st. 2 | "utreda de omständigheter som ansökan om internationellt skydd grundas på" | ⚠ Tolkat som *utreda ansökan* |
-| BOSKYL | FG-03 | 10:3 1 st. 3 | Inte följt beslut om **boende** på bestämd plats + risk för avvikande | Säker (boendeskyldighet) |
-| ASYLGR | FG-04 | 10:3 1 st. 4 | Led i ett **gränsförfarande** enligt APR art. 43 | Säker |
-| FHVERK | FG-05 | 10:3 1 st. 5 | Ansökan gjord i förvar för att "**försena eller hindra verkställigheten**" | ⚠ Tolkat som *försena/hindra verkställighet* |
-| SÄKORD | FG-06 | 10:3 1 st. 6 | "nationella **säkerheten** eller för att upprätthålla allmän **ordning**" | Säker |
-| AMMR | FG-07 | 10:3 1 st. 7 | "i enlighet med artikel 44 i asyl- och migrationshanteringsförordningen" | Säker |
-| UTRED | FG-08 | 10:5 1 st. 1 | "en **utredning** av utlänningens identitet eller rätt att resa in i eller stanna i Sverige" | Säker |
-| AVLÄGS | FG-09a | 10:5 1 st. 2, första ledet | "det **kan antas** att utlänningen kommer att avvisas eller utvisas" | ⚠ Tolkat som prognosförvar inför **avlägsnande** |
-| VERK | FG-09b | 10:5 1 st. 2, andra ledet | "det är fråga om att **verkställa** ett beslut om avvisning eller utvisning" | Säker |
-| ÅVGR | FG-10 | 10:5 2 st. | Förvar enligt art. 5 i förordningen om **återvändandegränsförfarande** | Säker |
-| SANN | FG-11 | 10:6 1 st. 1 (barn) | "det är **sannolikt** att barnet kommer att avvisas av Polismyndigheten eller avvisas med omedelbar verkställighet av Migrationsverket" | ⚠ Ordet "sannolikt" finns bara i barnparagrafen |
+!!! note "Ändrat innehåll"
+    UTANS och FHVERK är nu markerade som säkra. 10:3 1 st. 1–7 motsvarar artikel 10.4 a–g i mottagandedirektivet, och övriga sex INS-koder täcker de andra punkterna.
+
+| Kod | FG | Lagrum (nu) | RCD | Lagtextens formulering | Säkerhet |
+|-----|----|-------------|-----|------------------------|----------|
+| ID | FG-01 | 10:3 1 st. 1 | 10.4 a | "bestämma eller bekräfta utlänningens identitet eller nationalitet" | Säker |
+| UTANS | FG-02 | 10:3 1 st. 2 | 10.4 b | "utreda de omständigheter som ansökan om internationellt skydd grundas på" | Säker. Enda INS-koden som återstår för 1 st. 2; motsvarar RCD 10.4 b |
+| BOSKYL | FG-03 | 10:3 1 st. 3 | 10.4 c | Inte följt beslut om **boende** på bestämd plats + risk för avvikande | Säker (boendeskyldighet) |
+| ASYLGR | FG-04 | 10:3 1 st. 4 | 10.4 d | Led i ett **gränsförfarande** enligt APR art. 43 | Säker |
+| FHVERK | FG-05 | 10:3 1 st. 5 | 10.4 e | Ansökan gjord i förvar för att "**försena eller hindra verkställigheten**" | Säker. Samma ord i RCD 10.4 e (F + H + VERK) |
+| SÄKORD | FG-06 | 10:3 1 st. 6 | 10.4 f | "nationella **säkerheten** eller för att upprätthålla allmän **ordning**" | Säker |
+| AMMR | FG-07 | 10:3 1 st. 7 | 10.4 g | "i enlighet med artikel 44 i asyl- och migrationshanteringsförordningen" | Säker |
+| UTRED | FG-08 | 10:5 1 st. 1 | — | "en **utredning** av utlänningens identitet eller rätt att resa in i eller stanna i Sverige" | Säker |
+| AVLÄGS | FG-09a | 10:5 1 st. 2, första ledet | — | "det **kan antas** att utlänningen kommer att avvisas eller utvisas" | ⚠ Tolkat som prognosförvar inför **avlägsnande** |
+| VERK | FG-09b | 10:5 1 st. 2, andra ledet | — | "det är fråga om att **verkställa** ett beslut om avvisning eller utvisning" | Säker |
+| ÅVGR | FG-10 | 10:5 2 st. | — | Förvar enligt art. 5 i förordningen om **återvändandegränsförfarande** | Säker |
+| SANN | FG-11 | 10:6 1 st. 1 (barn) | — | "det är **sannolikt** att barnet kommer att avvisas av Polismyndigheten eller avvisas med omedelbar verkställighet av Migrationsverket" | ⚠ Ordet "sannolikt" finns bara i barnparagrafen |
 
 **FG-09a och FG-09b** har samma lagrum, tak (6 + 12 månader, 10:12) och prövning (2 månader), men olika utlösande händelser. AVLÄGS används **innan** ett verkställbart beslut finns, VERK **när** det finns. När beslutet blir verkställbart (BH-14) bör koden bytas från AVLÄGS till VERK.
 

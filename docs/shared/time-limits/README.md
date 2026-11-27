@@ -105,6 +105,20 @@ Alla förvarsfrister, även nationella, samlas i modulen [Förvar](../detention/
 
 > **Egen fristberäkning:** förordning 2024/1349 har egna beräkningsregler ([art. 11](../../domains/return-border-procedure/articles/return-011.md)). Regeln om minst två arbetsdagar i 1182/71 art. 3.5 finns inte där, men en frist som slutar på en helgdag flyttas till nästa arbetsdag.
 
+### Mottagande
+Fristerna gäller sökande enligt [mottagandedirektivet (EU) 2024/1346](../../references/legislation/reception-directive.md). Det svenska genomförandet finns i [mottagandelagen (2026:999)](national/mottagandelag-2026-999.md) och [Ds 2025:30](national/ds-2025-30-mottagande.md).
+
+| Tidsfrist | Startpunkt | Direktivet |
+|-----------|-----------|------------|
+| 3 dagar — information om mottagningsvillkor (eller inom registreringsfristen) | Ansökan **gjordes** | Art. 5.1 |
+| 30 dagar — bedömning av särskilda mottagandebehov (eller APR art. 20:s frist om bedömningarna samordnas) | Ansökan **gjordes** | Art. 25.1 |
+| 15 arbetsdagar — företrädare för ensamkommande barn (+10 arbetsdagar, se Nivå 1 nedan) | Ansökan **gjordes** | Art. 27.1 |
+| 2 månader — tillträde till utbildning för barn, med hänsyn till skollov. Högst 1 månad utanför ordinarie skola | Ansökan **lämnades in** | Art. 16.2 |
+| 3 månader — likabehandling vid erkännande av kvalifikationer får skjutas upp | Ansökan **registrerades** | Art. 17.4 c |
+| 6 månader — tillträde till arbetsmarknaden om inget beslut fattats och förseningen inte beror på sökanden | Ansökan **registrerades** | Art. 17.1 |
+
+> **Tre startpunkter:** gjordes (APR art. 26), registrerades (APR art. 27) och lämnades in (APR art. 28). Systemet behöver alla tre datumen.
+
 ### Vid kris (undantag)
 
 | Tidsfrist | Ordinarie | Vid kris | Regel |
@@ -131,7 +145,7 @@ Två varianter: förlängningen **gäller direkt** när villkoret är uppfyllt (
 | Registrering 5 → 15 dagar | Oproportionellt stort antal ansökningar gör registrering i tid omöjlig | Gäller direkt | [APR 27.5](../../domains/registration/rules/rule-apr-027-004.md) |
 | Bokad tid för inlämnande 21 dagar → 2 månader | Oproportionellt stort antal gör det omöjligt att boka tid inom 21 dagar | Gäller direkt | [APR 28.5](../../domains/registration/rules/rule-apr-028-004.md) |
 | Upptagandeprövning +2 månader, prövning i sak +6 månader | Oproportionellt stort antal, komplexa omständigheter eller sökandens underlåtenhet | Beslutande myndighet får förlänga | [APR 35.2, 35.5](../../domains/asylum-procedure/articles/apr-035.md) |
-| Företrädare för ensamkommande barn +10 arbetsdagar | Oproportionellt stort antal ansökningar från ensamkommande barn eller andra exceptionella situationer | Behörig myndighet | APR 23.3, AMMR 23.2 b |
+| Företrädare för ensamkommande barn +10 arbetsdagar | Oproportionellt stort antal ansökningar från ensamkommande barn eller andra exceptionella situationer. Enligt mottagandedirektivet dessutom: åtgärderna i beredskapsplanen räcker inte | Behörig myndighet. Enligt mottagandedirektivet ska kommissionen och asylbyrån underrättas, och en företrädare får ha upp till 50 barn | APR 23.3, AMMR 23.2 b, [RCD 27.1](../../references/legislation/reception-directive.md) |
 | Eurodac efter sök och räddning +48 timmar | Plötslig tillströmning | Medlemsstaten anmäler till kommissionen och övriga medlemsstater; högst en månad | [Eurodac 24.6](../../domains/eurodac/articles/eur-024.md) |
 | Besked om omfördelning 1 → 2 veckor | Särskilt komplicerad granskning eller många ärenden samtidigt | Omfördelningsmedlemsstaten | [AMMR 67.9](../../domains/solidarity/articles/ammr-067.md) |
 | Återvändande: överklagande, prövning av förvar, informationsutbyte (från 17 okt 2027) | Exceptionellt många som ska återvända ger oförutsedd, stor belastning på förvar, personal eller domstolar | Medlemsstaten, så länge situationen består; underrättar kommissionen | [RR 45](../../domains/return/articles/rr-045.md) |

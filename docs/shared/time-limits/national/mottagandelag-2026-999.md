@@ -161,6 +161,32 @@ Kommunanvisning för sökande blir då också möjlig (2:4 p. 2, 2:7 andra st.).
 
 ---
 
+## Grund i mottagandedirektivet (EU) 2024/1346
+Lagen genomför [mottagandedirektivet](../../../references/legislation/reception-directive.md) för **sökande**. Personer med avlägsnandebeslut, uppehållstillstånd eller tillfälligt skydd omfattas av lagen men inte av direktivet.
+
+| Lagen | Direktivet | Innehåll |
+|-------|-----------|----------|
+| 3:2 | Art. 7.1–7.2 | Medlemsstaten organiserar mottagandet och får anvisa till förläggningar |
+| 3:3 första–andra st. | Art. 9.1 | Bo på bestämd plats vid hänsyn till allmän ordning eller risk för avvikande |
+| 3:3 tredje st. | APR art. 43 och art. 9.1 | Bo på bestämd plats i gränsförfarandet |
+| 3:5 | Art. 7.3, 14 | Familjer hålls samman |
+| 4:1–4:2 | Art. 8.1, 8.5 | Geografiskt område (länet) och tillstånd att lämna det |
+| 4:5 | Art. 9.2 | Anmälningsskyldighet för att säkra beslut om boende eller hindra avvikande |
+| 4:8 | Art. 7.6 | Adress, telefon och e-post |
+| 5:5 | Art. 17.1 | Arbetsmarknad efter 6 månader från **registrering**; inget tillträde vid påskyndad prövning (APR art. 42.1 a–f) |
+| 6:1 a | Art. 21, 23.1 | Inga mottagningsvillkor i fel medlemsstat efter underrättat överföringsbeslut |
+| 6:3 | Art. 7.4, 9.1 andra st. | Bistånd villkorat av att sökanden bor på anvisad plats |
+| 6:7–6:8 | Art. 23.2 a, b, e, f | Nedsättning: lämnat området (a), inte samarbetat eller följt förfarandekrav (b), misskötsamhet (e), inte deltagit i obligatoriska integrationsåtgärder (f) |
+| 10 kap. | Art. 29 | Överklagande |
+
+**Att bevaka:**
+
+- **Art. 17.9:** tillträde till arbetsmarknaden får **inte** upphävas under ett överklagande där sökanden har rätt att stanna kvar, fram till avslag i överklagandeärendet. 5:5 säger att redan beviljat tillträde upphävs vid påskyndad prövning. Systemet behöver kunna skjuta upp upphävandet om sökanden har rätt att stanna under överklagandet.
+- **Art. 23.3–23.5:** nedsättning kräver ett individuellt, motiverat beslut innan biståndet minskas. Vid grund a, b eller f ska myndigheten överväga att återinföra biståndet när omständigheterna inte längre föreligger.
+- **Art. 23.2 c och d** (efterföljande ansökan, undanhållna tillgångar) har ingen motsvarighet i tabellen över nedsättning ovan. Undanhållna tillgångar hanteras i stället genom villkoret i 6:1 och återbetalningsskyldighet och återkrav (7 kap.).
+- **Art. 25:** bedömningen av särskilda mottagandebehov ska vara klar inom **30 dagar** från att ansökan gjordes. Den regleras inte i den här sammanställningen av lagen.
+
+---
 ## Övergångsbestämmelser (2026:999)
 
 | Punkt | Innehåll |

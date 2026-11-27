@@ -90,11 +90,14 @@ Metod per domän: jämför varje artikelkorts rubrik och innehåll med förordni
 - [x] **Mottagandelag (2026:999):** [ny sida](shared/time-limits/national/mottagandelag-2026-999.md) kontrollerad mot lagtexten. Ds-sidan om mottagande hade fel sanktionstider, fel överklagandeinstans, fel paragraf för gränsförfarandeboendet och saknade anmälningsplikten för avlägsnandebeslut (4:6). Rättat i flaggkatalogen och gränsförfarandesidan
 - [ ] **Mottagande, rester:** information inom 3 dagar, resehandlingar och skolgång bygger fortfarande bara på Ds 2025:30 (regleras inte i mottagandelagen; skolgång troligen i skollagen). Lydelsen 1 okt 2026 för paragrafer ändrade genom SFS 2026:1168 (ikraft 2 okt) saknas i repo-kopian
 - [x] **Förvar:** ny modul [shared/detention](shared/detention/README.md) (2026-11) med förvarsgrunder FG-01–12, klockor K1–K7, beslutshändelser BH-01–45, processer PROC-DET-001–004 och 18 regler från utlänningslagen 10 kap., 16 kap. 4 § och direktiv 2008/115/EG art. 15. Rättat på uppsiktssidan: tvåmånadersprövningen följer av utlänningslagen 10:16, inte AMMR art. 45
-- [x] **Förvar, beslutskoder:** beslutstyper (INS, INS-BARN, UTL, UTL-BARN), grundkoder (12 st.) och avslutskoder (UPPH, FÖRFALLER) mappade i [beslutskatalogen](shared/detention/decision-catalogue.md) (2026-11). Att bekräfta: UTANS, FHVERK, AVLÄGS, SANN, samt avslutskod när taket nås och vid överföring/avlägsnande
+- [x] **Förvar, beslutskoder:** beslutstyper (INS, INS-BARN, UTL, UTL-BARN), grundkoder (12 st.) och avslutskoder (UPPH, FÖRFALLER) mappade i [beslutskatalogen](shared/detention/decision-catalogue.md) (2026-11). Att bekräfta: AVLÄGS, SANN, samt avslutskod när taket nås och vid överföring/avlägsnande
 - [ ] **Förvar, händelsekoder:** koder för övriga beslut (avslag, överföring, uppehållstillstånd m.fl.) i händelsetabellen
 - [ ] **Förvar, placering:** utlänningslagen 10 a kap. (verkställighet och placering, ny prövning inom en månad) är inte kartlagt
 - [ ] **Förvar, sammanräkning:** ta ställning till [öppen fråga](shared/detention/open_questions/aggregation-of-detention-time.md) om tid med olika grunder och start av ny prövning, med stöd av förarbeten
-- [ ] **Förvar, källor:** mottagandedirektivet (EU) 2024/1346 art. 10–13 saknas i repot. Utlänningslagen 10 kap. 4 § har punkterna 1, 4 och 5 i rättsdatabasernas text — kontrollera mot SFS 2026:1426
+- [x] **Förvar, källor:** mottagandedirektivet (EU) 2024/1346 tillagt (2026-09). RULE-RCD-010-001 och RULE-RCD-011-001; UTANS och FHVERK bekräftade mot art. 10.4 b och e
+- [ ] **Förvar, källor:** utlänningslagen 10 kap. 4 § har punkterna 1, 4 och 5 i rättsdatabasernas text — kontrollera mot SFS 2026:1426
+- [ ] **Mottagande:** egna artikelkort och regler för mottagandedirektivet art. 5 (information), 16 (skolgång), 17 (arbetsmarknad), 23 (nedsättning), 24–28 (särskilda behov, barn) och 32 (beredskapsplanering)
+- [ ] **Mottagande:** mottagandelagen 5:5 upphäver arbetsmarknadstillträde vid påskyndad prövning. Kontrollera hur det samspelar med direktivet art. 17.9 (inget upphävande under överklagande med rätt att stanna)
 - [ ] **Förvar, krav och förmågor:** modulen har inga krav (REQ) eller förmågor (CAP) ännu
 - [ ] **Biometri:** shared/biometrics saknar fortfarande egna krav och förmågor (se nedan)
 

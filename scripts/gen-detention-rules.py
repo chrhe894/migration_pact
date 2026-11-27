@@ -11,6 +11,7 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent.parent / "docs" / "shared" / "detention" / "rules"
 UTL = "../../../references/legislation/utlanningslagen.md"
 RD = "../../../references/legislation/return-directive.md"
+RCD = "../../../references/legislation/reception-directive.md"
 NOW = "Gällande lydelse (t.o.m. SFS 2026:1752)"
 
 
@@ -159,6 +160,22 @@ RULES = [
       "Gäller inte förvar enligt 10 kap. 5–6 § (där krävs skyndsam handläggning men ingen dagsfrist).",
       "Från 1 december 2027 hänvisar paragrafen till 10 kap. 5 eller 6 § (ny numrering), samma grunder."],
      f"{NOW}", ["[RULE-UTL-10-003-001](rule-utl-10-003-001.md)"], ["tidsfrister", "domstol"]),
+
+    ("RULE-RCD-010-001", f"[Mottagandedirektivet (EU) 2024/1346 artikel 10]({RCD})", "Villkor",
+     "En sökande får inte hållas i förvar enbart för att hen är sökande eller på grund av nationalitet. Förvar kräver en individuell bedömning och att mindre ingripande åtgärder inte räcker (10.1–10.2). Tecken på **särskilda mottagandebehov** ska beaktas, och bedömningen enligt art. 25 ska slutföras utan onödigt dröjsmål (10.3). Förvar får bara grundas på: **a)** att bestämma eller bekräfta identitet eller nationalitet, **b)** att fastställa de faktorer som ansökan grundas på och som inte kan klargöras utan förvar, särskilt vid risk för avvikande, **c)** att säkerställa efterlevnad av ett individuellt beslut enligt art. 9.1 som inte följts, när risk för avvikande kvarstår, **d)** som led i ett gränsförfarande enligt APR art. 43, **e)** om sökanden redan hålls i förvar för återvändande och det finns rimliga skäl att anta att ansökan görs enbart för att försena eller hindra verkställigheten, **f)** nationell säkerhet eller allmän ordning, **g)** i enlighet med AMMR art. 44 (10.4). Alternativ till förvar ska fastställas i nationell rätt (10.5).",
+     "EU-grunden för förvar av asylsökande. Uttömmande uppräkning.",
+     "Förvar av en person som är sökande av internationellt skydd.",
+     ["Genomförs genom utlänningslagen 10 kap. 3 § 1 st. 1–7, i samma ordning: a = ID, b = UTANS, c = BOSKYL, d = ASYLGR, e = FHVERK, f = SÄKORD, g = AMMR ([beslutskoder](../decision-catalogue.md#beslutskoder-for-forvarsgrund)).",
+      "Underåriga får som regel inte tas i förvar, och bara som sista utväg om förvaret bedömts vara för barnets bästa (art. 13.2)."],
+     "Införlivandefrist 12 juni 2026 (art. 35)", ["[RULE-UTL-10-003-001](rule-utl-10-003-001.md)", "[RULE-RCD-011-001](rule-rcd-011-001.md)"], ["villkor", "förvarsgrund"]),
+
+    ("RULE-RCD-011-001", f"[Mottagandedirektivet (EU) 2024/1346 artikel 11]({RCD})", "Tidsfrist",
+     "Förvar ska pågå så kort tid som möjligt och bara så länge en grund i art. 10.4 är tillämplig. Förseningar som inte beror på sökanden berättigar inte fortsatt förvar (11.1). Beslutet ska vara skriftligt och ange varför mindre ingripande åtgärder inte räcker (11.2). Om en administrativ myndighet beslutat ska en **snabb rättslig prövning** ske. På eget initiativ: senast **15 dagar**, i undantagsfall **21 dagar**, efter att sökanden **togs i förvar**. På sökandens begäran: inom samma tid från att förfarandet inleddes. Är prövningen inte slutförd inom **21 dagar** ska sökanden **omedelbart friges** (11.3). Förvaret ska omprövas av rättslig myndighet med lämpliga intervall, och förvar av ensamkommande barn på eget initiativ med regelbundna intervall (11.5). Sökanden har rätt till kostnadsfritt rättsligt bistånd vid prövningen (11.6).",
+     "EU-grunden för den svenska 15/21-dagarsfristen.",
+     "En administrativ myndighet beslutar om förvar av en sökande.",
+     ["Sverige har valt prövning **på begäran** (överklagande): utlänningslagen 16 kap. 4 § räknar från att överklagandet kom in till migrationsdomstolen ([RULE-UTL-16-004-001](rule-utl-16-004-001.md)).",
+      "Följden i direktivet är frigivning; i utlänningslagen upphör beslutet att gälla (FÖRFALLER)."],
+     "Införlivandefrist 12 juni 2026 (art. 35)", ["[RULE-UTL-16-004-001](rule-utl-16-004-001.md)", "[RULE-RCD-010-001](rule-rcd-010-001.md)"], ["tidsfrister", "domstol"]),
 
     ("RULE-RD-015-001", f"[Direktiv 2008/115/EG artikel 15]({RD})", "Tidsfrist",
      "Förvar för återvändande får bara användas om mindre ingripande åtgärder inte räcker, särskilt vid risk för avvikande eller om personen håller sig undan eller hindrar förberedelserna (15.1). Beslut ska vara skriftligt och motiverat, och vid administrativt beslut ska snabb rättslig prövning ske (15.2). Förvaret ska prövas med rimliga intervall (15.3). När **rimliga utsikter till avlägsnande saknas** ska personen **omedelbart friges** (15.4). Varje medlemsstat ska fastställa en förvarsperiod på **högst sex månader** (15.5), som får förlängas med **högst tolv månader** vid bristande samarbete eller dröjsmål med handlingar från tredjeland (15.6).",

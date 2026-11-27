@@ -25,7 +25,10 @@ Förvar är en egen process som **lyssnar på händelser** från de andra proces
 - [Direktiv 2008/115/EG artikel 15](../../references/legislation/return-directive.md) — Förvar inför återvändande (till 17 oktober 2027)
 - [Förordning 2026/2280 artikel 29–33](../../domains/return/articles/rr-029.md) — Förvar inför återvändande (från 17 oktober 2027)
 
-Mottagandedirektivet (EU) 2024/1346, som reglerar förvar av asylsökande på EU-nivå, finns **inte** i repot. Det svenska genomförandet finns i utlänningslagen 10 kap. 3–4 §§.
+- [Mottagandedirektivet (EU) 2024/1346 artikel 10–13](../../references/legislation/reception-directive.md) — EU-ramen för förvar av sökande: grunder (10.4 a–g), garantier och domstolsprövning (11), förhållanden (12) och sökande med särskilda behov samt barn (13). Genomförs i utlänningslagen 10 kap. 3–4 §§ och 16 kap. 4 §
+
+!!! note "Ändrat innehåll"
+    Mottagandedirektivet finns nu i repot. Tidigare stod här att det saknades.
 
 ---
 
@@ -79,6 +82,8 @@ Fullständig tabell med lagrum och beslutsfattare: [Beslutskatalog](decision-cat
 | [RULE-UTL-10-020-001](rules/rule-utl-10-020-001.md) | Beslutande myndighet och interimistiskt beslut |
 | [RULE-UTL-10-023-001](rules/rule-utl-10-023-001.md) | Upphävande vid uppehållstillstånd eller skydd; inhibition |
 | [RULE-UTL-16-004-001](rules/rule-utl-16-004-001.md) | Domstolens avgörande inom 15 (21) dagar |
+| [RULE-RCD-010-001](rules/rule-rcd-010-001.md) | Mottagandedirektivet art. 10: förvarsgrunder för sökande (10.4 a–g), individuell bedömning |
+| [RULE-RCD-011-001](rules/rule-rcd-011-001.md) | Mottagandedirektivet art. 11: skriftligt beslut, domstolsprövning inom 15 (21) dagar, omprövning |
 | [RULE-RD-015-001](rules/rule-rd-015-001.md) | Direktiv 2008/115/EG art. 15: 6 + 12 månader, frigivning utan utsikter |
 
 Regler i andra domäner: [RULE-AMMR-044-001](../../domains/responsibility/rules/rule-ammr-044-001.md), [RULE-AMMR-045-001](../../domains/responsibility/rules/rule-ammr-045-001.md), [RULE-AMMR-045-002](../../domains/responsibility/rules/rule-ammr-045-002.md), [RULE-RET-005-001](../../domains/return-border-procedure/rules/rule-ret-005-001.md), [RULE-RR-029-001](../../domains/return/rules/rule-rr-029-001.md) – [RULE-RR-033-001](../../domains/return/rules/rule-rr-033-001.md).

@@ -51,7 +51,9 @@ Förvaret eller uppsikten består efter ny prövning, eller upphävs. Vid överk
 | Asylsökande (10 kap. 3–4 §§) | Slutligt avgörande **inom 15 dagar**, särskilda skäl **21 dagar**, från att överklagandet kom in | Efter 21 dagar **upphör beslutet** (BH-45) | [RULE-UTL-16-004-001](../rules/rule-utl-16-004-001.md) |
 | Övriga (10 kap. 5–6 §§) | Skyndsam handläggning, ingen dagsfrist | — | Utlänningslagen 16 kap. 4 § första st. |
 
-EU-rätten kräver snabb rättslig prövning när en administrativ myndighet fattat beslutet: AMMR art. 44.5, direktiv 2008/115/EG art. 15.2 och, från 17 oktober 2027, förordning 2026/2280 art. 31.3.
+EU-rätten kräver snabb rättslig prövning när en administrativ myndighet fattat beslutet: för sökande mottagandedirektivet art. 11.3 (15 dagar, i undantagsfall 21, annars omedelbar frigivning; [RULE-RCD-011-001](../rules/rule-rcd-011-001.md)), AMMR art. 44.5, direktiv 2008/115/EG art. 15.2 och, från 17 oktober 2027, förordning 2026/2280 art. 31.3.
+
+Mottagandedirektivet art. 11.5 kräver dessutom att en rättslig myndighet omprövar förvaret av en sökande med lämpliga intervall, och förvar av **ensamkommande barn** på eget initiativ med regelbundna intervall. I Sverige sker den nya prövningen efter 2 månader (10:16) hos den myndighet som fattat beslutet. Den kan överklagas till domstol.
 
 ---
 

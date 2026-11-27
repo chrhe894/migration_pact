@@ -153,6 +153,7 @@ Uppgifterna är hämtade ur källtexterna i `references/` och kontrollerade där
 | Screening | Förordning om screening av tredjelandsmedborgare vid de yttre gränserna | (EU) 2024/1356 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026 | [Screening](references/legislation/screening.md) |
 | Eurodac | Förordning om inrättande av Eurodac | (EU) 2024/1358 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026. Art. 26 (tillfälligt skydd) från 12 juni 2029 | [Eurodac](references/legislation/eurodac.md) |
 | Kris | Förordning om krissituationer och force majeure-situationer | (EU) 2024/1359 | 14 maj 2024 | 22 maj 2024 | 1 juli 2026 | [Kris](references/legislation/crisis.md) |
+| RCD | Mottagandedirektivet: normer för mottagande av personer som ansöker om internationellt skydd | (EU) 2024/1346 | 14 maj 2024 | 22 maj 2024 | Införlivandefrist 12 juni 2026 (art. 35). Genomförs genom mottagandelagen och utlänningslagen 10 kap. | [RCD](references/legislation/reception-directive.md) |
 | Return | Förordning om ett gränsförfarande för återvändande | (EU) 2024/1349 | 14 maj 2024 | 22 maj 2024 | 12 juni 2026 | [Return](references/legislation/return-border-procedure.md) |
 | Återvändandedirektivet | Direktiv om gemensamma normer och förfaranden för återvändande av tredjelandsmedborgare som vistas olagligt | 2008/115/EG | 16 december 2008 | 24 december 2008 | Gäller till 17 oktober 2027 (förordning 2026/2280 art. 49) | [2008/115](references/legislation/return-directive.md) |
 | ETD | Förordning om en europeisk resehandling för återvändande | (EU) 2016/1953 | 26 oktober 2016 | 17 november 2016 | 8 april 2017 (art. 9) | [ETD](references/legislation/european-travel-document.md) |
@@ -191,7 +192,6 @@ Uppgifter som bygger på dessa är inte kontrollerade mot källtexten.
 
 | Rättsakt | Nummer | Används för |
 |----------|--------|-------------|
-| Mottagandedirektivet | (EU) 2024/1346 | Genomförs genom mottagandelagen |
 | Skyddsgrundsförordningen | (EU) 2024/1347 | Skyddsgrunder, flyktingbegreppet |
 | Direktivet om tillfälligt skydd | 2001/55/EG | Tillfälligt skydd i Eurodac |
 | Mottagandeutredningen | SOU 2024:68 | Bakgrund till mottagandelagen |
