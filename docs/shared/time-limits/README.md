@@ -241,10 +241,12 @@ Regeln om minst två arbetsdagar biter bara på frister uttryckta i **dagar** (i
 
 ## Koncept
 
-- [Frysning och förlängning av tidsfrister](concepts/frysning-och-forlangning.md) — Samlad lista över alla tidsfrister som kan frysas (ny startpunkt vid suspensiv verkan) eller förlängas, per förordning och process
+- [Frysning och förlängning av tidsfrister](concepts/frysning-och-forlangning.md) — Samlad lista över alla tidsfrister som kan frysas (ny startpunkt vid suspensiv verkan) eller förlängas, per förordning och process, samt sammanräkning av förvarstid
+- [Konsekvens vid överskriden frist](concepts/konsekvens-vid-overskriden-frist.md) — Vad texterna säger händer när en frist eller maxtid passeras, för alla frister i ärenden och mellan stater
+- [Obestämda tidsangivelser](concepts/obestamda-tidsangivelser.md) — "Så snart som möjligt", "utan dröjsmål", "omedelbart", "skyndsamt" och liknande, genererad från källtexterna
 - [Fristtyp: Accept till beslut (ATB)](concepts/fristtyp-accept-till-beslut.md) — Återanvändbar fristtyp som startar vid accept (uttrycklig/tyst) och löper till beslut resp. verkställighet
 - [Fristtyp: Nekad begäran till omprövning (TNO)](concepts/fristtyp-nekad-begaran-till-omprovning.md) — Mellanstatlig fristtyp som startar vid ett nekande (avslag/icke-bekräftelse) och ger en kort frist att begära omprövning och svara
-- [Fristtyp: Accept till överföring (ATÖ)](concepts/fristtyp-accept-till-overforing.md) — Överföringsfristen: startar vid accept och löper till verkställd överföring (6 mån, förlängs till 1 år / 3 år; 5 v vid förvar enligt art. 45.3); missad frist = ansvarsövergång
+- [Fristtyp: Accept till överföring (ATÖ)](concepts/fristtyp-accept-till-overforing.md) — Överföringsfristen: startar vid accept och löper till verkställd överföring (6 mån, förlängs till 1 år / 3 år; 5 v vid förvar enligt art. 45.3); missad frist = ansvarsövergång (art. 46.2), men missade 5 veckor vid förvar = frigivning (art. 45.4)
 - [Fristtyp: Transfer — genomförande av överföring (TGÖ)](concepts/fristtyp-transfer-genomforande-overforing.md) — De praktiska koordineringsfristerna vid själva överföringen (förhandsavisering 7–14 d, 21 d för utsatta, 5 d bekräftelse, 7 d presumtion); genomförandeförordning 2025/2055 kap. V
 - [Uppsikt](concepts/uppsikt.md) — Tidsdimensioner kopplade till uppsiktsbeslut
 

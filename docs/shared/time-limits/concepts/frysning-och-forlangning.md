@@ -12,7 +12,7 @@ tags:
 
 ## Översikt
 
-Migrationspaktens tidsfrister är som utgångspunkt absoluta. De löper och vid överskridande inträder rättsliga följder, till exempel ansvarsövergång, frigivning eller att förfarandet avslutas. Förordningarna innehåller tre sorters mekanismer som påverkar en frist:
+Migrationspaktens tidsfrister löper som utgångspunkt utan uppehåll. **Ingen frist pausas** så att den står still och sedan fortsätter där den var. Vad som händer när en frist passeras varierar: ansvaret övergår, ett beslut upphör, personen friges, ett annat förfarande tar vid, eller så anger texten ingen följd alls. Se [Konsekvens vid överskriden frist](konsekvens-vid-overskriden-frist.md). Texterna innehåller fem sorters mekanismer som påverkar en frist:
 
 ```text
 TIDSFRISTER
@@ -30,10 +30,14 @@ TIDSFRISTER
 │       Förfarandet eller verkställigheten skjuts upp utan en ny fast
 │       frist, eller med en yttersta gräns (t.ex. 21 månader).
 │
-└── FÖRKORTNING
-        Fristen ersätts av en kortare frist när ett villkor är uppfyllt.
-        Grunder: förvar, träff i Eurodac eller VIS, gränsförfarande,
-        påskyndat förfarande, bilateral överenskommelse m.fl.
+├── FÖRKORTNING
+│       Fristen ersätts av en kortare frist när ett villkor är uppfyllt.
+│       Grunder: förvar, träff i Eurodac eller VIS, gränsförfarande,
+│       påskyndat förfarande, bilateral överenskommelse m.fl.
+│
+└── SAMMANRÄKNING (gäller maxtider för förvar)
+        Tid i flera förvarsperioder räknas ihop mot ett tak. Tiden mellan
+        perioderna räknas inte, men redan förbrukad tid finns kvar.
 ```
 
 Sidan listar **alla** frister i förordningarna som kan frysas, förlängas, skjutas upp eller förkortas. Först kommer en översikt per process, sedan detaljerna per mekanism och förordning. Den är kontrollerad mot förordningstexten i `references/_text/` (APR 2024/1348, AMMR 2024/1351, Eurodac 2024/1358, kris 2024/1359, genomförandeförordning 2025/2055) screeningförordningen 2024/1356 och förordning 2024/1349 om gränsförfarandet för återvändande.
@@ -236,6 +240,22 @@ En frist ersätts av en **kortare** frist när ett villkor är uppfyllt. Krisfö
 
 ---
 
+## 6. Sammanräkning av förvarstid
+
+Vissa maxtider för förvar räknas **samman** över flera perioder. Det är varken en paus eller en ny start. Tiden mellan perioderna räknas inte, men den tid som redan förbrukats finns kvar. I ett system beter det sig som en paus, så taket behöver byggas som en **räknare som summerar** tid i förvar, inte som en klocka som nollställs vid varje nytt beslut.
+
+| Regel | Vad som räknas samman | Källa |
+|-------|-----------------------|-------|
+| Barn i säkerhetsärende | Högst 3 månader, vid synnerliga skäl 6 månader, i **sammanlagd** tid | Utlänningslagen 10 kap. 13 § andra st. (16 § från 1 dec 2027) |
+| Förvar i återvändandegränsförfarandet | Perioden räknas in i maxtiderna i direktiv 2008/115/EG art. 15.5–15.6 om ett nytt förvar beslutas direkt efter | [2024/1349 art. 5.4](../../../domains/return-border-procedure/articles/return-005.md) |
+| Förvar enligt upphävda 10 kap. 1 § andra st. 2 eller 3 | Tiden räknas in i förvarstiden enligt 10 kap. 12 § (15 § från 1 dec 2027) om det gäller samma verkställighetsärende | Övergångsbestämmelse 4 till SFS 2026:1425 |
+| Förvar efter 24 månader (från 17 okt 2027) | Ytterligare perioder får **tillsammans** vara högst 6 månader | [Förordning 2026/2280 art. 30.4](../../../domains/return/articles/rr-030.md) |
+| Förvar i en annan medlemsstat (från 17 okt 2027) | Ingen sammanräkning: en **ny** förvarsperiod börjar om personen har rest till en annan medlemsstat och beteendet är ett skäl för förvar | Förordning 2026/2280 art. 30.3 andra st. |
+
+Förlängningarna i 10 kap. 12 § ("ytterligare högst tolv månader") och direktiv 2008/115/EG art. 15.6 bygger på den tid som redan gått. Texterna säger inte om tid i förvar med **olika grunder** räknas samman mot taket för vuxna. Den frågan är öppen: [Sammanräkning av förvarstid](../../detention/open_questions/aggregation-of-detention-time.md).
+
+---
+
 ## Avgränsning: frysning, förlängning, uppskjutande och förkortning
 
 | | Frysning | Förlängning | Uppskjutande | Förkortning |
@@ -249,13 +269,15 @@ En frist ersätts av en **kortare** frist när ett villkor är uppfyllt. Krisfö
 
 ## Viktig princip
 
-Tidsfristerna kan **aldrig** förlängas obegränsat. Varje förlängningsgrund har ett angivet tak, och flera förlängningar staplas inte om förordningen inte säger det. Om varken frysning, förlängning eller uppskjutande är tillämpligt löper fristen ut, med rättsliga följder.
+Tidsfristerna kan **aldrig** förlängas obegränsat. Varje förlängningsgrund har ett angivet tak, och flera förlängningar staplas inte om förordningen inte säger det. Om varken frysning, förlängning eller uppskjutande är tillämpligt löper fristen ut. Följden står ibland i en annan artikel än fristen, och för många frister anger texten ingen följd alls, se [Konsekvens vid överskriden frist](konsekvens-vid-overskriden-frist.md).
 
 > **Rättelser (2026-09):**
 > - Sidan angav tidigare att suspensiv verkan *pausar* fristen så att den fortsätter "från samma punkt". Enligt AMMR art. 45.3 b, 46.1 och 67.11 räknas en ny, full frist från det slutliga beslutet.
 > - Överföringsfristen vid avvikande angavs som 18 månader (Dublin III). I AMMR är den högst tre år, och dessutom högst ett år vid frihetsberövande.
 > - Förlängningen av sakprövningen angavs som 15 månader. Den är 12 (6+6).
 > - Återvändande vid gräns angavs ha en frysning vid suspensiv verkan ("Return art. 5"). Tolvveckorsperioden i art. 4.2 har en senare startpunkt men fryses inte, och art. 5 gäller förvar.
+> - Översikten sade att varje överskriden frist får rättsliga följder. Många frister har ingen följd angiven i texten (ändrat 2026-09).
+> - Sammanräkning av förvarstid saknades (avsnitt 6).
 > - Listan var ofullständig. Uppgifterna om upptagandeprövning, gränsförfarande vid omfördelning, företrädare för ensamkommande barn, omfördelning, Eurodac, återtagande vid kris och uppskjutanden saknades.
 
 ---
@@ -266,6 +288,8 @@ Tidsfristerna kan **aldrig** förlängas obegränsat. Varje förlängningsgrund 
 - [Fristtyp ATÖ](fristtyp-accept-till-overforing.md) — Överföringsfristen och dess förlängningar
 - [Fristtyp ATB](fristtyp-accept-till-beslut.md) — Beslutsfristen, som inte fryses
 - [Uppsikt](uppsikt.md) — Tidsfrister kopplade till uppsikt
+- [Konsekvens vid överskriden frist](konsekvens-vid-overskriden-frist.md) — Vad som händer när en frist passeras
+- [Obestämda tidsangivelser](obestamda-tidsangivelser.md) — "Så snart som möjligt", "utan dröjsmål" och liknande
 
 ---
 
